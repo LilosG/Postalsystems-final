@@ -1,0 +1,12 @@
+---
+const files = import.meta.glob('/src/assets/postal/*', { eager: true, import: 'default' });
+const items = Object.keys(files).sort();
+---
+<!doctype html>
+<html lang="en">
+  <head><meta charset="utf-8"><title>Assets Debug</title></head>
+  <body style="font-family: ui-sans-serif, system-ui; padding: 24px">
+    <h1>Files Vite sees under src/assets/postal/</h1>
+    <pre>{JSON.stringify(items, null, 2)}</pre>
+  </body>
+</html>

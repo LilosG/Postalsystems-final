@@ -1,5 +1,16 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
+import tailwind from '@astrojs/tailwind';
+import { fileURLToPath } from 'node:url';
 
-// https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  integrations: [tailwind({
+    config: { applyBaseStyles: true } // keep Astro’s base reset
+  })],
+  vite: {
+    resolve: {
+      alias: {
+        '@': fileURLToPath(new URL('./src', import.meta.url)),
+      },
+    },
+  },
+});

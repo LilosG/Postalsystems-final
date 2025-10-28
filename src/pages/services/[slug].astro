@@ -1,0 +1,63 @@
+---
+import MarketingPage from "../../layouts/MarketingPage.astro";
+import PageHeader from "../../components/ui/PageHeader.astro";
+import Card from "../../components/ui/Card.astro";
+import FeatureList from "../../components/ui/FeatureList.astro";
+import services from "../../data/services.json";
+import { slugify, canonical } from "../../lib/slug";
+import { LOCALBUSINESS_SCHEMA } from "../../data/site";
+
+export async function getStaticPaths() {
+  return services.map((s) => ({ params: { slug: s.slug } }));
+}
+
+const { slug } = Astro.params;
+const service = services.find((s) => s.slug === slug);
+
+if (!service) throw new Error("Service not found: " + slug);
+
+const title = `${service.name} — San Diego County | Postal Systems`;
+const description = `${service.name} with USPS approvals & inspection. Pads, anchors, ADA compliance. Serving San Diego County.`;
+const url = canonical(`/services/${service.slug}`);
+---
+
+<MarketingPage
+  title={title}
+  description={description}
+  canonicalUrl={url}
+  schema={{
+    "@context":"https://schema.org",
+    "@type":"Service",
+    "name": service.name,
+    "areaServed":"San Diego County, CA",
+    "provider": LOCALBUSINESS_SCHEMA
+  }}
+  breadcrumbs={[
+    { href: "/", label: "Home" },
+    { href: "/services", label: "Services" },
+    { label: service.name }
+  ]}
+>
+  <PageHeader eyebrow="Service" title={service.name} subtitle="USPS-approved, turnkey installation and replacements." />
+
+  <section class="container py-12">
+    <div class="grid gap-8 lg:grid-cols-3">
+      <Card class="lg:col-span-2">
+        <h2 class="text-xl font-semibold text-slate-900">Overview</h2>
+        <p class="mt-2 text-slate-700">
+          We deliver {service.name.toLowerCase()} with full USPS coordination and inspection sign-off. Our team handles layout,
+          pads/anchors, ADA clearances, and tenant communication.
+        </p>
+        <h3 class="mt-6 font-semibold text-slate-900">What’s included</h3>
+        <FeatureList items={service.bullets} />
+      </Card>
+
+      <Card>
+        <h3 class="text-lg font-semibold text-slate-900">Get a Quote</h3>
+        <p class="mt-1 text-sm text-slate-600">Tell us about your property and timeline.</p>
+        <a href="/#quote" class="mt-4 inline-flex h-11 items-center justify-center rounded-full bg-primary px-6 font-medium text-white hover:brightness-110">Request Quote</a>
+        <a href="tel:+16194614787" class="mt-2 inline-flex h-11 items-center justify-center rounded-full border border-slate-300 px-6 font-medium text-slate-800 hover:bg-slate-50">Call (619) 461-4787</a>
+      </Card>
+    </div>
+  </section>
+</MarketingPage>

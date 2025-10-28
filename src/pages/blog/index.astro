@@ -1,0 +1,48 @@
+---
+import Header from "../../components/Header.astro";
+import PromoBanner from "../../components/PromoBanner.astro";
+import HeroSection from "../../components/sections/HeroSection.astro";
+import QuoteSection from "../../components/sections/QuoteSection.astro";
+import Footer from "../../components/Footer.astro";
+
+const schema = {
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"Postal Systems",
+  "description":"USPS-approved commercial mailbox installation, repair and replacement. We install Cluster Box Units (CBUs), parcel lockers, 4C mailboxes, and ADA-compliant mailbox stations; pour pads and set anchors; coordinate USPS inspection; perform lock and key changeouts; and provide warranty and ongoing support.",
+  "telephone":"(619) 461-4787",
+  "email":"info@postalsystemspro.com",
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"PO Box 850",
+    "addressLocality":"La Mesa",
+    "addressRegion":"CA",
+    "postalCode":"91944",
+    "addressCountry":"US"
+  },
+  "areaServed":[
+    "San Diego County, CA",
+    "Select cities in Orange County, CA",
+    "Select cities in Riverside County, CA"
+  ],
+  "license":"Licensed, Bonded & Insured • CA Lic. #904106"
+};
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Blog — Postal Systems</title>
+    <meta name="description" content="Guides for HOAs, property managers, builders in San Diego County: USPS coordination, ADA compliance, CBUs, parcel lockers, repairs." />
+    <script type="application/ld+json">{JSON.stringify(schema)}</script>
+  </head>
+  <body>
+    <Header /><HeroSection heading="Postal Systems Blog" sub="Education for HOAs, property managers, and builders in San Diego County." />
+    <section class="py-16">
+      <div class="container mx-auto px-4">
+        <p class="text-sm text-gray-700">Posts coming soon.</p>
+      </div>
+    </section>
+    <QuoteSection />
+    <Footer />
+  </body>
+</html>

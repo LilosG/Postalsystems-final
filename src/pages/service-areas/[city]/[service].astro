@@ -1,0 +1,71 @@
+---
+import MarketingPage from "../../../layouts/MarketingPage.astro";
+import PageHeader from "../../../components/ui/PageHeader.astro";
+import Card from "../../../components/ui/Card.astro";
+import FeatureList from "../../../components/ui/FeatureList.astro";
+import areas from "../../../data/service-areas.json";
+import services from "../../../data/services.json";
+import { slugify, canonical } from "../../../lib/slug";
+import { LOCALBUSINESS_SCHEMA } from "../../../data/site";
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const city of areas) {
+    for (const s of services) {
+      paths.push({ params: { city: slugify(city), service: s.slug } });
+    }
+  }
+  return paths;
+}
+
+const { city, service } = Astro.params;
+const cityName = areas.find((a) => slugify(a) === city);
+const svc = services.find((s) => s.slug === service);
+if (!cityName || !svc) throw new Error("Not found");
+
+const title = `${svc.name} in ${cityName} — USPS-Approved | Postal Systems`;
+const description = `${svc.name} in ${cityName} with USPS approvals & inspection. Pads, anchors, ADA, tenant notice.`;
+const url = canonical(`/service-areas/${city}/${service}`);
+---
+
+<MarketingPage
+  title={title}
+  description={description}
+  canonicalUrl={url}
+  schema={{
+    "@context":"https://schema.org",
+    "@type":"Service",
+    "name": svc.name,
+    "areaServed": cityName + ", CA",
+    "provider": LOCALBUSINESS_SCHEMA
+  }}
+  breadcrumbs={[
+    { href:"/", label:"Home" },
+    { href:"/service-areas", label:"Service Areas" },
+    { href:`/service-areas/${city}`, label: cityName },
+    { label: svc.name }
+  ]}
+>
+  <PageHeader eyebrow="Service in your area" title={`${svc.name} — ${cityName}`} subtitle="Turnkey, compliant installs coordinated with USPS." />
+
+  <section class="container py-12">
+    <div class="grid gap-8 lg:grid-cols-3">
+      <Card class="lg:col-span-2">
+        <h2 class="text-xl font-semibold text-slate-900">Overview</h2>
+        <p class="mt-2 text-slate-700">
+          We provide {svc.name.toLowerCase()} in {cityName} with USPS coordination and inspection sign-off.
+          Our team handles layout, pads & anchors, ADA clearances, and tenant notices to keep projects moving.
+        </p>
+        <h3 class="mt-6 font-semibold text-slate-900">What’s included</h3>
+        <FeatureList items={svc.bullets} />
+      </Card>
+
+      <Card>
+        <h3 class="text-lg font-semibold text-slate-900">Next Steps</h3>
+        <p class="mt-1 text-sm text-slate-600">Tell us about your property & timing.</p>
+        <a href="/#quote" class="mt-4 inline-flex h-11 items-center justify-center rounded-full bg-primary px-6 font-medium text-white hover:brightness-110">Request Quote</a>
+        <a href="tel:+16194614787" class="mt-2 inline-flex h-11 items-center justify-center rounded-full border border-slate-300 px-6 font-medium text-slate-800 hover:bg-slate-50">Call (619) 461-4787</a>
+      </Card>
+    </div>
+  </section>
+</MarketingPage>

@@ -1,0 +1,56 @@
+---
+import Header from "../components/Header.astro";
+import PromoBanner from "../components/PromoBanner.astro";
+import HeroSection from "../components/sections/HeroSection.astro";
+import WhyChooseSection from "../components/sections/WhyChooseSection.astro";
+import ProcessSection from "../components/sections/ProcessSection.astro";
+import FAQSection from "../components/sections/FAQSection.astro";
+import QuoteSection from "../components/sections/QuoteSection.astro";
+import Footer from "../components/Footer.astro";
+
+const schema = {
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"Postal Systems",
+  "description":"USPS-approved commercial mailbox installation, repair and replacement. We install Cluster Box Units (CBUs), parcel lockers, 4C mailboxes, and ADA-compliant mailbox stations; pour pads and set anchors; coordinate USPS inspection; perform lock and key changeouts; and provide warranty and ongoing support.",
+  "telephone":"(619) 461-4787",
+  "email":"info@postalsystemspro.com",
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"PO Box 850",
+    "addressLocality":"La Mesa",
+    "addressRegion":"CA",
+    "postalCode":"91944",
+    "addressCountry":"US"
+  },
+  "areaServed":[
+    "San Diego County, CA",
+    "Select cities in Orange County, CA",
+    "Select cities in Riverside County, CA"
+  ],
+  "license":"Licensed, Bonded & Insured • CA Lic. #904106"
+};
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>About — Postal Systems</title>
+    <meta name="description" content="Postal Systems is a USPS-approved, licensed, bonded & insured commercial mailbox contractor serving San Diego County." />
+    <script type="application/ld+json">{JSON.stringify(schema)}</script>
+  </head>
+  <body>
+    <Header /><HeroSection heading="Licensed, Bonded & Insured" sub="USPS-approved commercial mailbox contractor. We handle USPS coordination, ADA compliance, permits, pads, anchors, and inspection signoff." />
+    <section class="py-16">
+      <div class="container mx-auto px-4 max-w-3xl space-y-6">
+        <p>We are the easy button for HOAs, property managers, builders, and facilities in San Diego County. Our turnkey installs include site layout, detailed quoting, scheduling and tenant notice, installation with pads and anchors, and USPS inspection and handover.</p>
+        <p>Postal Systems is licensed, bonded & insured. CA Lic. #904106.</p>
+        <p>Service available in select cities in Orange County and Riverside County.</p>
+      </div>
+    </section>
+    <WhyChooseSection />
+    <ProcessSection />
+    <FAQSection />
+    <QuoteSection />
+    <Footer />
+  </body>
+</html>

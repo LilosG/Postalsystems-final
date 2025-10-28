@@ -1,0 +1,20 @@
+---
+const stats = [
+  {k:"20+ years", v:"experience"},
+  {k:"500+", v:"projects completed"},
+  {k:"100%", v:"USPS sign-off"},
+  {k:"30+", v:"cities served"},
+];
+---
+<section class="section bg-white">
+  <div class="container">
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      {stats.map(s => (
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-card">
+          <p class="text-xl font-semibold text-slate-900">{s.k}</p>
+          <p class="text-sm text-slate-600">{s.v}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,42 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import HeroSection from "../../../components/sections/HeroSection.astro";
+import ProcessSection from "../../../components/sections/ProcessSection.astro";
+import FAQSection from "../../../components/sections/FAQSection.astro";
+import QuoteSection from "../../../components/sections/QuoteSection.astro";
+import { ALL_CITIES, SERVICES } from "../../../data/site";
+
+export const prerender = true;
+export function getStaticPaths() {
+  return ALL_CITIES.flatMap((c) => SERVICES.map((s) => ({ params: { city: c.slug, service: s.slug } })));
+}
+
+const { city, service } = Astro.params;
+const cityData = ALL_CITIES.find((c) => c.slug === city);
+const svc = SERVICES.find((s) => s.slug === service);
+const cityTitle = cityData ? cityData.name : "City";
+const county = cityData ? cityData.county : "San Diego";
+const serviceTitle = svc ? svc.title : "Mailbox Service";
+const pageTitle = `${serviceTitle} in ${cityTitle}, ${county}, CA`;
+const schema = {
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "serviceType": serviceTitle,
+  "provider":{"@type":"LocalBusiness","name":"Postal Systems"},
+  "areaServed": `${cityTitle}, ${county}, CA`,
+  "description":"USPS-approved " + serviceTitle + ". We pour pads, set anchors, mount and key new units, handle ADA-compliant mailbox stations, coordinate USPS inspection, replace vandalized units, and provide warranty and lock/key support. Licensed, Bonded & Insured. CA Lic. #904106.",
+  "telephone":"(619) 461-4787",
+  "email":"info@postalsystemspro.com"
+};
+---
+<BaseLayout title={pageTitle + " — Postal Systems"} description={"USPS-approved " + serviceTitle + " for HOAs, apartments, and builders in " + cityTitle + ", " + county + ", CA."} schema={schema}>
+  <HeroSection heading={pageTitle} sub="We handle USPS, ADA requirements, permitting, pads/anchors, secure mounting, keys, and inspection signoff." />
+  <section class="py-12">
+    <div class="container max-w-3xl space-y-4">
+      <p>San Diego focus. Service also available in select cities in Orange County and Riverside County.</p>
+    </div>
+  </section>
+  <ProcessSection />
+  <FAQSection />
+  <QuoteSection />
+</BaseLayout>

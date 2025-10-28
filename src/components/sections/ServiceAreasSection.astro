@@ -1,0 +1,19 @@
+---
+import { ALL_CITIES } from "../../data/site";
+const cities = ALL_CITIES;
+---
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Service Areas — San Diego</h2>
+    <p class="subtle">We also serve select cities in Orange County and Riverside County.</p>
+    <div class="mt-4 flex flex-wrap gap-2">
+      {cities.map((c) => (
+        <a href={`/service-area/${c.slug}`} class="chip">{c.name}</a>
+      ))}
+    </div>
+    <div class="card mt-6 overflow-hidden">
+      <img src="/src/assets/postal/service-area-san-diego-county.jpg" alt="Postal Systems Coverage" class="h-[320px] md:h-[420px] w-full object-cover" />
+    </div>
+    <p class="mt-3 text-sm font-semibold text-accent">Don’t see your city? Call (619) 461-4787 — we probably still cover you.</p>
+  </div>
+</section>

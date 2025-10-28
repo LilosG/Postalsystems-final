@@ -1,0 +1,20 @@
+---
+import { SERVICES } from "../../data/site";
+---
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Core Services</h2>
+    <p class="subtle">Compliance-focused installs and replacements with USPS coordination and inspection signoff.</p>
+    <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {SERVICES.map((s) => (
+        <a href={`/services/${s.slug}`} class="card-pro card-pro-accent card-pad block h-full">
+          <div class="card-pro-head">{s.title}</div>
+          <p class="card-pro-text">{s.blurb}</p>
+          <ul class="card-pro-list">
+            {s.bullets.map((b) => <li>{b}</li>)}
+          </ul>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

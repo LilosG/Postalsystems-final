@@ -1,0 +1,22 @@
+---
+const areas = [
+  "San Diego","Chula Vista","Oceanside","San Marcos",
+  "Escondido","El Cajon","Vista","Encinitas","Poway","Carlsbad"
+];
+---
+<section class="section bg-white">
+  <div class="container">
+    <div class="mx-auto max-w-2xl text-center">
+      <h2 class="text-2xl md:text-3xl font-semibold text-slate-900">Service Areas</h2>
+      <p class="mt-2 text-slate-600">USPS-approved installation across San Diego County.</p>
+    </div>
+    <div class="mt-6 flex flex-wrap justify-center gap-2">
+      {areas.map(a => (
+        <a href={`/service-areas/${a.toLowerCase().replaceAll(' ','-')}`}
+           class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700 ring-1 ring-slate-200 hover:bg-slate-200">
+          {a}
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

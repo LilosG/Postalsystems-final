@@ -1,0 +1,21 @@
+---
+const items = [
+  { img: "/src/assets/postal/cbu-install-san-marcos.jpg", caption: "16-Door CBU — San Marcos, CA" },
+  { img: "/src/assets/postal/parcel-locker-escondido.jpg", caption: "Parcel Locker Upgrade — Escondido, CA" },
+  { img: "/src/assets/postal/vandalism-replacement-temecula.jpg", caption: "Mailbox Bank Replacement After Vandalism — Temecula, CA" }
+];
+---
+<section class="section section-muted">
+  <div class="container">
+    <h2 class="section-title">Featured Projects</h2>
+    <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {items.map((p) => (
+        <figure class="card-pro overflow-hidden">
+          <img src={p.img} alt={p.caption} class="h-48 w-full object-cover" />
+          <figcaption class="p-4 text-sm">{p.caption}</figcaption>
+        </figure>
+      ))}
+    </div>
+    <p class="mt-6 text-sm text-gray-600">Serving San Diego County. Also available in select cities in Orange County and Riverside County.</p>
+  </div>
+</section>

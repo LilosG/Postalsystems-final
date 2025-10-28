@@ -1,0 +1,55 @@
+/* File: src/styles/tokens.css */
+/* Postal Systems – Design Tokens (Astro + Tailwind)
+   IMPORTANT: Keep your palette. Update ONLY the 3 lines under "BRAND MAPPING".
+*/
+
+:root {
+  /* ===== BRAND MAPPING (replace ONLY these if needed) ===== */
+  --brand: #0b5fff;      /* your brand primary */
+  --accent: #ffb400;     /* your accent color  */
+  --bg: #ffffff;         /* site background    */
+
+  /* ===== Derived neutrals & roles (no new hues) ===== */
+  --surface: color-mix(in srgb, var(--bg) 94%, black);
+  --muted:   color-mix(in srgb, var(--bg) 80%, black);
+  --border:  color-mix(in srgb, var(--bg) 72%, black);
+  --ring:    color-mix(in srgb, var(--brand) 40%, transparent);
+
+  --brand-700: color-mix(in srgb, var(--brand) 85%, black);
+  --brand-600: color-mix(in srgb, var(--brand) 75%, black);
+
+  --fg:        color-mix(in srgb, black 90%, var(--bg));
+  --muted-fg:  color-mix(in srgb, black 60%, var(--bg));
+
+  /* Radii */
+  --r-sm: 0.375rem; --r-md: 0.5rem; --r-lg: 0.75rem; --r-xl: 1rem;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,.06);
+  --shadow-md: 0 6px 16px rgba(0,0,0,.10);
+  --shadow-lg: 0 12px 28px rgba(0,0,0,.14);
+
+  /* Transitions */
+  --ease: cubic-bezier(.2,.8,.2,1);
+  --transition-fast: 140ms var(--ease);
+  --transition: 220ms var(--ease);
+}
+
+/* Tailwind semantic hooks */
+:root {
+  --tw-bg: var(--bg);
+  --tw-surface: var(--surface);
+  --tw-muted: var(--muted);
+  --tw-border: var(--border);
+  --tw-fg: var(--fg);
+  --tw-muted-fg: var(--muted-fg);
+}
+
+/* Utilities */
+@layer utilities {
+  .container-safe { @apply container mx-auto px-4 md:px-6 max-w-7xl; }
+  .section { @apply py-12 md:py-16; }
+}
+
+@keyframes fade-up { from {opacity:0; transform:translateY(12px)} to {opacity:1; transform:translateY(0)} }
+@keyframes lift { from {transform:translateY(0)} to {transform:translateY(-2px)} }

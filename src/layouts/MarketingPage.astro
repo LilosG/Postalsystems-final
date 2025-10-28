@@ -1,0 +1,28 @@
+---
+import "../styles/global.css";
+import BaseLayout from "./BaseLayout.astro";
+import SiteHeader from "../components/ui/SiteHeader.astro";
+import SiteFooter from "../components/ui/SiteFooter.astro";
+import Breadcrumbs from "../components/ui/Breadcrumbs.astro";
+
+const {
+  title = "Postal Systems",
+  description = "",
+  breadcrumbs = [],
+  schema,
+  canonicalUrl,
+} = Astro.props;
+---
+<BaseLayout title={title} description={description} schema={schema}>
+  <Fragment slot="header"><SiteHeader /></Fragment>
+
+  {breadcrumbs.length > 0 && <Breadcrumbs items={breadcrumbs} />}
+
+  <main>
+    <slot />
+  </main>
+
+  <Fragment slot="footer"><SiteFooter /></Fragment>
+
+  {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+</BaseLayout>

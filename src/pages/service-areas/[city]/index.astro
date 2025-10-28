@@ -1,0 +1,48 @@
+---
+import MarketingPage from "../../../layouts/MarketingPage.astro";
+import PageHeader from "../../../components/ui/PageHeader.astro";
+import Card from "../../../components/ui/Card.astro";
+import areas from "../../../data/service-areas.json";
+import services from "../../../data/services.json";
+import { slugify, canonical } from "../../../lib/slug";
+
+export async function getStaticPaths() {
+  return areas.map((city) => ({ params: { city: slugify(city) } }));
+}
+
+const { city } = Astro.params;
+const cityName = areas.find((a) => slugify(a) === city);
+if (!cityName) throw new Error("City not found: " + city);
+
+const title = `Mailbox Installation in ${cityName} — USPS-Approved | Postal Systems`;
+const description = `Turnkey commercial mailbox installation in ${cityName}, with USPS approvals & inspection.`;
+const url = canonical(`/service-areas/${city}`);
+---
+
+<MarketingPage
+  title={title}
+  description={description}
+  canonicalUrl={url}
+  breadcrumbs={[
+    { href:"/", label:"Home" },
+    { href:"/service-areas", label:"Service Areas" },
+    { label: cityName }
+  ]}
+>
+  <PageHeader eyebrow="Service Area" title={`Mailbox Installation — ${cityName}`} subtitle="USPS-approved contractor for HOAs, apartments, builders & facilities." />
+
+  <section class="container py-12">
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {services.map(s => (
+        <Card>
+          <h3 class="font-semibold text-slate-900">{s.name}</h3>
+          <p class="mt-1 text-sm text-slate-600">Available in {cityName} with USPS coordination and sign-off.</p>
+          <a href={`/service-areas/${city}/${s.slug}`}
+             class="mt-3 inline-flex items-center gap-2 text-primary font-medium underline-offset-4 hover:underline">
+            View details →
+          </a>
+        </Card>
+      ))}
+    </div>
+  </section>
+</MarketingPage>

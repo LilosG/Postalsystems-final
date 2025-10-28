@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Commercial Mailbox Installation",
+    "slug": "commercial-mailbox-installation",
+    "bullets": ["USPS approvals & inspection", "Pads, anchors, tenant notice", "ADA-compliant placements"]
+  },
+  {
+    "name": "Cluster Box Unit (CBU) Installation",
+    "slug": "cbu-installation",
+    "bullets": ["Concrete pads & anchors", "USPS approval & sign-off"]
+  },
+  {
+    "name": "4C / Wall-Mounted Mailboxes",
+    "slug": "4c-wall-mounted-mailboxes",
+    "bullets": ["ADA height/clearance compliant", "Secure tenant access"]
+  },
+  {
+    "name": "Parcel Lockers",
+    "slug": "parcel-lockers",
+    "bullets": ["Lobby / package room installs", "USPS coordination"]
+  },
+  {
+    "name": "Repairs & Lock Changes",
+    "slug": "repairs-lock-changes",
+    "bullets": ["Vandalism replacements", "Key/lock support"]
+  },
+  {
+    "name": "ADA-Compliant Installs",
+    "slug": "ada-compliant-installs",
+    "bullets": ["Accessible approach/reach", "Documented clearance"]
+  }
+]

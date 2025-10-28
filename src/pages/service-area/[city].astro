@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import HeroSection from "../../components/sections/HeroSection.astro";
+import ServicesSection from "../../components/sections/ServicesSection.astro";
+import ProjectsSection from "../../components/sections/ProjectsSection.astro";
+import FAQSection from "../../components/sections/FAQSection.astro";
+import QuoteSection from "../../components/sections/QuoteSection.astro";
+import { ALL_CITIES, LOCALBUSINESS_SCHEMA } from "../../data/site";
+
+export const prerender = true;
+export function getStaticPaths() {
+  return ALL_CITIES.map((c) => ({ params: { city: c.slug } }));
+}
+
+const { city } = Astro.params;
+const cityData = ALL_CITIES.find((c) => c.slug === city);
+const cityTitle = cityData ? cityData.name : "City";
+const county = cityData ? cityData.county : "San Diego";
+const pageTitle = `${cityTitle}, ${county}, CA`;
+---
+<BaseLayout title={"Mailbox Contractor in " + pageTitle + " — Postal Systems"} description={"USPS-approved commercial mailbox contractor for HOAs, apartments, builders in " + pageTitle + "."} schema={LOCALBUSINESS_SCHEMA}>
+  <HeroSection heading={"Mailbox Installation in " + pageTitle} sub="We handle USPS, ADA, permitting, pads/anchors, secure mounting, keys, and inspection signoff." />
+  <section class="py-12">
+    <div class="container max-w-3xl space-y-4">
+      <p>Serving {pageTitle}. We handle HOA, apartment, and builder installs and replacements; vandalism replacement; ADA-compliant mailbox stations; USPS approval and inspection signoff.</p>
+      <p>San Diego focus. Service also available in select cities in Orange County and Riverside County.</p>
+    </div>
+  </section>
+  <ServicesSection />
+  <ProjectsSection />
+  <FAQSection />
+  <QuoteSection />
+</BaseLayout>
