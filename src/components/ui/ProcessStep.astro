@@ -1,0 +1,9 @@
+---
+interface Props { step: number; title: string; text: string }
+const { step, title, text } = Astro.props as Props;
+---
+<div class="rounded-xl border border-gray-200 p-4">
+  <div class="text-xs text-gray-500">Step {step}</div>
+  <div class="font-semibold">{title}</div>
+  <p class="text-sm text-gray-600 mt-1">{text}</p>
+</div>

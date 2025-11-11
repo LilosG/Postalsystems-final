@@ -1,16 +1,7 @@
-import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
-import { fileURLToPath } from 'node:url';
+import { defineConfig } from "astro/config";
+import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
-  integrations: [tailwind({
-    config: { applyBaseStyles: true } // keep Astro’s base reset
-  })],
-  vite: {
-    resolve: {
-      alias: {
-        '@': fileURLToPath(new URL('./src', import.meta.url)),
-      },
-    },
-  },
+  site: "https://postalsystemspro.com",
+  integrations: [tailwind()],
 });

@@ -1,0 +1,12 @@
+---
+interface Props { items: { quote: string; author: string }[] }
+const { items = [] } = Astro.props as Props;
+---
+<div class="grid gap-4 md:grid-cols-3">
+  {items.map(i => (
+    <figure class="rounded-xl border border-gray-200 p-4">
+      <blockquote class="text-sm">“{i.quote}”</blockquote>
+      <figcaption class="mt-2 text-xs text-gray-600">— {i.author}</figcaption>
+    </figure>
+  ))}
+</div>

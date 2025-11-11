@@ -1,0 +1,7 @@
+---
+interface Props { items?: string[] }
+const { items = [] } = Astro.props as Props;
+---
+<ul class="space-y-2">
+  {items.map(i => <li class="pl-5 list-disc">{i}</li>)}
+</ul>

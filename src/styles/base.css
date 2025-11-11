@@ -3,32 +3,72 @@
 @tailwind utilities;
 
 @layer base {
-  html { scroll-behavior: smooth; }
-  body { @apply bg-white text-gray-900 antialiased; }
-  h1,h2,h3,h4 { @apply font-semibold text-gray-900; }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-semibold text-gray-900;
+  }
 }
 
 @layer components {
-  .container { @apply mx-auto max-w-7xl px-4; }
+  .container {
+    @apply mx-auto max-w-7xl px-4;
+  }
 
-  .card { @apply rounded-card border border-borderLight bg-white shadow-card; }
+  .card {
+    @apply rounded-card border border-borderLight bg-white shadow-card;
+  }
 
-  .btn { @apply inline-flex items-center justify-center rounded-card px-4 py-2 text-sm font-semibold transition; }
-  .btn-accent { @apply bg-accent text-accentForeground hover:opacity-90; }
-  .btn-white { @apply bg-white text-primary hover:bg-gray-50; }
-  .btn-outline-white { @apply border border-white/70 text-white hover:bg-white hover:text-primary; }
+  .btn {
+    @apply inline-flex items-center justify-center rounded-card px-4 py-2 text-sm font-semibold transition;
+  }
+  .btn-accent {
+    @apply bg-accent text-accentForeground hover:opacity-90;
+  }
+  .btn-white {
+    @apply bg-white text-primary hover:bg-gray-50;
+  }
+  .btn-outline-white {
+    @apply border border-white/70 text-white hover:bg-white hover:text-primary;
+  }
 
-  .badge { @apply rounded-full border border-borderLight bg-white/90 px-3 py-1 text-xs font-medium text-gray-800; }
-  .pill { @apply rounded-full border border-borderLight bg-white px-4 py-2 text-sm shadow-card; }
+  .badge {
+    @apply rounded-full border border-borderLight bg-white/90 px-3 py-1 text-xs font-medium text-gray-800;
+  }
+  .pill {
+    @apply rounded-full border border-borderLight bg-white px-4 py-2 text-sm shadow-card;
+  }
 
-  .img-cover { @apply w-full object-cover; }
-  .img-card-lg { @apply h-56 w-full object-cover rounded-t-card; }
-  .img-card-md { @apply h-44 w-full object-cover rounded-t-card; }
+  .img-cover {
+    @apply w-full object-cover;
+  }
+  .img-card-lg {
+    @apply h-56 w-full object-cover rounded-t-card;
+  }
+  .img-card-md {
+    @apply h-44 w-full object-cover rounded-t-card;
+  }
 
-  .hero { @apply bg-primary text-primaryForeground; }
-  .hero-wrap { @apply container py-16 md:py-20; }
-  .hero-title { @apply text-3xl font-bold md:text-4xl; }
-  .hero-sub { @apply mt-3 max-w-2xl text-base md:text-lg text-white/90; }
-  .hero-cta { @apply mt-6 flex flex-wrap gap-3; }
+  .hero {
+    @apply bg-primary text-primaryForeground;
+  }
+  .hero-wrap {
+    @apply container py-16 md:py-20;
+  }
+  .hero-title {
+    @apply text-3xl font-bold md:text-4xl;
+  }
+  .hero-sub {
+    @apply mt-3 max-w-2xl text-base md:text-lg text-white/90;
+  }
+  .hero-cta {
+    @apply mt-6 flex flex-wrap gap-3;
+  }
 }
-

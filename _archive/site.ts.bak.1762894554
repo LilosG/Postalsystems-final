@@ -1,0 +1,38 @@
+import services from "./services.json";
+import areas from "./service-areas.json";
+
+export type Service = { slug: string; name: string; description?: string; bullets?: string[]; title?: string; blurb?: string };
+export const SERVICES: Service[] = (services as any[]).map((s:any) => ({
+  slug: s.slug ?? String(s.name ?? s.title ?? "").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,""),
+  name: s.name ?? s.title ?? "Service",
+  description: s.description ?? s.blurb ?? "",
+  bullets: s.bullets ?? [],
+  title: s.title ?? s.name ?? "Service",
+  blurb: s.blurb ?? s.description ?? ""
+}));
+
+export type City = { name: string; slug: string; county?: string };
+export const ALL_CITIES: City[] = (areas as any[]).map((n:any) => {
+  const name = typeof n === "string" ? n : (n.name ?? "");
+  const county = typeof n === "string" ? undefined : n.county;
+  const slug = name.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"");
+  return { name, slug, county };
+});
+
+export const SITE = {
+  name: "Postal Systems",
+  city: "San Diego, CA",
+  phone: "(619) 461-4787",
+  email: "info@postalsystemspro.com",
+  url: "https://postalsystemspro.com"
+};
+
+export const LOCALBUSINESS_SCHEMA = {
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  name: SITE.name,
+  areaServed: ALL_CITIES.map(c=>c.name),
+  telephone: SITE.phone,
+  email: SITE.email,
+  url: SITE.url
+};

@@ -1,71 +1,50 @@
 ---
-import MarketingPage from "../../../layouts/MarketingPage.astro";
-import PageHeader from "../../../components/ui/PageHeader.astro";
-import Card from "../../../components/ui/Card.astro";
-import FeatureList from "../../../components/ui/FeatureList.astro";
-import areas from "../../../data/service-areas.json";
-import services from "../../../data/services.json";
-import { slugify, canonical } from "../../../lib/slug";
-import { LOCALBUSINESS_SCHEMA } from "../../../data/site";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ALL_CITIES, SERVICES, SITE } from "../../../data/site";
 
-export async function getStaticPaths() {
-  const paths = [];
-  for (const city of areas) {
-    for (const s of services) {
-      paths.push({ params: { city: slugify(city), service: s.slug } });
-    }
-  }
-  return paths;
+export const prerender = true;
+
+// Generate all city x service paths explicitly
+export function getStaticPaths() {
+  return ALL_CITIES.flatMap((c) =>
+    SERVICES.map((s) => ({
+      params: { city: c.slug, service: s.slug },
+      props: { city: c, svc: s }
+    }))
+  );
 }
 
-const { city, service } = Astro.params;
-const cityName = areas.find((a) => slugify(a) === city);
-const svc = services.find((s) => s.slug === service);
-if (!cityName || !svc) throw new Error("Not found");
+const { city, svc } = Astro.props;
 
-const title = `${svc.name} in ${cityName} — USPS-Approved | Postal Systems`;
-const description = `${svc.name} in ${cityName} with USPS approvals & inspection. Pads, anchors, ADA, tenant notice.`;
-const url = canonical(`/service-areas/${city}/${service}`);
+// Basic SEO (inherits site-wide head tags from BaseLayout)
+const pageTitle = `${svc.name} in ${city.name} | ${SITE.name}`;
+const desc = `${svc.name} for ${city.name}, CA — ${SITE.name}. USPS-compliant installs, repairs, ADA and parcel lockers.`;
+const url = new URL(Astro.url.pathname, SITE.url).toString();
+
+// Minimal schema (optional; safe to include)
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: svc.name,
+  areaServed: city.name + ", CA",
+  provider: { "@type": "LocalBusiness", name: SITE.name, telephone: SITE.phone, url: SITE.url }
+};
 ---
+<BaseLayout title={pageTitle} description={desc} url={url} schema={schema}>
+  <main class="max-w-4xl mx-auto p-6 space-y-6">
+    <h1 class="text-2xl font-semibold">{svc.name} in {city.name}</h1>
+    <p class="text-gray-700">{desc}</p>
 
-<MarketingPage
-  title={title}
-  description={description}
-  canonicalUrl={url}
-  schema={{
-    "@context":"https://schema.org",
-    "@type":"Service",
-    "name": svc.name,
-    "areaServed": cityName + ", CA",
-    "provider": LOCALBUSINESS_SCHEMA
-  }}
-  breadcrumbs={[
-    { href:"/", label:"Home" },
-    { href:"/service-areas", label:"Service Areas" },
-    { href:`/service-areas/${city}`, label: cityName },
-    { label: svc.name }
-  ]}
->
-  <PageHeader eyebrow="Service in your area" title={`${svc.name} — ${cityName}`} subtitle="Turnkey, compliant installs coordinated with USPS." />
+    {svc.blurb && <p class="text-gray-700">{svc.blurb}</p>}
+    {Array.isArray(svc.bullets) && svc.bullets.length > 0 && (
+      <ul class="list-disc pl-6 space-y-1">
+        {svc.bullets.map((b) => <li>{b}</li>)}
+      </ul>
+    )}
 
-  <section class="container py-12">
-    <div class="grid gap-8 lg:grid-cols-3">
-      <Card class="lg:col-span-2">
-        <h2 class="text-xl font-semibold text-slate-900">Overview</h2>
-        <p class="mt-2 text-slate-700">
-          We provide {svc.name.toLowerCase()} in {cityName} with USPS coordination and inspection sign-off.
-          Our team handles layout, pads & anchors, ADA clearances, and tenant notices to keep projects moving.
-        </p>
-        <h3 class="mt-6 font-semibold text-slate-900">What’s included</h3>
-        <FeatureList items={svc.bullets} />
-      </Card>
-
-      <Card>
-        <h3 class="text-lg font-semibold text-slate-900">Next Steps</h3>
-        <p class="mt-1 text-sm text-slate-600">Tell us about your property & timing.</p>
-        <a href="/#quote" class="mt-4 inline-flex h-11 items-center justify-center rounded-full bg-primary px-6 font-medium text-white hover:brightness-110">Request Quote</a>
-        <a href="tel:+16194614787" class="mt-2 inline-flex h-11 items-center justify-center rounded-full border border-slate-300 px-6 font-medium text-slate-800 hover:bg-slate-50">Call (619) 461-4787</a>
-      </Card>
-    </div>
-  </section>
-</MarketingPage>
+    <section class="mt-6">
+      <h2 class="text-xl font-semibold">Also serving San Diego County</h2>
+      <p class="text-gray-700">We primarily serve San Diego County cities and also take projects in Temecula, Riverside County and Orange County.</p>
+    </section>
+  </main>
+</BaseLayout>

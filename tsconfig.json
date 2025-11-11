@@ -1,6 +1,16 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": { "@/*": ["src/*"] }
-  }
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "_archive"
+  ]
 }

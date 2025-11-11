@@ -3,43 +3,101 @@
 @tailwind utilities;
 
 @layer base {
-  html { scroll-behavior: smooth }
-  body { @apply bg-white font-sans text-gray-900 antialiased }
-  h1.h1 { @apply text-4xl md:text-5xl font-semibold tracking-tight text-white }
-  h2.h2 { @apply text-2xl md:text-3xl font-semibold text-gray-900 }
-  .section { @apply py-12 md:py-16 }
-  .section-muted { @apply bg-sectionBg }
-  .container-narrow { @apply container max-w-5xl }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white font-sans text-gray-900 antialiased;
+  }
+  h1.h1 {
+    @apply text-4xl md:text-5xl font-semibold tracking-tight text-white;
+  }
+  h2.h2 {
+    @apply text-2xl md:text-3xl font-semibold text-gray-900;
+  }
+  .section {
+    @apply py-12 md:py-16;
+  }
+  .section-muted {
+    @apply bg-sectionBg;
+  }
+  .container-narrow {
+    @apply container max-w-5xl;
+  }
 }
 
 @layer components {
-  .btn { @apply inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-medium transition shadow-sm }
-  .btn-primary { @apply bg-primaryForeground text-primary hover:opacity-90 }
-  .btn-accent { @apply bg-accent text-accentForeground hover:opacity-90 }
-  .btn-light { @apply bg-white text-gray-900 hover:bg-gray-100 }
+  .btn {
+    @apply inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-medium transition shadow-sm;
+  }
+  .btn-primary {
+    @apply bg-primaryForeground text-primary hover:opacity-90;
+  }
+  .btn-accent {
+    @apply bg-accent text-accentForeground hover:opacity-90;
+  }
+  .btn-light {
+    @apply bg-white text-gray-900 hover:bg-gray-100;
+  }
 
-  .pill { @apply inline-flex items-center rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-white }
-  .pill-dark { @apply inline-flex items-center rounded-full border border-borderLight bg-white px-3 py-1.5 text-xs md:text-sm text-gray-800 }
+  .pill {
+    @apply inline-flex items-center rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-white;
+  }
+  .pill-dark {
+    @apply inline-flex items-center rounded-full border border-borderLight bg-white px-3 py-1.5 text-xs md:text-sm text-gray-800;
+  }
 
-  .card { @apply rounded-card border border-borderLight bg-white shadow-card }
-  .card-pad { @apply p-5 }
-  .card-dark { @apply rounded-card border border-white/10 bg-white/5 text-primaryForeground }
+  .card {
+    @apply rounded-card border border-borderLight bg-white shadow-card;
+  }
+  .card-pad {
+    @apply p-5;
+  }
+  .card-dark {
+    @apply rounded-card border border-white/10 bg-white/5 text-primaryForeground;
+  }
 
   /* Professional card system */
-  .card-pro { @apply rounded-card border border-borderLight bg-white shadow-card transition will-change-transform }
-  .card-pro:hover { @apply -translate-y-0.5 shadow-lg }
-  .card-pro-head { @apply mb-2 text-lg font-semibold text-gray-900 }
-  .card-pro-text { @apply text-sm leading-6 text-gray-700 }
-  .card-pro-list { @apply mt-3 list-disc pl-5 text-sm leading-6 text-gray-700 }
-  .card-pro-accent { @apply border-t-4 border-accent rounded-t-[calc(theme(borderRadius.card)-1px)] }
+  .card-pro {
+    @apply rounded-card border border-borderLight bg-white shadow-card transition will-change-transform;
+  }
+  .card-pro:hover {
+    @apply -translate-y-0.5 shadow-lg;
+  }
+  .card-pro-head {
+    @apply mb-2 text-lg font-semibold text-gray-900;
+  }
+  .card-pro-text {
+    @apply text-sm leading-6 text-gray-700;
+  }
+  .card-pro-list {
+    @apply mt-3 list-disc pl-5 text-sm leading-6 text-gray-700;
+  }
+  .card-pro-accent {
+    @apply border-t-4 border-accent rounded-t-[calc(theme(borderRadius.card)-1px)];
+  }
 
-  .section-title { @apply h2 mb-2 }
-  .subtle { @apply text-sm text-gray-600 }
-  .muted { @apply text-gray-700 }
+  .section-title {
+    @apply h2 mb-2;
+  }
+  .subtle {
+    @apply text-sm text-gray-600;
+  }
+  .muted {
+    @apply text-gray-700;
+  }
 
   /* Process (dark band) */
-  .step-item { @apply relative rounded-card border border-white/10 bg-white/5 p-5 text-primaryForeground }
-  .step-dot { @apply absolute -top-3 left-5 h-7 w-7 rounded-full bg-accent text-accentForeground text-xs font-semibold flex items-center justify-center shadow }
-  .step-label { @apply mt-3 text-lg font-semibold text-white }
-  .step-desc { @apply mt-1 text-sm text-white/85 }
+  .step-item {
+    @apply relative rounded-card border border-white/10 bg-white/5 p-5 text-primaryForeground;
+  }
+  .step-dot {
+    @apply absolute -top-3 left-5 h-7 w-7 rounded-full bg-accent text-accentForeground text-xs font-semibold flex items-center justify-center shadow;
+  }
+  .step-label {
+    @apply mt-3 text-lg font-semibold text-white;
+  }
+  .step-desc {
+    @apply mt-1 text-sm text-white/85;
+  }
 }

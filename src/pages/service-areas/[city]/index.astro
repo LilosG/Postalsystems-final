@@ -1,48 +1,54 @@
 ---
-import MarketingPage from "../../../layouts/MarketingPage.astro";
-import PageHeader from "../../../components/ui/PageHeader.astro";
-import Card from "../../../components/ui/Card.astro";
-import areas from "../../../data/service-areas.json";
-import services from "../../../data/services.json";
-import { slugify, canonical } from "../../../lib/slug";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { ALL_CITIES, SERVICES, SITE } from "../../../data/site";
 
-export async function getStaticPaths() {
-  return areas.map((city) => ({ params: { city: slugify(city) } }));
+export const prerender = true;
+
+export function getStaticPaths() {
+  return ALL_CITIES.map((c) => ({
+    params: { city: c.slug },
+    props: { city: c }
+  }));
 }
 
-const { city } = Astro.params;
-const cityName = areas.find((a) => slugify(a) === city);
-if (!cityName) throw new Error("City not found: " + city);
+const { city } = Astro.props;
 
-const title = `Mailbox Installation in ${cityName} — USPS-Approved | Postal Systems`;
-const description = `Turnkey commercial mailbox installation in ${cityName}, with USPS approvals & inspection.`;
-const url = canonical(`/service-areas/${city}`);
+const pageTitle = `${city.name} Service Area | ${SITE.name}`;
+const desc = `Mailbox installs, CBUs, 4C wall-mounted mailboxes, parcel lockers, repairs & ADA-compliant installs in ${city.name}, CA.`;
+const url = new URL(Astro.url.pathname, SITE.url).toString();
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: `Mailbox services in ${city.name}`,
+  areaServed: `${city.name}, CA`,
+  provider: { "@type": "LocalBusiness", name: SITE.name, telephone: SITE.phone, url: SITE.url }
+};
 ---
+<BaseLayout title={pageTitle} description={desc} url={url} schema={schema}>
+  <main class="max-w-5xl mx-auto p-6 space-y-8">
+    <header class="space-y-2">
+      <h1 class="text-2xl font-semibold">{city.name} Service Area</h1>
+      <p class="text-gray-700">{desc}</p>
+    </header>
 
-<MarketingPage
-  title={title}
-  description={description}
-  canonicalUrl={url}
-  breadcrumbs={[
-    { href:"/", label:"Home" },
-    { href:"/service-areas", label:"Service Areas" },
-    { label: cityName }
-  ]}
->
-  <PageHeader eyebrow="Service Area" title={`Mailbox Installation — ${cityName}`} subtitle="USPS-approved contractor for HOAs, apartments, builders & facilities." />
+    <section class="space-y-4">
+      <h2 class="text-xl font-semibold">Services we provide in {city.name}</h2>
+      <ul class="grid gap-3 sm:grid-cols-2">
+        {SERVICES.map((svc) => (
+          <li class="border rounded-lg p-4 hover:shadow">
+            <a href={`/service-area/${city.slug}/${svc.slug}/`} class="font-medium underline">{svc.name}</a>
+            {svc.blurb && <p class="text-gray-700 mt-1">{svc.blurb}</p>}
+          </li>
+        ))}
+      </ul>
+    </section>
 
-  <section class="container py-12">
-    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-      {services.map(s => (
-        <Card>
-          <h3 class="font-semibold text-slate-900">{s.name}</h3>
-          <p class="mt-1 text-sm text-slate-600">Available in {cityName} with USPS coordination and sign-off.</p>
-          <a href={`/service-areas/${city}/${s.slug}`}
-             class="mt-3 inline-flex items-center gap-2 text-primary font-medium underline-offset-4 hover:underline">
-            View details →
-          </a>
-        </Card>
-      ))}
-    </div>
-  </section>
-</MarketingPage>
+    <section class="space-y-2">
+      <h2 class="text-xl font-semibold">Primary Coverage</h2>
+      <p class="text-gray-700">
+        We focus on San Diego County. We also take projects in Temecula (Riverside County) and Orange County.
+      </p>
+    </section>
+  </main>
+</BaseLayout>

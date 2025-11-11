@@ -1,12 +1,25 @@
-[
-  "San Diego",
-  "Chula Vista",
-  "Oceanside",
-  "San Marcos",
-  "Escondido",
-  "El Cajon",
-  "Vista",
-  "Encinitas",
-  "Poway",
-  "Carlsbad"
-]
+{
+  "primaryCounty": "San Diego County",
+  "priorityOrder": [
+    "san-diego","chula-vista","oceanside","san-marcos","escondido",
+    "el-cajon","vista","encinitas","poway","carlsbad"
+  ],
+  "cities": [
+    { "name": "San Diego",     "slug": "san-diego",     "county": "San Diego County", "priority": 1 },
+    { "name": "Chula Vista",   "slug": "chula-vista",   "county": "San Diego County", "priority": 1 },
+    { "name": "Oceanside",     "slug": "oceanside",     "county": "San Diego County", "priority": 1 },
+    { "name": "San Marcos",    "slug": "san-marcos",    "county": "San Diego County", "priority": 1 },
+    { "name": "Escondido",     "slug": "escondido",     "county": "San Diego County", "priority": 1 },
+    { "name": "El Cajon",      "slug": "el-cajon",      "county": "San Diego County", "priority": 1 },
+    { "name": "Vista",         "slug": "vista",         "county": "San Diego County", "priority": 1 },
+    { "name": "Encinitas",     "slug": "encinitas",     "county": "San Diego County", "priority": 1 },
+    { "name": "Poway",         "slug": "poway",         "county": "San Diego County", "priority": 1 },
+    { "name": "Carlsbad",      "slug": "carlsbad",      "county": "San Diego County", "priority": 1 },
+
+    { "name": "Temecula",      "slug": "temecula",      "county": "Riverside County", "priority": 2 }
+  ],
+  "secondary": [
+    { "name": "Riverside County", "slug": "riverside-county" },
+    { "name": "Orange County",    "slug": "orange-county" }
+  ]
+}

@@ -1,32 +1,38 @@
 [
   {
-    "name": "Commercial Mailbox Installation",
-    "slug": "commercial-mailbox-installation",
-    "bullets": ["USPS approvals & inspection", "Pads, anchors, tenant notice", "ADA-compliant placements"]
-  },
-  {
     "name": "Cluster Box Unit (CBU) Installation",
     "slug": "cbu-installation",
-    "bullets": ["Concrete pads & anchors", "USPS approval & sign-off"]
+    "blurb": "USPS-approved CBU installs for HOAs, apartments & commercial sites.",
+    "bullets": ["Concrete pads & anchoring", "USPS coordination & sign-off"]
   },
   {
-    "name": "4C / Wall-Mounted Mailboxes",
+    "name": "4C Wall-Mounted Mailboxes",
     "slug": "4c-wall-mounted-mailboxes",
-    "bullets": ["ADA height/clearance compliant", "Secure tenant access"]
+    "blurb": "Interior/exterior recessed and surface-mount 4C mailboxes built to spec.",
+    "bullets": ["Recessed framing", "Fire/egress clearances"]
   },
   {
     "name": "Parcel Lockers",
     "slug": "parcel-lockers",
-    "bullets": ["Lobby / package room installs", "USPS coordination"]
+    "blurb": "Add parcel lockers for secure package delivery and USPS compliance.",
+    "bullets": ["USPS-approved modules", "Site layout planning"]
   },
   {
     "name": "Repairs & Lock Changes",
     "slug": "repairs-lock-changes",
-    "bullets": ["Vandalism replacements", "Key/lock support"]
+    "blurb": "Door replacements, tenant lock changes, vandalism and storm damage.",
+    "bullets": ["USPS arrow locks", "Compartment & master door repairs"]
   },
   {
     "name": "ADA-Compliant Installs",
     "slug": "ada-compliant-installs",
-    "bullets": ["Accessible approach/reach", "Documented clearance"]
+    "blurb": "Heights, reach ranges and clear floor space for accessible mail areas.",
+    "bullets": ["Plan check", "Final inspection support"]
+  },
+  {
+    "name": "Commercial Mailbox Installation",
+    "slug": "commercial-mailbox-installation",
+    "blurb": "Turnkey commercial installs with pads, anchoring and postal turn-over.",
+    "bullets": ["Concrete & anchoring", "Postal location approval"]
   }
 ]

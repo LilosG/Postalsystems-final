@@ -1,31 +1,33 @@
 ---
-import MarketingPage from "../../layouts/MarketingPage.astro";
-import PageHeader from "../../components/ui/PageHeader.astro";
-import Card from "../../components/ui/Card.astro";
-import areas from "../../data/service-areas.json";
-import { slugify, canonical } from "../../lib/slug";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { ALL_CITIES, SITE } from "../../data/site";
 
-const title = "Service Areas — San Diego County | Postal Systems";
-const description = "USPS-approved mailbox installation across San Diego County. Find your city below.";
-const url = canonical("/service-areas");
+export const prerender = true;
+
+const pageTitle = `Service Areas | ${SITE.name}`;
+const desc = `Primary coverage across San Diego County with projects in Temecula, Riverside County and Orange County.`;
+const url = new URL(Astro.url.pathname, SITE.url).toString();
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Collection",
+  name: "Service Areas",
+  url
+};
 ---
+<BaseLayout title={pageTitle} description={desc} url={url} schema={schema}>
+  <main class="max-w-5xl mx-auto p-6 space-y-6">
+    <header class="space-y-2">
+      <h1 class="text-2xl font-semibold">Service Areas</h1>
+      <p class="text-gray-700">{desc}</p>
+    </header>
 
-<MarketingPage
-  title={title}
-  description={description}
-  canonicalUrl={url}
-  breadcrumbs={[{href:"/",label:"Home"},{label:"Service Areas"}]}
->
-  <PageHeader eyebrow="Coverage" title="Service Areas" subtitle="USPS-approved installation across San Diego County." />
-
-  <section class="container py-12">
-    <div class="flex flex-wrap gap-2">
-      {areas.map(a => (
-        <a href={`/service-areas/${slugify(a)}`}
-           class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-sm text-slate-700 ring-1 ring-slate-200 hover:bg-slate-200">
-          {a}
-        </a>
+    <ul class="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
+      {ALL_CITIES.map((c) => (
+        <li class="border rounded-lg p-4 hover:shadow">
+          <a href={`/service-area/${c.slug}/`} class="font-medium underline">{c.name}</a>
+        </li>
       ))}
-    </div>
-  </section>
-</MarketingPage>
+    </ul>
+  </main>
+</BaseLayout>
