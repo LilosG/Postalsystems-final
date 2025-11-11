@@ -1,18 +1,18 @@
-/** Tailwind config normalized for Astro */
+/** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./src/**/*.{astro,html,js,jsx,ts,tsx,md,mdx,svelte,vue}",
-    "./public/**/*.html",
-  ],
-  theme: { extend: {
-        colors: {
-          postal: {
-            blue: "#0E377B",   // deep USPS blue (primary backgrounds)
-            navy: "#0B2C63",   // darker strip/hero band
-            sky:  "#EAF2FF",   // light panels/cards
-            red:  "#D62E2E",   // accent CTA
-            gray: "#F5F7FB"    // section backgrounds
-          }
-        },} },
-  plugins: [],
-};
+  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          600: "var(--ps-color-primary-600)",
+          700: "var(--ps-color-primary-700)"
+        },
+        accent: { 600: "var(--ps-color-accent)" }
+      },
+      borderRadius: { '2xl': "var(--ps-radius)" },
+      boxShadow: { ps: "var(--ps-shadow)" }
+    }
+  },
+  plugins: []
+}

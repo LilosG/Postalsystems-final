@@ -1,5 +1,22 @@
-<div class="flex items-center gap-6 text-gray-600 text-sm">
-  <span>USPS-Approved</span>
-  <span>Bonded & Insured</span>
-  <span>Since 2005</span>
-</div>
+---
+interface Item { label: string }
+interface Props { items?: Item[] }
+const { items = [
+  { label: "USPS-Approved Installer" },
+  { label: "Licensed & Insured" },
+  { label: "30+ Years Experience" },
+  { label: "Serving San Diego County" }
+] } = Astro.props as Props
+---
+<section class="border-y border-gray-200 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-4 py-4">
+    <ul class="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm text-gray-700">
+      {items.map((i) => (
+        <li class="flex items-center gap-2">
+          <span class="inline-block h-1.5 w-1.5 rounded-full bg-primary-600"></span>
+          <span>{i.label}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

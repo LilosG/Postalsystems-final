@@ -1,7 +1,11 @@
 ---
+const pageTitle = "_debug assets | Postal Systems";
+const desc = "";
+import BaseLayout from "../layouts/BaseLayout.astro";
 const files = import.meta.glob('/src/assets/postal/*', { eager: true, import: 'default' });
 const items = Object.keys(files).sort();
 ---
+<BaseLayout title={pageTitle} description={desc}>
 <!doctype html>
 <html lang="en">
   <head><meta charset="utf-8"><title>Assets Debug</title></head>
@@ -10,3 +14,4 @@ const items = Object.keys(files).sort();
     <pre>{JSON.stringify(items, null, 2)}</pre>
   </body>
 </html>
+</BaseLayout>

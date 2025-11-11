@@ -1,26 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Typography + base */
-@layer base {
-  html { scroll-behavior: smooth; }
-  body { @apply bg-white text-gray-900 antialiased; }
-  h1,h2,h3 { @apply font-semibold tracking-tight; }
-  a { @apply text-postal-blue; }
-  .page-band { @apply bg-postal-navy text-white; }
-  .section { @apply py-12 md:py-16; }
-  .section-muted { @apply bg-postal-gray; }
-  .card { @apply bg-white rounded-xl shadow-sm border border-gray-200; }
+:root {
+  --ps-color-primary: #0a59c7;
+  --ps-color-primary-600: #0a59c7;
+  --ps-color-primary-700: #094eab;
+  --ps-color-accent: #113b8f;
+  --ps-color-text: #0f172a;
+  --ps-color-muted: #475569;
+  --ps-radius: 16px;
+  --ps-shadow: 0 8px 20px rgba(2,6,23,.08);
 }
-
-/* Buttons */
-@layer components {
-  .btn { @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium transition; }
-  .btn-primary { @apply btn bg-postal-red text-white hover:opacity-90; }
-  .btn-secondary { @apply btn bg-white text-postal-blue border border-postal-blue hover:bg-postal-sky; }
-  .chip { @apply inline-flex px-3 py-1 text-xs rounded-full bg-postal-sky text-postal-blue; }
-  .kpi { @apply card p-4 text-center; }
-  .kpi .num { @apply text-xl font-bold; }
-  .section-title { @apply text-xl md:text-2xl font-semibold mb-2; }
+@media (prefers-color-scheme: dark) {
+  :root { --ps-color-text:#e5e7eb; --ps-color-muted:#94a3b8; }
 }

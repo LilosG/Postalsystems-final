@@ -1,9 +1,16 @@
 ---
-interface Props { eyebrow?: string; title: string; sub?: string; align?: "left"|"center" }
-const { eyebrow, title, sub, align="center" } = Astro.props as Props;
+interface Props {
+  title: string
+  subtitle?: string
+  eyebrow?: string
+  align?: 'left' | 'center'
+}
+const { title, subtitle = '', eyebrow = '', align = 'left' } = Astro.props as Props
+const alignCls = align === 'center' ? 'text-center items-center' : 'text-left items-start'
 ---
-<div class={`mb-6 ${align === "center" ? "text-center" : "text-left"}`}>
-  {eyebrow && <div class="text-xs uppercase tracking-wide text-blue-700">{eyebrow}</div>}
-  <h2 class="text-2xl font-bold mt-1">{title}</h2>
-  {sub && <p class="text-gray-600 mt-2">{sub}</p>}
+<div class={`flex flex-col ${alignCls} gap-2`}>
+  {eyebrow && <div class="text-xs uppercase tracking-wider text-primary-700">{eyebrow}</div>}
+  <h2 class="text-2xl md:text-3xl font-semibold tracking-tight">{title}</h2>
+  {subtitle && <p class="text-gray-600 max-w-prose">{subtitle}</p>}
+  <slot />
 </div>

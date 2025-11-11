@@ -1,4 +1,7 @@
 ---
+const pageTitle = "Projects | Postal Systems";
+const desc = "";
+import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "../components/Header.astro";
 import PromoBanner from "../components/PromoBanner.astro";
 import HeroSection from "../components/sections/HeroSection.astro";
@@ -29,6 +32,7 @@ const schema = {
   "license":"Licensed, Bonded & Insured • CA Lic. #904106"
 };
 ---
+<BaseLayout title={pageTitle} description={desc}>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -43,3 +47,4 @@ const schema = {
     <Footer />
   </body>
 </html>
+</BaseLayout>

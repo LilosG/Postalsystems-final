@@ -1,31 +1,18 @@
 ---
-import { titleTag, metaDesc, canonical } from "../lib/seo";
 interface Alert { text: string; href?: string }
-interface Props { title?: string; description?: string; alert?: Alert | null; pathname?: string }
-const p = Astro.props as Props;
-const pageTitle = titleTag(p.title);
-const desc = metaDesc(p.description);
-const url = canonical(p.pathname ?? Astro.url.pathname);
-const schema = { "@context":"https://schema.org","@type":"WebPage","name":pageTitle,"description":desc,"url":url };
+interface Props { title?: string; description?: string; canonical?: string; alert?: Alert | null }
+const { title, description, canonical, alert=null } = Astro.props as Props
+import Head from "../components/Head.astro"
 ---
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{pageTitle}</title>
-    <meta name="description" content={desc} />
-    <link rel="canonical" href={url} />
-    <meta property="og:title" content={pageTitle} />
-    <meta property="og:description" content={desc} />
-    <meta property="og:url" content={url} />
-    <meta name="twitter:card" content="summary_large_image" />
-    <slot name="head" />
-    <script type="application/ld+json" is:inline set:html={JSON.stringify(schema)}></script>
+    <Head {title} {description} canonical={canonical} />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   </head>
   <body class="min-h-screen bg-white text-gray-900">
-    {p.alert && (
-      <a href={p.alert.href ?? "#"} class="block w-full text-center text-[13px] bg-blue-700 text-white py-2">{p.alert.text}</a>
-    )}
+    {alert && (<a href={alert.href ?? "#"} class="block w-full text-center text-[13px] bg-primary-600 text-white py-2">{alert.text}</a>)}
     <slot />
   </body>
 </html>

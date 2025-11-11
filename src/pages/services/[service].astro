@@ -1,39 +1,30 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import HeroSection from "../../components/sections/HeroSection.astro";
-import ProcessSection from "../../components/sections/ProcessSection.astro";
-import FAQSection from "../../components/sections/FAQSection.astro";
-import QuoteSection from "../../components/sections/QuoteSection.astro";
-import { SERVICES } from "../../data/site";
+import SiteLayout from "../../layouts/SiteLayout.astro"
+import CTA from "../../components/ui/CTA.astro"
+import Breadcrumbs from "../../components/Breadcrumbs.astro"
+import { slugify } from "../../lib/slug"
 
-export const prerender = true;
-export function getStaticPaths() {
-  return SERVICES.map((s) => ({ params: { service: s.slug } }));
+export async function getStaticPaths() {
+  const services = (await import("../../data/services.json")).default
+  return services.map((s)=>({ params: { service: slugify(s.name) }, props: { s } }))
 }
 
-const { service } = Astro.params;
-const svc = SERVICES.find((s) => s.slug === service);
-const title = svc ? svc.title : "Mailbox Service";
-const schema = {
-  "@context":"https://schema.org",
-  "@type":"Service",
-  "serviceType": title,
-  "provider":{"@type":"LocalBusiness","name":"Postal Systems"},
-  "areaServed":"San Diego, CA",
-  "description":"USPS-approved " + title + ". We pour pads, set anchors, mount and key new units, handle ADA-compliant mailbox stations, coordinate USPS inspection, replace vandalized units, and provide warranty and lock/key support. Licensed, Bonded & Insured. CA Lic. #904106.",
-  "telephone":"(619) 461-4787",
-  "email":"info@postalsystemspro.com"
-};
+const { s } = Astro.props as { s: any }
+const canonical = `https://postalsystemspro.com/services/${slugify(s.name)}/`
+const title = `${s.name} — Postal Systems`
+const desc = s.summary || "USPS-approved commercial mailbox work in San Diego County."
 ---
-<BaseLayout title={title + " — Postal Systems | San Diego"} description={"USPS-approved " + title + " across San Diego. Licensed, Bonded & Insured • CA Lic. #904106."} schema={schema}>
-  <HeroSection heading={title} sub="San Diego focus. We coordinate USPS approval and inspection so you don’t have to." />
-  <section class="py-12">
-    <div class="container max-w-3xl space-y-4">
-      <p>We install and replace multi-tenant mailbox systems including CBUs, parcel lockers, 4C wall-mounted and pedestal units. ADA-compliant stations, pads, posts, anchors, secure mounting, and lock/key changeouts. USPS coordination and inspection signoff included.</p>
-      <p>Serving San Diego. Service also available in select cities in Orange County and Riverside County.</p>
-    </div>
-  </section>
-  <ProcessSection />
-  <FAQSection />
-  <QuoteSection />
-</BaseLayout>
+<html lang="en">
+  <head>
+    <SiteLayout title={title} description={desc} canonical={canonical} />
+  </head>
+  <body>
+    <main class="max-w-6xl mx-auto px-4 py-10">
+      <Breadcrumbs crumbs={[{href:'/',label:'Home'},{href:'/services/',label:'Services'},{href:canonical,label:s.name}]} />
+      <h1 class="text-3xl font-bold tracking-tight">{s.name}</h1>
+      <p class="mt-2 text-gray-600">{desc}</p>
+      {s.content && <div class="prose max-w-none mt-6" set:html={s.content}></div>}
+      <div class="mt-10"><CTA /></div>
+    </main>
+  </body>
+</html>

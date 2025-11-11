@@ -1,38 +1,42 @@
 [
   {
-    "name": "Cluster Box Unit (CBU) Installation",
-    "slug": "cbu-installation",
-    "blurb": "USPS-approved CBU installs for HOAs, apartments & commercial sites.",
-    "bullets": ["Concrete pads & anchoring", "USPS coordination & sign-off"]
+    "name": "Commercial Mailbox Installation",
+    "summary": "Turnkey commercial mailbox installs with USPS coordination and inspection sign-off.",
+    "content": ""
+  },
+  {
+    "name": "CBU Installation",
+    "summary": "USPS-approved Cluster Box Unit (CBU) installs for HOAs, apartments, and commercial sites.",
+    "content": ""
   },
   {
     "name": "4C Wall-Mounted Mailboxes",
-    "slug": "4c-wall-mounted-mailboxes",
-    "blurb": "Interior/exterior recessed and surface-mount 4C mailboxes built to spec.",
-    "bullets": ["Recessed framing", "Fire/egress clearances"]
+    "summary": "Interior/exterior 4C wall-mounted or recessed systems with rough-opening coordination and ADA compliance.",
+    "content": ""
   },
   {
     "name": "Parcel Lockers",
-    "slug": "parcel-lockers",
-    "blurb": "Add parcel lockers for secure package delivery and USPS compliance.",
-    "bullets": ["USPS-approved modules", "Site layout planning"]
+    "summary": "Add secure parcel lockers compatible with existing CBU/4C setups to reduce package pileups.",
+    "content": ""
   },
   {
     "name": "Repairs & Lock Changes",
-    "slug": "repairs-lock-changes",
-    "blurb": "Door replacements, tenant lock changes, vandalism and storm damage.",
-    "bullets": ["USPS arrow locks", "Compartment & master door repairs"]
+    "summary": "Door/lock replacements, vandalism remediation, and compartment fixes with fast turnaround.",
+    "content": ""
   },
   {
     "name": "ADA-Compliant Installs",
-    "slug": "ada-compliant-installs",
-    "blurb": "Heights, reach ranges and clear floor space for accessible mail areas.",
-    "bullets": ["Plan check", "Final inspection support"]
+    "summary": "Mailroom build-outs and height/clearance checks for ADA and USPS specifications.",
+    "content": ""
   },
   {
-    "name": "Commercial Mailbox Installation",
-    "slug": "commercial-mailbox-installation",
-    "blurb": "Turnkey commercial installs with pads, anchoring and postal turn-over.",
-    "bullets": ["Concrete & anchoring", "Postal location approval"]
+    "name": "Mailbox Replacement & Retrofits",
+    "summary": "Remove and replace aging units; pads, pedestals, labeling, and USPS handoff.",
+    "content": ""
+  },
+  {
+    "name": "Mailbox Relocation & Consolidation",
+    "summary": "Move or consolidate units, pour/patch pads, update addressing, and coordinate USPS changeover.",
+    "content": ""
   }
 ]

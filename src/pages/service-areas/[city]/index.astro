@@ -1,54 +1,38 @@
 ---
-import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { ALL_CITIES, SERVICES, SITE } from "../../../data/site";
+import SiteLayout from "../../../layouts/SiteLayout.astro"
+import CTA from "../../../components/ui/CTA.astro"
+import Breadcrumbs from "../../../components/Breadcrumbs.astro"
+import { slugify } from "../../../lib/slug"
 
-export const prerender = true;
-
-export function getStaticPaths() {
-  return ALL_CITIES.map((c) => ({
-    params: { city: c.slug },
-    props: { city: c }
-  }));
+export async function getStaticPaths() {
+  const areas = (await import("../../../data/areas.json")).default
+  return areas.map((c)=>({ params: { city: slugify(c.city) }, props:{ c } }))
 }
 
-const { city } = Astro.props;
-
-const pageTitle = `${city.name} Service Area | ${SITE.name}`;
-const desc = `Mailbox installs, CBUs, 4C wall-mounted mailboxes, parcel lockers, repairs & ADA-compliant installs in ${city.name}, CA.`;
-const url = new URL(Astro.url.pathname, SITE.url).toString();
-
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  name: `Mailbox services in ${city.name}`,
-  areaServed: `${city.name}, CA`,
-  provider: { "@type": "LocalBusiness", name: SITE.name, telephone: SITE.phone, url: SITE.url }
-};
+const { c } = Astro.props as { c:any }
+const title = `Commercial Mailbox Services in ${c.city}, ${c.state} — Postal Systems`
+const desc = `USPS-approved mailbox installation, parcel lockers, and repairs in ${c.city}, ${c.state}.`
+const canonical = `https://postalsystemspro.com/service-areas/${slugify(c.city)}/`
+const services = (await import("../../../data/services.json")).default
 ---
-<BaseLayout title={pageTitle} description={desc} url={url} schema={schema}>
-  <main class="max-w-5xl mx-auto p-6 space-y-8">
-    <header class="space-y-2">
-      <h1 class="text-2xl font-semibold">{city.name} Service Area</h1>
-      <p class="text-gray-700">{desc}</p>
-    </header>
-
-    <section class="space-y-4">
-      <h2 class="text-xl font-semibold">Services we provide in {city.name}</h2>
-      <ul class="grid gap-3 sm:grid-cols-2">
-        {SERVICES.map((svc) => (
-          <li class="border rounded-lg p-4 hover:shadow">
-            <a href={`/service-area/${city.slug}/${svc.slug}/`} class="font-medium underline">{svc.name}</a>
-            {svc.blurb && <p class="text-gray-700 mt-1">{svc.blurb}</p>}
-          </li>
-        ))}
-      </ul>
-    </section>
-
-    <section class="space-y-2">
-      <h2 class="text-xl font-semibold">Primary Coverage</h2>
-      <p class="text-gray-700">
-        We focus on San Diego County. We also take projects in Temecula (Riverside County) and Orange County.
-      </p>
-    </section>
-  </main>
-</BaseLayout>
+<html lang="en">
+  <head>
+    <SiteLayout title={title} description={desc} canonical={canonical} />
+  </head>
+  <body>
+    <main class="max-w-6xl mx-auto px-4 py-10">
+      <Breadcrumbs crumbs={[{href:'/',label:'Home'},{href:'/service-areas/',label:'Service Areas'},{href:canonical,label:c.city}]}/>
+      <h1 class="text-3xl font-bold tracking-tight">Mailbox Services in {c.city}</h1>
+      <p class="mt-2 text-gray-600">{desc}</p>
+      <section class="mt-6">
+        <h2 class="text-xl font-semibold">Available Services</h2>
+        <ul class="mt-3 grid md:grid-cols-2 gap-4">
+          {services.map((s)=>(
+            <li><a class="underline hover:text-primary-600" href={`/service-areas/${slugify(c.city)}/${slugify(s.name)}/`}>{s.name} in {c.city}</a></li>
+          ))}
+        </ul>
+      </section>
+      <div class="mt-10"><CTA /></div>
+    </main>
+  </body>
+</html>

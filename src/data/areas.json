@@ -1,0 +1,15 @@
+[
+  { "city": "San Diego", "state": "CA", "county": "San Diego", "priority": 1 },
+  { "city": "Chula Vista", "state": "CA", "county": "San Diego", "priority": 1 },
+  { "city": "Oceanside", "state": "CA", "county": "San Diego", "priority": 1 },
+  { "city": "Carlsbad", "state": "CA", "county": "San Diego", "priority": 1 },
+  { "city": "Encinitas", "state": "CA", "county": "San Diego", "priority": 1 },
+  { "city": "Escondido", "state": "CA", "county": "San Diego", "priority": 1 },
+  { "city": "Vista", "state": "CA", "county": "San Diego", "priority": 1 },
+  { "city": "San Marcos", "state": "CA", "county": "San Diego", "priority": 1 },
+  { "city": "Poway", "state": "CA", "county": "San Diego", "priority": 1 },
+  { "city": "El Cajon", "state": "CA", "county": "San Diego", "priority": 1 },
+  { "city": "Temecula", "state": "CA", "county": "Riverside", "priority": 2 },
+  { "city": "Riverside County", "state": "CA", "county": "", "priority": 3 },
+  { "city": "Orange County", "state": "CA", "county": "", "priority": 3 }
+]

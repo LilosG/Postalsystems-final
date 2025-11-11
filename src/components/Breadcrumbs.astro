@@ -1,0 +1,13 @@
+---
+const { crumbs = [] } = Astro.props as { crumbs: { href: string, label: string }[] }
+---
+<nav aria-label="Breadcrumb" class="text-sm mb-6">
+  <ol class="flex flex-wrap gap-2 text-gray-600">
+    {crumbs.map((c,i) => (
+      <li>
+        {i>0 && <span>/</span>}
+        <a href={c.href} class="hover:text-primary-600">{c.label}</a>
+      </li>
+    ))}
+  </ol>
+</nav>

@@ -1,0 +1,22 @@
+---
+interface Props {
+  title?: string
+  description?: string
+  canonical?: string
+  image?: string
+}
+const site = "https://postalsystemspro.com"
+const { title="Postal Systems — Commercial Mailbox Installation in San Diego", description="USPS-approved commercial mailbox installation, replacements, parcel lockers, and 4C/CBU systems. Serving San Diego County with inspection sign-off.", canonical=Astro.url?.href ?? site, image=`${site}/og.jpg` } = Astro.props as Props
+---
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+<meta property="og:type" content="website" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={image} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={image} />

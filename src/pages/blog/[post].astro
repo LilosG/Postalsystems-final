@@ -1,8 +1,13 @@
 ---
+const pageTitle = " | Postal Systems";
+const desc = "";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 export const prerender = true
 export async function getStaticPaths() { return [] }
 ---
+<BaseLayout title={pageTitle} description={desc}>
 <html><body><main class="max-w-3xl mx-auto p-8">
   <h1>Blog</h1>
   <p>No posts yet.</p>
 </main></body></html>
+</BaseLayout>

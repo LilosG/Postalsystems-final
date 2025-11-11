@@ -1,0 +1,13 @@
+---
+const { name, url, phone, sameAs = [], areaServed = [] } = Astro.props as { name: string, url: string, phone?: string, sameAs?: string[], areaServed?: string[] }
+const data = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": name,
+  "url": url,
+  "telephone": phone,
+  "areaServed": areaServed.map(c => ({ "@type":"City", "name": c })),
+  "sameAs": sameAs
+}
+---
+<script type="application/ld+json">{JSON.stringify(data)}</script>

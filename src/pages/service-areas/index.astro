@@ -1,33 +1,29 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import { ALL_CITIES, SITE } from "../../data/site";
-
-export const prerender = true;
-
-const pageTitle = `Service Areas | ${SITE.name}`;
-const desc = `Primary coverage across San Diego County with projects in Temecula, Riverside County and Orange County.`;
-const url = new URL(Astro.url.pathname, SITE.url).toString();
-
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "Collection",
-  name: "Service Areas",
-  url
-};
+import SiteLayout from "../../layouts/SiteLayout.astro"
+import CTA from "../../components/ui/CTA.astro"
+import { slugify } from "../../lib/slug"
+const areas = (await import("../../data/areas.json")).default
+const pageTitle = "Service Areas"
+const pageDesc = "Commercial mailbox installation and service across San Diego County."
+const canonical = "https://postalsystemspro.com/service-areas"
 ---
-<BaseLayout title={pageTitle} description={desc} url={url} schema={schema}>
-  <main class="max-w-5xl mx-auto p-6 space-y-6">
-    <header class="space-y-2">
-      <h1 class="text-2xl font-semibold">Service Areas</h1>
-      <p class="text-gray-700">{desc}</p>
-    </header>
-
-    <ul class="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
-      {ALL_CITIES.map((c) => (
-        <li class="border rounded-lg p-4 hover:shadow">
-          <a href={`/service-area/${c.slug}/`} class="font-medium underline">{c.name}</a>
-        </li>
-      ))}
-    </ul>
-  </main>
-</BaseLayout>
+<html lang="en">
+  <head>
+    <SiteLayout title={`${pageTitle} — Postal Systems`} description={pageDesc} canonical={canonical} />
+  </head>
+  <body>
+    <main class="max-w-6xl mx-auto px-4 py-10">
+      <h1 class="text-3xl font-bold tracking-tight">Service Areas</h1>
+      <p class="mt-2 text-gray-600">{pageDesc}</p>
+      <ul class="mt-8 grid md:grid-cols-3 gap-6">
+        {areas.map(c => (
+          <li class="rounded-2xl border p-5 shadow-ps">
+            <a href={`/service-areas/${slugify(c.city)}/`} class="text-lg font-semibold hover:text-primary-600">{c.city}, {c.state}</a>
+            {c.county && <p class="text-gray-600 mt-1">{c.county} County</p>}
+          </li>
+        ))}
+      </ul>
+      <div class="mt-10"><CTA /></div>
+    </main>
+  </body>
+</html>

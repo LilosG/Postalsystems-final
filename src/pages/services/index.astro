@@ -1,22 +1,30 @@
 ---
-import MarketingPage from "../../layouts/MarketingPage.astro";
-import PageHeader from "../../components/ui/PageHeader.astro";
-import Card from "../../components/ui/Card.astro";
-import services from "../../data/services.json";
-const title = "Services — USPS-Approved Mailbox Contractor | Postal Systems";
-const description = "Mailbox installs, parcel lockers, ADA-compliant stations, and repairs with USPS coordination.";
+import SiteLayout from "../../layouts/SiteLayout.astro"
+import CTA from "../../components/ui/CTA.astro"
+import { slugify } from "../../lib/slug"
+const services = (await import("../../data/services.json")).default
+const pageTitle = "Mailbox Services"
+const pageDesc = "USPS-approved commercial mailbox installation, repairs, parcel lockers, 4C/CBU systems."
 ---
-<MarketingPage title={title} description={description} breadcrumbs={[{href:"/",label:"Home"},{label:"Services"}]}>
-  <PageHeader eyebrow="What we do" title="Services" subtitle="Turnkey installs & replacements with USPS coordination and inspection." />
-  <section class="container py-12">
-    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-      {services.map(s => (
-        <Card>
-          <h3 class="font-semibold text-slate-900">{s.name}</h3>
-          <p class="mt-1 text-sm text-slate-600">USPS-approved contractor. Pads, anchors, ADA, tenant notice.</p>
-          <a href={`/services/${s.slug}`} class="mt-3 inline-flex items-center gap-2 text-primary font-medium underline-offset-4 hover:underline">Learn more →</a>
-        </Card>
-      ))}
-    </div>
-  </section>
-</MarketingPage>
+<html lang="en">
+  <head>
+    <SiteLayout title={`${pageTitle} — Postal Systems`} description={pageDesc} canonical={`https://postalsystemspro.com/services`} />
+  </head>
+  <body>
+    <main class="max-w-6xl mx-auto px-4 py-10">
+      <h1 class="text-3xl font-bold tracking-tight">Mailbox Services</h1>
+      <p class="mt-2 text-gray-600">{pageDesc}</p>
+      <ul class="mt-8 grid md:grid-cols-2 gap-6">
+        {services.map(s => (
+          <li class="rounded-2xl border p-5 shadow-ps">
+            <a href={`/services/${slugify(s.name)}/`} class="text-lg font-semibold hover:text-primary-600">{s.name}</a>
+            <p class="text-gray-600 mt-1">{s.summary}</p>
+          </li>
+        ))}
+      </ul>
+      <div class="mt-10">
+        <CTA />
+      </div>
+    </main>
+  </body>
+</html>
