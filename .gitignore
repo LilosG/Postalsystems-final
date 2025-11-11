@@ -26,3 +26,11 @@ pnpm-debug.log*
 node_modules/
 .astro/
 dist/
+
+# local archive
+.local_archive/
+
+# local archive
+.local_archive/
+# no stray backups
+_backup.*.astro
