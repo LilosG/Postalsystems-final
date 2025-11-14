@@ -34,3 +34,4 @@ dist/
 .local_archive/
 # no stray backups
 _backup.*.astro
+.vercel
