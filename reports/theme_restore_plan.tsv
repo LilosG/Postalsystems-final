@@ -1,0 +1,7 @@
+M	src/components/sections/ServiceAreasSection.astro
+M	src/components/sections/ServicesSection.astro
+M	src/layouts/BaseLayout.astro
+M	src/layouts/SiteLayout.astro
+M	src/styles/global.css
+M	src/styles/tokens.css
+M	tailwind.config.mjs

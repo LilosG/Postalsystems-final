@@ -1,0 +1,214 @@
+---
+layout: ../layouts/Global.astro
+---
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+import Button from "../components/ui/Button.astro"
+import Card from "../components/ui/Card.astro"
+import SectionHeader from "../components/ui/SectionHeader.astro"
+import TrustBar from "../components/ui/TrustBar.astro"
+import Stat from "../components/ui/Stat.astro";
+import Pill from "../components/ui/Pill.astro";
+import Process from "../components/ui/Process.astro";
+import ProcessStep from "../components/ui/ProcessStep.astro";
+import Testimonials from "../components/ui/Testimonials.astro";
+
+const testimonials = [
+  { quote:"Smooth from site visit to USPS handoff. Our HOA loved the new units.", author:"Property Manager, San Marcos" },
+  { quote:"They handled approvals and inspection—zero surprises.", author:"Facilities Director, Chula Vista" },
+  { quote:"Quick vandalism replacement and new locks same week.", author:"Apartment Owner, Escondido" },
+];
+---
+<SiteLayout title="Postal Systems — USPS-approved mailbox installation">
+  <!-- Hero -->
+  <section class="relative bg-brand-700 text-white">
+    <div class="container grid md:grid-cols-2 gap-8 items-center py-14 md:py-16">
+      <div>
+        <p class="text-[12px] uppercase tracking-wide/relaxed text-white/80">USPS-approved contractor</p>
+        <h1 class="mt-2 text-3xl md:text-4xl font-semibold leading-tight">Mailbox Installation, Done Right.</h1>
+        <p class="mt-3 text-white/90 max-w-xl">Turnkey commercial mailbox systems for HOAs, apartments, builders, and facilities across San Diego County. We handle USPS coordination and inspections so you don’t have to.</p>
+        <ul class="mt-4 grid gap-1 text-sm text-white/90">
+          <li>• USPS Approved Installer</li>
+          <li>• Licensed, bonded & insured — CA Lic. #904106</li>
+          <li>• ADA-compliant installs</li>
+          <li>• Pads, anchors, tenant notice, USPS sign-off</li>
+        </ul>
+        <div class="mt-5 flex flex-wrap gap-3">
+          <Button as="a" href="/contact#quote">Get a Quote</Button>
+          <Button variant="outline" as="a" href="tel:16194614787">Call (619) 461-4787</Button>
+        </div>
+      </div>
+      <div class="rounded-xl overflow-hidden border border-white/15 shadow-lg">
+        <img src="/images/hero-mailbox.jpg" alt="Cluster box installation" class="w-full h-full object-cover" width="960" height="680" loading="eager" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust bar -->
+  <section class="py-12 md:py-16">
+    <div class="container">
+      <TrustBar />
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="py-12 md:py-16 bg-surface">
+    <div class="container grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
+      <Stat value="20+ years" label="experience" />
+      <Stat value="500+" label="projects completed" />
+      <Stat value="100%" label="USPS sign-off" />
+      <Stat value="30+" label="cities served" />
+    </div>
+  </section>
+
+  <!-- Core Services -->
+  <section class="py-12 md:py-16">
+    <div class="container">
+      <SectionHeader eyebrow="Core Services" title="Compliance-focused installs & replacements with USPS coordination and inspection sign-off." align="left" />
+      <div class="mt-6 grid md:grid-cols-3 gap-3 md:gap-4">
+        <Card title="Commercial Mailbox Installation">
+          <ul class="m-0 list-disc pl-5">
+            <li>USPS approvals & inspection</li><li>Pads, anchors, tenant notice</li>
+          </ul>
+        </Card>
+        <Card title="Cluster Box Unit (CBU) Installation">
+          <ul class="m-0 list-disc pl-5"><li>Concrete pads & anchors</li><li>USPS approval & sign-off</li></ul>
+        </Card>
+        <Card title="4C / Wall-Mounted Mailboxes">
+          <ul class="m-0 list-disc pl-5"><li>ADA height/clearance compliant</li><li>Secure tenant access</li></ul>
+        </Card>
+        <Card title="Parcel Lockers">
+          <ul class="m-0 list-disc pl-5"><li>Package room / lobby installs</li><li>USPS coordination</li></ul>
+        </Card>
+        <Card title="Repairs & Lock Changes">
+          <ul class="m-0 list-disc pl-5"><li>Vandalism & quick-lock support</li></ul>
+        </Card>
+        <Card title="ADA-Compliant Installs">
+          <ul class="m-0 list-disc pl-5"><li>Accessible approach/ reach</li><li>Documented clearance</li></ul>
+        </Card>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects -->
+  <section class="py-12 md:py-16 bg-surface">
+    <div class="container">
+      <SectionHeader title="Featured Projects" sub="Recent installations across San Diego County." align="left" />
+      <div class="mt-6 grid md:grid-cols-3 gap-3 md:gap-4">
+        <Card>
+          <slot name="media" />
+          <img src="/images/project-1.jpg" alt="CBU — San Marcos, CA" class="aspect-[4/3] w-full object-cover" loading="lazy" width="640" height="480" slot="media"/>
+          <p class="mt-2 text-sm">CBU — San Marcos, CA. Turnkey replacement with pads and anchors.</p>
+        </Card>
+        <Card>
+          <img src="/images/project-2.jpg" alt="4C Upgrade — Chula Vista, CA" class="aspect-[4/3] w-full object-cover" loading="lazy" width="640" height="480" slot="media"/>
+          <p class="mt-2 text-sm">4C Upgrade — Chula Vista, CA. New wall-mounted units with added capacity.</p>
+        </Card>
+        <Card>
+          <img src="/images/project-3.jpg" alt="Vandalism Replacement — Temecula, CA" class="aspect-[4/3] w-full object-cover" loading="lazy" width="640" height="480" slot="media"/>
+          <p class="mt-2 text-sm">Vandalism replacement with lock changes.</p>
+        </Card>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="py-12 md:py-16">
+    <div class="container">
+      <SectionHeader title="Fast, compliant, and coordinated with USPS." align="left" />
+      <Process>
+        <ProcessStep step={1} title="Site Visit & Layout" text="Assess location, layout & ADA clearances." />
+        <ProcessStep step={2} title="Detailed Quote" text="Transparent scope, cost & timeline." />
+        <ProcessStep step={3} title="Schedule & Notice" text="Coordinate USPS timing & tenant access." />
+        <ProcessStep step={4} title="Installation" text="Pads, anchors, secure mounting & locks." />
+        <ProcessStep step={5} title="USPS Inspection" text="We obtain sign-off and deliver keys." />
+      </Process>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-12 md:py-16 bg-surface">
+    <div class="container">
+      <SectionHeader title="What Clients Say" sub="Fast, compliant, and coordinated with USPS." />
+      <div class="mt-6">
+        <Testimonials items={testimonials} />
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Areas -->
+  <section class="py-12 md:py-16">
+    <div class="container">
+      <SectionHeader title="Service Areas" sub="USPS-approved installation across San Diego County." align="left" />
+      <div class="mt-5 flex flex-wrap gap-2">
+        <Pill label="San Diego" href="/service-areas/san-diego" />
+        <Pill label="Chula Vista" href="/service-areas/chula-vista" />
+        <Pill label="Oceanside" href="/service-areas/oceanside" />
+        <Pill label="San Marcos" href="/service-areas/san-marcos" />
+        <Pill label="Escondido" href="/service-areas/escondido" />
+        <Pill label="Coronado" href="/service-areas/coronado" />
+        <Pill label="Vista" href="/service-areas/vista" />
+        <Pill label="Encinitas" href="/service-areas/encinitas" />
+        <Pill label="Poway" href="/service-areas/poway" />
+        <Pill label="Carlsbad" href="/service-areas/carlsbad" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Conversion Band -->
+  <section class="py-12 md:py-16 bg-gradient-to-r from-brand-600 to-brand-700 text-white">
+    <div class="container flex flex-col md:flex-row items-center justify-between gap-4">
+      <div>
+        <h3 class="text-xl md:text-2xl font-semibold">Ready to upgrade?</h3>
+        <p class="text-white/90">Replace or install your mailbox system with USPS sign-off.</p>
+      </div>
+      <div class="flex gap-3">
+        <Button as="a" href="/contact#quote">Get a Quote</Button>
+        <Button variant="outline" as="a" href="tel:16194614787">Call (619) 461-4787</Button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <section id="quote" class="py-12 md:py-16">
+    <div class="container grid md:grid-cols-2 gap-6">
+      <div class="rounded-xl border border-border bg-white p-6 shadow-sm">
+        <h3 class="text-xl font-semibold">Request a Quote</h3>
+        <p class="mt-1 text-sm text-slate-600">Tell us about your project and timing.</p>
+        <form action="/api/quote" method="post" class="mt-4 space-y-4">
+          <label class="block">
+            <span class="block text-sm font-medium mb-1">Name</span>
+            <input name="name" class="w-full rounded-lg border-border bg-white shadow-sm focus:border-brand-600 focus:ring-brand-600/30" required />
+          </label>
+          <label class="block">
+            <span class="block text-sm font-medium mb-1">Phone</span>
+            <input name="phone" type="tel" class="w-full rounded-lg border-border bg-white shadow-sm focus:border-brand-600 focus:ring-brand-600/30" required />
+          </label>
+          <label class="block">
+            <span class="block text-sm font-medium mb-1">Email</span>
+            <input name="email" type="email" class="w-full rounded-lg border-border bg-white shadow-sm focus:border-brand-600 focus:ring-brand-600/30" required />
+          </label>
+          <label class="block">
+            <span class="block text-sm font-medium mb-1">City / ZIP</span>
+            <input name="location" class="w-full rounded-lg border-border bg-white shadow-sm focus:border-brand-600 focus:ring-brand-600/30" required />
+          </label>
+          <label class="block">
+            <span class="block text-sm font-medium mb-1">Describe your project or issue</span>
+            <textarea name="message" rows="4" class="w-full rounded-lg border-border bg-white shadow-sm focus:border-brand-600 focus:ring-brand-600/30"></textarea>
+          </label>
+          <Button type="submit" class="w-full">Submit</Button>
+        </form>
+      </div>
+      <div class="rounded-xl border border-border bg-white p-6 shadow-sm">
+        <h4 class="font-semibold">Contact & Coverage</h4>
+        <ul class="mt-2 text-sm space-y-2">
+          <li>Phone: <a class="text-brand-700" href="tel:16194614787">(619) 461-4787</a></li>
+          <li>Email: <a class="text-brand-700" href="mailto:info@postalsystemspco.com">info@postalsystemspco.com</a></li>
+          <li>Serving San Diego County. Also available in select cities in Orange County and Riverside County.</li>
+          <li>Licensed, Bonded & Insured — CA Lic. #904106.</li>
+          <li>We coordinate USPS approvals and inspection so you don’t have to.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</SiteLayout>

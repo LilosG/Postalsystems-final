@@ -1,0 +1,371 @@
+diff --git a/src/components/sections/ServiceAreasSection.astro b/src/components/sections/ServiceAreasSection.astro
+index 914981a..88a7cd3 100644
+--- a/src/components/sections/ServiceAreasSection.astro
++++ b/src/components/sections/ServiceAreasSection.astro
+@@ -7,7 +7,7 @@ const cities = ALL_CITIES;
+     <h2 class="section-title">Service Areas — San Diego</h2>
+     <p class="subtle">We also serve select cities in Orange County and Riverside County.</p>
+     <div class="mt-4 flex flex-wrap gap-2">
+-      {cities.map((c) => (
++      {cities.map((c: any) => (
+         <a href={`/service-area/${c.slug}`} class="chip">{c.name}</a>
+       ))}
+     </div>
+diff --git a/src/components/sections/ServicesSection.astro b/src/components/sections/ServicesSection.astro
+index 45af326..9feaaa8 100644
+--- a/src/components/sections/ServicesSection.astro
++++ b/src/components/sections/ServicesSection.astro
+@@ -8,10 +8,10 @@ import { SERVICES } from "../../data/site";
+     <div class="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+       {SERVICES.map((s) => (
+         <a href={`/services/${s.slug}`} class="card-pro card-pro-accent card-pad block h-full">
+-          <div class="card-pro-head">{s.title}</div>
+-          <p class="card-pro-text">{s.blurb}</p>
++          <div class="card-pro-head">{s.name}</div>
++          <p class="card-pro-text">{s.summary}</p>
+           <ul class="card-pro-list">
+-            {s.bullets.map((b) => <li>{b}</li>)}
++            {s.bullets && s.bullets.map((b: string) => <li>{b}</li>)}
+           </ul>
+         </a>
+       ))}
+diff --git a/src/layouts/BaseLayout.astro b/src/layouts/BaseLayout.astro
+index 5e660fe..43c3143 100644
+--- a/src/layouts/BaseLayout.astro
++++ b/src/layouts/BaseLayout.astro
+@@ -17,7 +17,7 @@ import "../styles/global.css";
+     <main><slot /></main>
+     <footer><slot name="footer" /></footer>
+     {schema && (
+-      <script type="application/ld+json" set:html={JSON.stringify(schema)}></script>
++      <script is:inline is:inline is:inline type="application/ld+json" set:html={JSON.stringify(schema)}></script>
+     )}
+   </body>
+ </html>
+diff --git a/src/layouts/SiteLayout.astro b/src/layouts/SiteLayout.astro
+index f2108a6..ba2a936 100644
+--- a/src/layouts/SiteLayout.astro
++++ b/src/layouts/SiteLayout.astro
+@@ -1,18 +1,62 @@
+ ---
+-interface Alert { text: string; href?: string }
+-interface Props { title?: string; description?: string; canonical?: string; alert?: Alert | null }
+-const { title, description, canonical, alert=null } = Astro.props as Props
+-import Head from "../components/Head.astro"
++interface Props {
++  title?: string;
++  description?: string;
++  alert?: { text: string; href?: string } | null;
++}
++const {
++  title = "Postal Systems — Commercial Mailbox Installation in San Diego",
++  description = "USPS-approved commercial mailbox installation, replacements, parcel lockers, and 4C/CBU systems. Serving San Diego County with inspection sign-off.",
++  alert = null
++} = Astro.props as Props;
+ ---
++
+ <html lang="en">
+   <head>
+     <meta charset="utf-8" />
+-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+-    <Head {title} {description} canonical={canonical} />
+-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
++    <meta name="viewport" content="width=device-width,initial-scale=1" />
++    <title>{title}</title>
++    <meta name="description" content={description} />
+   </head>
+-  <body class="min-h-screen bg-white text-gray-900">
+-    {alert && (<a href={alert.href ?? "#"} class="block w-full text-center text-[13px] bg-primary-600 text-white py-2">{alert.text}</a>)}
++  <body>
++    {alert && (
++      <a href={alert.href ?? "#"} class="block w-full text-center text-[13px] bg-accent-600/95 text-white py-2">
++        {alert.text}
++      </a>
++    )}
+     <slot />
+   </body>
+ </html>
++import StickyCTA from "../components/conversion/StickyCTA.astro"
++import TrustBar from "../components/conversion/TrustBar.astro"
++---
++interface Props {
++  title?: string;
++  description?: string;
++  alert?: { text: string; href?: string } | null;
++}
++const {
++  title = "Postal Systems — Commercial Mailbox Installation in San Diego",
++  description = "USPS-approved commercial mailbox installation, replacements, parcel lockers, and 4C/CBU systems. Serving San Diego County with inspection sign-off.",
++  alert = null
++} = Astro.props as Props;
++---
++
++<html lang="en">
++  <head>
++    <meta charset="utf-8" />
++    <meta name="viewport" content="width=device-width,initial-scale=1" />
++    <title>{title}</title>
++    <meta name="description" content={description} />
++  </head>
++  <body>
++    {alert && (
++      <a href={alert.href ?? "#"} class="block w-full text-center text-[13px] bg-accent-600/95 text-white py-2">
++        {alert.text}
++      </a>
++    )}
++    <slot />
++  <TrustBar />
++<StickyCTA />
++</body>
++</html>
+\ No newline at end of file
+diff --git a/src/styles/global.css b/src/styles/global.css
+index f10a086..f893e82 100644
+--- a/src/styles/global.css
++++ b/src/styles/global.css
+@@ -1,87 +1,50 @@
+-@import './theme.css';
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+ 
+ /* USPS brand palette */
+-:root {
+-  --usps-900: #0b3d75;
+-  --usps-800: #144d8f;
+-  --usps-700: #1a5ca5;
+-  --usps-red: #d92d27;
+-}
+-.bg-primary {
+-  @apply bg-[color:var(--usps-900)];
+-}
+-.text-primary {
+-  color: var(--usps-900);
++:root{
++  --usps-900:#0b3d75;
++  --usps-800:#144d8f;
++  --usps-700:#1a5ca5;
++  --usps-red:#d92d27;
+ }
++.bg-primary{ @apply bg-[color:var(--usps-900)] }
++.text-primary{ color:var(--usps-900) }
+ 
+ /* Hero gradient */
+-.bg-hero {
+-  background:
+-    radial-gradient(
+-      1200px 400px at 20% -10%,
+-      rgba(255, 255, 255, 0.08),
+-      transparent 50%
+-    ),
+-    linear-gradient(135deg, var(--usps-900) 0%, #0f2f57 45%, #15314e 100%);
++.bg-hero{
++  background: radial-gradient(1200px 400px at 20% -10%, rgba(255,255,255,.08), transparent 50%),
++              linear-gradient(135deg, var(--usps-900) 0%, #0f2f57 45%, #15314e 100%);
+ }
+ 
+ /* Sections & cards */
+-.section-alt {
+-  @apply bg-slate-50;
+-}
+-.ps-card {
+-  @apply rounded-2xl bg-white shadow-sm ring-1 ring-slate-200/70;
+-}
+-.ps-card:hover {
+-  @apply shadow-md ring-slate-300;
+-}
++.section-alt{ @apply bg-slate-50 }
++.ps-card{ @apply rounded-2xl bg-white shadow-sm ring-1 ring-slate-200/70; }
++.ps-card:hover{ @apply shadow-md ring-slate-300; }
+ 
+-.ps-chip {
+-  @apply inline-flex items-center rounded-full bg-white text-slate-700 ring-1 ring-slate-200 px-3 py-1 text-sm hover:bg-slate-50;
+-}
++.ps-chip{ @apply inline-flex items-center rounded-full bg-white text-slate-700 ring-1 ring-slate-200 px-3 py-1 text-sm hover:bg-slate-50; }
+ 
+ /* Buttons */
+-.btn-primary {
+-  @apply inline-flex h-11 items-center justify-center rounded-full bg-[var(--usps-700)] px-5 font-medium text-white hover:brightness-110 transition;
+-}
+-.btn-ghost {
+-  @apply inline-flex h-11 items-center justify-center rounded-full border border-white/30 px-5 font-medium text-white/90 hover:bg-white/10 transition;
+-}
++.btn-primary{ @apply inline-flex h-11 items-center justify-center rounded-full bg-[var(--usps-700)] px-5 font-medium text-white hover:brightness-110 transition; }
++.btn-ghost{ @apply inline-flex h-11 items-center justify-center rounded-full border border-white/30 px-5 font-medium text-white/90 hover:bg-white/10 transition; }
+ 
+ /* Forms */
+-.ps-input {
+-  @apply w-full rounded-xl border border-slate-300/80 bg-white px-4 py-3 text-slate-900 outline-none focus:border-[var(--usps-700)] focus:ring-2 ring-usps-700/20;
+-}
+-.ps-textarea {
+-  @apply w-full rounded-xl border border-slate-300/80 bg-white px-4 py-3 min-h-[140px] text-slate-900 outline-none focus:border-[var(--usps-700)] focus:ring-2 ring-usps-700/20;
+-}
++.ps-input{ @apply w-full rounded-xl border border-slate-300/80 bg-white px-4 py-3 text-slate-900 outline-none focus:border-[var(--usps-700)] focus:ring-2; }
++.ps-textarea{ @apply w-full rounded-xl border border-slate-300/80 bg-white px-4 py-3 min-h-[140px] text-slate-900 outline-none focus:border-[var(--usps-700)] focus:ring-2; }
+ 
+ @layer components {
+   /* Example tokenized button class that uses the fixed ring utility */
+   .btn-primary {
+     @apply inline-flex items-center justify-center rounded-full h-11 px-5 font-medium transition
+            bg-[var(--usps-700)] text-white hover:brightness-110
+-           focus:outline-none focus:ring-2 ring-usps-700/20 focus:ring-offset-2;
++           focus:outline-none focus:ring-2 focus:ring-offset-2;
+   }
+ }
+ 
+ /* ---- Legacy focus ring helper (replaces @apply focus:ring-...) ---- */
+ @layer utilities {
+   .focus-visible-ring:focus-visible {
+-    @apply outline-none ring-2 ring-usps-700/20;
+-  }
+-}
+-
+-/* ---- Bridge utility for legacy class ring-usps-700/20 ----
+-   Tailwind is erroring on @apply ring-usps-700/20, so we define it here.
+-   Uses your brand color with 20% opacity for the ring. */
+-@layer utilities {
+-  .ring-usps-700\/20 {
+-    /* Tailwind ring system variables */
+-    --tw-ring-color: color-mix(in srgb, var(--brand) 100%, transparent);
+-    --tw-ring-opacity: 0.2;
++    @apply outline-none ring-2;
+   }
+ }
+diff --git a/src/styles/tokens.css b/src/styles/tokens.css
+index 2325cd7..b1da310 100644
+--- a/src/styles/tokens.css
++++ b/src/styles/tokens.css
+@@ -1,37 +1,33 @@
+ :root{
+-  /* Brand palette (keep existing brand feel) */
+-  --brand-50:#eef2ff; --brand-100:#dbe6ff; --brand-200:#b9caff;
+-  --brand-300:#8aa6ff; --brand-400:#5c82ff; --brand-500:#315fe6;
+-  --brand-600:#2148ba; --brand-700:#15348e; --brand-800:#0f286e; --brand-900:#0b1e54;
++  --brand-50:#eef4ff;--brand-100:#dbe7ff;--brand-200:#b8d0ff;--brand-300:#8ab2ff;--brand-400:#588fff;
++  --brand-500:#2c6dff;--brand-600:#184fce;--brand-700:#123ea5;--brand-800:#0f327f;--brand-900:#0b2966;
++  --accent-600:#ffb400;
++  --bg:#ffffff;--surface:#f6f7fb;--muted:#eef0f5;--border:#d9deea;--ring:color-mix(in srgb,var(--brand-600) 28%,transparent);
++  --fg:#0e1222;--muted-fg:#5b647a;
+ 
+-  /* Accent */
+-  --accent-600:#f59e0b;
++  --r-sm:8px;--r-md:12px;--r-lg:16px;--r-xl:20px;
+ 
+-  /* Surfaces */
+-  --bg:#ffffff; --surface:#f7f8fb; --muted:#f1f2f6; --border:#e5e7ef; --ring:var(--brand-600);
++  --shadow-sm:0 1px 2px rgba(10,20,40,.06);
++  --shadow-md:0 6px 16px rgba(10,20,40,.10);
++  --shadow-lg:0 12px 28px rgba(10,20,40,.14);
+ 
+-  /* Radii */
+-  --r-sm:8px; --r-md:12px; --r-lg:16px; --r-xl:20px;
++  --space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:24px;--space-6:32px;
+ 
+-  /* Shadows */
+-  --shadow-sm:0 1px 2px rgba(0,0,0,.06),0 1px 1px rgba(0,0,0,.04);
+-  --shadow-md:0 6px 16px rgba(20,30,50,.08);
+-  --shadow-lg:0 14px 40px rgba(20,30,50,.14);
++  --ease:cubic-bezier(.2,.8,.2,1);
++  --transition-hover:200ms var(--ease);
++  --transition-enter:300ms var(--ease);
+ 
+-  /* Spacing scale */
+-  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:24px; --space-6:32px;
+-
+-  /* Motion */
+-  --ease-out:cubic-bezier(.16,1,.3,1);
+-  --t-hover:200ms var(--ease-out);
+-  --t-enter:300ms var(--ease-out);
+-
+-  /* Container */
+-  --container-max:80rem; /* ~max-w-7xl */
++  --container-max:80rem;
+ }
+-
+-@media (prefers-color-scheme:dark){
+-  :root{
+-    --bg:#0b1020; --surface:#10172a; --muted:#0f172a; --border:#1e2946;
+-  }
++@layer utilities{
++  .container{max-width:var(--container-max);margin-inline:auto;padding-inline:1rem}
++  @media(min-width:768px){.container{padding-inline:1.5rem}}
++  .section{padding-block:3rem}
++  @media(min-width:768px){.section{padding-block:4rem}}
++  .animate-fade-up{animation:fade-up var(--transition-enter) both}
++  .hover-lift{transition:transform var(--transition-hover),box-shadow var(--transition-hover)}
++}
++@media(prefers-reduced-motion:reduce){
++  .animate-fade-up,.hover-lift{animation:none!important;transition:none!important}
+ }
++@keyframes fade-up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+diff --git a/tailwind.config.mjs b/tailwind.config.mjs
+index 61a8635..0d13092 100644
+--- a/tailwind.config.mjs
++++ b/tailwind.config.mjs
+@@ -1,18 +1,55 @@
+ /** @type {import('tailwindcss').Config} */
+ export default {
+-  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
++  content: ["./src/**/*.{astro,html,js,ts,jsx,tsx,mdx}"],
++  darkMode: ["class", '[data-theme="dark"]'],
+   theme: {
++    container: {
++      center: true,
++      padding: { DEFAULT: "1rem", md: "1.5rem" },
++      screens: { "2xl": "80rem" }, // max-w-7xl
++    },
+     extend: {
+       colors: {
+-        primary: {
+-          600: "var(--ps-color-primary-600)",
+-          700: "var(--ps-color-primary-700)"
+-        },
+-        accent: { 600: "var(--ps-color-accent)" }
++        bg: "var(--tw-bg)",
++        surface: "var(--tw-surface)",
++        muted: "var(--tw-muted)",
++        border: "var(--tw-border)",
++        ring: "var(--ring)",
++        brand: { DEFAULT: "var(--brand)", 600: "var(--brand-600)", 700: "var(--brand-700)" },
++        accent: "var(--accent)",
++        fg: "var(--tw-fg)",
++        "muted-fg": "var(--tw-muted-fg)",
+       },
+-      borderRadius: { '2xl': "var(--ps-radius)" },
+-      boxShadow: { ps: "var(--ps-shadow)" }
+-    }
++      borderRadius: {
++        sm: "var(--r-sm)",
++        DEFAULT: "var(--r-md)",
++        md: "var(--r-md)",
++        lg: "var(--r-lg)",
++        xl: "var(--r-xl)",
++        "2xl": "1.25rem",
++      },
++      boxShadow: {
++        sm: "var(--shadow-sm)",
++        md: "var(--shadow-md)",
++        lg: "var(--shadow-lg)",
++        focus:
++          "0 0 0 2px color-mix(in srgb, var(--brand) 20%, transparent), 0 0 0 4px color-mix(in srgb, var(--brand) 32%, transparent)",
++      },
++      transitionTimingFunction: { brand: "var(--ease)" },
++      transitionDuration: { fast: "140ms", brand: "220ms" },
++      keyframes: {
++        "fade-up": { "0%": {opacity:"0",transform:"translateY(12px)"}, "100%": {opacity:"1",transform:"translateY(0)"} },
++        lift: { "0%": {transform:"translateY(0)"}, "100%": {transform:"translateY(-2px)"} },
++      },
++      animation: {
++        "fade-up": "fade-up var(--transition) forwards",
++        lift: "lift var(--transition-fast) both",
++      },
++    },
+   },
+-  plugins: []
+-}
++  plugins: [
++    function ({ addVariant }) {
++      addVariant("kbd-focus", "&:focus-visible");
++    },
++  ],
++};

@@ -1,0 +1,388 @@
+scanning working tree
+src/layouts/Base.astro:17:    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+find_theme_commits.sh:9:rg -n --hidden --glob '!node_modules' -e 'Mailbox Installation, Done Right' -e 'USPS-Approved' -e 'Core Services' -e 'Get a Quote' -e 'rounded-2xl' -e 'shadow-card' -e 'hero-blue' -e 'container-main' -e '#0B4DA2' -e 'Inter' -e 'TrustBar' -e 'StickyCTA' | tee -a reports/theme_scan.txt || true
+find_theme_commits.sh:15:git log -G '#0B4DA2|primary-dark|hero-blue|rounded-2xl|shadow-card|container-main|Inter' --pretty=format:'%h %ad %s' --date=iso -- src | tee -a reports/theme_scan.txt
+find_theme_commits.sh:24:CANDS=$(git log -G '#0B4DA2|hero-blue|rounded-2xl|shadow-card|container-main|Inter' --pretty=format:'%h' -- src | head -n 5)
+src/pages/index.astro:10:import TrustBar from "../components/ui/TrustBar.astro"
+src/pages/index.astro:19:        <h1 class="mt-2 text-3xl md:text-4xl font-semibold leading-tight">Mailbox Installation, Done Right.</h1>
+src/pages/index.astro:28:          <a href="/contact#quote" class="inline-flex items-center rounded-full bg-primary-600 px-5 py-3 text-white hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600">Get a Quote</a>
+src/pages/index.astro:41:      <TrustBar />
+src/pages/index.astro:55:  <!-- Core Services -->
+src/pages/index.astro:58:      <SectionHeader eyebrow="Core Services" title="Compliance-focused installs & replacements with USPS coordination and inspection sign-off." align="left" />
+src/pages/index.astro:157:        <a href="/contact#quote" class="inline-flex items-center rounded-full bg-primary-600 px-5 py-3 text-white hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600">Get a Quote</a>
+src/layouts/SiteLayout.astro:30:import StickyCTA from "../components/conversion/StickyCTA.astro"
+src/layouts/SiteLayout.astro:31:import TrustBar from "../components/conversion/TrustBar.astro"
+src/layouts/SiteLayout.astro:59:  <TrustBar />
+src/layouts/SiteLayout.astro:60:<StickyCTA />
+src/layouts/SiteLayout.astro.bak.1761614419:42:          <a href="/contact#quote" class="inline-flex h-10 px-4 items-center rounded-lg bg-brand-600 text-white shadow-md hover:bg-brand-700 hover:scale-[1.01] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600/30 focus-visible:ring-offset-2">Get a Quote</a>
+.restore_backups/SiteLayout.astro.current:42:          <a href="/contact#quote" class="inline-flex h-10 px-4 items-center rounded-lg bg-brand-600 text-white shadow-md hover:bg-brand-700 hover:scale-[1.01] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600/30 focus-visible:ring-offset-2">Get a Quote</a>
+conversion_and_scaling_setup.sh:9:const { href = "#", label = "Get a Quote", variant = "primary", className = "" } = Astro.props
+conversion_and_scaling_setup.sh:17:cat > src/components/conversion/TrustBar.astro <<'ASTRO'
+conversion_and_scaling_setup.sh:40:cat > src/components/conversion/StickyCTA.astro <<'ASTRO'
+conversion_and_scaling_setup.sh:60:<section id="quote" class="bg-gray-50 rounded-2xl p-6 sm:p-8">
+conversion_and_scaling_setup.sh:100:  if(!/from "\.\/\.\.\/components\/conversion\/StickyCTA\.astro"/.test(s)){
+conversion_and_scaling_setup.sh:101:    s = `---\n`+s.replace(/^---\n/,'').replace(/import\s+.*\n/gm,(m)=>m)+`import StickyCTA from "../components/conversion/StickyCTA.astro"\nimport TrustBar from "../components/conversion/TrustBar.astro"\n---\n`+''+s.split('---\n').slice(1).join('---\n')
+conversion_and_scaling_setup.sh:103:  if(!/<StickyCTA\b/.test(s)){
+conversion_and_scaling_setup.sh:104:    s = s.replace(/<\/body>\s*<\/html>\s*$/i, `<TrustBar />\n<StickyCTA />\n</body>\n</html>`)
+src/layouts/SiteLayout.astro.bak.1761614429:42:          <a href="/contact#quote" class="inline-flex h-10 px-4 items-center rounded-lg bg-brand-600 text-white shadow-md hover:bg-brand-700 hover:scale-[1.01] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600/30 focus-visible:ring-offset-2">Get a Quote</a>
+.restore_backups/global.css.current:23:.ps-card{ @apply rounded-2xl bg-white shadow-sm ring-1 ring-slate-200/70; }
+src/pages/services/index.astro:19:          <li class="rounded-2xl border p-5 shadow-ps">
+src/pages/service-areas/index.astro:20:          <li class="rounded-2xl border p-5 shadow-ps">
+reports/theme_scan.txt:2:src/layouts/Base.astro:17:    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+reports/theme_scan.txt:3:find_theme_commits.sh:9:rg -n --hidden --glob '!node_modules' -e 'Mailbox Installation, Done Right' -e 'USPS-Approved' -e 'Core Services' -e 'Get a Quote' -e 'rounded-2xl' -e 'shadow-card' -e 'hero-blue' -e 'container-main' -e '#0B4DA2' -e 'Inter' -e 'TrustBar' -e 'StickyCTA' | tee -a reports/theme_scan.txt || true
+reports/theme_scan.txt:4:find_theme_commits.sh:15:git log -G '#0B4DA2|primary-dark|hero-blue|rounded-2xl|shadow-card|container-main|Inter' --pretty=format:'%h %ad %s' --date=iso -- src | tee -a reports/theme_scan.txt
+reports/theme_scan.txt:5:find_theme_commits.sh:24:CANDS=$(git log -G '#0B4DA2|hero-blue|rounded-2xl|shadow-card|container-main|Inter' --pretty=format:'%h' -- src | head -n 5)
+reports/theme_scan.txt:6:src/pages/index.astro:10:import TrustBar from "../components/ui/TrustBar.astro"
+reports/theme_scan.txt:7:src/pages/index.astro:19:        <h1 class="mt-2 text-3xl md:text-4xl font-semibold leading-tight">Mailbox Installation, Done Right.</h1>
+reports/theme_scan.txt:8:src/pages/index.astro:28:          <a href="/contact#quote" class="inline-flex items-center rounded-full bg-primary-600 px-5 py-3 text-white hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600">Get a Quote</a>
+reports/theme_scan.txt:9:src/pages/index.astro:41:      <TrustBar />
+reports/theme_scan.txt:10:src/pages/index.astro:55:  <!-- Core Services -->
+reports/theme_scan.txt:11:src/pages/index.astro:58:      <SectionHeader eyebrow="Core Services" title="Compliance-focused installs & replacements with USPS coordination and inspection sign-off." align="left" />
+reports/theme_scan.txt:12:src/pages/index.astro:157:        <a href="/contact#quote" class="inline-flex items-center rounded-full bg-primary-600 px-5 py-3 text-white hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-600">Get a Quote</a>
+reports/theme_scan.txt:13:src/layouts/SiteLayout.astro:30:import StickyCTA from "../components/conversion/StickyCTA.astro"
+reports/theme_scan.txt:14:src/layouts/SiteLayout.astro:31:import TrustBar from "../components/conversion/TrustBar.astro"
+reports/theme_scan.txt:15:src/layouts/SiteLayout.astro:59:  <TrustBar />
+reports/theme_scan.txt:16:src/layouts/SiteLayout.astro:60:<StickyCTA />
+reports/theme_scan.txt:17:src/layouts/SiteLayout.astro.bak.1761614419:42:          <a href="/contact#quote" class="inline-flex h-10 px-4 items-center rounded-lg bg-brand-600 text-white shadow-md hover:bg-brand-700 hover:scale-[1.01] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600/30 focus-visible:ring-offset-2">Get a Quote</a>
+reports/theme_scan.txt:18:.restore_backups/SiteLayout.astro.current:42:          <a href="/contact#quote" class="inline-flex h-10 px-4 items-center rounded-lg bg-brand-600 text-white shadow-md hover:bg-brand-700 hover:scale-[1.01] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600/30 focus-visible:ring-offset-2">Get a Quote</a>
+reports/theme_scan.txt:19:conversion_and_scaling_setup.sh:9:const { href = "#", label = "Get a Quote", variant = "primary", className = "" } = Astro.props
+reports/theme_scan.txt:20:conversion_and_scaling_setup.sh:17:cat > src/components/conversion/TrustBar.astro <<'ASTRO'
+reports/theme_scan.txt:21:conversion_and_scaling_setup.sh:40:cat > src/components/conversion/StickyCTA.astro <<'ASTRO'
+reports/theme_scan.txt:22:conversion_and_scaling_setup.sh:60:<section id="quote" class="bg-gray-50 rounded-2xl p-6 sm:p-8">
+reports/theme_scan.txt:23:conversion_and_scaling_setup.sh:100:  if(!/from "\.\/\.\.\/components\/conversion\/StickyCTA\.astro"/.test(s)){
+reports/theme_scan.txt:24:conversion_and_scaling_setup.sh:101:    s = `---\n`+s.replace(/^---\n/,'').replace(/import\s+.*\n/gm,(m)=>m)+`import StickyCTA from "../components/conversion/StickyCTA.astro"\nimport TrustBar from "../components/conversion/TrustBar.astro"\n---\n`+''+s.split('---\n').slice(1).join('---\n')
+reports/theme_scan.txt:25:conversion_and_scaling_setup.sh:103:  if(!/<StickyCTA\b/.test(s)){
+reports/theme_scan.txt:26:conversion_and_scaling_setup.sh:104:    s = s.replace(/<\/body>\s*<\/html>\s*$/i, `<TrustBar />\n<StickyCTA />\n</body>\n</html>`)
+reports/theme_scan.txt:27:src/layouts/SiteLayout.astro.bak.1761614429:42:          <a href="/contact#quote" class="inline-flex h-10 px-4 items-center rounded-lg bg-brand-600 text-white shadow-md hover:bg-brand-700 hover:scale-[1.01] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600/30 focus-visible:ring-offset-2">Get a Quote</a>
+reports/theme_scan.txt:28:.restore_backups/global.css.current:23:.ps-card{ @apply rounded-2xl bg-white shadow-sm ring-1 ring-slate-200/70; }
+reports/theme_scan.txt:29:src/pages/services/index.astro:19:          <li class="rounded-2xl border p-5 shadow-ps">
+reports/theme_scan.txt:30:src/pages/service-areas/index.astro:20:          <li class="rounded-2xl border p-5 shadow-ps">
+src/components/Header.astro:18:      <a href="#quote" class="btn btn-light">Get a Quote</a>
+__backup/SiteLayout.astro.bak-20251027-173539:41:          <a href="/contact#quote" class="inline-flex h-10 px-4 items-center rounded-lg bg-brand-600 text-white shadow-md hover:bg-brand-700 hover:scale-[1.01] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600/30 focus-visible:ring-offset-2">Get a Quote</a>
+__backup/index.astro.bak-20251027-173539:6:import TrustBar from "../components/ui/TrustBar.astro";
+__backup/index.astro.bak-20251027-173539:25:        <h1 class="mt-2 text-3xl md:text-4xl font-semibold leading-tight">Mailbox Installation, Done Right.</h1>
+__backup/index.astro.bak-20251027-173539:34:          <Button as="a" href="/contact#quote">Get a Quote</Button>
+__backup/index.astro.bak-20251027-173539:47:      <TrustBar />
+__backup/index.astro.bak-20251027-173539:61:  <!-- Core Services -->
+__backup/index.astro.bak-20251027-173539:64:      <SectionHeader eyebrow="Core Services" title="Compliance-focused installs & replacements with USPS coordination and inspection sign-off." align="left" />
+__backup/index.astro.bak-20251027-173539:163:        <Button as="a" href="/contact#quote">Get a Quote</Button>
+src/data/services.json:14:    "summary": "Interior/exterior 4C wall-mounted or recessed systems with rough-opening coordination and ADA compliance.",
+src/components/conversion/CTAButton.astro:2:const { href = "#", label = "Get a Quote", variant = "primary", className = "" } = Astro.props
+reports/lighthouse.json:184:      "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/).",
+reports/lighthouse.json:294:      "title": "Time to Interactive",
+reports/lighthouse.json:295:      "description": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/).",
+reports/lighthouse.json:1994:      "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) helps screen readers announce text properly. [Learn how to use the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/html-lang-valid).",
+reports/lighthouse.json:2354:      "description": "Specifying a valid [BCP 47 language](https://www.w3.org/International/questions/qa-choosing-language-tags#question) on elements helps ensure that text is pronounced correctly by a screen reader. [Learn how to use the `lang` attribute](https://dequeuniversity.com/rules/axe/4.10/valid-lang).",
+reports/lighthouse.json:2388:      "title": "Interactive controls are keyboard focusable",
+reports/lighthouse.json:2395:      "title": "Interactive elements indicate their purpose and state",
+reports/lighthouse.json:2396:      "description": "Interactive elements, such as links and buttons, should indicate their state and be distinguishable from non-interactive elements. [Learn how to decorate interactive elements with affordance hints](https://developer.chrome.com/docs/lighthouse/accessibility/interactive-element-affordance/).",
+reports/lighthouse.json:5166:      "title": "Internationalization and localization",
+reports/lighthouse.json:6036:        "name": "lh:computed:TraceEngineResult:parse:UserInteractions:finalize",
+reports/lighthouse.json:6480:        "name": "lh:computed:LanternInteractive",
+reports/lighthouse.json:6534:        "name": "lh:computed:Interactive",
+src/components/conversion/QuoteForm.astro:5:<section id="quote" class="bg-gray-50 rounded-2xl p-6 sm:p-8">
+src/components/TrustBadges.astro:2:  <li class="badge-hero">USPS-Approved Installer</li>
+src/components/Welcome.astro:56:		font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+src/styles/base.css:26:    @apply rounded-card border border-borderLight bg-white shadow-card;
+src/styles/base.css:46:    @apply rounded-full border border-borderLight bg-white px-4 py-2 text-sm shadow-card;
+src/components/sections/Testimonials.astro:16:        <figure class="rounded-2xl border border-border bg-surface p-6 shadow-card">
+src/components/sections/ServicesSection.astro:6:    <h2 class="section-title">Core Services</h2>
+src/styles/global.css.bak.20251026-111115:23:.ps-card{ @apply rounded-2xl bg-white shadow-sm ring-1 ring-slate-200/70; }
+src/components/sections/WhyChooseSection.astro:8:        <div class="card-pro-head">USPS-Approved Installer</div>
+src/components/sections/HeroSection.astro:3:const { heading = "Mailbox Installation, Done Right.", sub } = Astro.props;
+src/components/sections/HeroSection.astro:14:      <a href="#quote" class="btn btn-light">Get a Quote</a>
+src/components/ui/TrustBar.astro:5:  { label: "USPS-Approved Installer" },
+src/styles/tailwind.css:51:    @apply rounded-card border border-borderLight bg-white shadow-card;
+src/styles/tailwind.css:62:    @apply rounded-card border border-borderLight bg-white shadow-card transition will-change-transform;
+src/components/sections/StatsStrip.astro:13:        <div class="rounded-2xl border border-border bg-surface p-6 text-center shadow-card">
+src/styles/global.css:23:.ps-card{ @apply rounded-2xl bg-white shadow-sm ring-1 ring-slate-200/70; }
+src/styles/global.css.bak.20251026-111325:23:.ps-card{ @apply rounded-2xl bg-white shadow-sm ring-1 ring-slate-200/70; }
+src/components/ui/CTA.astro:3:const { title="Get a USPS-approved quote", sub="Fast, compliant installs with inspection sign-off.", primaryHref="/contact#quote", primaryLabel="Get a Quote", secondaryHref="tel:16194614787", secondaryLabel="Call (619) 461-4787" } = Astro.props as Props
+src/components/ui/CTA.astro:5:<section class="rounded-2xl p-6 shadow-ps border border-gray-200 bg-white">
+src/components/ui/Card.astro:12:<Wrapper {...wrapperAttrs} class="block rounded-2xl border border-gray-200 bg-white p-5 shadow-sm transition hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary-600">
+
+recent edits to layout/styles
+c484a76 2025-11-11 15:15:25 -0800 WIP: before Astro cleanup
+a5ffeb4 2025-11-11 13:24:14 -0800 checkpoint before theme fix
+830607a 2025-11-11 13:21:31 -0800 pre-theme-apply checkpoint
+57cc7bd 2025-10-27 17:51:48 -0700 Checkpoint before restoring from __backup
+ed65a92 2025-10-25 12:24:40 -0700 Initial commit from Astro
+commits with blue palette or theme tokens
+c484a76 2025-11-11 15:15:25 -0800 WIP: before Astro cleanup
+830607a 2025-11-11 13:21:31 -0800 pre-theme-apply checkpoint
+57cc7bd 2025-10-27 17:51:48 -0700 Checkpoint before restoring from __backup
+ed65a92 2025-10-25 12:24:40 -0700 Initial commit from Astro
+commits that changed tailwind config
+c484a76 2025-11-11 15:15:25 -0800 WIP: before Astro cleanup
+a5ffeb4 2025-11-11 13:24:14 -0800 checkpoint before theme fix
+830607a 2025-11-11 13:21:31 -0800 pre-theme-apply checkpoint
+57cc7bd 2025-10-27 17:51:48 -0700 Checkpoint before restoring from __backup
+last 20 commits that touched SiteLayout or theme.css
+c484a76 2025-11-11 15:15:25 -0800 WIP: before Astro cleanup
+a5ffeb4 2025-11-11 13:24:14 -0800 checkpoint before theme fix
+830607a 2025-11-11 13:21:31 -0800 pre-theme-apply checkpoint
+57cc7bd 2025-10-27 17:51:48 -0700 Checkpoint before restoring from __backup
+showing diffs for top candidate commits
+---- c484a76 ----
+c484a76 WIP: before Astro cleanup
+_archive/service-area_dup.tar.gz
+_archive/sitemap.xml.ts
+_backup.SiteLayout.1762897931.astro
+_backup.index.1762896620.astro
+_backup.index.1762896715.astro
+_backup.index.1762897931.astro
+apply_homepage_theme.sh
+apply_homepage_theme_v2.sh
+astro.config.mjs
+audit_readout.sh
+fix_build_services_links.sh
+fix_card_and_rebuild.sh
+fix_city_index_and_home_meta.sh
+fix_getstaticpaths_imports.sh
+fix_home_button.sh
+fix_home_description_and_rebuild.sh
+fix_home_sitelayout_import.sh
+fix_routes_and_templates.sh
+fix_sectionheader_and_rebuild.sh
+fix_services_getstaticpaths.sh
+fix_stat_and_rebuild.sh
+fix_trustbar_and_rebuild.sh
+hard_fix_home_frontmatter.sh
+package-lock.json
+package.json
+patch_theme_seo_conv.sh
+public/images/hero-mailbox.jpg
+public/robots.txt
+sanitize_index_frontmatter.sh
+scaffold_local_seo.sh
+seed_services_and_areas.sh
+src/components/Breadcrumbs.astro
+src/components/Head.astro
+src/components/LocalSchema.astro
+src/components/sections/ServiceAreas.astro
+src/components/sections/StatsStrip.astro
+src/components/sections/Testimonials.astro
+src/components/ui/CTA.astro
+src/components/ui/Card.astro
+src/components/ui/SectionHeader.astro
+src/components/ui/Stat.astro
+src/components/ui/TrustBar.astro
+src/data/areas.json
+src/data/services.json
+src/layouts/BaseLayout.astro
+src/layouts/SiteLayout.astro
+src/lib/slug.ts
+src/pages/_debug-assets.astro
+src/pages/about.astro
+src/pages/blog/[post].astro
+src/pages/blog/index.astro
+src/pages/contact.astro
+src/pages/index.astro
+src/pages/projects.astro
+src/pages/service-area/[city].astro
+src/pages/service-area/[city]/[service].astro
+src/pages/service-area/orange-county/index.astro
+src/pages/service-area/riverside-county/index.astro
+src/pages/service-areas/[city]/[service].astro
+src/pages/service-areas/[city]/index.astro
+src/pages/service-areas/index.astro
+src/pages/services/[service].astro
+src/pages/services/index.astro
+src/styles/global.css
+src/styles/theme.css
+src/styles/tokens-legacy.css
+src/styles/tokens.css
+standardize_routes_config.sh
+structure_audit.sh
+tailwind.config.mjs
+validate_structure.sh
+verify_theme_and_rebuild.sh
+wrap_pages_with_baselayout.sh
+---- 830607a ----
+830607a pre-theme-apply checkpoint
+_archive/__pre_restore/SiteLayout.astro
+_archive/__pre_restore/index.astro
+_archive/__pre_restore/tokens.css
+_archive/site.ts.bak.1762894554
+apply_theme_ps_blue.sh
+astro.config.mjs
+astro.config.mjs.bak.1761613851
+package-lock.json
+package.json
+pnpm-lock.yaml
+public/robots.txt
+reports/lighthouse.json
+reports/link-check.json
+src/assets/index-BXTwH0EK.js
+src/assets/index-VcDFI4nZ.css
+src/components/ui/Breadcrumbs.astro
+src/components/ui/Button.astro
+src/components/ui/Card.astro
+src/components/ui/FeatureList.astro
+src/components/ui/PageHeader.astro
+src/components/ui/Pill.astro
+src/components/ui/Process.astro
+src/components/ui/ProcessStep.astro
+src/components/ui/SectionHeader.astro
+src/components/ui/SiteFooter.astro
+src/components/ui/SiteHeader.astro
+src/components/ui/Stat.astro
+src/components/ui/Testimonials.astro
+src/components/ui/TrustBar.astro
+src/data/service-areas.json
+src/data/services.json
+src/data/site.ts
+src/layouts/MarketingPage.astro
+src/layouts/SiteLayout.astro
+src/layouts/SiteLayout.astro.bak.1761614419
+src/layouts/SiteLayout.astro.bak.1761614429
+src/lib/seo.ts
+src/lib/slug.ts
+src/pages/blog/[post].astro
+src/pages/index.astro
+src/pages/service-area/orange-county/index.astro
+src/pages/service-area/riverside-county/index.astro
+src/pages/service-areas/[city]/[service].astro
+src/pages/service-areas/[city]/index.astro
+src/pages/service-areas/index.astro
+src/pages/services/[slug].astro
+src/pages/sitemap.xml.ts
+src/styles/base.css
+src/styles/global.css
+src/styles/tailwind.css
+src/styles/tokens.css
+tailwind.config.cjs.parked_1761612794
+tailwind.config.mjs
+tailwind.config.mjs.pre_1761612973
+tsconfig.json
+vercel.json
+---- 57cc7bd ----
+57cc7bd Checkpoint before restoring from __backup
+.gitignore
+__backup/SiteLayout.astro.bak-20251027-173539
+__backup/index.astro.bak-20251027-173539
+__backup/tokens.css.bak-20251027-173539
+astro.config.mjs
+package-lock.json
+package.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
+postcss.config.cjs
+public/favicon.svg
+public/images/hero-mailbox.png
+public/images/project-1.png
+public/images/project-2.png
+public/images/project-3.png
+public/logo.svg
+src/assets/index-BXTwH0EK.js
+src/assets/index-VcDFI4nZ.css
+src/assets/map-san-diego-county-Ba8KiJp9.jpg
+src/assets/postal/EXPECTED.txt
+src/assets/postal/Postal Systems Logo - Blue copy.webp
+src/assets/postal/Postal Systems Logo - Blue.svg
+src/assets/postal/Postal Systems Logo - Blue@0.5x copy.webp
+src/assets/postal/Postal Systems Logo - Blue@0.75x copy.webp
+src/assets/postal/Postal Systems Logo - Blue@1.5x copy.webp
+src/assets/postal/Postal Systems Logo - Blue@2x copy.webp
+src/assets/postal/Postal Systems Logo - Blue@4x copy.webp
+src/assets/postal/Postal Systems Logo - White copy.webp
+src/assets/postal/Postal Systems Logo - White@0.5x copy.webp
+src/assets/postal/Postal Systems Logo - White@0.75x copy.webp
+src/assets/postal/Postal Systems Logo - White@1.5x copy.webp
+src/assets/postal/Postal Systems Logo - White@2x copy.webp
+src/assets/postal/Postal Systems Logo - White@3x copy.webp
+src/assets/postal/Postal Systems Logo - White@4x copy.webp
+src/assets/postal/cbu-install-san-marcos.jpg
+src/assets/postal/hero-cbu-installation-san-diego.jpg
+src/assets/postal/logo-primary.svg
+src/assets/postal/logo-primary.webp
+src/assets/postal/mailbox-installation-project-oceanside-ca copy.jpg
+src/assets/postal/parcel-locker-escondido.jpg
+src/assets/postal/postal-systems-4c-mailbox-installation-oceanside-2025-10-18-14 copy.jpg
+src/assets/postal/postal-systems-anaheim-parcel-locker-repair-20250920-018 copy.jpg
+src/assets/postal/postal-systems-chula-vista-cbu-installation-20250920-050 copy.jpg
+src/assets/postal/postal-systems-compartment-door-replacement-temecula-2025-10-18-08 copy.jpg
+src/assets/postal/postal-systems-escondido-usps-location-approval-20250920-042 copy.jpg
+src/assets/postal/project-4c-chula-vista.jpg
+src/assets/postal/project-cbu-san-marcos.jpg
+src/assets/postal/service-ada.jpg
+src/assets/postal/service-area-san-diego-county.jpg
+src/assets/postal/service-cbu.jpg
+src/assets/postal/service-commercial-mailbox.jpg
+src/assets/postal/service-parcel-locker.jpg
+src/assets/postal/service-pedestal-wall.jpg
+src/assets/postal/service-repair.jpg
+src/assets/postal/vandalism-replacement-temecula.jpg
+src/components/Footer.astro
+src/components/Header.astro
+src/components/PromoBanner.astro
+src/components/TrustBadges.astro
+src/components/sections/FAQSection.astro
+src/components/sections/HeroSection.astro
+src/components/sections/IndustriesSection.astro
+src/components/sections/ProcessSection.astro
+src/components/sections/ProjectsSection.astro
+src/components/sections/QuoteSection.astro
+src/components/sections/ServiceAreas.astro
+src/components/sections/ServiceAreasSection.astro
+src/components/sections/ServicesSection.astro
+src/components/sections/StatsStrip.astro
+src/components/sections/Testimonials.astro
+src/components/sections/WhyChooseSection.astro
+src/data/service-areas.json
+src/data/services.json
+src/data/site.ts
+src/env.d.ts
+src/layouts/Base.astro
+src/layouts/BaseLayout.astro
+src/layouts/MarketingPage.astro
+src/layouts/SiteLayout.astro
+src/lib/slug.ts
+src/pages/_debug-assets.astro
+src/pages/about.astro
+src/pages/blog/[post].astro
+src/pages/blog/index.astro
+src/pages/contact.astro
+src/pages/index.astro
+src/pages/projects.astro
+src/pages/service-area/[city].astro
+src/pages/service-area/[city]/[service].astro
+src/pages/service-areas/[city]/[service].astro
+src/pages/service-areas/[city]/index.astro
+src/pages/service-areas/index.astro
+src/pages/services/[service].astro
+src/pages/services/[slug].astro
+src/pages/services/index.astro
+src/styles/base.css
+src/styles/global.css
+src/styles/global.css.bak.20251026-111115
+src/styles/global.css.bak.20251026-111325
+src/styles/tailwind.css
+src/styles/tokens.css.bak.20251027-141748
+src/styles/tokens.css.bak.20251027-142811
+tailwind.config.cjs
+tailwind.config.mjs
+tailwind.config.mjs.bak.20251026-110357
+tailwind.config.mjs.bak.20251026-110749
+tsconfig.json
+---- ed65a92 ----
+ed65a92 Initial commit from Astro
+.gitignore
+.vscode/extensions.json
+.vscode/launch.json
+README.md
+astro.config.mjs
+package-lock.json
+package.json
+public/favicon.svg
+src/assets/astro.svg
+src/assets/background.svg
+src/components/Welcome.astro
+src/layouts/Layout.astro
+src/pages/index.astro
+tsconfig.json
+
+checking stashes and branches
+  main
+* recover-oct-theme
+  theme-usps-blue-20251111-132131

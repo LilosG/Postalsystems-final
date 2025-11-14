@@ -1,9 +1,7 @@
----
-const pageTitle = "Projects | Postal Systems";
+---const pageTitle = "Projects | Postal Systems";
 const desc = "";
-import BaseLayout from "../layouts/BaseLayout.astro";
+import SiteLayout from "../layouts/SiteLayout.astro";
 import Header from "../components/Header.astro";
-import PromoBanner from "../components/PromoBanner.astro";
 import HeroSection from "../components/sections/HeroSection.astro";
 import ProjectsSection from "../components/sections/ProjectsSection.astro";
 import QuoteSection from "../components/sections/QuoteSection.astro";
@@ -31,20 +29,23 @@ const schema = {
   ],
   "license":"Licensed, Bonded & Insured • CA Lic. #904106"
 };
+export const prerender = true;
 ---
-<BaseLayout title={pageTitle} description={desc}>
+<SiteLayout title={pageTitle} description={desc}>
 <html lang="en">
   <head>
+    <link rel="canonical" href="https://sandiegocommercialmailboxes.com/projects/">
     <meta charset="utf-8" />
     <title>Projects — Postal Systems</title>
     <meta name="description" content="Featured commercial mailbox projects across San Diego County, plus select jobs in Orange and Riverside Counties." />
-    <script type="application/ld+json">{JSON.stringify(schema)}</script>
+    <script is:inline is:inline is:inline type="application/ld+json">{JSON.stringify(schema)}</script>
   </head>
   <body>
-    <Header /><HeroSection heading="Featured Projects" sub="Local proof across San Diego County — CBUs, parcel lockers, ADA-compliant stations, vandalism replacement." />
+    <h1 class="text-3xl font-bold tracking-tight">Projects</h1>
+    <Header /><HeroSection heading="Featured Projects" subtitle="Local proof across San Diego County — CBUs, parcel lockers, ADA-compliant stations, vandalism replacement." />
     <ProjectsSection />
     <QuoteSection />
     <Footer />
   </body>
 </html>
-</BaseLayout>
+</SiteLayout>

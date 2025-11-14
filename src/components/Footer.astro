@@ -1,27 +1,65 @@
 ---
+const year = new Date().getFullYear();
 ---
-<footer class="section section-muted">
-  <div class="container grid gap-8 md:grid-cols-3">
-    <div class="space-y-3">
-      <img src="/src/assets/postal/logo-primary.svg" alt="Postal Systems" class="h-7 w-auto" />
-      <p class="text-sm text-gray-700">USPS-approved commercial mailbox installation, repair & replacement</p>
-      <p class="text-sm text-gray-700">Licensed, Bonded & Insured • CA Lic. #904106</p>
-      <p class="text-sm text-gray-700">Serving San Diego County. Also available in select cities in Orange County and Riverside County.</p>
+<footer class="border-t border-ps-muted bg-white">
+  <div class="max-w-6xl mx-auto px-4 lg:px-6 py-8 grid gap-8 md:grid-cols-4 text-xs text-ps-navy/80">
+    <div>
+      <h2 class="text-sm font-semibold text-ps-navy">Postal Systems</h2>
+      <p class="mt-2">
+        USPS-approved commercial mailbox installation, repair, and replacements for HOAs, apartments, builders, and facilities.
+      </p>
+      <p class="mt-3">
+        Licensed, bonded & insured in California. CA Lic. #904106.
+      </p>
     </div>
-    <div class="space-y-2 text-sm">
-      <div>(619) 461-4787</div>
-      <div>info@postalsystemspro.com</div>
-      <div>PO Box 850, La Mesa, CA 91944</div>
+
+    <div>
+      <h3 class="text-[11px] font-semibold tracking-[0.16em] uppercase text-ps-navy">Services</h3>
+      <ul class="mt-2 space-y-1">
+        <li><a href="/services/commercial-mailbox-installation/" class="hover:text-ps-navy">Commercial mailbox installation</a></li>
+        <li><a href="/services/cbu-installation/" class="hover:text-ps-navy">CBU installation</a></li>
+        <li><a href="/services/4c-wall-mounted-mailboxes/" class="hover:text-ps-navy">4C wall-mounted mailboxes</a></li>
+        <li><a href="/services/parcel-lockers/" class="hover:text-ps-navy">Parcel lockers</a></li>
+        <li><a href="/services/repairs-lock-changes/" class="hover:text-ps-navy">Repairs & lock changes</a></li>
+        <li><a href="/services/ada-compliant-installs/" class="hover:text-ps-navy">ADA-compliant installs</a></li>
+      </ul>
     </div>
-    <nav class="grid gap-2 text-sm">
-      <a href="/">Home</a>
-      <a href="/services/commercial-mailbox-installation">Services</a>
-      <a href="/service-area/san-diego">Service Areas</a>
-      <a href="/projects">Projects</a>
-      <a href="/about">About</a>
-      <a href="/blog">Blog</a>
-      <a href="/contact">Contact</a>
-    </nav>
+
+    <div>
+      <h3 class="text-[11px] font-semibold tracking-[0.16em] uppercase text-ps-navy">Service areas</h3>
+      <ul class="mt-2 space-y-1">
+        <li><a href="/service-areas/san-diego/" class="hover:text-ps-navy">San Diego, CA</a></li>
+        <li><a href="/service-areas/carlsbad/" class="hover:text-ps-navy">Carlsbad, CA</a></li>
+        <li><a href="/service-areas/oceanside/" class="hover:text-ps-navy">Oceanside, CA</a></li>
+        <li><a href="/service-areas/san-marcos/" class="hover:text-ps-navy">San Marcos, CA</a></li>
+        <li><a href="/service-areas/escondido/" class="hover:text-ps-navy">Escondido, CA</a></li>
+        <li><a href="/service-areas/temecula/" class="hover:text-ps-navy">Temecula, CA</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="text-[11px] font-semibold tracking-[0.16em] uppercase text-ps-navy">Contact</h3>
+      <p class="mt-2">
+        Phone: <a href="tel:16194614787" class="font-semibold hover:text-ps-navy">(619) 461-4787</a>
+      </p>
+      <p class="mt-1">
+        Email: <a href="mailto:info@postalsystemsmpro.com" class="font-semibold hover:text-ps-navy">info@postalsystemsmpro.com</a>
+      </p>
+      <p class="mt-3">
+        Based in San Diego County, serving nearby cities plus select projects in Temecula, Riverside County, and Orange County.
+      </p>
+      <p class="mt-3">
+        <a href="/contact/" class="inline-flex items-center justify-center rounded-full bg-ps-navy px-4 py-1.5 text-[12px] font-semibold text-white shadow-md hover:bg-ps-navy/90 transition">
+          Request a quote
+        </a>
+      </p>
+    </div>
   </div>
-  <div class="container mt-8 border-t pt-4 text-xs text-gray-600">© Postal Systems</div>
+
+  <div class="border-t border-ps-muted bg-ps-surface">
+    <div class="max-w-6xl mx-auto px-4 lg:px-6 py-3 flex flex-col sm:flex-row items-center justify-between gap-2 text-[11px] text-ps-navy/70">
+      <span>© {year} Postal Systems. All rights reserved.</span>
+      <span>USPS-approved contractor for commercial mailbox systems.</span>
+    </div>
+  </div>
 </footer>

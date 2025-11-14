@@ -1,0 +1,121 @@
+---
+import { slugify } from "../lib/slug"
+
+const services = (await import("../data/services.json")).default as { name: string; summary?: string }[]
+const areas = (await import("../data/areas.json")).default as { city: string; state?: string }[]
+
+const primaryServices = services.slice(0, 6)
+const primaryAreas = areas.slice(0, 8)
+---
+<header class="bg-white border-b border-ps-muted/70">
+  <div class="max-w-6xl mx-auto px-4 lg:px-6 py-3 flex items-center justify-between gap-6">
+    <a href="/" class="flex items-center gap-3">
+      <div class="h-9 w-9 rounded-full bg-ps-navy flex items-center justify-center text-white text-xs font-semibold">
+        PS
+      </div>
+      <div class="flex flex-col">
+        <span class="text-sm font-semibold tracking-tight text-ps-navy">
+          Postal Systems
+        </span>
+        <span class="text-[11px] text-ps-navy/70">
+          USPS-Approved Mailbox Contractor
+        </span>
+      </div>
+    </a>
+
+    <nav class="hidden md:flex items-center gap-6 text-sm text-ps-navy">
+      <div class="relative group">
+        <button type="button" class="inline-flex items-center gap-1">
+          <span>Services</span>
+          <span class="text-[10px]">▾</span>
+        </button>
+        <div class="absolute left-0 top-full mt-2 hidden min-w-[230px] rounded-2xl bg-white shadow-ps border border-ps-muted/70 group-hover:block">
+          <ul class="py-3 text-sm">
+            {primaryServices.map((s) => (
+              <li>
+                <a
+                  href={`/services/${slugify(s.name)}/`}
+                  class="block px-4 py-1.5 hover:bg-ps-surface/60"
+                >
+                  {s.name}
+                </a>
+              </li>
+            ))}
+            <li class="mt-1 border-t border-ps-muted/60">
+              <a
+                href="/services/"
+                class="block px-4 py-1.5 text-[12px] font-medium text-ps-navy/80 hover:bg-ps-surface/60"
+              >
+                View all services
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="relative group">
+        <button type="button" class="inline-flex items-center gap-1">
+          <span>Service Areas</span>
+          <span class="text-[10px]">▾</span>
+        </button>
+        <div class="absolute left-0 top-full mt-2 hidden min-w-[230px] rounded-2xl bg-white shadow-ps border border-ps-muted/70 group-hover:block">
+          <ul class="py-3 text-sm">
+            {primaryAreas.map((c) => (
+              <li>
+                <a
+                  href={`/service-areas/${slugify(c.city)}/`}
+                  class="block px-4 py-1.5 hover:bg-ps-surface/60"
+                >
+                  {c.city}{c.state ? `, ${c.state}` : ""}
+                </a>
+              </li>
+            ))}
+            <li class="mt-1 border-t border-ps-muted/60">
+              <a
+                href="/service-areas/"
+                class="block px-4 py-1.5 text-[12px] font-medium text-ps-navy/80 hover:bg-ps-surface/60"
+              >
+                View all service areas
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <a href="/who-we-work-with/" class="hover:text-ps-navy/70">
+        Who We Work With
+      </a>
+      <a href="/projects/" class="hover:text-ps-navy/70">
+        Projects
+      </a>
+      <a href="/blog/" class="hover:text-ps-navy/70">
+        Blog
+      </a>
+      <a href="/about/" class="hover:text-ps-navy/70">
+        About Us
+      </a>
+      <a href="/contact/" class="hover:text-ps-navy/70">
+        Contact
+      </a>
+    </nav>
+
+    <div class="hidden md:flex items-center gap-3">
+      <a href="tel:16194614787" class="text-xs font-medium text-ps-navy/80">
+        (619) 461-4787
+      </a>
+      <a
+        href="/contact/"
+        class="inline-flex items-center justify-center rounded-full bg-ps-navy px-4 py-2 text-xs font-semibold text-white shadow-md hover:bg-ps-navy/90 transition"
+      >
+        Get a Quote
+      </a>
+    </div>
+
+    <button
+      type="button"
+      class="md:hidden inline-flex items-center justify-center rounded-full border border-ps-muted/70 px-3 py-1.5 text-xs font-medium text-ps-navy"
+    >
+      Menu
+    </button>
+  </div>
+</header>

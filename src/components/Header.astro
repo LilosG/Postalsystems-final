@@ -1,22 +1,108 @@
 ---
+const navItems = [
+  { href: "/", label: "Home" },
+  { href: "/services/", label: "Services", key: "services" },
+  { href: "/service-areas/", label: "Service Areas", key: "areas" },
+  { href: "/who-we-work-with/", label: "Who We Work With" },
+  { href: "/projects/", label: "Projects" },
+  { href: "/blog/", label: "Blog" },
+  { href: "/about/", label: "About" },
+  { href: "/contact/", label: "Contact" }
+];
+
+const services = [
+  { href: "/services/commercial-mailbox-installation/", label: "Commercial mailbox installation" },
+  { href: "/services/cbu-installation/", label: "CBU installation" },
+  { href: "/services/4c-wall-mounted-mailboxes/", label: "4C wall-mounted mailboxes" },
+  { href: "/services/parcel-lockers/", label: "Parcel lockers" },
+  { href: "/services/repairs-lock-changes/", label: "Repairs & lock changes" },
+  { href: "/services/ada-compliant-installs/", label: "ADA-compliant installs" }
+];
+
+const areas = [
+  { href: "/service-areas/san-diego/", label: "San Diego, CA" },
+  { href: "/service-areas/carlsbad/", label: "Carlsbad, CA" },
+  { href: "/service-areas/oceanside/", label: "Oceanside, CA" },
+  { href: "/service-areas/san-marcos/", label: "San Marcos, CA" },
+  { href: "/service-areas/escondido/", label: "Escondido, CA" },
+  { href: "/service-areas/temecula/", label: "Temecula, CA" }
+];
 ---
-<header class="sticky top-0 z-40 bg-primary shadow-sm">
-  <div class="container flex items-center justify-between py-3 md:py-4">
-    <a href="/" class="flex items-center gap-3">
-      <img src="/src/assets/postal/logo-primary.svg" alt="Postal Systems" class="h-7 w-auto" />
+<div class="bg-[#e53935] text-white text-[11px]">
+  <div class="max-w-6xl mx-auto px-4 lg:px-6 py-1 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
+    <span>Now booking HOA mailbox replacements in San Diego County.</span>
+    <a href="tel:16194614787" class="font-semibold underline-offset-2 hover:underline">
+      Call (619) 461-4787
     </a>
-    <nav class="hidden items-center gap-6 text-sm text-primaryForeground md:flex">
-      <a href="/">Home</a>
-      <a href="/services/commercial-mailbox-installation">Services</a>
-      <a href="/service-area/san-diego">Service Areas</a>
-      <a href="/projects">Projects</a>
-      <a href="/about">About</a>
-      <a href="/blog">Blog</a>
-      <a href="/contact">Contact</a>
-    </nav>
-    <div class="hidden items-center gap-2 md:flex">
-      <a href="#quote" class="btn btn-light">Get a Quote</a>
-      <a href="tel:(619) 461-4787" class="btn btn-accent">Call Now</a>
+  </div>
+</div>
+
+<nav class="bg-white border-b border-ps-muted shadow-sm">
+  <div class="max-w-6xl mx-auto px-4 lg:px-6 h-14 flex items-center justify-between gap-4">
+    <a href="/" class="flex items-center gap-2">
+      <span class="text-sm font-semibold text-ps-navy">Postal Systems</span>
+    </a>
+
+    <div class="hidden md:flex items-center gap-5 text-[13px] text-ps-navy">
+      {navItems.map((item) => {
+        if (item.key === "services") {
+          return (
+            <div class="relative group">
+              <a href={item.href} class="inline-flex items-center gap-1 hover:text-ps-navy/70">
+                {item.label}
+                <span class="text-[10px]">▾</span>
+              </a>
+              <div class="pointer-events-none absolute left-0 top-full mt-2 w-64 rounded-2xl border border-ps-muted bg-white py-2 shadow-ps opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto transition">
+                {services.map((svc) => (
+                  <a
+                    href={svc.href}
+                    class="block px-3 py-1.5 text-[12px] text-ps-navy/90 hover:bg-ps-surface hover:text-ps-navy rounded-md"
+                  >
+                    {svc.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+          );
+        }
+        if (item.key === "areas") {
+          return (
+            <div class="relative group">
+              <a href={item.href} class="inline-flex items-center gap-1 hover:text-ps-navy/70">
+                {item.label}
+                <span class="text-[10px]">▾</span>
+              </a>
+              <div class="pointer-events-none absolute left-0 top-full mt-2 w-64 rounded-2xl border border-ps-muted bg-white py-2 shadow-ps opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto transition">
+                {areas.map((area) => (
+                  <a
+                    href={area.href}
+                    class="block px-3 py-1.5 text-[12px] text-ps-navy/90 hover:bg-ps-surface hover:text-ps-navy rounded-md"
+                  >
+                    {area.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+          );
+        }
+        return (
+          <a href={item.href} class="hover:text-ps-navy/70">
+            {item.label}
+          </a>
+        );
+      })}
+    </div>
+
+    <div class="flex items-center gap-2">
+      <a href="tel:16194614787" class="hidden sm:inline-flex text-[12px] font-medium text-ps-navy">
+        (619) 461-4787
+      </a>
+      <a
+        href="/contact/"
+        class="inline-flex items-center justify-center rounded-full bg-ps-navy px-4 py-1.5 text-[12px] font-semibold text-white shadow-md hover:bg-ps-navy/90 transition"
+      >
+        Get a Quote
+      </a>
     </div>
   </div>
-</header>
+</nav>

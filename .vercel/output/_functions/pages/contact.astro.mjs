@@ -1,0 +1,64 @@
+import { f as createComponent, k as renderComponent, r as renderTemplate, m as maybeRenderHead, h as addAttribute } from '../chunks/astro/server_TujFDRGz.mjs';
+import { $ as $$SiteLayout } from '../chunks/SiteLayout_DDkmz5hv.mjs';
+export { renderers } from '../renderers.mjs';
+
+const $$Contact = createComponent(($$result, $$props, $$slots) => {
+  const title = "Request a Quote | Postal Systems";
+  const description = "Request a quote for commercial mailbox installation, replacement, or repairs in San Diego County. Postal Systems is a USPS-approved contractor handling layout, foundations, and USPS inspections.";
+  const canonical = "https://sandiegocommercialmailboxes.com/contact/";
+  return renderTemplate`${renderComponent($$result, "SiteLayout", $$SiteLayout, { "title": title, "description": description, "canonical": canonical }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<main class="bg-ps-surface"> <section class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-16 grid gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] items-start"> <div> <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-navy/70">
+Request A USPS-Approved Quote
+</p> <h1 class="mt-3 text-3xl sm:text-4xl font-semibold text-ps-navy leading-tight">
+Tell us about your mailbox project.
+</h1> <p class="mt-3 text-sm sm:text-base text-ps-navy/80 max-w-xl">
+Share a few details about your property and project. We will follow up
+          with a clear, no-obligation quote for a compliant mailbox system.
+</p> <ul class="mt-5 space-y-2 text-sm text-ps-navy/90"> <li class="flex gap-2"> <span class="mt-[5px] h-1.5 w-1.5 rounded-full bg-ps-red"></span> <span>USPS-approved contractor coordinating inspections and sign-off.</span> </li> <li class="flex gap-2"> <span class="mt-[5px] h-1.5 w-1.5 rounded-full bg-ps-red"></span> <span>Turnkey installs including pads, anchors, and tenant notices.</span> </li> <li class="flex gap-2"> <span class="mt-[5px] h-1.5 w-1.5 rounded-full bg-ps-red"></span> <span>Serving HOAs, apartments, builders, and commercial properties across San Diego County.</span> </li> </ul> <div class="mt-6 rounded-2xl border border-ps-muted bg-white p-4 text-sm text-ps-navy"> <div class="font-semibold text-xs uppercase tracking-[0.18em] text-ps-navy/70">
+Contact
+</div> <div class="mt-2"> <div>Postal Systems</div> <div class="mt-1">
+Phone:
+<a href="tel:16194614787" class="font-semibold hover:underline">
+(619) 461-4787
+</a> </div> <div class="mt-1">
+Email:
+<a href="mailto:info@postalsystemspro.com" class="font-semibold hover:underline">
+info@postalsystemspro.com
+</a> </div> </div> </div> </div> <div> <div class="rounded-2xl border border-ps-muted bg-white p-5 sm:p-6 shadow-ps"> <h2 class="text-lg font-semibold text-ps-navy">
+Get a USPS-approved mailbox quote
+</h2> <p class="mt-1 text-xs text-ps-navy/80">
+Fields marked with an asterisk are required.
+</p> <form action="https://formspree.io/f/xpwkwgjl" method="POST" class="mt-4 space-y-3"> <input type="hidden" name="_subject" value="New quote request from Postal Systems"> <input type="hidden" name="_next" value="https://sandiegocommercialmailboxes.com/thank-you/"> <input type="text" name="_gotcha" style="display:none"> <div class="grid gap-3 sm:grid-cols-2"> <label class="block text-xs font-medium text-ps-navy">
+Name*
+<input type="text" name="name" required class="mt-1 w-full rounded-lg border border-ps-muted px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-red/40"> </label> <label class="block text-xs font-medium text-ps-navy">
+Company or HOA
+<input type="text" name="company" class="mt-1 w-full rounded-lg border border-ps-muted px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-red/40"> </label> </div> <div class="grid gap-3 sm:grid-cols-2"> <label class="block text-xs font-medium text-ps-navy">
+Phone*
+<input type="tel" name="phone" required class="mt-1 w-full rounded-lg border border-ps-muted px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-red/40"> </label> <label class="block text-xs font-medium text-ps-navy">
+Email*
+<input type="email" name="email" required class="mt-1 w-full rounded-lg border border-ps-muted px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-red/40"> </label> </div> <label class="block text-xs font-medium text-ps-navy">
+Property address or city
+<input type="text" name="property" placeholder="Community name, street, or city" class="mt-1 w-full rounded-lg border border-ps-muted px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-red/40"> </label> <label class="block text-xs font-medium text-ps-navy">
+What do you need help with?
+<select name="service_type" class="mt-1 w-full rounded-lg border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-red/40"> <option value="">Select a service</option> <option value="Commercial mailbox installation">Commercial mailbox installation</option> <option value="CBU installation">CBU installation</option> <option value="4C wall-mounted mailboxes">4C wall-mounted mailboxes</option> <option value="Parcel lockers">Parcel lockers</option> <option value="Repairs and lock changes">Repairs and lock changes</option> <option value="Mailbox replacement or retrofit">Mailbox replacement or retrofit</option> <option value="Mailbox relocation or consolidation">Mailbox relocation or consolidation</option> <option value="Other">Other</option> </select> </label> <label class="block text-xs font-medium text-ps-navy">
+Describe your project or issue
+<textarea name="message"${addAttribute(4, "rows")} placeholder="Number of mailboxes, timeline, and any USPS notes you have received." class="mt-1 w-full rounded-lg border border-ps-muted px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-red/40"></textarea> </label> <button type="submit" class="mt-2 inline-flex w-full items-center justify-center rounded-full bg-ps-red px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-ps-red/90 transition">
+Submit for a USPS-approved quote
+</button> <p class="mt-2 text-[11px] text-ps-navy/70">
+By submitting this form you agree to be contacted about your mailbox project.
+              We do not share your information with third parties.
+</p> </form> </div> </div> </section> </main> ` })}`;
+}, "/Users/michaelprickett/Desktop/postalsystems-final/src/pages/contact.astro", void 0);
+
+const $$file = "/Users/michaelprickett/Desktop/postalsystems-final/src/pages/contact.astro";
+const $$url = "/contact";
+
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: $$Contact,
+  file: $$file,
+  url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };

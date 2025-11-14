@@ -1,9 +1,49 @@
-<footer class="mt-16 border-t border-gray-200">
-  <div class="mx-auto max-w-7xl px-4 py-8 text-sm text-gray-600 flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
-    <div>© {new Date().getFullYear()} Postal Systems</div>
-    <div class="space-x-4">
-      <a href="/privacy">Privacy</a>
-      <a href="/sitemap.xml">Sitemap</a>
+---
+const year = new Date().getFullYear()
+---
+<footer class="mt-16 border-t border-gray-200 bg-ps-navy">
+  <div class="container py-10 grid gap-8 md:grid-cols-3 text-sm text-ps-navy">
+    <div class="space-y-3">
+      <div class="flex flex-col">
+        <span class="text-sm font-semibold tracking-wide text-primary-600 uppercase">
+          Postal Systems
+        </span>
+        <span class="text-[11px] text-ps-navy">
+          USPS-approved commercial mailbox installation, repair & replacement
+        </span>
+      </div>
+      <p>Licensed, Bonded &amp; Insured • CA Lic. #904106</p>
+      <p>
+        Serving San Diego County. Also available in select cities in Orange
+        County and Riverside County.
+      </p>
+    </div>
+
+    <div class="space-y-2">
+      <div>(619) 461-4787</div>
+      <div>info@postalsystemspro.com</div>
+      <div>PO Box 850, La Mesa, CA 91944</div>
+    </div>
+
+    <nav class="grid gap-2">
+      <a href="/" class="hover:text-primary-600">Home</a>
+      <a href="/services/" class="hover:text-primary-600">Services</a>
+      <a href="/service-areas/" class="hover:text-primary-600">Service Areas</a>
+      <a href="/projects" class="hover:text-primary-600">Projects</a>
+      <a href="/industries" class="hover:text-primary-600">Who We Work With</a>
+      <a href="/about" class="hover:text-primary-600">About</a>
+      <a href="/blog" class="hover:text-primary-600">Blog</a>
+      <a href="/contact" class="hover:text-primary-600">Contact</a>
+    </nav>
+  </div>
+
+  <div class="border-t border-gray-200">
+    <div class="container flex flex-col md:flex-row items-center justify-between py-4 text-xs text-ps-navy gap-2">
+      <div>© {year} Postal Systems. All rights reserved.</div>
+      <div class="space-x-4">
+        <a href="/privacy" class="hover:text-primary-600">Privacy</a>
+        <a href="/sitemap.xml" class="hover:text-primary-600">Sitemap</a>
+      </div>
     </div>
   </div>
 </footer>

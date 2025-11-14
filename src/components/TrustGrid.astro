@@ -1,0 +1,46 @@
+---
+interface Props {
+  compact?: boolean
+}
+
+const { compact = false } = Astro.props as Props
+const gapClasses = compact ? "gap-3" : "gap-4"
+const paddingClasses = compact ? "px-4 py-3" : "px-5 py-4"
+---
+<div class={`grid md:grid-cols-4 ${gapClasses}`}>
+  <div class={`rounded-2xl border border-ps-muted bg-white shadow-ps ${paddingClasses}`}>
+    <p class="text-[11px] font-semibold uppercase tracking-[0.18em] text-ps-navy/70">
+      USPS Approved
+    </p>
+    <p class="mt-2 text-xs text-ps-navy/85">
+      We coordinate USPS approvals and inspection sign-off.
+    </p>
+  </div>
+
+  <div class={`rounded-2xl border border-ps-muted bg-white shadow-ps ${paddingClasses}`}>
+    <p class="text-[11px] font-semibold uppercase tracking-[0.18em] text-ps-navy/70">
+      Licensed &amp; Insured
+    </p>
+    <p class="mt-2 text-xs text-ps-navy/85">
+      Licensed, bonded, and insured in California. CA Lic. #904106.
+    </p>
+  </div>
+
+  <div class={`rounded-2xl border border-ps-muted bg-white shadow-ps ${paddingClasses}`}>
+    <p class="text-[11px] font-semibold uppercase tracking-[0.18em] text-ps-navy/70">
+      Turnkey Installs
+    </p>
+    <p class="mt-2 text-xs text-ps-navy/85">
+      Layouts, pads, anchors, tenant notice, USPS coordination, and sign-off.
+    </p>
+  </div>
+
+  <div class={`rounded-2xl border border-ps-muted bg-white shadow-ps ${paddingClasses}`}>
+    <p class="text-[11px] font-semibold uppercase tracking-[0.18em] text-ps-navy/70">
+      Warranty &amp; Support
+    </p>
+    <p class="mt-2 text-xs text-ps-navy/85">
+      Hardware-backed warranty with responsive local support.
+    </p>
+  </div>
+</div>

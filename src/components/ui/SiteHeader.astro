@@ -1,11 +1,151 @@
-<header class="border-b border-gray-200">
-  <div class="mx-auto max-w-7xl px-4 py-4 flex items-center justify-between">
-    <a href="/" class="text-lg font-semibold">Postal Systems</a>
-    <nav class="space-x-6 text-sm">
-      <a href="/services">Services</a>
-      <a href="/service-areas">Service Areas</a>
-      <a href="/projects">Projects</a>
-      <a href="/contact">Contact</a>
+---
+import { SERVICES, ALL_CITIES } from "../../data/site"
+
+const navServices = SERVICES
+const navCities = ALL_CITIES
+---
+<header class="sticky top-0 z-40 bg-white/95 border-b border-gray-200 backdrop-blur">
+  <div class="container flex items-center justify-between py-3 md:py-4">
+    <a href="/" class="flex flex-col">
+      <span class="text-sm font-semibold tracking-wide text-primary-600 uppercase">
+        Postal Systems
+      </span>
+      <span class="text-[11px] text-ps-navy">
+        Commercial Mailbox Contractors
+      </span>
+    </a>
+
+    <nav class="hidden md:flex items-center gap-6 text-sm text-ps-navy" aria-label="Main navigation">
+      <div class="relative group">
+        <button
+          class="inline-flex items-center gap-1 hover:text-primary-600 focus:outline-none"
+          type="button"
+        >
+          <span>Services</span>
+          <span class="text-[10px]">▾</span>
+        </button>
+        <div
+          class="absolute left-0 mt-2 w-64 rounded-xl border border-gray-200 bg-white shadow-lg py-2 hidden group-hover:block group-focus-within:block"
+        >
+          {navServices.map((s) => (
+            <a
+              href={`/services/${s.slug}/`}
+              class="block px-4 py-2 text-sm text-ps-navy hover:bg-ps-navy"
+            >
+              {s.name}
+            </a>
+          ))}
+          <div class="border-t border-gray-100 mt-2 pt-2">
+            <a
+              href="/services/"
+              class="block px-4 py-2 text-sm font-medium text-primary-600 hover:bg-ps-navy"
+            >
+              View all services
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative group">
+        <button
+          class="inline-flex items-center gap-1 hover:text-primary-600 focus:outline-none"
+          type="button"
+        >
+          <span>Service Areas</span>
+          <span class="text-[10px]">▾</span>
+        </button>
+        <div
+          class="absolute left-0 mt-2 w-64 rounded-xl border border-gray-200 bg-white shadow-lg py-2 hidden group-hover:block group-focus-within:block max-h-80 overflow-auto"
+        >
+          {navCities.map((c) => (
+            <a
+              href={`/service-areas/${c.slug}/`}
+              class="block px-4 py-2 text-sm text-ps-navy hover:bg-ps-navy"
+            >
+              {c.name}
+            </a>
+          ))}
+          <div class="border-t border-gray-100 mt-2 pt-2">
+            <a
+              href="/service-areas/"
+              class="block px-4 py-2 text-sm font-medium text-primary-600 hover:bg-ps-navy"
+            >
+              View all service areas
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <a href="/industries" class="hover:text-primary-600">
+        Who We Work With
+      </a>
+      <a href="/projects" class="hover:text-primary-600">
+        Projects
+      </a>
+      <a href="/blog" class="hover:text-primary-600">
+        Blog
+      </a>
+      <a href="/about" class="hover:text-primary-600">
+        About
+      </a>
+      <a href="/contact" class="hover:text-primary-600">
+        Contact
+      </a>
     </nav>
+
+    <div class="hidden md:flex items-center gap-2">
+      <a
+        href="/#quote"
+        class="inline-flex items-center rounded-full px-4 py-2 text-sm font-medium text-white bg-primary-600 hover:bg-primary-700"
+      >
+        Get a Quote
+      </a>
+      <a
+        href="tel:16194614787"
+        class="inline-flex items-center rounded-full px-4 py-2 text-sm font-medium border border-primary-600 text-primary-600 hover:bg-ps-navy"
+      >
+        Call (619) 461-4787
+      </a>
+    </div>
+
+    <div class="md:hidden flex items-center gap-2">
+      <a
+        href="tel:16194614787"
+        class="inline-flex items-center rounded-full px-3 py-1.5 text-xs font-medium border border-primary-600 text-primary-600"
+      >
+        Call
+      </a>
+      <details class="relative">
+        <summary class="list-none inline-flex items-center justify-center rounded-full px-3 py-1.5 text-xs font-medium bg-primary-600 text-white">
+          Menu
+        </summary>
+        <div class="absolute right-0 mt-2 w-56 rounded-xl border border-gray-200 bg-white shadow-lg py-2 z-50">
+          <a href="/services/" class="block px-4 py-2 text-sm text-ps-navy hover:bg-ps-navy">
+            Services
+          </a>
+          <a href="/service-areas/" class="block px-4 py-2 text-sm text-ps-navy hover:bg-ps-navy">
+            Service Areas
+          </a>
+          <a href="/industries" class="block px-4 py-2 text-sm text-ps-navy hover:bg-ps-navy">
+            Who We Work With
+          </a>
+          <a href="/projects" class="block px-4 py-2 text-sm text-ps-navy hover:bg-ps-navy">
+            Projects
+          </a>
+          <a href="/blog" class="block px-4 py-2 text-sm text-ps-navy hover:bg-ps-navy">
+            Blog
+          </a>
+          <a href="/about" class="block px-4 py-2 text-sm text-ps-navy hover:bg-ps-navy">
+            About
+          </a>
+          <a href="/contact" class="block px-4 py-2 text-sm text-ps-navy hover:bg-ps-navy">
+            Contact
+          </a>
+          <a href="/#quote" class="block px-4 py-2 text-sm font-medium text-primary-600 hover:bg-ps-navy">
+            Get a Quote
+          </a>
+        </div>
+      </details>
+    </div>
   </div>
 </header>

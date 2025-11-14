@@ -1,18 +1,19 @@
 ---
-interface Alert { text: string; href?: string }
-interface Props { title?: string; description?: string; canonical?: string; alert?: Alert | null }
-const { title, description, canonical, alert=null } = Astro.props as Props
-import Head from "../components/Head.astro"
+import BaseLayout from "./BaseLayout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  canonical?: string;
+}
+
+const { title, description, canonical } = Astro.props as Props;
 ---
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <Head {title} {description} canonical={canonical} />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  </head>
-  <body class="min-h-screen bg-white text-gray-900">
-    {alert && (<a href={alert.href ?? "#"} class="block w-full text-center text-[13px] bg-primary-600 text-white py-2">{alert.text}</a>)}
-    <slot />
-  </body>
-</html>
+<BaseLayout {title} description={description} canonical={canonical}>
+  <Header slot="header" />
+  <slot />
+  <Footer slot="footer" />
+</BaseLayout>

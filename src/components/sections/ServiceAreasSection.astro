@@ -7,7 +7,7 @@ const cities = ALL_CITIES;
     <h2 class="section-title">Service Areas — San Diego</h2>
     <p class="subtle">We also serve select cities in Orange County and Riverside County.</p>
     <div class="mt-4 flex flex-wrap gap-2">
-      {cities.map((c) => (
+      {cities.map((c: any) => (
         <a href={`/service-area/${c.slug}`} class="chip">{c.name}</a>
       ))}
     </div>

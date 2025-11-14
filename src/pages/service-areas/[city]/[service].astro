@@ -1,53 +1,213 @@
 ---
 import SiteLayout from "../../../layouts/SiteLayout.astro"
-import CTA from "../../../components/ui/CTA.astro"
 import Breadcrumbs from "../../../components/Breadcrumbs.astro"
-import { slugify } from "../../../lib/slug"
+import CTA from "../../../components/ui/CTA.astro"
+import SectionHeader from "../../../components/ui/SectionHeader.astro"
+import TrustGrid from "../../../components/TrustGrid.astro"
+import ProcessStrip from "../../../components/ProcessStrip.astro"
 
 export async function getStaticPaths() {
-  const areas = (await import("../../../data/areas.json")).default
-  const services = (await import("../../../data/services.json")).default
-  const paths = []
-  for (const c of areas) {
-    const citySlug = slugify(c.city)
-    for (const s of services) {
-      const serviceSlug = slugify(s.name)
-      paths.push({ params: { city: citySlug, service: serviceSlug }, props: { c, s } })
+  const areas = (await import("../../../data/areas.json")).default as any[]
+  const services = (await import("../../../data/services.json")).default as any[]
+
+  const paths: any[] = []
+
+  for (const a of areas) {
+    const cityName = a.city ?? a.name
+    const state = a.state ?? "CA"
+
+    const citySlug = String(cityName)
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/(^-|-$)/g, "")
+
+    for (const svc of services) {
+      const serviceSlug = String(svc.name)
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/(^-|-$)/g, "")
+
+      paths.push({
+        params: { city: citySlug, service: serviceSlug },
+        props: {
+          c: { city: cityName, state },
+          s: svc,
+        },
+      })
     }
   }
+
   return paths
 }
 
-const { c, s } = Astro.props as { c:any, s:any }
+const { c, s } = Astro.props as {
+  c: { city: string; state: string }
+  s: { name: string; summary?: string; content?: string }
+}
+
+const citySlug = String(c.city)
+  .toLowerCase()
+  .replace(/[^a-z0-9]+/g, "-")
+  .replace(/(^-|-$)/g, "")
+
+const serviceSlug = String(s.name)
+  .toLowerCase()
+  .replace(/[^a-z0-9]+/g, "-")
+  .replace(/(^-|-$)/g, "")
+
 const serviceCity = `${s.name} in ${c.city}, ${c.state}`
 const title = `${serviceCity} — Postal Systems`
-const desc = `${s.name} by USPS-approved installers serving ${c.city}, ${c.state}.`
-const canonical = `https://postalsystemspro.com/service-areas/${slugify(c.city)}/${slugify(s.name)}/`
+const desc =
+  s.summary ||
+  `${s.name} by USPS-approved installers serving ${c.city}, ${c.state}.`
+
+const canonical = `https://sandiegocommercialmailboxes.com/service-areas/${citySlug}/${serviceSlug}/`
+
+const allServices = (await import("../../../data/services.json")).default as {
+  name: string
+  summary?: string
+}[]
+
+const otherServices = allServices.filter((svc) => svc.name !== s.name)
+
+export const prerender = true
 ---
-<html lang="en">
-  <head>
-    <SiteLayout title={title} description={desc} canonical={canonical} />
-  </head>
-  <body>
-    <main class="max-w-6xl mx-auto px-4 py-10">
-      <Breadcrumbs crumbs={[
-        {href:'/',label:'Home'},
-        {href:'/service-areas/',label:'Service Areas'},
-        {href:`/service-areas/${slugify(c.city)}/`,label:c.city},
-        {href:canonical,label:s.name}
-      ]}/>
-      <h1 class="text-3xl font-bold tracking-tight">{serviceCity}</h1>
-      <p class="mt-2 text-gray-600">{desc}</p>
-      {s.content && <div class="prose max-w-none mt-6" set:html={s.content}></div>}
-      <section class="mt-8">
-        <h2 class="text-xl font-semibold">Nearby Cities</h2>
-        <ul class="mt-3 flex flex-wrap gap-3">
-          {(await import("../../../data/areas.json")).default.filter(a=>a.city!==c.city).slice(0,10).map((n:any)=>(
-            <li><a class="underline hover:text-primary-600" href={`/service-areas/${slugify(n.city)}/${slugify(s.name)}/`}>{n.city}</a></li>
-          ))}
+<SiteLayout {title} description={desc} canonical={canonical}>
+  <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
+    <Breadcrumbs
+      crumbs={[
+        { href: "/", label: "Home" },
+        { href: "/service-areas/", label: "Service Areas" },
+        { href: `/service-areas/${citySlug}/`, label: c.city },
+        { href: canonical, label: s.name },
+      ]}
+    />
+
+    <section class="mt-4">
+      <p
+        class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-navy/70"
+      >
+        Mailbox services · {c.city}, {c.state}
+      </p>
+      <h1
+        class="mt-2 text-3xl md:text-4xl font-semibold tracking-tight text-ps-navy"
+      >
+        {serviceCity}
+      </h1>
+      <p class="mt-2 text-sm md:text-base text-ps-navy/80 max-w-2xl">
+        {desc} We coordinate layout, pads, anchors, tenant notices, and USPS
+        inspections so your team does not have to.
+      </p>
+      <ul class="mt-4 space-y-1.5 text-sm text-ps-navy/85">
+        <li>• USPS-approved contractor for commercial mailbox systems.</li>
+        <li>• Local experience with HOAs and multifamily properties.</li>
+        <li>• Turnkey installs from site visit through USPS sign-off.</li>
+      </ul>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a
+          href="/contact/"
+          class="inline-flex items-center justify-center rounded-full bg-ps-red px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-ps-red/90 transition"
+        >
+          Get a USPS-approved quote
+        </a>
+        <a
+          href="tel:16194614787"
+          class="inline-flex items-center justify-center rounded-full border border-ps-navy/20 bg-white px-5 py-2.5 text-sm font-semibold text-ps-navy hover:bg-ps-navy hover:text-white transition"
+        >
+          Call (619) 461-4787
+        </a>
+      </div>
+    </section>
+
+    {s.content && (
+      <section class="mt-10">
+        <SectionHeader
+          title={`How our ${s.name.toLowerCase()} works in ${c.city}`}
+          subtitle="What to expect from planning through USPS sign-off."
+          align="left"
+        />
+        <div
+          class="prose max-w-none mt-4 text-ps-navy/90"
+          set:html={s.content}
+        ></div>
+      </section>
+    )}
+
+    <section class="mt-10">
+      <SectionHeader
+        title={`Why properties in ${c.city} choose Postal Systems`}
+        subtitle="Local, USPS-approved contractor focused on compliant commercial mailbox systems."
+        align="left"
+      />
+      <div class="mt-4">
+        <TrustGrid />
+      </div>
+    </section>
+
+    <div class="mt-10">
+      <ProcessStrip
+        subtitle={`From site visit in ${c.city} through USPS inspection and key handover, we manage the entire ${s.name.toLowerCase()} project.`}
+      />
+    </div>
+
+    {otherServices.length > 0 && (
+      <section class="mt-10">
+        <SectionHeader
+          title={`Other mailbox services available in ${c.city}`}
+          subtitle="Bundle multiple services into a single, coordinated project."
+          align="left"
+        />
+        <ul class="mt-4 grid md:grid-cols-2 gap-4">
+          {otherServices.map((svc) => {
+            const slug = String(svc.name)
+              .toLowerCase()
+              .replace(/[^a-z0-9]+/g, "-")
+              .replace(/(^-|-$)/g, "")
+            return (
+              <li
+                class="rounded-2xl border border-ps-muted bg-white p-4 shadow-ps"
+              >
+                <a
+                  href={`/service-areas/${citySlug}/${slug}/`}
+                  class="text-sm font-semibold text-ps-navy hover:text-ps-red"
+                >
+                  {svc.name} in {c.city}
+                </a>
+                {svc.summary && (
+                  <p class="mt-1 text-xs text-ps-navy/80">{svc.summary}</p>
+                )}
+              </li>
+            )
+          })}
         </ul>
       </section>
-      <div class="mt-10"><CTA /></div>
-    </main>
-  </body>
-</html>
+    )}
+
+    <section class="mt-12 mb-4">
+      <div
+        class="rounded-3xl bg-white shadow-ps border border-ps-muted px-5 py-6 md:px-8 md:py-7"
+      >
+        <h2 class="text-base md:text-lg font-semibold text-ps-navy">
+          Ready to upgrade your mailbox system in {c.city}?
+        </h2>
+        <p class="mt-1 text-sm text-ps-navy/80">
+          Fast, compliant installs with inspection sign-off.
+        </p>
+        <div class="mt-4 flex flex-wrap gap-3">
+          <a
+            href="tel:16194614787"
+            class="inline-flex items-center justify-center rounded-full bg-ps-navy px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-ps-navy/90 transition"
+          >
+            Call (619) 461-4787
+          </a>
+          <a
+            href="/contact/"
+            class="inline-flex items-center justify-center rounded-full border border-ps-navy/20 bg-white px-5 py-2.5 text-sm font-semibold text-ps-navy hover:bg-ps-navy hover:text-white transition"
+          >
+            Request a quote
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+</SiteLayout>

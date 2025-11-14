@@ -1,0 +1,40 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  safelist: [
+    { pattern: /^(text|bg|border|ring|fill|stroke)-ps-(navy|blue|red|sky|white)$/ },
+    { pattern: /^(text|bg|border|ring|fill|stroke)-ps-gray-(50|100|200|300|400|500|600|700|800|900)$/ }
+  ],
+  content: ["./src/**/*.{astro,html,js,jsx,ts,tsx,md,mdx}"],
+  theme: {
+    extend: {
+    colors: {
+      "ps-navy": "#0A2A66",
+      "ps-blue": "#1F4AA1",
+      "ps-red": "#D8182B",
+      "ps-sky": "#EAF2FF",
+      "ps-white": "#FFFFFF",
+      "ps-gray": {
+        50:  "#F9FAFB",
+        100: "#F3F4F6",
+        200: "#E5E7EB",
+        300: "#D1D5DB",
+        400: "#9CA3AF",
+        500: "#6B7280",
+        600: "#4B5563",
+        700: "#374151",
+        800: "#1F2937",
+        900: "#111827"
+      }
+    },
+      colors: {
+        // USPS brand blue (feel free to tweak)
+        usps: {
+          700: "#0B3D91",
+          800: "#0A357E",
+          900: "#072B66",
+        },
+      },
+    },
+  },
+  plugins: [],
+};

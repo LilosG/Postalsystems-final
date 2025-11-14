@@ -1,9 +1,7 @@
----
-const pageTitle = "About | Postal Systems";
+---const pageTitle = "About | Postal Systems";
 const desc = "";
-import BaseLayout from "../layouts/BaseLayout.astro";
+import SiteLayout from "../layouts/SiteLayout.astro";
 import Header from "../components/Header.astro";
-import PromoBanner from "../components/PromoBanner.astro";
 import HeroSection from "../components/sections/HeroSection.astro";
 import WhyChooseSection from "../components/sections/WhyChooseSection.astro";
 import ProcessSection from "../components/sections/ProcessSection.astro";
@@ -33,16 +31,19 @@ const schema = {
   ],
   "license":"Licensed, Bonded & Insured • CA Lic. #904106"
 };
+export const prerender = true;
 ---
-<BaseLayout title={pageTitle} description={desc}>
+<SiteLayout title={pageTitle} description={desc}>
 <html lang="en">
   <head>
+    <link rel="canonical" href="https://sandiegocommercialmailboxes.com/about/">
     <meta charset="utf-8" />
     <title>About — Postal Systems</title>
     <meta name="description" content="Postal Systems is a USPS-approved, licensed, bonded & insured commercial mailbox contractor serving San Diego County." />
-    <script type="application/ld+json">{JSON.stringify(schema)}</script>
+    <script is:inline is:inline is:inline type="application/ld+json">{JSON.stringify(schema)}</script>
   </head>
   <body>
+    <h1 class="text-3xl font-bold tracking-tight">About Postal Systems</h1>
     <Header /><HeroSection heading="Licensed, Bonded & Insured" sub="USPS-approved commercial mailbox contractor. We handle USPS coordination, ADA compliance, permits, pads, anchors, and inspection signoff." />
     <section class="py-16">
       <div class="container mx-auto px-4 max-w-3xl space-y-6">
@@ -58,4 +59,4 @@ const schema = {
     <Footer />
   </body>
 </html>
-</BaseLayout>
+</SiteLayout>

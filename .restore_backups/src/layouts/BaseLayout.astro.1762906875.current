@@ -1,0 +1,23 @@
+---
+import "../styles/theme.css";
+const { title = 'Postal Systems', description = '', schema } = Astro.props;
+import "../styles/global.css";
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+  <body class="antialiased font-sans text-slate-900">
+    <header><slot name="header" /></header>
+    <main><slot /></main>
+    <footer><slot name="footer" /></footer>
+    {schema && (
+      <script is:inline is:inline is:inline type="application/ld+json" set:html={JSON.stringify(schema)}></script>
+    )}
+  </body>
+</html>

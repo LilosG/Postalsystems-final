@@ -1,0 +1,62 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+  alert?: { text: string; href?: string } | null;
+}
+const {
+  title = "Postal Systems — Commercial Mailbox Installation in San Diego",
+  description = "USPS-approved commercial mailbox installation, replacements, parcel lockers, and 4C/CBU systems. Serving San Diego County with inspection sign-off.",
+  alert = null
+} = Astro.props as Props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    {alert && (
+      <a href={alert.href ?? "#"} class="block w-full text-center text-[13px] bg-accent-600/95 text-white py-2">
+        {alert.text}
+      </a>
+    )}
+    <slot />
+  </body>
+</html>
+import StickyCTA from "../components/conversion/StickyCTA.astro"
+import TrustBar from "../components/conversion/TrustBar.astro"
+---
+interface Props {
+  title?: string;
+  description?: string;
+  alert?: { text: string; href?: string } | null;
+}
+const {
+  title = "Postal Systems — Commercial Mailbox Installation in San Diego",
+  description = "USPS-approved commercial mailbox installation, replacements, parcel lockers, and 4C/CBU systems. Serving San Diego County with inspection sign-off.",
+  alert = null
+} = Astro.props as Props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    {alert && (
+      <a href={alert.href ?? "#"} class="block w-full text-center text-[13px] bg-accent-600/95 text-white py-2">
+        {alert.text}
+      </a>
+    )}
+    <slot />
+  <TrustBar />
+<StickyCTA />
+</body>
+</html>

@@ -1,0 +1,17 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./src/**/*.{astro,html,js,jsx,ts,tsx,md,mdx}"],
+  theme: {
+    extend: {
+      colors: {
+        // USPS brand blue (feel free to tweak)
+        usps: {
+          700: "#0B3D91",
+          800: "#0A357E",
+          900: "#072B66",
+        },
+      },
+    },
+  },
+  plugins: [],
+};

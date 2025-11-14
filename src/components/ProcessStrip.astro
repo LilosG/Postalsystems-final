@@ -1,0 +1,61 @@
+---
+interface Props {
+  title?: string
+  subtitle?: string
+}
+
+const { title = "Our installation process", subtitle = "Fast, compliant installs coordinated with USPS approval and inspection sign-off." } =
+  Astro.props as Props
+---
+<section class="mt-12 rounded-3xl bg-ps-navy text-white px-6 py-8 lg:px-8 lg:py-9">
+  <div class="max-w-5xl mx-auto">
+    <div class="mb-6 text-center md:text-left">
+      <h2 class="text-lg md:text-xl font-semibold tracking-tight">{title}</h2>
+      <p class="mt-2 text-sm text-white/80">
+        {subtitle}
+      </p>
+    </div>
+
+    <div class="grid gap-4 md:grid-cols-5 text-xs md:text-[11px]">
+      <div>
+        <p class="font-semibold uppercase tracking-[0.18em] text-white/70">Step 1</p>
+        <p class="mt-1 font-semibold">Site visit &amp; layout</p>
+        <p class="mt-1 text-white/80">
+          Assess location, layout, ADA clearances, and USPS requirements.
+        </p>
+      </div>
+
+      <div>
+        <p class="font-semibold uppercase tracking-[0.18em] text-white/70">Step 2</p>
+        <p class="mt-1 font-semibold">Detailed quote</p>
+        <p class="mt-1 text-white/80">
+          Transparent scope, hardware, labor, and schedule.
+        </p>
+      </div>
+
+      <div>
+        <p class="font-semibold uppercase tracking-[0.18em] text-white/70">Step 3</p>
+        <p class="mt-1 font-semibold">Schedule &amp; tenant notice</p>
+        <p class="mt-1 text-white/80">
+          Coordinate timing and tenant communication to minimize disruption.
+        </p>
+      </div>
+
+      <div>
+        <p class="font-semibold uppercase tracking-[0.18em] text-white/70">Step 4</p>
+        <p class="mt-1 font-semibold">Installation</p>
+        <p class="mt-1 text-white/80">
+          Pads, anchors, secure mounting, labeling, and lock work.
+        </p>
+      </div>
+
+      <div>
+        <p class="font-semibold uppercase tracking-[0.18em] text-white/70">Step 5</p>
+        <p class="mt-1 font-semibold">USPS inspection &amp; handover</p>
+        <p class="mt-1 text-white/80">
+          We coordinate USPS inspection, obtain sign-off, and deliver keys.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

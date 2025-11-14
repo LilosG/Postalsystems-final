@@ -1,9 +1,7 @@
----
-const pageTitle = "Home | Postal Systems";
+---const pageTitle = "Home | Postal Systems";
 const desc = "";
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import SiteLayout from "../../layouts/SiteLayout.astro";
 import Header from "../../components/Header.astro";
-import PromoBanner from "../../components/PromoBanner.astro";
 import HeroSection from "../../components/sections/HeroSection.astro";
 import QuoteSection from "../../components/sections/QuoteSection.astro";
 import Footer from "../../components/Footer.astro";
@@ -30,16 +28,19 @@ const schema = {
   ],
   "license":"Licensed, Bonded & Insured • CA Lic. #904106"
 };
+export const prerender = true;
 ---
-<BaseLayout title={pageTitle} description={desc}>
+<SiteLayout title={pageTitle} description={desc}>
 <html lang="en">
   <head>
+    <link rel="canonical" href="https://sandiegocommercialmailboxes.com/blog/">
     <meta charset="utf-8" />
     <title>Blog — Postal Systems</title>
     <meta name="description" content="Guides for HOAs, property managers, builders in San Diego County: USPS coordination, ADA compliance, CBUs, parcel lockers, repairs." />
-    <script type="application/ld+json">{JSON.stringify(schema)}</script>
+    <script is:inline is:inline is:inline type="application/ld+json">{JSON.stringify(schema)}</script>
   </head>
   <body>
+    <h1 class="text-3xl font-bold tracking-tight">Blog</h1>
     <Header /><HeroSection heading="Postal Systems Blog" sub="Education for HOAs, property managers, and builders in San Diego County." />
     <section class="py-16">
       <div class="container mx-auto px-4">
@@ -50,4 +51,4 @@ const schema = {
     <Footer />
   </body>
 </html>
-</BaseLayout>
+</SiteLayout>

@@ -1,0 +1,97 @@
+---
+interface Props {
+  heading?: string;
+  subheading?: string;
+  context?: string;
+}
+
+const {
+  heading = "Contact Postal Systems",
+  subheading = "Have a question about mailbox projects, service coverage, or scheduling? Send us a quick note.",
+  context,
+} = Astro.props as Props;
+---
+
+<div class="rounded-2xl border border-ps-muted bg-white p-5 sm:p-6 shadow-ps">
+  <h2 class="text-lg font-semibold text-ps-navy">
+    {heading}
+  </h2>
+  {subheading && (
+    <p class="mt-1 text-xs text-ps-navy/80">
+      {subheading}
+    </p>
+  )}
+
+  <form
+    action="https://formspree.io/f/xpwkwgjl"
+    method="POST"
+    class="mt-4 space-y-3"
+  >
+    <input type="hidden" name="_subject" value="New contact from Postal Systems" />
+    <input type="hidden" name="_next" value="https://sandiegocommercialmailboxes.com/thank-you/" />
+    <input type="text" name="_gotcha" style="display:none" />
+    {context && <input type="hidden" name="page_context" value={context} />}
+
+    <div class="grid gap-3 sm:grid-cols-2">
+      <label class="block text-xs font-medium text-ps-navy">
+        First name
+        <input
+          type="text"
+          name="first_name"
+          class="mt-1 w-full rounded-lg border border-ps-muted px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-red/40"
+        />
+      </label>
+
+      <label class="block text-xs font-medium text-ps-navy">
+        Last name
+        <input
+          type="text"
+          name="last_name"
+          class="mt-1 w-full rounded-lg border border-ps-muted px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-red/40"
+        />
+      </label>
+    </div>
+
+    <div class="grid gap-3 sm:grid-cols-2">
+      <label class="block text-xs font-medium text-ps-navy">
+        Phone
+        <input
+          type="tel"
+          name="phone"
+          class="mt-1 w-full rounded-lg border border-ps-muted px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-red/40"
+        />
+      </label>
+
+      <label class="block text-xs font-medium text-ps-navy">
+        Email
+        <input
+          type="email"
+          name="email"
+          required
+          class="mt-1 w-full rounded-lg border border-ps-muted px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-red/40"
+        />
+      </label>
+    </div>
+
+    <label class="block text-xs font-medium text-ps-navy">
+      Message
+      <textarea
+        name="message"
+        rows={4}
+        placeholder="How can we help?"
+        class="mt-1 w-full rounded-lg border border-ps-muted px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-red/40"
+      ></textarea>
+    </label>
+
+    <button
+      type="submit"
+      class="mt-2 inline-flex w-full items-center justify-center rounded-full bg-ps-red px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-ps-red/90 transition"
+    >
+      Send message
+    </button>
+
+    <p class="mt-2 text-[11px] text-ps-navy/70">
+      We will reach out using the contact details you provide. We do not share your information with third parties.
+    </p>
+  </form>
+</div>

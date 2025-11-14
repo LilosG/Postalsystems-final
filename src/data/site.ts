@@ -1,53 +1,64 @@
-/** Central site data used across pages */
-import services from "./services.json";
-import areas from "./service-areas.json";
+export const SITE = {
+  title: "Postal Systems",
+  description:
+    "USPS-approved commercial mailbox installation, repair, and upgrades across Southern California.",
+  url: "https://sandiegocommercialmailboxes.com",
+} as const;
 
 export type Service = {
-  name: string;
   slug: string;
+  name: string;
+  summary: string;
+  content: string;
   blurb?: string;
   bullets?: string[];
 };
 
-export type City = {
-  name: string;
-  slug: string;
-  county?: string;
-  priority?: number;
+import services from "./services.json";
+export const SERVICES: Service[] = (services as any[]).map((s) => ({
+  slug: String(s.slug ?? s.name ?? "")
+    .toLowerCase()
+    .replace(/\s+/g, "-"),
+  name: s.name ?? "",
+  summary: s.summary ?? s.blurb ?? "",
+  content: s.content ?? "",
+  blurb: s.blurb,
+  bullets: Array.isArray(s.bullets) ? s.bullets : undefined,
+}));
+
+export const ALL_CITIES = [
+  { slug: "san-diego", name: "San Diego" },
+  { slug: "chula-vista", name: "Chula Vista" },
+  { slug: "oceanside", name: "Oceanside" },
+  { slug: "carlsbad", name: "Carlsbad" },
+  { slug: "encinitas", name: "Encinitas" },
+  { slug: "escondido", name: "Escondido" },
+  { slug: "vista", name: "Vista" },
+  { slug: "san-marcos", name: "San Marcos" },
+  { slug: "poway", name: "Poway" },
+  { slug: "el-cajon", name: "El Cajon" },
+  { slug: "temecula", name: "Temecula" },
+  { slug: "riverside-county", name: "Riverside County" },
+  { slug: "orange-county", name: "Orange County" },
+];
+
+export type Testimonial = {
+  quote: string;
+  author: string;
+  role?: string;
+  location?: string;
 };
-
-export const SITE = {
-  name: "Postal Systems Pro",
-  phone: "(619) 461-4787",
-  email: "info@postalsystemspro.com",
-  url: "https://postalsystemspro.com"
-};
-
-export const SERVICES: Service[] = services as Service[];
-
-/** Prioritized city list: San Diego cities first, then Temecula */
-const prioritized = (areas.cities as City[])
-  .slice()
-  .sort((a, b) =>
-    (a.priority ?? 9) - (b.priority ?? 9) ||
-    (areas.priorityOrder.indexOf(a.slug) - areas.priorityOrder.indexOf(b.slug))
-  );
-
-/** Pages in the repo already import ALL_CITIES from this module */
-export const ALL_CITIES: City[] = prioritized;
-
-/** LocalBusiness JSON-LD (San Diego first, keep Temecula / counties listed) */
-export const LOCALBUSINESS_SCHEMA = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  name: SITE.name,
-  telephone: SITE.phone,
-  email: SITE.email,
-  url: SITE.url,
-  areaServed: [
-    "San Diego County, CA",
-    "Temecula, CA",
-    "Riverside County, CA",
-    "Orange County, CA"
-  ]
-};
+export const testimonials: Testimonial[] = [
+  {
+    quote: "Fast install, USPS sign-off with zero headaches.",
+    author: "Property Manager, San Diego",
+  },
+  {
+    quote: "Clean work and great communication.",
+    author: "HOA Board Member, Carlsbad",
+  },
+  {
+    quote: "Handled ADA clearances and inspection for us.",
+    author: "Facilities Director, Encinitas",
+  },
+];

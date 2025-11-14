@@ -1,0 +1,33 @@
+:root{
+  --brand-50:#eef4ff;--brand-100:#dbe7ff;--brand-200:#b8d0ff;--brand-300:#8ab2ff;--brand-400:#588fff;
+  --brand-500:#2c6dff;--brand-600:#184fce;--brand-700:#123ea5;--brand-800:#0f327f;--brand-900:#0b2966;
+  --accent-600:#ffb400;
+  --bg:#ffffff;--surface:#f6f7fb;--muted:#eef0f5;--border:#d9deea;--ring:color-mix(in srgb,var(--brand-600) 28%,transparent);
+  --fg:#0e1222;--muted-fg:#5b647a;
+
+  --r-sm:8px;--r-md:12px;--r-lg:16px;--r-xl:20px;
+
+  --shadow-sm:0 1px 2px rgba(10,20,40,.06);
+  --shadow-md:0 6px 16px rgba(10,20,40,.10);
+  --shadow-lg:0 12px 28px rgba(10,20,40,.14);
+
+  --space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:24px;--space-6:32px;
+
+  --ease:cubic-bezier(.2,.8,.2,1);
+  --transition-hover:200ms var(--ease);
+  --transition-enter:300ms var(--ease);
+
+  --container-max:80rem;
+}
+@layer utilities{
+  .container{max-width:var(--container-max);margin-inline:auto;padding-inline:1rem}
+  @media(min-width:768px){.container{padding-inline:1.5rem}}
+  .section{padding-block:3rem}
+  @media(min-width:768px){.section{padding-block:4rem}}
+  .animate-fade-up{animation:fade-up var(--transition-enter) both}
+  .hover-lift{transition:transform var(--transition-hover),box-shadow var(--transition-hover)}
+}
+@media(prefers-reduced-motion:reduce){
+  .animate-fade-up,.hover-lift{animation:none!important;transition:none!important}
+}
+@keyframes fade-up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}

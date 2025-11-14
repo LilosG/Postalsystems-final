@@ -1,18 +1,23 @@
+import typography from "@tailwindcss/typography";
+
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
+  content: ["./src/**/*.{astro,html,js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        primary: {
-          600: "var(--ps-color-primary-600)",
-          700: "var(--ps-color-primary-700)"
-        },
-        accent: { 600: "var(--ps-color-accent)" }
+        "ps-navy": "#012169",
+        "ps-red": "#DA291C",
+        "ps-surface": "#F4F6FB",
+        "ps-muted": "#E0E4EE"
       },
-      borderRadius: { '2xl': "var(--ps-radius)" },
-      boxShadow: { ps: "var(--ps-shadow)" }
+      boxShadow: {
+        ps: "0 18px 40px rgba(1, 33, 105, 0.14)"
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"]
+      }
     }
   },
-  plugins: []
-}
+  plugins: [typography]
+};

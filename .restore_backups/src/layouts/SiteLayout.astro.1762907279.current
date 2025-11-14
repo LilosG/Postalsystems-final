@@ -1,0 +1,111 @@
+---
+import "../styles/global.css"
+import Footer from "../components/Footer.astro"
+import Header from "../components/Header.astro"
+export interface Props {
+  title?: string;
+  description?: string;
+  alert?: { text: string; href?: string } | null;
+}
+const { title="Postal Systems", description="", alert=null } = Astro.props;
+---
+<html lang="en" class="scroll-smooth">
+  <head>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link rel="stylesheet" href="/src/styles/tokens.css" />
+  </head>
+  <body class="bg-bg text-slate-900 antialiased">
+  <Header />
+    {alert && (
+      <a href={alert.href ?? "#"} class="block w-full text-center text-[13px] bg-accent-600/95 text-white py-2">
+        {alert.text}
+      </a>
+    )}
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/80 border-b border-border">
+      <div class="container flex h-16 md:h-[68px] items-center gap-3">
+        <a href="/" class="flex items-center gap-2 font-semibold text-brand-700">
+          <img src="/logo.svg" alt="Postal Systems" class="h-7 w-auto" />
+          <span class="sr-only">Postal Systems</span>
+        </a>
+
+        <nav class="mx-auto hidden md:flex items-center gap-6 text-sm">
+          <a href="/services" class="hover:text-brand-700">Services</a>
+          <a href="/service-areas" class="hover:text-brand-700">Service Areas</a>
+          <a href="/projects" class="hover:text-brand-700">Projects</a>
+          <a href="/about" class="hover:text-brand-700">About</a>
+          <a href="/contact" class="hover:text-brand-700">Contact</a>
+        </nav>
+
+        <div class="ml-auto flex items-center gap-2">
+          <a href="tel:16194614787" class="hidden sm:inline-flex h-10 px-3 items-center rounded-lg border border-border text-sm hover:bg-surface focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600/30 focus-visible:ring-offset-2">Call (619) 461-4787</a>
+          <a href="/contact#quote" class="inline-flex h-10 px-4 items-center rounded-lg bg-brand-600 text-white shadow-md hover:bg-brand-700 hover:scale-[1.01] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-600/30 focus-visible:ring-offset-2">Get a Quote</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="min-h-[60vh]">
+      <slot />
+    </main>
+
+    <footer class="mt-16 border-t border-border bg-white">
+      <div class="container grid md:grid-cols-4 gap-8 py-12">
+        <div>
+          <h4 class="font-semibold mb-3">Services</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/services/commercial-mailbox" class="hover:text-brand-700">Commercial Mailbox Installation</a></li>
+            <li><a href="/services/cbu-installation" class="hover:text-brand-700">CBU Installation</a></li>
+            <li><a href="/services/wall-mounted" class="hover:text-brand-700">4C / Wall-Mounted</a></li>
+            <li><a href="/services/parcel-lockers" class="hover:text-brand-700">Parcel Lockers</a></li>
+            <li><a href="/services/repairs" class="hover:text-brand-700">Repairs & Lock Changes</a></li>
+            <li><a href="/services/ada" class="hover:text-brand-700">ADA-Compliant Installs</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-3">Industries</h4>
+          <ul class="space-y-2 text-sm">
+            <li>HOAs & Property Managers</li>
+            <li>Apartments & Multi-family</li>
+            <li>Builders & General Contractors</li>
+            <li>Commercial & Industrial Parks</li>
+            <li>Campus & Municipal</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-3">Service Areas</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/service-areas/san-diego" class="hover:text-brand-700">San Diego County</a></li>
+            <li><a href="/service-areas/chula-vista" class="hover:text-brand-700">Chula Vista</a></li>
+            <li><a href="/service-areas/san-marcos" class="hover:text-brand-700">San Marcos</a></li>
+            <li><a href="/service-areas/escondido" class="hover:text-brand-700">Escondido</a></li>
+            <li><a href="/service-areas/coronado" class="hover:text-brand-700">Coronado</a></li>
+            <li><a href="/service-areas/vista" class="hover:text-brand-700">Vista</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold mb-3">Contact</h4>
+          <ul class="space-y-2 text-sm">
+            <li>Phone: <a href="tel:16194614787" class="hover:text-brand-700">(619) 461-4787</a></li>
+            <li>Email: <a href="mailto:info@postalsystemspco.com" class="hover:text-brand-700">info@postalsystemspco.com</a></li>
+            <li>PO Box 630, La Mesa, CA 91944</li>
+            <li>CA Lic. #904106 • USPS-approved contractor</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-border">
+        <div class="container py-4 text-xs text-slate-600 flex flex-col md:flex-row items-center justify-between gap-2">
+          <div>© {new Date().getFullYear()} Postal Systems. All rights reserved.</div>
+          <div class="flex items-center gap-4">
+            <a href="/privacy" class="hover:text-brand-700">Privacy</a>
+            <a href="/terms" class="hover:text-brand-700">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <Footer />
+</body>
+</html>

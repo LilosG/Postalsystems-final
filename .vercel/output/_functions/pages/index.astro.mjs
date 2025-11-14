@@ -1,0 +1,218 @@
+import { f as createComponent, r as renderTemplate, u as unescapeHTML, k as renderComponent, m as maybeRenderHead } from '../chunks/astro/server_TujFDRGz.mjs';
+import { $ as $$SiteLayout } from '../chunks/SiteLayout_DDkmz5hv.mjs';
+import 'clsx';
+import { $ as $$SectionHeader } from '../chunks/SectionHeader_D1_SwSt1.mjs';
+export { renderers } from '../renderers.mjs';
+
+var __freeze = Object.freeze;
+var __defProp = Object.defineProperty;
+var __template = (cooked, raw) => __freeze(__defProp(cooked, "raw", { value: __freeze(cooked.slice()) }));
+var _a;
+const $$LocalSchema = createComponent(($$result, $$props, $$slots) => {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Postal Systems",
+    "url": "https://sandiegocommercialmailboxes.com/",
+    "telephone": "+1-619-461-4787",
+    "image": "https://sandiegocommercialmailboxes.com/images/hero-mailbox.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "San Diego",
+      "addressRegion": "CA",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      { "@type": "City", "name": "San Diego, CA" },
+      { "@type": "City", "name": "Carlsbad, CA" },
+      { "@type": "City", "name": "Oceanside, CA" },
+      { "@type": "City", "name": "El Cajon, CA" },
+      { "@type": "City", "name": "La Mesa, CA" },
+      { "@type": "City", "name": "San Marcos, CA" },
+      { "@type": "City", "name": "Escondido, CA" },
+      { "@type": "City", "name": "Chula Vista, CA" },
+      { "@type": "City", "name": "Encinitas, CA" },
+      { "@type": "City", "name": "Vista, CA" },
+      { "@type": "City", "name": "Temecula, CA" },
+      { "@type": "AdministrativeArea", "name": "San Diego County, CA" },
+      { "@type": "AdministrativeArea", "name": "Riverside County, CA" },
+      { "@type": "AdministrativeArea", "name": "Orange County, CA" }
+    ],
+    "priceRange": "$$",
+    "description": "USPS-approved commercial mailbox contractor providing installation, replacement, parcel lockers, and repairs for HOAs, apartments, builders, and facilities across San Diego County and select nearby markets."
+  };
+  return renderTemplate(_a || (_a = __template(['<script type="application/ld+json">', "<\/script>"])), unescapeHTML(JSON.stringify(schema)));
+}, "/Users/michaelprickett/Desktop/postalsystems-final/src/components/LocalSchema.astro", void 0);
+
+const $$Index = createComponent(($$result, $$props, $$slots) => {
+  const title = "Mailbox Installation, Done Right. | Postal Systems";
+  const description = "USPS-approved commercial mailbox systems for HOAs, apartments, builders, and facilities across San Diego County. We handle USPS coordination and inspections so you don\u2019t have to.";
+  const canonical = "https://sandiegocommercialmailboxes.com/";
+  return renderTemplate`${renderComponent($$result, "SiteLayout", $$SiteLayout, { "title": title, "description": description, "canonical": canonical }, { "default": ($$result2) => renderTemplate` ${renderComponent($$result2, "LocalSchema", $$LocalSchema, {})} ${maybeRenderHead()}<section class="bg-ps-navy text-white"> <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12 lg:py-16 grid gap-10 lg:grid-cols-[minmax(0,1.25fr)_minmax(0,1fr)] items-center"> <div> <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-white/70">
+USPS-Approved Contractor
+</p> <h1 class="mt-3 text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight">
+Mailbox Installation, Done Right.
+</h1> <p class="mt-4 text-sm sm:text-base text-white/80 max-w-xl">
+Turnkey commercial mailbox systems for HOAs, apartments, builders, and facilities across San Diego County. We handle USPS coordination and inspections so you don’t have to.
+</p> <ul class="mt-4 space-y-1.5 text-sm text-white/85"> <li>• USPS-approved installer</li> <li>• Licensed, bonded &amp; insured — CA Lic. #904106</li> <li>• ADA-compliant installs</li> <li>• Pads, anchors, tenant notice, USPS sign-off</li> </ul> <div class="mt-6 flex flex-wrap gap-3"> <a href="/contact/" class="inline-flex items-center justify-center rounded-full bg-ps-red px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-ps-red/90 transition">
+Get a Quote
+</a> <a href="tel:16194614787" class="inline-flex items-center justify-center rounded-full border border-white/70 px-5 py-2.5 text-sm font-semibold text-white hover:bg-white hover:text-ps-navy transition">
+Call (619) 461-4787
+</a> </div> </div> <div class="relative"> <div class="rounded-2xl bg-white/5 border border-white/25 shadow-[0_20px_50px_rgba(0,0,0,0.45)] overflow-hidden aspect-[4/3]"> <img src="/images/hero-mailbox.jpg" alt="Commercial mailbox installation" class="h-full w-full object-cover" loading="lazy"> </div> </div> </div> </section> <section class="bg-ps-surface border-b border-ps-muted"> <div class="max-w-6xl mx-auto px-4 lg:px-6 py-6 space-y-4"> <div class="grid gap-3 md:grid-cols-4 text-[11px] sm:text-xs text-ps-navy"> <div class="rounded-2xl border border-white bg-white px-4 py-3 shadow-ps flex flex-col gap-1"> <div class="text-[10px] font-semibold tracking-[0.18em] uppercase text-ps-red">
+Why Postal Systems
+</div> <div class="font-semibold text-xs">USPS Approved</div> <div class="mt-1 text-[11px] text-ps-navy/80">
+We manage approvals &amp; inspections.
+</div> </div> <div class="rounded-2xl border border-white bg-white px-4 py-3 shadow-ps"> <div class="font-semibold text-xs">Licensed &amp; Insured</div> <div class="mt-1 text-[11px] text-ps-navy/80">
+CA Lic. #904106 – bonded &amp; insured.
+</div> </div> <div class="rounded-2xl border border-white bg-white px-4 py-3 shadow-ps"> <div class="font-semibold text-xs">Turnkey Installs</div> <div class="mt-1 text-[11px] text-ps-navy/80">
+Pads, anchors, tenant notice, USPS sign-off.
+</div> </div> <div class="rounded-2xl border border-white bg-white px-4 py-3 shadow-ps"> <div class="font-semibold text-xs">Warranty &amp; Support</div> <div class="mt-1 text-[11px] text-ps-navy/80">
+Hardware-backed, responsive service.
+</div> </div> </div> <div class="flex flex-wrap gap-2 text-[11px] sm:text-xs"> <span class="rounded-full border border-ps-muted bg-white px-3 py-1 text-ps-navy">
+HOAs &amp; Property Managers
+</span> <span class="rounded-full border border-ps-muted bg-white px-3 py-1 text-ps-navy">
+Apartments &amp; Multi-family
+</span> <span class="rounded-full border border-ps-muted bg-white px-3 py-1 text-ps-navy">
+Builders &amp; General Contractors
+</span> <span class="rounded-full border border-ps-muted bg-white px-3 py-1 text-ps-navy">
+Commercial &amp; Industrial Parks
+</span> <span class="rounded-full border border-ps-muted bg-white px-3 py-1 text-ps-navy">
+Campus &amp; Municipal
+</span> </div> </div> </section> <section class="bg-ps-surface border-b border-ps-muted"> <div class="max-w-6xl mx-auto px-4 lg:px-6 py-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4"> <div class="rounded-xl border border-white bg-white p-4 text-center shadow-ps"> <div class="text-xl font-semibold text-ps-navy">20+ years</div> <div class="mt-1 text-[11px] uppercase tracking-wide text-ps-navy/70">
+Experience
+</div> </div> <div class="rounded-xl border border-white bg-white p-4 text-center shadow-ps"> <div class="text-xl font-semibold text-ps-navy">500+</div> <div class="mt-1 text-[11px] uppercase tracking-wide text-ps-navy/70">
+Projects completed
+</div> </div> <div class="rounded-xl border border-white bg-white p-4 text-center shadow-ps"> <div class="text-xl font-semibold text-ps-navy">100%</div> <div class="mt-1 text-[11px] uppercase tracking-wide text-ps-navy/70">
+USPS sign-off
+</div> </div> <div class="rounded-xl border border-white bg-white p-4 text-center shadow-ps"> <div class="text-xl font-semibold text-ps-navy">30+</div> <div class="mt-1 text-[11px] uppercase tracking-wide text-ps-navy/70">
+Cities served
+</div> </div> </div> </section> <section class="bg-white border-b border-ps-muted"> <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12"> ${renderComponent($$result2, "SectionHeader", $$SectionHeader, { "title": "Core services", "subtitle": "Compliance-focused installs and replacements with USPS coordination and inspection sign-off.", "align": "left" })} <div class="mt-8 grid gap-6 md:grid-cols-3"> <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(1,33,105,0.18)] transition"> <div class="text-[10px] font-semibold tracking-[0.18em] uppercase text-ps-red">
+Installation
+</div> <h2 class="mt-2 text-sm font-semibold text-ps-navy">
+Commercial Mailbox Installation
+</h2> <ul class="mt-3 space-y-1 text-xs text-ps-navy/80"> <li>USPS-approved mailbox systems for HOAs &amp; apartments.</li> <li>USPS coordination &amp; inspection.</li> <li>Pads, anchors, tenant notice.</li> </ul> <a href="/services/commercial-mailbox-installation/" class="mt-4 inline-flex text-xs font-semibold text-ps-red hover:text-ps-red/90">
+Request quote →
+</a> </article> <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(1,33,105,0.18)] transition"> <div class="text-[10px] font-semibold tracking-[0.18em] uppercase text-ps-red">
+New Systems
+</div> <h2 class="mt-2 text-sm font-semibold text-ps-navy">
+Cluster Box Unit (CBU) Installation
+</h2> <ul class="mt-3 space-y-1 text-xs text-ps-navy/80"> <li>USPS-approved CBU models to required site specs.</li> <li>Concrete pads &amp; anchors.</li> <li>USPS approval &amp; sign-off.</li> </ul> <a href="/services/cbu-installation/" class="mt-4 inline-flex text-xs font-semibold text-ps-red hover:text-ps-red/90">
+Request quote →
+</a> </article> <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(1,33,105,0.18)] transition"> <div class="text-[10px] font-semibold tracking-[0.18em] uppercase text-ps-red">
+4C Systems
+</div> <h2 class="mt-2 text-sm font-semibold text-ps-navy">
+4C / Wall-Mounted Mailboxes
+</h2> <ul class="mt-3 space-y-1 text-xs text-ps-navy/80"> <li>ADA height/clearance compliant.</li> <li>Secure tenant access.</li> <li>Lobby &amp; package room layouts.</li> </ul> <a href="/services/4c-wall-mounted-mailboxes/" class="mt-4 inline-flex text-xs font-semibold text-ps-red hover:text-ps-red/90">
+Request quote →
+</a> </article> <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(1,33,105,0.18)] transition"> <div class="text-[10px] font-semibold tracking-[0.18em] uppercase text-ps-red">
+Parcel
+</div> <h2 class="mt-2 text-sm font-semibold text-ps-navy">
+Parcel Locker Installation
+</h2> <ul class="mt-3 space-y-1 text-xs text-ps-navy/80"> <li>USPS-approved parcel lockers.</li> <li>Package room / lobby installs.</li> <li>USPS coordination.</li> </ul> <a href="/services/parcel-lockers/" class="mt-4 inline-flex text-xs font-semibold text-ps-red hover:text-ps-red/90">
+Request quote →
+</a> </article> <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(1,33,105,0.18)] transition"> <div class="text-[10px] font-semibold tracking-[0.18em] uppercase text-ps-red">
+Service
+</div> <h2 class="mt-2 text-sm font-semibold text-ps-navy">
+Repairs &amp; Lock Changes
+</h2> <ul class="mt-3 space-y-1 text-xs text-ps-navy/80"> <li>Vandalism replacement &amp; lock changes.</li> <li>Key/lock support for 8+ doors.</li> <li>Secure tenant access.</li> </ul> <a href="/services/repairs-lock-changes/" class="mt-4 inline-flex text-xs font-semibold text-ps-red hover:text-ps-red/90">
+Request quote →
+</a> </article> <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(1,33,105,0.18)] transition"> <div class="text-[10px] font-semibold tracking-[0.18em] uppercase text-ps-red">
+Accessibility
+</div> <h2 class="mt-2 text-sm font-semibold text-ps-navy">
+ADA-Compliant Installs
+</h2> <ul class="mt-3 space-y-1 text-xs text-ps-navy/80"> <li>Accessible approach/reach, height, and clearance.</li> <li>Documented compliance.</li> <li>Retrofits and new installs.</li> </ul> <a href="/services/ada-compliant-installs/" class="mt-4 inline-flex text-xs font-semibold text-ps-red hover:text-ps-red/90">
+Request quote →
+</a> </article> </div> </div> </section> <section class="bg-ps-surface border-b border-ps-muted"> <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12"> ${renderComponent($$result2, "SectionHeader", $$SectionHeader, { "title": "Featured projects", "subtitle": "Recent installations across San Diego County. Also available in select cities in Orange County and Riverside County.", "align": "left" })} <div class="mt-8 grid gap-6 md:grid-cols-3"> <article class="rounded-2xl border border-ps-muted bg-white shadow-ps overflow-hidden flex flex-col"> <div class="aspect-[4/3] bg-ps-surface"> <img src="/images/projects/cbu-san-marcos.jpg" alt="CBU installation in San Marcos, CA" class="h-full w-full object-cover" loading="lazy"> </div> <div class="p-4"> <h3 class="text-sm font-semibold text-ps-navy">
+CBU Installation — San Marcos, CA
+</h3> <p class="mt-1 text-xs text-ps-navy/80">
+Turnkey replacement with pads and anchors.
+</p> </div> </article> <article class="rounded-2xl border border-ps-muted bg-white shadow-ps overflow-hidden flex flex-col"> <div class="aspect-[4/3] bg-ps-surface"> <img src="/images/projects/4c-upgrade-chula-vista.jpg" alt="4C upgrade in Chula Vista, CA" class="h-full w-full object-cover" loading="lazy"> </div> <div class="p-4"> <h3 class="text-sm font-semibold text-ps-navy">
+4C Upgrade — Chula Vista, CA
+</h3> <p class="mt-1 text-xs text-ps-navy/80">
+New wall-mounted units with added capacity.
+</p> </div> </article> <article class="rounded-2xl border border-ps-muted bg-white shadow-ps overflow-hidden flex flex-col"> <div class="aspect-[4/3] bg-ps-surface"> <img src="/images/projects/vandalism-temecula.jpg" alt="Vandalism replacement in Temecula, CA" class="h-full w-full object-cover" loading="lazy"> </div> <div class="p-4"> <h3 class="text-sm font-semibold text-ps-navy">
+Vandalism Replacement — Temecula, CA
+</h3> <p class="mt-1 text-xs text-ps-navy/80">
+Secure replacements with lock changes.
+</p> </div> </article> </div> </div> </section> <section class="bg-ps-navy text-white"> <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12"> ${renderComponent($$result2, "SectionHeader", $$SectionHeader, { "title": "Our installation process", "subtitle": "Fast, compliant, and coordinated with USPS.", "align": "center" })} <div class="mt-8 grid gap-4 md:grid-cols-5 text-[11px] sm:text-xs"> <div class="rounded-2xl bg-white/5 border border-white/10 p-4"> <div class="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/70">
+Step 1
+</div> <div class="mt-2 font-semibold text-sm">Site Visit &amp; Layout</div> <p class="mt-1 text-white/80">
+Assess location, layout, and ADA clearances.
+</p> </div> <div class="rounded-2xl bg-white/5 border border-white/10 p-4"> <div class="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/70">
+Step 2
+</div> <div class="mt-2 font-semibold text-sm">Detailed Quote</div> <p class="mt-1 text-white/80">
+Transparent scope, cost, and timeline.
+</p> </div> <div class="rounded-2xl bg-white/5 border border-white/10 p-4"> <div class="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/70">
+Step 3
+</div> <div class="mt-2 font-semibold text-sm">Schedule &amp; Tenant Notice</div> <p class="mt-1 text-white/80">
+Coordinate USPS timing and tenant access.
+</p> </div> <div class="rounded-2xl bg-white/5 border border-white/10 p-4"> <div class="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/70">
+Step 4
+</div> <div class="mt-2 font-semibold text-sm">Installation</div> <p class="mt-1 text-white/80">
+Pads, anchors, secure mounting, and locks.
+</p> </div> <div class="rounded-2xl bg-white/5 border border-white/10 p-4"> <div class="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/70">
+Step 5
+</div> <div class="mt-2 font-semibold text-sm">USPS Inspection &amp; Handover</div> <p class="mt-1 text-white/80">
+We obtain sign-off and deliver keys.
+</p> </div> </div> </div> </section> <section class="bg-white border-b border-ps-muted"> <div class="max-w-6xl mx-auto px-4 lg:px-6 py-10"> ${renderComponent($$result2, "SectionHeader", $$SectionHeader, { "title": "Service areas", "subtitle": "USPS-approved installations across San Diego County.", "align": "center" })} <div class="mt-4 flex flex-wrap justify-center gap-2 text-[11px] sm:text-xs"> <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+San Diego
+</span> <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+Chula Vista
+</span> <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+Oceanside
+</span> <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+Carlsbad
+</span> <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+San Marcos
+</span> <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+Vista
+</span> <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+Encinitas
+</span> <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+Escondido
+</span> <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+El Cajon
+</span> <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+Poway
+</span> <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+Temecula
+</span> <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+Riverside County
+</span> <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+Orange County
+</span> </div> </div> </section> <section class="bg-ps-surface border-y border-ps-muted"> <div class="max-w-6xl mx-auto px-4 lg:px-6 py-8 flex flex-col gap-4 items-center justify-between md:flex-row"> <div> <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-red">
+Ready to upgrade?
+</p> <h2 class="mt-2 text-base sm:text-lg font-semibold text-ps-navy">
+Replace or install your mailbox system with USPS sign-off.
+</h2> </div> <a href="/contact/" class="inline-flex items-center justify-center rounded-full bg-ps-red px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-ps-red/90 transition">
+Get a Quote
+</a> </div> </section> <section class="bg-white"> <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12 grid gap-8 md:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)]"> <div class="rounded-2xl border border-ps-muted bg-ps-surface p-6 shadow-ps"> <h2 class="text-sm font-semibold text-ps-navy">Request a Quote</h2> <p class="mt-1 text-xs text-ps-navy/80">
+Tell us about your project and timing.
+</p> <form class="mt-4 space-y-3"> <input type="text" name="name" placeholder="Name" class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"> <input type="tel" name="phone" placeholder="Phone" class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"> <input type="email" name="email" placeholder="Email" class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"> <input type="text" name="address" placeholder="Address / City" class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"> <textarea name="details" placeholder="Describe your project or issue" rows="4" class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"></textarea> <button type="submit" class="w-full rounded-full bg-ps-navy px-4 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-ps-navy/90 transition">
+Submit
+</button> </form> </div> <div class="rounded-2xl border border-ps-muted bg-white p-6 shadow-ps"> <h2 class="text-sm font-semibold text-ps-navy">Contact &amp; Coverage</h2> <dl class="mt-3 space-y-2 text-xs text-ps-navy/85"> <div> <dt class="font-semibold">Phone</dt> <dd> <a href="tel:16194614787" class="hover:underline">
+(619) 461-4787
+</a> </dd> </div> <div> <dt class="font-semibold">Email</dt> <dd> <a href="mailto:info@postalsystemspro.com" class="hover:underline">
+info@postalsystemspro.com
+</a> </dd> </div> <div> <dt class="font-semibold">Coverage</dt> <dd class="mt-1">
+Serving San Diego County. Also available in select cities in Orange County and Riverside County.
+</dd> </div> <div> <dt class="font-semibold">Licensed</dt> <dd class="mt-1">
+Licensed, bonded &amp; insured — CA Lic. #904106.
+</dd> </div> <div> <dt class="font-semibold">USPS</dt> <dd class="mt-1">
+We coordinate USPS approvals and inspections so you don’t have to.
+</dd> </div> </dl> </div> </div> </section> ` })}`;
+}, "/Users/michaelprickett/Desktop/postalsystems-final/src/pages/index.astro", void 0);
+
+const $$file = "/Users/michaelprickett/Desktop/postalsystems-final/src/pages/index.astro";
+const $$url = "";
+
+const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
+  __proto__: null,
+  default: $$Index,
+  file: $$file,
+  url: $$url
+}, Symbol.toStringTag, { value: 'Module' }));
+
+const page = () => _page;
+
+export { page };

@@ -1,13 +1,35 @@
 ---
-const { name, url, phone, sameAs = [], areaServed = [] } = Astro.props as { name: string, url: string, phone?: string, sameAs?: string[], areaServed?: string[] }
-const data = {
+const schema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": name,
-  "url": url,
-  "telephone": phone,
-  "areaServed": areaServed.map(c => ({ "@type":"City", "name": c })),
-  "sameAs": sameAs
-}
+  "name": "Postal Systems",
+  "url": "https://sandiegocommercialmailboxes.com/",
+  "telephone": "+1-619-461-4787",
+  "image": "https://sandiegocommercialmailboxes.com/images/hero-mailbox.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "San Diego",
+    "addressRegion": "CA",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "San Diego, CA" },
+    { "@type": "City", "name": "Carlsbad, CA" },
+    { "@type": "City", "name": "Oceanside, CA" },
+    { "@type": "City", "name": "El Cajon, CA" },
+    { "@type": "City", "name": "La Mesa, CA" },
+    { "@type": "City", "name": "San Marcos, CA" },
+    { "@type": "City", "name": "Escondido, CA" },
+    { "@type": "City", "name": "Chula Vista, CA" },
+    { "@type": "City", "name": "Encinitas, CA" },
+    { "@type": "City", "name": "Vista, CA" },
+    { "@type": "City", "name": "Temecula, CA" },
+    { "@type": "AdministrativeArea", "name": "San Diego County, CA" },
+    { "@type": "AdministrativeArea", "name": "Riverside County, CA" },
+    { "@type": "AdministrativeArea", "name": "Orange County, CA" }
+  ],
+  "priceRange": "$$",
+  "description": "USPS-approved commercial mailbox contractor providing installation, replacement, parcel lockers, and repairs for HOAs, apartments, builders, and facilities across San Diego County and select nearby markets."
+};
 ---
-<script type="application/ld+json">{JSON.stringify(data)}</script>
+<script is:inline type="application/ld+json" set:html={JSON.stringify(schema)}></script>

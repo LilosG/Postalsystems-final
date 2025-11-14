@@ -1,8 +1,10 @@
+import { defineConfig } from "astro/config"
 import sitemap from "@astrojs/sitemap"
-import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
+import vercel from "@astrojs/vercel"
 
-export default defineConfig({ redirects: { "/service-area/:path*": "/service-areas/:path*" }, 
-  site: "https://postalsystemspro.com",
-  integrations: [sitemap(), tailwind()],
- });
+export default defineConfig({
+  site: "https://sandiegocommercialmailboxes.com",
+  output: "server",
+  adapter: vercel({ mode: "serverless" }),
+  integrations: [sitemap()],
+})

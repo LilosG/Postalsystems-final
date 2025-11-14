@@ -1,0 +1,30 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./src/**/*.{astro,html,js,jsx,ts,tsx,md,mdx}",
+    "./public/**/*.html"
+  ],
+  theme: {
+    extend: {
+      colors: {
+        // Map your older look
+        brand: {
+          50:  "#EAF2FF",
+          100: "#dbe8ff",
+          200: "#b9d1ff",
+          300: "#91b8ff",
+          400: "#6a9eff",
+          500: "#1F4AA1",   // primary blue
+          600: "#1b408d",
+          700: "#0A2A66",   // deep navy (old hero)
+          800: "#071d49",
+          900: "#04122f"
+        },
+        surface: "#F8FAFC"  // light section bg
+      },
+      boxShadow: { card: "0 6px 24px rgba(0,0,0,0.06)" },
+      borderRadius: { xl: "0.9rem", "2xl": "1.25rem" }
+    },
+  },
+  plugins: [],
+};

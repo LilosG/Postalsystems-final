@@ -1,29 +1,65 @@
 ---
 import SiteLayout from "../../layouts/SiteLayout.astro"
 import CTA from "../../components/ui/CTA.astro"
+import SectionHeader from "../../components/ui/SectionHeader.astro"
 import { slugify } from "../../lib/slug"
-const areas = (await import("../../data/areas.json")).default
-const pageTitle = "Service Areas"
-const pageDesc = "Commercial mailbox installation and service across San Diego County."
-const canonical = "https://postalsystemspro.com/service-areas"
+import TrustGrid from "../../components/TrustGrid.astro"
+import ProcessStrip from "../../components/ProcessStrip.astro"
+
+const areas = (await import("../../data/areas.json")).default as {
+  city: string
+  state?: string
+  county?: string
+}[]
+
+const title = "Service Areas | Postal Systems"
+const description =
+  "Commercial mailbox installation and service across San Diego County, with select coverage in Riverside County and Orange County."
+const canonical = "https://sandiegocommercialmailboxes.com/service-areas/"
+export const prerender = true
 ---
-<html lang="en">
-  <head>
-    <SiteLayout title={`${pageTitle} — Postal Systems`} description={pageDesc} canonical={canonical} />
-  </head>
-  <body>
-    <main class="max-w-6xl mx-auto px-4 py-10">
-      <h1 class="text-3xl font-bold tracking-tight">Service Areas</h1>
-      <p class="mt-2 text-gray-600">{pageDesc}</p>
-      <ul class="mt-8 grid md:grid-cols-3 gap-6">
-        {areas.map(c => (
-          <li class="rounded-2xl border p-5 shadow-ps">
-            <a href={`/service-areas/${slugify(c.city)}/`} class="text-lg font-semibold hover:text-primary-600">{c.city}, {c.state}</a>
-            {c.county && <p class="text-gray-600 mt-1">{c.county} County</p>}
-          </li>
-        ))}
-      </ul>
-      <div class="mt-10"><CTA /></div>
-    </main>
-  </body>
-</html>
+<SiteLayout {title} {description} {canonical}>
+  <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10">
+    <SectionHeader
+      title="Service areas"
+      subtitle="USPS-approved commercial mailbox installation across San Diego County, with select projects in Riverside County and Orange County."
+      align="left"
+    />
+
+    <ul class="mt-8 grid md:grid-cols-3 gap-6">
+      {areas.map((c) => (
+        <li class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(1,33,105,0.18)] transition">
+          <a
+            href={`/service-areas/${slugify(c.city)}/`}
+            class="text-sm font-semibold text-ps-navy hover:text-ps-red"
+          >
+            {c.city}
+            {c.state ? `, ${c.state}` : ""}
+          </a>
+          {c.county && (
+            <p class="mt-1 text-xs text-ps-navy/80">
+              {c.county} County
+            </p>
+          )}
+        </li>
+      ))}
+    </ul>
+
+    <section class="mt-12">
+      <SectionHeader
+        title="Why properties across San Diego choose Postal Systems"
+        subtitle="We specialize in compliant, USPS-approved mailbox systems for HOAs, apartments, builders, and commercial sites."
+        align="left"
+      />
+      <div class="mt-4">
+        <TrustGrid />
+      </div>
+    </section>
+
+    <ProcessStrip subtitle="Whether you are replacing aging units or installing new systems, our team manages layout, installation, and USPS inspection." />
+
+    <div class="mt-12">
+      <CTA primaryHref="/contact/" primaryLabel="Don’t see your city? Contact us." />
+    </div>
+  </main>
+</SiteLayout>

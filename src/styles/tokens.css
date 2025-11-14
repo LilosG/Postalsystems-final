@@ -1,37 +1,11 @@
-:root{
-  /* Brand palette (keep existing brand feel) */
-  --brand-50:#eef2ff; --brand-100:#dbe6ff; --brand-200:#b9caff;
-  --brand-300:#8aa6ff; --brand-400:#5c82ff; --brand-500:#315fe6;
-  --brand-600:#2148ba; --brand-700:#15348e; --brand-800:#0f286e; --brand-900:#0b1e54;
+:root {
+  --ps-color-primary-600: #0f2f57;
+  --ps-color-primary-700: #091d39;
+  --ps-color-accent: #e0242a;
 
-  /* Accent */
-  --accent-600:#f59e0b;
+  --ps-color-surface: #f5f7fb;
+  --ps-color-muted: #e5e7eb;
 
-  /* Surfaces */
-  --bg:#ffffff; --surface:#f7f8fb; --muted:#f1f2f6; --border:#e5e7ef; --ring:var(--brand-600);
-
-  /* Radii */
-  --r-sm:8px; --r-md:12px; --r-lg:16px; --r-xl:20px;
-
-  /* Shadows */
-  --shadow-sm:0 1px 2px rgba(0,0,0,.06),0 1px 1px rgba(0,0,0,.04);
-  --shadow-md:0 6px 16px rgba(20,30,50,.08);
-  --shadow-lg:0 14px 40px rgba(20,30,50,.14);
-
-  /* Spacing scale */
-  --space-1:4px; --space-2:8px; --space-3:12px; --space-4:16px; --space-5:24px; --space-6:32px;
-
-  /* Motion */
-  --ease-out:cubic-bezier(.16,1,.3,1);
-  --t-hover:200ms var(--ease-out);
-  --t-enter:300ms var(--ease-out);
-
-  /* Container */
-  --container-max:80rem; /* ~max-w-7xl */
-}
-
-@media (prefers-color-scheme:dark){
-  :root{
-    --bg:#0b1020; --surface:#10172a; --muted:#0f172a; --border:#1e2946;
-  }
+  --ps-radius: 1.25rem;
+  --ps-shadow: 0 24px 60px rgba(15, 23, 42, 0.35);
 }
