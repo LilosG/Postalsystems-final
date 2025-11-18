@@ -1,0 +1,81 @@
+{
+  "serviceSlug": "mailbox-replacement-retrofits",
+  "h2Blocks": [
+    {
+      "id": "what-we-handle",
+      "heading": "Mailbox replacement and retrofits for aging or damaged mail stations",
+      "body": "Postal Systems replaces and retrofits aging mailbox systems so your property can move from rusted, vandalized, or non-compliant equipment to secure, modern mail stations. Across San Diego County, we help HOAs, apartments, and commercial properties upgrade failing CBUs and 4C cabinets with USPS-approved, code-compliant systems that residents and carriers can depend on.",
+      "bullets": [
+        "Replacing rusted, dented, or vandalized CBUs with current USPS-approved models",
+        "Retrofitting older wall-mounted mailboxes to modern 4C cabinets and parcel lockers",
+        "Upgrading pedestals and concrete pads where foundations are cracked or undersized",
+        "Consolidating scattered mail locations into fewer, more secure cluster stations",
+        "Reconfiguring mailbox layouts to support ADA access and updated USPS requirements"
+      ],
+      "closing": "Instead of piecing together small repairs on failing equipment, you get a single, planned replacement or retrofit project that restores security, improves appearance, and aligns with current USPS standards."
+    },
+    {
+      "id": "when-people-call",
+      "heading": "When San Diego properties call for mailbox replacement and retrofits",
+      "body": "Most mailbox replacement and retrofit projects start when existing equipment becomes a daily problem. Boards, managers, and owners reach out when maintenance costs, resident complaints, or USPS notices make it clear that patching is no longer working.",
+      "bullets": [
+        "Doors and locks are constantly failing, and key issues are eating up staff time",
+        "USPS has flagged existing mailboxes as damaged, obsolete, or no longer secure",
+        "A reserve study or inspection has called out mail equipment as a liability",
+        "Paint, rust, and corrosion make the mail station a visible weak point on the property",
+        "New parcel volumes and theft concerns demand an upgrade to more secure, centralized equipment"
+      ],
+      "closing": "We are brought in when properties want a realistic plan, a clear quote, and a contractor who can carry the project from evaluation and product selection through installation and USPS inspection."
+    },
+    {
+      "id": "process",
+      "heading": "Our process for mailbox replacement and retrofit projects",
+      "body": "Replacing or retrofitting a mailbox system touches residents, USPS, and the appearance of your property. We follow a documented process so you know how each piece will be handled before work begins.",
+      "steps": [
+        {
+          "title": "Assessment and recommendations",
+          "detail": "We review your existing mail equipment, document damage and compliance issues, and discuss your goals for security, appearance, and parcel handling. We then recommend replacement or retrofit options that fit your site and budget."
+        },
+        {
+          "title": "Product selection and layout",
+          "detail": "We help you select USPS-approved CBUs, 4C cabinets, and parcel lockers in the right sizes, finishes, and configurations. We design layouts that take into account visibility, access, ADA considerations, and carrier routes."
+        },
+        {
+          "title": "Detailed proposal and schedule",
+          "detail": "You receive a written proposal outlining equipment, pad and pedestal work, demolition, installation phases, tenant communication, and coordination with USPS. Boards and owners can sign off knowing what will happen and when."
+        },
+        {
+          "title": "Demolition, pad work, and installation",
+          "detail": "Our crew removes failing equipment, performs pad and pedestal upgrades, installs new cabinets, labels boxes, and verifies that everything is plumb, level, and secure according to manufacturer and USPS guidance."
+        },
+        {
+          "title": "USPS inspection and turnover",
+          "detail": "We coordinate USPS inspection, respond to any punch-list items, and hand over keys and documentation so residents can begin using the upgraded mailbox system with minimal disruption."
+        }
+      ],
+      "closing": "From the first walk-through to final USPS sign-off, you have one accountable team managing your mailbox replacement or retrofit project end-to-end."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I know if our mailboxes should be replaced instead of repaired?",
+      "answer": "If you are seeing recurring lock failures, visible rust and corrosion, damaged doors, or USPS concerns about security, it is usually more cost-effective to plan a replacement or retrofit. During our visit we assess the condition of your equipment and outline both repair and replacement paths so you can make an informed decision."
+    },
+    {
+      "question": "Can you match the look of our existing mailboxes during a retrofit?",
+      "answer": "In many cases we can choose finishes and models that complement your existing architecture and color schemes. When an exact match is not possible, we propose options that modernize the look while still fitting the property’s style and budget."
+    },
+    {
+      "question": "Will residents lose access to mail during a replacement project?",
+      "answer": "We plan phasing and temporary solutions so residents can continue receiving mail wherever possible while demolition and installation take place. Our proposals include a clear explanation of how long each phase will impact access and how we coordinate with USPS."
+    },
+    {
+      "question": "Can you add parcel lockers while we replace existing mailboxes?",
+      "answer": "Yes. Mailbox replacement and retrofits are often the ideal time to add parcel lockers and improve package handling. We design layouts that combine CBUs or 4C cabinets with parcel lockers in a way that works for both residents and carriers."
+    },
+    {
+      "question": "Do you handle both the concrete and the mailbox installation?",
+      "answer": "On most projects we handle the pad, pedestal, and mailbox work as a single scope. That keeps responsibilities clear and helps ensure that foundations, hardware, and equipment all meet manufacturer and USPS requirements."
+    }
+  ]
+}

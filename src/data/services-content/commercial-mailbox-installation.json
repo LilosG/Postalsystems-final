@@ -1,0 +1,76 @@
+{
+  "serviceSlug": "commercial-mailbox-installation",
+  "h2Blocks": [
+    {
+      "id": "what-we-handle",
+      "heading": "Commercial mailbox installation for HOAs, apartments, and builders",
+      "body": "Postal Systems designs and installs commercial mailbox systems that meet current USPS standards and local requirements throughout San Diego County. We help HOAs, apartments, builders, and facilities upgrade from aging or vandalized boxes to secure, code-compliant mail stations that residents and carriers can rely on.",
+      "bullets": [
+        "New cluster box units (CBUs) for HOAs, townhomes, and garden apartments",
+        "4C wall-mounted mailboxes and parcel lockers for apartments and mixed-use buildings",
+        "Pedestal replacements and pad work where existing units are failing or corroded",
+        "Reconfigurations and consolidations where USPS wants routes simplified",
+        "ADA-compliant upgrades to address slope, reach, and approach clearances"
+      ],
+      "closing": "Instead of juggling multiple contractors and USPS yourself, you get a single team that handles layout, foundations, installation, and inspection sign-off."
+    },
+    {
+      "id": "when-people-call",
+      "heading": "When San Diego HOAs and property managers call Postal Systems",
+      "body": "Most commercial mailbox installation projects start with a problem. We are typically brought in when boards, property managers, or owners are dealing with mailbox failures, USPS notices, or new construction timelines.",
+      "bullets": [
+        "Residents are complaining about rusted, broken, or vandalized cluster mailboxes",
+        "USPS has left a notice that the current setup is no longer compliant",
+        "A property sale or refinance has flagged old mail stations as a liability",
+        "A new building or phase is opening and needs USPS-approved cluster mailboxes installed on time"
+      ],
+      "closing": "Property managers and boards call us when they want a clear plan and itemized quote, help selecting the right CBU or 4C configuration, turnkey commercial mailbox installation in San Diego County that includes pads and anchors, and a contractor who coordinates with USPS from layout review through inspection."
+    },
+    {
+      "id": "process",
+      "heading": "Our process for commercial mailbox installation projects",
+      "body": "Every project follows a predictable, documented process so board members, managers, and owners know what to expect at each step.",
+      "steps": [
+        {
+          "title": "Site visit and layout",
+          "detail": "We walk the site, review USPS notes, and confirm access, lighting, and ADA considerations. We then recommend mailbox models and layouts that meet current USPS and accessibility standards."
+        },
+        {
+          "title": "Detailed proposal",
+          "detail": "You receive a written proposal that spells out equipment, pad work, demolition if needed, installation steps, and timelines. It is written so HOAs, owners, and boards can sign off with clarity."
+        },
+        {
+          "title": "Permitting and scheduling",
+          "detail": "Where required, we assist with permits and coordinate dates that minimize disruption for residents or construction schedules."
+        },
+        {
+          "title": "Installation and pads",
+          "detail": "Our crew pours or repairs pads, sets anchors, installs new CBUs or 4C units, and ensures everything is set and leveled per manufacturer and USPS guidelines."
+        },
+        {
+          "title": "USPS inspection and handover",
+          "detail": "We coordinate with USPS to inspect the new mailbox installation, resolve any punch-list items, and hand the system over ready for service."
+        }
+      ],
+      "closing": "This end-to-end approach keeps your mailbox project moving, with one team accountable from planning through final USPS sign-off."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do we need USPS approval before installing new cluster mailboxes?",
+      "answer": "Yes. For commercial mailbox installations, USPS must review and approve your layout, equipment type, and final location. Postal Systems coordinates with USPS on your behalf so your project does not get delayed at inspection time."
+    },
+    {
+      "question": "Can you replace damaged mailboxes with the same style we already have?",
+      "answer": "In many cases we can match existing equipment, but if your current mailboxes are outdated or no longer compliant, USPS may require newer, approved models. We assess your site, recommend options, and explain what USPS will accept so there are no surprises."
+    },
+    {
+      "question": "How much does commercial mailbox installation cost in San Diego County?",
+      "answer": "Pricing depends on the number of units, concrete pad work, demolition of old equipment, ADA upgrades, and site access. The fastest way to get accurate pricing is to share a few details about your property and USPS notes, and we will provide a written quote."
+    },
+    {
+      "question": "Do you handle ADA-compliant mailbox installations?",
+      "answer": "Yes. We routinely design and install ADA-compliant mail stations, addressing reach, slope, and clearances. If your existing mailboxes have triggered accessibility concerns, we can upgrade the layout as part of your installation."
+    }
+  ]
+}

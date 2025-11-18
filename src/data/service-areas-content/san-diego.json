@@ -1,0 +1,34 @@
+{
+  "intro": {
+    "p1": "In San Diego, many mailbox projects start when HOAs, property managers, or owners receive USPS notices about aging equipment, vandalism, or non-compliant layouts. Postal Systems has decades of experience installing and replacing commercial mailbox systems across San Diego neighborhoods, from coastal communities to inland business parks.",
+    "p2": "We handle the full scope for San Diego properties: layout and equipment selection, concrete pads and anchors, USPS coordination, inspection sign-off, and clear communication with residents so changeovers go smoothly."
+  },
+  "commonProjects": [
+    "New cluster box units for HOAs and master-planned communities across San Diego.",
+    "4C wall-mounted mailrooms for urban infill and mixed-use buildings near downtown San Diego.",
+    "Parcel locker additions at apartments and townhomes to manage increasing package volume.",
+    "Mailbox replacements at older communities where existing boxes are rusted, damaged, or out of compliance.",
+    "ADA upgrades to bring existing mailbox locations up to current reach, height, and approach clearances."
+  ],
+  "whoWeWorkWith": [
+    "HOAs and condo associations throughout San Diego.",
+    "Apartment and multi-family communities managed locally or by regional firms.",
+    "Builders and general contractors on new residential and mixed-use projects.",
+    "Owners and managers of commercial and industrial parks.",
+    "Schools, campuses, and municipal facilities within the greater San Diego area."
+  ],
+  "faqs": [
+    {
+      "question": "Do we need USPS approval before replacing mailboxes at our San Diego property?",
+      "answer": "Yes. USPS needs to review the proposed mailbox type, location, and access before work begins. For San Diego projects, Postal Systems coordinates directly with the local USPS contact so equipment, layout, and final locations meet current standards before installation and inspection."
+    },
+    {
+      "question": "Can you match our existing mailbox style when upgrading in San Diego?",
+      "answer": "In many San Diego communities we can closely match the existing mailbox equipment while still modernizing and bringing the installation up to current USPS expectations. We review photos and site conditions, then recommend a replacement strategy that balances appearance, durability, and compliance."
+    },
+    {
+      "question": "How do you minimize disruption to residents during mailbox work in San Diego?",
+      "answer": "For San Diego HOAs and apartments, we coordinate timing, tenant notices, and USPS access so downtime is minimized. We often stage new equipment and pads so changeover happens in a tight window, then turn keys and information back over to management once USPS has completed inspection and sign-off."
+    }
+  ]
+}

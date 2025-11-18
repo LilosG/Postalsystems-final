@@ -7,12 +7,14 @@ import TrustGrid from "../../components/TrustGrid.astro"
 import ProcessStrip from "../../components/ProcessStrip.astro"
 import { slugify } from "../../lib/slug"
 
+type Service = {
+  name: string
+  summary?: string
+  content?: string
+}
+
 export async function getStaticPaths() {
-  const services = (await import("../../data/services.json")).default as {
-    name: string
-    summary?: string
-    content?: string
-  }[]
+  const services = (await import("../../data/services.json")).default as Service[]
 
   return services.map((s) => ({
     params: { service: slugify(s.name) },
@@ -20,9 +22,7 @@ export async function getStaticPaths() {
   }))
 }
 
-const { service } = Astro.props as {
-  service: { name: string; summary?: string; content?: string }
-}
+const { service } = Astro.props as { service: Service }
 
 const serviceSlug = slugify(service.name)
 
@@ -34,6 +34,25 @@ const areas = (await import("../../data/areas.json")).default as {
 
 const primaryAreas = areas.filter((a) => a.county === "San Diego County")
 const featuredAreas = (primaryAreas.length ? primaryAreas : areas).slice(0, 6)
+
+const servicesContentModules = import.meta.glob(
+  "../../data/services-content/*.json",
+  { eager: true }
+) as Record<string, any>
+
+const serviceContentMap = Object.fromEntries(
+  Object.entries(servicesContentModules).map(([path, mod]) => {
+    const slug = path.split("/").pop()?.replace(".json", "") ?? ""
+    return [slug, (mod as any).default]
+  })
+) as Record<string, any>
+
+const serviceContent = serviceContentMap[serviceSlug] ?? null
+
+const heroImage = serviceContent?.heroImage || ""
+const heroAlt =
+  serviceContent?.heroAlt ||
+  `${service.name} installation and mailbox projects in San Diego County`
 
 const title = `${service.name} — Mailbox Services | Postal Systems`
 const desc =
@@ -53,18 +72,12 @@ export const prerender = true
       ]}
     />
 
-    <section
-      class="mt-6 grid gap-8 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] items-start"
-    >
+    <section class="mt-6 grid gap-8 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] items-start">
       <div>
-        <p
-          class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-navy/70"
-        >
+        <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-navy/70">
           Mailbox services · San Diego County
         </p>
-        <h1
-          class="mt-2 text-3xl md:text-4xl font-semibold tracking-tight text-ps-navy"
-        >
+        <h1 class="mt-2 text-3xl md:text-4xl font-semibold tracking-tight text-ps-navy">
           {service.name}
         </h1>
         <p class="mt-3 text-sm md:text-base text-ps-navy/85 max-w-xl">
@@ -92,14 +105,22 @@ export const prerender = true
         </div>
       </div>
 
-      <aside
-        class="rounded-3xl bg-white shadow-ps border border-ps-muted px-5 py-5 md:px-6 md:py-6"
-      >
+      <aside class="rounded-3xl bg-white shadow-ps border border-ps-muted px-5 py-5 md:px-6 md:py-6">
+        {heroImage && (
+          <div class="mb-4 overflow-hidden rounded-2xl bg-ps-surface">
+            <img
+              src={heroImage}
+              alt={heroAlt}
+              loading="lazy"
+              decoding="async"
+              class="h-44 w-full object-cover md:h-52"
+            />
+          </div>
+        )}
         <h2 class="text-sm font-semibold text-ps-navy">Projects we help with</h2>
         <p class="mt-2 text-xs text-ps-navy/80">
-          From new construction to retrofit replacements, Postal Systems
-          designs and installs {service.name.toLowerCase()} that meet USPS and
-          ADA requirements.
+          From new construction to retrofit replacements, Postal Systems designs and installs
+          commercial mailbox systems that meet USPS and ADA requirements.
         </p>
         <ul class="mt-3 space-y-1.5 text-xs text-ps-navy/85">
           <li>• New multifamily developments and HOAs.</li>
@@ -112,17 +133,91 @@ export const prerender = true
       </aside>
     </section>
 
-    {service.content && (
+    {serviceContent?.h2Blocks && serviceContent.h2Blocks.length > 0 && (
+      <section class="mt-10 space-y-10 max-w-3xl">
+        {serviceContent.h2Blocks.map((block: any, idx: number) => (
+          <article id={block.id} class="space-y-3">
+            <h2 class="text-xl md:text-2xl font-semibold text-ps-navy">
+              {block.heading}
+            </h2>
+            {block.body && (
+              <p class="text-sm md:text-base text-ps-navy/85">
+                {block.body}
+              </p>
+            )}
+            {block.bullets && block.bullets.length > 0 && (
+              <ul class="mt-2 space-y-1.5 text-sm text-ps-navy/85">
+                {block.bullets.map((item: string) => (
+                  <li class="flex gap-2">
+                    <span class="mt-1 h-1.5 w-1.5 rounded-full bg-ps-red"></span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {block.steps && block.steps.length > 0 && (
+              <div class="mt-4 grid gap-3 md:grid-cols-2">
+                {block.steps.map((step: any, stepIndex: number) => (
+                  <div class="rounded-2xl border border-ps-muted bg-white p-4 shadow-ps">
+                    <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-ps-navy/60">
+                      STEP {stepIndex + 1}
+                    </div>
+                    <div class="mt-1 text-sm font-semibold text-ps-navy">
+                      {step.title}
+                    </div>
+                    <p class="mt-1 text-xs text-ps-navy/80">
+                      {step.detail}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            )}
+            {block.closing && (
+              <p class="mt-2 text-sm md:text-base text-ps-navy/85">
+                {block.closing}
+              </p>
+            )}
+          </article>
+        ))}
+      </section>
+    )}
+
+    {!serviceContent?.h2Blocks &&
+      service.content && (
+        <section class="mt-10">
+          <SectionHeader
+            title={`Details about our ${service.name.toLowerCase()}`}
+            subtitle="From layout and foundations to USPS approvals."
+            align="left"
+          />
+          <div
+            class="prose max-w-none mt-4 text-ps-navy/90"
+            set:html={service.content}
+          ></div>
+        </section>
+      )}
+
+    {serviceContent?.faqs && serviceContent.faqs.length > 0 && (
       <section class="mt-10">
         <SectionHeader
-          title={`Details about our ${service.name.toLowerCase()}`}
-          subtitle="From layout and foundations to USPS approvals."
+          title={`FAQs about ${service.name.toLowerCase()} in San Diego County`}
+          subtitle="Answers to common questions from HOAs, property managers, and builders."
           align="left"
         />
-        <div
-          class="prose max-w-none mt-4 text-ps-navy/90"
-          set:html={service.content}
-        ></div>
+        <div class="mt-4 space-y-3">
+          {serviceContent.faqs.map((faq: any) => (
+            <details class="group rounded-2xl border border-ps-muted bg-white p-4 shadow-ps">
+              <summary class="flex cursor-pointer items-center justify-between text-sm font-semibold text-ps-navy">
+                <span>{faq.question}</span>
+                <span class="ml-3 text-xs text-ps-navy/60 group-open:hidden">+</span>
+                <span class="ml-3 text-xs text-ps-navy/60 hidden group-open:inline">−</span>
+              </summary>
+              <p class="mt-2 text-xs text-ps-navy/80">
+                {faq.answer}
+              </p>
+            </details>
+          ))}
+        </div>
       </section>
     )}
 
@@ -139,67 +234,28 @@ export const prerender = true
             .replace(/[^a-z0-9]+/g, "-")
             .replace(/(^-|-$)/g, "")
           return (
-            <li
-              class="rounded-2xl border border-ps-muted bg-white px-4 py-3 shadow-ps"
-            >
+            <li>
               <a
                 href={`/service-areas/${citySlug}/${serviceSlug}/`}
-                class="font-semibold text-ps-navy hover:text-ps-red"
+                class="block rounded-2xl border border-ps-muted bg-white px-4 py-3 text-ps-navy hover:border-ps-red/60 hover:text-ps-red"
               >
-                {service.name} in {a.city}
+                <div class="text-sm font-semibold">{a.city}</div>
+                {a.state && (
+                  <div class="text-[11px] text-ps-navy/70">{a.state}</div>
+                )}
               </a>
-              <p class="mt-1 text-xs text-ps-navy/80">
-                Professional {service.name.toLowerCase()} in {a.city}
-                {a.state ? `, ${a.state}` : ""}.
-              </p>
             </li>
           )
         })}
       </ul>
     </section>
 
-    <section class="mt-12">
-      <SectionHeader
-        title={`Why Postal Systems for ${service.name.toLowerCase()}?`}
-        subtitle="Local, USPS-approved contractor focused on compliant commercial mailbox systems."
-        align="left"
-      />
-      <div class="mt-4">
-        <TrustGrid />
-      </div>
+    <section class="mt-10">
+      <TrustGrid />
     </section>
 
-    <div class="mt-10">
-      <ProcessStrip
-        subtitle={`From site visit through USPS inspection and key handover, we manage the entire ${service.name.toLowerCase()} project.`}
-      />
-    </div>
-
-    <section class="mt-12 mb-4">
-      <div
-        class="rounded-3xl bg-white shadow-ps border border-ps-muted px-5 py-6 md:px-8 md:py-7"
-      >
-        <h2 class="text-base md:text-lg font-semibold text-ps-navy">
-          Get a USPS-approved quote
-        </h2>
-        <p class="mt-1 text-sm text-ps-navy/80">
-          Fast, compliant installs with inspection sign-off.
-        </p>
-        <div class="mt-4 flex flex-wrap gap-3">
-          <a
-            href="tel:16194614787"
-            class="inline-flex items-center justify-center rounded-full bg-ps-navy px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-ps-navy/90 transition"
-          >
-            Call (619) 461-4787
-          </a>
-          <a
-            href="/contact/"
-            class="inline-flex items-center justify-center rounded-full border border-ps-navy/20 bg-white px-5 py-2.5 text-sm font-semibold text-ps-navy hover:bg-ps-navy hover:text-white transition"
-          >
-            Request a quote
-          </a>
-        </div>
-      </div>
+    <section class="mt-10">
+      <ProcessStrip />
     </section>
   </main>
 </SiteLayout>

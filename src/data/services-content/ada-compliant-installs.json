@@ -1,0 +1,81 @@
+{
+  "serviceSlug": "ada-compliant-installs",
+  "h2Blocks": [
+    {
+      "id": "what-we-handle",
+      "heading": "ADA-compliant mailbox installations for HOAs, apartments, and commercial sites",
+      "body": "Postal Systems designs and installs ADA-compliant mailbox systems that meet current USPS guidelines and accessibility standards across San Diego County. We help HOAs, apartments, and commercial properties resolve accessibility concerns, respond to notices, and proactively bring mail stations up to code so residents and carriers can use them safely.",
+      "bullets": [
+        "ADA-compliant layouts for cluster box units (CBUs), 4C wall-mounted mailboxes, and parcel lockers",
+        "Reach-range corrections for tenant and parcel compartments that are mounted too high or too low",
+        "Slope, approach, and landing improvements so residents can safely access mail from mobility devices",
+        "Reconfiguring banks of mailboxes to add compliant compartments for residents with accessibility needs",
+        "Coordinating USPS requirements with local accessibility guidelines during new installations and upgrades"
+      ],
+      "closing": "Instead of guessing at ADA clearance and reach requirements, you get a contractor who works with mailbox accessibility projects every week and understands how USPS and accessibility guidelines come together in the field."
+    },
+    {
+      "id": "when-people-call",
+      "heading": "When San Diego properties call for ADA-compliant mailbox installs",
+      "body": "Most ADA-focused mailbox projects begin with a concern or a notice. We are typically brought in when boards, managers, or owners have been alerted to accessibility issues or want to address them before they become a problem.",
+      "bullets": [
+        "A resident has raised concerns about access to mail from a wheelchair or mobility device",
+        "Legal counsel or a consultant has flagged existing mailboxes as potential ADA exposure",
+        "Older mail stations have no clear accessible route, landing, or compliant reach ranges",
+        "A new development or phase needs ADA-compliant mailbox layouts approved before opening",
+        "USPS has requested layout changes that intersect with accessibility requirements"
+      ],
+      "closing": "Our role is to translate accessibility and USPS requirements into a practical, buildable mailbox layout that works on your site and minimizes future risk."
+    },
+    {
+      "id": "process",
+      "heading": "Our process for ADA-compliant mailbox installation projects",
+      "body": "Accessibility work requires careful measurements, documentation, and coordination. We follow a clear process so boards, managers, and owners know how ADA requirements are being addressed at each step.",
+      "steps": [
+        {
+          "title": "Site walk and measurements",
+          "detail": "We walk the site, measure slopes, clearances, and reach ranges, review USPS notes, and document how residents currently access the mail station. We note conflicts between USPS guidelines and existing conditions."
+        },
+        {
+          "title": "Layout and accessibility plan",
+          "detail": "We develop a mailbox layout and approach plan that addresses reach, maneuvering clearances, slopes, and landings, and we identify any concrete or grading work required to make the design ADA-compliant."
+        },
+        {
+          "title": "Clear proposal and drawings",
+          "detail": "You receive a written proposal and, where appropriate, simple plan views or diagrams that boards, owners, and project teams can review and approve with confidence."
+        },
+        {
+          "title": "Construction and mailbox installation",
+          "detail": "Our crew performs any necessary pad, ramp, or landing work, installs or reconfigures the CBUs, 4C cabinets, or parcel lockers, and verifies that clearances and reach ranges match the agreed plan."
+        },
+        {
+          "title": "USPS coordination and final checks",
+          "detail": "We coordinate USPS review, address any punch-list items, and document key dimensions and features so you have a record that ADA-related mailbox issues have been addressed."
+        }
+      ],
+      "closing": "By combining USPS experience with an accessibility-focused process, we help you reduce exposure, improve resident access, and create a mailbox system that aligns with how people actually use the property."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What makes a mailbox installation ADA-compliant?",
+      "answer": "ADA-compliant mailbox projects address several factors: approach routes and slopes, landing and maneuvering clearances, reach ranges for tenant and parcel compartments, and hardware that can be operated without tight grasping or twisting. We measure these items on site and design a layout that aligns with current accessibility guidance and USPS expectations."
+    },
+    {
+      "question": "Do all of our mailboxes need to be ADA-compliant?",
+      "answer": "In many communities, not every single compartment must meet the strictest reach-range criteria, but there must be accessible options and an overall layout that provides safe access. During our review we explain what level of modification is appropriate for your specific site and equipment."
+    },
+    {
+      "question": "Can we modify existing mailboxes to become ADA-compliant or do they need to be replaced?",
+      "answer": "Sometimes we can improve accessibility by adjusting heights, reconfiguring cabinets, or performing concrete and ramp work around existing mailboxes. In other cases, especially with very old or damaged equipment, replacement is the better long-term solution. We outline both options whenever possible."
+    },
+    {
+      "question": "Will USPS approve ADA-driven layout changes?",
+      "answer": "USPS is primarily concerned with safe carrier access and efficient routes, but those goals can usually be aligned with ADA requirements. We coordinate directly with USPS on layout changes so both accessibility and carrier needs are addressed in one plan."
+    },
+    {
+      "question": "Do you work with attorneys or accessibility consultants?",
+      "answer": "Yes. On projects driven by legal or consultant findings, we review their reports, confirm field conditions, and propose a mailbox scope that responds directly to the issues they have identified. Clear documentation and communication are part of our standard process."
+    }
+  ]
+}

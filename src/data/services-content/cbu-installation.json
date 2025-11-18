@@ -1,0 +1,81 @@
+{
+  "serviceSlug": "cbu-installation",
+  "h2Blocks": [
+    {
+      "id": "what-we-handle",
+      "heading": "USPS-approved CBU installation for HOAs, apartments, and mixed-use projects",
+      "body": "Postal Systems designs and installs Cluster Box Units (CBUs) that meet current USPS standards and local requirements across San Diego County. We help HOAs, property managers, and builders replace aging equipment with secure, centralized mail stations residents and carriers can rely on.",
+      "bullets": [
+        "New CBU banks for townhome, condominium, and garden-style communities",
+        "Centralized mail stations for mixed-use buildings and infill developments",
+        "Replacement of rusted or non-compliant CBUs with current USPS-approved models",
+        "Pad and pedestal upgrades where existing foundations are cracked or undersized",
+        "Route consolidations where USPS wants fewer, well-designed cluster locations"
+      ],
+      "closing": "Instead of coordinating multiple trades and trying to interpret USPS rules on your own, you get a single team that handles CBU layout, foundations, installation, and inspection sign-off."
+    },
+    {
+      "id": "when-people-call",
+      "heading": "When San Diego HOAs and property managers call for CBU installation",
+      "body": "Most CBU installation projects begin with a problem: vandalism, deteriorating pedestals, USPS notices, or a new phase of construction that needs compliant mail service on a tight schedule.",
+      "bullets": [
+        "Residents are dealing with broken doors, stuck locks, or repeated mailbox vandalism",
+        "USPS has flagged existing CBUs as outdated, damaged, or no longer compliant",
+        "An upcoming sale, refinance, or reserve study has called out failing mail equipment",
+        "New buildings or phases need centrally located CBUs installed and approved before move-in",
+        "Boards and managers want a clear path to upgrade without disrupting daily mail delivery"
+      ],
+      "closing": "We are brought in when boards and managers want a straightforward plan, a detailed quote, and a contractor who speaks directly with USPS so the project stays on track."
+    },
+    {
+      "id": "process",
+      "heading": "Our process for CBU installation and replacement projects",
+      "body": "Every CBU project follows a documented process so boards, managers, and owners understand what will happen on site and when USPS will review and approve the new equipment.",
+      "steps": [
+        {
+          "title": "Site walk and layout",
+          "detail": "We walk the property, review USPS notes, check lighting, drainage, and ADA reach ranges, and confirm how residents currently access mail. We then recommend CBU models and layouts that fit the site and meet USPS standards."
+        },
+        {
+          "title": "Written proposal",
+          "detail": "You receive a written proposal that explains the CBU configuration, pad and pedestal work, any demolition or relocation, installation steps, and an estimated schedule that boards and owners can sign off on."
+        },
+        {
+          "title": "Permits, coordination, and phasing",
+          "detail": "Where required, we assist with permits and coordinate work hours, phasing, and temporary mail arrangements so residents continue to receive mail while the new CBUs are installed."
+        },
+        {
+          "title": "Pad work and CBU installation",
+          "detail": "Our crew pours or repairs concrete pads, sets pedestals and anchors, assembles and installs the CBU cabinets, labels units, and verifies everything is plumb, level, and secure."
+        },
+        {
+          "title": "USPS inspection and turnover",
+          "detail": "We coordinate with USPS to inspect the new CBU installation, address any punch-list items, and then hand off keys and documentation so the system is ready for daily service."
+        }
+      ],
+      "closing": "From the first site visit through final USPS sign-off, you have one accountable team managing the CBU installation project end-to-end."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do we need USPS approval before installing new CBUs?",
+      "answer": "Yes. USPS must review the proposed location, layout, and equipment type before new CBUs are installed. Postal Systems coordinates with USPS on your behalf so your project is approved and ready at inspection time."
+    },
+    {
+      "question": "Can you reuse existing pads and pedestals when replacing CBUs?",
+      "answer": "Sometimes. If the existing pads and pedestals are in good condition and meet current size, anchoring, and accessibility requirements, we may be able to reuse them. During our site visit we inspect your existing setup and explain whether reuse or replacement is the better option."
+    },
+    {
+      "question": "How much does CBU installation cost in San Diego County?",
+      "answer": "Pricing depends on the number of CBU units, concrete pad work, demolition or relocation of existing equipment, ADA upgrades, and site access. The most accurate way to estimate cost is to share details about your property, current mail setup, and USPS notes so we can provide a written quote."
+    },
+    {
+      "question": "Can you phase the work so residents continue to receive mail?",
+      "answer": "Yes. On many projects we phase installation so some CBUs remain active while new units are installed and inspected. We outline phasing options and any temporary mail arrangements in your proposal so residents know what to expect."
+    },
+    {
+      "question": "Do you help with vandalism-prone mail locations?",
+      "answer": "Yes. We routinely replace vandalized or repeatedly damaged CBUs. We can recommend locations, lighting improvements, and configurations that improve visibility and reduce the likelihood of repeated damage, while still meeting USPS requirements."
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 ---
 import SiteLayout from "../layouts/SiteLayout.astro";
+import PSImage from "../components/PSImage.astro";
 import LocalSchema from "../components/LocalSchema.astro";
 import SectionHeader from "../components/ui/SectionHeader.astro";
 import CTA from "../components/ui/CTA.astro";
@@ -268,12 +269,7 @@ const canonical = "https://sandiegocommercialmailboxes.com/";
       <div class="mt-8 grid gap-6 md:grid-cols-3">
         <article class="rounded-2xl border border-ps-muted bg-white shadow-ps overflow-hidden flex flex-col">
           <div class="aspect-[4/3] bg-ps-surface">
-            <img
-              src="/images/projects/cbu-san-marcos.jpg"
-              alt="CBU installation in San Marcos, CA"
-              class="h-full w-full object-cover"
-              loading="lazy"
-            />
+            <PSImage imageKey="project-san-marcos-cbu-installation" class="h-full w-full object-cover" />
           </div>
           <div class="p-4">
             <h3 class="text-sm font-semibold text-ps-navy">
@@ -287,12 +283,7 @@ const canonical = "https://sandiegocommercialmailboxes.com/";
 
         <article class="rounded-2xl border border-ps-muted bg-white shadow-ps overflow-hidden flex flex-col">
           <div class="aspect-[4/3] bg-ps-surface">
-            <img
-              src="/images/projects/4c-upgrade-chula-vista.jpg"
-              alt="4C upgrade in Chula Vista, CA"
-              class="h-full w-full object-cover"
-              loading="lazy"
-            />
+            <PSImage imageKey="project-oceanside-mailbox-installation" class="h-full w-full object-cover" />
           </div>
           <div class="p-4">
             <h3 class="text-sm font-semibold text-ps-navy">
@@ -306,12 +297,7 @@ const canonical = "https://sandiegocommercialmailboxes.com/";
 
         <article class="rounded-2xl border border-ps-muted bg-white shadow-ps overflow-hidden flex flex-col">
           <div class="aspect-[4/3] bg-ps-surface">
-            <img
-              src="/images/projects/vandalism-temecula.jpg"
-              alt="Vandalism replacement in Temecula, CA"
-              class="h-full w-full object-cover"
-              loading="lazy"
-            />
+            <PSImage imageKey="project-san-marcos-ada-installation" class="h-full w-full object-cover" />
           </div>
           <div class="p-4">
             <h3 class="text-sm font-semibold text-ps-navy">
@@ -392,45 +378,45 @@ const canonical = "https://sandiegocommercialmailboxes.com/";
         align="center"
       />
       <div class="mt-4 flex flex-wrap justify-center gap-2 text-[11px] sm:text-xs">
-        <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+        <a href="/service-areas/san-diego/" class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy hover:border-ps-navy hover:bg-white">
           San Diego
-        </span>
-        <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+        </a>
+        <a href="/service-areas/chula-vista/" class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy hover:border-ps-navy hover:bg-white">
           Chula Vista
-        </span>
-        <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+        </a>
+        <a href="/service-areas/oceanside/" class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy hover:border-ps-navy hover:bg-white">
           Oceanside
-        </span>
-        <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+        </a>
+        <a href="/service-areas/carlsbad/" class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy hover:border-ps-navy hover:bg-white">
           Carlsbad
-        </span>
-        <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+        </a>
+        <a href="/service-areas/san-marcos/" class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy hover:border-ps-navy hover:bg-white">
           San Marcos
-        </span>
-        <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+        </a>
+        <a href="/service-areas/vista/" class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy hover:border-ps-navy hover:bg-white">
           Vista
-        </span>
-        <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+        </a>
+        <a href="/service-areas/encinitas/" class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy hover:border-ps-navy hover:bg-white">
           Encinitas
-        </span>
-        <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+        </a>
+        <a href="/service-areas/escondido/" class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy hover:border-ps-navy hover:bg-white">
           Escondido
-        </span>
-        <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+        </a>
+        <a href="/service-areas/el-cajon/" class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy hover:border-ps-navy hover:bg-white">
           El Cajon
-        </span>
-        <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+        </a>
+        <a href="/service-areas/poway/" class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy hover:border-ps-navy hover:bg-white">
           Poway
-        </span>
-        <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+        </a>
+        <a href="/service-areas/temecula/" class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy hover:border-ps-navy hover:bg-white">
           Temecula
-        </span>
-        <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+        </a>
+        <a href="/service-areas/riverside-county/" class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy hover:border-ps-navy hover:bg-white">
           Riverside County
-        </span>
-        <span class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy">
+        </a>
+        <a href="/service-areas/orange-county/" class="rounded-full border border-ps-muted bg-ps-surface px-3 py-1 text-ps-navy hover:border-ps-navy hover:bg-white">
           Orange County
-        </span>
+        </a>
       </div>
     </div>
   </section>

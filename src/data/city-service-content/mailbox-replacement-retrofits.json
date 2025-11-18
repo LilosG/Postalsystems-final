@@ -1,0 +1,916 @@
+{
+  "serviceSlug": "mailbox-replacement-retrofits",
+  "cities": {
+    "san-diego": {
+      "citySlug": "san-diego",
+      "cityName": "San Diego",
+      "state": "CA",
+      "h1": "Mailbox replacement and retrofits in San Diego, CA",
+      "intro": "Postal Systems replaces and retrofits mailbox systems for HOAs, apartments, mixed-use projects, and commercial properties across San Diego. From coastal communities dealing with corrosion to older urban properties with outdated equipment, we help you move to secure, modern, USPS-approved mail stations without guesswork.",
+      "sections": [
+        {
+          "id": "common-issues",
+          "heading": "Common mailbox replacement and retrofit issues we see in San Diego",
+          "body": "San Diego’s coastal air, sun exposure, and varied building ages create a wide range of mailbox problems. We are often called in when equipment has reached the end of its practical life or when USPS has raised concerns.",
+          "bullets": [
+            "Heavy rust, peeling paint, and corroded pedestals on CBUs near the coast",
+            "Older wall-mounted mailboxes that no longer meet security or USPS expectations",
+            "Patchwork repairs that leave mismatched locks and hardware across the system",
+            "Parcel volume overwhelming small, legacy mailboxes and informal delivery areas",
+            "Mail stations that make an otherwise well-kept property look dated or neglected"
+          ],
+          "closing": "Instead of reacting to each new failure, we help San Diego properties plan a single mailbox replacement or retrofit project that addresses appearance, security, and long-term maintenance."
+        },
+        {
+          "id": "projects-we-handle",
+          "heading": "Mailbox replacement and retrofit projects we handle in San Diego",
+          "body": "We support communities and owners across a range of property types in San Diego, from smaller coastal HOAs to large multifamily, campus, and commercial sites.",
+          "bullets": [
+            "Replacing long-running CBUs with new, powder-coated units and updated pedestals",
+            "Retrofitting older mailrooms with 4C cabinets and integrated parcel lockers",
+            "Consolidating multiple small mailbox locations into a central, secure mail station",
+            "Combining replacement work with ADA improvements to approaches and clearances",
+            "Coordinating mailbox upgrades alongside exterior repainting or broader site projects"
+          ],
+          "closing": "Each project is scoped with detailed equipment lists, layout notes, and timelines so boards and owners understand exactly what will change and how it will improve the property."
+        },
+        {
+          "id": "coordination",
+          "heading": "How we coordinate mailbox replacement and retrofit work in San Diego",
+          "body": "A mailbox replacement or retrofit project touches residents, USPS, and often other contractors. We structure the work so communication and logistics are clear from the start.",
+          "bullets": [
+            "Review photos, USPS notices, reserve studies, and any prior repair history",
+            "Walk the property to confirm access, visibility, and potential new locations",
+            "Propose layouts and equipment packages tailored to your San Diego property",
+            "Help your team communicate schedules, key changes, and access updates to residents",
+            "Coordinate USPS inspections and provide simple project documentation once work is complete"
+          ],
+          "closing": "Our goal is to deliver a mailbox upgrade that feels organized and predictable, with minimal disruption and a clear handoff to residents and carriers."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you match our existing mailbox color and style in San Diego?",
+          "answer": "We offer a range of USPS-approved finishes and models that work well with San Diego architecture. During the planning stage we review color options, neighboring equipment, and site context so the new mailboxes complement your property."
+        },
+        {
+          "question": "Do we need USPS approval for mailbox replacement projects?",
+          "answer": "Yes. USPS needs to review and approve new layouts and equipment, especially when locations or configurations change. We handle that coordination directly to help avoid last-minute surprises at inspection."
+        },
+        {
+          "question": "Can we add parcel lockers during a replacement project in San Diego?",
+          "answer": "Absolutely. Many San Diego properties use replacement and retrofit projects as the right time to introduce parcel lockers and improve package security. We design configurations that take parcel volume and theft concerns into account from day one."
+        },
+        {
+          "question": "How long does a typical mailbox replacement project impact residents?",
+          "answer": "The timeline depends on the size of the system and the amount of pad or retrofit work required. During our proposal we outline expected durations, phasing options, and any brief interruptions to normal mail delivery."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "chula-vista",
+          "label": "Chula Vista, CA",
+          "url": "/service-areas/chula-vista/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "el-cajon",
+          "label": "El Cajon, CA",
+          "url": "/service-areas/el-cajon/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/mailbox-replacement-retrofits/"
+        }
+      ]
+    },
+    "chula-vista": {
+      "citySlug": "chula-vista",
+      "cityName": "Chula Vista",
+      "state": "CA",
+      "h1": "Mailbox replacement and retrofits in Chula Vista, CA",
+      "intro": "Postal Systems helps Chula Vista HOAs, condo communities, and apartments replace and retrofit aging mailbox systems with secure, modern equipment. From repeated vandalism to USPS notices, we turn ongoing mailbox problems into a single, well-managed upgrade project.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why mailbox replacement and retrofits matter in Chula Vista",
+          "body": "Chula Vista’s mix of older neighborhoods and newer planned communities means many properties are running mailbox equipment at different ages and conditions. When rust, vandalism, or outdated boxes start to frustrate residents and carriers, a structured replacement or retrofit becomes the most efficient solution.",
+          "bullets": [
+            "Clusters of older CBUs with doors that no longer close or lock reliably",
+            "Mailboxes that make an otherwise well-maintained community look dated",
+            "Equipment damaged by vehicles, vandalism, or repeated forced entries",
+            "Patchwork repairs that leave a mix of keys, lock types, and finishes across banks",
+            "USPS feedback that current equipment is no longer acceptable for long-term use"
+          ],
+          "closing": "Replacing or retrofitting the system improves security and appearance at the same time, while giving boards and managers a clean baseline for future maintenance."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Mailbox replacement and retrofit projects we handle in Chula Vista",
+          "body": "We work with a wide range of Chula Vista communities, from smaller townhome associations to larger multifamily and mixed-use properties.",
+          "bullets": [
+            "Replacing aging CBU banks with new, secure cabinets and updated pedestals",
+            "Retrofitting older wall-mounted boxes with modern 4C cabinets and parcel lockers",
+            "Consolidating multiple small mailbox clusters into central, better-lit locations",
+            "Integrating mailbox replacement with exterior repainting and curb appeal projects",
+            "Combining replacement work with ADA improvements to routes and clearances"
+          ],
+          "closing": "Our proposals spell out exactly what will be removed, what will be installed, and how the new mailbox system will perform better for residents and carriers."
+        },
+        {
+          "id": "coordination",
+          "heading": "How we coordinate mailbox replacement and retrofits in Chula Vista",
+          "body": "Replacing mail equipment in an active community requires careful planning. We focus on communication and logistics so the project stays organized and predictable.",
+          "bullets": [
+            "Review your current mailbox layout, condition, and any USPS letters or notices",
+            "Walk the property to evaluate access, lighting, and potential new locations",
+            "Recommend equipment, finishes, and layouts that fit your Chula Vista community",
+            "Help boards and managers communicate key changes and timelines to residents",
+            "Coordinate USPS inspection and provide basic documentation when the upgrade is complete"
+          ],
+          "closing": "The result is a mailbox system that looks better, works better, and is easier for your team to maintain going forward."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you phase mailbox replacement so Chula Vista residents keep receiving mail?",
+          "answer": "Yes. Whenever possible we phase work, coordinate directly with USPS, and use temporary solutions so residents continue receiving mail while old equipment is removed and new mailboxes are installed and inspected."
+        },
+        {
+          "question": "Do you help Chula Vista HOAs choose new mailbox finishes and configurations?",
+          "answer": "We regularly assist boards and managers with product selection, showing finish options, cabinet configurations, and layout choices that fit the community and its long-term maintenance plan."
+        },
+        {
+          "question": "Can mailbox replacement projects reduce theft at our Chula Vista property?",
+          "answer": "New, USPS-approved equipment and better-planned locations can significantly reduce theft risk. We look at lighting, sight lines, and security considerations when recommending replacement or retrofit layouts."
+        },
+        {
+          "question": "Can we add parcel lockers during a replacement project in Chula Vista?",
+          "answer": "Yes. Many Chula Vista properties use mailbox replacement and retrofit projects as the time to add parcel lockers. We design configurations that support current and future package volumes."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "el-cajon",
+          "label": "El Cajon, CA",
+          "url": "/service-areas/el-cajon/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/mailbox-replacement-retrofits/"
+        }
+      ]
+    },
+    "oceanside": {
+      "citySlug": "oceanside",
+      "cityName": "Oceanside",
+      "state": "CA",
+      "h1": "Mailbox replacement & retrofits in Oceanside, CA",
+      "intro": "Postal Systems replaces and retrofits aging commercial mailboxes across Oceanside, from coastal townhomes to multifamily communities and mixed-use properties. We help you move from rusted, vandalized, or non-compliant equipment to secure, modern mail stations that residents and carriers can rely on.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why mailbox replacement and retrofits matter in Oceanside",
+          "body": "Salt air, sun, and traffic wear down older cluster mailboxes and wall-mounted units across Oceanside. Doors stick, locks fail, and cabinets corrode, leading to resident complaints and USPS concerns about security and access.",
+          "bullets": [
+            "Address rusted cabinets, failing doors, and worn-out locking hardware before they fail completely",
+            "Upgrade legacy mailboxes to current USPS-approved CBU or 4C models with secure parcel lockers",
+            "Improve locations and foundations so carriers have clear, safe access for daily deliveries",
+            "Reduce resident frustration and risk of mail theft with better equipment and layouts"
+          ],
+          "closing": "A planned mailbox replacement or retrofit project in Oceanside is often cheaper and less disruptive than repeated emergency repairs and ongoing complaints."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common mailbox replacement and retrofit projects in Oceanside",
+          "body": "Most Oceanside replacement projects start when boards, managers, or owners realize the current mail equipment is at the end of its life—or when USPS flags problems that can no longer be ignored.",
+          "bullets": [
+            "Replacing deteriorated CBUs in coastal townhome and garden-style communities",
+            "Retrofitting older 4B-style mailboxes to modern 4C wall-mounted equipment with parcel lockers",
+            "Consolidating scattered mailbox locations into fewer, well-designed cluster stations",
+            "Upgrading pads, pedestals, and clearances while mail equipment is being replaced",
+            "Combining replacement work with parcel locker additions to reduce package theft"
+          ],
+          "closing": "We scope Oceanside projects so you understand what is being replaced, what can be reused, and how the new configuration will perform for residents and carriers."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems manages mailbox replacement and retrofits in Oceanside",
+          "body": "Replacing mail equipment at an occupied property requires careful planning. We design Oceanside projects around your site, your residents, and your carrier’s needs so the transition is organized instead of chaotic.",
+          "bullets": [
+            "Walk the site to document existing mail equipment, locations, and foundation conditions",
+            "Review USPS notices or concerns and recommend compliant replacement options",
+            "Explain what can be reused—such as pads or pedestals—and what should be rebuilt",
+            "Plan work windows, phasing, and temporary mail arrangements where needed",
+            "Coordinate USPS inspection and turnover so your new system is accepted without delays"
+          ],
+          "closing": "Our goal is to turn an aging Oceanside mailbox system into a modern, reliable mail station with clear communication at every step."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you reuse existing concrete pads when replacing mailboxes in Oceanside?",
+          "answer": "Sometimes. We inspect your pads and pedestals to see whether they meet current standards and are in good condition. If reuse is not advisable, we explain why and include replacement pad work in your proposal."
+        },
+        {
+          "question": "Can mailbox replacement be phased at our Oceanside property?",
+          "answer": "Yes. Many Oceanside communities phase mailbox replacement so residents always have an active mail location. We outline phasing options and timelines in your written proposal."
+        },
+        {
+          "question": "Do you handle both mailbox replacement and parcel locker additions in Oceanside?",
+          "answer": "We can replace aging mail equipment and add parcel lockers as part of the same project. That way you address both compliance and package theft concerns in a single, coordinated upgrade."
+        },
+        {
+          "question": "Will you coordinate with USPS when we replace mailboxes in Oceanside?",
+          "answer": "Yes. We communicate with USPS about your new equipment and layout, schedule inspections, and respond to any punch-list items so your replacement project reaches a clean sign-off."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "carlsbad",
+          "label": "Carlsbad, CA",
+          "url": "/service-areas/carlsbad/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/mailbox-replacement-retrofits/"
+        }
+      ]
+    },
+    "carlsbad": {
+      "citySlug": "carlsbad",
+      "cityName": "Carlsbad",
+      "state": "CA",
+      "h1": "Mailbox replacement & retrofits in Carlsbad, CA",
+      "intro": "Postal Systems delivers mailbox replacement and retrofit projects for resort-style communities, HOAs, and apartments across Carlsbad. We replace aging, inconsistent mail equipment with modern, cohesive systems that match the quality of your property and meet USPS expectations.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why mailbox replacement projects are common in Carlsbad",
+          "body": "Carlsbad properties often have a mix of original mail equipment, additions from expansions, and ad hoc repairs. Over time, this patchwork of cabinets, pedestals, and locations becomes hard to manage and frustrating for residents and carriers.",
+          "bullets": [
+            "Outdated or mismatched mailboxes detract from otherwise high-end common areas",
+            "Repeated repairs and lock changes on failing cabinets drive up maintenance costs",
+            "Non-uniform layouts confuse residents and make routes less efficient for USPS",
+            "Boards and owners face increasing pressure to address security and appearance"
+          ],
+          "closing": "A planned replacement or retrofit is the cleanest way to align your Carlsbad mailbox system with the rest of your property’s standards."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common mailbox replacement and retrofit projects in Carlsbad",
+          "body": "We help Carlsbad communities move from piecemeal fixes to comprehensive mailbox upgrades that look intentional and function reliably.",
+          "bullets": [
+            "Replacing aging CBUs with new, matching banks that align with current USPS models",
+            "Retrofitting older wall-mounted mailboxes to 4C equipment with integrated parcel lockers",
+            "Reorganizing scattered mail locations into fewer, centralized mail stations",
+            "Bringing mailbox foundations, approaches, and lighting up to current expectations",
+            "Coordinating mailbox work alongside paving, landscape, or amenity upgrades"
+          ],
+          "closing": "Each Carlsbad project is scoped with clear drawings, equipment schedules, and phasing plans so decision makers know exactly what is changing and why."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems coordinates mailbox replacement in Carlsbad communities",
+          "body": "Mailbox replacement at an occupied, amenity-rich property requires careful planning and communication. We design Carlsbad projects so residents, managers, and carriers know what to expect.",
+          "bullets": [
+            "Survey existing equipment, locations, and conditions to understand what can be reused",
+            "Develop replacement layouts that manage traffic, parking, and visual impact",
+            "Provide equipment recommendations that fit your community’s look and budget",
+            "Plan phasing and temporary mail solutions where needed to keep mail moving",
+            "Coordinate USPS review and inspection so the new system is accepted cleanly"
+          ],
+          "closing": "Our team handles the details so Carlsbad mailbox replacement and retrofit projects feel organized instead of disruptive."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you match the look and feel of our Carlsbad community when replacing mailboxes?",
+          "answer": "Yes. We recommend mailbox models, colors, and layouts that align with your architecture and amenity spaces so the new equipment looks like it belongs on your property."
+        },
+        {
+          "question": "Can mailbox replacement in Carlsbad be coordinated with other capital projects?",
+          "answer": "Many clients in Carlsbad combine mailbox replacement with paving, lighting, or landscape projects. We coordinate our work with your broader schedule to reduce disruption and duplication of effort."
+        },
+        {
+          "question": "How do you minimize disruption for residents during mailbox replacement in Carlsbad?",
+          "answer": "We plan phasing, communicate schedules, and, where needed, provide temporary mail solutions or clear instructions so residents know where and how to receive mail while work is underway."
+        },
+        {
+          "question": "Will USPS need to inspect our new mailbox system in Carlsbad?",
+          "answer": "Yes, USPS typically reviews and inspects new commercial mailbox installations and major retrofits. We coordinate that inspection and handle any follow up items so your system can go into service smoothly."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "oceanside",
+          "label": "Oceanside, CA",
+          "url": "/service-areas/oceanside/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/mailbox-replacement-retrofits/"
+        }
+      ]
+    },
+    "encinitas": {
+      "citySlug": "encinitas",
+      "cityName": "Encinitas",
+      "state": "CA",
+      "h1": "Mailbox replacement and retrofits in Encinitas, CA",
+      "intro": "Postal Systems handles mailbox replacement and retrofits for HOAs, condos, and mixed-use properties across Encinitas. From older garden-style communities near Coast Highway to newer developments inland, we replace failing mail stations with secure, USPS-approved systems that better fit how residents live and how carriers serve your routes.",
+      "sections": [
+        {
+          "id": "why-replace-encinitas",
+          "heading": "Why Encinitas properties are replacing aging mailbox systems",
+          "body": "Encinitas communities face salt air, sun exposure, and decades of use. Many original cluster mailboxes and wall-mounted units are rusted, leaking, or no longer aligned with current USPS and accessibility expectations. Boards and property managers are under pressure to address complaints, reduce theft, and modernize common areas.",
+          "bullets": [
+            "Doors and locks on older CBUs and wall-mounted boxes are sticking, broken, or repeatedly vandalized",
+            "Rust, corrosion, and water intrusion are damaging mail and undermining resident confidence",
+            "Patch repairs over the years have left your mail station looking mismatched and dated",
+            "USPS has raised concerns about the condition, location, or layout of existing mailboxes",
+            "Boards want a cleaner, more modern mail station that fits with overall property upgrades"
+          ],
+          "closing": "Our replacement and retrofit work in Encinitas focuses on solving these issues in one coordinated project, so you are not revisiting the same problems every year."
+        },
+        {
+          "id": "common-projects-encinitas",
+          "heading": "Common mailbox replacement and retrofit projects in Encinitas",
+          "body": "Most Encinitas projects start when boards or managers realize spot repairs are no longer enough. We help you transition to updated, centralized mail systems that look better and perform better long term.",
+          "bullets": [
+            "Full replacement of outdated cluster mailboxes with new USPS-approved CBUs",
+            "Retrofitting older wall-mounted mailboxes with 4C mail and parcel configurations",
+            "Consolidating scattered mailbox locations into a more central, visible mail station",
+            "Upgrading pads, pedestals, and lighting as part of a comprehensive mailbox project",
+            "Integrating parcel lockers into replacement work to address growing package volume"
+          ],
+          "closing": "Each project is scoped with photos, layout notes, and clear line items so boards and owners understand exactly what is being replaced and why."
+        },
+        {
+          "id": "approach-encinitas",
+          "heading": "How we plan mailbox replacement and retrofits around Encinitas properties",
+          "body": "Encinitas sites often include sloped drives, coastal wind, and limited space near entries and clubhouses. We design mailbox retrofits that work with those constraints while upgrading security, durability, and curb appeal.",
+          "bullets": [
+            "Walk the site to evaluate current mailbox locations, visibility, and access from parking",
+            "Document existing equipment, foundations, and any USPS notes you have received",
+            "Recommend replacement options that balance aesthetics, durability, and code compliance",
+            "Phase work so residents retain mail access while old equipment is removed and new units are installed",
+            "Coordinate USPS inspection and turnover so your new system is ready for service with minimal disruption"
+          ],
+          "closing": "Our goal is to deliver a replacement or retrofit solution that feels like an upgrade to your Encinitas property—not just a swap of one metal box for another."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you match our existing mailbox locations in Encinitas or do we need to move them?",
+          "answer": "In many cases we can replace equipment in the same general location, but if access, visibility, or slope are a concern, we may recommend a new layout. After a site walk, we explain the pros and cons of staying in place versus relocating the mail station."
+        },
+        {
+          "question": "Do we have to replace all of our Encinitas mailboxes at once?",
+          "answer": "Not always. Some communities phase replacements by building or by bank, while others prefer a single, comprehensive project. We outline both approaches so boards can weigh budget, disruption, and long-term consistency."
+        },
+        {
+          "question": "Can you add parcel lockers as part of a mailbox retrofit in Encinitas?",
+          "answer": "Yes. Many mailbox retrofit projects in Encinitas now include parcel lockers to reduce package theft and clutter. We design configurations that integrate parcels into your upgraded mail station."
+        },
+        {
+          "question": "Will USPS need to approve our mailbox replacement plan in Encinitas?",
+          "answer": "USPS reviews layouts and equipment for commercial mailbox projects. We coordinate with USPS on your behalf so the new configuration supports both carrier access and resident use."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "carlsbad",
+          "label": "Carlsbad, CA",
+          "url": "/service-areas/carlsbad/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "oceanside",
+          "label": "Oceanside, CA",
+          "url": "/service-areas/oceanside/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/mailbox-replacement-retrofits/"
+        }
+      ]
+    },
+    "escondido": {
+      "citySlug": "escondido",
+      "cityName": "Escondido",
+      "state": "CA",
+      "h1": "Mailbox replacement and retrofits in Escondido, CA",
+      "intro": "Postal Systems replaces and retrofits commercial mailbox systems for HOAs, apartments, and mixed-use properties throughout Escondido. We help owners move away from failing, hard-to-maintain mail stations and toward modern, secure mailbox setups that support daily delivery and resident expectations.",
+      "sections": [
+        {
+          "id": "why-replace-escondido",
+          "heading": "Why Escondido communities are upgrading mailbox systems",
+          "body": "Escondido properties often carry older mailbox equipment that has seen decades of sun, irrigation, and day-to-day wear. Residents notice jammed locks, leaking compartments, and mismatched repairs, while USPS may flag concerns about security or access. At some point, replacement or retrofit becomes more practical than another round of patchwork repairs.",
+          "bullets": [
+            "Rust, peeling paint, and dented doors are affecting how residents view the property",
+            "Repeated lock and door repairs are driving up maintenance costs",
+            "Old pedestal and pad work is cracked, uneven, or undermined by irrigation",
+            "USPS has commented on the condition or configuration of existing mailbox banks",
+            "Boards and owners want a cleaner, more secure system that reduces complaints"
+          ],
+          "closing": "Our Escondido projects focus on turning problem mailbox areas into reliable, low-maintenance parts of the property."
+        },
+        {
+          "id": "common-projects-escondido",
+          "heading": "Common mailbox replacement and retrofit projects in Escondido",
+          "body": "We typically engage with Escondido properties when they are ready to move from reactive repairs to a more permanent solution. That may mean full replacement, or a strategic retrofit that resets how and where mail is delivered.",
+          "bullets": [
+            "Replacing aging CBUs with new, higher-security, USPS-approved models",
+            "Retrofitting older wall-mounted equipment with 4C mail and parcel cabinets",
+            "Consolidating several small mail sites into one or two well-designed mail stations",
+            "Rebuilding pads and pedestals as part of a full replacement scope",
+            "Integrating parcel lockers into the replacement plan to support package volume"
+          ],
+          "closing": "We provide clear drawings, photos, and line-item proposals so boards can explain the project and secure approvals with confidence."
+        },
+        {
+          "id": "approach-escondido",
+          "heading": "How we manage mailbox replacement and retrofits on Escondido properties",
+          "body": "Escondido sites may have tight parking, slopes, and a mix of older and newer buildings. We plan mailbox replacement and retrofits around those realities so residents keep receiving mail while work moves forward.",
+          "bullets": [
+            "Perform a site walk to review existing mail locations, parking flows, and resident access",
+            "Document current equipment and any USPS or inspection notes tied to the mail stations",
+            "Develop replacement or retrofit options that respect budget, layout, and long-term durability",
+            "Phase demolition and installation so residents continue to have mail access",
+            "Coordinate USPS inspection and turnover once the new mail system is installed"
+          ],
+          "closing": "Our goal is to leave Escondido properties with mailbox systems that work better for residents, carriers, and property teams—without dragging projects out or causing confusion."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you keep some of our existing mailboxes and only replace the worst ones in Escondido?",
+          "answer": "In some cases we can combine targeted replacements with broader retrofit work, but mixing old and new equipment can prolong maintenance issues. After a site review, we outline both partial and full replacement options so you can decide what makes the most sense."
+        },
+        {
+          "question": "Will mailbox replacement in Escondido interrupt daily mail delivery?",
+          "answer": "We plan work and phasing to minimize disruptions and coordinate with USPS on timing. In many projects, we can structure the work so residents have access to either existing or new mail equipment throughout the process."
+        },
+        {
+          "question": "Can you help us choose new mailbox styles that fit our Escondido property?",
+          "answer": "Yes. We recommend equipment and finishes that perform well in Escondido’s conditions and align with your architecture and common-area design."
+        },
+        {
+          "question": "Do you provide written proposals for board review in Escondido?",
+          "answer": "Every project comes with a written proposal that outlines layouts, equipment, pad and pedestal work, installation steps, and pricing so boards, managers, and owners can review and approve with clarity."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/mailbox-replacement-retrofits/"
+        }
+      ]
+    },
+    "vista": {
+      "citySlug": "vista",
+      "cityName": "Vista",
+      "state": "CA",
+      "h1": "Mailbox replacement and retrofits in Vista, CA",
+      "intro": "Postal Systems replaces aging, damaged, and non-compliant mailbox equipment for HOAs, apartments, and commercial properties throughout Vista. We handle foundations, new hardware, and USPS coordination so you end up with a secure, modern system instead of a string of patch repairs.",
+      "sections": [
+        {
+          "id": "why-replacement-vista",
+          "heading": "Why Vista properties replace and retrofit mailbox systems",
+          "body": "Vista communities often inherit mail equipment that has been added to over time. Boxes may be mismatched, corroded, or no longer aligned with current USPS expectations. At some point, another repair no longer makes sense, and full replacement or a planned retrofit is the safer, more reliable option.",
+          "bullets": [
+            "Rust, corrosion, and repeated repairs making existing mailboxes hard to secure",
+            "Outdated equipment that does not match current USPS-approved models",
+            "Mixed mail equipment installed in phases without a cohesive plan",
+            "Pedestals and pads that are cracked, tilted, or undersized for current loads",
+            "USPS or reserve studies calling out mail equipment as a risk item"
+          ],
+          "closing": "We help Vista boards and owners move from band-aid fixes to a planned replacement or retrofit that residents and carriers can rely on."
+        },
+        {
+          "id": "common-projects-vista",
+          "heading": "Common mailbox replacement and retrofit projects in Vista",
+          "body": "Vista replacement projects range from single-bank upgrades to complete community-wide retrofits. In each case, we design a path that balances budget, timing, and long term durability.",
+          "bullets": [
+            "One-for-one replacements of failing cluster box units with current models",
+            "Consolidating several small mailbox clusters into a more central mail station",
+            "Replacing pedestal-mounted CBUs on failing pads with new foundations and anchors",
+            "Upgrading wall-mounted boxes to newer 4C equipment with better security",
+            "Combining replacement with parcel locker additions to improve package handling"
+          ],
+          "closing": "Every Vista project is scoped clearly so boards, managers, and owners know exactly what is being replaced and why."
+        },
+        {
+          "id": "coordination-vista",
+          "heading": "How we plan and phase mailbox retrofits in Vista",
+          "body": "Vista properties need predictable projects that keep residents receiving mail throughout the work. We design replacement and retrofit projects with communication and phasing built in from the start.",
+          "bullets": [
+            "Walk the property to document existing mail equipment, pads, and access routes",
+            "Recommend replacement and retrofit options that fit your timeline and budget",
+            "Plan phasing so residents know when and where to collect mail during work",
+            "Coordinate removal of old equipment and installation of new foundations and boxes",
+            "Work with USPS to review layouts and schedule inspection of the upgraded system"
+          ],
+          "closing": "Our goal is a Vista mailbox upgrade that feels organized, well communicated, and ready for daily use on day one."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you replace only the worst mailbox banks in Vista and phase the rest later?",
+          "answer": "Yes. Many Vista communities phase replacements. We can prioritize the worst equipment first and design a plan that allows the remaining banks to be upgraded in stages without starting from scratch each time."
+        },
+        {
+          "question": "Can you match the look of our existing Vista mailboxes during a retrofit?",
+          "answer": "Where possible, we recommend USPS-approved equipment that complements what you already have. When that is not practical, we will explain the visual and technical differences so boards can make an informed decision."
+        },
+        {
+          "question": "Do you handle demolition and removal of old mailbox equipment in Vista?",
+          "answer": "Yes. Our scope can include removal of old cabinets, pedestals, and pads as needed. We will outline exactly what is included so there are no surprises once work begins."
+        },
+        {
+          "question": "Will our Vista residents be without mail during replacement work?",
+          "answer": "We plan phasing and USPS coordination so disruption is minimized. On many projects, we can keep at least one active location available while new equipment is installed and inspected."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "escondido",
+          "label": "Escondido, CA",
+          "url": "/service-areas/escondido/mailbox-replacement-retrofits/"
+        }
+      ]
+    },
+    "poway": {
+      "citySlug": "poway",
+      "cityName": "Poway",
+      "state": "CA",
+      "h1": "Mailbox replacement and retrofits in Poway, CA",
+      "intro": "Postal Systems replaces failing and outdated mailbox systems for HOAs, business parks, and institutional properties across Poway. We design replacements and retrofits that improve security, reliability, and appearance while meeting USPS expectations.",
+      "sections": [
+        {
+          "id": "why-replacement-poway",
+          "heading": "Why Poway properties plan mailbox replacements and retrofits",
+          "body": "In Poway, mailboxes often serve high-traffic communities and business parks. When equipment begins to fail, boards and owners are looking not just for a quick fix, but for a more durable, professional solution backed by clear documentation.",
+          "bullets": [
+            "Equipment that has been patched repeatedly after vandalism or weather damage",
+            "Pedestals that lean, move, or feel unstable at the base",
+            "Mail equipment that no longer matches USPS-approved configurations",
+            "Mixed, piecemeal equipment creating a patchwork look across the property",
+            "Owners wanting to improve curb appeal while addressing risk and security"
+          ],
+          "closing": "We help Poway properties move from reactive repairs to a planned replacement or retrofit that addresses the root problems."
+        },
+        {
+          "id": "common-projects-poway",
+          "heading": "Mailbox replacement and retrofit projects we see in Poway",
+          "body": "Poway projects tend to involve both functionality and presentation. We design mailbox upgrades that satisfy both priorities.",
+          "bullets": [
+            "Replacing aging cluster box units with new USPS-approved cabinets and pedestals",
+            "Rebuilding concrete pads so new equipment sits level and secure",
+            "Reconfiguring multiple small mail locations into a cleaner, central mail station",
+            "Upgrading out-of-date apartment mailboxes to modern 4C equipment",
+            "Pairing replacement work with parcel locker additions for better package handling"
+          ],
+          "closing": "Each Poway project is scoped, priced, and scheduled in writing so boards and owners can communicate clearly with residents and stakeholders."
+        },
+        {
+          "id": "coordination-poway",
+          "heading": "How we coordinate mailbox retrofits in Poway",
+          "body": "Poway owners expect predictable schedules and minimal disruption. We build that into the way we execute mailbox replacement and retrofit work.",
+          "bullets": [
+            "Review your current mail equipment, locations, and any USPS notices",
+            "Propose replacement options with clear pros, cons, and budget ranges",
+            "Coordinate with other site contractors if paving or concrete work is happening",
+            "Phase the work to keep residents and carriers informed and served",
+            "Schedule USPS review and inspection once new equipment is installed"
+          ],
+          "closing": "You get a Poway mailbox project that feels organized and handled, rather than one more maintenance headache."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you provide budget ranges for Poway mailbox replacements before we present to the board?",
+          "answer": "Yes. After a site visit and basic layout review, we can provide budget ranges and a more detailed written proposal so your Poway board has the information it needs to make a decision."
+        },
+        {
+          "question": "Do you replace both community mail kiosks and stand-alone cluster boxes in Poway?",
+          "answer": "We do. Our work includes single-bank replacements, kiosk-style stations, and property-wide retrofit projects for Poway HOAs and business parks."
+        },
+        {
+          "question": "Will mailbox replacement work in Poway interfere with parking or access?",
+          "answer": "Where mail stations are near drives or parking, we plan work windows, cones, and routing to keep vehicles and pedestrians safe while equipment is being replaced."
+        },
+        {
+          "question": "Can you match the finish and color of existing mail equipment in Poway?",
+          "answer": "We specify USPS-approved equipment available in a range of finishes. Where an exact match is not possible, we will recommend options that complement your existing property aesthetics."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/mailbox-replacement-retrofits/"
+        }
+      ]
+    },
+    "san-marcos": {
+      "citySlug": "san-marcos",
+      "cityName": "San Marcos",
+      "state": "CA",
+      "h1": "Mailbox replacement and retrofits in San Marcos, CA",
+      "intro": "Postal Systems provides mailbox replacement and retrofit services for HOAs, student housing, and mixed-use communities throughout San Marcos. We replace worn-out equipment with secure, modern systems and design retrofits that serve residents and carriers better every day.",
+      "sections": [
+        {
+          "id": "why-replacement-san-marcos",
+          "heading": "Why San Marcos communities plan mailbox replacements and retrofits",
+          "body": "San Marcos properties often see heavy daily mail traffic, whether from long-term residents or students. As equipment ages, failures and complaints become more frequent, and boards want a clear, long term solution instead of another patch.",
+          "bullets": [
+            "Doors that no longer close cleanly or lock reliably",
+            "Rusted, dented, or mismatched boxes that hurt curb appeal",
+            "Mail equipment that predates current USPS-approved configurations",
+            "Multiple small mail locations that are hard to manage and secure",
+            "Reserve studies or inspections flagging mail equipment for replacement"
+          ],
+          "closing": "We help San Marcos properties step back, plan a comprehensive upgrade, and replace or retrofit mail equipment with a more durable, coordinated system."
+        },
+        {
+          "id": "common-projects-san-marcos",
+          "heading": "Common mailbox replacement and retrofit projects in San Marcos",
+          "body": "San Marcos replacement work ranges from small targeted upgrades to complete community rebuilds. We right-size the project to your property and budget.",
+          "bullets": [
+            "Replacing aging cluster boxes at student-oriented and traditional communities",
+            "Upgrading older mail kiosks to new CBUs and 4C configurations",
+            "Rebuilding or enlarging pads to support new mail equipment layouts",
+            "Consolidating scattered mailbox locations into more efficient stations",
+            "Tying replacement work to parcel locker additions and ADA improvements"
+          ],
+          "closing": "Our proposals clearly describe which equipment is being replaced, what is being added, and how the new system will function day to day."
+        },
+        {
+          "id": "coordination-san-marcos",
+          "heading": "How we coordinate mailbox retrofits in San Marcos",
+          "body": "San Marcos projects often involve boards, management teams, and sometimes campus or student housing leadership. We structure mailbox replacement work so all of those stakeholders know what to expect.",
+          "bullets": [
+            "Review existing mail layouts, photos, and any USPS guidance you have received",
+            "Walk the property to confirm access, lighting, and pad conditions",
+            "Develop replacement and retrofit options with clear timelines and pricing",
+            "Plan phasing and tenant communication around move-in cycles and busy periods",
+            "Coordinate USPS inspection and sign-off once the new equipment is installed"
+          ],
+          "closing": "You end up with a San Marcos mailbox system that is easier to manage, safer, and better aligned with how your property operates."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you help us present mailbox replacement options to our San Marcos board?",
+          "answer": "Yes. We can provide written proposals, photos, and simple explanations of the options so your San Marcos board can review and select a path forward with confidence."
+        },
+        {
+          "question": "Do you handle mailbox replacement at student housing properties in San Marcos?",
+          "answer": "We do. We are familiar with the higher use and tighter timelines at student-oriented properties and plan projects with those realities in mind."
+        },
+        {
+          "question": "Can mailbox retrofits in San Marcos be combined with accessibility and parcel locker upgrades?",
+          "answer": "Often that is the best approach. We can design a project that upgrades equipment, improves accessibility, and adds parcel lockers in a single coordinated effort."
+        },
+        {
+          "question": "How long does mailbox replacement work typically affect our San Marcos residents?",
+          "answer": "The exact timeline depends on scope, but we plan phasing and USPS coordination so residents know when changes are coming and how to access their mail throughout the project."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "escondido",
+          "label": "Escondido, CA",
+          "url": "/service-areas/escondido/mailbox-replacement-retrofits/"
+        }
+      ]
+    },
+    "temecula": {
+      "citySlug": "temecula",
+      "cityName": "Temecula",
+      "state": "CA",
+      "h1": "Mailbox replacement & retrofits in Temecula, CA",
+      "intro": "Postal Systems helps Temecula HOAs, apartments, and commercial properties replace aging mailbox equipment and retrofit existing mail stations to current USPS expectations. We design replacement projects that fit wine-country communities, newer neighborhoods, and infill developments across Temecula.",
+      "sections": [
+        {
+          "id": "why-replace-temecula",
+          "heading": "Why Temecula properties replace and retrofit mailbox systems",
+          "body": "Temecula communities often combine older phases and newer construction. That mix can leave you with rusted or outdated boxes in one area and newer equipment in another. Boards and owners are looking for consistent, secure mail stations that still work with existing drive aisles, slopes, and landscaping.",
+          "bullets": [
+            "Cluster mailboxes with rusted doors, worn hinges, or failing pedestals",
+            "Inconsistent mailbox models and key systems across different phases",
+            "Equipment that no longer matches current USPS-approved configurations",
+            "Pads that have settled or cracked, creating access and appearance issues",
+            "Mail stations that no longer fit how residents park and move through the site"
+          ],
+          "closing": "We help Temecula properties replace and retrofit mailbox systems so they look cohesive, operate reliably, and support daily USPS delivery."
+        },
+        {
+          "id": "temecula-project-types",
+          "heading": "Common mailbox replacement and retrofit projects we handle in Temecula",
+          "body": "Replacement work in Temecula ranges from one-for-one swaps of failing CBUs to full reconfigurations of long mailbox runs at master-planned communities.",
+          "bullets": [
+            "Replacing corroded CBUs with modern, USPS-approved units in matching finishes",
+            "Retrofitting older mail stations with new pads, pedestals, and updated hardware",
+            "Converting scattered small mailbox clusters into consolidated, efficient stations",
+            "Upgrading to equipment that integrates parcel lockers where packages are piling up",
+            "Coordinating mailbox upgrades with broader community refresh projects"
+          ],
+          "closing": "Each Temecula project is scoped to your site conditions, budget, and long-term plans for the property."
+        },
+        {
+          "id": "process-temecula",
+          "heading": "How our mailbox replacement & retrofit process works in Temecula",
+          "body": "We follow a clear process so Temecula boards, managers, and owners know how the project will affect residents and USPS service from start to finish.",
+          "bullets": [
+            "Walk existing mailbox locations and document equipment, pads, and visible issues",
+            "Review USPS expectations, resident concerns, and your priorities for the upgrade",
+            "Recommend replacement models, layout adjustments, and retrofit options",
+            "Plan phasing so residents have predictable access to mail during the project",
+            "Install new equipment, remove old hardware, and prepare the site for USPS use"
+          ],
+          "closing": "By the end of the project, your Temecula property has a mailbox system that looks consistent, performs better, and is ready for years of regular use."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you match the look of existing Temecula mailboxes when we replace equipment?",
+          "answer": "In many cases we can provide finishes and configurations that blend with existing equipment or recommend a phased plan to standardize the look over time. During our walk we discuss appearance goals along with function and security."
+        },
+        {
+          "question": "Do mailbox retrofit projects in Temecula always require new concrete pads?",
+          "answer": "Not always. Some pads can be reused or repaired. We evaluate each pad for condition, size, and slope, then explain whether reuse, repair, or full replacement makes the most sense for your project."
+        },
+        {
+          "question": "Can you add parcel lockers while replacing mailboxes in Temecula?",
+          "answer": "Yes. Replacement projects are often the best time to introduce parcel lockers. We design configurations that incorporate parcel capacity without creating cluttered, difficult-to-use mail stations."
+        },
+        {
+          "question": "Will mail service be interrupted during Temecula mailbox replacement projects?",
+          "answer": "We plan work and phasing with USPS and your team so residents know when changes will occur and where to pick up mail. In many cases, disruption is limited to short, clearly defined time windows."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "riverside-county",
+          "label": "Riverside County, CA",
+          "url": "/service-areas/riverside-county/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/mailbox-replacement-retrofits/"
+        }
+      ]
+    },
+    "el-cajon": {
+      "citySlug": "el-cajon",
+      "cityName": "El Cajon",
+      "state": "CA",
+      "h1": "Mailbox replacement & retrofits in El Cajon, CA",
+      "intro": "Postal Systems replaces and retrofits mailbox systems for El Cajon HOAs, apartments, and commercial properties. We help you move from aging, weather-worn equipment to secure, consolidated mail stations that match how residents actually use the property.",
+      "sections": [
+        {
+          "id": "why-replace-el-cajon",
+          "heading": "Why El Cajon communities invest in mailbox replacement and retrofits",
+          "body": "El Cajon’s heat, age of some communities, and repeated use can be tough on mail equipment. Doors fatigue, finishes fade, and pedestals deteriorate. At the same time, package volume has increased and residents expect more secure, convenient mail service.",
+          "bullets": [
+            "Cluster boxes with repeated lock problems or doors that no longer close properly",
+            "Equipment that has been patched multiple times and is now beyond simple repair",
+            "Mail stations that look out of place as the rest of the property is updated",
+            "Outdated mailbox layouts that don’t account for current traffic patterns",
+            "Requests from residents or boards to modernize mail and parcel handling"
+          ],
+          "closing": "Our role in El Cajon is to design replacement and retrofit projects that address real issues while fitting your budget and site constraints."
+        },
+        {
+          "id": "el-cajon-project-types",
+          "heading": "Common mailbox replacement & retrofit projects we complete in El Cajon",
+          "body": "We handle everything from small retrofit scopes to multi-cluster replacement programs for larger El Cajon communities.",
+          "bullets": [
+            "Replacing older CBUs with current USPS-approved models and finishes",
+            "Retrofitting pads and pedestals to stabilize leaning or sunken equipment",
+            "Reworking layouts so residents no longer have to stand in active drive aisles",
+            "Adding parcel lockers as part of a broader mailbox refresh project",
+            "Consolidating scattered mail locations into fewer, more secure stations"
+          ],
+          "closing": "Each El Cajon project is tailored to the property—whether you manage a small community or a multi-phase development."
+        },
+        {
+          "id": "process-el-cajon",
+          "heading": "How our mailbox replacement & retrofit process works in El Cajon",
+          "body": "We use a step-by-step approach so El Cajon boards and managers can set expectations with residents and keep the project moving.",
+          "bullets": [
+            "Inspect existing mail equipment, pads, and surrounding approaches on site",
+            "Discuss service issues, security concerns, and appearance goals with your team",
+            "Present replacement and retrofit options with clear scopes and pricing",
+            "Coordinate phasing, temporary access, and resident communication",
+            "Remove outdated equipment, install new systems, and prepare for USPS use"
+          ],
+          "closing": "By the end of the project, your El Cajon property has a mailbox system that functions better, looks cleaner, and supports daily carrier routes."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you replace multiple El Cajon mailbox clusters in stages?",
+          "answer": "Yes. Many El Cajon properties choose a phased approach, replacing the most critical or damaged mail stations first and then addressing the remaining locations over time. We outline clear phases and budgets so you can plan ahead."
+        },
+        {
+          "question": "Do you remove and dispose of old mailbox equipment in El Cajon?",
+          "answer": "We can include removal and disposal of existing equipment as part of our scope. This keeps the project cleaner and avoids leaving old equipment on site once the new mail stations are in service."
+        },
+        {
+          "question": "Can you recommend finishes and configurations that suit our El Cajon property?",
+          "answer": "Yes. We help you choose mailbox models, finishes, and layouts that align with your architecture, climate, and security needs so the final installation looks intentional, not patched together."
+        },
+        {
+          "question": "Will you coordinate with USPS during our El Cajon mailbox replacement project?",
+          "answer": "We work directly with USPS on layouts, installation timing, and acceptance of the new equipment so your upgraded mail stations are ready for regular delivery as soon as the project is complete."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "chula-vista",
+          "label": "Chula Vista, CA",
+          "url": "/service-areas/chula-vista/mailbox-replacement-retrofits/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/mailbox-replacement-retrofits/"
+        }
+      ]
+    }
+  }
+}

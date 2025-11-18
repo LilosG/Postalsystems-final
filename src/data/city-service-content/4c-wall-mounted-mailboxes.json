@@ -1,0 +1,916 @@
+{
+  "serviceSlug": "4c-wall-mounted-mailboxes",
+  "cities": {
+    "san-diego": {
+      "citySlug": "san-diego",
+      "cityName": "San Diego",
+      "state": "CA",
+      "h1": "4C wall-mounted mailboxes in San Diego, CA",
+      "intro": "Postal Systems installs USPS-approved 4C wall-mounted mailboxes and parcel lockers for apartments, mixed-use buildings, and campus properties across San Diego. We help owners and managers upgrade mail rooms and wall-mounted mail equipment so they meet today’s USPS and ADA standards.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why 4C wall-mounted mailboxes matter for San Diego properties",
+          "body": "San Diego buildings deal with a mix of older construction, coastal conditions, and high parcel volume. Outdated wall-mounted boxes and improvised mail solutions create headaches for residents, carriers, and managers.",
+          "bullets": [
+            "Replace rusted or vandalized wall boxes with secure 4C cabinets and parcel lockers",
+            "Upgrade aging indoor mail rooms that no longer meet USPS or ADA requirements",
+            "Reconfigure mail areas in lobbies, garages, and breezeways to improve carrier access",
+            "Increase parcel capacity to handle modern online shopping volumes",
+            "Create cleaner, more professional mail rooms that match the rest of your property"
+          ],
+          "closing": "Instead of piecing together equipment from multiple vendors, you get a single contractor who designs, installs, and coordinates inspection for your 4C system."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common 4C mailbox projects we handle in San Diego",
+          "body": "Recent San Diego projects have included upgrades in coastal communities, urban infill apartments, and campus-style properties.",
+          "bullets": [
+            "Full 4C replacements for aging interior mail rooms in older apartment buildings",
+            "Adding parcel lockers and extra capacity to busy downtown and mid-city properties",
+            "Upgrading garage and podium-level mail areas in new multifamily developments",
+            "Replacing damaged or non-compliant wall boxes after USPS notices",
+            "Coordinated mail room upgrades as part of broader renovation projects"
+          ],
+          "closing": "For each project we coordinate layout, equipment selection, installation, and USPS inspection so your team can focus on residents, not mail logistics."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems coordinates 4C projects in San Diego",
+          "body": "San Diego properties often have tight lobbies, shared mail rooms, and limited staging space. We plan work around the realities of your building so residents and carriers can keep moving.",
+          "bullets": [
+            "Review existing mail room conditions and any USPS letters you have received",
+            "Measure clearances and routes to design compliant 4C layouts with parcel lockers",
+            "Coordinate schedules with onsite staff, security, and building vendors",
+            "Stage equipment and debris handling to minimize disruption in active buildings",
+            "Arrange USPS inspection and complete punch-list items quickly"
+          ],
+          "closing": "Our goal is a finished 4C system that feels like an upgrade for residents and an easier workflow for carriers and staff."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you match the look of our existing mail room finishes?",
+          "answer": "We review your existing finishes and recommend 4C cabinet colors and trims that work with your space. Where needed, we coordinate light framing or finish work so the new mail system feels integrated, not bolted on."
+        },
+        {
+          "question": "Do you handle removal and disposal of old wall-mounted mailboxes?",
+          "answer": "Yes. Our team removes outdated equipment, handles disposal, and prepares the wall for new 4C cabinets. If patching or additional finish work is needed, we include that scope in your proposal so there are no surprises."
+        },
+        {
+          "question": "Can you coordinate with our general contractor on a San Diego renovation?",
+          "answer": "Absolutely. We frequently work alongside general contractors and other trades, providing detailed layout drawings, equipment specs, and schedules so mailbox work fits smoothly into the overall project."
+        },
+        {
+          "question": "How far in advance should we plan a 4C upgrade?",
+          "answer": "Lead times can vary based on equipment selection and building schedules. The sooner we review your site and USPS requirements, the easier it is to plan a smooth upgrade with minimal disruption to residents."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "chula-vista",
+          "label": "Chula Vista, CA",
+          "url": "/service-areas/chula-vista/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "la-mesa",
+          "label": "La Mesa, CA",
+          "url": "/service-areas/san-diego/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "carlsbad",
+          "label": "Carlsbad, CA",
+          "url": "/service-areas/carlsbad/4c-wall-mounted-mailboxes/"
+        }
+      ]
+    },
+    "chula-vista": {
+      "citySlug": "chula-vista",
+      "cityName": "Chula Vista",
+      "state": "CA",
+      "h1": "4C wall-mounted mailboxes in Chula Vista, CA",
+      "intro": "Postal Systems installs and upgrades 4C wall-mounted mailboxes and parcel lockers for apartments, HOAs, and mixed-use properties throughout Chula Vista. We help communities move away from aging wall boxes and improvised mail rooms to secure, code-compliant 4C systems.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why 4C wall-mounted mailboxes matter in Chula Vista",
+          "body": "Chula Vista has a mix of older communities and newer developments, many of which were not originally designed for today’s package volumes. Older wall-mounted mailboxes and ad-hoc mail rooms can quickly become cluttered and non-compliant.",
+          "bullets": [
+            "Upgrade from aging wall boxes to secure, modern 4C mail equipment",
+            "Add parcel lockers so residents are not relying on office storage for packages",
+            "Improve lighting, access, and clearances in existing mail rooms",
+            "Address USPS and ADA concerns before they become enforcement issues",
+            "Create a cleaner, more professional first impression in lobbies and common areas"
+          ],
+          "closing": "We help boards and managers understand their options and design 4C layouts that work with the building they already have."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common 4C projects we handle in Chula Vista",
+          "body": "Recent projects in Chula Vista have included mail room upgrades in garden-style apartments, mid-rise buildings, and HOA common facilities.",
+          "bullets": [
+            "Replacing vandalized or failing wall-mounted mailboxes with new 4C cabinets",
+            "Converting improvised mail rooms into organized, USPS-compliant spaces",
+            "Adding parcel lockers near existing mail areas to keep packages secure",
+            "Coordinating 4C upgrades during common-area renovations and repaint projects",
+            "Helping communities respond to USPS notices about non-compliant equipment"
+          ],
+          "closing": "For each community, we coordinate layout, equipment, scheduling, and inspection so the mailbox upgrade feels controlled and predictable."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems coordinates 4C mail room upgrades in Chula Vista",
+          "body": "Many Chula Vista communities have limited parking, shared common areas, and active residents. We plan the work so residents can continue to move through the property safely while the mail area is upgraded.",
+          "bullets": [
+            "Walk the property with you to review access, parking, and staging options",
+            "Design 4C layouts that work with existing walls and clearances",
+            "Phase work to reduce downtime for mail and packages where possible",
+            "Communicate timelines and milestones so boards and managers can keep residents informed",
+            "Coordinate USPS inspection once the new 4C system is installed"
+          ],
+          "closing": "Our goal is a finished mail room that feels like a long-term improvement, not a short-term disruption."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you help us decide between outdoor CBUs and indoor 4C mail rooms?",
+          "answer": "Yes. We review your site, parking, and building layout and explain the pros and cons of each option. For many multifamily buildings in Chula Vista, 4C wall-mounted mailboxes provide better security and resident experience than outdoor clusters."
+        },
+        {
+          "question": "Do you work with both HOAs and individual building owners in Chula Vista?",
+          "answer": "We regularly handle projects for HOA boards, condo associations, and individual building owners. Our proposals are written so boards can review them easily and share them with members."
+        },
+        {
+          "question": "What if our existing mail room has limited wall space?",
+          "answer": "We measure the space, look at nearby options, and design a layout that balances capacity with clearances. In some cases, modest wall and framing adjustments can create enough room for a compliant 4C setup."
+        },
+        {
+          "question": "Can you coordinate multiple buildings in the same community?",
+          "answer": "Yes. We can group buildings into a single project with a clear schedule, which often streamlines USPS approvals and keeps the overall cost and disruption lower than doing each building separately."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "el-cajon",
+          "label": "El Cajon, CA",
+          "url": "/service-areas/el-cajon/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/4c-wall-mounted-mailboxes/"
+        }
+      ]
+    },
+    "oceanside": {
+      "citySlug": "oceanside",
+      "cityName": "Oceanside",
+      "state": "CA",
+      "h1": "4C wall-mounted mailboxes in Oceanside, CA",
+      "intro": "Postal Systems designs and installs USPS-approved 4C wall-mounted mailboxes and parcel lockers for apartments, mixed-use buildings, and coastal communities throughout Oceanside. We help properties replace aging boxes with secure, centralized 4C systems that meet current USPS and ADA requirements.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why 4C wall-mounted mailboxes matter in Oceanside",
+          "body": "Oceanside’s coastal environment and dense multifamily housing put a lot of stress on older mail equipment. Many communities are still using outdated wall boxes or improvised parcel areas that do not meet current USPS or accessibility standards.",
+          "bullets": [
+            "Replace aging or non-compliant wall boxes with modern 4C mail and parcel modules",
+            "Upgrade improvised mail rooms and lobby setups to USPS-approved 4C equipment",
+            "Improve package security in buildings experiencing repeated theft or damage",
+            "Align older mail areas with current USPS and ADA reach, clearance, and hardware standards"
+          ],
+          "closing": "Instead of hoping older mail rooms continue to pass inspection, you get a 4C installation designed for Oceanside’s climate, building layouts, and USPS expectations."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common 4C projects we handle in Oceanside",
+          "body": "We support Oceanside owners and managers with 4C wall-mounted mailbox and parcel locker projects in a range of building types.",
+          "bullets": [
+            "Converting outdated wall boxes in coastal apartments to secure 4C mail and parcel units",
+            "Reconfiguring lobby mail areas in mid-rise buildings to accommodate growing package volume",
+            "Adding 4C parcel lockers near existing mail rooms to reduce theft and lobby clutter",
+            "Upgrading older 4C installations that no longer meet current USPS or ADA expectations",
+            "Designing 4C mail and parcel layouts for new infill and mixed-use developments"
+          ],
+          "closing": "On each project, we deliver a clear layout, equipment schedule, and work plan so boards and managers can make confident decisions."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems coordinates 4C installations in Oceanside",
+          "body": "Oceanside properties often need 4C work planned around tight parking, shared corridors, and active residents. We build projects around those realities so mail and parcel service continues with minimal disruption.",
+          "bullets": [
+            "Review your existing mail areas, package volume, and any USPS notices you have received",
+            "Recommend 4C mail and parcel configurations that fit your walls, rooms, and clearances",
+            "Plan work windows and phasing to keep access open for residents and carriers",
+            "Coordinate electrical and lighting considerations where parcel lockers are added",
+            "Schedule USPS inspection and respond quickly to any punch-list items"
+          ],
+          "closing": "Our goal is a 4C mail and parcel setup in Oceanside that feels integrated with your building and is ready for daily USPS use on day one."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you replace our old wall mailboxes with 4C units in Oceanside?",
+          "answer": "Yes. We regularly replace older wall boxes and improvised mail setups in Oceanside with USPS-approved 4C mail and parcel modules. We design the layout, coordinate any wall or framing work, and handle installation and inspection."
+        },
+        {
+          "question": "Can you add 4C parcel lockers next to our existing mailboxes?",
+          "answer": "In many cases, yes. We review your existing mail setup, recommend parcel locker sizes and locations, and integrate 4C lockers so packages are secure and carriers have a clear workflow."
+        },
+        {
+          "question": "Do you coordinate with USPS for 4C approvals in Oceanside?",
+          "answer": "Yes. We work directly with USPS to review proposed 4C layouts and locations, then schedule inspections so your new equipment can go into service without unnecessary delays."
+        },
+        {
+          "question": "Can you help us plan for future package volume?",
+          "answer": "We look at current and projected parcel volume, then size 4C mail and parcel equipment so you are not immediately undersized. Where needed, we plan for future expansion in the design."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "carlsbad",
+          "label": "Carlsbad, CA",
+          "url": "/service-areas/carlsbad/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/4c-wall-mounted-mailboxes/"
+        }
+      ]
+    },
+    "carlsbad": {
+      "citySlug": "carlsbad",
+      "cityName": "Carlsbad",
+      "state": "CA",
+      "h1": "4C wall-mounted mailboxes in Carlsbad, CA",
+      "intro": "Postal Systems designs and installs USPS-approved 4C wall-mounted mailboxes and parcel lockers for resort-style communities, apartments, and mixed-use buildings throughout Carlsbad. We help properties move from aging wall boxes and ad hoc package areas to secure, well-planned 4C systems.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why 4C wall-mounted mailboxes matter in Carlsbad",
+          "body": "Carlsbad communities often combine high-end amenities with heavy mail and parcel volumes. Older wall mailboxes, improvised parcel rooms, and outdated equipment can create ongoing headaches for managers, residents, and carriers.",
+          "bullets": [
+            "Replace legacy wall boxes with modern 4C mail and parcel modules that meet USPS standards",
+            "Improve lobby and mail room organization where packages are piling up on floors and counters",
+            "Enhance security for deliveries in communities concerned about theft or damage",
+            "Bring long-serving mail areas into alignment with current USPS and ADA guidelines"
+          ],
+          "closing": "Instead of constant workarounds, you get a Carlsbad 4C installation that is designed for how residents actually live and receive packages today."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common 4C projects we handle in Carlsbad",
+          "body": "We support 4C wall-mounted mailbox and parcel locker projects for a wide range of Carlsbad properties, from coastal condos to inland multifamily and commercial sites.",
+          "bullets": [
+            "Upgrading dated lobby mailboxes in resort-style and amenity-rich communities",
+            "Adding 4C parcel lockers near existing mail rooms to control package volume",
+            "Designing 4C mail and parcel layouts for new multifamily and mixed-use developments",
+            "Replacing piecemeal mail equipment with cohesive 4C installations that carriers prefer",
+            "Reconfiguring mail and parcel areas to improve circulation and ADA compliance"
+          ],
+          "closing": "Each project is planned with a clear scope, schedule, and layout so boards, managers, and owners can approve upgrades with confidence."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems coordinates 4C work in Carlsbad",
+          "body": "Carlsbad properties often have tight schedules, busy amenity areas, and high resident expectations. We structure 4C projects so mail and parcel service stays predictable while the work is completed.",
+          "bullets": [
+            "Walk the property to review existing mail areas, access routes, and USPS feedback",
+            "Recommend 4C mail and parcel configurations sized to your community and building layout",
+            "Plan work phases around amenities, garages, and high-traffic common areas",
+            "Coordinate with other trades where wall, lighting, or access control work is needed",
+            "Schedule USPS inspection and resolve any final notes so the new system can go live"
+          ],
+          "closing": "Our goal is a 4C installation in Carlsbad that feels like a natural upgrade to your property, not a temporary project residents have to work around."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you redesign our Carlsbad mail room around 4C equipment?",
+          "answer": "Yes. We frequently redesign mail rooms and lobbies in Carlsbad to center around 4C mail and parcel modules. We look at wall space, traffic patterns, and USPS requirements, then propose a layout that works long term."
+        },
+        {
+          "question": "Can you add 4C parcel lockers without replacing all of our mailboxes?",
+          "answer": "In many cases, yes. We can often add 4C parcel lockers near your existing mailboxes and integrate them into a single mail and parcel workflow that USPS will approve."
+        },
+        {
+          "question": "Do you coordinate schedules to avoid disrupting amenities and guest traffic?",
+          "answer": "We plan work windows and phases around your busiest times and areas. Our goal is to complete 4C work while keeping residents, guests, and staff moving comfortably through the property."
+        },
+        {
+          "question": "Do you help estimate budget for 4C upgrades in Carlsbad?",
+          "answer": "Yes. After reviewing your building and mail areas, we provide a written proposal that outlines equipment, wall or pad work, installation steps, and a realistic cost range for the 4C upgrade."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "oceanside",
+          "label": "Oceanside, CA",
+          "url": "/service-areas/oceanside/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/4c-wall-mounted-mailboxes/"
+        }
+      ]
+    },
+    "escondido": {
+      "citySlug": "escondido",
+      "cityName": "Escondido",
+      "state": "CA",
+      "h1": "4C wall-mounted mailbox installation in Escondido, CA",
+      "intro": "Postal Systems designs and installs USPS-approved 4C wall-mounted mailbox and parcel locker systems for HOAs, apartments, and mixed-use properties across Escondido. We help communities move away from aging boxes and ad-hoc parcel handling to secure, code-compliant mail rooms and lobby installations.",
+      "sections": [
+        {
+          "id": "why-4c-escondido",
+          "heading": "Why Escondido properties upgrade to 4C wall-mounted mailboxes",
+          "body": "Many Escondido properties are working with older mail equipment that no longer fits resident expectations or USPS guidance. 4C wall-mounted mailbox systems and integrated parcel lockers provide secure, centralized delivery in buildings, garages, and shared amenity spaces.",
+          "bullets": [
+            "Replace outdated horizontal mailboxes and recessed wall units with current 4C equipment",
+            "Add secure parcel lockers in existing mail rooms, lobbies, or covered common areas",
+            "Consolidate scattered mail locations into a single, well-lit, monitored mail room",
+            "Upgrade mail areas that have triggered USPS or accessibility concerns",
+            "Improve resident experience with organized, easy-to-service mail and parcel stations"
+          ],
+          "closing": "We design 4C layouts that fit your Escondido property, meet USPS standards, and help boards and owners reduce complaints about lost or mishandled deliveries."
+        },
+        {
+          "id": "common-projects-escondido",
+          "heading": "Common 4C wall-mounted mailbox projects in Escondido",
+          "body": "We work with a range of Escondido properties—from garden-style communities to denser infill projects—to modernize mail rooms and bring parcel handling under control.",
+          "bullets": [
+            "Converting aging lobby mailboxes to new 4C mailbox and parcel locker banks",
+            "Adding parcel lockers to existing interior mail rooms serving larger communities",
+            "Replacing damaged or non-compliant wall-mounted boxes flagged by USPS or reserve studies",
+            "Reconfiguring tight mail areas to improve ADA reach and maneuvering clearances",
+            "Coordinating phased upgrades so residents continue receiving mail during construction"
+          ],
+          "closing": "Each project is scoped with clear drawings, equipment schedules, and phasing so your team understands how mail service will be maintained while upgrades happen."
+        },
+        {
+          "id": "coordination-escondido",
+          "heading": "How we plan 4C mailbox layouts around Escondido buildings",
+          "body": "Escondido properties often have a mix of building ages, grades, and parking layouts. We design 4C mail and parcel solutions around those realities so carriers and residents both have a better experience.",
+          "bullets": [
+            "Review floor plans, elevations, and any USPS notices you have received",
+            "Confirm wall conditions, clearances, and routes residents use to reach mail rooms",
+            "Recommend 4C mailbox and parcel locker configurations sized to your population and parcel volume",
+            "Coordinate work windows and staging to limit disruption in garages and common areas",
+            "Arrange USPS review and inspection once installation is complete"
+          ],
+          "closing": "Our goal is a 4C wall-mounted mailbox system in Escondido that feels integrated with your property and works smoothly for residents, staff, and carriers from day one."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you retrofit 4C mailboxes into our existing mail room in Escondido?",
+          "answer": "Yes. We routinely retrofit 4C mailbox and parcel locker cabinets into existing mail rooms and lobbies. We verify wall conditions, clearances, and USPS expectations before recommending a layout."
+        },
+        {
+          "question": "Do you help determine how many parcel lockers we need in Escondido?",
+          "answer": "We look at unit count, resident mix, and typical parcel volume to recommend an appropriate number of parcel lockers so packages are not routinely left on floors or countertops."
+        },
+        {
+          "question": "Can you coordinate with USPS for our 4C installation in Escondido?",
+          "answer": "Yes. We work directly with USPS to review the proposed layout, confirm equipment type, and schedule inspection so your new 4C system is accepted without unnecessary delays."
+        },
+        {
+          "question": "Do you address ADA and code requirements for 4C mailboxes?",
+          "answer": "We design 4C mailbox layouts with reach ranges, maneuvering clearances, and approach paths in mind, and we discuss any accessibility concerns up front so they can be addressed in the design."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/4c-wall-mounted-mailboxes/"
+        }
+      ]
+    },
+    "encinitas": {
+      "citySlug": "encinitas",
+      "cityName": "Encinitas",
+      "state": "CA",
+      "h1": "4C wall-mounted mailbox installation in Encinitas, CA",
+      "intro": "Postal Systems installs USPS-approved 4C wall-mounted mailboxes and parcel lockers for coastal HOAs, condominiums, and mixed-use properties throughout Encinitas. We help properties modernize their mail rooms and create secure, centralized parcel pickup that fits busy resident lifestyles.",
+      "sections": [
+        {
+          "id": "why-4c-encinitas",
+          "heading": "Why Encinitas communities choose 4C wall-mounted mailbox systems",
+          "body": "Between coastal weather, limited space, and growing parcel volume, many Encinitas communities are moving away from older mail equipment and scattered delivery points. 4C wall-mounted mailbox and parcel locker systems provide durable, centralized delivery in protected areas close to where residents live and park.",
+          "bullets": [
+            "Upgrade aging lobby or hallway mailboxes to modern 4C mailbox and parcel locker banks",
+            "Add secure parcel lockers near garages, elevators, or common entries",
+            "Reduce package pile-ups in small lobbies by giving carriers dedicated parcel compartments",
+            "Design coastal-tolerant equipment and finishes that hold up to salt air and weather",
+            "Support amenity-driven communities that rely on clean, organized common spaces"
+          ],
+          "closing": "We design 4C installations in Encinitas that feel like part of your property, not an afterthought bolted to a wall."
+        },
+        {
+          "id": "common-projects-encinitas",
+          "heading": "Common 4C wall-mounted mailbox projects in Encinitas",
+          "body": "Our work in Encinitas ranges from small condo associations to larger coastal communities that need better control over parcel delivery and mail room organization.",
+          "bullets": [
+            "Replacing outdated interior mailbox arrays with new 4C systems and integrated parcel lockers",
+            "Adding parcel lockers to existing mail rooms serving condos and townhome communities",
+            "Reworking tight mail areas to improve resident circulation and ADA compliance",
+            "Consolidating multiple small mailbox locations into a central, well-lit mail room",
+            "Coordinating mailbox upgrades alongside other property improvements or remodels"
+          ],
+          "closing": "For each project, we provide clear drawings, specifications, and a written scope so boards and owners understand exactly what will be installed."
+        },
+        {
+          "id": "coordination-encinitas",
+          "heading": "How we plan and install 4C mailboxes around Encinitas properties",
+          "body": "Encinitas properties often have limited wall space, active coastal weather, and tight parking layouts. We plan 4C installations around those realities so the finished system is easy to use and maintain.",
+          "bullets": [
+            "Walk the property to review mail room locations, wall conditions, and access routes",
+            "Review any USPS correspondence and confirm carrier needs for the new 4C system",
+            "Recommend cabinet sizes, configurations, and finishes that suit your property and parcel volume",
+            "Plan staging, demolition, and installation so residents have clear communication and minimal disruption",
+            "Coordinate USPS inspection and address any final punch-list items quickly"
+          ],
+          "closing": "The result is a 4C wall-mounted mailbox and parcel locker system in Encinitas that handles daily deliveries smoothly and reflects well on your property."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you add parcel lockers to our existing mail room in Encinitas?",
+          "answer": "Yes. We frequently add parcel locker modules to existing 4C or other mailbox setups. We review your current layout, identify suitable wall or floor space, and design a configuration that fits both USPS and resident needs."
+        },
+        {
+          "question": "Do you help plan 4C mailbox upgrades around coastal conditions in Encinitas?",
+          "answer": "We factor in exposure, ventilation, and material selections so your 4C equipment holds up to coastal conditions and remains easy for carriers and residents to use."
+        },
+        {
+          "question": "Will mail service be interrupted during a 4C upgrade in Encinitas?",
+          "answer": "On many projects we can phase work or coordinate temporary arrangements so residents continue to receive mail and parcels during installation. We outline this plan in your proposal before work begins."
+        },
+        {
+          "question": "Can you coordinate with USPS for 4C inspections in Encinitas?",
+          "answer": "Yes. We coordinate USPS layout review and inspection, and we are familiar with what carriers look for when approving new 4C mail and parcel installations."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "carlsbad",
+          "label": "Carlsbad, CA",
+          "url": "/service-areas/carlsbad/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "oceanside",
+          "label": "Oceanside, CA",
+          "url": "/service-areas/oceanside/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/4c-wall-mounted-mailboxes/"
+        }
+      ]
+    },
+    "vista": {
+      "citySlug": "vista",
+      "cityName": "Vista",
+      "state": "CA",
+      "h1": "4C wall-mounted mailboxes in Vista, CA",
+      "intro": "Postal Systems designs and installs USPS-approved 4C wall-mounted mailboxes and parcel lockers for apartments, mixed-use buildings, and offices across Vista. We help properties upgrade from aging horizontal mailboxes or scattered boxes to secure, code-compliant 4C systems that fit your walls, corridors, and mail rooms.",
+      "sections": [
+        {
+          "id": "why-4c-vista",
+          "heading": "Why Vista properties move to 4C wall-mounted mailboxes",
+          "body": "Vista’s mix of older garden-style communities and newer infill projects means many buildings have inherited mail setups that were never designed for today’s delivery patterns. Wall space, corridors, and shared entries all have to work harder as parcel volume grows.",
+          "bullets": [
+            "Legacy horizontal boxes or recessed mail units that no longer meet USPS standards",
+            "Wall-mounted boxes installed before current 4C requirements and parcel expectations",
+            "Mailrooms and lobbies that feel cluttered or insecure around existing mail equipment",
+            "Units that do not provide enough parcel capacity for current resident demand",
+            "Owners wanting mail equipment that aligns with recent interior renovations"
+          ],
+          "closing": "We help Vista buildings move to modern 4C layouts that organize mail, meet USPS and ADA requirements, and look intentional inside your common areas."
+        },
+        {
+          "id": "common-4c-projects-vista",
+          "heading": "Common 4C wall-mounted mailbox projects we handle in Vista",
+          "body": "Most Vista projects involve replacing outdated wall units or consolidating multiple mailbox locations into a single, more secure 4C installation with integrated parcel lockers.",
+          "bullets": [
+            "Replacing old mailboxes in lobbies and covered breezeways with new 4C systems",
+            "Consolidating several small mailbox locations into a central 4C mail wall",
+            "Adding parcel lockers to existing mailrooms to handle higher package volume",
+            "Reconfiguring walls and backing to properly anchor new 4C modules",
+            "Reworking clearances and approach routes to align with accessibility guidelines"
+          ],
+          "closing": "Each Vista 4C project is designed around your specific wall conditions, resident count, and USPS expectations so the final installation feels tailored, not generic."
+        },
+        {
+          "id": "coordination-vista",
+          "heading": "How we coordinate 4C mailbox installation in Vista buildings",
+          "body": "Vista properties often have tight corridors, limited lobby space, and active common areas. We plan 4C projects to minimize disruption while keeping USPS and safety requirements front and center.",
+          "bullets": [
+            "Walk the building to review wall construction, access paths, and lighting",
+            "Review any USPS correspondence and confirm what they will approve for 4C layouts",
+            "Recommend specific 4C module combinations and locker counts based on resident count",
+            "Plan work windows around resident traffic and building operations",
+            "Coordinate USPS inspection after installation so your 4C system can be placed into service smoothly"
+          ],
+          "closing": "Our aim is a Vista 4C mail wall that looks like it was part of the original design, not an afterthought squeezed into a corner."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you replace our existing wall-mounted mailboxes in Vista with 4C units?",
+          "answer": "Yes. We regularly remove legacy wall-mounted mailboxes in Vista and replace them with USPS-approved 4C equipment, including any needed backing, framing, and patch work around the new modules."
+        },
+        {
+          "question": "Do we need parcel lockers as part of a 4C upgrade in Vista?",
+          "answer": "In most cases, yes. USPS and resident expectations both assume dedicated parcel capacity. We size parcel lockers to match your building’s package volume so deliveries are secure and organized."
+        },
+        {
+          "question": "Can you work within our existing mailroom footprint in Vista?",
+          "answer": "Often we can. We evaluate your walls, clearances, and door swings, then design 4C layouts that fit the available space while still meeting USPS and accessibility requirements."
+        },
+        {
+          "question": "How do you coordinate with USPS for 4C projects in Vista?",
+          "answer": "We review proposed 4C layouts with USPS, confirm equipment types, and schedule inspections after installation so your new mail system is approved and ready for daily use."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "escondido",
+          "label": "Escondido, CA",
+          "url": "/service-areas/escondido/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/4c-wall-mounted-mailboxes/"
+        }
+      ]
+    },
+    "poway": {
+      "citySlug": "poway",
+      "cityName": "Poway",
+      "state": "CA",
+      "h1": "4C wall-mounted mailboxes in Poway, CA",
+      "intro": "Postal Systems installs USPS-approved 4C wall-mounted mailboxes and parcel lockers for HOAs, apartments, business parks, and institutional properties in Poway. We replace aging mail cabinets, rework wall conditions, and coordinate USPS approval so your mail areas are secure, organized, and built for today’s parcel volume.",
+      "sections": [
+        {
+          "id": "why-4c-poway",
+          "heading": "Why Poway buildings upgrade to 4C wall-mounted mailboxes",
+          "body": "Poway’s residential communities, business parks, and campuses place unique demands on their mail areas. Older wall-mounted equipment often lacks the security, capacity, and accessibility needed for modern delivery patterns.",
+          "bullets": [
+            "Legacy wall cabinets with failing locks, damaged doors, or thin backings",
+            "Mail areas that feel exposed or cluttered near entries, lobbies, or parking access points",
+            "Insufficient parcel capacity leading to packages left unsecured in common areas",
+            "USPS concerns about box layout, labeling, or accessibility within existing mailrooms",
+            "Owners planning broader interior upgrades who want mail equipment to match"
+          ],
+          "closing": "We help Poway properties move from tired wall-mounted boxes to robust 4C systems that support daily operations and present well to residents and tenants."
+        },
+        {
+          "id": "common-4c-projects-poway",
+          "heading": "Common 4C wall-mounted mailbox projects in Poway",
+          "body": "Poway projects often combine structural improvements to the mail wall with new 4C equipment and parcel lockers, especially at properties with consistent commercial or institutional traffic.",
+          "bullets": [
+            "Replacing outdated wall-mounted mailboxes in lobbies and shared corridors with 4C modules",
+            "Adding parcel lockers to high-traffic buildings where packages frequently pile up",
+            "Reinforcing or rebuilding wall backing to support heavier modern mail equipment",
+            "Reorganizing mail layouts so boxes, parcels, and USPS access feel clearly defined",
+            "Relocating mail walls slightly within the same space to improve circulation and safety"
+          ],
+          "closing": "Each Poway 4C project is scoped in writing so boards, owners, and facility teams know exactly how the mail area will change."
+        },
+        {
+          "id": "coordination-poway",
+          "heading": "How we coordinate 4C mailbox installations in Poway",
+          "body": "Poway properties often have narrow corridors, limited staging areas, and tight operational windows. We plan 4C work in a way that respects those constraints while still delivering a compliant, durable result.",
+          "bullets": [
+            "Review wall construction, framing, and adjacent finishes before recommending a 4C layout",
+            "Confirm USPS expectations, including required parcel capacity and box counts",
+            "Stage work to keep exits, corridors, and primary access paths available during construction",
+            "Coordinate with onsite staff to schedule loud or disruptive work at appropriate times",
+            "Arrange USPS inspection once the 4C system is installed, labeled, and ready"
+          ],
+          "closing": "Our role is to deliver a Poway 4C installation that functions well, passes inspection, and looks consistent with the rest of your property."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you install 4C wall-mounted mailboxes for commercial and office properties in Poway?",
+          "answer": "Yes. We install 4C systems for residential, commercial, and mixed-use buildings in Poway, tailoring layouts to each property type’s mail and parcel patterns."
+        },
+        {
+          "question": "Do 4C mailboxes help reduce package clutter in Poway buildings?",
+          "answer": "Properly sized 4C systems with integrated parcel lockers significantly reduce loose packages in lobbies and corridors. Residents and carriers know exactly where parcels should go."
+        },
+        {
+          "question": "Can you work within tight time windows at our Poway property?",
+          "answer": "We routinely coordinate around business hours, school schedules, and access restrictions in Poway. Your proposal will spell out staging, timing, and any short-term access changes."
+        },
+        {
+          "question": "How detailed are your 4C layout drawings for Poway projects?",
+          "answer": "We provide clear layout information with box counts, parcel capacity, and approximate wall coverage so decision makers can visualize the final mail setup before work begins."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "escondido",
+          "label": "Escondido, CA",
+          "url": "/service-areas/escondido/4c-wall-mounted-mailboxes/"
+        }
+      ]
+    },
+    "san-marcos": {
+      "citySlug": "san-marcos",
+      "cityName": "San Marcos",
+      "state": "CA",
+      "h1": "4C wall-mounted mailboxes in San Marcos, CA",
+      "intro": "Postal Systems designs and installs USPS-approved 4C wall-mounted mailboxes and parcel lockers for HOAs, student housing, and mixed-use buildings in San Marcos. We replace outdated mail units and reconfigure mailrooms so they can keep up with growth, higher delivery volume, and updated USPS standards.",
+      "sections": [
+        {
+          "id": "why-4c-san-marcos",
+          "heading": "Why San Marcos properties adopt 4C wall-mounted mailboxes",
+          "body": "San Marcos includes growing residential communities and student-focused housing, both of which generate high mail and parcel volume. Older wall-mounted mailboxes often lack the security and capacity to keep up.",
+          "bullets": [
+            "Legacy wall boxes that have been repaired multiple times and still cause complaints",
+            "Mailrooms that feel crowded or disorganized around existing mail equipment",
+            "Insufficient parcel capacity for student-heavy or delivery-heavy communities",
+            "USPS notes about box groupings, labeling, or accessibility in your current setup",
+            "Owners planning broader lobby or corridor renovations who want a modern mail wall"
+          ],
+          "closing": "We help San Marcos properties move to 4C systems that better match how residents and carriers actually use the building today."
+        },
+        {
+          "id": "common-4c-projects-san-marcos",
+          "heading": "Common 4C wall-mounted mailbox projects in San Marcos",
+          "body": "San Marcos projects often center on improving mailroom layout and parcel capacity while refreshing the look and feel of the space.",
+          "bullets": [
+            "Replacing outdated wall-mounted mailboxes with new 4C equipment and lockers",
+            "Configuring 4C layouts to work with limited wall lengths and door swings",
+            "Adding parcel lockers to mail areas that currently rely on open shelving for packages",
+            "Reworking backing and framing so new 4C modules are fully supported",
+            "Consolidating scattered mailbox areas into one central, clearly signed mailroom"
+          ],
+          "closing": "Our designs balance USPS requirements, resident convenience, and the realities of your existing San Marcos building."
+        },
+        {
+          "id": "coordination-san-marcos",
+          "heading": "How we manage 4C wall-mounted mailbox projects in San Marcos",
+          "body": "San Marcos buildings often have narrow corridors, active student traffic, and limited downtime. We plan 4C installations to respect those constraints while delivering a clean, compliant result.",
+          "bullets": [
+            "Review how residents approach and queue around your current mail area",
+            "Evaluate available wall space, power, and lighting before finalizing a 4C layout",
+            "Size 4C boxes and parcel lockers to match your actual unit count and package volume",
+            "Schedule work to minimize impacts on resident access and building operations",
+            "Coordinate USPS inspection after the new 4C system is installed and labeled"
+          ],
+          "closing": "The result is a San Marcos mailroom that feels organized, secure, and sized appropriately for daily use."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do you install 4C mailboxes for student housing in San Marcos?",
+          "answer": "Yes. We frequently design and install 4C systems for student-oriented properties, ensuring that parcel capacity and box counts match the higher delivery volume common in those communities."
+        },
+        {
+          "question": "Can you fit 4C mailboxes into our existing San Marcos mailroom?",
+          "answer": "In many cases we can reuse the existing space by selecting the right mix of 4C modules and adjusting the layout. We confirm clearances and USPS requirements before work begins."
+        },
+        {
+          "question": "How does pricing work for 4C projects in San Marcos?",
+          "answer": "We provide a written proposal after a site walk and layout review. It outlines equipment, wall and backing work, installation steps, and timeline so you have a clear picture of total cost."
+        },
+        {
+          "question": "Will USPS need to inspect our new 4C mail system in San Marcos?",
+          "answer": "Yes. USPS must review and approve your 4C installation. We coordinate that inspection and address any requested adjustments so the system is ready for daily service."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/4c-wall-mounted-mailboxes/"
+        }
+      ]
+    },
+    "temecula": {
+      "citySlug": "temecula",
+      "cityName": "Temecula",
+      "state": "CA",
+      "h1": "4C wall-mounted mailboxes in Temecula, CA",
+      "intro": "Postal Systems designs and installs USPS-approved 4C wall-mounted mailboxes and parcel lockers for apartments, mixed-use buildings, and amenity spaces across Temecula. We help owners and managers replace aging mailrooms and clustered boxes with secure, modern 4C equipment that fits the building and passes USPS inspection.",
+      "sections": [
+        {
+          "id": "why-4c-temecula",
+          "heading": "Why Temecula properties move to 4C wall-mounted mailboxes",
+          "body": "Temecula’s mix of garden apartments, townhomes, and newer mixed-use developments often outgrows legacy mail setups. Interior or semi-enclosed locations are ideal candidates for 4C equipment, which is now the USPS standard for wall-mounted centralized mail.",
+          "bullets": [
+            "Upgrade interior or breezeway mailrooms to current USPS 4C standards",
+            "Replace aging or mismatched wall boxes with unified 4C mail and parcel units",
+            "Add parcel lockers where residents expect secure package delivery",
+            "Reconfigure mail areas to improve accessibility, lighting, and resident flow",
+            "Bring renovation and new-build projects in line with the latest USPS guidance"
+          ],
+          "closing": "We help Temecula projects move from patchwork mail solutions to planned 4C installations that are easy for residents and USPS to use daily."
+        },
+        {
+          "id": "typical-4c-projects-temecula",
+          "heading": "Typical 4C mailbox and parcel locker projects in Temecula",
+          "body": "4C projects in Temecula often track alongside broader upgrades—new clubhouse wings, lobby remodels, or conversions of underused rooms into functional mail and package areas.",
+          "bullets": [
+            "Full 4C mailroom replacements at aging apartment communities",
+            "New 4C mail and parcel banks for mixed-use and infill developments",
+            "Converting open, vandalism-prone mail areas into enclosed 4C locations",
+            "Adding parcel locker capacity to meet rising package volumes",
+            "Reworking layouts to improve ADA reach ranges and approach clearances"
+          ],
+          "closing": "Each project is laid out with cabinet schedules, face layouts, and locations so boards, owners, and architects can see exactly how the 4C system will fit the space."
+        },
+        {
+          "id": "process-4c-temecula",
+          "heading": "How Postal Systems delivers compliant 4C installations in Temecula",
+          "body": "We design 4C layouts in Temecula around resident flow, building architecture, and USPS expectations, then manage the details from demolition through inspection.",
+          "bullets": [
+            "Walk your existing or planned mail area and document clearances, door swings, and walls",
+            "Confirm USPS requirements and capacity needs based on resident counts and parcel volume",
+            "Recommend 4C mailbox and parcel locker configurations tailored to your Temecula property",
+            "Coordinate demolition, wall prep, backing, and installation with your contractor team as needed",
+            "Schedule USPS inspection and respond quickly to any comments so the system can go live"
+          ],
+          "closing": "Our goal is a 4C installation that looks like it was always part of the building and works smoothly on day one."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you replace our existing wall-mounted boxes with 4C equipment in Temecula?",
+          "answer": "Yes. We routinely replace legacy wall-mounted boxes with modern 4C systems in Temecula. We evaluate your walls, structure, and access, then design 4C layouts that match USPS and building requirements."
+        },
+        {
+          "question": "Do you coordinate with our general contractor on Temecula 4C projects?",
+          "answer": "We often work alongside general contractors on renovations and new builds. We provide cabinet schedules, rough openings, and installation requirements so 4C mail and parcel equipment fits into the overall construction plan."
+        },
+        {
+          "question": "Can you add parcel lockers to our existing Temecula 4C mail setup?",
+          "answer": "In many cases, yes. We review your current mail configuration, recommend parcel locker cabinets that integrate with your existing layout, and coordinate USPS review so everything functions as one system."
+        },
+        {
+          "question": "How do we know if our Temecula project needs 4C versus CBUs?",
+          "answer": "Outdoor, freestanding locations often call for CBUs, while interior and semi-enclosed spaces usually call for 4C equipment. We evaluate your site and explain the pros, cons, and USPS requirements for each option."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "riverside-county",
+          "label": "Riverside County, CA",
+          "url": "/service-areas/riverside-county/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/4c-wall-mounted-mailboxes/"
+        }
+      ]
+    },
+    "el-cajon": {
+      "citySlug": "el-cajon",
+      "cityName": "El Cajon",
+      "state": "CA",
+      "h1": "4C wall-mounted mailboxes in El Cajon, CA",
+      "intro": "Postal Systems installs USPS-approved 4C wall-mounted mailboxes and parcel lockers for apartment communities, small complexes, and mixed-use properties in El Cajon. We replace aging interior boxes and improvised mail setups with durable, code-compliant 4C systems.",
+      "sections": [
+        {
+          "id": "why-4c-el-cajon",
+          "heading": "Why El Cajon communities upgrade interior mail to 4C wall-mounted systems",
+          "body": "Heat, age, and years of small repairs all take a toll on older wall-mounted mailbox units in El Cajon. Many properties also see more parcels than their original mailrooms were ever designed to handle.",
+          "bullets": [
+            "Replace worn or mismatched wall boxes with a single 4C system",
+            "Add parcel lockers so carriers have a secure place for packages",
+            "Improve lighting, visibility, and organization in existing mailrooms",
+            "Resolve USPS concerns about outdated or damaged mailbox equipment",
+            "Align interior mail areas with broader common-area upgrades or renovations"
+          ],
+          "closing": "We help El Cajon boards and owners turn dated mailrooms into organized, modern 4C systems that residents actually want to use."
+        },
+        {
+          "id": "typical-4c-projects-el-cajon",
+          "heading": "Types of 4C wall-mounted mailbox projects we complete in El Cajon",
+          "body": "4C work in El Cajon ranges from modest retrofits in smaller buildings to bigger mailroom reconfigurations in larger communities.",
+          "bullets": [
+            "One-for-one replacement of outdated wall units with new 4C cabinets",
+            "Reconfiguring cramped or cluttered mail areas to improve resident flow",
+            "Adding parcel lockers to absorb high package volume and reduce front-office handling",
+            "Integrating 4C cabinets into lobby, breezeway, or clubhouse remodels",
+            "Combining CBU and 4C solutions across a spread-out El Cajon property"
+          ],
+          "closing": "Each project includes a clear description of cabinet counts, locations, and installation details so decision makers can review the plan easily."
+        },
+        {
+          "id": "process-4c-el-cajon",
+          "heading": "How Postal Systems manages 4C installations in El Cajon from survey to inspection",
+          "body": "Our process is built to minimize disruption in tight interior spaces while keeping mail and packages flowing throughout the project.",
+          "bullets": [
+            "Survey the existing mailroom or wall location and document clearances and structure",
+            "Review USPS guidance and resident counts to size 4C mail and parcel capacity correctly",
+            "Provide layout options that show cabinet locations, heights, and access paths",
+            "Coordinate demolition, wall prep, backing, and installation so work is sequenced cleanly",
+            "Schedule USPS inspection and follow up on any comments until the 4C system is fully accepted"
+          ],
+          "closing": "The result is a 4C installation in El Cajon that feels intentional, secure, and easy to maintain over time."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you work in a tight mailroom or breezeway at our El Cajon property?",
+          "answer": "Yes. We frequently retrofit 4C systems into compact spaces. We focus on door swings, ADA clearances, and resident flow to make sure the new layout works in day-to-day use."
+        },
+        {
+          "question": "Do you help choose between different 4C configurations for El Cajon projects?",
+          "answer": "We do. We help size compartments, parcel lockers, and cabinet groupings to match your resident count and package volume, then present options so you can choose what fits your budget and space."
+        },
+        {
+          "question": "Can 4C mailboxes be installed as part of a larger El Cajon renovation?",
+          "answer": "Absolutely. Many properties align 4C upgrades with broader hallway, lobby, or exterior renovation work. We coordinate with your other contractors so the mailbox portion fits into the overall timeline."
+        },
+        {
+          "question": "Will USPS need to review our 4C layout in El Cajon before installation?",
+          "answer": "Yes. USPS must approve the proposed location and configuration. We coordinate that review, incorporate any feedback, and then schedule inspection once the 4C equipment is installed."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "chula-vista",
+          "label": "Chula Vista, CA",
+          "url": "/service-areas/chula-vista/4c-wall-mounted-mailboxes/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/4c-wall-mounted-mailboxes/"
+        }
+      ]
+    }
+  }
+}

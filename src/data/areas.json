@@ -1,6 +1,11 @@
 [
   { "city": "San Diego", "state": "CA", "county": "San Diego", "priority": 1 },
-  { "city": "Chula Vista", "state": "CA", "county": "San Diego", "priority": 1 },
+  {
+    "city": "Chula Vista",
+    "state": "CA",
+    "county": "San Diego",
+    "priority": 1
+  },
   { "city": "Oceanside", "state": "CA", "county": "San Diego", "priority": 1 },
   { "city": "Carlsbad", "state": "CA", "county": "San Diego", "priority": 1 },
   { "city": "Encinitas", "state": "CA", "county": "San Diego", "priority": 1 },

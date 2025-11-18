@@ -1,0 +1,36 @@
+---
+const imagesModule = await import("../data/images.json");
+const images = imagesModule.default as Record<
+  string,
+  { src: string; alt: string }
+>;
+
+interface Props {
+  imageKey: string;
+  alt?: string;
+  class?: string;
+  loading?: "lazy" | "eager";
+}
+
+const {
+  imageKey,
+  alt,
+  class: className = "",
+  loading = "lazy",
+} = Astro.props as Props;
+
+const img = images[imageKey];
+
+if (!img) {
+  console.warn('PSImage: unknown image key "' + imageKey + '"');
+}
+---
+{img && (
+  <img
+    src={img.src}
+    alt={alt ?? img.alt}
+    class={className}
+    loading={loading}
+    decoding="async"
+  />
+)}

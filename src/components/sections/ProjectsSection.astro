@@ -1,21 +1,59 @@
 ---
-const items = [
-  { img: "/src/assets/postal/cbu-install-san-marcos.jpg", caption: "16-Door CBU — San Marcos, CA" },
-  { img: "/src/assets/postal/parcel-locker-escondido.jpg", caption: "Parcel Locker Upgrade — Escondido, CA" },
-  { img: "/src/assets/postal/vandalism-replacement-temecula.jpg", caption: "Mailbox Bank Replacement After Vandalism — Temecula, CA" }
+import PSImage from "../PSImage.astro";
+
+const projects = [
+  {
+    key: "project-san-marcos-cbu-installation",
+    title: "CBU Installation — San Marcos, CA",
+    location: "San Marcos, CA",
+    summary:
+      "Turnkey replacement with new concrete pads, anchors, and USPS inspection sign-off.",
+  },
+  {
+    key: "project-oceanside-mailbox-installation",
+    title: "Commercial mailbox bank — Oceanside, CA",
+    location: "Oceanside, CA",
+    summary:
+      "New commercial mailbox installation for a coastal property with secure tenant access.",
+  },
+  {
+    key: "project-san-marcos-ada-installation",
+    title: "Mailbox upgrade — Carlsbad, CA",
+    location: "Carlsbad, CA",
+    summary:
+      "Replacement of aging mailbox units with modern, code-compliant mailboxes and clean concrete work.",
+  },
 ];
 ---
-<section class="section section-muted">
-  <div class="container">
-    <h2 class="section-title">Featured Projects</h2>
-    <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {items.map((p) => (
-        <figure class="card-pro overflow-hidden">
-          <img src={p.img} alt={p.caption} class="h-48 w-full object-cover" />
-          <figcaption class="p-4 text-sm">{p.caption}</figcaption>
-        </figure>
-      ))}
-    </div>
-    <p class="mt-6 text-sm text-gray-600">Serving San Diego County. Also available in select cities in Orange County and Riverside County.</p>
+
+<div class="max-w-6xl mx-auto px-4 lg:px-6 pb-12">
+  <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    {projects.map((project) => (
+      <article class="rounded-2xl border border-ps-muted bg-white shadow-ps overflow-hidden flex flex-col">
+        <div class="aspect-[4/3] overflow-hidden bg-ps-surface">
+          <PSImage
+            imageKey={project.key}
+            class="h-full w-full object-cover"
+          />
+        </div>
+        <div class="p-4 flex flex-col flex-1">
+          <h3 class="text-sm font-semibold text-ps-navy">
+            {project.title}
+          </h3>
+          <p class="mt-1 text-xs text-ps-navy/70">
+            {project.location}
+          </p>
+          <p class="mt-2 text-xs text-ps-navy/80 flex-1">
+            {project.summary}
+          </p>
+        </div>
+      </article>
+    ))}
   </div>
-</section>
+
+  <p class="mt-6 text-xs sm:text-sm text-ps-navy/75 max-w-2xl">
+    Serving San Diego County first, with select projects in Riverside County
+    and Orange County. If your property is nearby but not listed, reach out
+    to discuss your mailbox project.
+  </p>
+</div>

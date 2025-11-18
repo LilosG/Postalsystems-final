@@ -1,0 +1,77 @@
+{
+  "serviceSlug": "4c-wall-mounted-mailboxes",
+  "h2Blocks": [
+    {
+      "id": "what-we-handle",
+      "heading": "4C wall-mounted mailbox systems for apartments and mixed-use buildings",
+      "body": "Postal Systems designs and installs USPS-compliant 4C wall-mounted mailboxes and parcel lockers for apartments, mid-rise buildings, and mixed-use properties across San Diego County. We replace outdated mail rooms and wall boxes with secure, high-capacity 4C units that meet current USPS and ADA requirements.",
+      "bullets": [
+        "New 4C mailbox and parcel locker systems for apartments and mixed-use buildings",
+        "Replacements for aging wall-mounted mailboxes that no longer meet USPS standards",
+        "Mail room reconfigurations to improve carrier access, lighting, and visibility",
+        "Layout updates to add parcel lockers and increase package capacity",
+        "ADA-compliant reach ranges, slopes, and approach clearances for residents"
+      ],
+      "closing": "Instead of guessing at USPS diagrams and layout notes, you get a contractor who works with 4C wall-mounted mailbox requirements every week."
+    },
+    {
+      "id": "when-people-call",
+      "heading": "When San Diego property teams ask for 4C wall-mounted mailboxes",
+      "body": "Most 4C projects start with either repeated complaints about an existing mail room or a new building that needs a compliant mail solution on a tight schedule. We help owners, property managers, and builders upgrade to 4C systems that work for residents and carriers.",
+      "bullets": [
+        "Existing wall-mounted mailboxes are rusted, vandalized, or constantly needing repair",
+        "USPS has notified you that existing indoor or outdoor wall boxes are no longer approved",
+        "Package volume has outgrown existing mail and parcel space, causing cluttered mail rooms",
+        "A renovation or repositioning project needs a modern, secure mail room experience",
+        "A new building or phase is opening and needs USPS-approved 4C equipment installed on time"
+      ],
+      "closing": "Our team evaluates your space, reviews USPS notes, and recommends 4C configurations that balance resident convenience, carrier access, and long-term durability."
+    },
+    {
+      "id": "process",
+      "heading": "Our process for 4C wall-mounted mailbox installation projects",
+      "body": "Every 4C project follows a documented process so boards, managers, and owners know what will happen from the first walk-through to final USPS sign-off.",
+      "steps": [
+        {
+          "title": "Site visit and layout review",
+          "detail": "We review your mail room or proposed wall location, confirm wall conditions and clearances, and review any USPS correspondence or architect drawings. Then we recommend 4C equipment layouts that meet USPS and ADA standards."
+        },
+        {
+          "title": "Detailed proposal and equipment selection",
+          "detail": "You receive a written proposal that spells out equipment, box counts, parcel locker capacity, demo work if needed, and installation details. We include specific 4C module types so you know exactly what is being installed."
+        },
+        {
+          "title": "Coordination with USPS and building teams",
+          "detail": "We coordinate with USPS to review proposed layouts and with your team to align on timing, access, and any quiet-hour or staging requirements for the building."
+        },
+        {
+          "title": "Installation and finish work",
+          "detail": "Our crew removes outdated mail equipment as needed, prepares wall openings or backing, installs new 4C cabinets, and completes trim, anchoring, and labeling per manufacturer and USPS guidance."
+        },
+        {
+          "title": "USPS inspection and turnover",
+          "detail": "We coordinate USPS inspection, address any punch-list items, and hand the 4C system over ready for keying and resident move-in."
+        }
+      ],
+      "closing": "This structured approach keeps residents informed, minimizes disruption in active buildings, and gives your team a clear path to inspection sign-off."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why is USPS requiring 4C wall-mounted mailboxes instead of older styles?",
+      "answer": "USPS has moved to centralized, security-focused mailbox equipment for most new and replacement projects. 4C wall-mounted mailboxes are the current standard for many indoor and outdoor applications. They improve security, accessibility, and carrier efficiency compared to older wall boxes and individual door slots."
+    },
+    {
+      "question": "Can you add parcel lockers to an existing mail room without replacing everything?",
+      "answer": "In some cases we can add compatible parcel lockers to an existing mail room, but if existing mail equipment is outdated or not 4C-compliant, USPS may require a full upgrade. We assess your space, review USPS guidance, and explain your options so you can plan the project with clear expectations."
+    },
+    {
+      "question": "How much wall space is required for a 4C installation?",
+      "answer": "Required wall space depends on the number of mail compartments, parcel lockers, and modules. During our site visit we measure the available area, identify any obstructions, and design a layout that fits your wall while meeting USPS and ADA clearances."
+    },
+    {
+      "question": "Can you work in an occupied building without major disruption?",
+      "answer": "Yes. For active properties we coordinate staging areas, protection for finished surfaces, and installation windows that minimize disruption. We also help communicate schedule and temporary mail arrangements where needed so residents know what to expect."
+    }
+  ]
+}

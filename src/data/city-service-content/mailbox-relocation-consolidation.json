@@ -1,0 +1,916 @@
+{
+  "serviceSlug": "mailbox-relocation-consolidation",
+  "cities": {
+    "san-diego": {
+      "citySlug": "san-diego",
+      "cityName": "San Diego",
+      "state": "CA",
+      "h1": "Mailbox relocation and consolidation in San Diego, CA",
+      "intro": "Postal Systems helps San Diego HOAs, apartments, and commercial properties relocate and consolidate mailbox stations into safer, more convenient locations. From coastal communities to urban infill projects, we move scattered or poorly placed mailboxes into centralized, USPS-approved sites that work better for residents and carriers.",
+      "sections": [
+        {
+          "id": "common-issues",
+          "heading": "Common mailbox relocation and consolidation issues we see in San Diego",
+          "body": "San Diego properties range from hillside communities to dense urban sites, and many mailbox locations were chosen long before current traffic, parking, and security expectations. We are often called when these legacy locations no longer make sense.",
+          "bullets": [
+            "Mail stations placed along busy drive aisles where residents and carriers feel exposed",
+            "Scattered mailbox clusters that force residents to walk long distances across the property",
+            "Boxes tucked behind buildings or landscaping with poor lighting and visibility",
+            "Mail routes that require USPS to stop at multiple small clusters instead of centralized stations",
+            "New construction or renovations that make original mailbox locations impractical"
+          ],
+          "closing": "We help San Diego properties turn inconvenient, outdated mailbox locations into centralized, intentional stations that match how the property functions today."
+        },
+        {
+          "id": "projects-we-handle",
+          "heading": "Mailbox relocation and consolidation projects we handle in San Diego",
+          "body": "We work with a wide range of San Diego properties, from smaller coastal HOAs to large multifamily and commercial sites, to design new mailbox locations that balance safety, access, and USPS efficiency.",
+          "bullets": [
+            "Relocating CBUs from exposed curbside areas to central, well-lit common spaces",
+            "Consolidating multiple small mailbox clusters into larger, accessible stations",
+            "Coordinating mailbox moves alongside parking lot reconfigurations or repaving",
+            "Relocating mailboxes to better support ADA routes, slopes, and clearances",
+            "Pairing relocation projects with equipment upgrades and parcel locker additions"
+          ],
+          "closing": "Each project is scoped with clear layouts, timelines, and communication plans so managers, boards, and residents understand what is changing and why."
+        },
+        {
+          "id": "coordination",
+          "heading": "How we coordinate mailbox relocation and consolidation work in San Diego",
+          "body": "Relocating mailbox stations in an active San Diego community requires careful communication with residents, USPS, and other contractors. We structure the work so it feels organized rather than disruptive.",
+          "bullets": [
+            "Review photos, site plans, USPS letters, and current delivery patterns",
+            "Walk the property to evaluate candidate locations, lighting, and access routes",
+            "Prepare recommended layouts and present them in plain language for boards and owners",
+            "Help your team communicate upcoming changes, key transfers, and new locations to residents",
+            "Coordinate USPS inspection and finalize details so carriers can use the new locations immediately"
+          ],
+          "closing": "Our goal is to deliver a mailbox relocation and consolidation project that improves safety and convenience while keeping residents informed at every step."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you relocate San Diego mailboxes closer to our main entrance or clubhouse?",
+          "answer": "In many cases, yes. We review your site, propose new locations near entrances or common areas, and coordinate with USPS to confirm that the new station will work for route access and safety."
+        },
+        {
+          "question": "Can relocation projects in San Diego also address ADA concerns?",
+          "answer": "Yes. Relocation is often the best time to correct approach slopes, clearances, and reach ranges. We design new locations with ADA considerations in mind and explain how those changes will be implemented."
+        },
+        {
+          "question": "How do you minimize disruption during mailbox relocation in San Diego?",
+          "answer": "We build a phasing plan, coordinate with USPS, and help you notify residents ahead of each change. Wherever possible, we keep existing mailboxes in service until new locations are ready for inspection and turnover."
+        },
+        {
+          "question": "Can we consolidate multiple San Diego mailbox clusters into one central station?",
+          "answer": "Yes. Consolidation is common when routes are being adjusted or when properties want a more secure, convenient central mail station. We design configurations that keep routes efficient and residents informed."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "chula-vista",
+          "label": "Chula Vista, CA",
+          "url": "/service-areas/chula-vista/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "el-cajon",
+          "label": "El Cajon, CA",
+          "url": "/service-areas/el-cajon/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/mailbox-relocation-consolidation/"
+        }
+      ]
+    },
+    "chula-vista": {
+      "citySlug": "chula-vista",
+      "cityName": "Chula Vista",
+      "state": "CA",
+      "h1": "Mailbox relocation and consolidation in Chula Vista, CA",
+      "intro": "Postal Systems helps Chula Vista HOAs, condo communities, and apartments move mailbox stations into better, more central locations. We relocate and consolidate mailboxes so residents have safer, more convenient access and USPS carriers can service routes efficiently.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why mailbox relocation and consolidation matters in Chula Vista",
+          "body": "Chula Vista combines older neighborhoods with newer planned communities, and many mailbox locations were chosen before current traffic and security concerns. As parking layouts, traffic patterns, and resident expectations change, those locations can become a liability.",
+          "bullets": [
+            "Mailboxes set along busy internal streets with limited safe pedestrian access",
+            "Clusters installed far from homes, leading to resident complaints and low visibility",
+            "Stations tucked into corners or behind structures where lighting is poor",
+            "Multiple small clusters that make USPS routes longer and less efficient",
+            "New construction phases that leave mailboxes in awkward or out-of-the-way areas"
+          ],
+          "closing": "Relocating and consolidating mailboxes helps Chula Vista properties improve safety, convenience, and the overall look of the community at the same time."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Mailbox relocation and consolidation projects we handle in Chula Vista",
+          "body": "We work with a range of Chula Vista communities to design new locations that are easier for residents to reach and better aligned with USPS delivery.",
+          "bullets": [
+            "Moving clusters from tight parking areas to central, well-lit common spaces",
+            "Consolidating several small HOA mailbox banks into one or two central stations",
+            "Relocating mailboxes to coordinate with new clubhouse, pool, or amenity areas",
+            "Pairing relocation work with replacement of aging or vandalized equipment",
+            "Improving ADA access to mail locations during broader site improvement projects"
+          ],
+          "closing": "Our proposals show where mailboxes will move, how the new locations will function, and what steps are involved from demolition through installation."
+        },
+        {
+          "id": "coordination",
+          "heading": "How we coordinate mailbox relocation and consolidation in Chula Vista",
+          "body": "Relocating mailboxes in an active Chula Vista community requires clear planning and communication. We work with boards, managers, and USPS to keep the process organized.",
+          "bullets": [
+            "Review current mailbox locations, resident access patterns, and USPS feedback",
+            "Walk the property to identify safer, more central locations with good visibility",
+            "Recommend layouts and equipment configurations tailored to your community",
+            "Help boards and managers communicate route changes, new locations, and key handoff",
+            "Coordinate USPS inspection and address any notes before residents begin using the new stations"
+          ],
+          "closing": "The result is a mailbox system that feels like it was intentionally designed for how your Chula Vista property operates now—not decades ago."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you relocate Chula Vista mailboxes closer to our main entrance or common areas?",
+          "answer": "Often, yes. We evaluate your property, propose candidate locations near entrances or amenities, and coordinate with USPS to confirm that those locations will work for route access and safety."
+        },
+        {
+          "question": "Can mailbox consolidation help with security at our Chula Vista property?",
+          "answer": "Central, well-lit, and visible mailbox stations can significantly improve security compared to scattered, isolated clusters. We design new locations with theft reduction and resident comfort in mind."
+        },
+        {
+          "question": "How do residents learn about new mailbox locations in Chula Vista?",
+          "answer": "We help your team plan communication—signage, notices, and timing—so residents know when and where mailboxes are moving, how keys will be handled, and when USPS will begin using the new stations."
+        },
+        {
+          "question": "Can we combine relocation with new mailbox equipment and parcel lockers in Chula Vista?",
+          "answer": "Yes. Many Chula Vista communities combine relocation and consolidation with equipment upgrades and parcel locker installation so they address placement, security, and package handling in the same project."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "el-cajon",
+          "label": "El Cajon, CA",
+          "url": "/service-areas/el-cajon/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/mailbox-relocation-consolidation/"
+        }
+      ]
+    },
+    "oceanside": {
+      "citySlug": "oceanside",
+      "cityName": "Oceanside",
+      "state": "CA",
+      "h1": "Mailbox relocation & consolidation in Oceanside, CA",
+      "intro": "Postal Systems relocates and consolidates commercial mailbox stations for HOAs, apartments, and mixed-use properties across Oceanside. We help you move from scattered, inconvenient mail locations to centralized, USPS-approved mail stations that work better for residents and carriers.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why mailbox relocation and consolidation matter in Oceanside",
+          "body": "Many Oceanside communities have mailbox locations that were placed years ago, before current traffic patterns, parking demands, and accessibility expectations. Over time, those locations can become hard to reach, poorly lit, or out of alignment with how residents actually use the property.",
+          "bullets": [
+            "Improve safety and visibility by relocating mailboxes away from tight drives and blind corners",
+            "Consolidate multiple small mailbox locations into fewer, well-designed mail stations",
+            "Address USPS requests to simplify routes and reduce the number of carrier stops",
+            "Create more convenient, ADA-aware mailbox locations for residents and delivery staff"
+          ],
+          "closing": "A planned mailbox relocation or consolidation project in Oceanside can solve long-standing complaints while making life easier for carriers and property teams."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common mailbox relocation and consolidation projects in Oceanside",
+          "body": "Most Oceanside relocation projects begin when boards or managers realize existing locations are no longer ideal—or when USPS raises concerns about access, safety, or route efficiency.",
+          "bullets": [
+            "Relocating mailbox stations away from congested drive aisles or tight corners",
+            "Consolidating multiple small CBU banks into central, well-lit mail stations",
+            "Shifting mailboxes closer to active amenities and parking that residents actually use",
+            "Rebuilding pads and approaches so new locations meet USPS and ADA expectations",
+            "Pairing relocation work with equipment upgrades or parcel locker additions"
+          ],
+          "closing": "We design Oceanside projects with clear before-and-after plans so stakeholders understand how mail service will change and improve."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems plans mailbox relocation projects in Oceanside",
+          "body": "Moving mailbox locations at an occupied Oceanside property takes careful planning and communication. We build projects around your site, your residents, and your USPS carrier.",
+          "bullets": [
+            "Walk the property to understand current mail patterns, traffic, and lighting",
+            "Review USPS feedback and confirm what they need from a new mailbox layout",
+            "Recommend new locations that balance convenience, safety, and accessibility",
+            "Plan concrete work, equipment moves, and phasing to keep mail service active",
+            "Coordinate USPS inspection and final approval of the new mailbox locations"
+          ],
+          "closing": "Our goal is to deliver a mailbox layout in Oceanside that feels more intuitive, safer, and easier to maintain than what you started with."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you move our existing mailboxes to a better location in Oceanside?",
+          "answer": "In many cases, yes. We review your current setup, evaluate new location options, and coordinate with USPS to approve a revised layout that meets access and safety requirements."
+        },
+        {
+          "question": "Will USPS have to approve new mailbox locations in Oceanside?",
+          "answer": "Yes. USPS needs to review and approve significant location changes. We handle that coordination, present the proposed layout, and schedule inspection once the new work is complete."
+        },
+        {
+          "question": "Can relocation and consolidation help reduce traffic issues at our Oceanside property?",
+          "answer": "Mailbox relocation projects often improve traffic flow by moving mail stations away from tight drive aisles, fire lanes, or pinched parking areas. We design layouts with circulation and safety in mind."
+        },
+        {
+          "question": "Can we combine relocation with new mailbox equipment in Oceanside?",
+          "answer": "Yes. Many properties relocate mail stations and upgrade equipment in one project. We can scope both relocation work and new CBUs, 4C units, or parcel lockers in a single proposal."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "carlsbad",
+          "label": "Carlsbad, CA",
+          "url": "/service-areas/carlsbad/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/mailbox-relocation-consolidation/"
+        }
+      ]
+    },
+    "carlsbad": {
+      "citySlug": "carlsbad",
+      "cityName": "Carlsbad",
+      "state": "CA",
+      "h1": "Mailbox relocation & consolidation in Carlsbad, CA",
+      "intro": "Postal Systems plans and executes mailbox relocation and consolidation projects for resort-style communities, HOAs, and apartments throughout Carlsbad. We help you re-center mail service around locations that fit how your residents use the property today while meeting USPS expectations.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why mailbox relocation and consolidation are common in Carlsbad",
+          "body": "Carlsbad properties often have multiple phases, amenities, and access points that evolved over time. Mailbox locations that made sense during the original construction may now sit in awkward, low-visibility, or underused areas.",
+          "bullets": [
+            "Legacy mailbox locations conflict with current traffic, parking, or amenity layouts",
+            "Residents must cross busy drives or navigate slopes to reach their mail",
+            "USPS carriers have to make too many stops or difficult maneuvers each day",
+            "Boards and owners want mailbox locations that match the quality of the property"
+          ],
+          "closing": "Relocating and consolidating mail stations in Carlsbad helps mail service keep up with how the property actually functions today."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common mailbox relocation and consolidation projects in Carlsbad",
+          "body": "We work with Carlsbad communities to redesign mail layouts so they feel intentional, safe, and consistent with surrounding amenities.",
+          "bullets": [
+            "Consolidating scattered CBUs into fewer, central cluster mail stations",
+            "Moving mailboxes closer to primary resident paths, parking, or amenity centers",
+            "Relocating mail stations away from tight curves, slopes, or congested entries",
+            "Rebuilding pads, approaches, and lighting to fit the new locations",
+            "Coordinating layout changes alongside other capital improvements on site"
+          ],
+          "closing": "Each Carlsbad project includes clear diagrams and a defined sequence of work so everyone understands how and when mail service will shift."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems coordinates mailbox relocation work in Carlsbad",
+          "body": "Relocating and consolidating mailboxes in an active Carlsbad community requires communication and tight coordination with USPS. We handle the details so the transition feels organized.",
+          "bullets": [
+            "Survey current mail locations, access paths, and traffic patterns",
+            "Develop proposed new locations and consolidation plans that respect your site",
+            "Present layouts and equipment changes to USPS for review and feedback",
+            "Sequence concrete work, equipment moves, and activation of new stations",
+            "Coordinate USPS inspection and final sign-off once the new layout is in place"
+          ],
+          "closing": "Our role is to guide your Carlsbad mailbox relocation project from initial concept to a fully accepted, operating mail system."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you consolidate multiple mailbox sites into one main station in Carlsbad?",
+          "answer": "Yes. We routinely consolidate mail locations in Carlsbad communities to make routes more efficient and mail pickup more convenient. We design layouts that work for both residents and USPS carriers."
+        },
+        {
+          "question": "Will residents lose access to mail during relocation work in Carlsbad?",
+          "answer": "We plan phasing so residents have clear instructions on where and when to pick up mail. In many cases, we can keep existing locations active until new stations are ready to be turned on."
+        },
+        {
+          "question": "Can mailbox relocation be coordinated with our broader site improvements in Carlsbad?",
+          "answer": "Yes. Many Carlsbad clients align mailbox relocation with paving, lighting, or landscape projects. We coordinate our scope and schedule to fit into your overall plan."
+        },
+        {
+          "question": "Do you handle USPS approval for new mailbox layouts in Carlsbad?",
+          "answer": "We communicate with USPS on your behalf, share proposed layouts, schedule inspections, and respond to any final requests so your new mailbox configuration is accepted without unnecessary delays."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "oceanside",
+          "label": "Oceanside, CA",
+          "url": "/service-areas/oceanside/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/mailbox-relocation-consolidation/"
+        }
+      ]
+    },
+    "encinitas": {
+      "citySlug": "encinitas",
+      "cityName": "Encinitas",
+      "state": "CA",
+      "h1": "Mailbox relocation and consolidation in Encinitas, CA",
+      "intro": "Postal Systems helps Encinitas HOAs, apartments, and mixed-use properties relocate and consolidate mailbox systems so routes are safer, more efficient, and easier for residents to use. We design new layouts, rebuild pads, and coordinate with USPS so your mail stations work better with how people actually move through the property.",
+      "sections": [
+        {
+          "id": "why-relocate-encinitas",
+          "heading": "Why Encinitas properties relocate and consolidate mailbox stations",
+          "body": "Encinitas communities often evolve over time. Parking patterns change, new buildings are added, and what once felt like a convenient mailbox location can become a traffic or visibility problem. USPS may request route consolidation, and residents may ask for better lighting, access, and security.",
+          "bullets": [
+            "Existing cluster mailboxes are tucked into hard to reach corners or tight drive lanes",
+            "Mail stations are spread across too many small locations, which slows down carriers",
+            "Residents have to cross busy areas or navigate slopes to reach their mail",
+            "USPS has recommended consolidating stops into one or two central mail stations",
+            "Boards want mailbox locations that fit current pedestrian paths and parking layouts"
+          ],
+          "closing": "We help Encinitas properties move from inherited mailbox layouts to intentional, well planned mail stations that match how the community functions today."
+        },
+        {
+          "id": "common-projects-encinitas",
+          "heading": "Common mailbox relocation and consolidation projects in Encinitas",
+          "body": "Relocation and consolidation work in Encinitas ranges from moving a single cluster bank to a new pad, to redesigning an entire set of mailbox stops across a hillside property.",
+          "bullets": [
+            "Relocating CBUs away from tight drive aisles into safer, better lit common areas",
+            "Consolidating several small mail sites into one central station with CBUs and parcel lockers",
+            "Shifting mailbox locations to align with updated parking, garages, or amenity areas",
+            "Rebuilding pads and pedestals as part of a relocation to new, more durable locations",
+            "Integrating ADA improvements into relocation plans so clearances and reach ranges are correct"
+          ],
+          "closing": "Each project is scoped with drawings, photos, and clear line items so boards can explain the plan and secure approvals with confidence."
+        },
+        {
+          "id": "approach-encinitas",
+          "heading": "How we plan mailbox relocation and consolidation for Encinitas communities",
+          "body": "Encinitas sites can include slopes, coastal conditions, and a mix of older and newer construction. We design mailbox relocations that respect those constraints while improving access, safety, and compliance.",
+          "bullets": [
+            "Walk the property to understand current mail locations, resident flows, and carrier access",
+            "Review USPS input and any requests for route simplification or new mailbox positions",
+            "Propose new mailbox locations that balance convenience, visibility, and ADA requirements",
+            "Plan pad work, demolition, and installation so residents retain mail access during the change",
+            "Coordinate USPS inspection and final approval for the updated mailbox configuration"
+          ],
+          "closing": "The result is a mailbox layout in Encinitas that feels more natural to residents and easier for carriers to serve, with less risk and fewer complaints."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you relocate our Encinitas mailboxes without interrupting mail service?",
+          "answer": "We plan phasing and coordination with USPS so residents continue to receive mail while new locations are prepared and equipment is moved. In many cases, we can keep existing boxes active until the new station is ready."
+        },
+        {
+          "question": "Will USPS approve new mailbox locations in Encinitas?",
+          "answer": "USPS reviews and must approve new commercial mailbox layouts. We coordinate directly with USPS to present proposed locations, adjust layouts if needed, and schedule inspections so the transition is smooth."
+        },
+        {
+          "question": "Can we combine relocation with new equipment and parcel lockers in Encinitas?",
+          "answer": "Yes. Many relocation projects in Encinitas include new CBUs or 4C equipment and added parcel lockers. We design the entire station so it looks intentional and supports both mail and packages."
+        },
+        {
+          "question": "How do boards in Encinitas explain mailbox consolidation to residents?",
+          "answer": "We provide clear diagrams, photos, and proposal language you can share with residents. That includes the reasons for relocation, what will change, and how the new mailbox layout improves safety and service."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "carlsbad",
+          "label": "Carlsbad, CA",
+          "url": "/service-areas/carlsbad/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "oceanside",
+          "label": "Oceanside, CA",
+          "url": "/service-areas/oceanside/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/mailbox-relocation-consolidation/"
+        }
+      ]
+    },
+    "escondido": {
+      "citySlug": "escondido",
+      "cityName": "Escondido",
+      "state": "CA",
+      "h1": "Mailbox relocation and consolidation in Escondido, CA",
+      "intro": "Postal Systems works with Escondido HOAs, apartments, and commercial properties to relocate and consolidate mailbox systems when old locations no longer make sense. We design new mail station layouts, rebuild pads, and coordinate with USPS so your routes are safer, more efficient, and easier for residents to use every day.",
+      "sections": [
+        {
+          "id": "why-relocate-escondido",
+          "heading": "Why Escondido properties change mailbox locations and routes",
+          "body": "Escondido communities often have mailbox layouts that were set decades ago. Over time, traffic patterns, parking, and building uses change, but the original mailbox locations stay the same. That can lead to safety concerns, poor lighting, and routes that are frustrating for residents and carriers.",
+          "bullets": [
+            "Mailbox stations sit in older drive areas that now see heavier traffic and tighter turns",
+            "Mail stops are scattered across the property, adding time and complexity for carriers",
+            "Residents have to walk long distances or navigate slopes to collect mail",
+            "USPS has suggested simplifying routes or relocating mail stations for safety and efficiency",
+            "Boards want mailbox locations that work better with updated parking and building layouts"
+          ],
+          "closing": "Relocation and consolidation projects in Escondido give you a chance to reset how mail is delivered and how residents access it, while staying aligned with USPS expectations."
+        },
+        {
+          "id": "common-projects-escondido",
+          "heading": "Common mailbox relocation and consolidation projects in Escondido",
+          "body": "Most Escondido projects begin when a property addresses a cluster of issues at once: aging equipment, hard to reach locations, and USPS feedback about routes. We shape those concerns into a clear, buildable plan.",
+          "bullets": [
+            "Moving CBUs from older drive lanes to better lit, more central common areas",
+            "Consolidating multiple small mailbox stops into one or two larger mail stations",
+            "Relocating wall-mounted mailboxes as part of a larger retrofit or building update",
+            "Combining relocation work with pad and pedestal upgrades for long term durability",
+            "Adding parcel lockers as part of the new mail station to address package volume"
+          ],
+          "closing": "We provide layouts and phasing plans so boards and managers can understand the tradeoffs and choose the right approach for their Escondido property."
+        },
+        {
+          "id": "approach-escondido",
+          "heading": "How we plan and execute mailbox relocation in Escondido",
+          "body": "Escondido sites may include steep grades, older hardscape, and a mix of single level and multi level buildings. We plan mailbox relocation and consolidation around those realities so the new locations feel natural to residents and practical for carriers.",
+          "bullets": [
+            "Perform a site walk to study traffic, parking, and how residents currently access mail",
+            "Review USPS guidance and any prior notices related to existing mailbox locations",
+            "Develop proposed mailbox locations that improve safety, access, and visibility",
+            "Plan demolition, pad work, and installation in phases so residents retain mail access",
+            "Coordinate USPS inspection and final sign off for the updated mailbox layout"
+          ],
+          "closing": "Our goal is to leave Escondido properties with mailbox stations that function better day to day and support cleaner, more efficient USPS routes."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you relocate Escondido mailboxes that sit in difficult or unsafe drive areas?",
+          "answer": "Yes. Many relocation projects focus on moving mail stations out of tight drive lanes or blind corners and into safer, better lit locations. We recommend options and then coordinate with USPS to approve the new layout."
+        },
+        {
+          "question": "Will mailbox consolidation in Escondido make it harder for some residents to get mail?",
+          "answer": "We design new locations to balance walking distance, safety, and access. In most cases, one or two well placed stations are easier for residents to use than several small, poorly located stops."
+        },
+        {
+          "question": "Can we relocate mailboxes in Escondido and keep our existing equipment?",
+          "answer": "In some cases equipment can be moved to new pads, but if boxes are old or failing it is often more cost effective to combine relocation with new equipment. After a site review, we outline both options."
+        },
+        {
+          "question": "Do you provide clear plans for boards and residents in Escondido?",
+          "answer": "Yes. We supply diagrams, photos, and written descriptions you can share with boards and residents so everyone understands what will change and why the new mailbox locations are an improvement."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/mailbox-relocation-consolidation/"
+        }
+      ]
+    },
+    "vista": {
+      "citySlug": "vista",
+      "cityName": "Vista",
+      "state": "CA",
+      "h1": "Mailbox relocation and consolidation in Vista, CA",
+      "intro": "Postal Systems helps Vista HOAs, apartments, and commercial properties relocate and consolidate mailbox stations so they are safer, easier to access, and aligned with USPS requirements. We handle layout, pads, equipment moves, and inspection sign-off so you do not have to coordinate multiple trades.",
+      "sections": [
+        {
+          "id": "why-relocate-vista",
+          "heading": "Why Vista properties relocate and consolidate mailbox stations",
+          "body": "As communities in Vista grow and traffic patterns change, mail stations that once made sense can become hard to access, poorly lit, or exposed to traffic. Boards and managers come to us when they want to place mailboxes where residents actually use them and where carriers can work safely.",
+          "bullets": [
+            "Existing mailbox locations feel unsafe, poorly lit, or tucked behind buildings",
+            "Residents must cross busy drives or navigate awkward slopes to collect mail",
+            "USPS has requested that scattered boxes be consolidated into fewer stops",
+            "Parking, new amenities, or reconfigured drives have made old mail locations impractical",
+            "Property owners want a more logical, professional layout that fits current use patterns"
+          ],
+          "closing": "We help Vista communities step back, look at the property as a whole, and plan mailbox locations that work better for everyone."
+        },
+        {
+          "id": "common-projects-vista",
+          "heading": "Vista mailbox relocation and consolidation projects we handle",
+          "body": "Vista relocation and consolidation projects range from short moves within the same parking area to complete rethinking of how mail is distributed across the property.",
+          "bullets": [
+            "Moving existing cluster box units to better lit, more visible locations",
+            "Consolidating several small mail pads into one or two central mail stations",
+            "Adjusting layouts to free up critical parking or improve traffic flow",
+            "Relocating mailboxes away from drive aisles that create carrier or pedestrian conflicts",
+            "Combining relocation work with pad upgrades, new equipment, or parcel locker additions"
+          ],
+          "closing": "Each Vista project is designed around your specific property constraints so mail stations feel purposeful instead of leftover."
+        },
+        {
+          "id": "coordination-vista",
+          "heading": "How we plan mailbox relocation and consolidation in Vista",
+          "body": "Mailbox relocation affects residents’ daily routines, so communication and planning matter. We design Vista projects that are clearly explained and carefully executed.",
+          "bullets": [
+            "Walk your property to review current mail locations, lighting, and traffic patterns",
+            "Propose new locations and consolidation options that balance convenience and safety",
+            "Coordinate pad work, equipment moves, and any new hardware that is required",
+            "Plan phasing and tenant communication so residents know where to go and when",
+            "Work with USPS to review proposed locations and obtain inspection sign-off"
+          ],
+          "closing": "Our goal is for Vista residents and carriers to feel that the new mailbox layout is intuitive, safe, and easy to live with."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can we relocate Vista mailboxes without replacing all of our existing equipment?",
+          "answer": "In many cases, yes. We may be able to reuse your existing cabinets while installing new pads or pedestals at the updated locations. During our site visit, we will evaluate the condition of your equipment and explain the options."
+        },
+        {
+          "question": "Will USPS allow us to consolidate multiple Vista mailbox locations into one station?",
+          "answer": "Often USPS prefers fewer, well-designed stops. We will review your proposed consolidation with USPS, explain any constraints, and design a layout that aligns with current expectations."
+        },
+        {
+          "question": "How will Vista residents know where to pick up mail after relocation?",
+          "answer": "We can assist with tenant notices, simple maps, and suggested communication timelines so residents understand when the change is happening and where the new locations will be."
+        },
+        {
+          "question": "Can mailbox relocation work in Vista be combined with new parcel lockers?",
+          "answer": "Yes. Relocation and consolidation is often the best time to add parcel lockers, since we can design the new pads and layouts with packages in mind from the start."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "escondido",
+          "label": "Escondido, CA",
+          "url": "/service-areas/escondido/mailbox-relocation-consolidation/"
+        }
+      ]
+    },
+    "poway": {
+      "citySlug": "poway",
+      "cityName": "Poway",
+      "state": "CA",
+      "h1": "Mailbox relocation and consolidation in Poway, CA",
+      "intro": "Postal Systems helps Poway communities relocate and consolidate mailbox stations so they are easier to access, safer for carriers, and better integrated with how the property functions today. We manage layout, foundations, equipment, and USPS coordination from start to finish.",
+      "sections": [
+        {
+          "id": "why-relocate-poway",
+          "heading": "Why Poway HOAs and owners rethink mailbox locations and routes",
+          "body": "In Poway, many communities have evolved over time. Parking areas shift, new amenities are added, and original mail locations no longer match where people live and park. Owners come to us when they want a mailbox layout that matches the current reality on the ground.",
+          "bullets": [
+            "Existing mail stations are tucked behind buildings or down steep slopes",
+            "Mailboxes sit near congested drive aisles, creating conflicts with vehicles",
+            "USPS has requested that certain locations be moved or consolidated",
+            "Residents report feeling unsafe collecting mail at dusk or after dark",
+            "New improvements, paving projects, or amenities make old locations less practical"
+          ],
+          "closing": "We help Poway properties design mailbox locations that respect both USPS guidance and everyday resident experience."
+        },
+        {
+          "id": "common-projects-poway",
+          "heading": "Common mailbox relocation and consolidation projects in Poway",
+          "body": "Poway projects tend to combine safety, convenience, and curb appeal. We approach each project with those priorities in mind.",
+          "bullets": [
+            "Relocating existing CBUs to better lit, more central locations",
+            "Consolidating scattered mail pads into one or two main mail hubs",
+            "Shifting mail equipment away from busy drive entrances or blind corners",
+            "Coordinating with paving or concrete work to integrate new mail stations cleanly",
+            "Combining relocation with new equipment, pad upgrades, or parcel lockers"
+          ],
+          "closing": "Every Poway relocation plan is documented so boards and managers can explain the changes clearly to residents and carriers."
+        },
+        {
+          "id": "coordination-poway",
+          "heading": "How we coordinate mailbox relocation and consolidation in Poway",
+          "body": "Relocating mail equipment in Poway touches USPS, residents, and sometimes other contractors. We make sure everyone has the information they need.",
+          "bullets": [
+            "Review current mail equipment, locations, and site circulation patterns",
+            "Propose new locations and consolidation concepts with simple diagrams where helpful",
+            "Schedule pad work and equipment moves around peak traffic and operational needs",
+            "Assist with resident notices and temporary wayfinding as locations change",
+            "Coordinate USPS review and inspection so the new stations are accepted promptly"
+          ],
+          "closing": "The result is a Poway mailbox layout that works better day to day, without guesswork or last-minute scrambling."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can we relocate Poway mailboxes as part of a larger paving or improvement project?",
+          "answer": "Yes. We often coordinate mailbox relocation and consolidation with broader site work. We will work with your schedule and other contractors to sequence the foundations, equipment moves, and inspections appropriately."
+        },
+        {
+          "question": "Do we have to replace our mailboxes when relocating them in Poway?",
+          "answer": "Not always. If your existing equipment is in good condition and compliant, we may be able to relocate it to new pads. If it is outdated or damaged, we will outline replacement options as part of the plan."
+        },
+        {
+          "question": "How far in advance should we plan a mailbox relocation project in Poway?",
+          "answer": "It is best to start planning before other site changes lock in. A site visit and preliminary layout discussion give you a clear roadmap and realistic timeline to share with your board or ownership group."
+        },
+        {
+          "question": "Will USPS approve our new mailbox locations in Poway?",
+          "answer": "We review proposed locations with USPS and design around the guidelines carriers use. While USPS has final say, our experience helps avoid designs that are likely to be rejected or delayed."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/mailbox-relocation-consolidation/"
+        }
+      ]
+    },
+    "san-marcos": {
+      "citySlug": "san-marcos",
+      "cityName": "San Marcos",
+      "state": "CA",
+      "h1": "Mailbox relocation and consolidation in San Marcos, CA",
+      "intro": "Postal Systems helps San Marcos HOAs, student housing communities, and mixed-use properties relocate and consolidate mailbox stations so they better match how residents live, park, and move through the property. We design layouts, build new pads, move equipment, and coordinate USPS sign-off.",
+      "sections": [
+        {
+          "id": "why-relocate-san-marcos",
+          "heading": "Why San Marcos communities rethink mailbox locations and clusters",
+          "body": "San Marcos properties often balance year-round residents with student or short-term populations. As buildings and parking layouts evolve, original mailbox locations can become inconvenient or out of step with day-to-day usage.",
+          "bullets": [
+            "Mail stations are far from where residents park or enter buildings",
+            "Pedestrian paths to current mailbox locations feel awkward or exposed",
+            "USPS has recommended consolidating stops to simplify carrier routes",
+            "New phases, buildings, or amenities have shifted where residents spend time",
+            "Boards want mail stations to feel more intentional and secure, not like an afterthought"
+          ],
+          "closing": "We help San Marcos boards take a fresh look at where mail fits into the property and design a layout that supports that vision."
+        },
+        {
+          "id": "common-projects-san-marcos",
+          "heading": "Mailbox relocation and consolidation projects in San Marcos",
+          "body": "San Marcos projects frequently link mailbox changes to broader site improvements or new construction phases. We design the mail component so it supports those bigger moves.",
+          "bullets": [
+            "Relocating older mail pads to align with new buildings or parking layouts",
+            "Consolidating multiple small mailbox locations into larger, well-lit hubs",
+            "Adjusting mailbox locations to improve accessibility and sightlines",
+            "Integrating parcel lockers into consolidated stations during relocation",
+            "Reworking mailbox placement as part of student housing upgrades or expansions"
+          ],
+          "closing": "Each project is scoped with clear drawings and descriptions so boards and owners can communicate confidently with residents and carriers."
+        },
+        {
+          "id": "coordination-san-marcos",
+          "heading": "How we coordinate mailbox relocation and consolidation in San Marcos",
+          "body": "Relocating mail equipment in San Marcos means coordinating with boards, management teams, residents, and USPS. We build that coordination into our process.",
+          "bullets": [
+            "Walk the site to understand traffic, lighting, grade, and how residents move",
+            "Develop proposed mailbox locations and consolidation options tailored to your property",
+            "Plan phasing around busy seasons, move-ins, or campus-related schedules",
+            "Assist with resident communication, including maps and key handover plans if equipment is changed",
+            "Work with USPS to review new locations and secure inspection and approval"
+          ],
+          "closing": "The result is a San Marcos mailbox layout that feels aligned with how your property works today—not years ago."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can we relocate San Marcos mailboxes during a broader property renovation?",
+          "answer": "Yes. Mailbox relocation and consolidation often fits well into larger renovation or expansion plans. We coordinate our work so it supports the overall schedule and design intent."
+        },
+        {
+          "question": "Will San Marcos residents lose access to mail during relocation work?",
+          "answer": "We plan phasing and USPS coordination to minimize disruption. In many cases, we can sequence work so residents always have a clear, temporary or permanent location for mail pickup."
+        },
+        {
+          "question": "Do you help San Marcos boards understand USPS expectations around relocation?",
+          "answer": "We do. We explain the key USPS considerations in plain language and design layouts that account for carrier access, safety, and operational preferences."
+        },
+        {
+          "question": "Can mailbox relocation in San Marcos be combined with equipment upgrades?",
+          "answer": "Yes. Many communities choose to pair relocation and consolidation with new equipment, pad work, and parcel lockers so everything is upgraded at once instead of in separate projects."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "escondido",
+          "label": "Escondido, CA",
+          "url": "/service-areas/escondido/mailbox-relocation-consolidation/"
+        }
+      ]
+    },
+    "temecula": {
+      "citySlug": "temecula",
+      "cityName": "Temecula",
+      "state": "CA",
+      "h1": "Mailbox relocation & consolidation in Temecula, CA",
+      "intro": "Postal Systems plans and executes mailbox relocation and consolidation projects for HOAs, apartments, and commercial properties in Temecula. We help communities move scattered or poorly placed mail stations into more efficient, secure, and convenient locations that work for residents and carriers.",
+      "sections": [
+        {
+          "id": "why-relocate-temecula",
+          "heading": "Why Temecula properties relocate and consolidate mailbox stations",
+          "body": "Temecula communities often grow in phases, and mailbox locations that made sense years ago do not always match current traffic patterns, parking layouts, or resident expectations. Boards and owners look to relocation and consolidation when safety, convenience, or USPS access becomes a recurring issue.",
+          "bullets": [
+            "Mail stations tucked into locations that are hard for carriers or residents to reach",
+            "Clusters that force residents to stand in active drive aisles or narrow parking lanes",
+            "Multiple small mailbox locations that are difficult to monitor or secure",
+            "Routes that take carriers on inefficient loops through the property",
+            "Plans to reconfigure drive aisles, parking, or amenities that conflict with current mail sites"
+          ],
+          "closing": "We design relocation and consolidation projects that fit Temecula properties, balancing safety, appearance, USPS requirements, and everyday convenience."
+        },
+        {
+          "id": "project-types-temecula",
+          "heading": "Mailbox relocation & consolidation projects we handle in Temecula",
+          "body": "Our Temecula work ranges from modest relocations of a single cluster to full consolidation of multiple scattered mail sites into one or two central stations.",
+          "bullets": [
+            "Relocating existing cluster mailboxes away from congested or blind-drive areas",
+            "Consolidating several small mail locations into a central, well-lit station",
+            "Reworking layouts so residents can access mail without crossing busy internal streets",
+            "Adjusting mailbox positioning around new phases, amenities, or parking changes",
+            "Coordinating layouts that support future parcel locker additions"
+          ],
+          "closing": "Each project is based on a site walk, USPS input, and a realistic understanding of how residents move through your Temecula property."
+        },
+        {
+          "id": "process-temecula",
+          "heading": "How our mailbox relocation & consolidation process works in Temecula",
+          "body": "We follow a step-by-step process so HOAs, managers, and owners know how the change will affect residents and USPS service in Temecula.",
+          "bullets": [
+            "Walk existing mail locations and identify safety, access, and traffic concerns",
+            "Review USPS expectations, route patterns, and any notices you have received",
+            "Propose new locations and configurations that improve access and consolidation",
+            "Coordinate phasing and tenant communication so residents know what to expect",
+            "Move equipment or install new mail stations, then prepare for USPS inspection"
+          ],
+          "closing": "By the end of the project, your Temecula property has mailbox locations that align with how the community actually functions day to day."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can we consolidate several older mailbox locations into one central station in Temecula?",
+          "answer": "Yes. We frequently consolidate scattered mailbox locations into a central station when it improves safety, security, and carrier access. We review options on site, coordinate with USPS, and present a plan that fits your property."
+        },
+        {
+          "question": "Will mail service be interrupted during a mailbox relocation project in Temecula?",
+          "answer": "We plan phasing and timing with USPS and your team to minimize disruption. Residents are informed about when boxes will move, where to pick up mail, and when the new locations will be in full service."
+        },
+        {
+          "question": "Do you help decide where new mailbox locations should be in Temecula?",
+          "answer": "Yes. We look at traffic flow, lighting, grades, and USPS routing to recommend locations that work in practice—not just on a map. We then refine the plan with your team and USPS before work begins."
+        },
+        {
+          "question": "Can we add parcel lockers when we relocate or consolidate mailboxes in Temecula?",
+          "answer": "Relocation and consolidation projects are a good time to plan for parcel lockers. We can integrate parcel capacity into the new layout so you are better prepared for package volume going forward."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "riverside-county",
+          "label": "Riverside County, CA",
+          "url": "/service-areas/riverside-county/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/mailbox-relocation-consolidation/"
+        }
+      ]
+    },
+    "el-cajon": {
+      "citySlug": "el-cajon",
+      "cityName": "El Cajon",
+      "state": "CA",
+      "h1": "Mailbox relocation & consolidation in El Cajon, CA",
+      "intro": "Postal Systems helps El Cajon HOAs, apartments, and commercial properties relocate and consolidate mailbox stations that no longer fit how the property is used. We move mail equipment out of problem areas and into locations that better serve residents and carriers.",
+      "sections": [
+        {
+          "id": "why-relocate-el-cajon",
+          "heading": "Why El Cajon communities relocate and consolidate mailbox locations",
+          "body": "In El Cajon, older mailbox sites may have been placed before current traffic volumes, on-site parking patterns, or accessibility standards. As properties age and resident needs change, boards and owners turn to relocation and consolidation to resolve recurring issues.",
+          "bullets": [
+            "Residents standing in drive aisles or tight parking lanes to collect mail",
+            "Mail stations placed near slopes, curbs, or trip hazards that raise safety concerns",
+            "Multiple small mail locations that are difficult to light and monitor",
+            "Carrier complaints about tight access or awkward routing through the property",
+            "Plans to repave, re-stripe, or reconfigure parking that conflict with existing mail sites"
+          ],
+          "closing": "We look at the property as a whole, then propose mailbox locations in El Cajon that reduce friction for residents, staff, and carriers."
+        },
+        {
+          "id": "project-types-el-cajon",
+          "heading": "Mailbox relocation & consolidation projects we complete in El Cajon",
+          "body": "Our El Cajon work ranges from moving a single cluster to rethinking how mail is handled across an entire community.",
+          "bullets": [
+            "Relocating mailbox clusters away from congested entrances and internal intersections",
+            "Consolidating older, scattered mail runs into fewer, better-designed stations",
+            "Repositioning mail equipment to align with refreshed parking and circulation plans",
+            "Building new pads and approaches that improve accessibility and drainage",
+            "Coordinating relocation with upgrades to mailbox hardware and parcel capacity"
+          ],
+          "closing": "Each project is built around your specific El Cajon property, with attention to long-term maintenance and ease of use."
+        },
+        {
+          "id": "process-el-cajon",
+          "heading": "How our mailbox relocation & consolidation process works in El Cajon",
+          "body": "We use a structured process so El Cajon boards and managers can explain what is happening, when, and why to residents and USPS.",
+          "bullets": [
+            "Evaluate current mailbox locations, approaches, and traffic during a site visit",
+            "Discuss resident feedback, incident history, and USPS input with your team",
+            "Recommend new locations and consolidation strategies that address recurring issues",
+            "Lay out phasing, temporary arrangements, and communication steps for residents",
+            "Complete pad work, equipment moves, and final positioning ahead of USPS inspection"
+          ],
+          "closing": "By following this process, your El Cajon property ends up with mailbox locations that are safer, more convenient, and easier to manage."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can we relocate El Cajon mailbox clusters without replacing all of the equipment?",
+          "answer": "In some cases, existing equipment can be relocated to new pads and approaches. In other situations, replacement is the better option. We inspect your equipment and outline the pros and cons of each approach before you decide."
+        },
+        {
+          "question": "Do you coordinate with USPS when mailbox locations move in El Cajon?",
+          "answer": "Yes. We speak directly with USPS about proposed locations, routing, and timing. That coordination helps avoid surprises and keeps the relocation or consolidation project on track."
+        },
+        {
+          "question": "How do residents know where to pick up mail after mailbox relocation in El Cajon?",
+          "answer": "We work with your team to plan and execute resident communication. That can include notices, maps, and timing updates so residents know when old locations will close and new stations will open."
+        },
+        {
+          "question": "Can mailbox relocation in El Cajon be phased to limit disruption?",
+          "answer": "Often, yes. When the site allows it, we can phase pad work and equipment moves so there is always a clear, designated place for residents to receive mail while changes are underway."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "chula-vista",
+          "label": "Chula Vista, CA",
+          "url": "/service-areas/chula-vista/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/mailbox-relocation-consolidation/"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,742 @@
+{
+  "serviceSlug": "cbu-installation",
+  "cities": {
+    "san-diego": {
+      "citySlug": "san-diego",
+      "cityName": "San Diego",
+      "state": "CA",
+      "h1": "CBU installation in San Diego, CA",
+      "intro": "Postal Systems installs USPS-approved Cluster Box Units (CBUs) for communities and commercial sites across San Diego. From coastal apartments and canyon neighborhoods to new infill projects, we design centralized mail stations that work for residents, carriers, and property teams.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why CBUs are common in San Diego communities",
+          "body": "San Diego properties range from hillside townhomes and older garden-style apartments to new mixed-use developments. Many of these communities rely on Cluster Box Units for secure, centralized mail delivery, but aging equipment, corrosion, and changing USPS guidelines can make upgrades necessary.",
+          "bullets": [
+            "Replace rusted or vandalized CBUs with secure, modern USPS-approved units",
+            "Consolidate scattered mailboxes into convenient, well-lit CBU locations",
+            "Upgrade pads and pedestals that have settled, cracked, or no longer meet standards",
+            "Reconfigure older layouts to improve ADA reach and clearances",
+            "Prepare mail stations in advance of USPS route changes or new developments"
+          ],
+          "closing": "Instead of interpreting USPS standards on your own, you work with a contractor that handles CBU layouts and approvals in San Diego every day."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common CBU installation projects we handle in San Diego",
+          "body": "Recent work in San Diego has included CBU replacements, new installations for infill projects, and accessibility upgrades for existing communities.",
+          "bullets": [
+            "Replacing aging CBUs in coastal apartment communities exposed to salt air",
+            "Installing new CBU banks for townhome and condominium associations",
+            "Relocating CBUs away from tight drive aisles and unsafe parking areas",
+            "Adding additional CBU capacity for expanding communities and new phases",
+            "Rebuilding concrete pads and adjusting layouts to meet ADA requirements"
+          ],
+          "closing": "For each project, we coordinate layout, pad work, installation, and USPS inspection so property staff can focus on residents instead of mail logistics."
+        },
+        {
+          "id": "coordination",
+          "heading": "Coordinating CBU installs with USPS and site constraints in San Diego",
+          "body": "San Diego sites often have sloped terrain, limited common areas, and busy drive aisles. We plan CBU locations and installation schedules around these constraints while keeping USPS requirements front and center.",
+          "bullets": [
+            "Walk your property with you and review any USPS letters or notices you have received",
+            "Map potential CBU locations that balance resident convenience, carrier access, and visibility",
+            "Recommend CBU configurations and pad layouts that fit your site conditions",
+            "Schedule installation windows to reduce impacts on parking and resident access",
+            "Coordinate USPS inspection and address any punch-list adjustments after installation"
+          ],
+          "closing": "Our goal is to deliver a CBU setup in San Diego that is easy for residents to use, simple for carriers to serve, and compliant with USPS guidelines from day one."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you replace outdated CBUs without changing our mail locations in San Diego?",
+          "answer": "In many cases we can replace CBUs in the same general location if the site still meets USPS and accessibility requirements. During the site visit we verify clearances, pad condition, and carrier access, and then discuss whether a direct replacement or a relocation is the better long-term solution."
+        },
+        {
+          "question": "Do you coordinate with local USPS stations in San Diego?",
+          "answer": "Yes. We regularly communicate with USPS about San Diego projects, reviewing layouts, preferred equipment, and inspection timing so your new CBUs are approved and placed into service without unnecessary delays."
+        },
+        {
+          "question": "Can CBU work be phased to keep mail running during construction?",
+          "answer": "Yes. Where feasible, we plan phasing so residents have continuous access to mail, even while pads and new CBUs are being installed. We outline the phasing plan and any temporary arrangements in your proposal before work begins."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "chula-vista",
+          "label": "Chula Vista, CA",
+          "url": "/service-areas/chula-vista/cbu-installation/"
+        },
+        {
+          "citySlug": "carlsbad",
+          "label": "Carlsbad, CA",
+          "url": "/service-areas/carlsbad/cbu-installation/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/cbu-installation/"
+        }
+      ]
+    },
+    "chula-vista": {
+      "citySlug": "chula-vista",
+      "cityName": "Chula Vista",
+      "state": "CA",
+      "h1": "CBU installation in Chula Vista, CA",
+      "intro": "Postal Systems provides USPS-approved Cluster Box Unit (CBU) installation for HOAs, apartments, and mixed-use properties throughout Chula Vista. From established neighborhoods to new master-planned communities, we upgrade aging mail equipment and install new CBU banks with coordinated USPS inspection.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why compliant CBU installation matters in Chula Vista",
+          "body": "Chula Vista includes older neighborhoods, hillside communities, and newer developments with shared amenities. Many of these properties rely on CBUs for mail delivery, and boards are under pressure to keep equipment secure, accessible, and in step with USPS changes.",
+          "bullets": [
+            "Replace vandalized or rusted CBUs with secure, locking mail equipment",
+            "Upgrade small mailbox clusters to larger, more efficient CBU banks",
+            "Relocate CBUs to better-lit areas with clearer visibility and access",
+            "Improve ADA reach and approach for residents with mobility needs",
+            "Prepare for new phases of development that require additional CBUs"
+          ],
+          "closing": "Instead of responding only when problems escalate, communities in Chula Vista work with a contractor that proactively designs CBU layouts around USPS and resident needs."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common CBU projects we handle in Chula Vista",
+          "body": "Our Chula Vista work ranges from simple CBU replacements to complete reconfigurations of shared mail areas for growing communities.",
+          "bullets": [
+            "Swapping outdated CBUs for current USPS-approved models in condo associations",
+            "Installing new CBU banks for master-planned communities and new phases",
+            "Rebuilding and enlarging concrete pads to support additional CBU cabinets",
+            "Rearranging existing CBU locations to improve traffic flow and parking",
+            "Addressing repeat damage with better placement, lighting, and equipment selection"
+          ],
+          "closing": "For every project, we coordinate layout, pad work, installation, and USPS inspection so boards and managers in Chula Vista can focus on residents, not mail problems."
+        },
+        {
+          "id": "coordination",
+          "heading": "How we coordinate CBU installation with USPS in Chula Vista",
+          "body": "Chula Vista communities often balance limited open space, guest parking, and drive aisles when choosing CBU locations. We design around those constraints and involve USPS early so there are no surprises at inspection.",
+          "bullets": [
+            "Review your existing mail areas and any USPS notices or carrier feedback",
+            "Identify CBU locations that work for residents, carriers, and accessibility",
+            "Recommend CBU configurations, pedestal layouts, and pad sizes for your site",
+            "Plan installation schedules that reduce disruption for residents and parking",
+            "Coordinate USPS inspection, address punch-list items, and finalize turnover"
+          ],
+          "closing": "Our goal is to deliver CBU installations in Chula Vista that feel like an upgrade for residents, simplify carrier routes, and keep boards confident about compliance."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you help us relocate CBUs to safer locations in Chula Vista?",
+          "answer": "Yes. We review your current mail locations, discuss resident concerns, and work with USPS to approve new CBU locations that improve visibility, safety, and access while still supporting carrier routes."
+        },
+        {
+          "question": "Do you coordinate with USPS for CBU inspections in Chula Vista?",
+          "answer": "Yes. We communicate directly with USPS about layout, placement, and equipment so your Chula Vista project moves smoothly from installation through final inspection and daily service."
+        },
+        {
+          "question": "Can you work around school schedules or busy drive times?",
+          "answer": "In many communities we schedule work outside of peak traffic or school hours and phase installation so access is maintained. We discuss constraints early and build them into your project plan."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/cbu-installation/"
+        },
+        {
+          "citySlug": "el-cajon",
+          "label": "El Cajon, CA",
+          "url": "/service-areas/el-cajon/cbu-installation/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/cbu-installation/"
+        }
+      ]
+    },
+    "oceanside": {
+      "citySlug": "oceanside",
+      "cityName": "Oceanside",
+      "state": "CA",
+      "h1": "CBU installation in Oceanside, CA",
+      "intro": "Postal Systems installs USPS-approved Cluster Box Units (CBUs) for HOAs, apartments, and coastal properties throughout Oceanside. From older beach communities to newer master-planned neighborhoods, we design, install, and coordinate inspection for secure, corrosion-resistant CBU banks.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why compliant CBU installation matters in Oceanside",
+          "body": "Oceanside’s coastal climate and mix of older buildings and newer developments mean many properties are dealing with rusted pedestals, patchwork repairs, and changing USPS expectations. Boards and managers need CBU systems that can handle salt air, wind, and heavy use without becoming a recurring problem.",
+          "bullets": [
+            "Replace corroded or vandalized CBUs near the coast with durable, USPS-approved units",
+            "Upgrade aging cluster mailboxes in older buildings before they trigger USPS concerns",
+            "Relocate CBU banks to improve carrier access, lighting, and resident safety",
+            "Bring long-standing CBU locations up to current USPS and ADA standards"
+          ],
+          "closing": "Instead of reacting to the next USPS notice or repair call, you get a CBU installation designed for Oceanside’s coastal conditions and current standards."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common CBU installation projects we handle in Oceanside",
+          "body": "Recent CBU projects in and around Oceanside have included coastal replacements, new installations for infill developments, and upgrades for master-planned communities.",
+          "bullets": [
+            "HOA CBU replacements in townhome and condo communities on both sides of I-5",
+            "New CBU banks for infill projects and smaller multifamily buildings",
+            "Consolidated CBU locations where USPS wants fewer, better-designed cluster sites",
+            "Damage and vandalism replacements after repeated break-ins or vehicle impacts",
+            "Pad and pedestal upgrades where older foundations have shifted, cracked, or settled"
+          ],
+          "closing": "For each project, we coordinate layout, pad work, installation, and USPS inspection so property teams can focus on residents instead of mailbox logistics."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems coordinates USPS and logistics in Oceanside",
+          "body": "Oceanside properties often have tight parking, coastal grading, and busy shared drives. We plan CBU projects around those constraints so carriers can work efficiently and residents have reliable access.",
+          "bullets": [
+            "Review existing CBU locations and any USPS letters or notices you have received",
+            "Identify practical CBU sites that work for carriers, residents, and ADA access",
+            "Recommend USPS-approved CBU configurations matched to your mail volume",
+            "Schedule installation windows to minimize impacts on parking and traffic flow",
+            "Coordinate USPS inspection and sign-off so the new CBUs are ready for daily use"
+          ],
+          "closing": "Our goal is to deliver CBU installations that fit Oceanside’s environment and work smoothly for residents, carriers, and property staff from day one."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you replace rusted CBUs near the beach in Oceanside?",
+          "answer": "Yes. Many Oceanside communities struggle with rusted or failing CBUs due to salt air and age. We assess your existing equipment, recommend durable replacements, and handle pad work, installation, and USPS coordination."
+        },
+        {
+          "question": "Do you coordinate with USPS for CBU inspections in Oceanside?",
+          "answer": "Yes. We communicate directly with USPS to review layouts, confirm locations, and schedule inspections so your project does not get delayed at sign-off."
+        },
+        {
+          "question": "Can you phase CBU work so residents continue to receive mail?",
+          "answer": "On many projects we phase work or set up temporary arrangements so residents continue to receive mail while old CBUs are removed and new equipment is installed and inspected."
+        },
+        {
+          "question": "Do you handle CBU installations for both HOAs and apartments in Oceanside?",
+          "answer": "Yes. We install and replace CBUs for Oceanside HOAs, condo associations, apartment communities, and mixed-use properties."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "carlsbad",
+          "label": "Carlsbad, CA",
+          "url": "/service-areas/carlsbad/cbu-installation/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/cbu-installation/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/cbu-installation/"
+        }
+      ]
+    },
+    "carlsbad": {
+      "citySlug": "carlsbad",
+      "cityName": "Carlsbad",
+      "state": "CA",
+      "h1": "CBU installation in Carlsbad, CA",
+      "intro": "Postal Systems installs USPS-approved Cluster Box Units (CBUs) for HOAs, apartments, and commercial properties throughout Carlsbad. From coastal condos to master-planned communities and employment centers, we design, install, and coordinate inspection for secure, compliant CBU systems.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why compliant CBU installation matters in Carlsbad",
+          "body": "Carlsbad’s mix of coastal neighborhoods, resort-style communities, and business parks means CBU systems must serve diverse residents and tenants while meeting USPS and ADA requirements. Aging pedestals, salt exposure, and growth often push boards and managers to move from patch repairs to full CBU upgrades.",
+          "bullets": [
+            "Replace aging or damaged CBUs in planned communities and coastal neighborhoods",
+            "Upgrade to current CBU models that meet the latest USPS requirements",
+            "Relocate CBUs to improve traffic flow, lighting, and resident safety",
+            "Bring long-serving CBU sites up to current USPS and ADA standards before inspections become an issue"
+          ],
+          "closing": "Instead of patching failing equipment, you get a CBU installation designed for how Carlsbad properties actually operate."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common CBU installation projects we handle in Carlsbad",
+          "body": "We support CBU projects for a wide range of Carlsbad properties, from coastal HOAs to inland corporate campuses and multifamily communities.",
+          "bullets": [
+            "CBU replacements for master-planned HOAs and resort-style communities",
+            "New CBUs for infill developments, townhomes, and smaller apartment projects",
+            "Consolidated CBU locations where USPS wants fewer, centralized mail points",
+            "Damage and vandalism replacements when existing CBUs have reached the end of their service life",
+            "Pad and pedestal upgrades where older concrete no longer meets ADA or USPS expectations"
+          ],
+          "closing": "For each project, we coordinate layout, pad and pedestal work, installation, and USPS inspection so leaders can focus on residents, guests, or tenants instead of mailbox problems."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems coordinates USPS and logistics in Carlsbad",
+          "body": "Carlsbad projects often need to be scheduled around amenities, guest parking, and busy shared spaces. We plan CBU installations so USPS can work efficiently while residents and tenants experience minimal disruption.",
+          "bullets": [
+            "Walk your property to review current CBU locations, access routes, and USPS feedback",
+            "Recommend CBU sites that balance convenience, visibility, and ADA-compliant access",
+            "Propose USPS-approved CBU configurations sized to your community’s mail volume",
+            "Plan work windows and phasing so key drives, garages, and parking areas remain functional",
+            "Coordinate USPS inspection and sign-off so your new CBUs are accepted without delay"
+          ],
+          "closing": "Our goal is to deliver CBU installations in Carlsbad that feel well integrated with your property and work smoothly for residents, staff, and carriers."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you upgrade older CBUs in Carlsbad master-planned communities?",
+          "answer": "Yes. We routinely replace legacy mail equipment in planned communities with modern CBU configurations. We review USPS expectations, design new layouts, and handle pad work, installation, and inspection coordination."
+        },
+        {
+          "question": "Can you coordinate CBU projects around amenities and resort traffic in Carlsbad?",
+          "answer": "We plan CBU work around amenities, clubhouses, guest parking, and busy common areas so residents and guests can continue to use the property while the project is underway."
+        },
+        {
+          "question": "Do you help estimate costs for CBU installation in Carlsbad?",
+          "answer": "Yes. After a site walk and layout review, we provide a written proposal that outlines equipment, pad and pedestal work, installation steps, and a realistic budget range tailored to your Carlsbad property."
+        },
+        {
+          "question": "Do you handle both replacements and new CBU installations in Carlsbad?",
+          "answer": "We handle replacement projects for existing communities as well as new CBU installations for ground-up developments, expansions, and infill projects in Carlsbad."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "oceanside",
+          "label": "Oceanside, CA",
+          "url": "/service-areas/oceanside/cbu-installation/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/cbu-installation/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/cbu-installation/"
+        }
+      ]
+    },
+    "vista": {
+      "citySlug": "vista",
+      "cityName": "Vista",
+      "state": "CA",
+      "h1": "CBU installation in Vista, CA",
+      "intro": "Postal Systems installs USPS-approved Cluster Box Units (CBUs) for HOAs, apartments, and commercial sites throughout Vista. We replace aging clusters, rebuild foundations, and add parcel capacity so residents and carriers have a secure, centralized place for daily mail and packages.",
+      "sections": [
+        {
+          "id": "why-cbu-vista",
+          "heading": "Why Vista communities upgrade CBUs",
+          "body": "Vista has a mix of long-established neighborhoods and newer communities. Many sites still rely on clusters installed years ago—often on small pads, in low-light areas, or at locations that no longer match how residents and carriers use the property.",
+          "bullets": [
+            "Rusted or leaning CBUs that have been patched repeatedly over the years",
+            "Clusters placed in awkward locations that no longer fit current traffic patterns",
+            "Increased parcel volume stressing older mail stations not designed for packages",
+            "USPS notices about access, clearances, or deteriorating foundations",
+            "Boards wanting mail equipment that matches recent exterior improvements"
+          ],
+          "closing": "We help Vista properties transition from tired, hard-to-use clusters to modern, well-sited CBUs that feel like a permanent upgrade."
+        },
+        {
+          "id": "common-cbu-projects-vista",
+          "heading": "Common CBU installation projects we handle in Vista",
+          "body": "Most Vista CBU projects combine new equipment with better placement and upgraded concrete work so the new mail stations look intentional and perform well over time.",
+          "bullets": [
+            "Full replacement of aging CBU banks in townhome and garden-style communities",
+            "New CBU installations for infill projects and smaller multifamily developments",
+            "Rebuilding undersized or cracked pads to support new cluster configurations",
+            "Relocating CBUs to improve lighting, visibility, and resident access",
+            "Adding parcel lockers near existing clusters to handle package volume"
+          ],
+          "closing": "Each project includes layouts, photos, and a written scope so boards and owners in Vista can clearly understand what is being installed and where."
+        },
+        {
+          "id": "coordination-vista",
+          "heading": "How we manage CBU installation logistics in Vista",
+          "body": "Vista properties often deal with slopes, drive aisles, and limited curb space. We plan CBU projects around those constraints so residents and carriers can keep moving while work is underway.",
+          "bullets": [
+            "Walk the site to review current cluster locations, access routes, and lighting",
+            "Review USPS guidance and any letters or notes tied to your existing mail setup",
+            "Recommend USPS-approved CBU configurations tailored to Vista’s density and mail volume",
+            "Plan work windows and phasing so residents retain mail access during installation",
+            "Coordinate USPS inspection and respond quickly to any punch-list items"
+          ],
+          "closing": "Our goal is a Vista CBU installation that passes inspection cleanly and feels like it belongs with the rest of your property."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you reuse our existing CBU pads in Vista?",
+          "answer": "If your pads are the right size, in good condition, and meet current standards, we may be able to reuse them. If they are cracked, undersized, or sloped incorrectly, we typically recommend new foundations so your new CBUs stay level and secure."
+        },
+        {
+          "question": "Do you coordinate CBU inspections with USPS for Vista projects?",
+          "answer": "Yes. We work directly with USPS to review layouts, confirm equipment types, and schedule inspections so your new Vista CBU installation can be placed into service without unnecessary delays."
+        },
+        {
+          "question": "Can we add parcel lockers to our Vista CBU stations?",
+          "answer": "Many Vista communities add parcel lockers alongside existing or new CBUs. We design placements and pad layouts so lockers feel integrated and meet USPS expectations for secure package delivery."
+        },
+        {
+          "question": "How detailed is your CBU proposal for Vista properties?",
+          "answer": "Our proposals include equipment specifications, pad and pedestal work, installation steps, and a realistic schedule so Vista boards and owners can make decisions with clarity."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/cbu-installation/"
+        },
+        {
+          "citySlug": "escondido",
+          "label": "Escondido, CA",
+          "url": "/service-areas/escondido/cbu-installation/"
+        },
+        {
+          "citySlug": "oceanside",
+          "label": "Oceanside, CA",
+          "url": "/service-areas/oceanside/cbu-installation/"
+        }
+      ]
+    },
+    "poway": {
+      "citySlug": "poway",
+      "cityName": "Poway",
+      "state": "CA",
+      "h1": "CBU installation in Poway, CA",
+      "intro": "Postal Systems installs USPS-approved Cluster Box Units (CBUs) for HOAs, apartments, business parks, and institutional sites across Poway. We replace outdated clusters, correct foundation issues, and coordinate USPS approval so your new mail stations are secure, compliant, and easy to use.",
+      "sections": [
+        {
+          "id": "why-cbu-poway",
+          "heading": "Why Poway properties replace and upgrade CBUs",
+          "body": "Poway’s mix of residential neighborhoods, commercial parks, and schools means mail stations see heavy daily traffic. Older CBUs and pedestals often show that wear, creating headaches for residents, tenants, and carriers.",
+          "bullets": [
+            "CBUs with sticking doors, failing locks, or repeated vandalism incidents",
+            "Pedestals and pads that are cracked, tilted, or undersized for new equipment",
+            "USPS concerns about access, parking conflicts, or visibility around mail stations",
+            "Business parks and campuses that need clear, centralized cluster locations",
+            "Owners wanting mailbox systems that match other recent exterior upgrades"
+          ],
+          "closing": "We help Poway properties move from problem-prone clusters to modern CBU stations designed for current use patterns."
+        },
+        {
+          "id": "common-cbu-projects-poway",
+          "heading": "Common CBU installation projects in Poway",
+          "body": "In Poway, CBU projects often pair new equipment with smarter placement and improved concrete work, especially at properties with busy parking lots and drive aisles.",
+          "bullets": [
+            "Replacing aging CBU banks in HOA and apartment communities with new USPS-approved units",
+            "Installing new CBU locations for expansions, infill projects, or reconfigured routes",
+            "Rebuilding pads to meet current size, slope, and reinforcement expectations",
+            "Relocating clusters away from congested areas to improve safety and access",
+            "Adding parcel lockers to handle increased package volume from residents and tenants"
+          ],
+          "closing": "We design each Poway CBU project so residents and carriers know exactly where to go and can use the new equipment without confusion."
+        },
+        {
+          "id": "coordination-poway",
+          "heading": "How we coordinate CBU projects in Poway",
+          "body": "Poway properties often have limited downtime for parking and access. We plan CBU work to minimize disruption while keeping USPS and ADA requirements in view.",
+          "bullets": [
+            "Walk the site to understand mail routes, parking patterns, and ADA paths of travel",
+            "Review any USPS correspondence and explain what is required for approval",
+            "Recommend CBU configurations sized to Poway’s mail and parcel volume at your property",
+            "Schedule work windows around peak resident, tenant, or school activity",
+            "Coordinate USPS inspection and address any requested changes quickly"
+          ],
+          "closing": "Our role is to keep your Poway CBU installation on track from first layout discussion through final USPS sign-off."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do you handle CBU installation for both residential and commercial sites in Poway?",
+          "answer": "Yes. We install and replace CBUs for HOAs, multifamily communities, business parks, schools, and municipal properties in Poway."
+        },
+        {
+          "question": "Can you phase CBU work in Poway so mail service continues?",
+          "answer": "On many projects we can phase pad replacement and equipment installation so residents or tenants maintain mail access. We outline that plan in your proposal."
+        },
+        {
+          "question": "How do you estimate CBU installation costs for Poway properties?",
+          "answer": "After a site walk, we provide a written proposal that breaks down equipment, pad and pedestal work, labor, and schedule so you have a clear view of total project cost."
+        },
+        {
+          "question": "Can you design new CBU locations for a Poway expansion or new building?",
+          "answer": "Yes. We design CBU layouts and foundations for new phases and buildings, then coordinate USPS review so mail service is ready when residents or tenants move in."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/cbu-installation/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/cbu-installation/"
+        },
+        {
+          "citySlug": "escondido",
+          "label": "Escondido, CA",
+          "url": "/service-areas/escondido/cbu-installation/"
+        }
+      ]
+    },
+    "san-marcos": {
+      "citySlug": "san-marcos",
+      "cityName": "San Marcos",
+      "state": "CA",
+      "h1": "CBU installation in San Marcos, CA",
+      "intro": "Postal Systems installs USPS-approved Cluster Box Units (CBUs) for HOAs, student housing, apartments, and commercial properties throughout San Marcos. We design and build CBU stations that keep up with growth, higher parcel volume, and updated USPS and accessibility requirements.",
+      "sections": [
+        {
+          "id": "why-cbu-san-marcos",
+          "heading": "Why San Marcos properties invest in new CBU stations",
+          "body": "San Marcos includes established neighborhoods, growing communities, and student-focused housing. As density and deliveries increase, older cluster mailboxes can quickly become a weak point for security and daily operations.",
+          "bullets": [
+            "Existing CBUs are heavily worn, repeatedly repaired, or no longer secure",
+            "USPS has raised concerns about access, clearances, or equipment condition",
+            "New phases or buildings need approved CBU locations before occupancy",
+            "Student and multifamily properties need clusters that can handle parcel surges",
+            "Owners want CBU stations that match improvements to buildings and amenities"
+          ],
+          "closing": "We help San Marcos properties move to CBU stations that are sized, placed, and built for how residents and carriers use them today."
+        },
+        {
+          "id": "common-cbu-projects-san-marcos",
+          "heading": "Common CBU installation and replacement projects in San Marcos",
+          "body": "Most San Marcos CBU projects combine equipment upgrades with smarter layouts and parcel capacity, particularly at communities with younger populations and high delivery volume.",
+          "bullets": [
+            "Replacing legacy CBUs in townhome and condominium communities with modern units",
+            "Installing new CBU stations for ground-up developments and campus-adjacent housing",
+            "Consolidating scattered mailbox locations into better designed central CBU sites",
+            "Rebuilding pads and pedestals to ensure long-term stability and proper clearances",
+            "Adding parcel lockers adjacent to existing CBUs to handle package growth"
+          ],
+          "closing": "Our proposals include layouts, photos, and clear scope so San Marcos boards and owners understand exactly how each CBU project will be executed."
+        },
+        {
+          "id": "coordination-san-marcos",
+          "heading": "How we plan and coordinate CBU installation in San Marcos",
+          "body": "San Marcos properties often juggle resident parking, student traffic, and multiple access points. We design and schedule CBU projects to work with that reality instead of fighting it.",
+          "bullets": [
+            "Review how residents currently access mail and where carriers park or stop",
+            "Study USPS requirements and any existing inspection notes tied to your property",
+            "Recommend CBU configurations and locations sized for San Marcos density and mail volume",
+            "Plan phasing so residents retain mail access while old clusters are removed and new ones are installed",
+            "Coordinate USPS inspection and close out any requested adjustments quickly"
+          ],
+          "closing": "The outcome is a San Marcos CBU installation that feels integrated with the property and supports reliable daily mail service."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do you install CBUs for student housing in San Marcos?",
+          "answer": "Yes. We design and install CBUs for student-focused properties as well as conventional multifamily, HOAs, and mixed-use sites in San Marcos."
+        },
+        {
+          "question": "Can you match new CBUs to our San Marcos property’s look and feel?",
+          "answer": "We offer USPS-approved CBU equipment in finishes and configurations that complement your architecture and site design. We review options with you before finalizing the layout."
+        },
+        {
+          "question": "How do you price CBU installation projects in San Marcos?",
+          "answer": "After a site walk and layout review, we provide a written proposal outlining equipment, pad and pedestal work, installation steps, and timeline so you have a clear, itemized cost picture."
+        },
+        {
+          "question": "Will USPS inspect our new CBU installation in San Marcos?",
+          "answer": "Yes. USPS must review and approve your new CBU installation. We coordinate that inspection, respond to any notes, and make sure the system is ready for daily service."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/cbu-installation/"
+        },
+        {
+          "citySlug": "escondido",
+          "label": "Escondido, CA",
+          "url": "/service-areas/escondido/cbu-installation/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/cbu-installation/"
+        }
+      ]
+    },
+    "temecula": {
+      "citySlug": "temecula",
+      "cityName": "Temecula",
+      "state": "CA",
+      "h1": "CBU installation in Temecula, CA",
+      "intro": "Postal Systems designs and installs USPS-approved Cluster Box Units (CBUs) for HOAs, apartments, and mixed-use projects throughout Temecula. From new phases in master-planned communities to older sites that need secure, centralized mail, we handle CBU layout, pad work, installation, and USPS inspection.",
+      "sections": [
+        {
+          "id": "why-cbu-temecula",
+          "heading": "Why communities in Temecula upgrade to modern CBUs",
+          "body": "Temecula combines wine-country master-planned neighborhoods, hillside communities, and busy corridors. That mix means older mail setups often no longer match resident patterns, traffic flow, or current USPS expectations.",
+          "bullets": [
+            "Replace scattered or aging boxes with centralized, secure CBU banks",
+            "Upgrade older cluster units to current USPS-approved CBU models and layouts",
+            "Add CBUs to support new phases, annexes, or higher resident counts",
+            "Improve lighting, access, and ADA reach at existing mail locations",
+            "Consolidate mail stops when USPS requests route simplification"
+          ],
+          "closing": "We help Temecula properties move from patchwork mailbox repairs to well-planned CBU installations that feel integrated with the community design."
+        },
+        {
+          "id": "common-cbu-projects-temecula",
+          "heading": "Common CBU installation projects we handle in Temecula",
+          "body": "CBU projects in Temecula frequently tie into broader improvements—new phases coming online, amenity upgrades, or reserve-funded replacements at aging communities.",
+          "bullets": [
+            "New CBU banks for growing HOAs and master-planned communities",
+            "Full CBU replacement where cabinets, pedestals, or doors have reached end of life",
+            "Relocation of CBUs away from awkward or unsafe drive aisles",
+            "Pad and pedestal upgrades where older foundations are cracked or undersized",
+            "CBU additions to support new townhome, infill, or mixed-use buildings"
+          ],
+          "closing": "Each project is scoped with clear drawings and a written description so boards, managers, and owners can explain the plan to residents and lenders."
+        },
+        {
+          "id": "process-temecula",
+          "heading": "How Postal Systems manages CBU installations in Temecula from layout to USPS sign-off",
+          "body": "Our process is built around Temecula’s mix of planned communities, slopes, and active traffic patterns. We focus on compliance, access, and predictable scheduling.",
+          "bullets": [
+            "Walk existing and proposed mail locations, reviewing grades, drainage, and access",
+            "Confirm USPS requirements and recommend CBU configurations matched to your density",
+            "Lay out pad sizes, pedestal locations, and clearances with ADA and visibility in mind",
+            "Coordinate pad work, CBU installation, and any phasing to keep mail flowing",
+            "Schedule and support USPS inspection so your new CBUs can go into service cleanly"
+          ],
+          "closing": "From first walk-through to final USPS acceptance, you have one accountable team managing the Temecula CBU installation project end-to-end."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you install new CBUs for additional phases in our Temecula community?",
+          "answer": "Yes. We regularly install CBUs for new phases and expansions. We review USPS guidance, recommend cabinet counts and layouts, and coordinate pad work and installation around your construction schedule."
+        },
+        {
+          "question": "Do you coordinate with USPS for CBU inspections in Temecula?",
+          "answer": "We do. We confirm layouts and equipment with USPS ahead of time and schedule inspection after installation, helping avoid delays when your new CBUs are ready for service."
+        },
+        {
+          "question": "Can you replace older CBUs in Temecula without moving the mail location?",
+          "answer": "In many cases we can reuse or adjust existing pad locations while installing new USPS-approved CBUs. When a layout change is advisable, we explain the reasons and show options before you decide."
+        },
+        {
+          "question": "Can parcel lockers be added to our Temecula CBU installation?",
+          "answer": "Parcel lockers are often added alongside CBUs in Temecula. We design pad dimensions, placement, and labeling so packages and mail share a cohesive, secure mail station."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "riverside-county",
+          "label": "Riverside County, CA",
+          "url": "/service-areas/riverside-county/cbu-installation/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/cbu-installation/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/cbu-installation/"
+        }
+      ]
+    },
+    "el-cajon": {
+      "citySlug": "el-cajon",
+      "cityName": "El Cajon",
+      "state": "CA",
+      "h1": "CBU installation in El Cajon, CA",
+      "intro": "Postal Systems installs and replaces USPS-approved Cluster Box Units (CBUs) for HOAs, apartments, and commercial properties across El Cajon. We help communities move from weathered, repair-prone mailboxes to secure CBU banks that meet current standards.",
+      "sections": [
+        {
+          "id": "why-cbu-el-cajon",
+          "heading": "Why El Cajon properties move to new CBU installations",
+          "body": "El Cajon’s heat, age of building stock, and repeated small repairs are hard on older mail equipment. Many boards and owners reach a point where replacement CBUs are more practical than another round of patching doors and locks.",
+          "bullets": [
+            "Replace rusted, sun-faded CBUs with new cabinets and pedestals",
+            "Upgrade outdated units to current USPS-approved CBU models",
+            "Consolidate scattered mailboxes into centralized, better-lit CBU locations",
+            "Improve access paths, surfacing, and ADA reach at existing mail sites",
+            "Resolve USPS concerns about damaged, deteriorated, or non-compliant mail equipment"
+          ],
+          "closing": "We help El Cajon communities turn recurring mailbox issues into a documented, one-time CBU project with a clear outcome."
+        },
+        {
+          "id": "common-cbu-projects-el-cajon",
+          "heading": "Typical CBU installation projects we complete in El Cajon",
+          "body": "El Cajon projects range from small associations with a single CBU to larger communities with multiple banks serving different courts or buildings.",
+          "bullets": [
+            "Full CBU replacement projects at aging garden-style and walk-up communities",
+            "Installation of new CBU banks tied to exterior renovations or repaving work",
+            "Relocation of CBUs for better visibility, traffic flow, and resident access",
+            "Rebuilding or enlarging pads where existing concrete is cracked or undersized",
+            "Adding capacity where new units or higher occupancy strain current CBU layouts"
+          ],
+          "closing": "Each project is laid out with clear locations, cabinet counts, and written scope so boards and owners can review and approve with confidence."
+        },
+        {
+          "id": "process-el-cajon",
+          "heading": "How Postal Systems manages CBU installations in El Cajon from proposal through inspection",
+          "body": "For El Cajon communities, communication and timing matter as much as hardware. We build CBU projects around resident needs, parking realities, and USPS schedules.",
+          "bullets": [
+            "Walk current mail locations, document condition, and review any USPS letters or concerns",
+            "Recommend CBU models, pedestal counts, and layouts tailored to your El Cajon property",
+            "Plan demolition, pad work, and installation around your parking and access needs",
+            "Provide suggested resident communication and timelines for a smooth changeover",
+            "Coordinate USPS inspection and address any punch-list items quickly"
+          ],
+          "closing": "Our goal is to replace or install CBUs in El Cajon with minimal disruption and a clear path to USPS sign-off."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you replace our existing El Cajon CBUs without shutting down mail for days?",
+          "answer": "On many projects we can phase work, coordinate temporary delivery solutions, or schedule changeovers so downtime is minimized. We review options with you during planning and build them into the proposal."
+        },
+        {
+          "question": "Do you handle small CBU installations for smaller El Cajon communities?",
+          "answer": "Yes. We work with small HOAs, independent owners, and larger portfolios. Our proposals are written for non-technical boards so scope and pricing are easy to understand."
+        },
+        {
+          "question": "How do we know if our current CBUs in El Cajon need replacement?",
+          "answer": "Signs include frequent lock or door failures, corrosion, cabinet movement, or USPS notices about condition or compliance. During a site visit, we explain whether repair or full replacement makes more sense."
+        },
+        {
+          "question": "Can you align CBU replacement in El Cajon with other exterior work?",
+          "answer": "Often, yes. Many owners coordinate CBU projects with paving, painting, or landscape work. We schedule pad and installation work so it fits cleanly into your broader project plan."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/cbu-installation/"
+        },
+        {
+          "citySlug": "chula-vista",
+          "label": "Chula Vista, CA",
+          "url": "/service-areas/chula-vista/cbu-installation/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/cbu-installation/"
+        }
+      ]
+    }
+  }
+}

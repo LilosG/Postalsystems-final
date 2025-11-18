@@ -1,0 +1,916 @@
+{
+  "serviceSlug": "repairs-lock-changes",
+  "cities": {
+    "san-diego": {
+      "citySlug": "san-diego",
+      "cityName": "San Diego",
+      "state": "CA",
+      "h1": "Mailbox repairs and lock changes in San Diego, CA",
+      "intro": "Postal Systems provides mailbox repairs and lock changes for HOAs, apartments, and commercial properties throughout San Diego. From coastal communities to dense urban neighborhoods, we help keep existing mail equipment secure, usable, and aligned with USPS expectations.",
+      "sections": [
+        {
+          "id": "common-issues",
+          "heading": "Common mailbox repair issues we see in San Diego",
+          "body": "Age, salt air, and heavy use all take a toll on shared mailbox equipment in San Diego. We are often called in when security and day-to-day reliability are starting to slip.",
+          "bullets": [
+            "Rusting doors and hardware on older CBUs near the coast",
+            "Locks that no longer turn smoothly or have been damaged by forced entry attempts",
+            "Tenant doors that sag, bind, or will not latch securely",
+            "Broken or missing parcel locker hardware after repeated heavy use",
+            "Anchors and pedestals that have loosened or shifted over time"
+          ],
+          "closing": "Instead of hoping temporary fixes will hold, you get a focused repair plan that restores security and gives you a clear picture of when replacement should be considered."
+        },
+        {
+          "id": "projects-we-handle",
+          "heading": "Repair and lock change projects we handle for San Diego properties",
+          "body": "We support a wide mix of properties across San Diego, from small condo associations to large multifamily and mixed-use communities.",
+          "bullets": [
+            "Bulk lock and key changeouts after ownership or management changes",
+            "Repairing vandalized or pried-open doors in high-traffic locations",
+            "Replacing worn hinges, latches, and tenant doors in aging equipment",
+            "Re-securing cabinets and pedestals that have settled or shifted",
+            "Combining repairs with small layout adjustments or pad work when needed"
+          ],
+          "closing": "Every project is scoped so boards, managers, and owners know exactly which compartments will be serviced, how long work will take, and what residents should expect."
+        },
+        {
+          "id": "coordination",
+          "heading": "How we coordinate repairs, residents, and USPS in San Diego",
+          "body": "Repair and lock work touches residents directly, so communication and coordination matter just as much as the physical repairs.",
+          "bullets": [
+            "Review your photos, USPS notices, and any prior repair history",
+            "Recommend a repair or lock change plan that fits your property and budget",
+            "Help your team communicate key pick-up or access details to residents",
+            "Schedule work windows that minimize disruption to daily mail service",
+            "Provide documentation and recommendations for future upgrades when appropriate"
+          ],
+          "closing": "Our aim is to resolve the immediate mailbox issues, keep residents informed, and leave you with a clear plan for the long-term condition of your mail equipment."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you handle emergency mailbox repairs in San Diego?",
+          "answer": "If you are dealing with vandalism, forced entry, or unsecured compartments, we treat those situations as a priority. While we are not a 24/7 emergency service, we will give you an honest assessment of how quickly we can respond and secure the equipment."
+        },
+        {
+          "question": "Do residents contact you directly for lock changes?",
+          "answer": "For most HOA and multifamily projects, we work through the property manager or board so there is a single point of coordination. If you prefer, we can provide clear instructions that your team can share with residents about timing and key pick-up."
+        },
+        {
+          "question": "Can you repair mailboxes that have already been flagged by USPS in San Diego?",
+          "answer": "Yes. We routinely work on equipment that USPS has noted as damaged or insecure. Our team focuses on restoring secure operation and, when needed, can coordinate with USPS so your carrier is comfortable resuming regular service."
+        },
+        {
+          "question": "Can repairs be combined with other mailbox work?",
+          "answer": "Yes. Many San Diego properties combine repairs and lock changes with small layout improvements, pad work, or parcel locker additions. We can outline those options as part of our proposal."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "chula-vista",
+          "label": "Chula Vista, CA",
+          "url": "/service-areas/chula-vista/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "el-cajon",
+          "label": "El Cajon, CA",
+          "url": "/service-areas/el-cajon/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/repairs-lock-changes/"
+        }
+      ]
+    },
+    "chula-vista": {
+      "citySlug": "chula-vista",
+      "cityName": "Chula Vista",
+      "state": "CA",
+      "h1": "Mailbox repairs and lock changes in Chula Vista, CA",
+      "intro": "Postal Systems provides mailbox repairs and lock changes for HOAs, condo associations, and apartment communities across Chula Vista. We help boards and property managers address security issues, vandalism, and aging equipment while keeping residents informed and mail service running.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why mailbox repairs and lock changes matter in Chula Vista",
+          "body": "Chula Vista communities often blend older equipment with newer CBUs and parcel lockers. When locks fail or doors stop latching, both residents and USPS carriers lose confidence in the system.",
+          "bullets": [
+            "Aging mailboxes in established neighborhoods that have seen years of use",
+            "Increased parcel volume putting extra wear on parcel locker compartments",
+            "Vandalism or tampering in areas with limited lighting or visibility",
+            "Loose pedestals or shifting pads creating alignment and closing issues",
+            "Residents raising concerns about lost keys and mailbox security"
+          ],
+          "closing": "Targeted repairs and lock changes can stabilize existing equipment, improve security, and buy time until a full replacement is the right move."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common repair and lock change projects we handle in Chula Vista",
+          "body": "We support a mix of communities across Chula Vista, from townhomes near Otay Ranch to older properties closer to the bay.",
+          "bullets": [
+            "Bulk lock changes after a board decision or management transition",
+            "Repairing vandalized tenant doors and parcel compartments",
+            "Replacing worn or damaged locks that no longer operate reliably",
+            "Realigning doors and cabinets so units close and latch as designed",
+            "Combining repairs with small pad or pedestal corrections when needed"
+          ],
+          "closing": "Each project is scoped with clear pricing and timelines so boards and managers can plan around mail access and resident communication."
+        },
+        {
+          "id": "coordination",
+          "heading": "How we coordinate mailbox repairs and residents in Chula Vista",
+          "body": "Even smaller repair projects need good communication so residents understand what is happening and how they will access their mail and keys.",
+          "bullets": [
+            "Review photos, USPS notices, and your list of affected units",
+            "Recommend a repair or lock change plan that fits your community",
+            "Help you communicate key pick-up or lock change timing to residents",
+            "Schedule work windows to minimize disruption to mail service and parking",
+            "Document completed work and note any equipment that may need future replacement"
+          ],
+          "closing": "Our focus is to fix the immediate problems, keep residents confident in the system, and provide clear guidance on the long-term status of your mail equipment."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you rekey only certain mailboxes in our Chula Vista community?",
+          "answer": "Yes. We can target specific compartments for lock changes or perform bulk changes across an entire bank of mailboxes. During our review we will help you decide which approach makes the most sense for security and budget."
+        },
+        {
+          "question": "Do you coordinate directly with USPS for repair work in Chula Vista?",
+          "answer": "When repairs intersect with USPS concerns about security or access, we can coordinate with the local postal authorities. In most cases our role is to make sure the equipment is secure and functioning correctly so carriers are comfortable continuing service."
+        },
+        {
+          "question": "Can work be phased so residents always have access to mail?",
+          "answer": "Yes. On many projects we can phase lock changes and repairs so some compartments remain in service while others are being worked on. We will outline that plan during the proposal stage."
+        },
+        {
+          "question": "Do you help reduce theft and tampering with repairs alone?",
+          "answer": "Addressing broken locks, misaligned doors, and unsecured cabinets is a key part of reducing theft risk. When additional measures such as better lighting, parcel lockers, or full replacement are advisable, we will share those recommendations with you."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "el-cajon",
+          "label": "El Cajon, CA",
+          "url": "/service-areas/el-cajon/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/repairs-lock-changes/"
+        }
+      ]
+    },
+    "oceanside": {
+      "citySlug": "oceanside",
+      "cityName": "Oceanside",
+      "state": "CA",
+      "h1": "Mailbox repairs & lock changes in Oceanside, CA",
+      "intro": "Postal Systems repairs commercial mailboxes, replaces locks, and restores secure mail service for HOAs, apartments, and mixed-use properties throughout Oceanside. From vandalism damage to worn-out tenant locks, we help properties keep USPS deliveries moving without long outages.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why timely mailbox repairs matter in Oceanside",
+          "body": "Oceanside’s coastal environment, salt air, and steady delivery volume are hard on cluster mailboxes and 4C equipment. Doors start to sag, locks corrode, and vandalism can leave entire banks of mailboxes unusable if problems are not addressed quickly.",
+          "bullets": [
+            "Address rusted, hard-to-turn locks before they fail completely",
+            "Repair or replace damaged doors, hinges, and master doors after break-ins",
+            "Re-anchor leaning or loose pedestals before they become a safety issue",
+            "Resolve USPS access concerns so carriers can keep delivering mail on schedule"
+          ],
+          "closing": "Prompt repairs and lock changes help Oceanside properties avoid service interruptions, reduce complaints, and delay expensive full replacements when equipment can still be saved."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common mailbox repair and lock-change calls we handle in Oceanside",
+          "body": "Most Oceanside repair calls start with a complaint from residents or a notice from USPS. We help property teams figure out whether a targeted repair, lock change, or larger replacement is the right move.",
+          "bullets": [
+            "Re-keying tenant boxes after move-outs, lockouts, or lost keys",
+            "Replacing vandalized or pried-open CBU doors and lock hardware",
+            "Repairing damaged master doors so carriers can load mail safely",
+            "Fixing doors that no longer close, latch, or line up with frames",
+            "Evaluating older equipment to decide whether repair or replacement makes more sense"
+          ],
+          "closing": "On each project, we document the condition of the equipment, explain repair options in plain language, and outline costs so boards and managers can make an informed decision."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems coordinates mailbox repairs in Oceanside",
+          "body": "Repairs and lock changes need to be scheduled around residents, carriers, and parking access. We plan work so properties stay functional and mail can continue moving while repairs are completed.",
+          "bullets": [
+            "Review photos, USPS notes, and resident reports before we arrive on site",
+            "Inspect mail equipment and confirm whether USPS needs to be involved",
+            "Schedule repairs and lock changes during windows that minimize disruption",
+            "Coordinate tenant notices and key handoff when locks are re-keyed or replaced",
+            "Document completed work so boards, managers, and owners have a clear record"
+          ],
+          "closing": "The goal is simple: restore secure, compliant mailbox service in Oceanside with as little disruption to residents and staff as possible."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you re-key individual tenant boxes in Oceanside, or do we have to replace everything?",
+          "answer": "In many cases we can re-key or replace individual tenant locks without replacing the entire mailbox bank. During our site visit we confirm what the manufacturer and USPS will accept and recommend the most cost-effective option."
+        },
+        {
+          "question": "Do you work with USPS when repairs affect carrier access in Oceanside?",
+          "answer": "Yes. When repairs involve master doors, pedestal stability, or equipment USPS has flagged as a concern, we communicate with USPS so carriers know what is happening and when the equipment will be ready for use."
+        },
+        {
+          "question": "How quickly can you respond to urgent mailbox repair calls in Oceanside?",
+          "answer": "Response times depend on workload and the severity of the issue, but we prioritize situations where entire banks of mailboxes are down or where USPS has indicated service may be stopped if issues are not corrected."
+        },
+        {
+          "question": "Can you tell us when it is time to replace instead of repair our Oceanside mailboxes?",
+          "answer": "Yes. If equipment is too far gone for a smart repair, we will recommend replacement options and explain when a commercial mailbox installation project will be a better long-term investment than repeated repairs."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "carlsbad",
+          "label": "Carlsbad, CA",
+          "url": "/service-areas/carlsbad/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/repairs-lock-changes/"
+        }
+      ]
+    },
+    "carlsbad": {
+      "citySlug": "carlsbad",
+      "cityName": "Carlsbad",
+      "state": "CA",
+      "h1": "Mailbox repairs & lock changes in Carlsbad, CA",
+      "intro": "Postal Systems provides commercial mailbox repairs, lock changes, and targeted replacements for resort-style communities, HOAs, and apartments across Carlsbad. We help properties protect their brand and resident experience by keeping mail equipment secure, functional, and compliant.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why mailbox repairs matter in Carlsbad communities",
+          "body": "Carlsbad communities often combine high-end amenities with demanding residents, guests, and frequent deliveries. When cluster mailboxes or 4C units fail, it quickly becomes a visible problem that affects perception, security, and day-to-day operations.",
+          "bullets": [
+            "Prevent minor lock issues from turning into full equipment failures",
+            "Reduce package and mail theft by repairing damaged or loose doors",
+            "Protect the appearance of amenity-rich communities with well-maintained mail equipment",
+            "Support consistent USPS delivery by keeping master doors and pedestals in good condition"
+          ],
+          "closing": "By addressing mailbox issues quickly, Carlsbad properties can avoid recurring complaints, safety concerns, and surprise replacement costs."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common repair and lock-change projects we handle in Carlsbad",
+          "body": "We help Carlsbad boards, managers, and owners work through a range of mailbox issues—from a handful of problem locks to more extensive damage after vandalism or weather events.",
+          "bullets": [
+            "Re-keying and replacing tenant locks across selected mailbox banks",
+            "Repairing or replacing vandalized doors, hinges, and master doors",
+            "Straightening and re-anchoring leaning or unstable pedestals",
+            "Addressing corrosion and hardware wear in coastal-exposed locations",
+            "Advising when older equipment should be replaced instead of repeatedly repaired"
+          ],
+          "closing": "Each service visit comes with clear findings, repair recommendations, and pricing so decision makers can move forward confidently."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems coordinates mailbox repairs in Carlsbad",
+          "body": "Carlsbad properties often have gated entries, structured parking, and busy amenities. We plan mailbox repairs around these realities so residents, staff, and carriers can continue using the property safely.",
+          "bullets": [
+            "Review photos, site plans, and USPS feedback before scheduling work",
+            "Plan access and staging so repairs fit around garages, clubhouses, and walkways",
+            "Coordinate resident notices when locks will be changed or keys re-issued",
+            "Schedule work windows that respect quiet hours and community policies",
+            "Document completed repairs and remaining lifecycle concerns for future planning"
+          ],
+          "closing": "Our focus is on making mailbox repairs and lock changes in Carlsbad feel organized, predictable, and aligned with the standards of your community."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you handle mailbox repairs for multiple phases of a Carlsbad community?",
+          "answer": "Yes. We often work in phases, addressing the most critical mailbox issues first and then planning follow-up work for additional phases or banks as budgets allow."
+        },
+        {
+          "question": "Do you coordinate with our Carlsbad property management or onsite team?",
+          "answer": "We work directly with boards, property managers, and onsite maintenance to coordinate access, scheduling, and communication so everyone understands what work is being done and when."
+        },
+        {
+          "question": "Can mailbox repairs be combined with future replacement plans in Carlsbad?",
+          "answer": "Often, yes. We can perform essential repairs now to keep mail service secure while also helping you plan a future commercial mailbox replacement when it makes financial and operational sense."
+        },
+        {
+          "question": "Do you coordinate USPS communication for repair-related access issues in Carlsbad?",
+          "answer": "When repairs affect carrier access, we communicate with USPS to ensure they know how and when the equipment will be brought back into service, which helps avoid disruptions for residents."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "oceanside",
+          "label": "Oceanside, CA",
+          "url": "/service-areas/oceanside/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/repairs-lock-changes/"
+        }
+      ]
+    },
+    "encinitas": {
+      "citySlug": "encinitas",
+      "cityName": "Encinitas",
+      "state": "CA",
+      "h1": "Mailbox repairs and lock changes in Encinitas, CA",
+      "intro": "Postal Systems provides USPS-approved mailbox repairs and lock changes for HOAs, condos, and mixed-use properties throughout Encinitas. From coastal weather damage to vandalism and worn hardware, we restore commercial mailbox systems so residents and carriers can rely on secure daily mail service.",
+      "sections": [
+        {
+          "id": "why-repairs-encinitas",
+          "heading": "Why Encinitas communities need reliable mailbox repair and lock service",
+          "body": "Coastal conditions in Encinitas are hard on mail equipment. Salt air, sun, and everyday use can cause locks to bind, doors to sag, and pedestals to weaken. When boxes do not close properly or keys stop working, residents lose confidence and USPS may call out problems during route inspections.",
+          "bullets": [
+            "Salt air and moisture accelerate corrosion on doors, locks, and hardware",
+            "Older boxes and CBUs begin to fail at hinges, latches, and pedestals",
+            "Sticking or broken locks create daily frustrations for residents",
+            "Vandalism and prying damage compromise the security of resident mail",
+            "USPS may tag damaged equipment and request timely repairs or replacement"
+          ],
+          "closing": "Our repair and lock change work in Encinitas is focused on restoring security, extending the life of existing equipment where practical, and keeping your mailbox systems acceptable to USPS."
+        },
+        {
+          "id": "common-projects-encinitas",
+          "heading": "Common mailbox repair and lock projects we handle in Encinitas",
+          "body": "We are called into Encinitas properties when boards, managers, or owners need a professional team to evaluate mailbox damage and carry out targeted repairs without immediately jumping to full replacement.",
+          "bullets": [
+            "Lock changeouts after resident turnover, key loss, or security concerns",
+            "Door, hinge, and latch repairs on aging CBUs and 4C mailboxes",
+            "Securing or replacing vandalized compartments and parcel sections",
+            "Straightening and reinforcing leaning or damaged pedestals where safe",
+            "Advising when limited repairs are no longer sufficient and replacement is the better option"
+          ],
+          "closing": "For each property, we explain what can be repaired, what should be replaced, and how to keep resident mail secure while work is underway."
+        },
+        {
+          "id": "coordination-encinitas",
+          "heading": "How we plan mailbox repairs and lock changes around Encinitas properties",
+          "body": "Mailbox repair projects in Encinitas often involve tight parking, shared drive aisles, and busy coastal communities. We schedule work to minimize disruption and keep residents informed.",
+          "bullets": [
+            "Visit the site to inspect mailbox conditions, hardware, and any USPS notes",
+            "Prioritize urgent security issues such as vandalized or non-locking compartments",
+            "Group lock changes and repairs to control cost and reduce repeat visits",
+            "Coordinate timing around peak traffic, trash service, and other site activities",
+            "Communicate clearly with managers or boards so residents know what to expect"
+          ],
+          "closing": "Our goal is to return your Encinitas mailbox systems to safe, secure operation with clear communication and minimal disruption to residents and staff."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you change mailbox locks when residents move out in Encinitas?",
+          "answer": "Yes. We perform lock and key changes for individual boxes or groups of units, helping HOAs and property managers keep mail access secure when residents or tenants change."
+        },
+        {
+          "question": "Do you repair vandalized mailboxes in Encinitas?",
+          "answer": "We regularly respond to vandalism and forced-entry damage. In some cases compartments can be repaired; in others we will recommend replacement sections or units based on USPS expectations and overall condition."
+        },
+        {
+          "question": "How do we know if our Encinitas mailboxes should be repaired or replaced?",
+          "answer": "We inspect your existing equipment and give you a straightforward assessment. If repairs will only buy a short amount of time, we explain options for phased replacement so you can plan ahead."
+        },
+        {
+          "question": "Can you coordinate with USPS if they have tagged our Encinitas mailboxes?",
+          "answer": "Yes. We review USPS notices, discuss options with you, and perform repairs or replacements that bring equipment back into acceptable condition for carriers."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "carlsbad",
+          "label": "Carlsbad, CA",
+          "url": "/service-areas/carlsbad/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "oceanside",
+          "label": "Oceanside, CA",
+          "url": "/service-areas/oceanside/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/repairs-lock-changes/"
+        }
+      ]
+    },
+    "escondido": {
+      "citySlug": "escondido",
+      "cityName": "Escondido",
+      "state": "CA",
+      "h1": "Mailbox repairs and lock changes in Escondido, CA",
+      "intro": "Postal Systems provides commercial mailbox repairs and lock changes for HOAs, apartments, and mixed-use properties throughout Escondido. We address damage, wear, and security issues so resident mail stays protected and USPS can continue to serve your routes without interruption.",
+      "sections": [
+        {
+          "id": "why-repairs-escondido",
+          "heading": "Why Escondido properties rely on professional mailbox repairs",
+          "body": "Escondido communities manage high daily mail volume and a range of mailbox ages and configurations. When locks fail or doors no longer close, residents worry about stolen mail and managers hear about it quickly. USPS may also call out safety or security issues if damage is not addressed.",
+          "bullets": [
+            "Sun, heat, and years of use cause locks and hardware to wear out",
+            "Doors that do not close cleanly leave mail exposed to weather and theft",
+            "Vandalism and forced entry damage compromise entire mailbox banks",
+            "Improvised repairs can create more issues or fail USPS inspection",
+            "Boards and managers need clear options that balance cost and security"
+          ],
+          "closing": "We focus on practical, code-conscious repairs in Escondido so you know which equipment can be fixed and when it is time to plan for replacement."
+        },
+        {
+          "id": "common-projects-escondido",
+          "heading": "Common mailbox repair and lock change projects in Escondido",
+          "body": "Our Escondido repair projects range from focused lock changeouts to broader efforts that stabilize aging equipment and address repeated vandalism or service issues.",
+          "bullets": [
+            "Replacing worn or damaged locks across selected units or entire mailbox banks",
+            "Adjusting or repairing doors, hinges, and latches so compartments close properly",
+            "Securing compartments after break-ins, forced entry, or repeated tampering",
+            "Strengthening pedestals and mounting hardware where safe and appropriate",
+            "Documenting conditions and recommendations so boards can plan long term"
+          ],
+          "closing": "Each project is scoped in writing so managers, owners, and boards understand what work is being done and how it supports long-term mailbox reliability."
+        },
+        {
+          "id": "coordination-escondido",
+          "heading": "How we schedule mailbox repairs and lock changes in Escondido",
+          "body": "Repair work in Escondido needs to respect parking layouts, drive aisles, and the way residents actually access mail on site. We plan work so carriers can still deliver and residents know what to expect.",
+          "bullets": [
+            "Walk the property to review mailbox conditions, mounting, and site access",
+            "Prioritize high-risk issues such as non-locking boxes or badly damaged doors",
+            "Group repairs and lock changes to reduce repeat service calls and disruption",
+            "Coordinate timing around peak resident traffic and service vehicles",
+            "Communicate clearly with your team about schedules, access, and completion"
+          ],
+          "closing": "Our goal is to restore secure, predictable mail service in Escondido while keeping residents informed and minimizing day-to-day disruption."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you change locks on multiple mailboxes at once in Escondido?",
+          "answer": "Yes. We often perform group lock changes after security concerns, resident turnover, or when keys have been widely duplicated. We can schedule this work in phases to keep mail service running."
+        },
+        {
+          "question": "Do you repair vandalized or broken mailbox doors in Escondido?",
+          "answer": "We repair or replace damaged doors and compartments where practical and advise when full unit replacement is the better long-term solution based on condition and USPS expectations."
+        },
+        {
+          "question": "Can you help us understand whether our Escondido mailboxes are still acceptable to USPS?",
+          "answer": "We review mailbox conditions alongside any USPS notices or carrier feedback and explain what level of repair or replacement is needed to stay in good standing."
+        },
+        {
+          "question": "Do you coordinate with property managers and boards for repair planning in Escondido?",
+          "answer": "Yes. We work directly with managers, boards, and owners to prioritize work, phase repairs if needed, and communicate timing and impacts to residents."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/repairs-lock-changes/"
+        }
+      ]
+    },
+    "vista": {
+      "citySlug": "vista",
+      "cityName": "Vista",
+      "state": "CA",
+      "h1": "Mailbox repairs & lock changes in Vista, CA",
+      "intro": "Postal Systems handles commercial mailbox repairs and lock changes for HOAs, apartments, and mixed-use properties across Vista. We help communities keep USPS-approved mail equipment secure and functional without jumping straight into full replacement.",
+      "sections": [
+        {
+          "id": "why-repairs-vista",
+          "heading": "Why Vista properties call for mailbox repairs and lock changes",
+          "body": "Vista’s mix of older communities and newer infill projects means mail equipment sees a lot of use—and sometimes abuse. Not every issue requires a full mailbox replacement, but it does need quick, professional attention so residents can keep receiving mail without interruption.",
+          "bullets": [
+            "Tenant lock cylinders that are worn, jammed, or no longer secure",
+            "Compartment doors that no longer close or latch correctly",
+            "Master doors that are difficult for USPS carriers to operate",
+            "Damage from minor impacts, prying, or attempted break-ins",
+            "Boards needing a plan to stabilize existing equipment while planning for future upgrades"
+          ],
+          "closing": "We focus on practical repairs and lock changes that extend the life of your mail equipment and keep Vista residents and carriers moving."
+        },
+        {
+          "id": "common-repair-projects-vista",
+          "heading": "Common mailbox repair and lock projects in Vista",
+          "body": "Most Vista repair projects begin with a specific complaint—stuck locks, broken doors, or damaged compartments. We respond with targeted work that gets the system functioning again as quickly as possible.",
+          "bullets": [
+            "Rekeying or replacing individual tenant locks after move-outs or security concerns",
+            "Replacing damaged compartment doors, hinges, and latches on CBUs and 4C units",
+            "Adjusting or repairing master doors so carriers can service mail quickly and safely",
+            "Addressing localized vandalism without replacing entire mailbox banks",
+            "Documenting equipment condition so boards can plan for future replacements"
+          ],
+          "closing": "Our goal is to keep Vista mailbox systems secure and usable while giving property teams clear information about longer-term options."
+        },
+        {
+          "id": "coordination-vista",
+          "heading": "How we schedule mailbox repairs and lock changes in Vista",
+          "body": "Vista communities want repairs handled quickly, but they also need coordination so residents are not surprised when access changes. We plan work so everyone knows what to expect.",
+          "bullets": [
+            "Review photos and descriptions so we understand the issue before arriving on site",
+            "Confirm whether USPS access hardware is affected and plan work accordingly",
+            "Schedule visits during windows that work for your property team",
+            "Provide clear instructions for residents when locks or keys are changing",
+            "Outline next steps if inspection reveals larger structural or security issues"
+          ],
+          "closing": "You get a Vista repair visit that feels organized, predictable, and focused on getting residents secure access to their mail again."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you rekey individual mailbox locks in Vista?",
+          "answer": "Yes. We can rekey or replace individual tenant locks in Vista, whether for move-outs, lost keys, or security concerns. We work within USPS guidelines so carriers can continue to service the equipment."
+        },
+        {
+          "question": "Do you handle repair calls for vandalized mailboxes in Vista?",
+          "answer": "We regularly respond to vandalism and damage in Vista communities. We assess the extent of the damage, complete what can be safely repaired, and outline options if replacement is the better long-term answer."
+        },
+        {
+          "question": "Will USPS need to be involved in Vista mailbox repairs?",
+          "answer": "For lock and compartment repairs on existing equipment, USPS involvement is limited. If damage affects carrier access or suggests larger safety concerns, we will let you know and coordinate next steps as needed."
+        },
+        {
+          "question": "Can you help us decide when repairs are no longer enough in Vista?",
+          "answer": "Yes. During repair visits, we can document the overall condition of your equipment and help you understand when ongoing repairs are no longer cost-effective compared to replacement."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "escondido",
+          "label": "Escondido, CA",
+          "url": "/service-areas/escondido/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/repairs-lock-changes/"
+        }
+      ]
+    },
+    "poway": {
+      "citySlug": "poway",
+      "cityName": "Poway",
+      "state": "CA",
+      "h1": "Mailbox repairs & lock changes in Poway, CA",
+      "intro": "Postal Systems provides mailbox repairs and lock changes for HOAs, apartments, business parks, and institutional properties in Poway. We help you keep USPS-approved equipment secure and operational without committing to a full replacement before you are ready.",
+      "sections": [
+        {
+          "id": "why-repairs-poway",
+          "heading": "Why Poway properties need mailbox repairs and lock changes",
+          "body": "Poway’s communities and commercial properties rely on centralized mail equipment every day. When locks fail or doors stop working, it affects residents, staff, and carriers immediately.",
+          "bullets": [
+            "Tenant locks that spin, jam, or no longer respond to keys",
+            "Compartment doors that have been bent, pried, or forced open",
+            "Master doors that strain carriers and slow down mail delivery",
+            "Hardware wear from years of steady use in sun and weather",
+            "Owners and boards who need short-term fixes while planning long-term upgrades"
+          ],
+          "closing": "We focus on practical, code-conscious repairs so your Poway property can restore secure mail service quickly."
+        },
+        {
+          "id": "common-repair-projects-poway",
+          "heading": "Common repair and lock change projects we handle in Poway",
+          "body": "Our Poway service calls cover everything from simple lock changes to more involved repairs after attempted break-ins or impacts.",
+          "bullets": [
+            "Replacing individual tenant lock cylinders and issuing new keys",
+            "Repairing or replacing damaged doors, hinges, and latch hardware",
+            "Adjusting misaligned cabinets and pedestals that affect door operation",
+            "Stabilizing equipment after minor vehicle contact or wind-driven movement",
+            "Providing written condition notes so you can budget for future replacements"
+          ],
+          "closing": "We aim to leave each Poway mailbox system safer and more reliable than we found it, with clear documentation for your records."
+        },
+        {
+          "id": "coordination-poway",
+          "heading": "How we coordinate repair and lock work in Poway",
+          "body": "Poway properties often have constrained parking, active common areas, and specific operational windows. We plan mailbox repairs and lock changes around those constraints.",
+          "bullets": [
+            "Gather photos and basic information before scheduling so we arrive prepared",
+            "Coordinate with your point of contact to choose dates and times that work",
+            "Clarify how resident keys and notifications will be handled when locks change",
+            "Work efficiently on site to limit downtime for carriers and residents",
+            "Flag any serious structural or security issues we find during repairs"
+          ],
+          "closing": "You get a Poway repair visit that respects your operations while putting secure mail access back in place quickly."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you handle multiple mailbox lock changes in one visit to Poway?",
+          "answer": "Yes. We can group lock changes and repairs into a single visit in Poway, which is often more efficient for boards and property managers."
+        },
+        {
+          "question": "Do you repair both residential and commercial mail equipment in Poway?",
+          "answer": "We service USPS-approved commercial mailbox equipment at residential communities, mixed-use sites, and commercial properties throughout Poway."
+        },
+        {
+          "question": "What if repairs reveal that our Poway mailboxes are failing overall?",
+          "answer": "If we find that your equipment is nearing the end of its useful life, we will explain your options and can provide a separate proposal for replacement when you are ready."
+        },
+        {
+          "question": "Can you help after a reported mailbox break-in in Poway?",
+          "answer": "Yes. We can assess damage, secure affected compartments, address lock and door issues, and outline next steps for repair or replacement."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/repairs-lock-changes/"
+        }
+      ]
+    },
+    "san-marcos": {
+      "citySlug": "san-marcos",
+      "cityName": "San Marcos",
+      "state": "CA",
+      "h1": "Mailbox repairs & lock changes in San Marcos, CA",
+      "intro": "Postal Systems handles mailbox repairs and lock changes for HOAs, student housing, and mixed-use properties throughout San Marcos. We focus on restoring secure, usable equipment so residents and carriers can keep moving.",
+      "sections": [
+        {
+          "id": "why-repairs-san-marcos",
+          "heading": "Why San Marcos communities call for mailbox repairs",
+          "body": "San Marcos properties see heavy daily mail and package traffic, especially at student-focused communities. That workload accelerates wear on locks, doors, and hardware.",
+          "bullets": [
+            "High-use compartments that wear out faster than expected",
+            "Locks and doors stressed by frequent access and heavy parcel volume",
+            "Damage from prying or attempted theft focused on specific sections",
+            "Equipment that has not been systematically serviced in many years",
+            "Property teams needing reliable mail access while planning larger upgrades"
+          ],
+          "closing": "We focus on targeted repairs that restore security and function so San Marcos residents aren’t dealing with repeated mailbox disruptions."
+        },
+        {
+          "id": "common-repair-projects-san-marcos",
+          "heading": "Common repair and lock change projects in San Marcos",
+          "body": "Our San Marcos work ranges from small, one-off repairs to larger service visits that stabilize entire mailbox banks.",
+          "bullets": [
+            "Rekeying or replacing locks across groups of units after turnover or theft",
+            "Repairing damaged doors, hinges, and latch hardware on CBUs and 4C units",
+            "Correcting alignment issues that make doors hard to open or close",
+            "Securing compartments after attempted break-ins or vandalism",
+            "Providing condition reports that boards can use when budgeting replacements"
+          ],
+          "closing": "Each visit is structured so you know what was fixed, what remains stable, and where future planning might be needed."
+        },
+        {
+          "id": "coordination-san-marcos",
+          "heading": "How we coordinate lock changes and repairs in San Marcos",
+          "body": "San Marcos communities need clear communication when locks and access are changing. We plan each visit so residents and staff understand the process.",
+          "bullets": [
+            "Review photos and a brief description of the issue before scheduling",
+            "Confirm whether work will affect USPS master access or only tenant locks",
+            "Help you plan notices or communications to affected residents",
+            "Work efficiently on site to restore secure access as quickly as possible",
+            "Document findings so you have a clear record of what was done and what we recommend next"
+          ],
+          "closing": "The result is a San Marcos repair and lock change process that feels controlled, predictable, and focused on security."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you handle repair work for student housing mailboxes in San Marcos?",
+          "answer": "Yes. We frequently service student-focused properties in San Marcos and understand the higher usage patterns and access needs that come with them."
+        },
+        {
+          "question": "Do you coordinate with USPS for San Marcos mailbox repairs?",
+          "answer": "For tenant-level repairs and lock work, USPS coordination is limited. If issues affect carrier access or master hardware, we will help you understand what next steps may be required."
+        },
+        {
+          "question": "Can you group multiple repair items into one San Marcos visit?",
+          "answer": "We often address several repair items in a single visit to keep costs and disruption under control. Share a list of issues upfront and we will plan accordingly."
+        },
+        {
+          "question": "How do we know if our San Marcos mailboxes should be repaired or replaced?",
+          "answer": "During the visit, we can evaluate overall condition and give you straightforward guidance on whether repairs are a good short-term strategy or if replacement planning should begin."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "escondido",
+          "label": "Escondido, CA",
+          "url": "/service-areas/escondido/repairs-lock-changes/"
+        }
+      ]
+    },
+    "temecula": {
+      "citySlug": "temecula",
+      "cityName": "Temecula",
+      "state": "CA",
+      "h1": "Mailbox repairs and lock changes in Temecula, CA",
+      "intro": "Postal Systems provides mailbox repairs and lock changes for HOAs, apartments, and commercial properties throughout Temecula. Whether you are dealing with vandalized doors, worn-out locks, or USPS notices about damaged equipment, we restore your mailbox system so residents can rely on secure daily delivery.",
+      "sections": [
+        {
+          "id": "why-repairs-temecula",
+          "heading": "Why Temecula communities call for mailbox repair and lock service",
+          "body": "Between new construction, growing communities, and heavy package volume, Temecula mail equipment sees a lot of use. Over time, hinges, doors, and locks start to fail, and that can quickly turn into missed mail, theft concerns, and USPS warnings.",
+          "bullets": [
+            "Broken or misaligned mailbox doors that no longer close properly",
+            "Tenant lock cylinders that are worn, jammed, or no longer secure",
+            "Damaged master doors that make it harder for carriers to deliver mail",
+            "Panels or pedestals hit by vehicles in parking lots and drive aisles",
+            "Old equipment that needs interim repairs while you plan a future replacement"
+          ],
+          "closing": "Our goal is to stabilize your mailbox system in Temecula quickly so residents, managers, and carriers can get back to normal operation."
+        },
+        {
+          "id": "common-repairs-temecula",
+          "heading": "Common mailbox repair and lock change projects in Temecula",
+          "body": "Every property is different, but many Temecula service calls follow similar patterns. We focus on practical repairs that extend the life of your equipment where possible and identify when a larger replacement should be planned.",
+          "bullets": [
+            "Replacing tenant locks and issuing new keys after turnovers or security concerns",
+            "Adjusting, re-hanging, or replacing doors that no longer latch correctly",
+            "Repairing master doors and hardware so USPS can service boxes safely",
+            "Performing targeted repairs on vandalized compartments or parcel doors",
+            "Documenting equipment condition and recommendations for future upgrades"
+          ],
+          "closing": "You receive clear communication about what can be repaired today and what should be budgeted as a larger project in Temecula."
+        },
+        {
+          "id": "process-repairs-temecula",
+          "heading": "How our Temecula mailbox repair and lock change process works",
+          "body": "We keep the process straightforward for Temecula managers, boards, and owners so they spend less time chasing mailbox issues.",
+          "bullets": [
+            "Review your photos, USPS notes, and service history so we understand the problem",
+            "Visit the property to inspect the affected mailboxes, parcel doors, and locks",
+            "Outline whether repair, lock change, or partial component replacement is appropriate",
+            "Perform repairs efficiently with minimal disruption to residents and carriers",
+            "Provide notes on remaining life, future risks, and upgrade options where helpful"
+          ],
+          "closing": "You end up with a realistic plan for keeping your Temecula mailbox system functioning safely and securely."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you change individual tenant locks in our Temecula community?",
+          "answer": "Yes. We routinely change tenant lock cylinders and provide new keys for specific units or groups of residents. This is common after turnovers, security concerns, or lost keys."
+        },
+        {
+          "question": "How do we know if our Temecula mailboxes should be repaired or replaced?",
+          "answer": "During our visit we assess the age, condition, and safety of your equipment. If repairs are practical, we outline them. If the system is near the end of its life, we explain why a replacement should be planned and provide options."
+        },
+        {
+          "question": "Do you coordinate with USPS on repair-related issues in Temecula?",
+          "answer": "When repairs are driven by USPS notices, we review those notices with you, perform the agreed work, and help ensure the equipment is ready for carriers to use again."
+        },
+        {
+          "question": "Can you handle emergency repair calls in Temecula after vandalism or impact?",
+          "answer": "We regularly respond to vandalism and vehicle impact cases. Depending on damage, we can secure the area, restore as much function as possible, and then discuss a long-term repair or replacement plan."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "riverside-county",
+          "label": "Riverside County, CA",
+          "url": "/service-areas/riverside-county/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/repairs-lock-changes/"
+        }
+      ]
+    },
+    "el-cajon": {
+      "citySlug": "el-cajon",
+      "cityName": "El Cajon",
+      "state": "CA",
+      "h1": "Mailbox repairs and lock changes in El Cajon, CA",
+      "intro": "Postal Systems provides mailbox repairs and lock changes for HOAs, apartment communities, and commercial sites in El Cajon. From damaged doors and frozen locks to USPS notices about unsafe equipment, we restore your mailbox systems so mail can be delivered securely every day.",
+      "sections": [
+        {
+          "id": "why-repairs-el-cajon",
+          "heading": "Why El Cajon properties need reliable mailbox repair and lock service",
+          "body": "Many El Cajon properties have legacy mailbox equipment that has been in place for years. Sun, weather, and regular use can cause hardware to fail, while occasional vandalism or vehicle impacts create urgent repair needs.",
+          "bullets": [
+            "Residents reporting doors that will not close or latch properly",
+            "Locks that are worn, spinning, or difficult for residents to operate",
+            "Master doors that no longer align, slowing down USPS delivery",
+            "Panels bent or damaged by parking lot incidents or impacts",
+            "Equipment that is safe but clearly approaching the end of its useful life"
+          ],
+          "closing": "Quick, professional repairs help El Cajon communities maintain secure, usable mailbox systems while they plan for long-term upgrades."
+        },
+        {
+          "id": "common-repairs-el-cajon",
+          "heading": "Common mailbox repair and lock change work we perform in El Cajon",
+          "body": "Our repair projects in El Cajon range from small lock-change visits to larger scopes involving multiple banks of CBUs or 4C equipment.",
+          "bullets": [
+            "Changing tenant locks and issuing new keys after turnovers or security incidents",
+            "Re-hanging or replacing individual doors that have been pried or warped",
+            "Adjusting or replacing master doors and hardware so USPS can service boxes safely",
+            "Performing focused repairs on vandalized clusters or high-traffic mail locations",
+            "Recommending phased repairs or replacements when equipment is aging but still usable"
+          ],
+          "closing": "We aim to keep your mailbox equipment in El Cajon safe and functional while giving you clear visibility into future needs."
+        },
+        {
+          "id": "process-repairs-el-cajon",
+          "heading": "How our El Cajon mailbox repair and lock change process works",
+          "body": "We keep the process simple for boards, managers, and owners in El Cajon so problems can be documented, priced, and resolved quickly.",
+          "bullets": [
+            "Gather photos, USPS notes, and a description of the problems from your team",
+            "Visit your property to inspect equipment and confirm the exact scope of work",
+            "Explain what can be repaired, what requires lock or component replacement, and what is beyond repair",
+            "Complete repairs with attention to security and USPS access requirements",
+            "Provide recommendations and timelines for any larger replacement or retrofit projects"
+          ],
+          "closing": "You get an honest assessment of your El Cajon mail equipment and practical options for keeping it in service."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you change just a few mailbox locks at our El Cajon property?",
+          "answer": "Yes. We can change individual locks or groups of locks as needed, issue new keys, and help you track which units have been updated."
+        },
+        {
+          "question": "What if USPS has tagged our El Cajon mailboxes as unsafe or damaged?",
+          "answer": "We review the USPS notice, inspect the equipment, and recommend repairs or replacements that address their concerns so mail service can continue safely."
+        },
+        {
+          "question": "Do you handle vandalism-related mailbox repairs in El Cajon?",
+          "answer": "We frequently respond to vandalism and break-in damage. Depending on the severity, we can repair doors and locks, replace components, or help you plan a full equipment replacement."
+        },
+        {
+          "question": "Can you advise whether it is worth repairing older mailboxes in El Cajon?",
+          "answer": "Yes. Part of our visit includes evaluating age, condition, and parts availability. If repairs are no longer a good investment, we explain why and outline replacement options."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "chula-vista",
+          "label": "Chula Vista, CA",
+          "url": "/service-areas/chula-vista/repairs-lock-changes/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/repairs-lock-changes/"
+        }
+      ]
+    }
+  }
+}

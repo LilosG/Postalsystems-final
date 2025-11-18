@@ -1,108 +1,176 @@
 ---
-const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/services/", label: "Services", key: "services" },
-  { href: "/service-areas/", label: "Service Areas", key: "areas" },
-  { href: "/who-we-work-with/", label: "Who We Work With" },
-  { href: "/projects/", label: "Projects" },
-  { href: "/blog/", label: "Blog" },
-  { href: "/about/", label: "About" },
-  { href: "/contact/", label: "Contact" }
-];
+import { slugify } from "../lib/slug";
 
-const services = [
-  { href: "/services/commercial-mailbox-installation/", label: "Commercial mailbox installation" },
-  { href: "/services/cbu-installation/", label: "CBU installation" },
-  { href: "/services/4c-wall-mounted-mailboxes/", label: "4C wall-mounted mailboxes" },
-  { href: "/services/parcel-lockers/", label: "Parcel lockers" },
-  { href: "/services/repairs-lock-changes/", label: "Repairs & lock changes" },
-  { href: "/services/ada-compliant-installs/", label: "ADA-compliant installs" }
-];
+type Service = { name: string; summary?: string };
+type Area = { city: string; state?: string };
 
-const areas = [
-  { href: "/service-areas/san-diego/", label: "San Diego, CA" },
-  { href: "/service-areas/carlsbad/", label: "Carlsbad, CA" },
-  { href: "/service-areas/oceanside/", label: "Oceanside, CA" },
-  { href: "/service-areas/san-marcos/", label: "San Marcos, CA" },
-  { href: "/service-areas/escondido/", label: "Escondido, CA" },
-  { href: "/service-areas/temecula/", label: "Temecula, CA" }
-];
+const services = (await import("../data/services.json")).default as Service[];
+const areas = (await import("../data/areas.json")).default as Area[];
+
+const primaryServices = services.slice(0, 6).map((s) => ({
+  name: s.name,
+  href: `/services/${slugify(s.name)}/`
+}));
+
+const primaryAreas = areas.slice(0, 8).map((a) => ({
+  name: a.state ? `${a.city}, ${a.state}` : a.city,
+  href: `/service-areas/${slugify(a.city)}/`
+}));
 ---
-<div class="bg-[#e53935] text-white text-[11px]">
-  <div class="max-w-6xl mx-auto px-4 lg:px-6 py-1 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
-    <span>Now booking HOA mailbox replacements in San Diego County.</span>
-    <a href="tel:16194614787" class="font-semibold underline-offset-2 hover:underline">
-      Call (619) 461-4787
-    </a>
-  </div>
-</div>
+<div class="w-full">
+  <div class="fixed top-0 inset-x-0 z-40 w-full">
+    <div class="bg-ps-red text-white text-[11px]">
+      <div class="max-w-6xl mx-auto px-4 lg:px-6 py-1.5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1.5">
+        <span>USPS-approved commercial mailbox installs across San Diego County.</span>
+        <a href="tel:16194614787" class="font-semibold underline-offset-2 hover:underline">
+          Call (619) 461-4787
+        </a>
+      </div>
+    </div>
 
-<nav class="bg-white border-b border-ps-muted shadow-sm">
-  <div class="max-w-6xl mx-auto px-4 lg:px-6 h-14 flex items-center justify-between gap-4">
-    <a href="/" class="flex items-center gap-2">
-      <span class="text-sm font-semibold text-ps-navy">Postal Systems</span>
-    </a>
+    <header class="bg-white border-b border-ps-muted/70 backdrop-blur">
+      <div class="max-w-6xl mx-auto px-4 lg:px-6 h-14 md:h-16 flex items-center justify-between gap-4">
+        <a href="/" class="flex items-center gap-2">
+          <picture class="h-8 w-auto">
+            <source srcset="/images/postal-systems/postal-systems-logo-blue.webp" type="image/webp" />
+            <img
+              src="/images/postal-systems/postal-systems-logo-blue.png"
+              alt="Postal Systems"
+              class="h-8 w-auto"
+              loading="lazy"
+            />
+          </picture>
+        </a>
 
-    <div class="hidden md:flex items-center gap-5 text-[13px] text-ps-navy">
-      {navItems.map((item) => {
-        if (item.key === "services") {
-          return (
-            <div class="relative group">
-              <a href={item.href} class="inline-flex items-center gap-1 hover:text-ps-navy/70">
-                {item.label}
-                <span class="text-[10px]">▾</span>
-              </a>
-              <div class="pointer-events-none absolute left-0 top-full mt-2 w-64 rounded-2xl border border-ps-muted bg-white py-2 shadow-ps opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto transition">
-                {services.map((svc) => (
-                  <a
-                    href={svc.href}
-                    class="block px-3 py-1.5 text-[12px] text-ps-navy/90 hover:bg-ps-surface hover:text-ps-navy rounded-md"
-                  >
-                    {svc.label}
-                  </a>
+        <nav class="hidden md:flex items-center gap-6 text-[13px] text-ps-navy" aria-label="Main">
+          <div class="relative group">
+            <a href="/services/" class="inline-flex items-center gap-1 hover:text-ps-navy/70">
+              <span>Services</span>
+              <span class="text-[10px]">▾</span>
+            </a>
+            <div class="absolute left-0 top-full min-w-[230px] rounded-2xl bg-white shadow-ps border border-ps-muted/70 hidden group-hover:block">
+              <ul class="py-2 text-[13px]">
+                {primaryServices.map((svc) => (
+                  <li>
+                    <a href={svc.href} class="block px-4 py-1.5 hover:bg-ps-surface/70">
+                      {svc.name}
+                    </a>
+                  </li>
                 ))}
-              </div>
-            </div>
-          );
-        }
-        if (item.key === "areas") {
-          return (
-            <div class="relative group">
-              <a href={item.href} class="inline-flex items-center gap-1 hover:text-ps-navy/70">
-                {item.label}
-                <span class="text-[10px]">▾</span>
-              </a>
-              <div class="pointer-events-none absolute left-0 top-full mt-2 w-64 rounded-2xl border border-ps-muted bg-white py-2 shadow-ps opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto transition">
-                {areas.map((area) => (
+                <li class="mt-1 border-t border-ps-muted/60">
                   <a
-                    href={area.href}
-                    class="block px-3 py-1.5 text-[12px] text-ps-navy/90 hover:bg-ps-surface hover:text-ps-navy rounded-md"
+                    href="/services/"
+                    class="block px-4 py-1.5 text-[12px] font-medium text-ps-navy/80 hover:bg-ps-surface/70"
                   >
-                    {area.label}
+                    View all services
                   </a>
-                ))}
-              </div>
+                </li>
+              </ul>
             </div>
-          );
-        }
-        return (
-          <a href={item.href} class="hover:text-ps-navy/70">
-            {item.label}
+          </div>
+
+          <div class="relative group">
+            <a href="/service-areas/" class="inline-flex items-center gap-1 hover:text-ps-navy/70">
+              <span>Service Areas</span>
+              <span class="text-[10px]">▾</span>
+            </a>
+            <div class="absolute left-0 top-full min-w-[230px] max-h-80 overflow-auto rounded-2xl bg-white shadow-ps border border-ps-muted/70 hidden group-hover:block">
+              <ul class="py-2 text-[13px]">
+                {primaryAreas.map((city) => (
+                  <li>
+                    <a href={city.href} class="block px-4 py-1.5 hover:bg-ps-surface/70">
+                      {city.name}
+                    </a>
+                  </li>
+                ))}
+                <li class="mt-1 border-t border-ps-muted/60">
+                  <a
+                    href="/service-areas/"
+                    class="block px-4 py-1.5 text-[12px] font-medium text-ps-navy/80 hover:bg-ps-surface/70"
+                  >
+                    View all service areas
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <a href="/who-we-work-with/" class="hover:text-ps-navy/70">
+            Who We Work With
           </a>
-        );
-      })}
-    </div>
+          <a href="/projects/" class="hover:text-ps-navy/70">
+            Projects
+          </a>
+          <a href="/blog/" class="hover:text-ps-navy/70">
+            Blog
+          </a>
+          <a href="/about/" class="hover:text-ps-navy/70">
+            About
+          </a>
+          <a href="/contact/" class="hover:text-ps-navy/70">
+            Contact
+          </a>
+        </nav>
 
-    <div class="flex items-center gap-2">
-      <a href="tel:16194614787" class="hidden sm:inline-flex text-[12px] font-medium text-ps-navy">
-        (619) 461-4787
-      </a>
-      <a
-        href="/contact/"
-        class="inline-flex items-center justify-center rounded-full bg-ps-navy px-4 py-1.5 text-[12px] font-semibold text-white shadow-md hover:bg-ps-navy/90 transition"
-      >
-        Get a Quote
-      </a>
-    </div>
+        <div class="hidden md:flex items-center gap-3">
+          <a
+            href="tel:16194614787"
+            class="inline-flex h-10 items-center justify-center rounded-full border border-ps-navy px-5 text-[12px] font-semibold text-ps-navy bg-white hover:bg-ps-surface/70 transition"
+          >
+            (619) 461-4787
+          </a>
+          <a
+            href="/contact/"
+            class="inline-flex h-10 items-center justify-center rounded-full bg-ps-navy px-5 text-[12px] font-semibold text-white shadow-md hover:bg-ps-navy/90 transition"
+          >
+            Get a Quote
+          </a>
+        </div>
+
+        <div class="md:hidden flex items-center gap-2">
+          <a href="tel:16194614787" class="inline-flex items-center rounded-full border border-ps-navy/40 px-3 py-1.5 text-[11px] font-medium text-ps-navy">
+            Call
+          </a>
+          <details class="relative">
+            <summary class="list-none inline-flex items-center justify-center rounded-full bg-ps-navy px-3 py-1.5 text-[11px] font-semibold text-white">
+              Menu
+            </summary>
+            <div class="absolute right-0 mt-2 w-56 rounded-2xl border border-ps-muted bg-white shadow-ps py-2 z-50">
+              <a href="/services/" class="block px-4 py-1.5 text-[13px] text-ps-navy hover:bg-ps-surface/70">
+                Services
+              </a>
+              <a href="/service-areas/" class="block px-4 py-1.5 text-[13px] text-ps-navy hover:bg-ps-surface/70">
+                Service Areas
+              </a>
+              <a href="/who-we-work-with/" class="block px-4 py-1.5 text-[13px] text-ps-navy hover:bg-ps-surface/70">
+                Who We Work With
+              </a>
+              <a href="/projects/" class="block px-4 py-1.5 text-[13px] text-ps-navy hover:bg-ps-surface/70">
+                Projects
+              </a>
+              <a href="/blog/" class="block px-4 py-1.5 text-[13px] text-ps-navy hover:bg-ps-surface/70">
+                Blog
+              </a>
+              <a href="/about/" class="block px-4 py-1.5 text-[13px] text-ps-navy hover:bg-ps-surface/70">
+                About
+              </a>
+              <a href="/contact/" class="block px-4 py-1.5 text-[13px] text-ps-navy hover:bg-ps-surface/70">
+                Contact
+              </a>
+              <div class="mt-1 border-t border-ps-muted pt-1.5">
+                <a
+                  href="/contact/"
+                  class="block px-4 py-1.5 text-[13px] font-semibold text-ps-navy hover:bg-ps-surface/70"
+                >
+                  Get a Quote
+                </a>
+              </div>
+            </div>
+          </details>
+        </div>
+      </div>
+    </header>
   </div>
-</nav>
+
+  <div class="h-[4.75rem] md:h-[5.5rem]"></div>
+</div>

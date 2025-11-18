@@ -1,0 +1,34 @@
+{
+  "intro": {
+    "p1": "In Oceanside, mailbox projects often start when coastal communities notice rust, corrosion, or vandalism on existing equipment. Postal Systems designs and installs commercial mailbox systems for HOAs, apartments, and mixed-use properties from neighborhoods near Oceanside Harbor to inland communities along Highway 76.",
+    "p2": "We manage the full scope for Oceanside properties: USPS-compliant layouts, equipment selection, concrete pads and anchors, and coordination with USPS for inspection and sign-off. Boards and managers get a single point of contact instead of juggling multiple contractors and vendors."
+  },
+  "commonProjects": [
+    "New cluster box units for coastal HOAs and townhome communities exposed to salt air.",
+    "4C wall-mounted mailrooms for apartments and mixed-use buildings near the Oceanside transit corridors.",
+    "Parcel locker additions at communities where package volume has outgrown older mailbox setups.",
+    "Mailbox replacements at older Oceanside properties where equipment shows corrosion, leaks, or repeated vandalism.",
+    "ADA-focused upgrades to improve reach, height, and approach clearances at existing mailbox locations."
+  ],
+  "whoWeWorkWith": [
+    "HOAs and community associations along the Oceanside coastline and inland neighborhoods.",
+    "Apartment and multi-family communities managed by local and regional property management teams.",
+    "Builders and general contractors on new residential and mixed-use developments in Oceanside.",
+    "Owners and managers of commercial and industrial parks near major corridors and business districts.",
+    "Schools, campuses, and municipal facilities within the City of Oceanside."
+  ],
+  "faqs": [
+    {
+      "question": "How do you handle mailbox replacements in Oceanside where equipment is damaged by coastal weather?",
+      "answer": "For Oceanside projects, we review how close the mailboxes are to the coast, what materials have failed, and what USPS will approve going forward. We recommend CBU or 4C equipment and installation details that stand up better to salt air and weather while staying compliant with current USPS standards."
+    },
+    {
+      "question": "Can you coordinate directly with USPS for our Oceanside mailbox project?",
+      "answer": "Yes. Postal Systems coordinates with the appropriate USPS representatives for Oceanside to review layouts, finalize equipment selections, and schedule inspections. This helps ensure the installation meets USPS guidelines before work is completed and keys are turned over."
+    },
+    {
+      "question": "What does the typical timeline look like for a mailbox project in Oceanside?",
+      "answer": "Timelines vary by scope, but most Oceanside projects follow a clear sequence: site visit and layout review, written proposal and approvals, ordering equipment, installation of pads and mailboxes, and USPS inspection and sign-off. We provide boards and managers with a schedule so residents know what to expect."
+    }
+  ]
+}

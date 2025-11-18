@@ -1,0 +1,34 @@
+{
+  "intro": {
+    "p1": "Across Riverside County, mailbox projects are often driven by expanding master-planned communities, rural and semi-rural properties needing centralized mail, and the need to modernize older mailbox stations. Postal Systems installs and replaces commercial mailbox systems for HOAs, apartments, and commercial properties throughout Riverside County.",
+    "p2": "We handle the full scope for Riverside County properties: assessing current mailbox locations, planning USPS-compliant layouts, recommending equipment, installing concrete pads and anchors, and coordinating USPS inspection and sign-off so boards, managers, and owners work with one accountable contractor."
+  },
+  "commonProjects": [
+    "New cluster box units for HOAs and townhome communities in growing Riverside County neighborhoods.",
+    "Centralized mailbox stations for rural and semi-rural communities that need USPS-approved equipment and locations.",
+    "4C wall-mounted mailrooms for apartments and mixed-use buildings in more urbanized parts of Riverside County.",
+    "Mailbox replacements at communities where equipment is rusted, damaged, or no longer compliant with current USPS guidelines.",
+    "ADA-focused upgrades to improve reach, height, and approach clearances at existing mailbox locations throughout the county."
+  ],
+  "whoWeWorkWith": [
+    "HOAs and community associations across Riverside County.",
+    "Apartment and multi-family communities managed by local and regional firms.",
+    "Builders and general contractors on new residential and mixed-use developments.",
+    "Owners and managers of commercial, industrial, and business park properties.",
+    "Schools, campuses, and municipal facilities serving Riverside County residents."
+  ],
+  "faqs": [
+    {
+      "question": "Can you support mailbox projects for communities throughout Riverside County, not just one city?",
+      "answer": "Yes. We work with HOAs, apartments, and commercial properties across Riverside County. We coordinate layout reviews, equipment selection, and USPS approvals for multiple cities and unincorporated areas so your project stays compliant regardless of where it is located within the county."
+    },
+    {
+      "question": "What kinds of mailbox systems are most common in Riverside County?",
+      "answer": "Most Riverside County properties use USPS-approved CBUs or 4C wall-mounted mailboxes, often combined with parcel lockers. We evaluate your property, route, and resident needs to recommend the right equipment and layout for your specific community or site."
+    },
+    {
+      "question": "How do you manage logistics for larger, county-wide mailbox projects?",
+      "answer": "For larger Riverside County projects, we plan site visits, equipment ordering, and installation in phases, coordinating closely with boards, managers, and USPS. Our goal is to keep each phase predictable, minimize disruption, and maintain a clear schedule for every community involved."
+    }
+  ]
+}

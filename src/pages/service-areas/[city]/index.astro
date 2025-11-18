@@ -5,16 +5,14 @@ import CTA from "../../../components/ui/CTA.astro"
 import SectionHeader from "../../../components/ui/SectionHeader.astro"
 import TrustGrid from "../../../components/TrustGrid.astro"
 import ProcessStrip from "../../../components/ProcessStrip.astro"
+import { slugify } from "../../../lib/slug"
 
 export async function getStaticPaths() {
   const areas = (await import("../../../data/areas.json")).default as any[]
   const paths = areas.map((c: any) => {
     const cityName = c.city ?? c.name
     const state = c.state ?? "CA"
-    const citySlug = String(cityName)
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, "-")
-      .replace(/(^-|-$)/g, "")
+    const citySlug = slugify(String(cityName))
     return {
       params: { city: citySlug },
       props: { c: { city: cityName, state } },
@@ -25,10 +23,7 @@ export async function getStaticPaths() {
 
 const { c } = Astro.props as { c: { city: string; state: string } }
 
-const citySlug = String(c.city)
-  .toLowerCase()
-  .replace(/[^a-z0-9]+/g, "-")
-  .replace(/(^-|-$)/g, "")
+const citySlug = slugify(String(c.city))
 
 const title = `Mailbox Services in ${c.city} — Postal Systems`
 const desc = `USPS-approved commercial mailbox services in ${c.city}, ${c.state}.`
@@ -37,6 +32,60 @@ const canonical = `https://sandiegocommercialmailboxes.com/service-areas/${cityS
 const services = (await import("../../../data/services.json")).default as {
   name: string
 }[]
+
+const serviceAreasContentModules = import.meta.glob(
+  "../../../data/service-areas-content/*.json",
+  { eager: true }
+) as Record<string, any>
+
+const serviceAreasContentMap = Object.fromEntries(
+  Object.entries(serviceAreasContentModules).map(([path, mod]) => {
+    const slug = path.split("/").pop()?.replace(".json", "") ?? ""
+    return [slug, (mod as any).default]
+  })
+) as Record<string, any>
+
+const cityContent = serviceAreasContentMap[citySlug] ?? null
+
+const defaultIntroP1 = `Most mailbox projects in ${c.city} start when boards, managers, or owners are dealing with USPS notices, vandalized boxes, or aging equipment that is no longer compliant. Postal Systems designs and installs code-compliant mailbox systems with USPS coordination, inspection sign-off, and clear communication for residents.`
+const defaultIntroP2 = `Instead of juggling multiple contractors for layout, pads, anchors, and inspections, you get a single USPS-approved mailbox contractor that handles the full scope from site visit through key handover.`
+
+const defaultCommonProjects = [
+  "New cluster box units for HOAs and townhomes.",
+  "4C wall-mounted mailrooms in mixed-use or multi-family buildings.",
+  "Parcel locker additions to keep up with growing package volume.",
+  "Mailbox replacements where older units are rusted, damaged, or non-compliant.",
+  "ADA upgrades for mailbox reach, height, and approach clearances."
+]
+
+const defaultWhoWeWorkWith = [
+  "HOAs, condo associations, and property managers.",
+  "Apartments and multi-family communities.",
+  "Builders and general contractors.",
+  "Commercial and industrial parks.",
+  "Campuses and municipal properties."
+]
+
+const defaultFaqs = [
+  {
+    question: `Do we need USPS approval before installing new cluster mailboxes in ${c.city}?`,
+    answer: `Yes. USPS must review the proposed mailbox type, location, and access for your property in ${c.city}. Postal Systems coordinates directly with USPS so layouts, pads, and final locations meet current standards before installation.`
+  },
+  {
+    question: "Can you replace damaged or vandalized mailboxes with the same style we already have?",
+    answer: `In many cases we can match existing equipment while still bringing the installation up to current USPS and ADA expectations. We review photos from your property in ${c.city} and recommend a replacement strategy that balances continuity, code, and budget.`
+  },
+  {
+    question: `Do you handle ADA-compliant mailbox installations in ${c.city}?`,
+    answer: `Yes. Our layouts, pad heights, and mounting details are planned for ADA reach, height, and approach clearances. When we work in ${c.city} we coordinate mailbox equipment and placement with your site constraints and USPS requirements.`
+  }
+]
+
+const introP1 = cityContent?.intro?.p1 ?? defaultIntroP1
+const introP2 = cityContent?.intro?.p2 ?? defaultIntroP2
+const commonProjects = (cityContent?.commonProjects ?? defaultCommonProjects) as string[]
+const whoWeWorkWith = (cityContent?.whoWeWorkWith ?? defaultWhoWeWorkWith) as string[]
+const faqs = (cityContent?.faqs ?? defaultFaqs) as { question: string; answer: string }[]
 
 export const prerender = true
 ---
@@ -51,14 +100,10 @@ export const prerender = true
     />
 
     <section class="mt-4">
-      <p
-        class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-navy/70"
-      >
+      <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-navy/70">
         Service areas · {c.state}
       </p>
-      <h1
-        class="mt-2 text-3xl md:text-4xl font-semibold tracking-tight text-ps-navy"
-      >
+      <h1 class="mt-2 text-3xl md:text-4xl font-semibold tracking-tight text-ps-navy">
         Mailbox services in {c.city}
       </h1>
       <p class="mt-2 text-sm md:text-base text-ps-navy/80 max-w-2xl">
@@ -68,7 +113,9 @@ export const prerender = true
     </section>
 
     <section class="mt-6">
-      <h2 class="text-sm font-semibold text-ps-navy">Available services</h2>
+      <h2 class="text-sm font-semibold text-ps-navy">
+        Available services
+      </h2>
       <p class="mt-1 text-xs text-ps-navy/80">
         Choose a mailbox service in {c.city}.
       </p>
@@ -92,6 +139,162 @@ export const prerender = true
       </ul>
     </section>
 
+    <section class="mt-10 grid gap-8 lg:grid-cols-[minmax(0,1.7fr)_minmax(0,1fr)] items-start">
+      <div class="space-y-4">
+        <h2 class="text-xl md:text-2xl font-semibold text-ps-navy">
+          Commercial mailbox installation and services in {c.city}
+        </h2>
+        <p class="text-sm md:text-base text-ps-navy/85 max-w-2xl">
+          {introP1}
+        </p>
+        <p class="text-sm md:text-base text-ps-navy/85 max-w-2xl">
+          {introP2}
+        </p>
+
+        <div class="grid gap-5 sm:grid-cols-2">
+          <div class="rounded-2xl border border-ps-muted bg-white p-4 shadow-ps">
+            <h3 class="text-sm font-semibold text-ps-navy">
+              Common projects in {c.city}
+            </h3>
+            <ul class="mt-2 space-y-1.5 text-xs sm:text-sm text-ps-navy/85">
+              {commonProjects.map((item) => (
+                <li>• {item}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div class="rounded-2xl border border-ps-muted bg-white p-4 shadow-ps">
+            <h3 class="text-sm font-semibold text-ps-navy">
+              Who we work with in {c.city}
+            </h3>
+            <ul class="mt-2 space-y-1.5 text-xs sm:text-sm text-ps-navy/85">
+              {whoWeWorkWith.map((item) => (
+                <li>• {item}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <aside class="rounded-3xl bg-white shadow-ps border border-ps-muted px-5 py-5 md:px-6 md:py-6">
+        <h2 class="text-sm font-semibold text-ps-navy">
+          At a glance: mailbox services in {c.city}
+        </h2>
+        <dl class="mt-3 space-y-2 text-xs sm:text-sm text-ps-navy/85">
+          <div class="flex justify-between gap-3">
+            <dt class="font-medium">Service area</dt>
+            <dd class="text-right">
+              {c.city}, {c.state}
+            </dd>
+          </div>
+          <div class="flex justify-between gap-3">
+            <dt class="font-medium">Typical properties</dt>
+            <dd class="text-right">
+              HOAs, apartments, builders, commercial sites
+            </dd>
+          </div>
+          <div class="flex justify-between gap-3">
+            <dt class="font-medium">Project types</dt>
+            <dd class="text-right">
+              CBUs, 4C mailboxes, parcel lockers, retrofits
+            </dd>
+          </div>
+          <div class="flex justify-between gap-3">
+            <dt class="font-medium">Coordination</dt>
+            <dd class="text-right">
+              USPS layout, approvals, inspection sign-off
+            </dd>
+          </div>
+        </dl>
+        <div class="mt-4">
+          <p class="text-xs text-ps-navy/75">
+            Share your address, current mailbox photos, and any USPS letters you
+            have received and we will help scope a compliant solution for {c.city}.
+          </p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-xl md:text-2xl font-semibold text-ps-navy">
+        Our process for mailbox projects in {c.city}
+      </h2>
+      <p class="mt-2 text-sm md:text-base text-ps-navy/80 max-w-2xl">
+        Every project follows a predictable, documented process so board members,
+        managers, and owners know what to expect at each step.
+      </p>
+      <div class="mt-5 grid gap-4 md:grid-cols-4">
+        <div class="rounded-2xl border border-ps-muted bg-white p-4 shadow-ps">
+          <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-ps-navy/60">
+            Step 1
+          </div>
+          <div class="mt-1 text-sm font-semibold text-ps-navy">
+            Site visit and layout
+          </div>
+          <p class="mt-1 text-xs text-ps-navy/80">
+            We review USPS routes, access, pad locations, ADA clearances, and
+            existing conditions at your property in {c.city}.
+          </p>
+        </div>
+        <div class="rounded-2xl border border-ps-muted bg-white p-4 shadow-ps">
+          <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-ps-navy/60">
+            Step 2
+          </div>
+          <div class="mt-1 text-sm font-semibold text-ps-navy">
+            Detailed proposal
+          </div>
+          <p class="mt-1 text-xs text-ps-navy/80">
+            You receive a written proposal outlining equipment, layout, pads,
+            anchors, tenant notice, and schedule.
+          </p>
+        </div>
+        <div class="rounded-2xl border border-ps-muted bg-white p-4 shadow-ps">
+          <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-ps-navy/60">
+            Step 3
+          </div>
+          <div class="mt-1 text-sm font-semibold text-ps-navy">
+            Permitting and coordination
+          </div>
+          <p class="mt-1 text-xs text-ps-navy/80">
+            We coordinate with USPS and, where needed, local jurisdictions so
+            your project in {c.city} stays compliant.
+          </p>
+        </div>
+        <div class="rounded-2xl border border-ps-muted bg-white p-4 shadow-ps">
+          <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-ps-navy/60">
+            Step 4
+          </div>
+          <div class="mt-1 text-sm font-semibold text-ps-navy">
+            Installation and sign-off
+          </div>
+          <p class="mt-1 text-xs text-ps-navy/80">
+            We handle pads, posts, anchors, labeling, and USPS inspection sign-off,
+            then deliver keys back to your team.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-xl md:text-2xl font-semibold text-ps-navy">
+        FAQs about mailbox services in {c.city}
+      </h2>
+      <div class="mt-4 space-y-3">
+        {faqs.map((faq) => (
+          <details class="group rounded-2xl border border-ps-muted bg-white p-4 shadow-ps">
+            <summary class="flex cursor-pointer items-center justify-between text-sm font-semibold text-ps-navy">
+              <span>{faq.question}</span>
+              <span class="ml-3 text-xs text-ps-navy/60 group-open:hidden">+</span>
+              <span class="ml-3 text-xs text-ps-navy/60 hidden group-open:inline">−</span>
+            </summary>
+            <p class="mt-2 text-xs text-ps-navy/80">
+              {faq.answer}
+            </p>
+          </details>
+        ))}
+      </div>
+    </section>
+
     <section class="mt-10">
       <SectionHeader
         title={`Why properties in ${c.city} work with Postal Systems`}
@@ -110,9 +313,7 @@ export const prerender = true
     </div>
 
     <section class="mt-12 mb-4">
-      <div
-        class="rounded-3xl bg-white shadow-ps border border-ps-muted px-5 py-6 md:px-8 md:py-7"
-      >
+      <div class="rounded-3xl bg-white shadow-ps border border-ps-muted px-5 py-6 md:px-8 md:py-7">
         <h2 class="text-base md:text-lg font-semibold text-ps-navy">
           Get a USPS-approved quote
         </h2>

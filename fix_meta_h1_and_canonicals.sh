@@ -5,7 +5,7 @@ cd "$HOME/Desktop/Postalsystems-final" 2>/dev/null || cd "$HOME/Desktop/postalsy
 node - <<'JS'
 const fs=require('fs'), path=require('path')
 
-const site='https://postalsystemspro.com'
+const site='https://sandiegocommercialmailboxes.com'
 const targets=[
   {file:'src/pages/about.astro',        route:'/about/',        h1:'About Postal Systems',               title:'About — Postal Systems'},
   {file:'src/pages/contact.astro',      route:'/contact/',      h1:'Contact Postal Systems',             title:'Contact — Postal Systems'},

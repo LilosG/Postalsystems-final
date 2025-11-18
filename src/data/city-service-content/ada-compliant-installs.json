@@ -1,0 +1,916 @@
+{
+  "serviceSlug": "ada-compliant-installs",
+  "cities": {
+    "san-diego": {
+      "citySlug": "san-diego",
+      "cityName": "San Diego",
+      "state": "CA",
+      "h1": "ADA-compliant mailbox installations in San Diego, CA",
+      "intro": "Postal Systems designs and installs ADA-compliant mailbox systems for communities and properties throughout San Diego. From coastal HOAs to urban mixed-use buildings, we help properties correct accessibility issues around their mail stations and create layouts that work for residents, carriers, and project teams.",
+      "sections": [
+        {
+          "id": "common-issues",
+          "heading": "Common ADA mailbox issues we see in San Diego",
+          "body": "San Diego properties deal with a mix of grades, older construction, and retrofits that can create accessibility challenges at mail stations. We are often called in after a concern, report, or notice has highlighted specific problem areas.",
+          "bullets": [
+            "Mailboxes mounted too high or too low for residents using wheelchairs or mobility devices",
+            "Steep approaches, slopes, or curb ramps immediately in front of mailbox banks",
+            "Limited maneuvering space in front of CBUs or 4C cabinets in small parking areas",
+            "No accessible path of travel from accessible parking or primary routes to mail stations",
+            "Older mailbanks that were installed before current ADA guidance and have never been updated"
+          ],
+          "closing": "Instead of applying piecemeal fixes, we look at the entire path to and around your mailbox system so you have a clear, defensible plan for improving accessibility."
+        },
+        {
+          "id": "projects-we-handle",
+          "heading": "ADA-focused mailbox projects we handle for San Diego communities",
+          "body": "We work with a wide range of properties across San Diego, from small condo associations to large multifamily and commercial sites.",
+          "bullets": [
+            "Upgrading existing CBU and 4C installations to provide compliant accessible compartments",
+            "Relocating or adjusting mail stations to improve approach routes and landing areas",
+            "Combining accessibility upgrades with broader mailbox replacement or consolidation projects",
+            "Adding parcel lockers in locations that work for both accessibility and USPS carrier routes",
+            "Supporting design teams and consultants on larger redevelopment and new construction projects"
+          ],
+          "closing": "Each project starts with measurements and ends with a clear record of what has been corrected so boards, owners, and managers understand how accessibility concerns were addressed."
+        },
+        {
+          "id": "coordination",
+          "heading": "How we coordinate ADA mailbox work, residents, and USPS in San Diego",
+          "body": "Accessibility changes at a mailbox station touch many different stakeholders. We focus on clear communication so the work goes smoothly and everyone understands what is changing.",
+          "bullets": [
+            "Review consultant reports, legal correspondence, or notices related to accessibility",
+            "Document existing conditions with photos and measurements before work begins",
+            "Develop a mailbox layout and access plan that balances USPS and ADA requirements",
+            "Help your team communicate construction schedules and temporary access changes to residents",
+            "Coordinate USPS review and provide simple documentation of completed accessibility improvements"
+          ],
+          "closing": "Our goal is to reduce risk for the property, improve daily access for residents, and ensure carriers can continue to serve the site efficiently."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you help evaluate whether our San Diego mailboxes are ADA-compliant?",
+          "answer": "Yes. We review your existing mail stations, measure key dimensions, and provide feedback on where conditions are clearly outside typical accessibility guidance. When formal surveys or legal opinions are needed, we can coordinate with your consultants or attorney."
+        },
+        {
+          "question": "Do you handle both the concrete work and the mailbox installation?",
+          "answer": "On most projects we handle required pad, landing, and small ramp work as part of the mailbox scope. For larger grading or sitework packages, we can coordinate with your existing contractors to make sure the mailbox layout fits the overall plan."
+        },
+        {
+          "question": "Will residents lose access to mail during ADA mailbox work in San Diego?",
+          "answer": "We plan phasing and temporary solutions so residents continue to receive mail wherever possible while work is underway. During the proposal stage we outline how long the mailbox area will be impacted and what residents should expect."
+        },
+        {
+          "question": "Can ADA mailbox upgrades be combined with parcel locker installations?",
+          "answer": "Yes. Many San Diego properties use ADA-driven projects as the right time to add parcel lockers or reorganize mail equipment. We design layouts that account for both accessibility and parcel volume from the start."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "chula-vista",
+          "label": "Chula Vista, CA",
+          "url": "/service-areas/chula-vista/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "el-cajon",
+          "label": "El Cajon, CA",
+          "url": "/service-areas/el-cajon/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/ada-compliant-installs/"
+        }
+      ]
+    },
+    "chula-vista": {
+      "citySlug": "chula-vista",
+      "cityName": "Chula Vista",
+      "state": "CA",
+      "h1": "ADA-compliant mailbox installations in Chula Vista, CA",
+      "intro": "Postal Systems helps Chula Vista HOAs, condo communities, and apartments correct accessibility issues at their mail stations and design ADA-conscious mailbox layouts for new phases and upgrades. We focus on practical solutions that improve access without over-complicating the project.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why ADA-compliant mailbox installs matter in Chula Vista",
+          "body": "Chula Vista combines older neighborhoods with newer master-planned communities. That mix means some properties were built before current accessibility standards and now need targeted upgrades to support residents who rely on accessible routes and reach ranges.",
+          "bullets": [
+            "Mailbox banks located on slopes or driveway edges that create difficult approaches",
+            "Older CBUs mounted at heights that do not work well for wheelchair users",
+            "Tight parking areas that limit maneuvering space in front of mail stations",
+            "Residents reporting that they cannot safely or comfortably reach their compartment",
+            "New phases and infill projects that must meet modern accessibility expectations from day one"
+          ],
+          "closing": "Addressing these issues directly builds resident trust, reduces risk for boards and owners, and often improves the overall experience for everyone who uses the mail station."
+        },
+        {
+          "id": "common-projects",
+          "heading": "ADA-focused mailbox projects we handle in Chula Vista",
+          "body": "We support a range of communities across Chula Vista, from attached townhomes to larger multifamily and mixed-use properties.",
+          "bullets": [
+            "Reworking existing CBU layouts to add accessible compartments and improve reach ranges",
+            "Adjusting pad elevations and adding landings or small ramps to improve approach slopes",
+            "Relocating mail stations to more accessible, better-lit common areas when feasible",
+            "Integrating parcel lockers into ADA-conscious layouts that still work for carriers",
+            "Combining ADA upgrades with needed repair, replacement, or consolidation work"
+          ],
+          "closing": "Each project is scoped with clear drawings, measurements, and timelines so boards and managers can communicate confidently with residents and stakeholders."
+        },
+        {
+          "id": "coordination",
+          "heading": "How we coordinate ADA mailbox work in Chula Vista",
+          "body": "Accessibility upgrades require coordination between boards, managers, residents, and USPS. We structure projects so everyone understands the plan.",
+          "bullets": [
+            "Review photos, measurements, and any accessibility concerns or reports you already have",
+            "Visit the site to confirm slopes, routes, and existing mailbox locations",
+            "Prepare an ADA-conscious layout and access plan tailored to your property",
+            "Help your team communicate construction timing and temporary mail access to residents",
+            "Coordinate with USPS on any layout or location changes and provide basic documentation of completed work"
+          ],
+          "closing": "Our aim is to make ADA mailbox upgrades manageable, predictable, and clearly documented so your community can move forward confidently."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you help our Chula Vista HOA respond to accessibility concerns about mailboxes?",
+          "answer": "Yes. We review the existing mailbox setup, document field conditions, and propose practical changes that improve access. When needed, we can align our scope with feedback from your attorney or accessibility consultant."
+        },
+        {
+          "question": "Do ADA mailbox projects in Chula Vista always require new equipment?",
+          "answer": "Not always. Some projects focus on pad work, layout adjustments, and small changes to cabinet heights or configurations. When new equipment is the better option, we will explain why and outline the long-term benefits and costs."
+        },
+        {
+          "question": "How disruptive are ADA mailbox upgrades for residents?",
+          "answer": "We plan phasing and temporary solutions so residents can continue receiving mail whenever possible. During the proposal stage we clearly outline how long each area will be impacted and what residents should expect."
+        },
+        {
+          "question": "Can you combine ADA upgrades with other mailbox work in Chula Vista?",
+          "answer": "Yes. Many Chula Vista communities use ADA-driven projects as the right time to address aging equipment, add parcel lockers, or reorganize their mailbanks. We design scopes that take all of those needs into account."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "el-cajon",
+          "label": "El Cajon, CA",
+          "url": "/service-areas/el-cajon/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/ada-compliant-installs/"
+        }
+      ]
+    },
+    "oceanside": {
+      "citySlug": "oceanside",
+      "cityName": "Oceanside",
+      "state": "CA",
+      "h1": "ADA compliant mailbox installs in Oceanside, CA",
+      "intro": "Postal Systems designs and installs ADA compliant commercial mailbox systems for HOAs, apartments, and mixed use properties across Oceanside. We help properties upgrade aging mail stations to meet current USPS and accessibility requirements while keeping residents and carriers moving safely.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why ADA compliant mailbox layouts matter in Oceanside",
+          "body": "Oceanside communities see a mix of long time residents, retirees, and families who all rely on safe access to mail. Older cluster mailboxes and wall mounted units often fall short on reach ranges, clearances, and approach routes, creating accessibility issues and potential liability for boards and owners.",
+          "bullets": [
+            "Correct reach ranges so residents using mobility devices can access boxes and parcel lockers",
+            "Improve approach routes so residents are not forced to cross traffic or navigate steep slopes",
+            "Reconfigure heights and locations that no longer align with current accessibility guidance",
+            "Address USPS concerns about clearance, lighting, and approach so deliveries stay consistent"
+          ],
+          "closing": "An ADA focused mailbox upgrade in Oceanside protects residents, reduces risk for boards and owners, and keeps USPS carriers working efficiently on site."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common ADA mailbox projects we handle in Oceanside",
+          "body": "Many Oceanside projects begin with either a resident complaint, an accessibility observation, or a planned capital improvement. We help property teams decide whether targeted modifications or a full mailbox replacement is the right move.",
+          "bullets": [
+            "Reducing mailbox and parcel locker heights to meet current reach recommendations",
+            "Relocating mail stations away from steep driveways, tight corners, or obstructed sidewalks",
+            "Combining accessibility upgrades with new CBUs or 4C wall mounted mailboxes",
+            "Adding parcel lockers in locations that are convenient for residents with mobility needs",
+            "Upgrading pads, approaches, and lighting while mail equipment is being replaced"
+          ],
+          "closing": "Each Oceanside project comes with a clear scope of work and layout plan so decision makers understand how accessibility, USPS requirements, and day to day use will improve."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems designs ADA focused mailbox installs in Oceanside",
+          "body": "ADA compliant mailbox work is not just about hardware. It is about how residents approach, reach, and use the equipment in real conditions. We design projects around those realities so the finished mail station works better for everyone.",
+          "bullets": [
+            "Review your current mailbox location, photos, and any accessibility feedback you have received",
+            "Walk the site to confirm slopes, clearances, lighting, and how residents reach the mail area",
+            "Recommend layouts, heights, and equipment models that support accessibility and USPS service",
+            "Coordinate schedules so work is completed with minimal disruption to residents and parking",
+            "Document the new mailbox layout so boards and managers have clear records for future reference"
+          ],
+          "closing": "Our goal is to turn Oceanside ADA mailbox concerns into a straightforward, well planned project that leaves you with a safer and more usable mail station."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you make our existing mailboxes in Oceanside ADA compliant without replacing everything?",
+          "answer": "Sometimes we can improve accessibility by adjusting heights, relocating equipment, or modifying pads and approaches. In other cases, full replacement is the smarter option. We evaluate your specific site and outline both repair and replacement paths."
+        },
+        {
+          "question": "Do you coordinate with USPS on ADA related mailbox changes in Oceanside?",
+          "answer": "Yes. When layout or equipment changes affect how carriers access and load mail, we communicate with USPS to review the plan and schedule any inspections needed after the work is complete."
+        },
+        {
+          "question": "Can ADA mailbox upgrades be phased at our Oceanside property?",
+          "answer": "In many cases we can phase work by addressing the most critical locations first and planning follow up work as budgets allow. We explain phasing options during the proposal stage."
+        },
+        {
+          "question": "Will you provide documentation of ADA related mailbox improvements in Oceanside?",
+          "answer": "We document what was changed, provide photos of completed work, and outline the new layout so boards, managers, and owners have a clear record for their files and future planning."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "carlsbad",
+          "label": "Carlsbad, CA",
+          "url": "/service-areas/carlsbad/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/ada-compliant-installs/"
+        }
+      ]
+    },
+    "carlsbad": {
+      "citySlug": "carlsbad",
+      "cityName": "Carlsbad",
+      "state": "CA",
+      "h1": "ADA compliant mailbox installs in Carlsbad, CA",
+      "intro": "Postal Systems provides ADA compliant commercial mailbox installations and upgrades for resort style communities, HOAs, and apartments across Carlsbad. We help properties bring mail stations up to current accessibility expectations while maintaining a polished, well integrated look.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why ADA mailbox upgrades matter in Carlsbad communities",
+          "body": "Carlsbad properties often combine high end amenities, guest traffic, and long term residents who expect safe, convenient access to mail and parcels. Older mailbox layouts can undermine that experience when reach ranges, slopes, or approach paths no longer align with accessibility needs.",
+          "bullets": [
+            "Improve daily access for residents using mobility devices or assistance",
+            "Reduce risk associated with steep approaches, uneven pads, or poor clearances",
+            "Align mailbox layouts with the overall quality and branding of your Carlsbad community",
+            "Support USPS delivery by creating clear, well lit, and accessible loading areas"
+          ],
+          "closing": "Thoughtful ADA focused mailbox upgrades help Carlsbad communities protect their reputation while doing the right thing for residents and guests."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common ADA mailbox projects we complete in Carlsbad",
+          "body": "We work with Carlsbad boards, managers, and ownership groups to turn accessibility concerns into clear, scoped projects that fit into broader capital plans.",
+          "bullets": [
+            "Relocating mail stations away from tight drive aisles and challenging slopes",
+            "Rebuilding pads and approaches to create smoother, more predictable access routes",
+            "Installing new CBUs or 4C mailboxes at compliant heights with integrated parcel lockers",
+            "Combining ADA mailbox upgrades with broader amenity or hardscape improvements",
+            "Advising when it is time to retire aging equipment in favor of modern, accessible systems"
+          ],
+          "closing": "Each project is scoped so you understand how accessibility, USPS service, and resident experience will improve once work is complete."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems manages ADA focused mailbox work in Carlsbad",
+          "body": "Carlsbad properties often have gated access, structured parking, and carefully planned landscaping. We coordinate mailbox work around those constraints so the finished result feels like part of the community, not an afterthought.",
+          "bullets": [
+            "Review existing layouts, site plans, and any accessibility feedback you have received",
+            "Walk the property to understand traffic patterns, slopes, and resident movement",
+            "Design mailbox layouts and heights that support ADA goals and USPS expectations",
+            "Schedule work in coordination with onsite teams, amenities, and quiet hours",
+            "Provide clear documentation and photos of the completed ADA mailbox improvements"
+          ],
+          "closing": "Our focus is on making ADA mailbox projects in Carlsbad predictable, well communicated, and aligned with the standards of your community."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you align ADA mailbox upgrades with other capital projects in Carlsbad?",
+          "answer": "Yes. Many communities combine ADA mailbox work with paving, landscaping, or amenity upgrades. We coordinate with your broader project schedule so mail access is improved alongside other site changes."
+        },
+        {
+          "question": "Do you work with property managers and boards in Carlsbad?",
+          "answer": "We regularly work with management companies, boards, and ownership groups to scope ADA mailbox projects, present options, and communicate timelines and impacts to residents."
+        },
+        {
+          "question": "Can you help us decide between partial modifications and full ADA mailbox replacement in Carlsbad?",
+          "answer": "We evaluate your equipment, layout, and long term plans, then outline both incremental upgrades and full replacement options so you can choose what fits your budget and goals."
+        },
+        {
+          "question": "Will USPS need to review ADA related mailbox changes in Carlsbad?",
+          "answer": "If changes affect equipment type or carrier access, we coordinate with USPS to review layouts and schedule inspections. This helps ensure your new mailbox configuration is accepted without delay."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "oceanside",
+          "label": "Oceanside, CA",
+          "url": "/service-areas/oceanside/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/ada-compliant-installs/"
+        }
+      ]
+    },
+    "encinitas": {
+      "citySlug": "encinitas",
+      "cityName": "Encinitas",
+      "state": "CA",
+      "h1": "ADA-compliant mailbox installs in Encinitas, CA",
+      "intro": "Postal Systems designs and installs ADA-compliant commercial mailbox systems for HOAs, condos, and mixed-use properties throughout Encinitas. From coastal communities near the bluffs to inland neighborhoods off El Camino Real, we upgrade mail stations so residents with mobility needs can access mail safely and USPS can serve your routes without issues.",
+      "sections": [
+        {
+          "id": "why-ada-encinitas",
+          "heading": "Why Encinitas properties invest in ADA-compliant mailbox layouts",
+          "body": "Encinitas communities balance tight site layouts, coastal grades, and aging infrastructure. As boards and owners update amenities and walkways, mail stations often come under scrutiny for reach ranges, slopes, and clearances. When mailbox heights or approaches are out of spec, residents with mobility needs are affected first, and USPS can raise concerns during route reviews.",
+          "bullets": [
+            "Older pad and pedestal setups often exceed current reach range requirements",
+            "Sloped approaches, curb lips, and tight walkways make access difficult for wheelchairs and walkers",
+            "Legacy mailbox layouts may cluster all boxes at heights that are no longer considered accessible",
+            "USPS carriers may report chronic access problems to property managers and boards",
+            "Upgrading to ADA-conscious configurations supports residents and reduces risk for owners"
+          ],
+          "closing": "Our work in Encinitas focuses on rethinking mailbox locations, heights, and approaches so they serve all residents while still working with your existing site constraints."
+        },
+        {
+          "id": "common-projects-encinitas",
+          "heading": "Common ADA-focused mailbox projects we handle in Encinitas",
+          "body": "We are usually called to Encinitas properties when managers or boards are planning broader accessibility upgrades, or after concerns have been raised about how residents with mobility limitations reach their mail.",
+          "bullets": [
+            "Rebuilding or modifying concrete pads to improve slopes and landing areas",
+            "Reconfiguring CBU or 4C layouts to create compliant accessible compartments",
+            "Relocating mail stations closer to accessible paths, ramps, or elevators",
+            "Adding or adjusting railings, clear floor space, and turning areas near mail equipment",
+            "Advising when incremental changes are enough versus when full replacement is more practical"
+          ],
+          "closing": "Every project is scoped with clear drawings and descriptions so boards, managers, and owners understand how the new layout supports accessibility."
+        },
+        {
+          "id": "coordination-encinitas",
+          "heading": "How we plan ADA-compliant mailbox work around Encinitas properties",
+          "body": "Encinitas sites often have coastal grades, tight parking, and shared drive aisles. We design ADA-compliant mailbox upgrades around these realities so the final layout is both accessible and workable for daily use.",
+          "bullets": [
+            "Walk the site to review current mail locations, slopes, and travel paths",
+            "Identify barriers such as steep approaches, curb lips, or obstructed clearances",
+            "Recommend specific mailbox heights, pad revisions, and locations that improve accessibility",
+            "Coordinate phasing so residents maintain mail access while work is completed",
+            "Align with your broader accessibility plans for walkways, ramps, and common areas"
+          ],
+          "closing": "Our goal is to integrate ADA-compliant mailbox installations into the way your Encinitas property already functions, rather than treating mail as an afterthought."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you make just some of our mailboxes ADA-accessible in Encinitas?",
+          "answer": "Yes. Many properties designate a set of accessible compartments within a larger mailbox bank. We lay out which units will be accessible, adjust pad and mounting heights as needed, and coordinate with USPS so the arrangement is acceptable."
+        },
+        {
+          "question": "Do we need new mailboxes to become ADA-compliant in Encinitas?",
+          "answer": "Not always. In some cases, modifying pad elevations, relocating cabinets, or reconfiguring how units are grouped can bring portions of your system into better alignment with accessibility expectations. After a site walk, we outline repair, modification, and replacement options."
+        },
+        {
+          "question": "Will USPS review ADA-related changes to our Encinitas mail stations?",
+          "answer": "USPS is primarily concerned with safe, efficient access for carriers, but accessibility improvements often overlap with those goals. We discuss layout changes with USPS so your upgraded configuration works for both residents and carriers."
+        },
+        {
+          "question": "Can ADA-compliant mailbox work in Encinitas be phased in over time?",
+          "answer": "Yes. We can prioritize the most critical locations or buildings first and then plan additional phases as budgets allow, while still moving your property in a more accessible direction."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "carlsbad",
+          "label": "Carlsbad, CA",
+          "url": "/service-areas/carlsbad/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "oceanside",
+          "label": "Oceanside, CA",
+          "url": "/service-areas/oceanside/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/ada-compliant-installs/"
+        }
+      ]
+    },
+    "escondido": {
+      "citySlug": "escondido",
+      "cityName": "Escondido",
+      "state": "CA",
+      "h1": "ADA-compliant mailbox installs in Escondido, CA",
+      "intro": "Postal Systems designs and installs ADA-conscious commercial mailbox systems for HOAs, apartments, and mixed-use properties throughout Escondido. We help owners and boards upgrade older mail stations so residents with mobility needs can reach their mail safely and USPS can continue delivery without access concerns.",
+      "sections": [
+        {
+          "id": "why-ada-escondido",
+          "heading": "Why Escondido properties are updating mailbox accessibility",
+          "body": "Escondido communities range from older garden-style apartments to newer townhome developments. Many of the original mailbox pads and pedestals were designed before today’s accessibility expectations. When residents struggle with slopes, steps, or high-mounted compartments, managers know it is time to review ADA implications.",
+          "bullets": [
+            "Legacy concrete pads may have slopes that are too steep for wheelchairs or walkers",
+            "Mailbox heights can exceed recommended reach ranges for seated users",
+            "Steps, curbs, or narrow walkways limit access from accessible parking or routes",
+            "Informal repairs over time can create uneven approaches and trip hazards",
+            "Boards and owners want to reduce risk while supporting residents who rely on easier access"
+          ],
+          "closing": "We look at how your Escondido residents actually reach the mail stations and then design improvements that respect both accessibility and site constraints."
+        },
+        {
+          "id": "common-projects-escondido",
+          "heading": "Common ADA-related mailbox projects we handle in Escondido",
+          "body": "Our ADA-focused work in Escondido often coincides with paving, walkway, or amenity upgrades. We integrate mailbox improvements into those projects or scope them as focused efforts when mail access has become a priority.",
+          "bullets": [
+            "Re-pouring or modifying mailbox pads to provide flatter landings and better drainage",
+            "Re-mounting CBUs or 4C cabinets at heights that support accessible reach ranges",
+            "Relocating mail stations closer to accessible parking or primary accessible routes",
+            "Creating clearer, wider approaches so mobility devices can maneuver at the mail stations",
+            "Advising when incremental modifications are sufficient versus when full replacement is warranted"
+          ],
+          "closing": "Each project includes clear notes on what is being improved and how it supports more accessible mail access for residents."
+        },
+        {
+          "id": "coordination-escondido",
+          "heading": "How we integrate ADA-compliant mailbox upgrades into Escondido properties",
+          "body": "ADA-conscious mailbox work in Escondido has to respect drive aisles, parking counts, and the way residents and service vehicles move through the property. We design and schedule work so your property remains functional while upgrades are made.",
+          "bullets": [
+            "Walk the site to map existing mail locations, routes from parking, and grade changes",
+            "Flag the most significant barriers and prioritize improvements that help residents most",
+            "Coordinate with your paving, concrete, or general contractors where applicable",
+            "Phase work so residents retain mail access while pads and cabinets are adjusted",
+            "Discuss layout changes with USPS to keep carrier access efficient and predictable"
+          ],
+          "closing": "Our goal is to make ADA-compliant mailbox installations in Escondido feel like a natural part of your property improvements—not a separate, disruptive project."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do we have to replace all of our mailboxes to address ADA concerns in Escondido?",
+          "answer": "Not necessarily. In many cases, strategic pad changes, cabinet relocations, or reconfigurations can create accessible options within your existing system. After a site walk, we explain what can be improved without full replacement and when replacement is advisable."
+        },
+        {
+          "question": "Can you coordinate ADA-focused mailbox work with other site upgrades in Escondido?",
+          "answer": "Yes. We often align mailbox accessibility improvements with paving, walkway, or amenity projects so you minimize disruption and contractor overlap."
+        },
+        {
+          "question": "Will ADA-compliant mailbox changes affect USPS delivery in Escondido?",
+          "answer": "Our designs keep carrier access in mind. We review proposed changes with USPS where appropriate so your new mailbox layout works for residents and routes."
+        },
+        {
+          "question": "Can you phase ADA mailbox improvements at our Escondido property?",
+          "answer": "We can prioritize the highest-impact locations first and plan additional phases over time, helping you manage budgets while steadily improving accessibility."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "encinitas",
+          "label": "Encinitas, CA",
+          "url": "/service-areas/encinitas/ada-compliant-installs/"
+        }
+      ]
+    },
+    "vista": {
+      "citySlug": "vista",
+      "cityName": "Vista",
+      "state": "CA",
+      "h1": "ADA-compliant mailbox installs in Vista, CA",
+      "intro": "Postal Systems designs and installs ADA-compliant mailbox stations for HOAs, apartments, and commercial properties across Vista. We address slopes, reach ranges, and approach clearances so residents with mobility needs can access mail safely—and USPS can service equipment without issues.",
+      "sections": [
+        {
+          "id": "why-ada-vista",
+          "heading": "Why Vista properties upgrade to ADA-compliant mailboxes",
+          "body": "Vista communities often combine older mail stations with newer construction. As accessibility expectations increase, boards and owners want to be confident that their mailbox layouts meet current ADA guidance and reduce risk for residents and visitors.",
+          "bullets": [
+            "Existing mail stations sitting on sloped or uneven walks that make access difficult",
+            "Boxes mounted too high or too low for ADA reach range recommendations",
+            "Narrow approaches where wheelchairs, walkers, or scooters struggle to maneuver",
+            "Mixed equipment added over the years without a coordinated accessibility plan",
+            "Reserve studies and risk reviews calling out accessibility gaps at mail locations"
+          ],
+          "closing": "We help Vista properties move from “good enough” to clearly documented, ADA-conscious mail stations that work better for everyone."
+        },
+        {
+          "id": "common-ada-projects-vista",
+          "heading": "Common ADA-focused mailbox projects in Vista",
+          "body": "Most ADA upgrades in Vista start with either a complaint, a reserve study note, or a planned equipment replacement. We design projects that address accessibility and USPS requirements at the same time.",
+          "bullets": [
+            "Rebuilding or expanding concrete pads to create level, stable approaches",
+            "Adjusting mounting heights to keep boxes within recommended reach ranges",
+            "Reconfiguring mailbox layouts so accessible compartments are easy to reach",
+            "Relocating mail stations away from steep slopes or tight corners",
+            "Combining ADA upgrades with new CBUs or 4C equipment for long-term compliance"
+          ],
+          "closing": "Each Vista project is documented so boards and owners can show a clear, thoughtful response to accessibility concerns."
+        },
+        {
+          "id": "coordination-vista",
+          "heading": "How we plan ADA-compliant mailbox installs in Vista",
+          "body": "Vista sites vary—some are hillside communities, others are tight infill projects. We plan ADA work around those realities so accessibility improves without creating new issues.",
+          "bullets": [
+            "Walk each site to measure slopes, clearances, and current reach ranges",
+            "Review USPS expectations so accessibility and carrier access stay aligned",
+            "Recommend specific layout, pad, and height changes to improve access",
+            "Plan work hours and phasing so residents can still receive daily mail",
+            "Provide a clear summary of changes made for your records and future audits"
+          ],
+          "closing": "You get a Vista mailbox project that feels intentional, documented, and built around accessibility from the start."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you bring our existing Vista mailboxes closer to ADA guidelines without full replacement?",
+          "answer": "In many cases we can improve approaches, heights, and layouts around existing equipment in Vista. During our visit, we will outline what can be upgraded and when replacement may be the better long-term option."
+        },
+        {
+          "question": "Do you design new mailbox locations in Vista with ADA access in mind from day one?",
+          "answer": "Yes. For new or relocated mail stations in Vista, we plan pad size, slopes, turning space, and mounting heights so accessibility is baked into the initial design."
+        },
+        {
+          "question": "Will our ADA mailbox updates in Vista affect USPS carrier access?",
+          "answer": "Our designs consider both ADA guidance and USPS servicing needs. When we change layouts or heights, we do so within USPS expectations so carriers can continue servicing the route efficiently."
+        },
+        {
+          "question": "Can ADA upgrades be combined with other mailbox work in Vista?",
+          "answer": "Often, the most cost-effective approach is to combine ADA upgrades with replacements, relocations, or parcel locker additions. We can design a project that addresses all of those at once."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "escondido",
+          "label": "Escondido, CA",
+          "url": "/service-areas/escondido/ada-compliant-installs/"
+        }
+      ]
+    },
+    "poway": {
+      "citySlug": "poway",
+      "cityName": "Poway",
+      "state": "CA",
+      "h1": "ADA-compliant mailbox installs in Poway, CA",
+      "intro": "Postal Systems designs ADA-conscious mailbox layouts for HOAs, business parks, and institutional properties in Poway. We focus on practical upgrades that improve access for residents and visitors while keeping USPS equipment compliant and serviceable.",
+      "sections": [
+        {
+          "id": "why-ada-poway",
+          "heading": "Why Poway properties invest in ADA-aware mailbox upgrades",
+          "body": "Poway’s communities and business parks see a wide range of visitors and residents, including older adults and people using mobility devices. Mail stations that were acceptable years ago may no longer meet today’s expectations for access and safety.",
+          "bullets": [
+            "Mail stations built on older walkways that no longer meet accessibility expectations",
+            "Pedestal locations that require steep approaches or awkward turns",
+            "Boxes mounted at inconsistent heights after phased additions or changes",
+            "Properties adding ramps and routes but leaving mail equipment unchanged",
+            "Owners who want documentation showing a proactive ADA approach at key amenities"
+          ],
+          "closing": "We help Poway properties address these issues with targeted, well-documented mailbox improvements."
+        },
+        {
+          "id": "common-ada-projects-poway",
+          "heading": "Common ADA-related mailbox projects we see in Poway",
+          "body": "ADA upgrades in Poway often emerge alongside broader site improvements—new ramps, re-striped parking, or amenity upgrades. We design mailbox work that fits into that bigger picture.",
+          "bullets": [
+            "Relocating mailbox pads to align with accessible parking and routes",
+            "Re-pouring or extending pads to provide level, stable standing areas",
+            "Adjusting cabinet heights and grouping accessible compartments logically",
+            "Reconfiguring multiple small mail clusters into a more accessible central location",
+            "Integrating ADA-focused changes when replacing aging mail equipment"
+          ],
+          "closing": "Our goal is to make your Poway mailbox stations feel like part of a holistic accessibility plan, not an afterthought."
+        },
+        {
+          "id": "coordination-poway",
+          "heading": "How we design and schedule ADA-compliant installs in Poway",
+          "body": "Poway properties value predictable projects and clear communication. We build that into the way we handle ADA-focused mailbox work.",
+          "bullets": [
+            "Walk the site with your team to understand how residents and staff currently use the area",
+            "Measure slopes, clearances, and heights before recommending changes",
+            "Coordinate with any parallel work such as ramps, paving, or striping",
+            "Phase work so residents and carriers maintain reliable mail access",
+            "Provide a concise summary of ADA-related changes upon completion"
+          ],
+          "closing": "You end up with a Poway mailbox installation that feels coordinated with your broader accessibility and site plans."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you review our existing Poway mail stations for ADA considerations?",
+          "answer": "Yes. We can walk your Poway property, review current mail locations, and provide practical recommendations for improving accessibility around existing or planned equipment."
+        },
+        {
+          "question": "Do ADA upgrades to mailboxes in Poway always require new equipment?",
+          "answer": "Not always. Sometimes access routes, pads, and heights can be improved around existing equipment. Other times, replacement is the best way to resolve multiple issues at once. We will explain the tradeoffs for your specific site."
+        },
+        {
+          "question": "Will ADA-focused mailbox work in Poway disrupt daily mail service?",
+          "answer": "We plan work windows and phasing to minimize disruption. On many projects, we can keep at least one active mail location available while upgrades are completed."
+        },
+        {
+          "question": "Can you coordinate ADA mailbox work with our other site contractors in Poway?",
+          "answer": "Yes. We are used to working alongside paving, concrete, and general contractors, and can coordinate sequence and layout so the final result feels cohesive."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/ada-compliant-installs/"
+        }
+      ]
+    },
+    "san-marcos": {
+      "citySlug": "san-marcos",
+      "cityName": "San Marcos",
+      "state": "CA",
+      "h1": "ADA-compliant mailbox installs in San Marcos, CA",
+      "intro": "Postal Systems provides ADA-focused mailbox design and installation for HOAs, student housing, and mixed-use communities throughout San Marcos. We help properties align mail stations with modern accessibility expectations and USPS servicing requirements.",
+      "sections": [
+        {
+          "id": "why-ada-san-marcos",
+          "heading": "Why San Marcos communities focus on ADA-conscious mailbox layouts",
+          "body": "San Marcos has a mix of traditional residential neighborhoods, student-oriented properties, and denser mixed-use sites. In each, mail access is a daily touchpoint where accessibility needs to be taken seriously.",
+          "bullets": [
+            "Residents and visitors using wheelchairs, walkers, or scooters to access mail",
+            "Equipment installed years ago with little attention to slopes or approach clearances",
+            "Mailboxes distributed across the site without consistent access planning",
+            "Communities adding accessible routes but leaving mail locations out of scope",
+            "Boards wanting to reduce risk and demonstrate a proactive approach to accessibility"
+          ],
+          "closing": "We design San Marcos mailbox projects that make mail access simpler, safer, and more inclusive."
+        },
+        {
+          "id": "common-ada-projects-san-marcos",
+          "heading": "Common ADA-related mailbox projects in San Marcos",
+          "body": "ADA-conscious work in San Marcos usually involves both site improvements and mailbox upgrades. We connect those pieces so the final layout works day to day.",
+          "bullets": [
+            "Relocating mail stations to flatter, better-lit parts of the property",
+            "Rebuilding pads to provide level surfaces and clearer turning space",
+            "Setting box heights and groupings so key compartments are within reach",
+            "Consolidating scattered small banks into a more accessible central station",
+            "Pairing ADA improvements with new CBUs, 4C mailboxes, or parcel lockers"
+          ],
+          "closing": "Each project is documented so your San Marcos community can show what was improved and why."
+        },
+        {
+          "id": "coordination-san-marcos",
+          "heading": "How we coordinate ADA mailbox installs in San Marcos",
+          "body": "San Marcos projects often involve multiple stakeholders—boards, management teams, sometimes campus or student housing leadership. We structure mailbox upgrades so everyone understands the plan.",
+          "bullets": [
+            "Reviewing photos, site plans, and current mail patterns before we start",
+            "Walking the property to confirm slopes, clearances, and practical constraints",
+            "Explaining proposed changes in simple terms that boards and owners can approve",
+            "Scheduling construction around resident and carrier needs",
+            "Providing a written summary of key ADA-related design decisions"
+          ],
+          "closing": "The result is an ADA-conscious mailbox installation in San Marcos that feels coordinated rather than pieced together."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you help us plan ADA mailbox improvements as part of a larger San Marcos renovation?",
+          "answer": "Yes. We frequently coordinate mailbox accessibility upgrades alongside broader site improvements in San Marcos, such as paving, ramps, and common area renovations."
+        },
+        {
+          "question": "Do you design ADA-conscious mail layouts for student housing in San Marcos?",
+          "answer": "We do. Student-oriented properties often have higher traffic and varied accessibility needs, and we account for those when planning mail locations and layouts."
+        },
+        {
+          "question": "How do you balance ADA guidance with USPS requirements in San Marcos?",
+          "answer": "We design with both in mind—aligning heights, clearances, and approaches with ADA guidance while ensuring USPS can safely and efficiently service the equipment."
+        },
+        {
+          "question": "Can you provide documentation of ADA-related changes for our San Marcos board files?",
+          "answer": "Yes. At the end of the project, we can summarize key accessibility-oriented changes and decisions so your board has a clear record for its files."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "escondido",
+          "label": "Escondido, CA",
+          "url": "/service-areas/escondido/ada-compliant-installs/"
+        }
+      ]
+    },
+    "temecula": {
+      "citySlug": "temecula",
+      "cityName": "Temecula",
+      "state": "CA",
+      "h1": "ADA-compliant mailbox installs in Temecula, CA",
+      "intro": "Postal Systems designs and installs ADA-compliant mailbox systems for HOAs, apartments, and commercial properties throughout Temecula. We help you address slope, reach, and access requirements so residents with mobility needs can safely and independently retrieve their mail.",
+      "sections": [
+        {
+          "id": "why-ada-temecula",
+          "heading": "Why Temecula communities focus on ADA-compliant mailbox layouts",
+          "body": "As Temecula has grown, many properties have added new buildings, parking areas, and amenities. Mailbox locations that once seemed convenient may now create challenges for residents who use mobility devices or have limited reach and balance.",
+          "bullets": [
+            "Old mail stations placed on steep driveways or sloped walkways",
+            "Pedestal heights and box locations that don’t meet current reach ranges",
+            "Routes to mailboxes that require crossing active drive aisles or long grades",
+            "Limited lighting or narrow approaches that are difficult for mobility devices",
+            "USPS or city feedback that existing mailbox layouts should be brought up to current standards"
+          ],
+          "closing": "We help Temecula properties update their mailbox systems so residents with disabilities can use them safely and confidently while meeting USPS expectations."
+        },
+        {
+          "id": "common-ada-projects-temecula",
+          "heading": "Common ADA-focused mailbox projects we handle in Temecula",
+          "body": "ADA projects in Temecula range from small corrections around an existing mail station to complete relocation and redesign of clustered mailboxes for entire communities.",
+          "bullets": [
+            "Reconfiguring mailbox locations and approaches to provide level, stable access",
+            "Adjusting box locations and heights to align with ADA reach guidelines",
+            "Relocating CBUs or 4C equipment away from steep slopes or tight corners",
+            "Adding or rebuilding pads to provide clear, obstruction-free maneuvering space",
+            "Combining ADA upgrades with new CBUs, parcel lockers, or replacement projects"
+          ],
+          "closing": "For each Temecula project, we balance practical construction details with accessibility, resident experience, and USPS service requirements."
+        },
+        {
+          "id": "process-ada-temecula",
+          "heading": "How our ADA-compliant mailbox installation process works in Temecula",
+          "body": "We use a documented process so boards, managers, and owners in Temecula understand how ADA considerations are incorporated from layout through inspection.",
+          "bullets": [
+            "Walk the site to review slopes, approaches, clearances, and existing equipment",
+            "Identify specific ADA concerns and how they impact residents today",
+            "Recommend mailbox locations, pad designs, and box layouts that meet guidelines",
+            "Coordinate work with your construction schedules and resident communication",
+            "Complete installation, verify clearances, and prepare for USPS inspection"
+          ],
+          "closing": "The result is a mailbox system in Temecula that is easier to use, easier to maintain, and aligned with current ADA expectations."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you evaluate our current Temecula mailbox setup for ADA issues?",
+          "answer": "Yes. We can walk your property, review slopes, reach ranges, and approaches, and then document where your current system falls short along with practical upgrade options."
+        },
+        {
+          "question": "Do ADA-compliant mailbox projects in Temecula always require full replacement?",
+          "answer": "Not always. In some cases, targeted pad work, reconfiguration, or relocating specific clusters can address the most important issues. During our visit we outline both minimal and comprehensive options."
+        },
+        {
+          "question": "Can you combine ADA upgrades with a larger mailbox replacement in Temecula?",
+          "answer": "Yes. Many communities choose to address ADA and equipment-age concerns at the same time. We design layouts and scopes that incorporate both so you only coordinate one project."
+        },
+        {
+          "question": "Do you coordinate with USPS for ADA-related mailbox changes in Temecula?",
+          "answer": "We work with USPS to review proposed mailbox locations and layouts and help ensure the final configuration is workable for carriers while meeting your accessibility goals."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "riverside-county",
+          "label": "Riverside County, CA",
+          "url": "/service-areas/riverside-county/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "san-marcos",
+          "label": "San Marcos, CA",
+          "url": "/service-areas/san-marcos/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "vista",
+          "label": "Vista, CA",
+          "url": "/service-areas/vista/ada-compliant-installs/"
+        }
+      ]
+    },
+    "el-cajon": {
+      "citySlug": "el-cajon",
+      "cityName": "El Cajon",
+      "state": "CA",
+      "h1": "ADA-compliant mailbox installs in El Cajon, CA",
+      "intro": "Postal Systems designs and installs ADA-conscious mailbox layouts for El Cajon HOAs, apartments, and commercial sites. We help properties update older mail stations so residents with mobility needs can access their mail without unsafe slopes, tight approaches, or awkward reach angles.",
+      "sections": [
+        {
+          "id": "why-ada-el-cajon",
+          "heading": "Why El Cajon properties are updating mailbox access for ADA",
+          "body": "El Cajon includes established neighborhoods and properties where mailboxes were installed long before current accessibility standards were common. As communities modernize, boards and owners are taking a closer look at how residents actually reach and use their mailboxes.",
+          "bullets": [
+            "Mail stations placed on slopes or driveway edges that are difficult to navigate",
+            "Limited turning space in front of equipment for wheelchairs or walkers",
+            "Boxes mounted too high or too low for comfortable, independent use",
+            "Routes to mailboxes that cross active drive aisles without clear pedestrian space",
+            "Feedback from residents, risk managers, or insurers about accessibility concerns"
+          ],
+          "closing": "We help El Cajon properties move away from legacy layouts toward mailbox systems that better serve residents today."
+        },
+        {
+          "id": "common-ada-projects-el-cajon",
+          "heading": "Common ADA-related mailbox projects we complete in El Cajon",
+          "body": "Our work in El Cajon ranges from small improvements at a single mail station to full replacement and relocation of multiple clusters across a community.",
+          "bullets": [
+            "Relocating mail stations from steep or uneven areas to more level locations",
+            "Rebuilding or expanding pads to provide adequate maneuvering clearance",
+            "Reconfiguring mailbox columns and heights to improve reach for residents",
+            "Combining ADA updates with new CBUs, 4C equipment, or parcel lockers",
+            "Phasing work so residents retain predictable access to mail during upgrades"
+          ],
+          "closing": "Each El Cajon project is designed around your actual site constraints, resident needs, and USPS delivery patterns."
+        },
+        {
+          "id": "process-ada-el-cajon",
+          "heading": "How our ADA-compliant mailbox installation process works in El Cajon",
+          "body": "We follow a consistent process so El Cajon boards, managers, and owners understand how ADA, USPS, and construction details fit together.",
+          "bullets": [
+            "Walk the existing mail locations and surrounding grades, routes, and access points",
+            "Discuss resident concerns and any prior feedback from USPS or inspectors",
+            "Propose revised locations, pad designs, and mailbox layouts with ADA in mind",
+            "Coordinate scheduling, communication, and any required phasing with your team",
+            "Install new or reconfigured equipment and prepare it for USPS inspection"
+          ],
+          "closing": "By the end of the project, your El Cajon property has a mailbox system that is easier and safer to use for a wider range of residents."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you review our El Cajon mailbox areas for ADA and safety concerns?",
+          "answer": "Yes. We can walk your existing mail locations, identify accessibility red flags, and provide specific recommendations for improvements or full upgrades."
+        },
+        {
+          "question": "Do ADA-compliant mailbox upgrades in El Cajon always require moving equipment?",
+          "answer": "Not always. Sometimes targeted pad work or reconfiguration can make a meaningful difference. When relocation is required, we explain why and outline practical options."
+        },
+        {
+          "question": "Can you combine ADA-related mailbox work with general repairs or replacements in El Cajon?",
+          "answer": "Yes. Many El Cajon projects combine ADA improvements with broader repairs, lock changes, or full equipment replacement so the community only has to coordinate one construction effort."
+        },
+        {
+          "question": "Do you help communicate mailbox changes to residents in El Cajon?",
+          "answer": "We can provide information for boards and managers to share with residents about new locations, schedules, and what to expect during the upgrade process."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "chula-vista",
+          "label": "Chula Vista, CA",
+          "url": "/service-areas/chula-vista/ada-compliant-installs/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/ada-compliant-installs/"
+        }
+      ]
+    }
+  }
+}

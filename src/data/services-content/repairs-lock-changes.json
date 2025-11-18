@@ -1,0 +1,81 @@
+{
+  "serviceSlug": "repairs-lock-changes",
+  "h2Blocks": [
+    {
+      "id": "what-we-handle",
+      "heading": "Mailbox repairs and lock changes for HOAs, apartments, and commercial sites",
+      "body": "Postal Systems provides USPS-approved mailbox repairs and lock changes for cluster box units (CBUs), 4C wall-mounted mailboxes, and parcel lockers throughout San Diego County. We help HOAs, property managers, and owners keep existing equipment secure and compliant without rushing into a full replacement before it is needed.",
+      "bullets": [
+        "Lock and key changeouts for CBUs, 4C mailboxes, and parcel lockers",
+        "Repair or replacement of damaged doors, hinges, and tenant compartments",
+        "Fixing vandalism, pried doors, and broken or missing hardware",
+        "Adjusting, leveling, and anchoring cabinets that have shifted over time",
+        "Upgrading older locks and hardware as part of a broader security plan"
+      ],
+      "closing": "Our goal is to extend the life of your existing mailbox equipment where it still makes sense, and to give you a clear recommendation when a full replacement is the better long-term option."
+    },
+    {
+      "id": "when-people-call",
+      "heading": "When San Diego properties call for mailbox repairs and lock changes",
+      "body": "Most repair and lock change projects start with a resident complaint, a USPS notice, or visible damage. We are usually called in when managers, boards, or owners need a fast, professional response from a contractor who understands USPS requirements.",
+      "bullets": [
+        "Residents have lost keys or are locked out of their mailbox",
+        "Tenant or parcel doors are not closing, latching, or aligning correctly",
+        "USPS has left a note about broken, unsafe, or unsecured mail equipment",
+        "Vandalism or attempted theft has damaged compartments or locks",
+        "A change in ownership or management requires bulk lock changes"
+      ],
+      "closing": "Instead of piecing together ad-hoc fixes, you get a documented repair scope, clear pricing, and work performed by a team that works with commercial mailbox systems every day."
+    },
+    {
+      "id": "process",
+      "heading": "Our process for mailbox repairs and lock change projects",
+      "body": "Even for smaller repair jobs, we follow a simple, consistent process so you know what to expect and residents understand what is happening with their mail.",
+      "steps": [
+        {
+          "title": "Photos, notes, and site review",
+          "detail": "We review photos, USPS notices, and your description of the problem. For larger repair projects we schedule a quick site visit to confirm counts, access, and safety considerations."
+        },
+        {
+          "title": "Clear scope and pricing",
+          "detail": "You receive a written repair scope that outlines which units will be serviced, which locks will be changed, and any hardware that needs to be replaced so there are no surprises."
+        },
+        {
+          "title": "Scheduling and resident communication",
+          "detail": "We coordinate repair dates and times that work for your property, and where needed we provide language your team can use to notify residents about access, keys, and timing."
+        },
+        {
+          "title": "On-site repairs and lock changes",
+          "detail": "Our crew performs the repairs, replaces locks or hardware as needed, confirms that doors close and latch correctly, and verifies that equipment is secure before we leave the site."
+        },
+        {
+          "title": "Follow-up and recommendations",
+          "detail": "If we see issues that point toward the need for future replacement, we document those findings and, if requested, provide a quote for a full CBU or 4C upgrade."
+        }
+      ],
+      "closing": "Whether you are dealing with one damaged mailbox door or a full bank of units that needs lock changes, we treat the project with the same focus on security, compliance, and clear communication."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can you change mailbox locks for an entire HOA or building at once?",
+      "answer": "Yes. We regularly perform bulk lock and key changeouts for HOAs, condominiums, and apartment communities across San Diego County. We confirm counts in advance, phase the work to maintain mail access, and provide clear direction on how and when residents receive their new keys."
+    },
+    {
+      "question": "Do you coordinate with USPS for repair and lock change work?",
+      "answer": "For most lock and repair projects, USPS primarily cares that equipment is secure, accessible, and properly labeled. When a repair project overlaps with layout changes, relocations, or more extensive upgrades, we coordinate with USPS to make sure there are no surprises at inspection."
+    },
+    {
+      "question": "How fast can you respond to mailbox repair requests?",
+      "answer": "Response time depends on workload and the size of the project, but we understand that broken or unsecured mailboxes are urgent. We prioritize repair and security issues and will let you know up front what the timeline looks like for site review and completion."
+    },
+    {
+      "question": "Can you repair older mailboxes or do they always need to be replaced?",
+      "answer": "Many older CBUs and 4C mailboxes can be repaired cost-effectively, especially when cabinets are structurally sound. During our review we will tell you honestly whether a repair makes sense or if replacement is the better long-term choice based on security, compliance, and available parts."
+    },
+    {
+      "question": "Do you work with both managed communities and individual property owners?",
+      "answer": "Yes. We primarily work with HOAs, property managers, and building owners, but we also assist smaller properties and individual owners when their mail equipment falls under a shared or centralized system."
+    }
+  ]
+}

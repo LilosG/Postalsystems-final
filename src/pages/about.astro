@@ -1,62 +1,231 @@
----const pageTitle = "About | Postal Systems";
-const desc = "";
-import SiteLayout from "../layouts/SiteLayout.astro";
-import Header from "../components/Header.astro";
-import HeroSection from "../components/sections/HeroSection.astro";
-import WhyChooseSection from "../components/sections/WhyChooseSection.astro";
-import ProcessSection from "../components/sections/ProcessSection.astro";
-import FAQSection from "../components/sections/FAQSection.astro";
-import QuoteSection from "../components/sections/QuoteSection.astro";
-import Footer from "../components/Footer.astro";
+---
+import SiteLayout from "../layouts/SiteLayout.astro"
+import SectionHeader from "../components/ui/SectionHeader.astro"
+import TrustGrid from "../components/TrustGrid.astro"
+import ProcessStrip from "../components/ProcessStrip.astro"
+import CTA from "../components/ui/CTA.astro"
+
+const title = "About Postal Systems | USPS-Approved Mailbox Contractor in San Diego County"
+const description =
+  "Postal Systems is a USPS-approved, licensed, bonded, and insured commercial mailbox contractor serving HOAs, apartments, builders, and facilities across San Diego County."
+const canonical = "https://sandiegocommercialmailboxes.com/about/"
 
 const schema = {
-  "@context":"https://schema.org",
-  "@type":"LocalBusiness",
-  "name":"Postal Systems",
-  "description":"USPS-approved commercial mailbox installation, repair and replacement. We install Cluster Box Units (CBUs), parcel lockers, 4C mailboxes, and ADA-compliant mailbox stations; pour pads and set anchors; coordinate USPS inspection; perform lock and key changeouts; and provide warranty and ongoing support.",
-  "telephone":"(619) 461-4787",
-  "email":"info@postalsystemspro.com",
-  "address":{
-    "@type":"PostalAddress",
-    "streetAddress":"PO Box 850",
-    "addressLocality":"La Mesa",
-    "addressRegion":"CA",
-    "postalCode":"91944",
-    "addressCountry":"US"
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Postal Systems",
+  "description": "USPS-approved commercial mailbox installation, repair and replacement. We install Cluster Box Units (CBUs), parcel lockers, 4C mailboxes, and ADA-compliant mailbox stations; pour pads and set anchors; coordinate USPS inspection; perform lock and key changeouts; and provide warranty and ongoing support.",
+  "telephone": "(619) 461-4787",
+  "email": "info@postalsystemspro.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "PO Box 850",
+    "addressLocality": "La Mesa",
+    "addressRegion": "CA",
+    "postalCode": "91944",
+    "addressCountry": "US"
   },
-  "areaServed":[
+  "areaServed": [
     "San Diego County, CA",
     "Select cities in Orange County, CA",
     "Select cities in Riverside County, CA"
   ],
-  "license":"Licensed, Bonded & Insured • CA Lic. #904106"
-};
-export const prerender = true;
+  "url": "https://sandiegocommercialmailboxes.com/",
+  "sameAs": [],
+  "license": "Licensed, Bonded & Insured • CA Lic. #904106"
+}
+
+export const prerender = true
 ---
-<SiteLayout title={pageTitle} description={desc}>
-<html lang="en">
-  <head>
-    <link rel="canonical" href="https://sandiegocommercialmailboxes.com/about/">
-    <meta charset="utf-8" />
-    <title>About — Postal Systems</title>
-    <meta name="description" content="Postal Systems is a USPS-approved, licensed, bonded & insured commercial mailbox contractor serving San Diego County." />
-    <script is:inline is:inline is:inline type="application/ld+json">{JSON.stringify(schema)}</script>
-  </head>
-  <body>
-    <h1 class="text-3xl font-bold tracking-tight">About Postal Systems</h1>
-    <Header /><HeroSection heading="Licensed, Bonded & Insured" sub="USPS-approved commercial mailbox contractor. We handle USPS coordination, ADA compliance, permits, pads, anchors, and inspection signoff." />
-    <section class="py-16">
-      <div class="container mx-auto px-4 max-w-3xl space-y-6">
-        <p>We are the easy button for HOAs, property managers, builders, and facilities in San Diego County. Our turnkey installs include site layout, detailed quoting, scheduling and tenant notice, installation with pads and anchors, and USPS inspection and handover.</p>
-        <p>Postal Systems is licensed, bonded & insured. CA Lic. #904106.</p>
-        <p>Service available in select cities in Orange County and Riverside County.</p>
+<SiteLayout {title} description={description} canonical={canonical}>
+  <main class="bg-ps-surface">
+    <section class="border-b border-ps-muted bg-white">
+      <div class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-14 grid gap-10 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] items-start">
+        <div>
+          <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-navy/70">
+            About Postal Systems
+          </p>
+          <h1 class="mt-2 text-3xl md:text-4xl font-semibold tracking-tight text-ps-navy">
+            Licensed, bonded & insured mailbox specialists.
+          </h1>
+          <p class="mt-3 text-sm md:text-base text-ps-navy/85 max-w-xl">
+            Postal Systems is a USPS-approved commercial mailbox contractor serving San Diego County and select surrounding markets. We focus on compliant, turnkey mailbox systems so boards, managers, and builders have one expert team handling layout, installation, and USPS sign-off.
+          </p>
+          <p class="mt-3 text-sm md:text-base text-ps-navy/80 max-w-xl">
+            For more than two decades, we have helped HOAs, apartments, builders, and facilities upgrade failing or outdated mail stations to secure, code-compliant systems residents and carriers can count on.
+          </p>
+
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a
+              href="/contact/"
+              class="inline-flex items-center justify-center rounded-full bg-ps-red px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-ps-red/90 transition"
+            >
+              Get a USPS-approved quote
+            </a>
+            <a
+              href="tel:16194614787"
+              class="inline-flex items-center justify-center rounded-full border border-ps-navy/20 bg-white px-5 py-2.5 text-sm font-semibold text-ps-navy hover:bg-ps-navy hover:text-white transition"
+            >
+              Call (619) 461-4787
+            </a>
+          </div>
+        </div>
+
+        <aside class="rounded-3xl bg-ps-surface shadow-ps border border-ps-muted px-5 py-5 md:px-6 md:py-6">
+          <h2 class="text-sm font-semibold text-ps-navy">
+            Company at a glance
+          </h2>
+          <dl class="mt-3 space-y-2 text-xs sm:text-sm text-ps-navy/85">
+            <div class="flex justify-between gap-3">
+              <dt class="font-medium">License</dt>
+              <dd>CA Lic. #904106</dd>
+            </div>
+            <div class="flex justify-between gap-3">
+              <dt class="font-medium">Experience</dt>
+              <dd>20+ years in commercial mailbox projects</dd>
+            </div>
+            <div class="flex justify-between gap-3">
+              <dt class="font-medium">Service area</dt>
+              <dd>San Diego County and select surrounding cities</dd>
+            </div>
+            <div class="flex justify-between gap-3">
+              <dt class="font-medium">Specialties</dt>
+              <dd class="text-right">
+                CBUs, 4C mailboxes, parcel lockers, ADA-compliant layouts
+              </dd>
+            </div>
+          </dl>
+          <div class="mt-4 border-t border-ps-muted pt-4 text-xs text-ps-navy/80">
+            <div class="font-semibold text-[11px] uppercase tracking-[0.18em] text-ps-navy/70">
+              Contact
+            </div>
+            <p class="mt-1">
+              Postal Systems<br />
+              PO Box 850<br />
+              La Mesa, CA 91944
+            </p>
+            <p class="mt-1">
+              Phone: <a href="tel:16194614787" class="font-semibold hover:underline">(619) 461-4787</a><br />
+              Email: <a href="mailto:info@postalsystemspro.com" class="font-semibold hover:underline">info@postalsystemspro.com</a>
+            </p>
+          </div>
+        </aside>
       </div>
     </section>
-    <WhyChooseSection />
-    <ProcessSection />
-    <FAQSection />
-    <QuoteSection />
-    <Footer />
-  </body>
-</html>
+
+    <section class="border-b border-ps-muted bg-ps-surface">
+      <div class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-14 space-y-6">
+        <SectionHeader
+          title="The easy button for mailbox projects"
+          subtitle="We specialize in commercial mailbox systems, so your team does not have to become experts on USPS guidelines and hardware options."
+          align="left"
+        />
+        <div class="grid gap-8 md:grid-cols-2 text-sm text-ps-navy/85">
+          <div class="space-y-3">
+            <p>
+              Most projects start with a problem: vandalized boxes, rusted pedestals, USPS notices, or new construction that needs a compliant mail station on a tight schedule. We step in with a clear plan, detailed quoting, and a documented process so there are no surprises.
+            </p>
+            <p>
+              From design and layout through pad work, hardware installation, and USPS inspection, our team manages each step. Boards, managers, and superintendents get one point of contact and updates they can share with stakeholders.
+            </p>
+          </div>
+          <div class="space-y-3">
+            <p>
+              Because we focus on mailboxes, we know the details that matter: carrier access, ADA reach ranges, slab and anchor requirements, and how USPS will review your site on inspection day. That focus keeps projects moving and reduces rework.
+            </p>
+            <ul class="space-y-1.5">
+              <li>• Turnkey projects from layout to inspection.</li>
+              <li>• Transparent pricing and written scopes.</li>
+              <li>• Experience with HOAs, apartments, builders, and facilities.</li>
+              <li>• Long-term support for keys, locks, and repairs.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="border-b border-ps-muted bg-white">
+      <div class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
+        <SectionHeader
+          title="Who we serve"
+          subtitle="We work with managed communities, builders, and organizations that need reliable mailbox systems and clear coordination with USPS."
+          align="left"
+        />
+        <div class="mt-6 grid gap-5 md:grid-cols-3 text-sm text-ps-navy/85">
+          <div class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
+            <h2 class="text-sm font-semibold text-ps-navy">HOAs &amp; Property Managers</h2>
+            <p class="mt-2 text-xs text-ps-navy/80">
+              Turnkey replacements and upgrades for communities with aging or vandalized mail stations, including tenant communication and USPS coordination.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
+            <h2 class="text-sm font-semibold text-ps-navy">Apartments &amp; Multi-family</h2>
+            <p class="mt-2 text-xs text-ps-navy/80">
+              CBUs, 4C mailboxes, and parcel lockers that keep mail secure and resident-friendly while meeting USPS and accessibility requirements.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
+            <h2 class="text-sm font-semibold text-ps-navy">Builders &amp; Facilities</h2>
+            <p class="mt-2 text-xs text-ps-navy/80">
+              New construction layouts, concrete pads, and inspection support for builders, commercial parks, campuses, and public agencies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-ps-surface border-b border-ps-muted">
+      <div class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
+        <SectionHeader
+          title="Why properties trust Postal Systems"
+          subtitle="Local, USPS-approved contractor focused on compliant, long-lasting mailbox systems."
+          align="left"
+        />
+        <div class="mt-4">
+          <TrustGrid />
+        </div>
+      </div>
+    </section>
+
+    <div class="bg-white border-b border-ps-muted">
+      <div class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
+        <ProcessStrip subtitle="From site visit and layout through USPS sign-off, we handle every step of your mailbox project." />
+      </div>
+    </div>
+
+    <section class="bg-ps-surface">
+      <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12">
+        <div class="rounded-3xl bg-white shadow-ps border border-ps-muted px-5 py-6 md:px-8 md:py-7">
+          <div class="grid gap-4 md:grid-cols-[minmax(0,1.6fr)_minmax(0,1.1fr)] items-center">
+            <div>
+              <h2 class="text-base md:text-lg font-semibold text-ps-navy">
+                Talk through your mailbox project with a specialist.
+              </h2>
+              <p class="mt-1 text-sm text-ps-navy/80">
+                Share where your property is today and where it needs to be. We will recommend options, explain USPS requirements, and provide a clear quote.
+              </p>
+            </div>
+            <div class="flex flex-wrap gap-3 justify-start md:justify-end">
+              <a
+                href="/contact/"
+                class="inline-flex items-center justify-center rounded-full bg-ps-navy px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-ps-navy/90 transition"
+              >
+                Request a quote
+              </a>
+              <a
+                href="tel:16194614787"
+                class="inline-flex items-center justify-center rounded-full border border-ps-navy/20 bg-white px-5 py-2.5 text-sm font-semibold text-ps-navy hover:bg-ps-navy hover:text-white transition"
+              >
+                Call (619) 461-4787
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script is:inline type="application/ld+json">
+      {JSON.stringify(schema)}
+    </script>
+  </main>
 </SiteLayout>

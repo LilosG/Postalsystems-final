@@ -1,0 +1,81 @@
+{
+  "serviceSlug": "mailbox-relocation-consolidation",
+  "h2Blocks": [
+    {
+      "id": "what-we-handle",
+      "heading": "Mailbox relocation and consolidation for safer, more efficient mail delivery",
+      "body": "Postal Systems helps HOAs, apartments, and commercial properties relocate and consolidate mailbox stations so they are safer, more accessible, and easier for USPS to service. Across San Diego County, we move scattered or poorly located mailboxes into centralized, compliant locations that work better for residents, carriers, and property staff.",
+      "bullets": [
+        "Relocating mail stations away from blind corners, drive aisles, or congested parking areas",
+        "Consolidating multiple small mailbox clusters into larger, centralized mail stations",
+        "Moving mailboxes closer to lighting, accessible routes, and active common areas",
+        "Reworking foundations and pedestals to support new locations and configurations",
+        "Aligning new mailbox locations with USPS route efficiency and ADA requirements"
+      ],
+      "closing": "Instead of working around mailboxes that were placed decades ago, you get a relocation or consolidation plan that reflects how your property functions today."
+    },
+    {
+      "id": "when-people-call",
+      "heading": "When San Diego properties call for mailbox relocation and consolidation",
+      "body": "Most relocation and consolidation projects start when mailboxes are simply in the wrong place. Boards, managers, and owners reach out when existing locations are creating safety issues, access problems, or ongoing USPS frustrations.",
+      "bullets": [
+        "Residents have to cross drive aisles or walk long distances to reach scattered mailboxes",
+        "Mail stations sit in dimly lit corners that raise security and theft concerns",
+        "USPS has requested route simplification or cluster consolidation to reduce stops",
+        "Parking and traffic patterns have changed since the original mailboxes were installed",
+        "New phases or renovations make original mailbox locations impractical or unsafe"
+      ],
+      "closing": "We are brought in when properties need a practical plan to move and consolidate mailboxes without losing compliance, safety, or daily mail service."
+    },
+    {
+      "id": "process",
+      "heading": "Our process for mailbox relocation and consolidation projects",
+      "body": "Moving or consolidating mailbox stations affects residents, USPS operations, and the appearance of your property. We follow a structured process so every step is clear before work begins.",
+      "steps": [
+        {
+          "title": "Site review and location study",
+          "detail": "We walk the property, review how residents currently access mail, study traffic and parking patterns, and identify candidate locations that improve safety, access, and visibility."
+        },
+        {
+          "title": "Layout and USPS coordination",
+          "detail": "We create proposed layouts that show new mailbox locations, clearances, and routes. We coordinate with USPS to review these options and confirm what will work for carriers and routes."
+        },
+        {
+          "title": "Detailed proposal and phasing plan",
+          "detail": "You receive a written proposal outlining new locations, equipment needs, pad and pedestal work, demolition of old stations, and a phasing plan that minimizes disruption to mail service."
+        },
+        {
+          "title": "Construction, relocation, and consolidation",
+          "detail": "Our crew pours or modifies pads, sets new pedestals, installs or relocates cabinets, and consolidates scattered mail stations into the agreed central locations. We remove or secure old equipment as needed."
+        },
+        {
+          "title": "USPS inspection and resident handoff",
+          "detail": "We coordinate USPS inspection at the new locations, address any punch-list items, and help your team communicate new mailbox locations and key distribution to residents."
+        }
+      ],
+      "closing": "From initial location study through final USPS sign-off, you have one team managing the entire mailbox relocation and consolidation project."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can we relocate mailboxes without disrupting daily mail service?",
+      "answer": "Most relocation and consolidation projects are phased so residents continue receiving mail while new locations are prepared. We coordinate with USPS to align installation, inspection, and turnover so downtime is minimized and clearly communicated."
+    },
+    {
+      "question": "Does USPS have to approve new mailbox locations?",
+      "answer": "Yes. USPS must review and approve new mailbox locations and layouts, especially when routes are changing or stations are consolidated. We handle that coordination directly and design locations with carrier safety and efficiency in mind."
+    },
+    {
+      "question": "Can relocation help reduce theft or vandalism?",
+      "answer": "Relocating mailboxes to well-lit, visible areas and consolidating into central clusters often reduces theft and vandalism risk. We look at lighting, sight lines, and resident traffic patterns when recommending new locations."
+    },
+    {
+      "question": "Do you handle concrete pads and pedestal work for new locations?",
+      "answer": "Yes. We typically handle pad work, pedestals, and equipment as a single scope so foundations and hardware are built to support the relocated mailboxes and meet manufacturer and USPS guidance."
+    },
+    {
+      "question": "Can we combine relocation with upgrading our mailbox equipment?",
+      "answer": "Relocation and consolidation projects are often the best time to upgrade aging equipment. We can combine new locations with new CBUs, 4C cabinets, and parcel lockers so you address both placement and hardware in a single project."
+    }
+  ]
+}

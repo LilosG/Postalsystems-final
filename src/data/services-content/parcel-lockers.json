@@ -1,0 +1,80 @@
+{
+  "serviceSlug": "parcel-lockers",
+  "h2Blocks": [
+    {
+      "id": "overview",
+      "heading": "Parcel lockers that cut down on theft and missed deliveries",
+      "body": "Postal Systems designs and installs parcel locker systems that work with USPS-approved CBUs and 4C mailboxes across San Diego County. We help HOAs, apartments, and mixed-use properties add secure package storage so residents are not chasing missed deliveries or dealing with boxes left on the ground.",
+      "bullets": [
+        "Add parcel lockers next to existing CBUs and 4C mailboxes",
+        "Design locker banks sized for your resident count and carrier volume",
+        "Upgrade older mail stations to include modern, package-ready equipment",
+        "Improve ADA access, lighting, and sightlines around package areas",
+        "Coordinate with USPS so carriers know exactly how to use the new system"
+      ],
+      "closing": "The result is fewer missed deliveries, fewer complaints, and a package workflow that works for residents, carriers, and your onsite team."
+    },
+    {
+      "id": "when-people-call",
+      "heading": "When San Diego properties call for parcel lockers",
+      "body": "Most parcel locker projects start because packages are going missing, piling up in lobbies, or blocking narrow walkways. Boards and managers are also under pressure from residents who expect better package handling than traditional mailboxes can provide.",
+      "bullets": [
+        "Repeated package theft or damage at existing mail stations",
+        "Carriers leaving parcels on top of CBUs, in planters, or on walkways",
+        "Crowded lobby or mailroom areas that need better organization",
+        "New buildings or phases that require parcel-ready layouts from day one"
+      ],
+      "closing": "We help you evaluate what you have today, where parcels are actually ending up, and what combination of lockers and layout changes will reduce issues long term."
+    },
+    {
+      "id": "process",
+      "heading": "Our process for parcel locker installation projects",
+      "body": "Every parcel locker project follows a documented process so boards, managers, and owners know how the equipment will be integrated with existing mail stations and how USPS will use the new system.",
+      "steps": [
+        {
+          "title": "Site walk and parcel flow review",
+          "detail": "We review your current mail and package locations, talk through problem areas, and look at how carriers and residents move through the space."
+        },
+        {
+          "title": "Locker layout and equipment recommendations",
+          "detail": "We recommend parcel locker configurations based on your resident count, carrier volume, and available space, including any pad, slab, or wall work required."
+        },
+        {
+          "title": "Proposal, phasing, and schedule",
+          "detail": "You receive a written proposal that covers equipment, installation steps, phasing, and timelines so you can set expectations with boards and residents."
+        },
+        {
+          "title": "Installation and tie-in to existing mail",
+          "detail": "Our team pours or modifies pads, mounts lockers, ties them into existing mail equipment, and verifies everything is secure and accessible."
+        },
+        {
+          "title": "USPS inspection and turnover",
+          "detail": "We coordinate with USPS to review the new setup, address any final notes, and hand off keys and documentation so the system is ready for daily use."
+        }
+      ],
+      "closing": "From early layout conversations through final inspection, you have one accountable team focused on secure, compliant parcel handling."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can you add parcel lockers to our existing CBUs or 4C mailboxes?",
+      "answer": "Yes. In many cases we add parcel lockers alongside existing USPS-approved equipment so you do not have to replace your entire mail station. We design configurations that match your current hardware and meet USPS expectations."
+    },
+    {
+      "question": "Do you coordinate with USPS for parcel locker approvals and inspections?",
+      "answer": "Yes. We communicate directly with USPS to review layouts, confirm equipment types, and schedule inspections so your project does not stall at sign-off."
+    },
+    {
+      "question": "How many parcel lockers do we need for our property?",
+      "answer": "Locker counts depend on the number of units, carrier volume, and how residents use online ordering. During the site visit we look at your package trends and recommend a locker bank size that fits your property."
+    },
+    {
+      "question": "Can you phase installation so residents still receive packages?",
+      "answer": "On many projects we phase work or temporarily redirect deliveries so carriers always have a clear, approved place to leave packages while lockers are being installed and inspected."
+    },
+    {
+      "question": "Do parcel lockers help reduce package theft?",
+      "answer": "Secure parcel lockers are one of the most effective ways to cut down on theft. We design placement, lighting, and access around theft reduction so packages are not left in exposed, high-traffic areas."
+    }
+  ]
+}

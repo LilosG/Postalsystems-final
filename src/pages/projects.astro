@@ -1,51 +1,192 @@
----const pageTitle = "Projects | Postal Systems";
-const desc = "";
-import SiteLayout from "../layouts/SiteLayout.astro";
-import Header from "../components/Header.astro";
-import HeroSection from "../components/sections/HeroSection.astro";
-import ProjectsSection from "../components/sections/ProjectsSection.astro";
-import QuoteSection from "../components/sections/QuoteSection.astro";
-import Footer from "../components/Footer.astro";
-
-const schema = {
-  "@context":"https://schema.org",
-  "@type":"LocalBusiness",
-  "name":"Postal Systems",
-  "description":"USPS-approved commercial mailbox installation, repair and replacement. We install Cluster Box Units (CBUs), parcel lockers, 4C mailboxes, and ADA-compliant mailbox stations; pour pads and set anchors; coordinate USPS inspection; perform lock and key changeouts; and provide warranty and ongoing support.",
-  "telephone":"(619) 461-4787",
-  "email":"info@postalsystemspro.com",
-  "address":{
-    "@type":"PostalAddress",
-    "streetAddress":"PO Box 850",
-    "addressLocality":"La Mesa",
-    "addressRegion":"CA",
-    "postalCode":"91944",
-    "addressCountry":"US"
-  },
-  "areaServed":[
-    "San Diego County, CA",
-    "Select cities in Orange County, CA",
-    "Select cities in Riverside County, CA"
-  ],
-  "license":"Licensed, Bonded & Insured • CA Lic. #904106"
-};
-export const prerender = true;
 ---
-<SiteLayout title={pageTitle} description={desc}>
-<html lang="en">
-  <head>
-    <link rel="canonical" href="https://sandiegocommercialmailboxes.com/projects/">
-    <meta charset="utf-8" />
-    <title>Projects — Postal Systems</title>
-    <meta name="description" content="Featured commercial mailbox projects across San Diego County, plus select jobs in Orange and Riverside Counties." />
-    <script is:inline is:inline is:inline type="application/ld+json">{JSON.stringify(schema)}</script>
-  </head>
-  <body>
-    <h1 class="text-3xl font-bold tracking-tight">Projects</h1>
-    <Header /><HeroSection heading="Featured Projects" subtitle="Local proof across San Diego County — CBUs, parcel lockers, ADA-compliant stations, vandalism replacement." />
-    <ProjectsSection />
-    <QuoteSection />
-    <Footer />
-  </body>
-</html>
+import SiteLayout from "../layouts/SiteLayout.astro";
+import LocalSchema from "../components/LocalSchema.astro";
+import SectionHeader from "../components/ui/SectionHeader.astro";
+import ProjectsSection from "../components/sections/ProjectsSection.astro";
+import ProcessStrip from "../components/ProcessStrip.astro";
+import CTA from "../components/ui/CTA.astro";
+
+const title = "Mailbox Projects across San Diego County | Postal Systems";
+const description =
+  "Featured commercial mailbox projects across San Diego County and select cities in Orange and Riverside Counties. USPS-approved installation, replacement, and upgrades for CBUs, 4C mailboxes, and parcel lockers.";
+const canonical = "https://sandiegocommercialmailboxes.com/projects/";
+export const prerender = true;
+
+const projectTypes = [
+  {
+    name: "CBU installation & replacements",
+    summary: "Turnkey pads, anchors, tenant notice, and USPS inspection sign-off.",
+    href: "/services/cbu-installation/"
+  },
+  {
+    name: "4C wall-mounted mailbox systems",
+    summary: "Mailroom build-outs, recessed units, and ADA-compliant layouts.",
+    href: "/services/4c-wall-mounted-mailboxes/"
+  },
+  {
+    name: "Parcel lockers & package capacity",
+    summary: "Secure parcel lockers for multi-unit properties and HOAs.",
+    href: "/services/parcel-lockers/"
+  },
+  {
+    name: "Repairs, vandalism & lock changes",
+    summary: "Door, lock, and hinge repairs plus vandalism replacement projects.",
+    href: "/services/repairs-lock-changes/"
+  },
+  {
+    name: "Mailbox replacements & retrofits",
+    summary: "Modernize older mailbox stations while staying USPS compliant.",
+    href: "/services/mailbox-replacement-retrofits/"
+  },
+  {
+    name: "ADA-compliant upgrades",
+    summary: "Height, reach, and approach clearances coordinated with USPS.",
+    href: "/services/ada-compliant-installs/"
+  }
+];
+
+const serviceAreaCities = [
+  [
+    { name: "San Diego", href: "/service-areas/san-diego/" },
+    { name: "Chula Vista", href: "/service-areas/chula-vista/" },
+    { name: "Oceanside", href: "/service-areas/oceanside/" },
+    { name: "Carlsbad", href: "/service-areas/carlsbad/" },
+    { name: "Encinitas", href: "/service-areas/encinitas/" },
+    { name: "Escondido", href: "/service-areas/escondido/" }
+  ],
+  [
+    { name: "Vista", href: "/service-areas/vista/" },
+    { name: "San Marcos", href: "/service-areas/san-marcos/" },
+    { name: "Poway", href: "/service-areas/poway/" },
+    { name: "El Cajon", href: "/service-areas/el-cajon/" },
+    { name: "Temecula", href: "/service-areas/temecula/" },
+    { name: "Riverside County", href: "/service-areas/riverside-county/" }
+  ],
+  [
+    { name: "Orange County", href: "/service-areas/orange-county/" }
+  ]
+];
+---
+<SiteLayout {title} {description} {canonical}>
+  <LocalSchema />
+
+  <main class="bg-white">
+    <!-- Page header -->
+    <section class="border-b border-ps-muted bg-ps-surface/40">
+      <div class="max-w-6xl mx-auto px-4 lg:px-6 py-10">
+        <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-red">
+          Recent Work
+        </p>
+        <h1 class="mt-2 text-3xl sm:text-4xl font-semibold text-ps-navy tracking-tight">
+          Projects across San Diego County
+        </h1>
+        <p class="mt-3 text-sm text-ps-navy/80 max-w-3xl">
+          USPS-approved commercial mailbox installs, replacements, and upgrades for HOAs,
+          apartments, and commercial properties. These projects highlight real CBUs, 4C
+          mailboxes, parcel lockers, and vandalism replacements completed across San Diego
+          County and select cities in Orange and Riverside Counties.
+        </p>
+        <div class="mt-4 flex flex-wrap gap-2 text-[11px] sm:text-xs">
+          <span class="rounded-full border border-ps-muted bg-white px-3 py-1 text-ps-navy">
+            HOAs &amp; community associations
+          </span>
+          <span class="rounded-full border border-ps-muted bg-white px-3 py-1 text-ps-navy">
+            Apartments &amp; multi-family
+          </span>
+          <span class="rounded-full border border-ps-muted bg-white px-3 py-1 text-ps-navy">
+            Builders &amp; general contractors
+          </span>
+          <span class="rounded-full border border-ps-muted bg-white px-3 py-1 text-ps-navy">
+            Commercial &amp; industrial properties
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured project cards -->
+    <section class="bg-white border-b border-ps-muted">
+      <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12">
+        <SectionHeader
+          title="Featured projects"
+          subtitle="Recent installations across San Diego County, plus select cities in Orange and Riverside Counties."
+          align="left"
+        />
+      </div>
+      <ProjectsSection />
+    </section>
+
+    <!-- Project types linking into services -->
+    <section class="bg-ps-surface border-b border-ps-muted">
+      <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12">
+        <SectionHeader
+          title="Typical mailbox projects we handle"
+          subtitle="Most projects fall into a few core buckets. Each one is planned for USPS compliance, pad and anchor requirements, tenant access, and inspection sign-off."
+          align="left"
+        />
+
+        <div class="mt-8 grid gap-6 md:grid-cols-3">
+          {projectTypes.map((projectType) => (
+            <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(1,33,105,0.18)] transition flex flex-col">
+              <h2 class="text-sm font-semibold text-ps-navy">
+                <a href={projectType.href} class="hover:text-ps-red">
+                  {projectType.name}
+                </a>
+              </h2>
+              <p class="mt-2 text-xs text-ps-navy/80 flex-1">
+                {projectType.summary}
+              </p>
+              <a
+                href={projectType.href}
+                class="mt-3 inline-flex text-xs font-semibold text-ps-red hover:text-ps-red/90"
+              >
+                View related service →
+              </a>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Where these projects are located -->
+    <section class="bg-white border-b border-ps-muted">
+      <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12">
+        <SectionHeader
+          title="Where we complete mailbox projects"
+          subtitle="Local, USPS-approved mailbox projects across San Diego County, with select work in nearby cities."
+          align="left"
+        />
+
+        <div class="mt-6 grid gap-6 md:grid-cols-3 text-sm">
+          {serviceAreaCities.map((column) => (
+            <ul class="space-y-2">
+              {column.map((city) => (
+                <li>
+                  <a
+                    href={city.href}
+                    class="text-ps-navy hover:text-ps-red text-xs sm:text-sm"
+                  >
+                    {city.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          ))}
+        </div>
+
+        <p class="mt-4 text-xs text-ps-navy/70 max-w-2xl">
+          If your property is nearby but not listed, reach out — in many cases we can
+          coordinate USPS-approved mailbox projects just outside these areas.
+        </p>
+      </div>
+    </section>
+
+    <!-- Process + CTA -->
+    <ProcessStrip subtitle="From site visit and layout through USPS inspection and sign-off, we run your mailbox project as a turnkey scope." />
+
+    <section class="bg-white">
+      <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12">
+        <CTA primaryHref="/contact/" primaryLabel="Request a USPS-approved quote" />
+      </div>
+    </section>
+  </main>
 </SiteLayout>
