@@ -14,7 +14,7 @@ const { title = "Postal Systems", description = "", schema, canonical } = Astro.
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     {canonical && <link rel="canonical" href={canonical} />}
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
   </head>
   <body class="antialiased font-sans text-ps-navy">
     <header><slot name="header" /></header>
