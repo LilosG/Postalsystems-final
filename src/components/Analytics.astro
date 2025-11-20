@@ -1,24 +1,11 @@
 ---
-/**
- * GA4 Analytics snippet for sandiegocommercialmailboxes.com
- * Best-practice gtag.js implementation:
- * - One global site tag
- * - Loaded async in <head>
- * - Standard config call
- */
-const MEASUREMENT_ID = "G-5CZDMQYTL8"; // will be replaced from terminal
+const MEASUREMENT_ID = "G-5CZDMQYTL8";
 ---
 
-{MEASUREMENT_ID && (
-  <>
-    <script async src={`https://www.googletagmanager.com/gtag/js?id=${MEASUREMENT_ID}`}></script>
-    <script>
-      {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '${MEASUREMENT_ID}');
-      `}
-    </script>
-  </>
-)}
+<script async src={`https://www.googletagmanager.com/gtag/js?id=${MEASUREMENT_ID}`}></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', MEASUREMENT_ID, { send_page_view: true });
+</script>
