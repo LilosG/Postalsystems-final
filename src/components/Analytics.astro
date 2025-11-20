@@ -1,11 +1,12 @@
 ---
-const G-5CZDMQYTL8 = "G-5CZDMQYTL8";
+const GA_MEASUREMENT_ID = 'G-5CZDMQYTL8';
 ---
 
-<script async src={`https://www.googletagmanager.com/gtag/js?id=${G-5CZDMQYTL8}`}></script>
+<!-- Google tag (gtag.js) -->
+<script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}></script>
 <script is:inline>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag(){ dataLayer.push(arguments); }
   gtag('js', new Date());
-  gtag('config', G-5CZDMQYTL8, { send_page_view: true });
+  gtag('config', GA_MEASUREMENT_ID, { send_page_view: true });
 </script>
