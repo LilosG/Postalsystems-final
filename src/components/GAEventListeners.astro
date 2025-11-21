@@ -1,0 +1,122 @@
+---
+/**
+ * Global GA4 event wiring.
+ *
+ * - Auto-tracks:
+ *   - Phone clicks: <a href="tel:...">
+ *   - Email clicks: <a href="mailto:...">
+ *   - Contact/quote links: <a href="/contact..."> or anchors with #contact
+ *   - All <form> submissions
+ *
+ * - Also supports explicit data attributes:
+ *   data-ga-event, data-ga-category, data-ga-label
+ *
+ * Requires gtag() from Analytics.astro to be present globally.
+ */
+---
+
+<script>
+  function sendGAEvent(action, category, label, extraParams) {
+    if (typeof gtag !== 'function') return;
+
+    const params = Object.assign(
+      {
+        event_category: category || 'interaction',
+        event_label: label || '',
+      },
+      extraParams || {}
+    );
+
+    gtag('event', action, params);
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    // CLICK HANDLING
+    document.body.addEventListener('click', (event) => {
+      const target = event.target;
+
+      // 1) Explicit data-ga-* attributes on any ancestor
+      const gaEl = target.closest('[data-ga-event]');
+      if (gaEl) {
+        const action = gaEl.getAttribute('data-ga-event');
+        const category = gaEl.getAttribute('data-ga-category') || 'interaction';
+        const label =
+          gaEl.getAttribute('data-ga-label') ||
+          (gaEl.textContent || '').trim() ||
+          window.location.pathname;
+
+        sendGAEvent(action, category, label, {
+          page_path: window.location.pathname,
+        });
+        return;
+      }
+
+      // 2) Phone links: <a href="tel:...">
+      const phoneLink = target.closest('a[href^="tel:"]');
+      if (phoneLink) {
+        const href = phoneLink.getAttribute('href') || '';
+        sendGAEvent('phone_click', 'Contact', href, {
+          page_path: window.location.pathname,
+        });
+        return;
+      }
+
+      // 3) Email links: <a href="mailto:...">
+      const emailLink = target.closest('a[href^="mailto:"]');
+      if (emailLink) {
+        const href = emailLink.getAttribute('href') || '';
+        sendGAEvent('email_click', 'Contact', href, {
+          page_path: window.location.pathname,
+        });
+        return;
+      }
+
+      // 4) Contact/Quote links (heuristic): /contact, ?contact, #contact
+      const link = target.closest('a[href]');
+      if (link) {
+        const href = link.getAttribute('href') || '';
+        const lowerHref = href.toLowerCase();
+
+        if (
+          lowerHref.includes('/contact') ||
+          lowerHref.includes('#contact') ||
+          lowerHref.includes('quote')
+        ) {
+          sendGAEvent('cta_click', 'CTA', href, {
+            page_path: window.location.pathname,
+          });
+        }
+      }
+    });
+
+    // FORM SUBMISSIONS
+    document.body.addEventListener('submit', (event) => {
+      const form = event.target;
+      if (!form || form.nodeName !== 'FORM') return;
+
+      // If explicitly tagged
+      const actionAttr = form.getAttribute('data-ga-event');
+      const categoryAttr = form.getAttribute('data-ga-category');
+      const labelAttr = form.getAttribute('data-ga-label');
+
+      if (actionAttr) {
+        sendGAEvent(
+          actionAttr,
+          categoryAttr || 'Form',
+          labelAttr || window.location.pathname,
+          { page_path: window.location.pathname }
+        );
+        return;
+      }
+
+      // Default form tracking
+      const action = form.getAttribute('action') || '';
+      const name = form.getAttribute('name') || '';
+      const label = name || action || window.location.pathname;
+
+      sendGAEvent('form_submit', 'Form', label, {
+        page_path: window.location.pathname,
+      });
+    });
+  });
+</script>

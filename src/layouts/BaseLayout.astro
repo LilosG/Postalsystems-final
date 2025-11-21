@@ -1,5 +1,6 @@
 ---
 import Analytics from "../components/Analytics.astro";
+import GAEventListeners from "../components/GAEventListeners.astro";
 import "../styles/global.css";
 import "../styles/theme.css";
 const { title = "Postal Systems", description = "", schema, canonical } = Astro.props;
@@ -17,6 +18,7 @@ const { title = "Postal Systems", description = "", schema, canonical } = Astro.
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body class="antialiased font-sans text-ps-navy">
+    <GAEventListeners />
     <header><slot name="header" /></header>
     <main><slot /></main>
     <footer><slot name="footer" /></footer>
