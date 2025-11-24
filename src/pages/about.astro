@@ -37,7 +37,7 @@ const schema = {
 
 export const prerender = true
 ---
-<SiteLayout {title} description={description} canonical={canonical}>
+<SiteLayout {title} description={description} canonical={canonical} schema={schema}>
   <main class="bg-ps-surface">
     <section class="border-b border-ps-muted bg-white">
       <div class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-14 grid gap-10 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] items-start">
@@ -276,9 +276,5 @@ export const prerender = true
         </div>
       </div>
     </section>
-
-    <script is:inline type="application/ld+json">
-      {JSON.stringify(schema)}
-    </script>
-  </main>
+</main>
 </SiteLayout>

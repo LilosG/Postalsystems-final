@@ -32,7 +32,7 @@ const schema = {
 }
 export const prerender = true
 ---
-<SiteLayout {title} {description} {canonical}>
+<SiteLayout {title} {description} {canonical} schema={schema}>
   <main class="bg-ps-surface">
     <h1 class="sr-only">Postal Systems blog</h1>
 
@@ -93,8 +93,6 @@ export const prerender = true
       <div class="mt-10">
         <CTA primaryHref="/contact/" primaryLabel="Talk through a mailbox project" />
       </div>
-
-      <script is:inline type="application/ld+json">{JSON.stringify(schema)}</script>
-    </section>
+</section>
   </main>
 </SiteLayout>
