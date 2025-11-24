@@ -1,4 +1,5 @@
 ---
+import { postalSystemsLocalBusinessSchema as schema } from "../schema/localBusiness.ts";
 import SiteLayout from "../layouts/SiteLayout.astro";
 import LocalSchema from "../components/LocalSchema.astro";
 import SectionHeader from "../components/ui/SectionHeader.astro";
@@ -67,7 +68,7 @@ const serviceAreaCities = [
   ]
 ];
 ---
-<SiteLayout {title} {description} {canonical}>
+<SiteLayout {title} {description} {canonical} schema={schema}>
   <LocalSchema />
 
   <main class="bg-white">

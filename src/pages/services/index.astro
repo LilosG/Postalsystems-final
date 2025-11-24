@@ -1,4 +1,5 @@
 ---
+import { postalSystemsLocalBusinessSchema as schema } from "../../schema/localBusiness.ts";
 import SiteLayout from "../../layouts/SiteLayout.astro"
 import CTA from "../../components/ui/CTA.astro"
 import SectionHeader from "../../components/ui/SectionHeader.astro"
@@ -40,7 +41,7 @@ const imageKeyBySlug: Record<string, string> = {
   "mailbox-relocation-consolidation": "cbu-mailbox-installation-chula-vista-ca"
 }
 ---
-<SiteLayout {title} {description} {canonical}>
+<SiteLayout {title} {description} {canonical} schema={schema}>
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10">
     <h1 class="sr-only">
       Mailbox services in San Diego County

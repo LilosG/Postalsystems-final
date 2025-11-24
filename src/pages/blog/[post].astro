@@ -1,11 +1,12 @@
 ---
+import { postalSystemsLocalBusinessSchema as schema } from "../../schema/localBusiness.ts";
 const pageTitle = " | Postal Systems";
 const desc = "";
 import SiteLayout from "../../layouts/SiteLayout.astro";
 export const prerender = true
 export async function getStaticPaths() { return [] }
 ---
-<SiteLayout title={pageTitle} description={desc}>
+<SiteLayout title={pageTitle} description={desc} schema={schema}>
 <html>
 <head>
   <link rel="canonical" href={Astro.url.href}>

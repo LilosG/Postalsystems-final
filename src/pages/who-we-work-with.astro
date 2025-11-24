@@ -1,4 +1,5 @@
 ---
+import { postalSystemsLocalBusinessSchema as schema } from "../schema/localBusiness.ts";
 import SiteLayout from "../layouts/SiteLayout.astro"
 import SectionHeader from "../components/ui/SectionHeader.astro"
 import CTA from "../components/ui/CTA.astro"
@@ -9,7 +10,7 @@ const description =
 const canonical = "https://sandiegocommercialmailboxes.com/who-we-work-with/"
 export const prerender = true
 ---
-<SiteLayout {title} {description} {canonical}>
+<SiteLayout {title} {description} {canonical} schema={schema}>
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10">
     <h1 class="sr-only">Who we work with</h1>
 

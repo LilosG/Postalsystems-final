@@ -1,4 +1,5 @@
 ---
+import { postalSystemsLocalBusinessSchema as schema } from "../schema/localBusiness.ts";
 import SiteLayout from "../layouts/SiteLayout.astro";
 import PSImage from "../components/PSImage.astro";
 import LocalSchema from "../components/LocalSchema.astro";
@@ -11,7 +12,7 @@ const description =
 const canonical = "https://sandiegocommercialmailboxes.com/";
 ---
 
-<SiteLayout {title} {description} {canonical}>
+<SiteLayout {title} {description} {canonical} schema={schema}>
   <LocalSchema />
 
   <section class="bg-ps-navy text-white">

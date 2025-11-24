@@ -1,4 +1,5 @@
 ---
+import { postalSystemsLocalBusinessSchema as schema } from "../../schema/localBusiness.ts";
 import SiteLayout from "../../layouts/SiteLayout.astro"
 import Breadcrumbs from "../../components/Breadcrumbs.astro"
 import CTA from "../../components/ui/CTA.astro"
@@ -62,7 +63,7 @@ const canonical = `https://sandiegocommercialmailboxes.com/services/${serviceSlu
 
 export const prerender = true
 ---
-<SiteLayout {title} description={desc} canonical={canonical}>
+<SiteLayout {title} description={desc} canonical={canonical} schema={schema}>
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
     <Breadcrumbs
       crumbs={[
