@@ -90,7 +90,8 @@ const pageSchema = faqSchema ? [schema, serviceSchema, faqSchema] : [schema, ser
 
 export const prerender = true
 
----<SiteLayout {title} description={desc} canonical={canonical} schema={pageSchema}>
+---
+<SiteLayout {title} description={desc} canonical={canonical} schema={pageSchema}>
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
     <Breadcrumbs
       crumbs={[
