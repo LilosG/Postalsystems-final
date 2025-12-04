@@ -1,5 +1,6 @@
 ---
 import { postalSystemsLocalBusinessSchema as schema } from "../../schema/localBusiness.ts";
+import { getServiceSchema } from "../../schema/service";
 import SiteLayout from "../../layouts/SiteLayout.astro"
 import Breadcrumbs from "../../components/Breadcrumbs.astro"
 import CTA from "../../components/ui/CTA.astro"
@@ -61,9 +62,35 @@ const desc =
   `USPS-approved ${service.name.toLowerCase()} for HOAs, apartments, and commercial properties in San Diego County.`
 const canonical = `https://sandiegocommercialmailboxes.com/services/${serviceSlug}/`
 
+const serviceSchema = getServiceSchema({
+  serviceName: service.name,
+  servicePath: `/services/${serviceSlug}/`,
+  description: desc,
+  primaryAreaName: "San Diego County, CA",
+})
+
+const faqItems = (serviceContent?.faqs ?? []) as { question: string; answer: string }[]
+
+const faqSchema = faqItems.length
+  ? {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqItems.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.answer,
+        },
+      })),
+    }
+  : null
+
+const pageSchema = faqSchema ? [schema, serviceSchema, faqSchema] : [schema, serviceSchema]
+
 export const prerender = true
----
-<SiteLayout {title} description={desc} canonical={canonical} schema={schema}>
+
+---<SiteLayout {title} description={desc} canonical={canonical} schema={pageSchema}>
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
     <Breadcrumbs
       crumbs={[
