@@ -817,7 +817,91 @@
         {
           "citySlug": "chula-vista",
           "label": "Chula Vista, CA",
-          "url": "/service-areas/chula-vista/commercial-mailbox-installation/"
+          "url": "https://sandiegocommercialmailboxes.com/service-areas/chula-vista/commercial-mailbox-installation/"
+        },
+        {
+          "citySlug": "poway",
+          "label": "Poway, CA",
+          "url": "/service-areas/poway/commercial-mailbox-installation/"
+        }
+      ]
+    },
+    "san-diego": {
+      "citySlug": "san-diego",
+      "cityName": "San Diego",
+      "state": "CA",
+      "h1": "Commercial mailbox installation in San Diego, CA",
+      "intro": "Postal Systems installs USPS-approved commercial mailbox systems for HOAs, apartments, and commercial properties across San Diego. From older garden-style communities and infill projects to newer mixed-use sites, we design, install, and coordinate inspection for secure, compliant mail stations.",
+      "heroAlt": "USPS-approved commercial mailboxes installed at a San Diego multifamily community",
+      "sections": [
+        {
+          "id": "why-it-matters-san-diego",
+          "heading": "Why San Diego properties invest in commercial mailbox installation",
+          "body": "San Diego properties run the full spectrum: coastal communities, older walk-up apartments, urban infill, and large master-planned HOAs. That mix creates a lot of aging mailbox equipment, patchwork repairs, and layouts that no longer match how residents park and move around the property. USPS carriers still need clear, compliant access every day, and boards are under pressure to protect mail, reduce theft, and keep residents happy.",
+          "bullets": [
+            "Replace rusted, vandalized, or outdated cluster mailboxes with modern USPS-approved units",
+            "Upgrade to 4C wall-mounted mailboxes and parcel lockers in denser San Diego communities",
+            "Relocate and consolidate mail stations so carriers have safer, more efficient access",
+            "Address ADA and accessibility concerns where older equipment is no longer compliant",
+            "Standardize equipment across a portfolio so managers are not juggling multiple mailbox types"
+          ],
+          "closing": "Instead of trying to interpret USPS and accessibility requirements on your own, you work with a contractor who lives in this world every day and designs projects around San Diego properties specifically."
+        },
+        {
+          "id": "common-projects-san-diego",
+          "heading": "Common commercial mailbox installation projects we handle in San Diego",
+          "body": "Recent San Diego projects have included new installations, full replacements, and targeted upgrades for a mix of HOAs, apartments, and commercial sites. Many start with a USPS notice, repeated vandalism, or a master plan that has simply outgrown the original mail layout.",
+          "bullets": [
+            "HOA mailbox replacements in townhome and condo communities across the city",
+            "New CBUs for infill townhome projects, redevelopments, and mixed-use buildings",
+            "Mailbox consolidation projects where USPS wants to simplify routes and reduce stops",
+            "Vandalism and damage replacements after break-ins, vehicle impacts, or weather exposure",
+            "Accessibility and circulation upgrades around existing mail stations to improve resident flow"
+          ],
+          "closing": "For each project, Postal Systems handles layout, pad work, equipment installation, and USPS inspection so boards, managers, and owners can focus on residents instead of mailbox logistics."
+        },
+        {
+          "id": "coordination-san-diego",
+          "heading": "How Postal Systems coordinates USPS and logistics in San Diego",
+          "body": "San Diego sites often have limited parking, tight drive aisles, and mature landscaping that boards want to protect. At the same time, carriers need clear, well-lit access to mail equipment that meets current USPS and ADA expectations. Our process is built around those constraints so your project works for residents, carriers, and your property team.",
+          "bullets": [
+            "Review your existing mail stations, USPS notices, and any design concepts you already have",
+            "Walk the site to understand traffic flow, grades, lighting, and resident access to proposed locations",
+            "Recommend USPS-approved CBU and 4C configurations sized for your resident and parcel volume",
+            "Plan pad work, demolition, and installation sequences to minimize disruption to daily operations",
+            "Coordinate USPS layout review, inspection, and final sign-off so your new equipment can be placed into service"
+          ],
+          "closing": "The goal is a mailbox system that fits your San Diego property, keeps residents informed, and moves smoothly from planning through inspection without surprises."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do you work with both HOAs and apartment communities in San Diego?",
+          "answer": "Yes. We regularly install and replace commercial mailbox systems for HOAs, condo associations, apartments, and mixed-use properties across San Diego and surrounding communities. Our proposals are written so boards and owners can clearly understand scope, equipment, and pricing."
+        },
+        {
+          "question": "Can you help if USPS has issued a notice about our mailboxes in San Diego?",
+          "answer": "We frequently get called in after USPS has flagged issues with aging equipment, unsafe locations, or access concerns. We review the notice, walk the site with you, and design a project that addresses USPS requirements while still working for your residents and maintenance team."
+        },
+        {
+          "question": "Will residents lose access to mail during installation in San Diego?",
+          "answer": "On many projects we can phase work so residents continue to receive mail while new equipment and pads are installed. We explain the phasing plan in your proposal and help you communicate clearly with residents about any temporary changes."
+        },
+        {
+          "question": "How much does commercial mailbox installation cost in San Diego?",
+          "answer": "Costs depend on equipment type, number of mailbox units, parcel lockers, pad or foundation work, demolition, and site access. After a site visit, we provide a written proposal with a clear breakdown so you can compare options and plan accurately."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "chula-vista",
+          "label": "Chula Vista, CA",
+          "url": "https://sandiegocommercialmailboxes.com/service-areas/chula-vista/commercial-mailbox-installation/"
+        },
+        {
+          "citySlug": "el-cajon",
+          "label": "El Cajon, CA",
+          "url": "/service-areas/el-cajon/commercial-mailbox-installation/"
         },
         {
           "citySlug": "poway",
