@@ -63,10 +63,9 @@ const desc =
 const canonical = `https://sandiegocommercialmailboxes.com/services/${serviceSlug}/`
 
 const serviceSchema = getServiceSchema({
-  serviceName: service.name,
-  servicePath: `/services/${serviceSlug}/`,
+  name: service.name,
   description: desc,
-  primaryAreaName: "San Diego County, CA",
+  serviceUrl: canonical,
 })
 
 const faqItems = (serviceContent?.faqs ?? []) as { question: string; answer: string }[]

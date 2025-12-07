@@ -12,9 +12,11 @@ export interface ServiceSchemaInput {
 }
 
 /**
- * Internal helper that builds a single Service object.
+ * Build JSON-LD for a specific service page, combining:
+ * - The global LocalBusiness schema
+ * - A page-specific Service schema tied to that business
  */
-function buildServiceObject(input: ServiceSchemaInput) {
+export function buildServicePageSchema(input: ServiceSchemaInput) {
   const { name, description, serviceUrl, areaServedCity, areaServedState } = input;
 
   const service: any = {
@@ -37,24 +39,9 @@ function buildServiceObject(input: ServiceSchemaInput) {
     };
   }
 
-  return service;
-}
-
-/**
- * For service-area pages:
- * Return [LocalBusiness, Service] in one array.
- */
-export function buildServicePageSchema(input: ServiceSchemaInput) {
-  return [postalSystemsLocalBusinessSchema, buildServiceObject(input)];
-}
-
-/**
- * For main service pages:
- * Return just the Service object.
- * Caller can combine with LocalBusiness + FAQPage as needed.
- */
-export function getServiceSchema(input: ServiceSchemaInput) {
-  return buildServiceObject(input);
+  // Return an array so <script type="application/ld+json"> contains
+  // both LocalBusiness and Service in one JSON document.
+  return [postalSystemsLocalBusinessSchema, service];
 }
 
 export default buildServicePageSchema;

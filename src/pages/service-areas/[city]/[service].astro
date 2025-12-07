@@ -1,5 +1,5 @@
 ---
-import { postalSystemsLocalBusinessSchema as schema } from "../../../schema/localBusiness.ts";
+import { buildServicePageSchema } from "../../../schema/service";
 import SiteLayout from "../../../layouts/SiteLayout.astro"
 import Breadcrumbs from "../../../components/Breadcrumbs.astro"
 import CTA from "../../../components/ui/CTA.astro"
@@ -91,6 +91,15 @@ const desc = cityContent?.intro || baseDesc
 
 const canonical = `https://sandiegocommercialmailboxes.com/service-areas/${citySlug}/${serviceSlug}/`
 
+const pageSchema = buildServicePageSchema({
+  name: s.name,
+  description: desc,
+  serviceUrl: canonical,
+  areaServedCity: c.city,
+  areaServedState: c.state,
+})
+
+
 const allServices = (await import("../../../data/services.json")).default as {
   name: string
   summary?: string
@@ -121,7 +130,7 @@ const otherServices = allServices.filter((svc) => svc.name !== s.name)
 
 export const prerender = true
 ---
-<SiteLayout {title} description={desc} canonical={canonical} schema={schema}>
+<SiteLayout {title} description={desc} canonical={canonical} schema={pageSchema}>
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
     <Breadcrumbs
       crumbs={[
