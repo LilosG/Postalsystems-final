@@ -22,7 +22,7 @@ const primaryAreas = areas.slice(0, 8).map((a) => ({
     <div class="bg-ps-red text-white text-[11px]">
       <div class="max-w-6xl mx-auto px-4 lg:px-6 py-1.5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1.5">
         <span>USPS-approved commercial mailbox installs across San Diego County.</span>
-        <a href="tel:16194614787" class="font-semibold underline-offset-2 hover:underline">
+        <a href="tel:16194614787" data-ga-event="click_to_call" data-ga-category="Contact" data-ga-label="main_phone" class="font-semibold underline-offset-2 hover:underline">
           Call (619) 461-4787
         </a>
       </div>
@@ -114,7 +114,7 @@ const primaryAreas = areas.slice(0, 8).map((a) => ({
 
         <div class="hidden md:flex items-center gap-3">
           <a
-            href="tel:16194614787"
+            href="tel:16194614787" data-ga-event="click_to_call" data-ga-category="Contact" data-ga-label="main_phone"
             class="inline-flex h-10 items-center justify-center rounded-full border border-ps-navy px-5 text-[12px] font-semibold text-ps-navy bg-white hover:bg-ps-surface/70 transition"
           >
             (619) 461-4787
@@ -128,7 +128,7 @@ const primaryAreas = areas.slice(0, 8).map((a) => ({
         </div>
 
         <div class="md:hidden flex items-center gap-2">
-          <a href="tel:16194614787" class="inline-flex items-center rounded-full border border-ps-navy/40 px-3 py-1.5 text-[11px] font-medium text-ps-navy">
+          <a href="tel:16194614787" data-ga-event="click_to_call" data-ga-category="Contact" data-ga-label="main_phone" class="inline-flex items-center rounded-full border border-ps-navy/40 px-3 py-1.5 text-[11px] font-medium text-ps-navy">
             Call
           </a>
           <details class="relative">
