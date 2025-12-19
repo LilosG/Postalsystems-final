@@ -6,5 +6,7 @@ export default defineConfig({
   site: "https://sandiegocommercialmailboxes.com",
   output: "server",
   adapter: vercel({ mode: "serverless" }),
-  integrations: [sitemap()],
+  integrations: [sitemap({
+      filter: (page) => typeof page === "string" && !page.endsWith("/thank-you/"),
+    })],
 });
