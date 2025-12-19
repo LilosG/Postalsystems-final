@@ -12,7 +12,7 @@ interface Props {
 
 const { title, description, canonical, schema } = Astro.props as Props;
 ---
-<BaseLayout {title} description={description} canonical={canonical} schema={schema}>
+<BaseLayout {title} description={description} canonical={canonical} schema={schema} noindex={Astro.props.noindex}>
   <Header slot="header" />
   <slot />
   <Footer slot="footer" />

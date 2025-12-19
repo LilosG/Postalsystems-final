@@ -7,6 +7,8 @@ const { title = "Postal Systems", description = "USPS-approved commercial mailbo
 ---
 <html lang="en">
   <head>
+    {Astro.props.noindex ? <meta name="robots" content="noindex, nofollow" /> : null}
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>

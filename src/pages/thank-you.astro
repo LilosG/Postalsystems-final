@@ -1,9 +1,17 @@
+---
+import SiteLayout from "../layouts/SiteLayout.astro";
+
+const title = "Thank You | San Diego Commercial Mailboxes";
+const description = "Thanks for reaching out — we’ll respond shortly.";
+const canonical = (Astro.site ? new URL("/thank-you/", Astro.site).toString() : "/thank-you/");
+
+export const prerender = true;
+---
 <head>
   <meta name="robots" content="noindex, nofollow">
 </head>
 
 ---
-import { postalSystemsLocalBusinessSchema as schema } from "../schema/localBusiness.ts";
 import SiteLayout from "../layouts/SiteLayout.astro";
 
 const title = "Thank You | Postal Systems";
@@ -12,7 +20,7 @@ const description =
 const canonical = "https://sandiegocommercialmailboxes.com/thank-you/";
 ---
 
-<SiteLayout {title} {description} {canonical} schema={schema}>
+<SiteLayout {title} {description} {canonical} schema={schema} noindex={true}>
   <main class="bg-ps-surface">
     <section class="max-w-xl mx-auto px-4 lg:px-6 py-16 text-center">
       <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-navy/70">
