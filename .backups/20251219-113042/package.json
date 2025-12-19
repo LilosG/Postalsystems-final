@@ -7,7 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "postbuild": "node scripts/add-localbusiness-optionals.mjs dist && node scripts/add-breadcrumbs.mjs dist && node scripts/alias-sitemap.mjs dist && node scripts/fix-county-meta-descriptions.mjs dist"
+    "postbuild": "node scripts/add-localbusiness-optionals.mjs dist && node scripts/add-breadcrumbs.mjs dist"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.5",
