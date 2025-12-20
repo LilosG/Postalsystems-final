@@ -2,7 +2,6 @@
 import { postalSystemsLocalBusinessSchema as schema } from "../schema/localBusiness.ts";
 import SiteLayout from "../layouts/SiteLayout.astro";
 import PSImage from "../components/PSImage.astro";
-import LocalSchema from "../components/LocalSchema.astro";
 import SectionHeader from "../components/ui/SectionHeader.astro";
 import CTA from "../components/ui/CTA.astro";
 
@@ -13,8 +12,6 @@ const canonical = "https://sandiegocommercialmailboxes.com/";
 ---
 
 <SiteLayout {title} {description} {canonical} schema={schema}>
-  <LocalSchema />
-
   <section class="bg-ps-navy text-white">
     <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12 lg:py-16 grid gap-10 lg:grid-cols-[minmax(0,1.25fr)_minmax(0,1fr)] items-center">
       <div>
