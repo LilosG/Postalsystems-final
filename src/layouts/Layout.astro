@@ -14,7 +14,17 @@ import GAEventListeners from "../components/GAEventListeners.astro";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
-	</head>
+	
+  <!-- AHREFS_WEB_ANALYTICS_V1 -->
+  {import.meta.env.PUBLIC_AHREFS_ANALYTICS_KEY && (
+    <script
+      src="https://analytics.ahrefs.com/analytics.js"
+      data-key={import.meta.env.PUBLIC_AHREFS_ANALYTICS_KEY}
+      async
+    ></script>
+  )}
+  <!-- /AHREFS_WEB_ANALYTICS_V1 -->
+</head>
 	<body>
     <GAEventListeners />
 		<slot />

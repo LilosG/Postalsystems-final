@@ -38,3 +38,6 @@ _backup.*.astro
 
 # local backups
 .backups/
+
+# Local env (do not commit)
+.env.local
