@@ -1,31 +1,39 @@
 ---
 import Analytics from "../components/Analytics.astro";
 import GAEventListeners from "../components/GAEventListeners.astro";
+import Head from "../components/Head.astro";
 import "../styles/global.css";
 import "../styles/theme.css";
-const { title = "Postal Systems", description = "", schema, canonical } = Astro.props;
+const {
+  title,
+  description,
+  schema,
+  canonical,
+  image,
+  noindex,
+} = Astro.props;
 ---
 <!doctype html>
 <html lang="en">
   <head>
-    {Astro.props.noindex ? <meta name="robots" content="noindex, nofollow" /> : null}
+    {noindex ? <meta name="robots" content="noindex, nofollow" /> : null}
 
     <Analytics />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title}</title>
-    {description && <meta name="description" content={description} />}
-    {canonical && <link rel="canonical" href={canonical} />}
+    <Head {title} description={description} canonical={canonical} image={image} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    {schema && (
+      <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)}></script>
+    )}
   </head>
   <body class="antialiased font-sans text-ps-navy">
     <GAEventListeners />
     <header><slot name="header" /></header>
-    <main><slot /></main>
+    <slot />
     <footer><slot name="footer" /></footer>
-    {schema && (
-      <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)}></script>
-    )}
   </body>
 </html>

@@ -1,17 +1,114 @@
 ---
-import { postalSystemsLocalBusinessSchema as schema } from "../../schema/localBusiness.ts";
-const pageTitle = " | Postal Systems";
-const desc = "";
+import { getCollection, type CollectionEntry } from "astro:content";
 import SiteLayout from "../../layouts/SiteLayout.astro";
-export const prerender = true
-export async function getStaticPaths() { return [] }
+import { SITE } from "../../data/site";
+import Breadcrumbs from "../../components/Breadcrumbs.astro";
+import CTA from "../../components/ui/CTA.astro";
+import GeneralContactForm from "../../components/conversion/GeneralContactForm.astro";
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection("blog");
+  const posts = allPosts.filter((post) => !post.data.draft);
+  return posts.map((post) => ({
+    params: { post: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props as { post: CollectionEntry<"blog"> };
+const { Content } = await post.render();
+
+const canonical = `${SITE.url.replace(/\/+$/, "")}/blog/${post.slug}/`;
+const title = `${post.data.title} | ${SITE.title}`;
+const description = post.data.description;
+const image = post.data.image;
+const publishedLabel = post.data.pubDate.toLocaleDateString("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.data.title,
+  description: post.data.description,
+  datePublished: post.data.pubDate.toISOString(),
+  dateModified: (post.data.updatedDate ?? post.data.pubDate).toISOString(),
+  mainEntityOfPage: canonical,
+  author: {
+    "@type": "Organization",
+    name: SITE.title,
+    url: SITE.url,
+  },
+  publisher: {
+    "@type": "Organization",
+    name: SITE.title,
+    url: SITE.url,
+  },
+  image: image ? [image] : undefined,
+};
 ---
-<SiteLayout title={pageTitle} description={desc} schema={schema}>
-<html>
-<head>
-  <link rel="canonical" href={Astro.url.href}>
-</head><body><main class="max-w-3xl mx-auto p-8">
-  <h1>Blog</h1>
-  <p>No posts yet.</p>
-</main></body></html>
+<SiteLayout {title} {description} {canonical} {image} schema={schema}>
+  <main class="bg-ps-surface">
+    <section class="max-w-4xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
+      <Breadcrumbs
+        crumbs={[
+          { href: "/", label: "Home" },
+          { href: "/blog/", label: "Blog" },
+          { href: canonical, label: post.data.title },
+        ]}
+      />
+
+      <div class="rounded-3xl border border-ps-muted bg-white p-6 sm:p-8 shadow-ps">
+        <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-red">
+          Field Guide
+        </p>
+        <h1 class="mt-3 text-2xl sm:text-3xl font-semibold text-ps-navy">
+          {post.data.title}
+        </h1>
+        <p class="mt-3 text-sm text-ps-navy/80 max-w-2xl">
+          {post.data.description}
+        </p>
+        <div class="mt-4 text-xs text-ps-navy/60">
+          Published {publishedLabel}
+        </div>
+
+        {image && (
+          <div class="mt-6 overflow-hidden rounded-2xl bg-ps-surface">
+            <img
+              src={image}
+              alt={post.data.title}
+              class="h-56 w-full object-cover sm:h-72"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        )}
+      </div>
+
+      <article class="mt-8 prose prose-slate max-w-none prose-a:text-ps-red prose-a:no-underline hover:prose-a:text-ps-red/80">
+        <Content />
+      </article>
+
+      <div class="mt-10">
+        <CTA
+          primaryHref="/contact/"
+          primaryLabel="Request a USPS-approved quote"
+          secondaryHref="/services/"
+          secondaryLabel="Explore services"
+        />
+      </div>
+
+      <div class="mt-10">
+        <GeneralContactForm
+          heading="Talk through your mailbox project"
+          subheading="Share your property details and we will follow up with clear options and timelines."
+          context={`Blog: ${post.data.title}`}
+        />
+      </div>
+    </section>
+  </main>
 </SiteLayout>

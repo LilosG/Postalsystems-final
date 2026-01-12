@@ -2,17 +2,27 @@
 import BaseLayout from "./BaseLayout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import "../styles/global.css";
 
 interface Props {
   title?: string;
   description?: string;
   canonical?: string;
+  image?: string;
+  schema?: unknown;
+  noindex?: boolean;
 }
 
-const { title, description, canonical, schema } = Astro.props as Props;
+const { title, description, canonical, image, schema, noindex } =
+  Astro.props as Props;
 ---
-<BaseLayout {title} description={description} canonical={canonical} schema={schema} noindex={Astro.props.noindex}>
+<BaseLayout
+  {title}
+  description={description}
+  canonical={canonical}
+  image={image}
+  schema={schema}
+  noindex={noindex}
+>
   <Header slot="header" />
   <slot />
   <Footer slot="footer" />

@@ -1,22 +1,44 @@
 ---
+import { SITE } from "../data/site";
+import { canonical as resolveCanonical, metaDesc, titleTag } from "../lib/seo";
+
 interface Props {
-  title?: string
-  description?: string
-  canonical?: string
-  image?: string
+  title?: string;
+  description?: string;
+  canonical?: string;
+  image?: string;
+  type?: "website" | "article";
 }
-const site = "https://sandiegocommercialmailboxes.com"
-const { title="Postal Systems — Commercial Mailbox Installation in San Diego", description="USPS-approved commercial mailbox installation, replacements, parcel lockers, and 4C/CBU systems. Serving San Diego County with inspection sign-off.", canonical=Astro.url?.href ?? site, image=`${site}/og.jpg` } = Astro.props as Props
+
+const {
+  title,
+  description,
+  canonical,
+  image,
+  type = "website",
+} = Astro.props as Props;
+
+const baseUrl = SITE.url.replace(/\/+$/, "");
+const resolvedTitle = titleTag(title);
+const resolvedDesc = metaDesc(description);
+const resolvedCanonical =
+  canonical ?? resolveCanonical(Astro.url?.pathname ?? "/");
+const resolvedImage = image
+  ? image.startsWith("http")
+    ? image
+    : `${baseUrl}${image.startsWith("/") ? image : `/${image}`}`
+  : `${baseUrl}/og.jpg`;
 ---
-<title>{title}</title>
-<meta name="description" content={description} />
-<link rel="canonical" href={canonical} />
-<meta property="og:type" content="website" />
-<meta property="og:title" content={title} />
-<meta property="og:description" content={description} />
-<meta property="og:url" content={canonical} />
-<meta property="og:image" content={image} />
+<title>{resolvedTitle}</title>
+<meta name="description" content={resolvedDesc} />
+<link rel="canonical" href={resolvedCanonical} />
+<meta property="og:site_name" content={SITE.title} />
+<meta property="og:type" content={type} />
+<meta property="og:title" content={resolvedTitle} />
+<meta property="og:description" content={resolvedDesc} />
+<meta property="og:url" content={resolvedCanonical} />
+<meta property="og:image" content={resolvedImage} />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content={title} />
-<meta name="twitter:description" content={description} />
-<meta name="twitter:image" content={image} />
+<meta name="twitter:title" content={resolvedTitle} />
+<meta name="twitter:description" content={resolvedDesc} />
+<meta name="twitter:image" content={resolvedImage} />

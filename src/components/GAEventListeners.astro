@@ -16,8 +16,14 @@
 ---
 
 <script>
-  function sendGAEvent(action, category, label, extraParams) {
-    if (typeof gtag !== 'function') return;
+  function sendGAEvent(
+    action: string,
+    category?: string,
+    label?: string,
+    extraParams?: Record<string, unknown>
+  ) {
+    const gtagFn = (window as typeof window & { gtag?: (...args: unknown[]) => void }).gtag;
+    if (typeof gtagFn !== 'function') return;
 
     const params = Object.assign(
       {
@@ -27,18 +33,20 @@
       extraParams || {}
     );
 
-    gtag('event', action, params);
+    gtagFn('event', action, params);
   }
 
   document.addEventListener('DOMContentLoaded', () => {
     // CLICK HANDLING
     document.body.addEventListener('click', (event) => {
-      const target = event.target;
+      const target = event.target instanceof Element ? event.target : null;
+      if (!target) return;
 
       // 1) Explicit data-ga-* attributes on any ancestor
       const gaEl = target.closest('[data-ga-event]');
       if (gaEl) {
         const action = gaEl.getAttribute('data-ga-event');
+        if (!action) return;
         const category = gaEl.getAttribute('data-ga-category') || 'interaction';
         const label =
           gaEl.getAttribute('data-ga-label') ||
@@ -91,8 +99,8 @@
 
     // FORM SUBMISSIONS
     document.body.addEventListener('submit', (event) => {
-      const form = event.target;
-      if (!form || form.nodeName !== 'FORM') return;
+      const form = event.target instanceof HTMLFormElement ? event.target : null;
+      if (!form) return;
 
       // If explicitly tagged
       const actionAttr = form.getAttribute('data-ga-event');

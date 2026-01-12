@@ -3,9 +3,14 @@ export const siteTitle = SITE.title;
 export const siteDesc =
   "USPS-approved commercial mailbox installation, replacements, and parcel locker solutions across San Diego County.";
 export function titleTag(input?: string) {
-  return input
-    ? `${input} | ${siteTitle}`
-    : `${siteTitle} — Commercial Mailbox Installers`;
+  if (!input || input.trim().length === 0) {
+    return `${siteTitle} — Commercial Mailbox Installers`;
+  }
+  const normalized = input.trim();
+  if (normalized.includes(siteTitle)) {
+    return normalized;
+  }
+  return `${normalized} | ${siteTitle}`;
 }
 export function metaDesc(input?: string) {
   return input && input.trim().length > 0 ? input : siteDesc;

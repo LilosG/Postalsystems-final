@@ -3,15 +3,15 @@ import path from "path";
 
 const ROOT = process.argv[2] || "dist";
 
-// ⚠️ EDIT THESE TO REAL VALUES BEFORE RUNNING
+// Update these if brand assets or price range change.
 const CONFIG = {
   "Postal Systems": {
     priceRange: "$$-$$$", // adjust if you prefer something else
-    image: "https://postalsystemspro.com/path-to-your-logo.png", // TODO: replace with real logo URL
+    image: "https://sandiegocommercialmailboxes.com/images/postal-systems/postal-systems-logo-blue.png",
   },
   "San Diego Commercial Mailboxes": {
     priceRange: "$$-$$$", // adjust if needed
-    image: "https://sandiegocommercialmailboxes.com/path-to-your-logo.png", // TODO: replace with real logo URL
+    image: "https://sandiegocommercialmailboxes.com/images/postal-systems/postal-systems-logo-blue.png",
   },
 };
 

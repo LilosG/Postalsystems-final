@@ -13,17 +13,6 @@ const services = (await import("../../data/services.json")).default as {
   summary?: string
 }[]
 
-const serviceImageMap: Record<string, string> = {
-  "commercial-mailbox-installation": "001fca58-c50d-4adc-8bda-a2209f1273c8",
-  "cbu-installation": "cluster-box-unit-installation-san-diego-copy-2",
-  "4c-wall-mounted-mailboxes": "9bfd2d02-669b-43bb-a23a-8f97cdcc3f08",
-  "parcel-lockers": "cluster-box-unit-installation-san-diego-copy",
-  "repairs-lock-changes": "services-repairs-lock-changes-card",
-  "ada-compliant-installs": "services-ada-compliant-card",
-  "mailbox-replacement-retrofits": "services-replacement-retrofits-card",
-  "mailbox-relocation-consolidation": "services-relocation-consolidation-card"
-}
-
 const title = "Mailbox Services in San Diego County | Postal Systems"
 const description =
   "USPS-approved commercial mailbox services: installation, CBU and 4C systems, parcel lockers, repairs, and ADA-compliant upgrades across San Diego County."

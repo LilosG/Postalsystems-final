@@ -1,36 +1,39 @@
 ---
-import SiteLayout from "../../layouts/SiteLayout.astro"
-import SectionHeader from "../../components/ui/SectionHeader.astro"
-import CTA from "../../components/ui/CTA.astro"
+import { getCollection } from "astro:content";
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import SectionHeader from "../../components/ui/SectionHeader.astro";
+import CTA from "../../components/ui/CTA.astro";
+import { SITE } from "../../data/site";
 
-const title = "Blog | Postal Systems"
+const title = "Blog | Postal Systems";
 const description =
-  "Guides and checklists for HOAs, property managers, builders, and facilities in San Diego County covering USPS coordination, ADA-compliant mailbox installs, CBUs, parcel lockers, and repairs."
-const canonical = "https://sandiegocommercialmailboxes.com/blog/"
+  "Guides and checklists for HOAs, property managers, builders, and facilities in San Diego County covering USPS coordination, ADA-compliant mailbox installs, CBUs, parcel lockers, and repairs.";
+const canonical = "https://sandiegocommercialmailboxes.com/blog/";
+
+const allPosts = await getCollection("blog");
+const posts = allPosts
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const schema = {
-  "@context":"https://schema.org",
-  "@type":"LocalBusiness",
-  "name":"Postal Systems",
-  "description":"USPS-approved commercial mailbox installation, repair and replacement for HOAs, apartments, builders, and commercial properties in San Diego County.",
-  "telephone":"(619) 461-4787",
-  "email":"info@postalsystemspro.com",
-  "address":{
-    "@type":"PostalAddress",
-    "streetAddress":"PO Box 850",
-    "addressLocality":"La Mesa",
-    "addressRegion":"CA",
-    "postalCode":"91944",
-    "addressCountry":"US"
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  name: `${SITE.title} Blog`,
+  url: canonical,
+  publisher: {
+    "@type": "Organization",
+    name: SITE.title,
+    url: SITE.url,
   },
-  "areaServed":[
-    "San Diego County, CA",
-    "Select cities in Orange County, CA",
-    "Select cities in Riverside County, CA"
-  ],
-  "license":"Licensed, Bonded & Insured • CA Lic. #904106"
-}
-export const prerender = true
+};
+
+const dateFormatter = new Intl.DateTimeFormat("en-US", {
+  year: "numeric",
+  month: "short",
+  day: "numeric",
+});
+
+export const prerender = true;
 ---
 <SiteLayout {title} {description} {canonical} schema={schema}>
   <main class="bg-ps-surface">
@@ -43,56 +46,60 @@ export const prerender = true
         align="left"
       />
 
-      <div class="mt-6 rounded-2xl border border-ps-muted bg-white p-5 shadow-ps text-sm text-ps-navy/85">
-        <p>
-          Articles and guides are coming soon. In the meantime, you can learn more about our
-          <a href="/services/" class="font-semibold text-ps-red hover:text-ps-red/90">mailbox services</a>
-          or view our
-          <a href="/service-areas/" class="font-semibold text-ps-red hover:text-ps-red/90">service areas</a>.
-        </p>
-      </div>
-
-      <div class="mt-10 grid gap-6 md:grid-cols-3">
-        <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
-          <div class="text-[11px] font-semibold tracking-[0.18em] uppercase text-ps-red">
-            For HOAs
-          </div>
-          <h2 class="mt-2 text-sm font-semibold text-ps-navy">
-            Planning a mailbox replacement project
-          </h2>
-          <p class="mt-2 text-xs text-ps-navy/80">
-            What boards and managers should know about timelines, USPS coordination, and tenant communication.
+      {posts.length === 0 ? (
+        <div class="mt-6 rounded-2xl border border-ps-muted bg-white p-5 shadow-ps text-sm text-ps-navy/85">
+          <p>
+            Articles and guides are coming soon. In the meantime, you can learn more about our
+            <a href="/services/" class="font-semibold text-ps-red hover:text-ps-red/90">mailbox services</a>
+            or view our
+            <a href="/service-areas/" class="font-semibold text-ps-red hover:text-ps-red/90">service areas</a>.
           </p>
-        </article>
-
-        <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
-          <div class="text-[11px] font-semibold tracking-[0.18em] uppercase text-ps-red">
-            For builders
-          </div>
-          <h2 class="mt-2 text-sm font-semibold text-ps-navy">
-            Coordinating CBUs and 4C units with your schedule
-          </h2>
-          <p class="mt-2 text-xs text-ps-navy/80">
-            How to align mailbox layout, pad work, and USPS inspection with construction milestones.
-          </p>
-        </article>
-
-        <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
-          <div class="text-[11px] font-semibold tracking-[0.18em] uppercase text-ps-red">
-            For property teams
-          </div>
-          <h2 class="mt-2 text-sm font-semibold text-ps-navy">
-            ADA-compliant mailbox upgrades
-          </h2>
-          <p class="mt-2 text-xs text-ps-navy/80">
-            Key clearances, slopes, and heights to consider when updating existing mailbox sites.
-          </p>
-        </article>
-      </div>
+        </div>
+      ) : (
+        <div class="mt-10 grid gap-6 md:grid-cols-2">
+          {posts.map((post) => (
+            <article class="rounded-2xl border border-ps-muted bg-white shadow-ps overflow-hidden flex flex-col">
+              {post.data.image && (
+                <div class="aspect-[16/9] bg-ps-surface">
+                  <img
+                    src={post.data.image}
+                    alt={post.data.title}
+                    class="h-full w-full object-cover"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              )}
+              <div class="p-5 flex flex-col flex-1">
+                <div class="text-[11px] font-semibold tracking-[0.18em] uppercase text-ps-red">
+                  {dateFormatter.format(post.data.pubDate)}
+                </div>
+                <h2 class="mt-2 text-sm font-semibold text-ps-navy">
+                  <a
+                    class="hover:text-ps-red"
+                    href={`/blog/${post.slug}/`}
+                  >
+                    {post.data.title}
+                  </a>
+                </h2>
+                <p class="mt-2 text-xs text-ps-navy/80 flex-1">
+                  {post.data.description}
+                </p>
+                <a
+                  href={`/blog/${post.slug}/`}
+                  class="mt-4 inline-flex text-xs font-semibold text-ps-red hover:text-ps-red/90"
+                >
+                  Read article →
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
 
       <div class="mt-10">
         <CTA primaryHref="/contact/" primaryLabel="Talk through a mailbox project" />
       </div>
-</section>
+    </section>
   </main>
 </SiteLayout>
