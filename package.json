@@ -30,5 +30,8 @@
     "serve": "^14.2.5",
     "sharp": "^0.34.5",
     "tailwindcss": "^3.4.18"
+  },
+  "overrides": {
+    "@emmetio/css-parser": "https://codeload.github.com/ramya-rao-a/css-parser/tar.gz/370c480ac103bd17c7bcfb34bf5d577dc40d3660"
   }
 }
