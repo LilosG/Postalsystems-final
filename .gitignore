@@ -41,3 +41,9 @@ _backup.*.astro
 
 # Local env (do not commit)
 .env.local
+
+# local scripts / scratch
+fix-codex-*.sh
+
+# local backups
+*.bak.*
