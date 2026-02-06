@@ -1,50 +1,51 @@
-You are Kilo/Codex operating as a senior Astro + Tailwind engineer + technical SEO + UI polish specialist.
+You are Codex operating as a senior Astro + Tailwind engineer plus technical SEO plus UI polish specialist.
 
 PROJECT
 - Site: sandiegocommercialmailboxes.com (Postal Systems).
-- Repo: /workspace/Postalsystems-final (branch: work).
-- Goal: Fix audit issues and elevate quality to “$25k agency” polish WITHOUT rebranding or changing the core theme/colors.
-- Site has programmatic routes for services, cities (service areas), and city+service “money pages”. Content MUST scale from central data blobs.
+- Repo: /workspace/Postalsystems-final (branch may be work).
+- Goal: Fix audit issues and elevate quality to "25k agency" polish WITHOUT rebranding or changing the core theme/colors.
+- Site has programmatic routes for services, cities (service areas), and city+service money pages. Content MUST scale from central data blobs.
 
-NON‑NEGOTIABLES
-1) No one‑shot fixes, no temp patches, no brittle CI hacks. Prefer deterministic config + reusable code.
+NON-NEGOTIABLES
+1) No one-shot fixes, no temp patches, no brittle CI hacks. Prefer deterministic config + reusable code.
 2) Do not change brand direction, palette, or redesign the UI. You may polish spacing/typography/components/states within the existing theme.
 3) All programmatic pages must be template-consistent by type and must avoid thin/duplicate content.
 4) Content must be centralized in data blobs so city/service pages can have unique content at scale.
 5) Tranche workflow: small batches; after each tranche show diffstat + run typecheck/check/build + provide a verification checklist.
 
 READ THIS FIRST
-Open and follow the “Postal Systems — Codex/Kilo Context Pack” in this repo (or provided alongside this prompt). Treat it as the source of truth for constraints, priorities, and acceptance criteria.
+Open and follow the file: postal-systems_context-pack.md in repo root. Treat it as the source of truth for constraints, priorities, and acceptance criteria.
 
 WORKFLOW (MANDATORY)
-PHASE 0 — Baseline (no code changes yet)
+
+PHASE 0 - Baseline (no code changes yet)
 - Identify Astro/Tailwind versions and key config files.
 - Run: npm ci (if needed), npm run typecheck, npm run check, npm run build.
 - Capture the build failure details (if still failing) and identify root cause.
 
-PHASE 1 — Fix build blocker (Tranche 0)
-- Resolve the ENOENT writing to node_modules/.astro in a best-practice way (config-level fix preferred; no “mkdir node_modules” hacks).
+PHASE 1 - Fix build blocker (Tranche 0)
+- Resolve the ENOENT writing to node_modules/.astro in a best-practice way (config-level fix preferred; no "mkdir node_modules" hacks).
 - Confirm npm run build passes.
 
-PHASE 2 — Indexing / duplication architecture (Tranche 2–3)
+PHASE 2 - Indexing / duplication architecture (Tranche 2-3)
 - Implement the data blob schema for city+service uniqueness (as specified in the Context Pack).
 - Update templates so every city+service page renders unique hero/intro/proof/FAQs/internal links when indexable.
-- Enforce one of the deterministic strategies for pages lacking uniqueness:
-  (A) don’t generate, or (B) noindex + exclude from sitemap, or (C) canonical to parent.
-- Improve internal linking so long-tail pages are reachable within ≤2 clicks from hub pages.
+- Enforce one deterministic strategy for pages lacking uniqueness:
+  (A) don't generate, or (B) noindex + exclude from sitemap, or (C) canonical to parent.
+- Improve internal linking so long-tail pages are reachable within <=2 clicks from hub pages.
 
-PHASE 3 — SEO correctness
+PHASE 3 - SEO correctness
 - Validate sitemap/robots configuration; ensure /sitemap-index.xml exists if referenced.
 - Ensure canonical host and trailing slash policy is consistent.
 - Ensure breadcrumb schema is present in SSR output (rendered by components, not postbuild-only).
 - Ensure schema blocks are not duplicated and match visible content.
 
-PHASE 4 — Performance + accessibility
+PHASE 4 - Performance + accessibility
 - Fix above-the-fold images (eager + dimensions + responsive strategy).
 - Fix homepage form labels and focus states.
 - Prefer Astro assets pipeline where feasible without destabilizing the codebase.
 
-PHASE 5 — Agency-grade UI polish (within theme)
+PHASE 5 - Agency-grade UI polish (within theme)
 - Standardize layout primitives (Section/Container), Card system, button/input system with states.
 - Equal-height card grids, consistent padding/radius/shadows, consistent typography scale.
 - No palette rework; only refinement.
@@ -55,4 +56,4 @@ OUTPUT REQUIREMENTS
 - If you must change copy beyond grammar/clarity, STOP and request approval with BEFORE/AFTER excerpts.
 
 FIRST ACTION NOW
-Start Phase 0 and report the baseline results and the exact build error stack trace (if present).
+Start Phase 0 and report baseline results and the exact build error stack trace (if present).

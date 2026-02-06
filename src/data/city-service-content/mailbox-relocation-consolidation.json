@@ -911,6 +911,177 @@
           "url": "/service-areas/poway/mailbox-relocation-consolidation/"
         }
       ]
+    },
+    "riverside-county": {
+      "citySlug": "riverside-county",
+      "cityName": "Riverside County",
+      "state": "CA",
+      "h1": "Mailbox Relocation & Consolidation in Riverside County, CA",
+      "intro": "Postal Systems installs USPS-approved mailbox relocation & consolidation for HOAs, apartments, and commercial properties throughout Riverside County. We serve properties across the county with secure, code-compliant mail systems designed for high-volume delivery and resident satisfaction.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why professional mailbox relocation & consolidation matters in Riverside County",
+          "body": "Riverside County encompasses diverse communities from urban centers to suburban neighborhoods. Properties across the county face common challenges with aging mail equipment, increasing parcel volume, and USPS compliance requirements. Professional installation ensures your mail system meets current standards while accommodating growth and changing resident needs.",
+          "bullets": [
+            "Replace aging or non-compliant mail equipment with USPS-approved solutions",
+            "Design mail systems that handle current and projected delivery volumes",
+            "Ensure accessibility compliance for residents of all abilities",
+            "Coordinate with USPS for smooth inspection and activation",
+            "Minimize disruption during installation with proper phasing"
+          ],
+          "closing": "A professionally designed mailbox relocation & consolidation project in Riverside County gives you confidence that your mail system will serve residents reliably for years to come."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common mailbox relocation & consolidation projects in Riverside County",
+          "body": "We work with property managers, HOAs, and owners throughout Riverside County on projects ranging from complete replacements to new construction installations.",
+          "bullets": [
+            "Full replacement of aging cluster mailboxes and CBUs",
+            "New mailbox relocation & consolidation for multifamily and commercial developments",
+            "Upgrades to parcel-integrated systems for package-heavy communities",
+            "Accessibility improvements and ADA compliance updates",
+            "Consolidation of scattered mail locations into centralized stations"
+          ],
+          "closing": "Each Riverside County project includes detailed proposals with scope, timeline, and pricing so stakeholders can make informed decisions."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems manages mailbox relocation & consolidation in Riverside County",
+          "body": "Properties across Riverside County have varying access constraints, parking considerations, and resident needs. We structure every project around your specific site conditions.",
+          "bullets": [
+            "Site assessment to understand existing equipment and site constraints",
+            "Review of any USPS notices or compliance requirements",
+            "Custom design recommendations based on your property's needs",
+            "Flexible scheduling to minimize impact on residents and operations",
+            "Direct coordination with USPS for layout approval and final inspection"
+          ],
+          "closing": "From initial consultation through final USPS sign-off, we keep your project on track and communicate clearly at every step."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do you serve properties throughout Riverside County?",
+          "answer": "Yes. We work with HOAs, apartment communities, commercial properties, and municipal sites across Riverside County and surrounding areas."
+        },
+        {
+          "question": "Can you help with USPS compliance issues in Riverside County?",
+          "answer": "We review USPS notices, assess your current mail system, and propose solutions that address compliance concerns. We then coordinate directly with USPS during installation."
+        },
+        {
+          "question": "How long does mailbox relocation & consolidation take in Riverside County?",
+          "answer": "Project timelines vary based on scope and size. Most residential mailbox projects complete within 1-2 weeks. We'll provide a detailed schedule in your proposal."
+        },
+        {
+          "question": "Can installation be phased for occupied properties?",
+          "answer": "Yes. We routinely phase work so residents maintain mail access throughout installation. Your proposal will outline the phasing plan."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "chula-vista",
+          "label": "Chula Vista, CA",
+          "url": "/service-areas/chula-vista/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "carlsbad",
+          "label": "Carlsbad, CA",
+          "url": "/service-areas/carlsbad/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "oceanside",
+          "label": "Oceanside, CA",
+          "url": "/service-areas/oceanside/mailbox-relocation-consolidation/"
+        }
+      ]
+    },
+    "orange-county": {
+      "citySlug": "orange-county",
+      "cityName": "Orange County",
+      "state": "CA",
+      "h1": "Mailbox Relocation & Consolidation in Orange County, CA",
+      "intro": "Postal Systems installs USPS-approved mailbox relocation & consolidation for HOAs, apartments, and commercial properties throughout Orange County. We serve properties across the county with secure, code-compliant mail systems designed for high-volume delivery and resident satisfaction.",
+      "sections": [
+        {
+          "id": "why-it-matters",
+          "heading": "Why professional mailbox relocation & consolidation matters in Orange County",
+          "body": "Orange County encompasses diverse communities from urban centers to suburban neighborhoods. Properties across the county face common challenges with aging mail equipment, increasing parcel volume, and USPS compliance requirements. Professional installation ensures your mail system meets current standards while accommodating growth and changing resident needs.",
+          "bullets": [
+            "Replace aging or non-compliant mail equipment with USPS-approved solutions",
+            "Design mail systems that handle current and projected delivery volumes",
+            "Ensure accessibility compliance for residents of all abilities",
+            "Coordinate with USPS for smooth inspection and activation",
+            "Minimize disruption during installation with proper phasing"
+          ],
+          "closing": "A professionally designed mailbox relocation & consolidation project in Orange County gives you confidence that your mail system will serve residents reliably for years to come."
+        },
+        {
+          "id": "common-projects",
+          "heading": "Common mailbox relocation & consolidation projects in Orange County",
+          "body": "We work with property managers, HOAs, and owners throughout Orange County on projects ranging from complete replacements to new construction installations.",
+          "bullets": [
+            "Full replacement of aging cluster mailboxes and CBUs",
+            "New mailbox relocation & consolidation for multifamily and commercial developments",
+            "Upgrades to parcel-integrated systems for package-heavy communities",
+            "Accessibility improvements and ADA compliance updates",
+            "Consolidation of scattered mail locations into centralized stations"
+          ],
+          "closing": "Each Orange County project includes detailed proposals with scope, timeline, and pricing so stakeholders can make informed decisions."
+        },
+        {
+          "id": "coordination",
+          "heading": "How Postal Systems manages mailbox relocation & consolidation in Orange County",
+          "body": "Properties across Orange County have varying access constraints, parking considerations, and resident needs. We structure every project around your specific site conditions.",
+          "bullets": [
+            "Site assessment to understand existing equipment and site constraints",
+            "Review of any USPS notices or compliance requirements",
+            "Custom design recommendations based on your property's needs",
+            "Flexible scheduling to minimize impact on residents and operations",
+            "Direct coordination with USPS for layout approval and final inspection"
+          ],
+          "closing": "From initial consultation through final USPS sign-off, we keep your project on track and communicate clearly at every step."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do you serve properties throughout Orange County?",
+          "answer": "Yes. We work with HOAs, apartment communities, commercial properties, and municipal sites across Orange County and surrounding areas."
+        },
+        {
+          "question": "Can you help with USPS compliance issues in Orange County?",
+          "answer": "We review USPS notices, assess your current mail system, and propose solutions that address compliance concerns. We then coordinate directly with USPS during installation."
+        },
+        {
+          "question": "How long does mailbox relocation & consolidation take in Orange County?",
+          "answer": "Project timelines vary based on scope and size. Most residential mailbox projects complete within 1-2 weeks. We'll provide a detailed schedule in your proposal."
+        },
+        {
+          "question": "Can installation be phased for occupied properties?",
+          "answer": "Yes. We routinely phase work so residents maintain mail access throughout installation. Your proposal will outline the phasing plan."
+        }
+      ],
+      "nearbyAreas": [
+        {
+          "citySlug": "anaheim",
+          "label": "Anaheim, CA",
+          "url": "/service-areas/anaheim/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "irvine",
+          "label": "Irvine, CA",
+          "url": "/service-areas/irvine/mailbox-relocation-consolidation/"
+        },
+        {
+          "citySlug": "santa-ana",
+          "label": "Santa Ana, CA",
+          "url": "/service-areas/santa-ana/mailbox-relocation-consolidation/"
+        }
+      ]
     }
   }
 }

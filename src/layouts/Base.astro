@@ -3,7 +3,13 @@ import "../styles/tailwind.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import PromoBanner from "../components/PromoBanner.astro";
-const { title = "Postal Systems", description = "USPS-approved commercial mailbox contractor in San Diego County." } = Astro.props;
+interface Props {
+  title?: string
+  description?: string
+  noindex?: boolean
+}
+
+const { title = "Postal Systems", description = "USPS-approved commercial mailbox contractor in San Diego County." } = Astro.props as Props;
 ---
 <html lang="en">
   <head>

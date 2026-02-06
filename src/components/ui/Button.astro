@@ -1,1 +1,47 @@
-$2
+---
+interface Props {
+  href?: string
+  type?: "button" | "submit" | "reset"
+  variant?: "primary" | "secondary" | "outline"
+  size?: "sm" | "md" | "lg"
+  class?: string
+  disabled?: boolean
+}
+
+const {
+  href = "",
+  type = "button",
+  variant = "primary",
+  size = "md",
+  class: klass = "",
+  disabled = false,
+} = Astro.props as Props
+
+const baseStyles = "inline-flex items-center justify-center font-semibold transition rounded-full"
+
+// Variant styles
+const variants = {
+  primary: "bg-ps-red text-white shadow-md hover:bg-ps-red/90",
+  secondary: "bg-ps-navy text-white shadow-md hover:bg-ps-navy/90",
+  outline: "border border-ps-navy/20 text-ps-navy hover:bg-ps-navy hover:text-white",
+}
+
+// Size styles
+const sizes = {
+  sm: "px-3 py-1.5 text-xs",
+  md: "px-5 py-2.5 text-sm",
+  lg: "px-6 py-3 text-base",
+}
+
+const classes = `${baseStyles} ${variants[variant]} ${sizes[size]} ${klass}`.trim()
+---
+
+{href ? (
+  <a href={href} class={classes}>
+    <slot />
+  </a>
+) : (
+  <button type={type} class={classes} disabled={disabled}>
+    <slot />
+  </button>
+)

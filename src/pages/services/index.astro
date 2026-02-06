@@ -1,5 +1,5 @@
 ---
-import { postalSystemsLocalBusinessSchema as schema } from "../../schema/localBusiness.ts";
+import { postalSystemsLocalBusinessSchema as schema } from "../../schema/localBusiness";
 import SiteLayout from "../../layouts/SiteLayout.astro"
 import CTA from "../../components/ui/CTA.astro"
 import SectionHeader from "../../components/ui/SectionHeader.astro"
@@ -80,6 +80,35 @@ const imageKeyBySlug: Record<string, string> = {
         )
       })}
     </div>
+
+    <section class="mt-12">
+      <SectionHeader
+        title="Popular service areas"
+        subtitle="Find mailbox services in your city across San Diego County."
+        align="left"
+      />
+      <ul class="mt-4 grid md:grid-cols-4 gap-3 text-sm">
+        {[
+          { city: 'San Diego', slug: 'san-diego' },
+          { city: 'Carlsbad', slug: 'carlsbad' },
+          { city: 'Oceanside', slug: 'oceanside' },
+          { city: 'Chula Vista', slug: 'chula-vista' },
+          { city: 'Encinitas', slug: 'encinitas' },
+          { city: 'Escondido', slug: 'escondido' },
+          { city: 'San Marcos', slug: 'san-marcos' },
+          { city: 'Vista', slug: 'vista' },
+        ].map((c) => (
+          <li>
+            <a
+              href={`/service-areas/${c.slug}/`}
+              class="block rounded-lg border border-ps-muted bg-white px-3 py-2 text-ps-navy hover:border-ps-red/60 hover:text-ps-red"
+            >
+              {c.city}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
 
     <section class="mt-12">
       <SectionHeader

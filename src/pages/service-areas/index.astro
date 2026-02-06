@@ -1,5 +1,5 @@
 ---
-import { postalSystemsLocalBusinessSchema as schema } from "../../schema/localBusiness.ts";
+import { postalSystemsLocalBusinessSchema as schema } from "../../schema/localBusiness";
 import SiteLayout from "../../layouts/SiteLayout.astro"
 import CTA from "../../components/ui/CTA.astro"
 import SectionHeader from "../../components/ui/SectionHeader.astro"
@@ -47,6 +47,35 @@ export const prerender = true
         </li>
       ))}
     </ul>
+
+    <section class="mt-12">
+      <SectionHeader
+        title="Popular mailbox services"
+        subtitle="Explore our commercial mailbox services across all service areas."
+        align="left"
+      />
+      <ul class="mt-4 grid md:grid-cols-4 gap-3 text-sm">
+        {[
+          { name: 'Commercial Mailbox Installation', slug: 'commercial-mailbox-installation' },
+          { name: 'CBU Installation', slug: 'cbu-installation' },
+          { name: '4C Wall-Mounted Mailboxes', slug: '4c-wall-mounted-mailboxes' },
+          { name: 'Parcel Lockers', slug: 'parcel-lockers' },
+          { name: 'Repairs & Lock Changes', slug: 'repairs-lock-changes' },
+          { name: 'ADA-Compliant Installs', slug: 'ada-compliant-installs' },
+          { name: 'Mailbox Replacement', slug: 'mailbox-replacement-retrofits' },
+          { name: 'Relocation & Consolidation', slug: 'mailbox-relocation-consolidation' },
+        ].map((s) => (
+          <li>
+            <a
+              href={`/services/${s.slug}/`}
+              class="block rounded-lg border border-ps-muted bg-white px-3 py-2 text-ps-navy hover:border-ps-red/60 hover:text-ps-red"
+            >
+              {s.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
 
     <section class="mt-12">
       <SectionHeader
