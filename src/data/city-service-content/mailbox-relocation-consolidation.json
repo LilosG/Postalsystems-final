@@ -128,7 +128,7 @@
             "Help boards and managers communicate route changes, new locations, and key handoff",
             "Coordinate USPS inspection and address any notes before residents begin using the new stations"
           ],
-          "closing": "The result is a mailbox system that feels like it was intentionally designed for how your Chula Vista property operates now—not decades ago."
+          "closing": "The result is a mailbox system that feels like it was intentionally designed for how your Chula Vista property operates now\u2014not decades ago."
         }
       ],
       "faqs": [
@@ -142,7 +142,7 @@
         },
         {
           "question": "How do residents learn about new mailbox locations in Chula Vista?",
-          "answer": "We help your team plan communication—signage, notices, and timing—so residents know when and where mailboxes are moving, how keys will be handled, and when USPS will begin using the new stations."
+          "answer": "We help your team plan communication\u2014signage, notices, and timing\u2014so residents know when and where mailboxes are moving, how keys will be handled, and when USPS will begin using the new stations."
         },
         {
           "question": "Can we combine relocation with new mailbox equipment and parcel lockers in Chula Vista?",
@@ -189,7 +189,7 @@
         {
           "id": "common-projects",
           "heading": "Common mailbox relocation and consolidation projects in Oceanside",
-          "body": "Most Oceanside relocation projects begin when boards or managers realize existing locations are no longer ideal—or when USPS raises concerns about access, safety, or route efficiency.",
+          "body": "Most Oceanside relocation projects begin when boards or managers realize existing locations are no longer ideal\u2014or when USPS raises concerns about access, safety, or route efficiency.",
           "bullets": [
             "Relocating mailbox stations away from congested drive aisles or tight corners",
             "Consolidating multiple small CBU banks into central, well-lit mail stations",
@@ -533,7 +533,7 @@
         {
           "id": "coordination-vista",
           "heading": "How we plan mailbox relocation and consolidation in Vista",
-          "body": "Mailbox relocation affects residents’ daily routines, so communication and planning matter. We design Vista projects that are clearly explained and carefully executed.",
+          "body": "Mailbox relocation affects residents\u2019 daily routines, so communication and planning matter. We design Vista projects that are clearly explained and carefully executed.",
           "bullets": [
             "Walk your property to review current mail locations, lighting, and traffic patterns",
             "Propose new locations and consolidation options that balance convenience and safety",
@@ -707,7 +707,7 @@
             "Assist with resident communication, including maps and key handover plans if equipment is changed",
             "Work with USPS to review new locations and secure inspection and approval"
           ],
-          "closing": "The result is a San Marcos mailbox layout that feels aligned with how your property works today—not years ago."
+          "closing": "The result is a San Marcos mailbox layout that feels aligned with how your property works today\u2014not years ago."
         }
       ],
       "faqs": [
@@ -804,7 +804,7 @@
         },
         {
           "question": "Do you help decide where new mailbox locations should be in Temecula?",
-          "answer": "Yes. We look at traffic flow, lighting, grades, and USPS routing to recommend locations that work in practice—not just on a map. We then refine the plan with your team and USPS before work begins."
+          "answer": "Yes. We look at traffic flow, lighting, grades, and USPS routing to recommend locations that work in practice\u2014not just on a map. We then refine the plan with your team and USPS before work begins."
         },
         {
           "question": "Can we add parcel lockers when we relocate or consolidate mailboxes in Temecula?",
@@ -1067,19 +1067,19 @@
       ],
       "nearbyAreas": [
         {
-          "citySlug": "anaheim",
-          "label": "Anaheim, CA",
-          "url": "/service-areas/anaheim/mailbox-relocation-consolidation/"
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/mailbox-relocation-consolidation/"
         },
         {
-          "citySlug": "irvine",
-          "label": "Irvine, CA",
-          "url": "/service-areas/irvine/mailbox-relocation-consolidation/"
+          "citySlug": "riverside-county",
+          "label": "Riverside County, CA",
+          "url": "/service-areas/riverside-county/mailbox-relocation-consolidation/"
         },
         {
-          "citySlug": "santa-ana",
-          "label": "Santa Ana, CA",
-          "url": "/service-areas/santa-ana/mailbox-relocation-consolidation/"
+          "citySlug": "temecula",
+          "label": "Temecula, CA",
+          "url": "/service-areas/temecula/mailbox-relocation-consolidation/"
         }
       ]
     }
