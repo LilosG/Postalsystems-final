@@ -7,6 +7,7 @@ const targets = [
 ];
 
 const META_RE = /<meta\s+name="description"\s+content="([^"]*)"\s*\/?>/i;
+const DESC_MAX = 155;
 
 function walk(dir, out = []) {
   if (!existsSync(dir)) return out;
@@ -17,6 +18,13 @@ function walk(dir, out = []) {
     else out.push(p);
   }
   return out;
+}
+
+function truncateAtWord(value, max) {
+  if (value.length <= max) return value;
+  const cut = value.slice(0, max + 1);
+  const idx = cut.lastIndexOf(" ");
+  return (idx > 30 ? cut.slice(0, idx) : value.slice(0, max)).replace(/[\s,;:-]+$/, "").trim();
 }
 
 function patchRoot(rootDir) {
@@ -34,11 +42,13 @@ function patchRoot(rootDir) {
       const oldDesc = m[1].trim();
       if (!oldDesc) continue;
 
-      // Avoid double-appending
-      if (oldDesc.includes(t.suffix)) continue;
+      let newDesc = oldDesc;
+      if (!oldDesc.includes(t.suffix)) {
+        const sep = oldDesc.endsWith(".") ? " " : ". ";
+        newDesc = `${oldDesc}${sep}Serving ${t.suffix}.`;
+      }
 
-      const sep = oldDesc.endsWith(".") ? " " : ". ";
-      const newDesc = `${oldDesc}${sep}Serving ${t.suffix}.`;
+      newDesc = truncateAtWord(newDesc, DESC_MAX);
 
       const s2 = s.replace(META_RE, (full) => full.replace(m[1], newDesc));
       if (s2 !== s) {

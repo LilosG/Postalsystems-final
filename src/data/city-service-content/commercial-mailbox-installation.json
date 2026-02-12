@@ -696,15 +696,15 @@
         {
           "id": "coordination-temecula",
           "heading": "How Postal Systems coordinates Temecula mailbox installs with USPS and your schedule",
-          "body": "In Temecula, timing matters—especially when new buildings, amenity openings, or refinancing timelines are on the line. We plan mailbox work so USPS approvals, field work, and inspection are built into your schedule instead of slowing it down.",
+          "body": "In Temecula, timing matters\u2014especially when new buildings, amenity openings, or refinancing timelines are on the line. We plan mailbox work so USPS approvals, field work, and inspection are built into your schedule instead of slowing it down.",
           "bullets": [
             "Walk the property to review existing mail setups, grades, lighting, and access",
-            "Recommend USPS-approved mailbox configurations that match your property’s density and layout",
+            "Recommend USPS-approved mailbox configurations that match your property\u2019s density and layout",
             "Lay out pad and equipment locations that consider traffic, parking, and ADA access",
             "Schedule installation windows to minimize impact on residents and operations",
             "Coordinate USPS inspection and address punch-list items so your system is accepted without delay"
           ],
-          "closing": "Our goal is to deliver a mailbox system in Temecula that feels like part of the plan—not an afterthought that slows the project or frustrates residents."
+          "closing": "Our goal is to deliver a mailbox system in Temecula that feels like part of the plan\u2014not an afterthought that slows the project or frustrates residents."
         }
       ],
       "faqs": [
@@ -766,7 +766,7 @@
         {
           "id": "common-projects-el-cajon",
           "heading": "Commercial mailbox installation projects we see in El Cajon",
-          "body": "Projects in El Cajon often begin with a problem—repeated break-ins, failing doors, or USPS concerns—but they end with a long-term plan that boards and owners can stand behind.",
+          "body": "Projects in El Cajon often begin with a problem\u2014repeated break-ins, failing doors, or USPS concerns\u2014but they end with a long-term plan that boards and owners can stand behind.",
           "bullets": [
             "Full CBU replacement projects at aging multifamily communities",
             "New centralized mail stations for properties consolidating scattered boxes",
@@ -1065,19 +1065,19 @@
       ],
       "nearbyAreas": [
         {
-          "citySlug": "anaheim",
-          "label": "Anaheim, CA",
-          "url": "/service-areas/anaheim/commercial-mailbox-installation/"
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/commercial-mailbox-installation/"
         },
         {
-          "citySlug": "irvine",
-          "label": "Irvine, CA",
-          "url": "/service-areas/irvine/commercial-mailbox-installation/"
+          "citySlug": "riverside-county",
+          "label": "Riverside County, CA",
+          "url": "/service-areas/riverside-county/commercial-mailbox-installation/"
         },
         {
-          "citySlug": "santa-ana",
-          "label": "Santa Ana, CA",
-          "url": "/service-areas/santa-ana/commercial-mailbox-installation/"
+          "citySlug": "temecula",
+          "label": "Temecula, CA",
+          "url": "/service-areas/temecula/commercial-mailbox-installation/"
         }
       ]
     }

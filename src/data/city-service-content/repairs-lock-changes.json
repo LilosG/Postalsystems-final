@@ -177,7 +177,7 @@
         {
           "id": "why-it-matters",
           "heading": "Why timely mailbox repairs matter in Oceanside",
-          "body": "Oceanside’s coastal environment, salt air, and steady delivery volume are hard on cluster mailboxes and 4C equipment. Doors start to sag, locks corrode, and vandalism can leave entire banks of mailboxes unusable if problems are not addressed quickly.",
+          "body": "Oceanside\u2019s coastal environment, salt air, and steady delivery volume are hard on cluster mailboxes and 4C equipment. Doors start to sag, locks corrode, and vandalism can leave entire banks of mailboxes unusable if problems are not addressed quickly.",
           "bullets": [
             "Address rusted, hard-to-turn locks before they fail completely",
             "Repair or replace damaged doors, hinges, and master doors after break-ins",
@@ -271,7 +271,7 @@
         {
           "id": "common-projects",
           "heading": "Common repair and lock-change projects we handle in Carlsbad",
-          "body": "We help Carlsbad boards, managers, and owners work through a range of mailbox issues—from a handful of problem locks to more extensive damage after vandalism or weather events.",
+          "body": "We help Carlsbad boards, managers, and owners work through a range of mailbox issues\u2014from a handful of problem locks to more extensive damage after vandalism or weather events.",
           "bullets": [
             "Re-keying and replacing tenant locks across selected mailbox banks",
             "Repairing or replacing vandalized doors, hinges, and master doors",
@@ -507,7 +507,7 @@
         {
           "id": "why-repairs-vista",
           "heading": "Why Vista properties call for mailbox repairs and lock changes",
-          "body": "Vista’s mix of older communities and newer infill projects means mail equipment sees a lot of use—and sometimes abuse. Not every issue requires a full mailbox replacement, but it does need quick, professional attention so residents can keep receiving mail without interruption.",
+          "body": "Vista\u2019s mix of older communities and newer infill projects means mail equipment sees a lot of use\u2014and sometimes abuse. Not every issue requires a full mailbox replacement, but it does need quick, professional attention so residents can keep receiving mail without interruption.",
           "bullets": [
             "Tenant lock cylinders that are worn, jammed, or no longer secure",
             "Compartment doors that no longer close or latch correctly",
@@ -520,7 +520,7 @@
         {
           "id": "common-repair-projects-vista",
           "heading": "Common mailbox repair and lock projects in Vista",
-          "body": "Most Vista repair projects begin with a specific complaint—stuck locks, broken doors, or damaged compartments. We respond with targeted work that gets the system functioning again as quickly as possible.",
+          "body": "Most Vista repair projects begin with a specific complaint\u2014stuck locks, broken doors, or damaged compartments. We respond with targeted work that gets the system functioning again as quickly as possible.",
           "bullets": [
             "Rekeying or replacing individual tenant locks after move-outs or security concerns",
             "Replacing damaged compartment doors, hinges, and latches on CBUs and 4C units",
@@ -590,7 +590,7 @@
         {
           "id": "why-repairs-poway",
           "heading": "Why Poway properties need mailbox repairs and lock changes",
-          "body": "Poway’s communities and commercial properties rely on centralized mail equipment every day. When locks fail or doors stop working, it affects residents, staff, and carriers immediately.",
+          "body": "Poway\u2019s communities and commercial properties rely on centralized mail equipment every day. When locks fail or doors stop working, it affects residents, staff, and carriers immediately.",
           "bullets": [
             "Tenant locks that spin, jam, or no longer respond to keys",
             "Compartment doors that have been bent, pried, or forced open",
@@ -681,7 +681,7 @@
             "Equipment that has not been systematically serviced in many years",
             "Property teams needing reliable mail access while planning larger upgrades"
           ],
-          "closing": "We focus on targeted repairs that restore security and function so San Marcos residents aren’t dealing with repeated mailbox disruptions."
+          "closing": "We focus on targeted repairs that restore security and function so San Marcos residents aren\u2019t dealing with repeated mailbox disruptions."
         },
         {
           "id": "common-repair-projects-san-marcos",
@@ -1067,19 +1067,19 @@
       ],
       "nearbyAreas": [
         {
-          "citySlug": "anaheim",
-          "label": "Anaheim, CA",
-          "url": "/service-areas/anaheim/repairs-lock-changes/"
+          "citySlug": "san-diego",
+          "label": "San Diego, CA",
+          "url": "/service-areas/san-diego/repairs-lock-changes/"
         },
         {
-          "citySlug": "irvine",
-          "label": "Irvine, CA",
-          "url": "/service-areas/irvine/repairs-lock-changes/"
+          "citySlug": "riverside-county",
+          "label": "Riverside County, CA",
+          "url": "/service-areas/riverside-county/repairs-lock-changes/"
         },
         {
-          "citySlug": "santa-ana",
-          "label": "Santa Ana, CA",
-          "url": "/service-areas/santa-ana/repairs-lock-changes/"
+          "citySlug": "temecula",
+          "label": "Temecula, CA",
+          "url": "/service-areas/temecula/repairs-lock-changes/"
         }
       ]
     }
