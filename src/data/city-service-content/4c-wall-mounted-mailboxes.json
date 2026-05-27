@@ -203,6 +203,11 @@
       "state": "CA",
       "h1": "4C wall-mounted mailboxes in Oceanside, CA",
       "intro": "Postal Systems designs and installs USPS-approved 4C wall-mounted mailboxes and parcel lockers for apartments, mixed-use buildings, and coastal communities throughout Oceanside. We help properties replace aging boxes with secure, centralized 4C systems that meet current USPS and ADA requirements.",
+      "projectSignals": [
+        "Common project signals include outdated lobby mailboxes, parcel overflow, and repeated service calls on older hardware.",
+        "Typical property conditions include constrained wall space, shared corridors, and security concerns around package areas.",
+        "Planning signals often include renovation schedules, occupancy changes, or upgrades tied to broader mailroom improvements."
+      ],
       "sections": [
         {
           "id": "why-it-matters",

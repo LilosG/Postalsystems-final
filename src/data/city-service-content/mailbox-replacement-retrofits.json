@@ -287,6 +287,11 @@
       "state": "CA",
       "h1": "Mailbox replacement & retrofits in Carlsbad, CA",
       "intro": "Postal Systems delivers mailbox replacement and retrofit projects for resort-style communities, HOAs, and apartments across Carlsbad. We replace aging, inconsistent mail equipment with modern, cohesive systems that match the quality of your property and meet USPS expectations.",
+      "projectSignals": [
+        "Common project signals include mismatched mailbox banks, repeat repairs, and inconsistent locking performance across phases.",
+        "Typical property conditions include legacy pads or wall systems that no longer fit current equipment options.",
+        "Planning signals often include exterior refresh projects, reserve-study priorities, or community-wide standardization goals."
+      ],
       "sections": [
         {
           "id": "why-it-matters",
@@ -556,6 +561,11 @@
       "state": "CA",
       "h1": "Mailbox replacement and retrofits in Vista, CA",
       "intro": "Postal Systems replaces aging, damaged, and non-compliant mailbox equipment for HOAs, apartments, and commercial properties throughout Vista. We handle foundations, new hardware, and USPS coordination so you end up with a secure, modern system instead of a string of patch repairs.",
+      "projectSignals": [
+        "Common project signals include corrosion, cabinet fatigue, and repeated lock or door failures in high-use locations.",
+        "Typical property conditions include phased installations with mixed equipment ages and uneven foundation conditions.",
+        "Often relevant for properties timing mailbox work with paving, lighting, or circulation updates."
+      ],
       "sections": [
         {
           "id": "why-replacement-vista",

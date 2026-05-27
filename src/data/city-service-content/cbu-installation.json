@@ -122,6 +122,11 @@
       "state": "CA",
       "h1": "CBU installation in Chula Vista, CA",
       "intro": "Postal Systems provides USPS-approved Cluster Box Unit (CBU) installation for HOAs, apartments, and mixed-use properties throughout Chula Vista. From established neighborhoods to new master-planned communities, we upgrade aging mail equipment and install new CBU banks with coordinated USPS inspection.",
+      "projectSignals": [
+        "Common project signals include aging cluster mailbox banks, resident security complaints, and recurring lock failures.",
+        "Typical property conditions include undersized pads or circulation constraints around existing CBU locations.",
+        "Planning signals often include reserve-study timing, phased community improvements, or USPS guidance to rework layouts."
+      ],
       "sections": [
         {
           "id": "why-it-matters",
@@ -1054,6 +1059,11 @@
       "state": "CA",
       "h1": "CBU Installation in Escondido, CA",
       "intro": "Postal Systems installs USPS-approved Cluster Box Units (CBUs) for HOAs, apartments, and commercial properties throughout Escondido. From hillside communities to valley developments, we design, install, and coordinate inspection for secure, compliant CBU banks that serve residents reliably.",
+      "projectSignals": [
+        "Common project signals include recurring repairs on older cluster boxes and growing package-demand pressure.",
+        "Typical property conditions include spread-out mail stops that are harder to service and monitor.",
+        "Often relevant for communities planning foundation refreshes, access upgrades, or mailbox consolidation."
+      ],
       "sections": [
         {
           "id": "why-cbus-matter",
