@@ -9,7 +9,7 @@ const blog = defineCollection({
     updatedDate: z.date().optional(),
     image: z.string().optional(),
     draft: z.boolean().optional(),
-  }),
+  }).strict(),
 });
 
 export const collections = { blog };
