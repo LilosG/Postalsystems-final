@@ -127,3 +127,8 @@ Treating key handoff and resident communication as end-of-project tasks instead 
 
 ## Next step
 If you need a field-based recommendation, start with [mailbox replacement and retrofits in San Diego](/service-areas/san-diego/mailbox-replacement-retrofits/) or review the full [CBU installation service](/services/cbu-installation/) when replacement scope may require a new configuration.
+
+## Supporting planning articles
+- [Mailbox Repair vs Replacement: When San Diego Properties Should Upgrade](/blog/mailbox-repair-vs-replacement/)
+- [CBU Installation Checklist for San Diego HOA Boards](/blog/cbu-installation-checklist-san-diego/)
+- [USPS Commercial Mailbox Inspection Checklist for San Diego HOAs](/blog/usps-commercial-mailbox-inspection-checklist-san-diego-hoas/)

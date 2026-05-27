@@ -7,7 +7,7 @@ image: "/images/hero-mailbox.jpg"
 
 A Cluster Box Unit (CBU) installation is a compliance project as much as it is a construction project. In San Diego, most HOA boards and property managers need a predictable plan that covers USPS coordination, site layout, ADA access, and resident communication. This guide is a comprehensive checklist you can use in board meetings and project planning.
 
-If you are just getting started, review the [CBU installation service](/services/cbu-installation/) and confirm coverage for [San Diego](/service-areas/san-diego/).
+If you are just getting started, review the [CBU installation service](/services/cbu-installation/) and confirm coverage for [San Diego](/service-areas/san-diego/). For inspection prep, pair this with the [USPS commercial mailbox inspection checklist for San Diego HOAs](/blog/usps-commercial-mailbox-inspection-checklist-san-diego-hoas/). If your scope includes aging equipment decisions, add the [CBU replacement planning guide for San Diego property managers](/blog/cbu-replacement-planning-guide-san-diego-property-managers/).
 
 ## Who this guide is for
 - HOA boards replacing outdated or damaged mailbox banks.
@@ -200,3 +200,7 @@ Yes, but it is often more cost-effective to plan for lockers during the initial 
 
 ## Next steps
 If you want a structured, inspection-ready plan, start with the [CBU installation service](/services/cbu-installation/) or request a quote through the [San Diego service area page](/service-areas/san-diego/).
+
+## Related planning guides
+- [USPS Commercial Mailbox Inspection Checklist for San Diego HOAs](/blog/usps-commercial-mailbox-inspection-checklist-san-diego-hoas/)
+- [CBU Replacement Planning Guide for San Diego Property Managers](/blog/cbu-replacement-planning-guide-san-diego-property-managers/)

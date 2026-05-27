@@ -7,7 +7,7 @@ image: "/images/project-3.png"
 
 4C wall-mounted mailboxes are a professional, USPS-compliant upgrade for mailrooms and lobbies in Oceanside. The key is getting the layout, ADA reach, and USPS access right from the start. This guide outlines the planning steps, common pitfalls, and a clean path to inspection-ready installation.
 
-If you are considering an upgrade, see the [4C wall-mounted mailbox service](/services/4c-wall-mounted-mailboxes/) and verify local coverage in [Oceanside](/service-areas/oceanside/).
+If you are considering an upgrade, see the [4C wall-mounted mailbox service](/services/4c-wall-mounted-mailboxes/), verify local coverage in [Oceanside](/service-areas/oceanside/), and review [4C wall-mounted mailboxes in San Diego](/service-areas/san-diego/4c-wall-mounted-mailboxes/) for broader layout context. For inspection-prep handoff details, reference the [USPS commercial mailbox inspection checklist for San Diego HOAs](/blog/usps-commercial-mailbox-inspection-checklist-san-diego-hoas/).
 
 ## Who this guide is for
 - Property managers planning a retrofit in Oceanside.

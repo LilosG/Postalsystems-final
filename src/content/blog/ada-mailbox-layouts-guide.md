@@ -7,7 +7,7 @@ image: "/images/commercial-mailboxes-san-diego-hero-1200.webp"
 
 ADA compliance is one of the most common reasons mailbox projects fail inspection. The mistakes are often small, but they are expensive to correct after installation. Use this guide to avoid rework and keep projects on track.
 
-If you are planning a new layout, start with [ADA-compliant installs](/services/ada-compliant-installs/) and confirm coverage in [San Diego](/service-areas/san-diego/).
+If you are planning a new layout, start with [ADA-compliant installs](/services/ada-compliant-installs/) and confirm coverage in [San Diego](/service-areas/san-diego/). For final walkthrough planning that combines ADA and USPS coordination, use the [USPS commercial mailbox inspection checklist for San Diego HOAs](/blog/usps-commercial-mailbox-inspection-checklist-san-diego-hoas/).
 
 ## Who this guide is for
 - Property managers planning mailbox upgrades.

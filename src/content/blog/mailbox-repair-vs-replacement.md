@@ -7,7 +7,7 @@ image: "/images/postal-systems-mailbox-replacement-escondido-2025-10-18-04.jpg"
 
 Mailbox systems fail gradually. Locks stick, doors warp, and corrosion spreads. The core decision for most San Diego properties is whether to repair or replace. This guide provides a practical framework you can use to choose the right path and avoid costly rework.
 
-If you are in San Diego, start with the [mailbox services overview](/services/) and confirm coverage at the [San Diego service area page](/service-areas/san-diego/).
+If you are in San Diego, start with the [mailbox services overview](/services/) and confirm coverage at the [San Diego service area page](/service-areas/san-diego/). For a detailed scope and sequencing workflow, review the [CBU replacement planning guide for San Diego property managers](/blog/cbu-replacement-planning-guide-san-diego-property-managers/).
 
 ## Who this guide is for
 - HOA boards evaluating mailbox budgets.
