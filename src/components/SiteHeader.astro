@@ -1,8 +1,10 @@
 ---
 import { slugify } from "../lib/slug"
 
-const services = (await import("../data/services.json")).default as { name: string; summary?: string }[]
-const areas = (await import("../data/areas.json")).default as { city: string; state?: string }[]
+import { SERVICES_DATA, AREAS_DATA } from "../data/content"
+
+const services = SERVICES_DATA as { name: string; summary?: string }[]
+const areas = AREAS_DATA as { city: string; state?: string }[]
 
 const primaryServices = services.slice(0, 6)
 const primaryAreas = areas.slice(0, 8)
