@@ -81,6 +81,43 @@
           "label": "Poway, CA",
           "url": "/service-areas/poway/commercial-mailbox-installation/"
         }
+      ],
+      "localUseCases": [
+        "HOA replacements after repeated break-ins",
+        "Apartment upgrades tied to exterior renovation work",
+        "New phase mailbox delivery points for builders"
+      ],
+      "propertyTypes": [
+        "HOAs and townhome communities",
+        "Condo and apartment properties",
+        "Builder-led residential developments"
+      ],
+      "commonTriggers": [
+        "Outdated box banks with uneven lock hardware",
+        "Need for better-lit centralized delivery points",
+        "USPS guidance to update equipment or placement"
+      ],
+      "scopeDetails": [
+        "Existing equipment and location review",
+        "CBU or 4C recommendation by property layout",
+        "Pad/anchor installation and transition planning",
+        "Inspection coordination and key turnover workflow"
+      ],
+      "complianceNotes": [
+        "USPS location approval is handled before install starts."
+      ],
+      "projectSignals": [
+        "Typical Chula Vista scopes combine replacement with circulation and visibility improvements."
+      ],
+      "decisionFactors": [
+        "Centralized vs distributed mailbox locations",
+        "Package locker capacity needs by unit count"
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Do you work with property managers who oversee multiple Chula Vista communities?",
+          "answer": "Yes. We can standardize mailbox specs and phasing across several properties so approvals and maintenance are easier to manage."
+        }
       ]
     },
     "oceanside": {
@@ -163,6 +200,40 @@
           "label": "Encinitas, CA",
           "url": "/service-areas/encinitas/commercial-mailbox-installation/"
         }
+      ],
+      "localUseCases": [
+        "Coastal HOA replacements for corroded box banks",
+        "Multifamily upgrades with parcel capacity expansion"
+      ],
+      "propertyTypes": [
+        "Coastal HOAs and condo associations",
+        "Apartments and mixed-use communities"
+      ],
+      "commonTriggers": [
+        "Corrosion from salt air and moisture exposure",
+        "Frequent repair calls from worn doors and locks"
+      ],
+      "scopeDetails": [
+        "Condition and corrosion review",
+        "Replacement options with durable finishes",
+        "Pad and anchor scope where foundations are failing",
+        "USPS inspection coordination and sign-off"
+      ],
+      "complianceNotes": [
+        "Final installation must match approved USPS layout and access path."
+      ],
+      "projectSignals": [
+        "Common project types include corrosion-driven replacement and layout correction."
+      ],
+      "decisionFactors": [
+        "Material/finish durability in coastal exposure",
+        "Whether existing stations should be relocated for visibility"
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can Oceanside projects include both CBU replacement and parcel lockers?",
+          "answer": "Yes. Many coastal properties bundle those upgrades to improve security and package handling in one project."
+        }
       ]
     },
     "carlsbad": {
@@ -244,6 +315,35 @@
           "citySlug": "san-marcos",
           "label": "San Marcos, CA",
           "url": "/service-areas/san-marcos/commercial-mailbox-installation/"
+        }
+      ],
+      "localUseCases": [
+        "Master-planned HOA mailbox modernization",
+        "Commercial property station replacements"
+      ],
+      "propertyTypes": [
+        "HOAs and planned communities",
+        "Commercial and mixed-use properties"
+      ],
+      "commonTriggers": [
+        "Aging equipment affecting curb appeal",
+        "Need for consistent keying and hardware across mailbox banks"
+      ],
+      "scopeDetails": [
+        "Site planning and equipment sizing",
+        "Concrete and anchor updates",
+        "Resident communication and handoff support"
+      ],
+      "projectSignals": [
+        "Typical scopes prioritize both function and property appearance."
+      ],
+      "decisionFactors": [
+        "Matching property aesthetics with USPS-approved equipment"
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can mailbox installation be coordinated around amenity and guest traffic in Carlsbad?",
+          "answer": "Yes. Work windows and staging can be planned around peak resident and guest activity to minimize disruption."
         }
       ]
     },
@@ -575,6 +675,32 @@
           "label": "Escondido, CA",
           "url": "/service-areas/escondido/commercial-mailbox-installation/"
         }
+      ],
+      "localUseCases": [
+        "HOA replacements after damage and wear",
+        "Commercial site mailbox relocation to safer access points"
+      ],
+      "propertyTypes": [
+        "HOAs and multifamily properties",
+        "Commercial sites"
+      ],
+      "commonTriggers": [
+        "Repeated vandalism or vehicle impact damage",
+        "Mail location conflicts with traffic flow"
+      ],
+      "scopeDetails": [
+        "Site access analysis",
+        "Replacement/relocation scope with concrete work",
+        "USPS approval and inspection coordination"
+      ],
+      "projectSignals": [
+        "Typical Poway projects combine security upgrades with location improvements."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can Poway communities relocate mailbox stations during replacement?",
+          "answer": "Often yes, once USPS approves the proposed new location and access pattern."
+        }
       ]
     },
     "san-marcos": {
@@ -657,6 +783,30 @@
           "citySlug": "encinitas",
           "label": "Encinitas, CA",
           "url": "/service-areas/encinitas/commercial-mailbox-installation/"
+        }
+      ],
+      "localUseCases": [
+        "Apartment and HOA upgrades in growing corridors"
+      ],
+      "propertyTypes": [
+        "HOAs",
+        "Apartments",
+        "Builder-led communities"
+      ],
+      "commonTriggers": [
+        "Mailbox banks undersized for parcel volume",
+        "USPS feedback on legacy equipment"
+      ],
+      "scopeDetails": [
+        "Layout review, equipment recommendation, install and sign-off coordination"
+      ],
+      "projectSignals": [
+        "Common project types include CBU upgrades and consolidation."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can you support builder turnover timelines in San Marcos?",
+          "answer": "Yes. We coordinate mailbox installation and inspection milestones with broader project closeout schedules when timing allows."
         }
       ]
     },
@@ -908,6 +1058,57 @@
           "label": "Poway, CA",
           "url": "/service-areas/poway/commercial-mailbox-installation/"
         }
+      ],
+      "localUseCases": [
+        "HOA mailbox banks near clubhouses and pool lots",
+        "Apartment communities replacing aging cluster boxes",
+        "Builder handoff scopes for new multifamily phases",
+        "Commercial campuses consolidating scattered delivery points"
+      ],
+      "propertyTypes": [
+        "HOAs and condo associations",
+        "Apartments and multifamily communities",
+        "Builder/developer new construction",
+        "Commercial and mixed-use sites"
+      ],
+      "commonTriggers": [
+        "USPS notice requiring layout or equipment updates",
+        "Recurring vandalism or forced-entry damage",
+        "Aging mailboxes with corrosion, stuck doors, or failed locks",
+        "Resident complaints about parcel overflow and key management"
+      ],
+      "scopeDetails": [
+        "Site walk, equipment count, and layout recommendations",
+        "Concrete pad, pedestal, anchor, and demolition scope as needed",
+        "Tenant notice timing, access planning, and key handoff coordination",
+        "USPS review, final inspection, and sign-off scheduling"
+      ],
+      "complianceNotes": [
+        "USPS must approve mailbox type, location, and carrier access.",
+        "ADA access routes and clearances are reviewed before final layout is set."
+      ],
+      "projectSignals": [
+        "Common project types: replacements, relocations, and consolidation scopes across occupied communities.",
+        "Typical scope includes mailbox equipment plus pad/anchor and turnover coordination."
+      ],
+      "decisionFactors": [
+        "Whether existing pads can be reused or need rebuilds",
+        "How many parcel compartments are needed for current package volume",
+        "How to phase work so residents keep predictable mail access"
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can you coordinate mailbox installation with tenant notices and key turnover in San Diego?",
+          "answer": "Yes. We provide a rollout sequence that includes resident notice timing, access updates, and key handoff steps so managers can communicate clearly during cutover."
+        },
+        {
+          "question": "Can you replace vandalized mailbox banks and upgrade layout at the same time?",
+          "answer": "Yes. Many properties combine security-driven replacement with a better location or consolidated layout so the new system performs better long term."
+        }
+      ],
+      "internalLinkNotes": [
+        "Related project context: /projects/",
+        "See CBU scopes in San Diego: /service-areas/san-diego/cbu-installation/"
       ]
     },
     "riverside-county": {

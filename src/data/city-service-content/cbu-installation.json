@@ -83,6 +83,37 @@
           "label": "Poway, CA",
           "url": "/service-areas/poway/cbu-installation/"
         }
+      ],
+      "localUseCases": [
+        "Replacing legacy cluster boxes in older HOAs",
+        "Adding CBU capacity for growing apartment occupancy"
+      ],
+      "propertyTypes": [
+        "HOAs",
+        "Apartments",
+        "Commercial campuses"
+      ],
+      "commonTriggers": [
+        "Broken locks and repeated service calls",
+        "Need for parcel compartments and standardized keys"
+      ],
+      "scopeDetails": [
+        "CBU count and placement plan",
+        "Pad rebuild or extension where needed",
+        "Tenant notice, key handoff, and USPS sign-off"
+      ],
+      "projectSignals": [
+        "Typical CBU scope includes concrete work plus equipment activation."
+      ],
+      "decisionFactors": [
+        "Reuse existing pad vs pour new pad",
+        "Single large station vs multiple smaller stations"
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Do San Diego CBU projects include concrete pad and anchor work?",
+          "answer": "Yes. We scope pad, pedestal, and anchoring needs as part of the full installation plan."
+        }
       ]
     },
     "chula-vista": {
@@ -161,6 +192,26 @@
           "citySlug": "poway",
           "label": "Poway, CA",
           "url": "/service-areas/poway/cbu-installation/"
+        }
+      ],
+      "localUseCases": [
+        "CBU replacement in master-planned communities"
+      ],
+      "propertyTypes": [
+        "HOAs",
+        "Apartments"
+      ],
+      "commonTriggers": [
+        "USPS requests for updated CBU layout",
+        "Damaged banks from vandalism"
+      ],
+      "scopeDetails": [
+        "Site walk, layout recommendation, installation phasing and inspection coordination"
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can Chula Vista CBU work be phased to keep resident mail access active?",
+          "answer": "In many cases yes, with phased cutover and clear resident communication before key turnover."
         }
       ]
     },
@@ -1077,6 +1128,25 @@
           "citySlug": "poway",
           "label": "Poway, CA",
           "url": "/service-areas/poway/cbu-installation/"
+        }
+      ],
+      "localUseCases": [
+        "Community-wide CBU replacement programs"
+      ],
+      "propertyTypes": [
+        "HOAs",
+        "Multifamily properties"
+      ],
+      "commonTriggers": [
+        "Aging stations with repeated lock/door failures"
+      ],
+      "scopeDetails": [
+        "Condition audit, replacement plan, USPS coordination, and turnover"
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can Escondido projects combine CBU replacement with ADA path improvements?",
+          "answer": "Yes. When needed, we include approach and clearance updates in the same project scope."
         }
       ]
     }

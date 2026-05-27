@@ -82,6 +82,36 @@
           "label": "Carlsbad, CA",
           "url": "/service-areas/carlsbad/4c-wall-mounted-mailboxes/"
         }
+      ],
+      "localUseCases": [
+        "Mailroom retrofits in apartment and mixed-use buildings",
+        "4C upgrades replacing legacy wall-mounted boxes"
+      ],
+      "propertyTypes": [
+        "Apartments and multifamily",
+        "Mixed-use and commercial buildings"
+      ],
+      "commonTriggers": [
+        "Outdated wall boxes not meeting current expectations",
+        "Parcel overflow in small mailrooms"
+      ],
+      "scopeDetails": [
+        "Wall condition and clearance measurements",
+        "4C cabinet and parcel module layout",
+        "Install sequencing with tenant access planning",
+        "USPS review and final sign-off"
+      ],
+      "complianceNotes": [
+        "4C layouts are planned around USPS and ADA clearance expectations."
+      ],
+      "projectSignals": [
+        "Typical 4C retrofit scope includes layout planning, installation, and turnover support."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can 4C upgrades be coordinated during occupied building operations?",
+          "answer": "Yes. We plan staging and work windows to keep resident circulation and building access functional."
+        }
       ]
     },
     "chula-vista": {
@@ -246,6 +276,26 @@
           "citySlug": "encinitas",
           "label": "Encinitas, CA",
           "url": "/service-areas/encinitas/4c-wall-mounted-mailboxes/"
+        }
+      ],
+      "localUseCases": [
+        "Coastal apartment mailroom 4C retrofits"
+      ],
+      "propertyTypes": [
+        "Apartments",
+        "Condo communities"
+      ],
+      "commonTriggers": [
+        "Corroded wall boxes and lock failures",
+        "Need for integrated parcel compartments"
+      ],
+      "scopeDetails": [
+        "Mailroom assessment, 4C layout plan, install and USPS coordination"
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Do Oceanside 4C projects account for coastal wear conditions?",
+          "answer": "Yes. We review existing failure points and recommend equipment and placement suited to coastal exposure."
         }
       ]
     },

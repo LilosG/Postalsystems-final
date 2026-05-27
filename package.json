@@ -12,7 +12,8 @@
     "postbuild": "node scripts/add-localbusiness-optionals.mjs dist && node scripts/add-breadcrumbs.mjs dist && node scripts/alias-sitemap.mjs dist && node scripts/fix-county-meta-descriptions.mjs dist",
     "audit:seo-output": "node scripts/audit-seo-output.mjs",
     "verify:seo": "npm run build && npm run audit:seo-output && npm run audit:inlinks-output && npm run check",
-    "audit:inlinks-output": "node scripts/audit-internal-links.mjs"
+    "audit:inlinks-output": "node scripts/audit-internal-links.mjs",
+    "verify:money-pages": "node scripts/audit-money-page-content.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.5",

@@ -82,6 +82,38 @@
           "label": "Poway, CA",
           "url": "/service-areas/poway/mailbox-replacement-retrofits/"
         }
+      ],
+      "localUseCases": [
+        "Portfolio-wide replacement planning for property managers",
+        "Security-focused retrofits after repeated vandalism"
+      ],
+      "propertyTypes": [
+        "HOAs",
+        "Apartments",
+        "Commercial sites"
+      ],
+      "commonTriggers": [
+        "Aging equipment beyond practical repair",
+        "USPS or resident complaints about security/access"
+      ],
+      "scopeDetails": [
+        "Replace or retrofit recommendation by site",
+        "Concrete/pedestal corrections where needed",
+        "Resident notices and key handoff planning",
+        "USPS review and sign-off coordination"
+      ],
+      "projectSignals": [
+        "Common project types: aging-equipment replacement and consolidation of scattered stations."
+      ],
+      "decisionFactors": [
+        "Repair vs full replacement lifecycle cost",
+        "How to sequence upgrades with minimal disruption"
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can San Diego retrofit scopes include tenant notice support and key exchange planning?",
+          "answer": "Yes. We include rollout communication points and key turnover sequencing in project planning."
+        }
       ]
     },
     "chula-vista": {
@@ -328,6 +360,27 @@
           "citySlug": "san-marcos",
           "label": "San Marcos, CA",
           "url": "/service-areas/san-marcos/mailbox-replacement-retrofits/"
+        }
+      ],
+      "localUseCases": [
+        "HOA mailbox modernization tied to exterior refresh projects"
+      ],
+      "propertyTypes": [
+        "HOAs",
+        "Apartments",
+        "Mixed-use"
+      ],
+      "commonTriggers": [
+        "Inconsistent legacy equipment and lock sets",
+        "Visible corrosion and dated appearance"
+      ],
+      "scopeDetails": [
+        "Existing condition review, replacement options, phased install and USPS coordination"
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can Carlsbad retrofit projects improve appearance while staying USPS-compliant?",
+          "answer": "Yes. We help select compliant equipment that aligns with property aesthetics and operational needs."
         }
       ]
     },
@@ -577,6 +630,25 @@
           "citySlug": "escondido",
           "label": "Escondido, CA",
           "url": "/service-areas/escondido/mailbox-replacement-retrofits/"
+        }
+      ],
+      "localUseCases": [
+        "Mailbox replacement for aging multifamily communities"
+      ],
+      "propertyTypes": [
+        "HOAs",
+        "Apartments"
+      ],
+      "commonTriggers": [
+        "Vandalized doors, damaged hardware, and obsolete components"
+      ],
+      "scopeDetails": [
+        "Condition audit, replacement plan, pad/anchor scope, and inspection sign-off"
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can Vista replacement projects include relocation to improve lighting and visibility?",
+          "answer": "Often yes, once layout and access are reviewed and approved through USPS coordination."
         }
       ]
     },
