@@ -7,6 +7,8 @@ import { slugify } from "../../lib/slug"
 import TrustGrid from "../../components/TrustGrid.astro"
 import ProcessStrip from "../../components/ProcessStrip.astro"
 import PSImage from "../../components/PSImage.astro"
+import PriorityMoneyPages from "../../components/sections/PriorityMoneyPages.astro"
+import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../../schema/breadcrumb"
 
 const services = (await import("../../data/services.json")).default as {
   name: string
@@ -18,6 +20,8 @@ const description =
   "USPS-approved commercial mailbox services: installation, CBU and 4C systems, parcel lockers, repairs, and ADA-compliant upgrades across San Diego County."
 const canonical = "https://sandiegocommercialmailboxes.com/services/"
 export const prerender = true
+const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: "https://sandiegocommercialmailboxes.com/" }, { label: "Services", href: canonical }]);
+const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema)
 
 const imageKeyBySlug: Record<string, string> = {
   "commercial-mailbox-installation": "commercial-mailbox-installation-san-diego-ca",
@@ -30,7 +34,7 @@ const imageKeyBySlug: Record<string, string> = {
   "mailbox-relocation-consolidation": "cbu-mailbox-installation-chula-vista-ca"
 }
 ---
-<SiteLayout {title} {description} {canonical} schema={schema}>
+<SiteLayout {title} {description} {canonical} schema={pageSchema}>
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10">
     <h1 class="sr-only">
       Mailbox services in San Diego County
@@ -139,6 +143,8 @@ const imageKeyBySlug: Record<string, string> = {
       </ul>
     </div>
   </section>
+
+    <PriorityMoneyPages context="services-hub" title="Top city + service pages" subtitle="Jump directly to high-intent service pages in priority San Diego County cities." limit={6} />
 
 </main>
 </SiteLayout>

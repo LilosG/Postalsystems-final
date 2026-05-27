@@ -1,6 +1,11 @@
 ---
+import services from "../data/services.json";
+import areas from "../data/areas.json";
 const year = new Date().getFullYear();
+const footerServices = (services as {name:string}[]).slice(0,6);
+const footerAreas = (areas as {city:string}[]).slice(0,13);
 ---
+
 <footer class="border-t border-ps-muted bg-white">
   <div class="max-w-6xl mx-auto px-4 lg:px-6 py-8 grid gap-8 md:grid-cols-4 text-xs text-ps-navy/80">
     <div>
@@ -16,31 +21,14 @@ const year = new Date().getFullYear();
     <div>
       <h3 class="text-[11px] font-semibold tracking-[0.16em] uppercase text-ps-navy">Services</h3>
       <ul class="mt-2 space-y-1">
-        <li><a href="/services/commercial-mailbox-installation/" class="hover:text-ps-navy">Commercial mailbox installation</a></li>
-        <li><a href="/services/cbu-installation/" class="hover:text-ps-navy">CBU installation</a></li>
-        <li><a href="/services/4c-wall-mounted-mailboxes/" class="hover:text-ps-navy">4C wall-mounted mailboxes</a></li>
-        <li><a href="/services/parcel-lockers/" class="hover:text-ps-navy">Parcel lockers</a></li>
-        <li><a href="/services/repairs-lock-changes/" class="hover:text-ps-navy">Repairs & lock changes</a></li>
-        <li><a href="/services/ada-compliant-installs/" class="hover:text-ps-navy">ADA-compliant installs</a></li>
+        {footerServices.map((service) => (<li><a href={`/services/${service.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}/`} class="hover:text-ps-navy">{service.name}</a></li>))}
       </ul>
     </div>
 
     <div>
       <h3 class="text-[11px] font-semibold tracking-[0.16em] uppercase text-ps-navy">Service areas</h3>
       <ul class="mt-2 space-y-1">
-        <li><a href="/service-areas/san-diego/" class="hover:text-ps-navy">San Diego, CA</a></li>
-        <li><a href="/service-areas/chula-vista/" class="hover:text-ps-navy">Chula Vista, CA</a></li>
-        <li><a href="/service-areas/carlsbad/" class="hover:text-ps-navy">Carlsbad, CA</a></li>
-        <li><a href="/service-areas/oceanside/" class="hover:text-ps-navy">Oceanside, CA</a></li>
-        <li><a href="/service-areas/encinitas/" class="hover:text-ps-navy">Encinitas, CA</a></li>
-        <li><a href="/service-areas/escondido/" class="hover:text-ps-navy">Escondido, CA</a></li>
-        <li><a href="/service-areas/vista/" class="hover:text-ps-navy">Vista, CA</a></li>
-        <li><a href="/service-areas/san-marcos/" class="hover:text-ps-navy">San Marcos, CA</a></li>
-        <li><a href="/service-areas/poway/" class="hover:text-ps-navy">Poway, CA</a></li>
-        <li><a href="/service-areas/el-cajon/" class="hover:text-ps-navy">El Cajon, CA</a></li>
-        <li><a href="/service-areas/temecula/" class="hover:text-ps-navy">Temecula, CA</a></li>
-        <li><a href="/service-areas/riverside-county/" class="hover:text-ps-navy">Riverside County, CA</a></li>
-        <li><a href="/service-areas/orange-county/" class="hover:text-ps-navy">Orange County, CA</a></li>
+        {footerAreas.map((area) => (<li><a href={`/service-areas/${area.city.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")}/`} class="hover:text-ps-navy">{area.city}, CA</a></li>))}
       </ul>
     </div>
 

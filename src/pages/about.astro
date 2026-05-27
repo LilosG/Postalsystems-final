@@ -3,6 +3,7 @@ import SiteLayout from "../layouts/SiteLayout.astro"
 import SectionHeader from "../components/ui/SectionHeader.astro"
 import TrustGrid from "../components/TrustGrid.astro"
 import ProcessStrip from "../components/ProcessStrip.astro"
+import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../schema/breadcrumb"
 
 const title = "About Postal Systems | USPS-Approved Mailbox Contractor in San Diego County"
 const description =
@@ -40,9 +41,12 @@ const schema = {
   }]
 }
 
+const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: "https://sandiegocommercialmailboxes.com/" }, { label: "About", href: canonical }]);
+const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema);
+
 export const prerender = true
 ---
-<SiteLayout {title} description={description} canonical={canonical} schema={schema}>
+<SiteLayout {title} description={description} canonical={canonical} schema={pageSchema}>
   <main class="bg-ps-surface">
     <section class="border-b border-ps-muted bg-white">
       <div class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-14 grid gap-10 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] items-start">

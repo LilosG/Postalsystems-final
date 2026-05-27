@@ -8,6 +8,8 @@ import SectionHeader from "../../components/ui/SectionHeader.astro"
 import TrustGrid from "../../components/TrustGrid.astro"
 import ProcessStrip from "../../components/ProcessStrip.astro"
 import { slugify } from "../../lib/slug"
+import PriorityMoneyPages from "../../components/sections/PriorityMoneyPages.astro"
+import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../../schema/breadcrumb"
 
 type Service = {
   name: string
@@ -85,7 +87,9 @@ const faqSchema = faqItems.length
     }
   : null
 
-const pageSchema = faqSchema ? [schema, serviceSchema, faqSchema] : [schema, serviceSchema]
+const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: "https://sandiegocommercialmailboxes.com/" }, { label: "Services", href: "https://sandiegocommercialmailboxes.com/services/" }, { label: service.name, href: canonical }]);
+const baseSchema = faqSchema ? [schema, serviceSchema, faqSchema] : [schema, serviceSchema]
+const pageSchema = appendBreadcrumbSchema(baseSchema, breadcrumbSchema)
 
 export const prerender = true
 
@@ -285,5 +289,6 @@ export const prerender = true
     <section class="mt-10">
       <ProcessStrip />
     </section>
+      <PriorityMoneyPages context="service-page" serviceSlug={serviceSlug} title={`Top ${service.name} pages by city`} subtitle="Priority city-level pages for this service." limit={4} />
   </main>
 </SiteLayout>

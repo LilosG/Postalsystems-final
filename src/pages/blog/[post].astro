@@ -1,5 +1,6 @@
 ---
 import { getCollection, type CollectionEntry } from "astro:content";
+import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../../schema/breadcrumb";
 import SiteLayout from "../../layouts/SiteLayout.astro";
 import { SITE } from "../../data/site";
 import Breadcrumbs from "../../components/Breadcrumbs.astro";
@@ -50,8 +51,10 @@ const schema = {
   },
   image: image ? [image] : undefined,
 };
+const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: `${SITE.url}/` }, { label: "Blog", href: `${SITE.url}/blog/` }, { label: post.data.title, href: canonical }]);
+const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema);
 ---
-<SiteLayout {title} {description} {canonical} {image} schema={schema}>
+<SiteLayout {title} {description} {canonical} {image} schema={pageSchema}>
   <main class="bg-ps-surface">
     <section class="max-w-4xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
       <Breadcrumbs

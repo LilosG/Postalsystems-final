@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../../schema/breadcrumb";
 import SiteLayout from "../../layouts/SiteLayout.astro";
 import SectionHeader from "../../components/ui/SectionHeader.astro";
 import CTA from "../../components/ui/CTA.astro";
@@ -26,6 +27,8 @@ const schema = {
     url: SITE.url,
   },
 };
+const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: `${SITE.url}/` }, { label: "Blog", href: canonical }]);
+const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema);
 
 const dateFormatter = new Intl.DateTimeFormat("en-US", {
   year: "numeric",
@@ -35,7 +38,7 @@ const dateFormatter = new Intl.DateTimeFormat("en-US", {
 
 export const prerender = true;
 ---
-<SiteLayout {title} {description} {canonical} schema={schema}>
+<SiteLayout {title} {description} {canonical} schema={pageSchema}>
   <main class="bg-ps-surface">
     <h1 class="sr-only">Postal Systems blog</h1>
 

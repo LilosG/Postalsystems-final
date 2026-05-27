@@ -5,12 +5,16 @@ import SectionHeader from "../components/ui/SectionHeader.astro";
 import ProjectsSection from "../components/sections/ProjectsSection.astro";
 import ProcessStrip from "../components/ProcessStrip.astro";
 import CTA from "../components/ui/CTA.astro";
+import PriorityMoneyPages from "../components/sections/PriorityMoneyPages.astro";
+import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../schema/breadcrumb";
 
 const title = "Mailbox Projects across San Diego County | Postal Systems";
 const description =
   "Featured commercial mailbox projects across San Diego County and select cities in Orange and Riverside Counties. USPS-approved installation, replacement, and upgrades for CBUs, 4C mailboxes, and parcel lockers.";
 const canonical = "https://sandiegocommercialmailboxes.com/projects/";
 export const prerender = true;
+const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: "https://sandiegocommercialmailboxes.com/" }, { label: "Projects", href: canonical }]);
+const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema);
 
 const projectTypes = [
   {
@@ -67,7 +71,7 @@ const serviceAreaCities = [
   ]
 ];
 ---
-<SiteLayout {title} {description} {canonical} schema={schema}>
+<SiteLayout {title} {description} {canonical} schema={pageSchema}>
   <main class="bg-white">
     <!-- Page header -->
     <section class="border-b border-ps-muted bg-ps-surface/40">
@@ -177,6 +181,8 @@ const serviceAreaCities = [
         </p>
       </div>
     </section>
+
+    <PriorityMoneyPages context="projects" title="Related city + service pages" subtitle="Explore high-intent local service pages tied to common project types." limit={8} />
 
     <!-- Process + CTA -->
     <ProcessStrip subtitle="From site visit and layout through USPS inspection and sign-off, we run your mailbox project as a turnkey scope." />

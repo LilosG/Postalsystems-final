@@ -1,0 +1,37 @@
+---
+import { PRIORITY_MONEY_PAGES, type PriorityContext } from "../../data/priorityMoneyPages";
+
+interface Props {
+  context: PriorityContext;
+  title?: string;
+  subtitle?: string;
+  limit?: number;
+  serviceSlug?: string;
+}
+
+const { context, title = "Priority service area pages", subtitle = "High-intent city + service pages for USPS-approved mailbox work.", limit = 6, serviceSlug } = Astro.props as Props;
+
+const filtered = PRIORITY_MONEY_PAGES.filter((item) => {
+  if (!item.contexts.includes(context)) return false;
+  if (context === "service-page" && serviceSlug) return item.serviceSlug === serviceSlug;
+  return true;
+}).slice(0, limit);
+---
+{filtered.length > 0 && (
+  <section class="mt-12">
+    <div class="rounded-2xl border border-ps-muted bg-ps-surface p-6">
+      <h2 class="text-lg font-semibold text-ps-navy">{title}</h2>
+      <p class="mt-1 text-sm text-ps-navy/75">{subtitle}</p>
+      <ul class="mt-4 grid gap-3 md:grid-cols-2">
+        {filtered.map((item) => (
+          <li>
+            <a href={item.href} class="block rounded-xl border border-ps-muted bg-white p-4 hover:border-ps-red/60">
+              <div class="text-sm font-semibold text-ps-navy hover:text-ps-red">{item.title}</div>
+              <p class="mt-1 text-xs text-ps-navy/75">{item.description}</p>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+)}
