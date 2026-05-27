@@ -1,0 +1,30 @@
+export type PriorityContext = "home" | "services-hub" | "areas-hub" | "projects" | "service-page";
+
+export type PriorityMoneyPage = {
+  href: string;
+  title: string;
+  description: string;
+  city: string;
+  service: string;
+  serviceSlug: string;
+  citySlug: string;
+  tier: 1 | 2;
+  contexts: PriorityContext[];
+};
+
+export const PRIORITY_MONEY_PAGES: PriorityMoneyPage[] = [
+  { href: "/service-areas/san-diego/commercial-mailbox-installation/", title: "Commercial Mailbox Installation in San Diego", description: "USPS-approved commercial mailbox installation for HOAs, apartments, and commercial sites in San Diego.", city: "San Diego", service: "Commercial Mailbox Installation", serviceSlug: "commercial-mailbox-installation", citySlug: "san-diego", tier: 1, contexts: ["home", "services-hub", "areas-hub", "projects", "service-page"] },
+  { href: "/service-areas/san-diego/cbu-installation/", title: "CBU Installation in San Diego", description: "Cluster mailbox installation and replacement with USPS coordination in San Diego.", city: "San Diego", service: "CBU Installation", serviceSlug: "cbu-installation", citySlug: "san-diego", tier: 1, contexts: ["home", "services-hub", "areas-hub", "projects", "service-page"] },
+  { href: "/service-areas/san-diego/4c-wall-mounted-mailboxes/", title: "4C Wall-Mounted Mailboxes in San Diego", description: "4C mailbox installations for multifamily and mixed-use properties in San Diego.", city: "San Diego", service: "4C Wall-Mounted Mailboxes", serviceSlug: "4c-wall-mounted-mailboxes", citySlug: "san-diego", tier: 1, contexts: ["home", "services-hub", "projects", "service-page"] },
+  { href: "/service-areas/san-diego/mailbox-replacement-retrofits/", title: "Mailbox Replacement in San Diego", description: "Mailbox replacement and retrofit scopes for aging or vandalized equipment in San Diego.", city: "San Diego", service: "Mailbox Replacement & Retrofits", serviceSlug: "mailbox-replacement-retrofits", citySlug: "san-diego", tier: 1, contexts: ["home", "services-hub", "projects", "service-page"] },
+  { href: "/service-areas/chula-vista/commercial-mailbox-installation/", title: "Commercial Mailbox Installation in Chula Vista", description: "Turnkey commercial mailbox installations for managed properties in Chula Vista.", city: "Chula Vista", service: "Commercial Mailbox Installation", serviceSlug: "commercial-mailbox-installation", citySlug: "chula-vista", tier: 1, contexts: ["home", "areas-hub", "projects", "service-page"] },
+  { href: "/service-areas/chula-vista/cbu-installation/", title: "CBU Installation in Chula Vista", description: "USPS-aligned CBU installation and replacement in Chula Vista communities.", city: "Chula Vista", service: "CBU Installation", serviceSlug: "cbu-installation", citySlug: "chula-vista", tier: 1, contexts: ["services-hub", "areas-hub", "projects", "service-page"] },
+  { href: "/service-areas/oceanside/commercial-mailbox-installation/", title: "Commercial Mailbox Installation in Oceanside", description: "Commercial mailbox installation for HOAs, apartments, and mixed-use properties in Oceanside.", city: "Oceanside", service: "Commercial Mailbox Installation", serviceSlug: "commercial-mailbox-installation", citySlug: "oceanside", tier: 1, contexts: ["home", "areas-hub", "projects", "service-page"] },
+  { href: "/service-areas/oceanside/4c-wall-mounted-mailboxes/", title: "4C Wall-Mounted Mailboxes in Oceanside", description: "4C mailbox layout and installation projects for Oceanside multifamily properties.", city: "Oceanside", service: "4C Wall-Mounted Mailboxes", serviceSlug: "4c-wall-mounted-mailboxes", citySlug: "oceanside", tier: 1, contexts: ["services-hub", "projects", "service-page"] },
+  { href: "/service-areas/carlsbad/commercial-mailbox-installation/", title: "Commercial Mailbox Installation in Carlsbad", description: "USPS-approved mailbox installation and inspection coordination in Carlsbad.", city: "Carlsbad", service: "Commercial Mailbox Installation", serviceSlug: "commercial-mailbox-installation", citySlug: "carlsbad", tier: 1, contexts: ["home", "areas-hub", "projects", "service-page"] },
+  { href: "/service-areas/carlsbad/mailbox-replacement-retrofits/", title: "Mailbox Replacement in Carlsbad", description: "Retrofit and replacement projects for aging mailbox systems in Carlsbad.", city: "Carlsbad", service: "Mailbox Replacement & Retrofits", serviceSlug: "mailbox-replacement-retrofits", citySlug: "carlsbad", tier: 1, contexts: ["services-hub", "projects", "service-page"] },
+  { href: "/service-areas/escondido/cbu-installation/", title: "CBU Installation in Escondido", description: "Cluster mailbox installation scopes for Escondido communities and properties.", city: "Escondido", service: "CBU Installation", serviceSlug: "cbu-installation", citySlug: "escondido", tier: 2, contexts: ["services-hub", "areas-hub", "projects", "service-page"] },
+  { href: "/service-areas/san-marcos/commercial-mailbox-installation/", title: "Commercial Mailbox Installation in San Marcos", description: "Commercial mailbox projects for San Marcos HOAs, apartments, and facilities.", city: "San Marcos", service: "Commercial Mailbox Installation", serviceSlug: "commercial-mailbox-installation", citySlug: "san-marcos", tier: 2, contexts: ["areas-hub", "projects", "service-page"] },
+  { href: "/service-areas/vista/mailbox-replacement-retrofits/", title: "Mailbox Replacement in Vista", description: "Mailbox replacement and retrofit planning for Vista properties.", city: "Vista", service: "Mailbox Replacement & Retrofits", serviceSlug: "mailbox-replacement-retrofits", citySlug: "vista", tier: 2, contexts: ["areas-hub", "projects", "service-page"] },
+  { href: "/service-areas/poway/commercial-mailbox-installation/", title: "Commercial Mailbox Installation in Poway", description: "USPS-approved mailbox installations for Poway managed properties.", city: "Poway", service: "Commercial Mailbox Installation", serviceSlug: "commercial-mailbox-installation", citySlug: "poway", tier: 2, contexts: ["areas-hub", "projects", "service-page"] },
+];

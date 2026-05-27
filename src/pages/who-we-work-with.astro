@@ -3,14 +3,18 @@ import { postalSystemsLocalBusinessSchema as schema } from "../schema/localBusin
 import SiteLayout from "../layouts/SiteLayout.astro"
 import SectionHeader from "../components/ui/SectionHeader.astro"
 import CTA from "../components/ui/CTA.astro"
+import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../schema/breadcrumb"
 
 const title = "Who We Work With | Postal Systems"
 const description =
   "USPS-approved commercial mailbox systems for HOAs, property managers, apartments, builders, commercial and industrial facilities, and campuses across San Diego County."
 const canonical = "https://sandiegocommercialmailboxes.com/who-we-work-with/"
+const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: "https://sandiegocommercialmailboxes.com/" }, { label: "Who We Work With", href: canonical }]);
+const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema);
+
 export const prerender = true
 ---
-<SiteLayout {title} {description} {canonical} schema={schema}>
+<SiteLayout {title} {description} {canonical} schema={pageSchema}>
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10">
     <h1 class="sr-only">Who we work with</h1>
 

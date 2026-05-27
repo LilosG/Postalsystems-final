@@ -6,6 +6,8 @@ import SectionHeader from "../../../components/ui/SectionHeader.astro"
 import TrustGrid from "../../../components/TrustGrid.astro"
 import ProcessStrip from "../../../components/ProcessStrip.astro"
 import { slugify } from "../../../lib/slug"
+import { appendCountySuffix } from "../../../lib/seo"
+import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../../../schema/breadcrumb"
 
 export async function getStaticPaths() {
   const areas = (await import("../../../data/areas.json")).default as any[]
@@ -26,8 +28,10 @@ const { c } = Astro.props as { c: { city: string; state: string } }
 const citySlug = slugify(String(c.city))
 
 const title = `Mailbox Services in ${c.city} — Postal Systems`
-const desc = `USPS-approved commercial mailbox services in ${c.city}, ${c.state}.`
+const desc = appendCountySuffix(`USPS-approved commercial mailbox services in ${c.city}, ${c.state}.`, citySlug)
 const canonical = `https://sandiegocommercialmailboxes.com/service-areas/${citySlug}/`
+const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: "https://sandiegocommercialmailboxes.com/" }, { label: "Service Areas", href: "https://sandiegocommercialmailboxes.com/service-areas/" }, { label: c.city, href: canonical }])
+const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema)
 
 const services = (await import("../../../data/services.json")).default as {
   name: string
@@ -89,7 +93,7 @@ const faqs = (cityContent?.faqs ?? defaultFaqs) as { question: string; answer: s
 
 export const prerender = true
 ---
-<SiteLayout {title} description={desc} canonical={canonical} schema={schema}>
+<SiteLayout {title} description={desc} canonical={canonical} schema={pageSchema}>
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
     <Breadcrumbs
       crumbs={[

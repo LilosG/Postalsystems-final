@@ -6,6 +6,8 @@ import SectionHeader from "../../components/ui/SectionHeader.astro"
 import { slugify } from "../../lib/slug"
 import TrustGrid from "../../components/TrustGrid.astro"
 import ProcessStrip from "../../components/ProcessStrip.astro"
+import PriorityMoneyPages from "../../components/sections/PriorityMoneyPages.astro"
+import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../../schema/breadcrumb"
 
 const areas = (await import("../../data/areas.json")).default as {
   city: string
@@ -18,8 +20,10 @@ const description =
   "Commercial mailbox installation and service across San Diego County, with select coverage in Riverside County and Orange County."
 const canonical = "https://sandiegocommercialmailboxes.com/service-areas/"
 export const prerender = true
+const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: "https://sandiegocommercialmailboxes.com/" }, { label: "Service Areas", href: canonical }]);
+const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema)
 ---
-<SiteLayout {title} {description} {canonical} schema={schema}>
+<SiteLayout {title} {description} {canonical} schema={pageSchema}>
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10">
     <h1 class="sr-only">Service areas</h1>
 
@@ -89,6 +93,8 @@ export const prerender = true
     </section>
 
     <ProcessStrip subtitle="Whether you are replacing aging units or installing new systems, our team manages layout, installation, and USPS inspection." />
+
+    <PriorityMoneyPages context="areas-hub" title="Priority city + service pages" subtitle="High-intent local pages for core installation and replacement demand." limit={6} />
 
     <div class="mt-12">
       <CTA primaryHref="/contact/" primaryLabel="Don’t see your city? Contact us." />

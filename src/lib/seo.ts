@@ -97,3 +97,17 @@ export function canonical(pathname?: string) {
   const p = pathname.startsWith("/") ? pathname : `/${pathname}`;
   return `${base}${p}`;
 }
+
+
+const COUNTY_SUFFIXES: Record<string, string> = {
+  "orange-county": "Orange County, CA",
+  "riverside-county": "Riverside County, CA",
+};
+
+export function appendCountySuffix(description: string, areaSlug?: string) {
+  if (!areaSlug || !COUNTY_SUFFIXES[areaSlug]) return description;
+  const suffix = COUNTY_SUFFIXES[areaSlug];
+  if (description.includes(suffix)) return description;
+  const sep = description.trim().endsWith(".") ? " " : ". ";
+  return `${description}${sep}Serving ${suffix}.`;
+}
