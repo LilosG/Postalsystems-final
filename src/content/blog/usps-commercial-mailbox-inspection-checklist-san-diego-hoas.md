@@ -119,3 +119,8 @@ Bring location notes, access confirmations, installation scope details, and the 
 
 ## Next step
 If your community is preparing for a mailbox upgrade, review [commercial mailbox installation in San Diego](/service-areas/san-diego/commercial-mailbox-installation/) or start with the [commercial mailbox installation service](/services/commercial-mailbox-installation/) to define scope before inspection scheduling.
+
+## Supporting planning articles
+- [CBU Installation Checklist for San Diego HOA Boards](/blog/cbu-installation-checklist-san-diego/)
+- [ADA-Compliant Mailbox Layouts: Common Misses and How to Fix Them](/blog/ada-mailbox-layouts-guide/)
+- [Parcel Locker Planning for Chula Vista Multifamily Properties](/blog/parcel-locker-planning-chula-vista/)

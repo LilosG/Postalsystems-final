@@ -8,6 +8,7 @@ image: "/images/project-2.png"
 Parcel lockers are one of the most effective upgrades for multifamily properties in Chula Vista. The challenge is making sure the lockers are sized correctly, placed for USPS access, and integrated with your existing mailbox layout. This guide walks through the planning steps that keep projects compliant and resident-friendly.
 
 If you are evaluating an upgrade, start with the [parcel locker installation service](/services/parcel-lockers/) and confirm coverage in [Chula Vista](/service-areas/chula-vista/).
+If parcel lockers are part of a broader centralized delivery update, coordinate planning with the [USPS commercial mailbox inspection checklist for San Diego HOAs](/blog/usps-commercial-mailbox-inspection-checklist-san-diego-hoas/) and [CBU installation in Chula Vista](/service-areas/chula-vista/cbu-installation/).
 
 ## Who this guide is for
 - Property managers in Chula Vista apartments and HOAs.
