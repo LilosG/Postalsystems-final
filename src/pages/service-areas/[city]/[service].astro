@@ -224,6 +224,68 @@ export const prerender = true
       </section>
     )}
 
+
+    {(cityContent?.localUseCases || cityContent?.propertyTypes || cityContent?.commonTriggers || cityContent?.scopeDetails || cityContent?.complianceNotes || cityContent?.projectSignals || cityContent?.decisionFactors || cityContent?.internalLinkNotes) && (
+      <section class="mt-10 grid gap-4 md:grid-cols-2">
+        {cityContent?.localUseCases?.length > 0 && (
+          <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
+            <h2 class="text-base font-semibold text-ps-navy">Common local use cases</h2>
+            <ul class="mt-3 space-y-1.5 text-sm text-ps-navy/85">{cityContent.localUseCases.map((item: string) => <li>• {item}</li>)}</ul>
+          </article>
+        )}
+        {cityContent?.propertyTypes?.length > 0 && (
+          <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
+            <h2 class="text-base font-semibold text-ps-navy">Property types we support</h2>
+            <ul class="mt-3 space-y-1.5 text-sm text-ps-navy/85">{cityContent.propertyTypes.map((item: string) => <li>• {item}</li>)}</ul>
+          </article>
+        )}
+        {cityContent?.commonTriggers?.length > 0 && (
+          <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
+            <h2 class="text-base font-semibold text-ps-navy">What usually triggers this project</h2>
+            <ul class="mt-3 space-y-1.5 text-sm text-ps-navy/85">{cityContent.commonTriggers.map((item: string) => <li>• {item}</li>)}</ul>
+          </article>
+        )}
+        {cityContent?.scopeDetails?.length > 0 && (
+          <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
+            <h2 class="text-base font-semibold text-ps-navy">Typical scope details</h2>
+            <ul class="mt-3 space-y-1.5 text-sm text-ps-navy/85">{cityContent.scopeDetails.map((item: string) => <li>• {item}</li>)}</ul>
+          </article>
+        )}
+        {cityContent?.complianceNotes?.length > 0 && (
+          <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps md:col-span-2">
+            <h2 class="text-base font-semibold text-ps-navy">Compliance notes</h2>
+            <ul class="mt-3 space-y-1.5 text-sm text-ps-navy/85">{cityContent.complianceNotes.map((item: string) => <li>• {item}</li>)}</ul>
+          </article>
+        )}
+        {cityContent?.projectSignals?.length > 0 && (
+          <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps md:col-span-2">
+            <h2 class="text-base font-semibold text-ps-navy">Project planning signals</h2>
+            <ul class="mt-3 space-y-1.5 text-sm text-ps-navy/85">{cityContent.projectSignals.map((item: string) => <li>• {item}</li>)}</ul>
+          </article>
+        )}
+        {cityContent?.decisionFactors?.length > 0 && (
+          <article class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps md:col-span-2">
+            <h2 class="text-base font-semibold text-ps-navy">Decision factors owners and managers compare</h2>
+            <ul class="mt-3 space-y-1.5 text-sm text-ps-navy/85">{cityContent.decisionFactors.map((item: string) => <li>• {item}</li>)}</ul>
+          </article>
+        )}
+      </section>
+    )}
+
+    {cityContent?.serviceSpecificFaqs && cityContent.serviceSpecificFaqs.length > 0 && (
+      <section class="mt-10">
+        <SectionHeader title={`Service-specific questions in ${c.city}`} subtitle="Extra planning questions from property managers, HOAs, and builder teams." align="left" />
+        <div class="mt-4 space-y-3">
+          {cityContent.serviceSpecificFaqs.map((faq: any) => (
+            <details class="group rounded-2xl border border-ps-muted bg-white p-4 shadow-ps">
+              <summary class="flex cursor-pointer items-center justify-between text-sm font-semibold text-ps-navy"><span>{faq.question}</span></summary>
+              <p class="mt-2 text-xs text-ps-navy/80">{faq.answer}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+    )}
+
     {cityContent?.faqs && cityContent.faqs.length > 0 && (
       <section class="mt-10">
         <SectionHeader
