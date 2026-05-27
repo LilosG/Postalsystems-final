@@ -4,8 +4,10 @@ import { slugify } from "../lib/slug";
 type Service = { name: string; summary?: string };
 type Area = { city: string; state?: string };
 
-const services = (await import("../data/services.json")).default as Service[];
-const areas = (await import("../data/areas.json")).default as Area[];
+import { SERVICES_DATA, AREAS_DATA } from "../data/content";
+
+const services = SERVICES_DATA as Service[];
+const areas = AREAS_DATA as Area[];
 
 const primaryServices = services.slice(0, 6).map((s) => ({
   name: s.name,

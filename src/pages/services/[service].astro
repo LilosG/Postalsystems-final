@@ -10,6 +10,7 @@ import ProcessStrip from "../../components/ProcessStrip.astro"
 import { slugify } from "../../lib/slug"
 import PriorityMoneyPages from "../../components/sections/PriorityMoneyPages.astro"
 import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../../schema/breadcrumb"
+import { SERVICES_DATA, AREAS_DATA } from "../../data/content"
 
 type Service = {
   name: string
@@ -18,7 +19,7 @@ type Service = {
 }
 
 export async function getStaticPaths() {
-  const services = (await import("../../data/services.json")).default as Service[]
+  const services = SERVICES_DATA as Service[]
 
   return services.map((s) => ({
     params: { service: slugify(s.name) },
@@ -30,7 +31,7 @@ const { service } = Astro.props as { service: Service }
 
 const serviceSlug = slugify(service.name)
 
-const areas = (await import("../../data/areas.json")).default as {
+const areas = AREAS_DATA as {
   city: string
   state?: string
   county?: string

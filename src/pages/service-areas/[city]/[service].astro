@@ -5,6 +5,7 @@ import Breadcrumbs from "../../../components/Breadcrumbs.astro"
 import SectionHeader from "../../../components/ui/SectionHeader.astro"
 import TrustGrid from "../../../components/TrustGrid.astro"
 import ProcessStrip from "../../../components/ProcessStrip.astro"
+import { SERVICES_DATA, AREAS_DATA } from "../../../data/content"
 
 type Area = {
   city: string
@@ -17,8 +18,8 @@ type Service = {
 }
 
 export async function getStaticPaths() {
-  const areas = (await import("../../../data/areas.json")).default as Area[]
-  const services = (await import("../../../data/services.json")).default as Service[]
+  const areas = AREAS_DATA as Area[]
+  const services = SERVICES_DATA as Service[]
 
   const paths: any[] = []
 
@@ -99,7 +100,7 @@ const pageSchema = buildServicePageSchema({
 })
 
 
-const allServices = (await import("../../../data/services.json")).default as {
+const allServices = SERVICES_DATA as {
   name: string
   summary?: string
 }[]

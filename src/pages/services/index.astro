@@ -10,7 +10,9 @@ import PSImage from "../../components/PSImage.astro"
 import PriorityMoneyPages from "../../components/sections/PriorityMoneyPages.astro"
 import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../../schema/breadcrumb"
 
-const services = (await import("../../data/services.json")).default as {
+import { SERVICES_DATA } from "../../data/content"
+
+const services = SERVICES_DATA as {
   name: string
   summary?: string
 }[]

@@ -9,7 +9,9 @@ import ProcessStrip from "../../components/ProcessStrip.astro"
 import PriorityMoneyPages from "../../components/sections/PriorityMoneyPages.astro"
 import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../../schema/breadcrumb"
 
-const areas = (await import("../../data/areas.json")).default as {
+import { AREAS_DATA } from "../../data/content"
+
+const areas = AREAS_DATA as {
   city: string
   state?: string
   county?: string
