@@ -1,16 +1,85 @@
 ---
-import { getCollection, type CollectionEntry } from "astro:content";
-import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../../schema/breadcrumb";
-import SiteLayout from "../../layouts/SiteLayout.astro";
-import { SITE } from "../../data/site";
-import Breadcrumbs from "../../components/Breadcrumbs.astro";
-import CTA from "../../components/ui/CTA.astro";
-import GeneralContactForm from "../../components/conversion/GeneralContactForm.astro";
+// src/pages/blog/[post].astro
+// Postal Systems — Blog Post Route
+// ==================================
+// Previous version: no FAQ render, no Related Services, no Related Articles.
+// FAQs were collected in frontmatter schema but never displayed or driven to
+// JSON-LD. The CTA and form were hardcoded with no service context.
+//
+// This version adds:
+//   - FAQ render section + FAQPage JSON-LD
+//   - Related Services sidebar driven by serviceAreas frontmatter
+//   - Money page links (service × area cross-product)
+//   - Related Articles scored by tag overlap
+//
+// The existing design system (ps-* tokens, rounded-3xl, rounded-2xl cards,
+// shadow-ps, SiteLayout, Breadcrumbs, CTA, GeneralContactForm) is preserved.
+
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { buildBreadcrumbSchema, appendBreadcrumbSchema } from '../../schema/breadcrumb';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { SITE } from '../../data/site';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CTA from '../../components/ui/CTA.astro';
+import GeneralContactForm from '../../components/conversion/GeneralContactForm.astro';
+
+// ── Service + area registries ─────────────────────────────────────────────
+
+interface ServiceEntry {
+  slug: string;
+  name: string;
+  href: string;
+  shortDesc: string;
+}
+
+interface AreaEntry {
+  slug: string;
+  name: string;
+  href: string;
+}
+
+const SERVICE_REGISTRY: ServiceEntry[] = [
+  {
+    slug: 'cbu-installation',
+    name: 'CBU Installation',
+    href: '/services/cbu-installation/',
+    shortDesc: 'USPS-approved cluster box unit installation for multifamily and HOA properties.',
+  },
+  {
+    slug: 'parcel-locker-installation',
+    name: 'Parcel Locker Installation',
+    href: '/services/parcel-locker-installation/',
+    shortDesc: 'Package locker systems for apartments, condos, and commercial properties.',
+  },
+  {
+    slug: 'ada-compliant-mailboxes',
+    name: 'ADA-Compliant Mailboxes',
+    href: '/services/ada-compliant-mailboxes/',
+    shortDesc: 'ADA-compliant mailbox systems meeting federal and California accessibility standards.',
+  },
+  {
+    slug: 'mailbox-services',
+    name: 'Commercial Mailbox Services',
+    href: '/services/',
+    shortDesc: 'Full-service USPS-approved mailbox installation and replacement in San Diego County.',
+  },
+];
+
+const AREA_REGISTRY: AreaEntry[] = [
+  { slug: 'san-diego',  name: 'San Diego',   href: '/service-areas/san-diego/' },
+  { slug: 'carlsbad',   name: 'Carlsbad',    href: '/service-areas/carlsbad/' },
+  { slug: 'chula-vista', name: 'Chula Vista', href: '/service-areas/chula-vista/' },
+  { slug: 'escondido',  name: 'Escondido',   href: '/service-areas/escondido/' },
+  { slug: 'el-cajon',   name: 'El Cajon',    href: '/service-areas/el-cajon/' },
+  { slug: 'santee',     name: 'Santee',      href: '/service-areas/santee/' },
+];
+
+// ── Static paths ──────────────────────────────────────────────────────────
 
 export const prerender = true;
 
 export async function getStaticPaths() {
-  const allPosts = await getCollection("blog");
+  const allPosts = await getCollection('blog');
   const posts = allPosts.filter((post) => !post.data.draft);
   return posts.map((post) => ({
     params: { post: post.slug },
@@ -18,100 +87,298 @@ export async function getStaticPaths() {
   }));
 }
 
-const { post } = Astro.props as { post: CollectionEntry<"blog"> };
+const { post } = Astro.props as { post: CollectionEntry<'blog'> };
 const { Content } = await post.render();
 
-const canonical = `${SITE.url.replace(/\/+$/, "")}/blog/${post.slug}/`;
-const title = `${post.data.title} | ${SITE.title}`;
-const description = post.data.description;
-const image = post.data.image;
-const publishedLabel = post.data.pubDate.toLocaleDateString("en-US", {
-  year: "numeric",
-  month: "long",
-  day: "numeric",
-});
+// ── Derived data ──────────────────────────────────────────────────────────
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
+const canonical      = `${SITE.url.replace(/\/+$/, '')}/blog/${post.slug}/`;
+const title          = `${post.data.title} | ${SITE.title}`;
+const description    = post.data.description;
+const image          = post.data.image;
+const faqs           = post.data.faqs ?? [];
+const postServiceSet = new Set<string>(post.data.serviceAreas ?? []);
+const tags           = post.data.tags ?? [];
+
+const publishedLabel = (post.data.pubDate ?? post.data.publishDate ?? new Date())
+  .toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+// Linked services (driven by serviceAreas frontmatter — Postal uses this
+// field for services, not cities, given the B2B nature of the content)
+const linkedServices = SERVICE_REGISTRY.filter((s) => postServiceSet.has(s.slug));
+
+// For Postal Systems, serviceAreas frontmatter contains service slugs (e.g.
+// "cbu-installation"). Area links are derived from the primary service page
+// cross-linked with San Diego County areas.
+const moneyPages = AREA_REGISTRY.slice(0, 4).flatMap((area) =>
+  linkedServices.slice(0, 1).map((service) => ({
+    label: `${service.name} in ${area.name}`,
+    href: `/service-areas/${area.slug}/`,
+  })),
+).slice(0, 6);
+
+// Related articles
+const allPosts = (await getCollection('blog'))
+  .filter((p) => !p.data.draft && p.slug !== post.slug);
+const relatedPosts = allPosts
+  .map((p) => {
+    const pTags = p.data.tags ?? [];
+    const overlap = pTags.filter((t) => tags.includes(t)).length;
+    return { post: p, overlap };
+  })
+  .sort(
+    (a, b) =>
+      b.overlap - a.overlap ||
+      ((b.post.data.pubDate ?? b.post.data.publishDate ?? new Date(0)).getTime()) -
+      ((a.post.data.pubDate ?? a.post.data.publishDate ?? new Date(0)).getTime()),
+  )
+  .slice(0, 3)
+  .map(({ post }) => post);
+
+// ── Schema ────────────────────────────────────────────────────────────────
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
   headline: post.data.title,
   description: post.data.description,
-  datePublished: post.data.pubDate.toISOString(),
-  dateModified: (post.data.updatedDate ?? post.data.pubDate).toISOString(),
+  datePublished: (post.data.pubDate ?? post.data.publishDate ?? new Date()).toISOString(),
+  dateModified: (
+    post.data.updatedDate ??
+    post.data.pubDate ??
+    post.data.publishDate ??
+    new Date()
+  ).toISOString(),
   mainEntityOfPage: canonical,
-  author: {
-    "@type": "Organization",
-    name: SITE.title,
-    url: SITE.url,
-  },
-  publisher: {
-    "@type": "Organization",
-    name: SITE.title,
-    url: SITE.url,
-  },
+  author: { '@type': 'Organization', name: SITE.title, url: SITE.url },
+  publisher: { '@type': 'Organization', name: SITE.title, url: SITE.url },
   image: image ? [image] : undefined,
 };
-const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: `${SITE.url}/` }, { label: "Blog", href: `${SITE.url}/blog/` }, { label: post.data.title, href: canonical }]);
-const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema);
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { label: 'Home', href: `${SITE.url}/` },
+  { label: 'Blog', href: `${SITE.url}/blog/` },
+  { label: post.data.title, href: canonical },
+]);
+
+const pageSchema = appendBreadcrumbSchema(articleSchema, breadcrumbSchema);
+
+const faqSchema =
+  faqs.length > 0
+    ? JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map((f: { question: string; answer: string }) => ({
+          '@type': 'Question',
+          name: f.question,
+          acceptedAnswer: { '@type': 'Answer', text: f.answer },
+        })),
+      })
+    : null;
 ---
+
 <SiteLayout {title} {description} {canonical} {image} schema={pageSchema}>
+  {faqSchema && <script type="application/ld+json" slot="head" set:html={faqSchema} />}
+
   <main class="bg-ps-surface">
-    <section class="max-w-4xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
+    <section class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
+
       <Breadcrumbs
         crumbs={[
-          { href: "/", label: "Home" },
-          { href: "/blog/", label: "Blog" },
+          { href: '/', label: 'Home' },
+          { href: '/blog/', label: 'Blog' },
           { href: canonical, label: post.data.title },
         ]}
       />
 
-      <div class="rounded-3xl border border-ps-muted bg-white p-6 sm:p-8 shadow-ps">
-        <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-red">
-          Field Guide
-        </p>
-        <h1 class="mt-3 text-2xl sm:text-3xl font-semibold text-ps-navy">
-          {post.data.title}
-        </h1>
-        <p class="mt-3 text-sm text-ps-navy/80 max-w-2xl">
-          {post.data.description}
-        </p>
-        <div class="mt-4 text-xs text-ps-navy/60">
-          Published {publishedLabel}
-        </div>
+      <div class="lg:grid lg:grid-cols-12 lg:gap-10 mt-6">
 
-        {image && (
-          <div class="mt-6 overflow-hidden rounded-2xl bg-ps-surface">
-            <img
-              src={image}
-              alt={post.data.title}
-              class="h-56 w-full object-cover sm:h-72"
-              loading="lazy"
-              decoding="async"
+        <!-- Article -->
+        <article class="lg:col-span-8">
+          <div class="rounded-3xl border border-ps-muted bg-white p-6 sm:p-8 shadow-ps">
+            <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-red">
+              Field Guide
+            </p>
+            <h1 class="mt-3 text-2xl sm:text-3xl font-semibold text-ps-navy">
+              {post.data.title}
+            </h1>
+            <p class="mt-3 text-sm text-ps-navy/80 max-w-2xl">
+              {post.data.description}
+            </p>
+            <div class="mt-4 text-xs text-ps-navy/60">
+              Published {publishedLabel}
+            </div>
+
+            {image && (
+              <div class="mt-6 overflow-hidden rounded-2xl bg-ps-surface">
+                <img
+                  src={image}
+                  alt={post.data.title}
+                  class="h-56 w-full object-cover sm:h-72"
+                  loading="eager"
+                  fetchpriority="high"
+                  decoding="async"
+                  width="1200"
+                  height="675"
+                />
+              </div>
+            )}
+          </div>
+
+          <div class="mt-8 prose prose-slate max-w-none prose-a:text-ps-red prose-a:no-underline hover:prose-a:text-ps-red/80">
+            <Content />
+          </div>
+
+          <!-- FAQ section -->
+          {faqs.length > 0 && (
+            <div class="mt-10">
+              <h2 class="text-xl font-semibold text-ps-navy mb-6">
+                Frequently Asked Questions
+              </h2>
+              <dl class="space-y-4">
+                {faqs.map((f: { question: string; answer: string }) => (
+                  <div class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
+                    <dt class="font-semibold text-ps-navy text-sm">{f.question}</dt>
+                    <dd class="mt-2 text-sm text-ps-navy/70 leading-relaxed">{f.answer}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          )}
+
+          <!-- Money pages -->
+          {moneyPages.length > 0 && (
+            <div class="mt-10 rounded-2xl border border-ps-muted bg-white p-6 shadow-ps">
+              <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-red mb-3">
+                Local Service Pages
+              </p>
+              <h2 class="text-base font-semibold text-ps-navy mb-4">
+                Find USPS-Approved Mailbox Services Near You
+              </h2>
+              <div class="flex flex-wrap gap-2">
+                {moneyPages.map((page) => (
+                  <a
+                    href={page.href}
+                    class="inline-flex items-center gap-1 text-xs font-semibold text-ps-navy border border-ps-muted rounded-full px-3 py-1.5 hover:border-ps-red hover:text-ps-red transition-colors bg-ps-surface"
+                  >
+                    {page.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div class="mt-10">
+            <CTA
+              primaryHref="/contact/"
+              primaryLabel="Request a USPS-approved quote"
+              secondaryHref="/services/"
+              secondaryLabel="Explore services"
             />
           </div>
-        )}
+
+          <div class="mt-10">
+            <GeneralContactForm
+              heading="Talk through your mailbox project"
+              subheading="Share your property details and we will follow up with clear options and timelines."
+              context={`Blog: ${post.data.title}`}
+            />
+          </div>
+        </article>
+
+        <!-- Sidebar -->
+        <aside class="lg:col-span-4 mt-10 lg:mt-0">
+          <div class="sticky top-8 space-y-6">
+
+            <!-- Related services -->
+            {linkedServices.length > 0 && (
+              <div class="rounded-2xl border border-ps-muted bg-white p-6 shadow-ps">
+                <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-red mb-3">
+                  Related Services
+                </p>
+                <ul class="space-y-3">
+                  {linkedServices.map((service) => (
+                    <li>
+                      <a href={service.href} class="group flex items-start gap-2 text-sm">
+                        <svg class="w-4 h-4 mt-0.5 text-ps-red shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <span>
+                          <span class="font-semibold text-ps-navy group-hover:text-ps-red transition-colors">
+                            {service.name}
+                          </span>
+                          <span class="block text-xs text-ps-navy/60 mt-0.5">
+                            {service.shortDesc}
+                          </span>
+                        </span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            <!-- Quick CTA -->
+            <div class="rounded-2xl border border-ps-muted bg-white p-6 shadow-ps">
+              <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-red mb-2">
+                Get a Quote
+              </p>
+              <p class="text-sm text-ps-navy/80 mb-4">
+                USPS-approved mailbox installation for HOAs, property managers, and developers throughout San Diego County.
+              </p>
+              <a
+                href="/contact/"
+                class="block w-full text-center bg-ps-red text-white font-semibold text-sm py-3 px-4 rounded-xl hover:bg-ps-red/90 transition-colors"
+              >
+                Talk Through Your Project
+              </a>
+            </div>
+
+          </div>
+        </aside>
       </div>
 
-      <article class="mt-8 prose prose-slate max-w-none prose-a:text-ps-red prose-a:no-underline hover:prose-a:text-ps-red/80">
-        <Content />
-      </article>
+      <!-- Related articles -->
+      {relatedPosts.length > 0 && (
+        <div class="mt-14">
+          <h2 class="text-xl font-semibold text-ps-navy mb-6">Related Articles</h2>
+          <div class="grid gap-6 md:grid-cols-3">
+            {relatedPosts.map((p) => {
+              const pDate = (p.data.pubDate ?? p.data.publishDate ?? new Date())
+                .toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+              return (
+                <a
+                  href={`/blog/${p.slug}/`}
+                  class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps flex flex-col hover:border-ps-red transition-colors"
+                >
+                  {p.data.image && (
+                    <div class="mb-4 overflow-hidden rounded-xl aspect-video">
+                      <img
+                        src={p.data.image}
+                        alt={p.data.title}
+                        class="w-full h-full object-cover"
+                        loading="lazy"
+                        decoding="async"
+                        width="600"
+                        height="338"
+                      />
+                    </div>
+                  )}
+                  <p class="text-[10px] font-semibold uppercase tracking-widest text-ps-red mb-1">
+                    Field Guide
+                  </p>
+                  <h3 class="text-sm font-semibold text-ps-navy mb-2 leading-snug line-clamp-2">
+                    {p.data.title}
+                  </h3>
+                  <p class="text-xs text-ps-navy/60 line-clamp-2 flex-1">{p.data.description}</p>
+                  <span class="mt-3 text-xs font-semibold text-ps-red">Read more →</span>
+                </a>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
-      <div class="mt-10">
-        <CTA
-          primaryHref="/contact/"
-          primaryLabel="Request a USPS-approved quote"
-          secondaryHref="/services/"
-          secondaryLabel="Explore services"
-        />
-      </div>
-
-      <div class="mt-10">
-        <GeneralContactForm
-          heading="Talk through your mailbox project"
-          subheading="Share your property details and we will follow up with clear options and timelines."
-          context={`Blog: ${post.data.title}`}
-        />
-      </div>
     </section>
   </main>
 </SiteLayout>
