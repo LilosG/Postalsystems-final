@@ -5,6 +5,7 @@ import PSImage from "../components/PSImage.astro";
 import SectionHeader from "../components/ui/SectionHeader.astro";
 import PriorityMoneyPages from "../components/sections/PriorityMoneyPages.astro";
 import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../schema/breadcrumb";
+import { testimonials } from "../data/site";
 
 export const prerender = true;
 
@@ -13,8 +14,45 @@ const description =
   "USPS-approved commercial mailbox contractor for HOAs, apartments, builders, and facilities across San Diego County. Turnkey CBU, 4C, and parcel locker installs with USPS inspection sign-off.";
 const canonical = "https://sandiegocommercialmailboxes.com/";
 
+const homeFaqs = [
+  {
+    question: "What is a USPS-approved commercial mailbox contractor?",
+    answer: "A USPS-approved contractor is licensed to install, replace, and modify commercial mailbox systems — including Cluster Box Units (CBUs) and 4C wall-mounted mailboxes — in compliance with USPS regulations. Postal Systems holds California Contractor License #904106 and coordinates all USPS inspections and sign-off on your behalf.",
+  },
+  {
+    question: "What types of commercial mailbox systems do you install?",
+    answer: "We install USPS-approved Cluster Box Units (CBUs), 4C wall-mounted mailboxes, parcel lockers, and ADA-compliant mailbox stations. We pour concrete pads, set anchors, handle tenant notice, coordinate USPS inspection, and deliver keys — all as part of our turnkey service.",
+  },
+  {
+    question: "How long does a commercial mailbox installation take?",
+    answer: "Most standard CBU or 4C installations are completed in one to two days once materials are on-site. Larger projects with multiple units, pad work, or replacement of aging systems may take two to three days. We provide a detailed schedule at the quote stage and coordinate timing with USPS to minimize tenant disruption.",
+  },
+  {
+    question: "Do you handle USPS inspection and sign-off?",
+    answer: "Yes. We manage the entire USPS coordination process — from submitting the installation plan to scheduling the post-installation inspection and obtaining final sign-off. You do not need to coordinate with the postal service separately.",
+  },
+  {
+    question: "Do you serve areas outside San Diego County?",
+    answer: "Our primary service area is San Diego County, including cities like Carlsbad, Chula Vista, Escondido, Oceanside, San Marcos, and Vista. We also take select projects in Riverside County and Orange County. Contact us to confirm availability for your location.",
+  },
+  {
+    question: "Are your mailbox installations ADA-compliant?",
+    answer: "Yes. We design and install all systems to meet ADA height, reach, approach, and clearance requirements. We document compliance and can provide ADA-specific layouts for HOAs, campuses, and public-facing facilities.",
+  },
+];
+
+const faqSchemaObj = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: homeFaqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: { "@type": "Answer", text: faq.answer },
+  })),
+};
+
 const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: canonical }]);
-const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema);
+const pageSchema = appendBreadcrumbSchema([schema, faqSchemaObj], breadcrumbSchema);
 ---
 
 <SiteLayout {title} {description} {canonical} schema={pageSchema}>
@@ -379,6 +417,28 @@ const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema);
     </div>
   </section>
 
+  <section class="bg-ps-surface border-b border-ps-muted">
+    <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12">
+      <SectionHeader
+        title="What our clients say"
+        subtitle="HOAs, property managers, and builders across San Diego County trust Postal Systems."
+        align="center"
+      />
+      <div class="mt-8 grid gap-6 md:grid-cols-3">
+        {testimonials.map((t) => (
+          <blockquote class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps flex flex-col">
+            <p class="text-sm text-ps-navy/85 leading-relaxed flex-1">&ldquo;{t.quote}&rdquo;</p>
+            <footer class="mt-4">
+              <cite class="not-italic text-xs font-semibold text-ps-navy">{t.author}</cite>
+              {t.role && <p class="text-xs text-ps-navy/60">{t.role}</p>}
+              {t.location && <p class="text-xs text-ps-navy/60">{t.location}</p>}
+            </footer>
+          </blockquote>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <PriorityMoneyPages context="home" title="Popular city + service pages" subtitle="High-intent local pages for installation, CBU systems, 4C mailboxes, and replacement projects." limit={6} />
 
   <section class="bg-white border-b border-ps-muted">
@@ -564,6 +624,24 @@ const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema);
         <a href="/blog/mailbox-repair-vs-replacement/" class="rounded-2xl border border-ps-muted bg-ps-surface p-4 text-sm font-semibold text-ps-navy hover:border-ps-red/60 hover:text-ps-red">Mailbox Repair vs Replacement Guide</a>
         <a href="/blog/ada-mailbox-layouts-guide/" class="rounded-2xl border border-ps-muted bg-ps-surface p-4 text-sm font-semibold text-ps-navy hover:border-ps-red/60 hover:text-ps-red">ADA Mailbox Layouts Guide</a>
       </div>
+    </div>
+  </section>
+
+  <section class="bg-ps-surface border-t border-ps-muted">
+    <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12">
+      <SectionHeader
+        title="Common questions about commercial mailbox installation"
+        subtitle="Answers for HOAs, property managers, and builders planning a compliant USPS mailbox project."
+        align="left"
+      />
+      <dl class="mt-8 space-y-4">
+        {homeFaqs.map((faq) => (
+          <div class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
+            <dt class="text-sm font-semibold text-ps-navy">{faq.question}</dt>
+            <dd class="mt-2 text-sm text-ps-navy/80 leading-relaxed">{faq.answer}</dd>
+          </div>
+        ))}
+      </dl>
     </div>
   </section>
 

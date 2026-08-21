@@ -39,6 +39,16 @@ export const postalSystemsLocalBusinessSchema = {
     "credentialCategory": "license",
     "name": "California Contractor License #904106"
   },
+  "knowsAbout": [
+    "USPS commercial mailbox installation",
+    "Cluster Box Unit (CBU) installation and replacement",
+    "4C wall-mounted mailbox systems",
+    "ADA-compliant mailbox installation",
+    "Parcel locker installation",
+    "Commercial mailbox repair and lock changes",
+    "USPS inspection coordination",
+    "HOA and multifamily mailbox systems"
+  ],
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
