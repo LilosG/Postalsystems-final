@@ -3,6 +3,7 @@ import { postalSystemsLocalBusinessSchema as schema } from "../../schema/localBu
 import SiteLayout from "../../layouts/SiteLayout.astro"
 import CTA from "../../components/ui/CTA.astro"
 import SectionHeader from "../../components/ui/SectionHeader.astro"
+import Hero from "../../components/ui/Hero.astro"
 import { slugify } from "../../lib/slug"
 import TrustGrid from "../../components/TrustGrid.astro"
 import ProcessStrip from "../../components/ProcessStrip.astro"
@@ -37,9 +38,23 @@ const imageKeyBySlug: Record<string, string> = {
 }
 ---
 <SiteLayout {title} {description} {canonical} schema={pageSchema}>
+  <Hero
+    variant="light"
+    eyebrow="USPS-Approved Contractor · San Diego County"
+    heading="Mailbox Services in San Diego County"
+    subtext="Turnkey installation, replacements, and repairs for commercial mailbox systems. We handle USPS coordination, ADA-compliant layouts, and inspection sign-off for HOAs, apartments, builders, and commercial properties."
+    bullets={[
+      "CBU installation, 4C wall-mounted mailboxes, and parcel lockers.",
+      "ADA-compliant layouts with pad, anchor, and approach corrections.",
+      "Repairs, lock changes, relocations, and consolidations.",
+      "USPS-approved contractor — full scope from site visit to key handover.",
+    ]}
+    primaryCta={{ href: "/contact/", label: "Get a free quote" }}
+    secondaryCta={{ href: "tel:16194614787", label: "Call (619) 461-4787", isPhone: true }}
+    showForm={true}
+    formContext="services-hub"
+  />
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10">
-    <h1 class="text-2xl md:text-3xl font-semibold text-ps-navy">Mailbox Services in San Diego County</h1>
-    <p class="mt-2 text-gray-600 max-w-prose">Turnkey installation, replacements, and repairs for commercial mailbox systems with USPS coordination and inspection sign-off.</p>
 
     <div class="mt-8 grid md:grid-cols-2 gap-6">
       {services.map((s) => {
