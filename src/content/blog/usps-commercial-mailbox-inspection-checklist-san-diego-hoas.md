@@ -3,6 +3,25 @@ title: "USPS Commercial Mailbox Inspection Checklist for San Diego HOAs"
 description: "A practical inspection and sign-off checklist for San Diego HOA boards and property managers planning commercial mailbox and CBU projects."
 pubDate: 2026-05-27
 image: "/images/hero-mailbox.jpg"
+faqs:
+  - question: "What does USPS look for during a commercial mailbox inspection at a San Diego HOA?"
+    answer: "USPS inspectors verify that equipment is USPS-approved, that compartment dimensions meet DMM 508 standards, that carrier keys and access work correctly, that the pad is level and accessible, and that the carrier's approach and retrieval route is clear and safe."
+  - question: "How does a San Diego HOA schedule a USPS inspection for a new mailbox installation?"
+    answer: "Postal Systems coordinates USPS inspection scheduling for all our San Diego HOA projects. We notify the local USPS district of the installation timeline and arrange the inspection date as part of the project close-out process so the board does not need to navigate that process independently."
+  - question: "What happens if a San Diego mailbox installation fails the USPS inspection?"
+    answer: "USPS will provide a punch list of deficiencies that must be corrected before service is activated. When we handle San Diego installations, we conduct our own pre-inspection walkthrough to identify and resolve any issues before the USPS inspector arrives, reducing the likelihood of a re-inspection."
+  - question: "Do San Diego commercial properties need a USPS inspection even when replacing existing mailboxes?"
+    answer: "Yes. Any new installation — including replacements — requires USPS review and sign-off before the carrier begins delivering mail to the new equipment. Replacement projects that change location, equipment type, or compartment count almost always require a formal USPS inspection."
+serviceAreas:
+  - san-diego
+  - chula-vista
+  - carlsbad
+tags:
+  - usps-inspection
+  - san-diego
+  - hoa
+  - checklist
+  - commercial-mailboxes
 ---
 
 For HOA boards, mailbox projects succeed when planning, construction, and USPS coordination are treated as one process. This guide gives San Diego communities a practical checklist for inspection readiness before USPS sign-off.

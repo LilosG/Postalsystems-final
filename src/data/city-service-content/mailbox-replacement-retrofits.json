@@ -11,7 +11,7 @@
         {
           "id": "common-issues",
           "heading": "Common mailbox replacement and retrofit issues we see in San Diego",
-          "body": "San Diego\u2019s coastal air, sun exposure, and varied building ages create a wide range of mailbox problems. We are often called in when equipment has reached the end of its practical life or when USPS has raised concerns.",
+          "body": "San Diego’s coastal air, sun exposure, and varied building ages create a wide range of mailbox problems. We are often called in when equipment has reached the end of its practical life or when USPS has raised concerns.",
           "bullets": [
             "Heavy rust, peeling paint, and corroded pedestals on CBUs near the coast",
             "Older wall-mounted mailboxes that no longer meet security or USPS expectations",
@@ -114,6 +114,10 @@
           "question": "Can San Diego retrofit scopes include tenant notice support and key exchange planning?",
           "answer": "Yes. We include rollout communication points and key turnover sequencing in project planning."
         }
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 specifies that replacement mailbox equipment must meet current approved standards for compartment size, locking hardware, and carrier-key access. Layout changes that alter route sequences require USPS coordination and approval.",
+        "ADA Section 4.1.6 requires that any alteration to a primary function area trigger accessible path-of-travel corrections for the route leading to the altered element, including pad height and approach clearances."
       ]
     },
     "chula-vista": {
@@ -126,7 +130,7 @@
         {
           "id": "why-it-matters",
           "heading": "Why mailbox replacement and retrofits matter in Chula Vista",
-          "body": "Chula Vista\u2019s mix of older neighborhoods and newer planned communities means many properties are running mailbox equipment at different ages and conditions. When rust, vandalism, or outdated boxes start to frustrate residents and carriers, a structured replacement or retrofit becomes the most efficient solution.",
+          "body": "Chula Vista’s mix of older neighborhoods and newer planned communities means many properties are running mailbox equipment at different ages and conditions. When rust, vandalism, or outdated boxes start to frustrate residents and carriers, a structured replacement or retrofit becomes the most efficient solution.",
           "bullets": [
             "Clusters of older CBUs with doors that no longer close or lock reliably",
             "Mailboxes that make an otherwise well-maintained community look dated",
@@ -197,6 +201,44 @@
           "label": "Poway, CA",
           "url": "/service-areas/poway/mailbox-replacement-retrofits/"
         }
+      ],
+      "localUseCases": [
+        "Master-planned HOA communities in Otay Ranch replacing original CBU banks installed 15–20 years ago with current USPS-approved equipment.",
+        "Older garden-style apartment complexes in western Chula Vista swapping out recessed horizontal wall boxes for secure CBUs.",
+        "Chula Vista townhome communities replacing vandalized or failing 4C cabinets with matching replacement equipment.",
+        "Chula Vista properties completing common-area renovations and including mailbox replacements as part of the same project scope."
+      ],
+      "propertyTypes": [
+        "Master-planned HOA communities in Otay Ranch and eastern Chula Vista with CBU banks at centralized mail stations.",
+        "Older garden-style apartment complexes in western Chula Vista with wall-mounted horizontal mailbox arrays.",
+        "Townhome and attached condo associations in Chula Vista with shared outdoor CBU mail stations.",
+        "Mixed-use residential buildings in Chula Vista requiring compliant 4C cabinet replacements."
+      ],
+      "commonTriggers": [
+        "Rusted or vandalized Chula Vista CBUs that have reached a cost-of-repair threshold where replacement is more cost-effective.",
+        "A USPS notice to a Chula Vista HOA or property manager citing non-compliant or damaged mailbox equipment.",
+        "A Chula Vista board decision to upgrade the mail area as part of a broader exterior renovation or repaint project.",
+        "New management at a Chula Vista property conducting a condition audit and flagging failing mailbox equipment."
+      ],
+      "scopeDetails": [
+        "Equipment condition assessment at the Chula Vista property to document what needs replacement vs. what can be retained.",
+        "USPS-approved replacement equipment selection based on Chula Vista unit count, parcel volume, and layout constraints.",
+        "Pad work and anchor removal or replacement to bring mail station foundations to current standards.",
+        "USPS inspection coordination and key handover to Chula Vista HOA board or property manager at project close."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 specifies that replacement mailbox equipment must meet current approved standards for compartment size, locking hardware, and carrier-key access. Layout changes that alter route sequences require USPS coordination and approval.",
+        "ADA Section 4.1.6 requires that any alteration to a primary function area trigger accessible path-of-travel corrections for the route leading to the altered element, including pad height and approach clearances."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can you replace Chula Vista CBUs in phases if the board needs to spread project costs?",
+          "answer": "Yes. We can scope phased replacement plans for Chula Vista communities with multiple CBU stations, prioritizing the highest-need locations first while keeping USPS-approved equipment in service throughout."
+        },
+        {
+          "question": "Do Chula Vista replacement projects require us to notify residents before work begins?",
+          "answer": "Yes. We work with your management team to draft and deliver resident notices explaining when the mailbox area will be unavailable and how mail delivery will be handled during that period. USPS is also notified to coordinate temporary mail handling as needed."
+        }
       ]
     },
     "oceanside": {
@@ -221,7 +263,7 @@
         {
           "id": "common-projects",
           "heading": "Common mailbox replacement and retrofit projects in Oceanside",
-          "body": "Most Oceanside replacement projects start when boards, managers, or owners realize the current mail equipment is at the end of its life\u2014or when USPS flags problems that can no longer be ignored.",
+          "body": "Most Oceanside replacement projects start when boards, managers, or owners realize the current mail equipment is at the end of its life—or when USPS flags problems that can no longer be ignored.",
           "bullets": [
             "Replacing deteriorated CBUs in coastal townhome and garden-style communities",
             "Retrofitting older 4B-style mailboxes to modern 4C wall-mounted equipment with parcel lockers",
@@ -234,11 +276,11 @@
         {
           "id": "coordination",
           "heading": "How Postal Systems manages mailbox replacement and retrofits in Oceanside",
-          "body": "Replacing mail equipment at an occupied property requires careful planning. We design Oceanside projects around your site, your residents, and your carrier\u2019s needs so the transition is organized instead of chaotic.",
+          "body": "Replacing mail equipment at an occupied property requires careful planning. We design Oceanside projects around your site, your residents, and your carrier’s needs so the transition is organized instead of chaotic.",
           "bullets": [
             "Walk the site to document existing mail equipment, locations, and foundation conditions",
             "Review USPS notices or concerns and recommend compliant replacement options",
-            "Explain what can be reused\u2014such as pads or pedestals\u2014and what should be rebuilt",
+            "Explain what can be reused—such as pads or pedestals—and what should be rebuilt",
             "Plan work windows, phasing, and temporary mail arrangements where needed",
             "Coordinate USPS inspection and turnover so your new system is accepted without delays"
           ],
@@ -279,6 +321,44 @@
           "label": "Encinitas, CA",
           "url": "/service-areas/encinitas/mailbox-replacement-retrofits/"
         }
+      ],
+      "localUseCases": [
+        "Older Oceanside coastal apartment buildings replacing salt-corroded CBU panels and damaged lock hardware with full CBU unit replacements.",
+        "Oceanside HOA communities near Camp Pendleton replacing original 1980s–90s mailbox equipment after repeated repair failures.",
+        "Oceanside mixed-use properties in the downtown corridor installing compliant 4C lobby replacements after USPS notices.",
+        "Oceanside properties combining exterior renovation with complete mailbox replacement as part of a single project scope."
+      ],
+      "propertyTypes": [
+        "Coastal apartment buildings in Oceanside exposed to salt air and marine conditions requiring corrosion-resistant replacement equipment.",
+        "Suburban HOA communities in inland Oceanside with older CBU banks that need full replacement.",
+        "Downtown Oceanside mixed-use and commercial buildings requiring indoor 4C system replacements.",
+        "Older 1980s apartment complexes near the Oceanside Transit Center with failing recessed wall-mounted mailboxes."
+      ],
+      "commonTriggers": [
+        "Salt air corrosion on Oceanside mailbox panels causing lock failures, door warping, and structural rust requiring full replacement.",
+        "A USPS notice citing non-compliant or severely damaged mailbox equipment at an Oceanside property.",
+        "Repeated lock servicing calls at Oceanside coastal properties where repair cost is now exceeding replacement cost.",
+        "An Oceanside HOA board decision to replace the mailbox system as part of a broader exterior renovation."
+      ],
+      "scopeDetails": [
+        "Site visit to assess Oceanside mailbox corrosion levels, pad conditions, and USPS route access.",
+        "Equipment selection prioritizing marine-grade hardware and USPS-approved CBU units for Oceanside coastal environments.",
+        "Pad and anchor removal and replacement with level, ADA-conscious poured pads at Oceanside mail station locations.",
+        "USPS inspection and resident key distribution at project close."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 specifies that replacement mailbox equipment must meet current approved standards for compartment size, locking hardware, and carrier-key access. Layout changes that alter route sequences require USPS coordination and approval.",
+        "ADA Section 4.1.6 requires that any alteration to a primary function area trigger accessible path-of-travel corrections for the route leading to the altered element, including pad height and approach clearances."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "What mailbox replacement options are best for Oceanside coastal properties subject to salt air?",
+          "answer": "We specify USPS-approved CBU units with powder-coated finishes and stainless-steel hardware components for Oceanside coastal installations. Selecting the right finish specification upfront significantly extends equipment lifespan near the ocean."
+        },
+        {
+          "question": "Can Postal Systems replace Oceanside mailboxes while the building is occupied and residents are actively using the mail area?",
+          "answer": "Yes. We plan removal and installation in phases at occupied Oceanside buildings, coordinating with USPS to minimize the period when mail delivery is affected. Most replacement projects are completed within one to two days on-site."
+        }
       ]
     },
     "carlsbad": {
@@ -303,7 +383,7 @@
             "Non-uniform layouts confuse residents and make routes less efficient for USPS",
             "Boards and owners face increasing pressure to address security and appearance"
           ],
-          "closing": "A planned replacement or retrofit is the cleanest way to align your Carlsbad mailbox system with the rest of your property\u2019s standards."
+          "closing": "A planned replacement or retrofit is the cleanest way to align your Carlsbad mailbox system with the rest of your property’s standards."
         },
         {
           "id": "common-projects",
@@ -325,7 +405,7 @@
           "bullets": [
             "Survey existing equipment, locations, and conditions to understand what can be reused",
             "Develop replacement layouts that manage traffic, parking, and visual impact",
-            "Provide equipment recommendations that fit your community\u2019s look and budget",
+            "Provide equipment recommendations that fit your community’s look and budget",
             "Plan phasing and temporary mail solutions where needed to keep mail moving",
             "Coordinate USPS review and inspection so the new system is accepted cleanly"
           ],
@@ -387,6 +467,10 @@
           "question": "Can Carlsbad retrofit projects improve appearance while staying USPS-compliant?",
           "answer": "Yes. We help select compliant equipment that aligns with property aesthetics and operational needs."
         }
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 specifies that replacement mailbox equipment must meet current approved standards for compartment size, locking hardware, and carrier-key access. Layout changes that alter route sequences require USPS coordination and approval.",
+        "ADA Section 4.1.6 requires that any alteration to a primary function area trigger accessible path-of-travel corrections for the route leading to the altered element, including pad height and approach clearances."
       ]
     },
     "encinitas": {
@@ -433,7 +517,7 @@
             "Phase work so residents retain mail access while old equipment is removed and new units are installed",
             "Coordinate USPS inspection and turnover so your new system is ready for service with minimal disruption"
           ],
-          "closing": "Our goal is to deliver a replacement or retrofit solution that feels like an upgrade to your Encinitas property\u2014not just a swap of one metal box for another."
+          "closing": "Our goal is to deliver a replacement or retrofit solution that feels like an upgrade to your Encinitas property—not just a swap of one metal box for another."
         }
       ],
       "faqs": [
@@ -469,6 +553,44 @@
           "citySlug": "san-marcos",
           "label": "San Marcos, CA",
           "url": "/service-areas/san-marcos/mailbox-replacement-retrofits/"
+        }
+      ],
+      "localUseCases": [
+        "Leucadia and Encinitas beachside condo associations replacing salt-corroded horizontal mailbox banks with USPS-approved CBU or 4C units.",
+        "Small Encinitas HOA communities along El Camino Real replacing aging CBU banks after repeated vandalism or USPS notices.",
+        "Cardiff-by-the-Sea apartment properties completing exterior renovations and including a full mailbox replacement in the same project.",
+        "Encinitas mixed-use residential buildings on Highway 101 upgrading lobby mail rooms to current 4C standards."
+      ],
+      "propertyTypes": [
+        "Coastal condo associations in Leucadia and Encinitas with outdoor mailbox banks exposed to marine conditions.",
+        "Small suburban HOA communities along El Camino Real with shared CBU mail stations needing replacement.",
+        "Mixed-use residential buildings in downtown Encinitas requiring 4C lobby system upgrades.",
+        "Garden-style apartment complexes in Cardiff-by-the-Sea with older recessed or horizontal mail systems."
+      ],
+      "commonTriggers": [
+        "Salt air damage to Encinitas coastal mailbox hardware causing lock failures, warped doors, and structural corrosion.",
+        "A USPS notice citing non-compliant or severely damaged mailbox equipment at an Encinitas HOA or apartment property.",
+        "An Encinitas board decision to combine a mailbox replacement with a planned exterior paint or common-area renovation project.",
+        "Rising parcel volume overwhelming the existing Encinitas mailbox capacity, prompting a replacement with parcel-locker integration."
+      ],
+      "scopeDetails": [
+        "Site assessment at the Encinitas property to evaluate corrosion levels, pad conditions, and USPS layout requirements.",
+        "Replacement equipment selection suited to Encinitas coastal exposure, specifying appropriate finishes and hardware.",
+        "Pad removal and re-pour with ADA-conscious level pads at Encinitas mail station locations.",
+        "USPS inspection and key handover at project close."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 specifies that replacement mailbox equipment must meet current approved standards for compartment size, locking hardware, and carrier-key access. Layout changes that alter route sequences require USPS coordination and approval.",
+        "ADA Section 4.1.6 requires that any alteration to a primary function area trigger accessible path-of-travel corrections for the route leading to the altered element, including pad height and approach clearances."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "How do you determine whether Encinitas mailboxes should be repaired or fully replaced?",
+          "answer": "We inspect the structural condition of panels, doors, locking hardware, and pad substrates at your Encinitas property. When the repair cost exceeds roughly 30–50% of replacement cost, or when equipment no longer meets USPS equipment standards, full replacement is typically the better long-term investment."
+        },
+        {
+          "question": "Can we integrate parcel lockers when replacing mailboxes at an Encinitas property?",
+          "answer": "Yes. Many Encinitas property owners use a replacement project as the right time to add parcel lockers. We design the new layout to accommodate both standard mail compartments and parcel capacity from the start, rather than adding parcel lockers as an afterthought."
         }
       ]
     },
@@ -516,7 +638,7 @@
             "Phase demolition and installation so residents continue to have mail access",
             "Coordinate USPS inspection and turnover once the new mail system is installed"
           ],
-          "closing": "Our goal is to leave Escondido properties with mailbox systems that work better for residents, carriers, and property teams\u2014without dragging projects out or causing confusion."
+          "closing": "Our goal is to leave Escondido properties with mailbox systems that work better for residents, carriers, and property teams—without dragging projects out or causing confusion."
         }
       ],
       "faqs": [
@@ -530,7 +652,7 @@
         },
         {
           "question": "Can you help us choose new mailbox styles that fit our Escondido property?",
-          "answer": "Yes. We recommend equipment and finishes that perform well in Escondido\u2019s conditions and align with your architecture and common-area design."
+          "answer": "Yes. We recommend equipment and finishes that perform well in Escondido’s conditions and align with your architecture and common-area design."
         },
         {
           "question": "Do you provide written proposals for board review in Escondido?",
@@ -552,6 +674,44 @@
           "citySlug": "encinitas",
           "label": "Encinitas, CA",
           "url": "/service-areas/encinitas/mailbox-replacement-retrofits/"
+        }
+      ],
+      "localUseCases": [
+        "Older 1970s–80s Escondido apartment complexes replacing original recessed horizontal wall boxes with secure USPS-approved CBUs.",
+        "Escondido industrial and commercial properties replacing non-compliant outdoor mailbox banks with compliant 4C lobby systems.",
+        "Escondido HOA communities replacing vandalized or aging CBU banks as part of a deferred maintenance catch-up project.",
+        "Downtown Escondido mixed-use buildings replacing outdated mail rooms with current 4C equipment ahead of residential conversion permits."
+      ],
+      "propertyTypes": [
+        "Older apartment complexes in central and western Escondido with original 1970s–80s wall-mounted mailbox systems.",
+        "HOA communities in northeastern Escondido with CBU mail stations showing structural corrosion or repeated vandalism damage.",
+        "Commercial and light industrial properties near I-15 in Escondido requiring 4C lobby or outdoor box replacements.",
+        "Mixed-use residential buildings in downtown Escondido undergoing renovation with mailbox replacement as part of scope."
+      ],
+      "commonTriggers": [
+        "Rusted or vandalized CBUs at Escondido HOA properties where repair costs have exceeded the cost of replacement.",
+        "A USPS non-compliance notice at an Escondido property citing damaged or non-approved mailbox equipment.",
+        "A deferred maintenance review at an Escondido apartment complex identifying failing mailbox equipment among top priorities.",
+        "New ownership or management at an Escondido property requiring a full mailbox system evaluation and upgrade."
+      ],
+      "scopeDetails": [
+        "Equipment condition audit at the Escondido property to document the scope of replacement needed.",
+        "USPS-approved replacement equipment selection based on Escondido unit count, parcel volume, and site layout.",
+        "Concrete pad and anchor removal and replacement to current dimensional and ADA standards at Escondido sites.",
+        "USPS inspection coordination and key handover at project completion."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 specifies that replacement mailbox equipment must meet current approved standards for compartment size, locking hardware, and carrier-key access. Layout changes that alter route sequences require USPS coordination and approval.",
+        "ADA Section 4.1.6 requires that any alteration to a primary function area trigger accessible path-of-travel corrections for the route leading to the altered element, including pad height and approach clearances."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can Postal Systems replace Escondido mailboxes at a property still under a USPS service complaint?",
+          "answer": "Yes. We can work alongside an active USPS complaint or notice process, providing documentation of the replacement project timeline so the property manager can respond to USPS with a concrete corrective action plan."
+        },
+        {
+          "question": "How do we handle key management during an Escondido CBU replacement when residents already have keys?",
+          "answer": "We coordinate key return, re-keying, and re-issue as part of the project scope. We provide the management team with a clear key distribution plan so residents know when and where to pick up their new keys after the replacement is complete."
         }
       ]
     },
@@ -660,6 +820,10 @@
           "question": "Can Vista replacement projects include relocation to improve lighting and visibility?",
           "answer": "Often yes, once layout and access are reviewed and approved through USPS coordination."
         }
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 specifies that replacement mailbox equipment must meet current approved standards for compartment size, locking hardware, and carrier-key access. Layout changes that alter route sequences require USPS coordination and approval.",
+        "ADA Section 4.1.6 requires that any alteration to a primary function area trigger accessible path-of-travel corrections for the route leading to the altered element, including pad height and approach clearances."
       ]
     },
     "poway": {
@@ -742,6 +906,44 @@
           "citySlug": "vista",
           "label": "Vista, CA",
           "url": "/service-areas/vista/mailbox-replacement-retrofits/"
+        }
+      ],
+      "localUseCases": [
+        "Established Poway HOA communities replacing original 1990s CBU banks installed when neighborhoods were first developed.",
+        "Poway business parks replacing lobby mailboxes with compliant 4C systems during office suite renovation projects.",
+        "Poway apartment communities replacing vandalized or rusted mailbox equipment following repeated USPS service complaints.",
+        "Poway properties combining fence or landscape renovation with a full mailbox replacement as part of a single project scope."
+      ],
+      "propertyTypes": [
+        "Established suburban HOA communities in Poway with original late-1980s or 1990s CBU mail station equipment.",
+        "Professional office and business parks in Poway requiring indoor 4C lobby system replacements.",
+        "Apartment communities in central Poway with older wall-mounted or horizontal mailbox systems.",
+        "Single-entry HOA neighborhoods in Poway with shared CBU mail areas at community entrances."
+      ],
+      "commonTriggers": [
+        "CBU units at Poway HOA mail stations reaching end of service life after 20–30 years of service.",
+        "A USPS notice to a Poway property manager citing non-compliant or severely damaged mailbox equipment.",
+        "Vandalism on older Poway mailboxes that has accumulated to a level where replacement is more cost-effective than repair.",
+        "A Poway HOA board capital improvement plan including mailbox replacement as a scheduled infrastructure upgrade."
+      ],
+      "scopeDetails": [
+        "Site visit to assess equipment condition, pad status, and USPS route access at the Poway property.",
+        "USPS-approved CBU or 4C replacement selection based on unit count and property layout.",
+        "Concrete pad and anchor work to bring the Poway mail station foundation to current standards.",
+        "USPS inspection sign-off and key handover at project completion."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 specifies that replacement mailbox equipment must meet current approved standards for compartment size, locking hardware, and carrier-key access. Layout changes that alter route sequences require USPS coordination and approval.",
+        "ADA Section 4.1.6 requires that any alteration to a primary function area trigger accessible path-of-travel corrections for the route leading to the altered element, including pad height and approach clearances."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Does Postal Systems help Poway HOA boards plan and budget for mailbox replacements?",
+          "answer": "Yes. We provide Poway HOA boards with written assessments, equipment options, and cost comparisons that boards can use for capital planning and reserve fund budgeting. We also work with HOA management companies to align project timing with board approval cycles."
+        },
+        {
+          "question": "Can Postal Systems complete a Poway mailbox replacement over a single weekend to minimize resident disruption?",
+          "answer": "In many cases, yes. For standard Poway CBU replacement projects on existing pads, we can complete removal, installation, and USPS coordination within a single weekend or a compressed two-day window, depending on pad work requirements."
         }
       ]
     },
@@ -826,6 +1028,44 @@
           "label": "Escondido, CA",
           "url": "/service-areas/escondido/mailbox-replacement-retrofits/"
         }
+      ],
+      "localUseCases": [
+        "Student-adjacent San Marcos apartment communities near Cal State San Marcos replacing damaged or vandalized mailboxes at high-turnover properties.",
+        "San Marcos HOA communities replacing aging CBU equipment following deferred maintenance reviews after reserve fund studies.",
+        "New San Marcos residential infill and apartment developments replacing interim mailbox solutions with permanent USPS-approved systems.",
+        "San Marcos commercial and medical office parks replacing lobby mailboxes with compliant 4C systems."
+      ],
+      "propertyTypes": [
+        "Apartment communities near Cal State San Marcos with high tenant turnover and frequent mailbox damage.",
+        "HOA communities in San Marcos built in the 1990s–2000s with original CBU equipment now approaching replacement age.",
+        "Mixed-use residential and commercial buildings in San Marcos requiring 4C lobby system upgrades.",
+        "Professional and medical office parks in San Marcos requiring indoor 4C mail system replacements."
+      ],
+      "commonTriggers": [
+        "High tenant turnover at San Marcos student-adjacent properties causing accelerated mailbox wear and repeated lock failures.",
+        "A USPS notice requiring a San Marcos property to replace non-compliant or damaged mailbox equipment.",
+        "A San Marcos HOA reserve fund study or deferred maintenance audit flagging mailbox replacement as a near-term capital need.",
+        "A San Marcos property manager acquiring a building and discovering mailbox equipment in poor condition during initial inspection."
+      ],
+      "scopeDetails": [
+        "Condition assessment at the San Marcos property documenting failed or sub-standard equipment requiring replacement.",
+        "USPS-approved replacement equipment selection based on San Marcos unit count, parcel demand, and physical layout.",
+        "Pad and anchor removal and replacement at San Marcos mail station locations.",
+        "USPS inspection coordination and key handover at project completion."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 specifies that replacement mailbox equipment must meet current approved standards for compartment size, locking hardware, and carrier-key access. Layout changes that alter route sequences require USPS coordination and approval.",
+        "ADA Section 4.1.6 requires that any alteration to a primary function area trigger accessible path-of-travel corrections for the route leading to the altered element, including pad height and approach clearances."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can Postal Systems work around university-adjacent San Marcos property schedules during move-in and move-out periods?",
+          "answer": "Yes. We accommodate San Marcos property scheduling constraints, including avoiding Cal State San Marcos move-in and move-out windows. We work with managers to pick timing that minimizes disruption for both residents and USPS mail delivery."
+        },
+        {
+          "question": "What is the timeline for a standard CBU replacement at a San Marcos apartment community?",
+          "answer": "Most San Marcos replacement projects are completed within one to two days on-site, depending on the number of stations and whether new pad work is required. We provide a detailed schedule in the proposal so your team can notify residents well in advance."
+        }
       ]
     },
     "temecula": {
@@ -909,6 +1149,44 @@
           "label": "Vista, CA",
           "url": "/service-areas/vista/mailbox-replacement-retrofits/"
         }
+      ],
+      "localUseCases": [
+        "Temecula master-planned HOA communities in Redhawk and Harveston replacing original CBU banks from initial construction with current USPS-approved equipment.",
+        "Wine country resort residential developments in Temecula replacing mailbox systems that do not match current community aesthetic or USPS standards.",
+        "Temecula commercial and retail centers replacing non-compliant outdoor or lobby mailbox systems with USPS-approved 4C equipment.",
+        "Multi-family apartment communities near the Temecula Promenade replacing aging wall-mounted mailbox systems with CBU or 4C upgrades."
+      ],
+      "propertyTypes": [
+        "Large master-planned HOA communities in Redhawk, Wolf Creek, and Harveston with centralized CBU mail stations.",
+        "Commercial and retail centers in Temecula requiring compliant 4C indoor or outdoor mailbox replacements.",
+        "Resort-adjacent residential communities in the Temecula wine country corridor with custom mailbox layout requirements.",
+        "Multi-family apartment communities in central Temecula with aging original mailbox systems."
+      ],
+      "commonTriggers": [
+        "Original CBU equipment in Temecula master-planned communities reaching 20–25 year service life and requiring replacement.",
+        "A USPS notice citing non-compliant or failing mailbox equipment at a Temecula HOA or commercial property.",
+        "A Temecula HOA board capital improvement plan scheduling mailbox replacement in the current reserve fund cycle.",
+        "New Temecula commercial tenants requiring compliant mail systems as part of suite improvement agreements."
+      ],
+      "scopeDetails": [
+        "USPS coordination for Temecula replacement projects, including equipment selection and any route changes required.",
+        "Riverside County permit identification for concrete pad and anchor work at Temecula mail station locations.",
+        "Full pad removal and re-pour with current dimensional and ADA standards at Temecula replacement sites.",
+        "USPS inspection sign-off and key handover at project completion."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 requires replacement mailbox equipment to meet current approved standards for compartment dimensions, locking hardware, and carrier access. Layout changes that alter route sequences require USPS approval.",
+        "Riverside County may require permits for pad and concrete work associated with Temecula mailbox replacements. We identify and coordinate permit requirements during the proposal stage."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Does Postal Systems coordinate Riverside County permits for Temecula mailbox replacement pad work?",
+          "answer": "Yes. We identify applicable Riverside County permit requirements during the proposal phase and include permit coordination in the project scope so you are not left managing county building departments separately."
+        },
+        {
+          "question": "Can we phase a Temecula CBU replacement across multiple mail stations to manage project costs?",
+          "answer": "Yes. We can scope phased replacement plans for Temecula communities with multiple CBU locations, prioritizing the highest-priority stations first. USPS coordination is maintained throughout the phased schedule so mail delivery is not interrupted."
+        }
       ]
     },
     "el-cajon": {
@@ -921,12 +1199,12 @@
         {
           "id": "why-replace-el-cajon",
           "heading": "Why El Cajon communities invest in mailbox replacement and retrofits",
-          "body": "El Cajon\u2019s heat, age of some communities, and repeated use can be tough on mail equipment. Doors fatigue, finishes fade, and pedestals deteriorate. At the same time, package volume has increased and residents expect more secure, convenient mail service.",
+          "body": "El Cajon’s heat, age of some communities, and repeated use can be tough on mail equipment. Doors fatigue, finishes fade, and pedestals deteriorate. At the same time, package volume has increased and residents expect more secure, convenient mail service.",
           "bullets": [
             "Cluster boxes with repeated lock problems or doors that no longer close properly",
             "Equipment that has been patched multiple times and is now beyond simple repair",
             "Mail stations that look out of place as the rest of the property is updated",
-            "Outdated mailbox layouts that don\u2019t account for current traffic patterns",
+            "Outdated mailbox layouts that don’t account for current traffic patterns",
             "Requests from residents or boards to modernize mail and parcel handling"
           ],
           "closing": "Our role in El Cajon is to design replacement and retrofit projects that address real issues while fitting your budget and site constraints."
@@ -942,7 +1220,7 @@
             "Adding parcel lockers as part of a broader mailbox refresh project",
             "Consolidating scattered mail locations into fewer, more secure stations"
           ],
-          "closing": "Each El Cajon project is tailored to the property\u2014whether you manage a small community or a multi-phase development."
+          "closing": "Each El Cajon project is tailored to the property—whether you manage a small community or a multi-phase development."
         },
         {
           "id": "process-el-cajon",
@@ -991,6 +1269,44 @@
           "citySlug": "poway",
           "label": "Poway, CA",
           "url": "/service-areas/poway/mailbox-replacement-retrofits/"
+        }
+      ],
+      "localUseCases": [
+        "Older El Cajon apartment buildings replacing 1970s–80s horizontal wall boxes with secure CBUs after vandalism and repeated USPS complaints.",
+        "El Cajon commercial retail properties replacing failing outdoor mailboxes with compliant 4C lobby systems.",
+        "El Cajon properties under new management replacing aged or vandalized mailbox equipment as part of a first-year capital improvement project.",
+        "Mixed-use El Cajon buildings replacing non-compliant mail systems ahead of permit reviews or property sales."
+      ],
+      "propertyTypes": [
+        "Older apartment buildings in central El Cajon with original 1970s–80s horizontal or recessed wall-mounted mailboxes.",
+        "Commercial retail and office properties in the El Cajon Valley requiring 4C lobby or outdoor mailbox replacements.",
+        "Mixed-use residential buildings in El Cajon needing compliant CBU or 4C upgrades.",
+        "HOA communities in El Cajon with aging CBU banks subject to ongoing vandalism and lock failures."
+      ],
+      "commonTriggers": [
+        "Persistent vandalism on El Cajon mailboxes making per-unit repair costs higher than replacement costs.",
+        "A USPS notice requiring El Cajon property owners to replace non-compliant or severely damaged mailbox equipment.",
+        "A new management company at an El Cajon property flagging mailbox system failure as a priority capital improvement.",
+        "An El Cajon property sale triggering a due diligence review that identifies mailbox equipment as a liability."
+      ],
+      "scopeDetails": [
+        "Condition documentation at the El Cajon property including photos and equipment counts to inform replacement scope.",
+        "USPS-approved CBU or 4C selection based on El Cajon unit count, vandalism risk profile, and property layout.",
+        "Concrete pad removal and replacement with reinforced, ADA-conscious mail station foundations.",
+        "USPS inspection coordination and key distribution at project completion."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 specifies that replacement mailbox equipment must meet current approved standards for compartment size, locking hardware, and carrier-key access. Layout changes that alter route sequences require USPS coordination and approval.",
+        "ADA Section 4.1.6 requires that any alteration to a primary function area trigger accessible path-of-travel corrections for the route leading to the altered element, including pad height and approach clearances."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "What anti-vandalism features should El Cajon properties prioritize when replacing mailboxes?",
+          "answer": "We recommend USPS-approved CBU units with reinforced door assemblies, hardened lock cylinders, and weather-resistant construction for El Cajon properties with documented vandalism histories. Location review — improving lighting and reducing concealment — is also part of our site assessment."
+        },
+        {
+          "question": "Can you replace El Cajon mailboxes when the building has unresolved USPS service complaints on file?",
+          "answer": "Yes. We provide documentation of the replacement scope and timeline to the property manager so USPS can be notified of the corrective action plan. A documented project timeline is often sufficient for USPS to acknowledge that the issue is being addressed."
         }
       ]
     },
@@ -1080,6 +1396,44 @@
           "label": "Oceanside, CA",
           "url": "/service-areas/oceanside/mailbox-replacement-retrofits/"
         }
+      ],
+      "localUseCases": [
+        "Large master-planned HOA communities in Menifee and Moreno Valley replacing original CBU banks installed with initial development 15–20 years ago.",
+        "Riverside County commercial and industrial properties replacing non-compliant or failing outdoor mailbox systems with USPS-approved 4C equipment.",
+        "New Riverside County residential subdivisions replacing temporary mail solutions with permanent USPS-approved CBU installations.",
+        "Multi-family apartment communities in Riverside and Perris replacing aging mailbox equipment to address USPS notices and resident complaints."
+      ],
+      "propertyTypes": [
+        "Large master-planned HOA communities in Menifee, Moreno Valley, and Murrieta with centralized CBU mail stations.",
+        "Commercial and industrial parks in Riverside and Perris requiring 4C lobby or outdoor mailbox replacements.",
+        "Residential subdivisions across Riverside County transitioning from construction-phase mail solutions to permanent USPS-approved systems.",
+        "Multi-family apartment complexes in Riverside County cities with aging original mailbox systems."
+      ],
+      "commonTriggers": [
+        "Original CBU equipment in Riverside County master-planned communities reaching end of service life after 15–25 years.",
+        "A USPS notice at a Riverside County property requiring non-compliant mailbox equipment to be replaced within a set timeframe.",
+        "A Riverside County HOA capital improvement plan scheduling mailbox replacement as a current-cycle project.",
+        "New property management or ownership in Riverside County triggering a mailbox system audit and replacement recommendation."
+      ],
+      "scopeDetails": [
+        "USPS coordination for Riverside County replacement projects including layout review, equipment selection, and route confirmation.",
+        "Riverside County permit identification and coordination for concrete pad and anchor work at replacement sites.",
+        "Full CBU or 4C installation with rebuilt pads and ADA-conscious approach clearances at Riverside County properties.",
+        "USPS inspection sign-off and key handover at project completion."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 requires replacement mailbox equipment to meet current approved dimensional and locking standards. Layout changes must be submitted to USPS for approval before installation begins.",
+        "Riverside County Building and Safety requires permits for concrete pad and anchor work. We identify permit requirements during the proposal phase and coordinate with Riverside County building departments as part of the project scope."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Does Postal Systems manage Riverside County building permits for mailbox replacement pad work?",
+          "answer": "Yes. We identify applicable Riverside County permit requirements during the proposal stage and include permit coordination in the project scope. Most standard pad replacement work in Riverside County requires a minor improvement permit, and we handle that process so you do not have to."
+        },
+        {
+          "question": "How does Postal Systems coordinate mail service during large Riverside County HOA mailbox replacements?",
+          "answer": "We notify USPS of the replacement schedule and coordinate temporary mail handling for each station taken offline. At large Riverside County HOA properties with multiple CBU locations, we sequence the replacement to keep as many stations active as possible at any given time."
+        }
       ]
     },
     "orange-county": {
@@ -1162,6 +1516,44 @@
           "citySlug": "temecula",
           "label": "Temecula, CA",
           "url": "/service-areas/temecula/mailbox-replacement-retrofits/"
+        }
+      ],
+      "localUseCases": [
+        "Premium Orange County HOA communities in Irvine and Newport Beach replacing original mailbox equipment as part of planned common-area upgrades.",
+        "Coastal Orange County condo communities in Laguna Beach and Dana Point replacing salt-corroded mailboxes with durable, USPS-approved replacements.",
+        "Commercial office parks in Anaheim and Santa Ana replacing non-compliant lobby mailbox systems with current 4C equipment.",
+        "Large master-planned communities across Orange County adding CBU capacity and parcel lockers as part of planned replacement projects."
+      ],
+      "propertyTypes": [
+        "Premium HOA communities in Irvine, Newport Beach, and Mission Viejo where mailbox appearance and compliance both matter to boards.",
+        "Coastal condo and apartment communities in Laguna Beach, Huntington Beach, and Dana Point with salt-air-exposed mailbox equipment.",
+        "Commercial office parks and professional centers in Anaheim, Irvine, and Santa Ana requiring 4C lobby replacements.",
+        "Large master-planned residential communities in Orange County with multi-station CBU mail areas."
+      ],
+      "commonTriggers": [
+        "An Orange County HOA board capital improvement plan scheduling mailbox replacement in the current or upcoming reserve fund cycle.",
+        "Salt air corrosion at Orange County coastal properties causing lock failures and structural degradation requiring full replacement.",
+        "A USPS notice at an Orange County property requiring non-compliant or damaged mailbox equipment to be replaced.",
+        "An Orange County HOA board choosing to replace mailboxes ahead of schedule to align with a broader common-area renovation project."
+      ],
+      "scopeDetails": [
+        "Design coordination with Orange County HOA boards and management companies on equipment appearance, color, and placement.",
+        "USPS layout approval for replacement CBU or 4C systems at Orange County properties.",
+        "Full equipment removal, pad work, and new installation with ADA-conscious approach clearances.",
+        "USPS inspection and key distribution at project completion."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 requires replacement mailbox equipment to meet current USPS approval standards for compartment dimensions, locking hardware, and carrier access. Layout changes require USPS coordination and approval.",
+        "Some Orange County cities and HOA architectural committees have design review requirements for visible mailbox equipment. We coordinate with HOA management and, where required, local design review processes during the project."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can Orange County HOA boards specify equipment colors and finishes when replacing mailboxes?",
+          "answer": "Yes. USPS-approved CBU and 4C manufacturers offer standard color and trim options. We work with Orange County HOA boards and architectural committees to select replacement equipment that meets USPS requirements while aligning with community design standards."
+        },
+        {
+          "question": "Does Postal Systems serve Irvine, Newport Beach, Anaheim, and other Orange County cities for mailbox replacements?",
+          "answer": "Yes. We work throughout Orange County, including Irvine, Newport Beach, Anaheim, Huntington Beach, Santa Ana, and Laguna Beach. We coordinate with the local USPS district and understand Orange County permit and HOA architectural requirements."
         }
       ]
     }

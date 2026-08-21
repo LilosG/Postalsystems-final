@@ -1,0 +1,34 @@
+{
+  "intro": {
+    "p1": "Most mailbox projects in Vista start when property managers or HOA boards are dealing with aging equipment that has passed its service life, repeated vandalism on older non-secure mailboxes, or USPS notices about non-compliant installations. Vista's mix of planned 1980s and 1990s subdivisions, older apartment stock along Eucalyptus and Escondido avenues, and light industrial parks off Santa Fe Avenue creates a range of property types — each with different mailbox needs. Postal Systems designs and installs code-compliant mailbox systems with USPS coordination, ADA-conscious layouts, inspection sign-off, and clear communication for residents and management.",
+    "p2": "Instead of managing multiple contractors for pad work, equipment, and USPS coordination, Vista property teams work with one USPS-approved contractor that handles the full scope from site visit through key handover. We document every step so boards and managers have a clear record of what was installed, where, and when."
+  },
+  "commonProjects": [
+    "CBU replacements at Vista HOA subdivisions where original 1980s–90s equipment has reached end of service life.",
+    "4C wall-mounted mailroom upgrades for older Vista apartment buildings replacing recessed horizontal box systems.",
+    "Parcel locker additions at Vista multifamily properties handling increasing package volume.",
+    "ADA-compliant mailbox pad and approach corrections at Vista communities responding to accessibility concerns.",
+    "Mailbox consolidation and relocation projects at Vista commercial and industrial parks reconfiguring mail station layouts."
+  ],
+  "whoWeWorkWith": [
+    "Vista HOA boards and condo associations managing shared CBU mail stations in planned subdivisions.",
+    "Apartment owners and property managers in Vista overseeing older multifamily buildings with aging wall-mounted mail systems.",
+    "Builders and general contractors completing residential and commercial projects in Vista that require USPS-approved mailbox systems.",
+    "Commercial and industrial property owners in Vista needing compliant lobby or outdoor mail system upgrades.",
+    "Vista property management companies handling portfolios that include multiple properties with deferred mailbox maintenance."
+  ],
+  "faqs": [
+    {
+      "question": "Do Vista property owners need USPS approval before replacing or relocating mailboxes?",
+      "answer": "Yes. Any change to mailbox type, quantity, or location at a Vista property requires USPS review and approval. Postal Systems coordinates directly with USPS on Vista projects so layouts, pads, and equipment meet current DMM 508 standards before installation begins."
+    },
+    {
+      "question": "Can you match existing Vista HOA mailbox equipment when replacing units in just one section?",
+      "answer": "In many cases we can match the manufacturer and finish of existing CBU or 4C equipment at Vista HOA properties, though exact matches depend on what USPS-approved models are currently available. We review photos from your Vista property and provide options before ordering equipment."
+    },
+    {
+      "question": "Do you handle ADA-compliant mailbox upgrades at Vista apartment and HOA properties?",
+      "answer": "Yes. Our Vista mailbox layouts include ADA reach range, approach clearance, and pad slope considerations from the start. When ADA corrections are the primary driver, we document before-and-after conditions so Vista boards and managers have a clear record of improvements made."
+    }
+  ]
+}

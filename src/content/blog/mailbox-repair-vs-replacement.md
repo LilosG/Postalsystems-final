@@ -3,6 +3,25 @@ title: "Mailbox Repair vs Replacement: When San Diego Properties Should Upgrade"
 description: "A clear way to decide between repairing mailbox hardware or replacing the full system in San Diego communities."
 pubDate: 2025-01-10
 image: "/images/postal-systems-mailbox-replacement-escondido-2025-10-18-04.jpg"
+faqs:
+  - question: "What mailbox issues are worth repairing rather than replacing at San Diego properties?"
+    answer: "Individual lock cylinders, door panels, and parcel locker modules can often be repaired cost-effectively if the mailbox structure and cabinet are in sound condition. When the structural frame, base, or pad shows significant corrosion or damage, repair costs rarely justify the short-term fix."
+  - question: "What is the average lifespan of a CBU at a San Diego HOA?"
+    answer: "USPS-approved CBUs typically have a service life of 20–30 years in standard inland San Diego conditions. Coastal San Diego properties exposed to salt air may see accelerated corrosion that shortens useful life to 15–20 years, depending on the metal finish and maintenance history."
+  - question: "Can San Diego properties be required to replace mailboxes by USPS?"
+    answer: "Yes. USPS can issue non-compliance notices requiring San Diego property owners to repair or replace mailbox equipment that no longer meets DMM 508 standards. Ignoring a USPS notice can result in suspension of mail delivery to that station."
+  - question: "Does replacing San Diego mailboxes require new concrete pad work?"
+    answer: "Not always. If existing pads are level, properly dimensioned, and in sound structural condition, new CBUs or 4C systems can often be anchored to existing pads. Where pads have settled, cracked, or are undersized, pad repair or replacement is included in the project scope."
+serviceAreas:
+  - san-diego
+  - escondido
+  - el-cajon
+tags:
+  - mailbox-repair
+  - mailbox-replacement
+  - san-diego
+  - hoa
+  - property-managers
 ---
 
 Mailbox systems fail gradually. Locks stick, doors warp, and corrosion spreads. The core decision for most San Diego properties is whether to repair or replace. This guide provides a practical framework you can use to choose the right path and avoid costly rework.
