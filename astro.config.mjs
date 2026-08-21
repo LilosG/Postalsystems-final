@@ -11,6 +11,10 @@ export default defineConfig({
   integrations: [
     tailwind(),
     mdx(),
-    sitemap({ filter: (page) => typeof page === "string" && !page.endsWith("/thank-you/") }),
+    sitemap({
+      filter: (page) => typeof page === "string" && !page.endsWith("/thank-you/"),
+      changefreq: "weekly",
+      priority: 0.7,
+    }),
   ],
 });
