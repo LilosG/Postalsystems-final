@@ -40,28 +40,52 @@ interface AreaEntry {
 
 const SERVICE_REGISTRY: ServiceEntry[] = [
   {
+    slug: 'commercial-mailbox-installation',
+    name: 'Commercial Mailbox Installation',
+    href: '/services/commercial-mailbox-installation/',
+    shortDesc: 'Full-service USPS-approved mailbox installation and replacement in San Diego County.',
+  },
+  {
     slug: 'cbu-installation',
     name: 'CBU Installation',
     href: '/services/cbu-installation/',
     shortDesc: 'USPS-approved cluster box unit installation for multifamily and HOA properties.',
   },
   {
-    slug: 'parcel-locker-installation',
+    slug: '4c-wall-mounted-mailboxes',
+    name: '4C Wall-Mounted Mailboxes',
+    href: '/services/4c-wall-mounted-mailboxes/',
+    shortDesc: 'ADA-height 4C wall-mounted mailbox systems for lobbies and mail rooms.',
+  },
+  {
+    slug: 'parcel-lockers',
     name: 'Parcel Locker Installation',
-    href: '/services/parcel-locker-installation/',
+    href: '/services/parcel-lockers/',
     shortDesc: 'Package locker systems for apartments, condos, and commercial properties.',
   },
   {
-    slug: 'ada-compliant-mailboxes',
-    name: 'ADA-Compliant Mailboxes',
-    href: '/services/ada-compliant-mailboxes/',
+    slug: 'repairs-lock-changes',
+    name: 'Repairs & Lock Changes',
+    href: '/services/repairs-lock-changes/',
+    shortDesc: 'Vandalism repair, lock replacement, and key changeouts for commercial mailbox systems.',
+  },
+  {
+    slug: 'ada-compliant-installs',
+    name: 'ADA-Compliant Installs',
+    href: '/services/ada-compliant-installs/',
     shortDesc: 'ADA-compliant mailbox systems meeting federal and California accessibility standards.',
   },
   {
-    slug: 'mailbox-services',
-    name: 'Commercial Mailbox Services',
-    href: '/services/',
-    shortDesc: 'Full-service USPS-approved mailbox installation and replacement in San Diego County.',
+    slug: 'mailbox-replacement-retrofits',
+    name: 'Mailbox Replacement & Retrofits',
+    href: '/services/mailbox-replacement-retrofits/',
+    shortDesc: 'Drop-in replacements and retrofits for aging or vandalized commercial mailbox systems.',
+  },
+  {
+    slug: 'mailbox-relocation-consolidation',
+    name: 'Mailbox Relocation & Consolidation',
+    href: '/services/mailbox-relocation-consolidation/',
+    shortDesc: 'Relocate or consolidate mail stations to improve access, compliance, and carrier efficiency.',
   },
 ];
 
@@ -71,7 +95,7 @@ const AREA_REGISTRY: AreaEntry[] = [
   { slug: 'chula-vista', name: 'Chula Vista', href: '/service-areas/chula-vista/' },
   { slug: 'escondido',  name: 'Escondido',   href: '/service-areas/escondido/' },
   { slug: 'el-cajon',   name: 'El Cajon',    href: '/service-areas/el-cajon/' },
-  { slug: 'santee',     name: 'Santee',      href: '/service-areas/santee/' },
+  { slug: 'oceanside',  name: 'Oceanside',   href: '/service-areas/oceanside/' },
 ];
 
 // ── Static paths ──────────────────────────────────────────────────────────
@@ -113,7 +137,7 @@ const linkedServices = SERVICE_REGISTRY.filter((s) => postServiceSet.has(s.slug)
 const moneyPages = AREA_REGISTRY.slice(0, 4).flatMap((area) =>
   linkedServices.slice(0, 1).map((service) => ({
     label: `${service.name} in ${area.name}`,
-    href: `/service-areas/${area.slug}/`,
+    href: `/service-areas/${area.slug}/${service.slug}/`,
   })),
 ).slice(0, 6);
 
@@ -146,9 +170,8 @@ const articleSchema = {
   dateModified: (
     post.data.updatedDate ??
     post.data.pubDate ??
-    post.data.publishDate ??
-    new Date()
-  ).toISOString(),
+    post.data.publishDate
+  )?.toISOString(),
   mainEntityOfPage: canonical,
   author: { '@type': 'Organization', name: SITE.title, url: SITE.url },
   publisher: { '@type': 'Organization', name: SITE.title, url: SITE.url },
@@ -161,25 +184,23 @@ const breadcrumbSchema = buildBreadcrumbSchema([
   { label: post.data.title, href: canonical },
 ]);
 
-const pageSchema = appendBreadcrumbSchema(articleSchema, breadcrumbSchema);
+const faqSchemaObj = faqs.length > 0
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqs.map((f: { question: string; answer: string }) => ({
+        '@type': 'Question',
+        name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: f.answer },
+      })),
+    }
+  : null;
 
-const faqSchema =
-  faqs.length > 0
-    ? JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: faqs.map((f: { question: string; answer: string }) => ({
-          '@type': 'Question',
-          name: f.question,
-          acceptedAnswer: { '@type': 'Answer', text: f.answer },
-        })),
-      })
-    : null;
+const baseSchemas = faqSchemaObj ? [articleSchema, faqSchemaObj] : articleSchema;
+const pageSchema = appendBreadcrumbSchema(baseSchemas, breadcrumbSchema);
 ---
 
-<SiteLayout {title} {description} {canonical} {image} schema={pageSchema}>
-  {faqSchema && <script type="application/ld+json" slot="head" set:html={faqSchema} />}
-
+<SiteLayout {title} {description} {canonical} {image} schema={pageSchema} type="article">
   <main class="bg-ps-surface">
     <section class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
 
@@ -213,7 +234,7 @@ const faqSchema =
               <div class="mt-6 overflow-hidden rounded-2xl bg-ps-surface">
                 <img
                   src={image}
-                  alt={post.data.title}
+                  alt={post.data.imageAlt ?? post.data.title}
                   class="h-56 w-full object-cover sm:h-72"
                   loading="eager"
                   fetchpriority="high"

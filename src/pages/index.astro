@@ -4,23 +4,67 @@ import SiteLayout from "../layouts/SiteLayout.astro";
 import PSImage from "../components/PSImage.astro";
 import SectionHeader from "../components/ui/SectionHeader.astro";
 import PriorityMoneyPages from "../components/sections/PriorityMoneyPages.astro";
+import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../schema/breadcrumb";
+import { testimonials } from "../data/site";
 
-const title = "Mailbox Installation, Done Right. | Postal Systems";
+export const prerender = true;
+
+const title = "Commercial Mailbox Installation in San Diego County | Postal Systems";
 const description =
-  "USPS-approved commercial mailbox systems for HOAs, apartments, builders, and facilities across San Diego County. We handle USPS coordination and inspections so you don’t have to.";
+  "USPS-approved commercial mailbox contractor for HOAs, apartments, builders, and facilities across San Diego County. Turnkey CBU, 4C, and parcel locker installs with USPS inspection sign-off.";
 const canonical = "https://sandiegocommercialmailboxes.com/";
+
+const homeFaqs = [
+  {
+    question: "What is a USPS-approved commercial mailbox contractor?",
+    answer: "A USPS-approved contractor is licensed to install, replace, and modify commercial mailbox systems — including Cluster Box Units (CBUs) and 4C wall-mounted mailboxes — in compliance with USPS regulations. Postal Systems holds California Contractor License #904106 and coordinates all USPS inspections and sign-off on your behalf.",
+  },
+  {
+    question: "What types of commercial mailbox systems do you install?",
+    answer: "We install USPS-approved Cluster Box Units (CBUs), 4C wall-mounted mailboxes, parcel lockers, and ADA-compliant mailbox stations. We pour concrete pads, set anchors, handle tenant notice, coordinate USPS inspection, and deliver keys — all as part of our turnkey service.",
+  },
+  {
+    question: "How long does a commercial mailbox installation take?",
+    answer: "Most standard CBU or 4C installations are completed in one to two days once materials are on-site. Larger projects with multiple units, pad work, or replacement of aging systems may take two to three days. We provide a detailed schedule at the quote stage and coordinate timing with USPS to minimize tenant disruption.",
+  },
+  {
+    question: "Do you handle USPS inspection and sign-off?",
+    answer: "Yes. We manage the entire USPS coordination process — from submitting the installation plan to scheduling the post-installation inspection and obtaining final sign-off. You do not need to coordinate with the postal service separately.",
+  },
+  {
+    question: "Do you serve areas outside San Diego County?",
+    answer: "Our primary service area is San Diego County, including cities like Carlsbad, Chula Vista, Escondido, Oceanside, San Marcos, and Vista. We also take select projects in Riverside County and Orange County. Contact us to confirm availability for your location.",
+  },
+  {
+    question: "Are your mailbox installations ADA-compliant?",
+    answer: "Yes. We design and install all systems to meet ADA height, reach, approach, and clearance requirements. We document compliance and can provide ADA-specific layouts for HOAs, campuses, and public-facing facilities.",
+  },
+];
+
+const faqSchemaObj = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: homeFaqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: { "@type": "Answer", text: faq.answer },
+  })),
+};
+
+const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: canonical }]);
+const pageSchema = appendBreadcrumbSchema([schema, faqSchemaObj], breadcrumbSchema);
 ---
 
-<SiteLayout {title} {description} {canonical} schema={schema}>
+<SiteLayout {title} {description} {canonical} schema={pageSchema}>
   <main>
   <section class="bg-ps-navy text-white">
     <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12 lg:py-16 grid gap-10 lg:grid-cols-[minmax(0,1.25fr)_minmax(0,1fr)] items-center">
       <div>
         <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-white/70">
-          USPS-Approved Contractor
+          USPS-Approved Contractor · San Diego County
         </p>
         <h1 class="mt-3 text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight">
-          Mailbox Installation, Done Right.
+          Commercial Mailbox Installation in San Diego County
         </h1>
         <p class="mt-4 text-sm sm:text-base text-white/80 max-w-xl">
           Turnkey commercial mailbox systems for HOAs, apartments, builders, and facilities across San Diego County. We handle USPS coordination and inspections so you don’t have to.
@@ -53,9 +97,13 @@ const canonical = "https://sandiegocommercialmailboxes.com/";
         <div class="rounded-2xl bg-white/5 border border-white/25 shadow-[0_20px_50px_rgba(0,0,0,0.45)] overflow-hidden aspect-[4/3]">
           <img
             src="/images/hero-mailbox.jpg"
-            alt="Commercial mailbox installation"
+            alt="USPS-approved commercial mailbox installation in San Diego County"
             class="h-full w-full object-cover"
-            loading="lazy"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+            width="800"
+            height="600"
           />
         </div>
       </div>
@@ -369,6 +417,28 @@ const canonical = "https://sandiegocommercialmailboxes.com/";
     </div>
   </section>
 
+  <section class="bg-ps-surface border-b border-ps-muted">
+    <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12">
+      <SectionHeader
+        title="What our clients say"
+        subtitle="HOAs, property managers, and builders across San Diego County trust Postal Systems."
+        align="center"
+      />
+      <div class="mt-8 grid gap-6 md:grid-cols-3">
+        {testimonials.map((t) => (
+          <blockquote class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps flex flex-col">
+            <p class="text-sm text-ps-navy/85 leading-relaxed flex-1">&ldquo;{t.quote}&rdquo;</p>
+            <footer class="mt-4">
+              <cite class="not-italic text-xs font-semibold text-ps-navy">{t.author}</cite>
+              {t.role && <p class="text-xs text-ps-navy/60">{t.role}</p>}
+              {t.location && <p class="text-xs text-ps-navy/60">{t.location}</p>}
+            </footer>
+          </blockquote>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <PriorityMoneyPages context="home" title="Popular city + service pages" subtitle="High-intent local pages for installation, CBU systems, 4C mailboxes, and replacement projects." limit={6} />
 
   <section class="bg-white border-b border-ps-muted">
@@ -446,44 +516,54 @@ const canonical = "https://sandiegocommercialmailboxes.com/";
       <div class="rounded-2xl border border-ps-muted bg-ps-surface p-6 shadow-ps">
         <h2 class="text-sm font-semibold text-ps-navy">Request a Quote</h2>
         <p class="mt-1 text-xs text-ps-navy/80">
-          Tell us about your project and timing.
+          Tell us about your project and we'll follow up with a clear, no-obligation quote.
         </p>
-        <form class="mt-4 space-y-3">
+        <form
+          action="https://formspree.io/f/xpwkwgjl"
+          method="POST"
+          class="mt-4 space-y-3"
+        >
+          <input type="hidden" name="_subject" value="New quote request from Postal Systems" />
+          <input type="hidden" name="_next" value="https://sandiegocommercialmailboxes.com/thank-you/" />
+          <input type="text" name="_gotcha" style="display:none" />
           <input
             type="text"
             name="name"
             placeholder="Name"
+            required
             class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"
           />
           <input
             type="tel"
             name="phone"
             placeholder="Phone"
+            required
             class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"
           />
           <input
             type="email"
             name="email"
             placeholder="Email"
+            required
             class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"
           />
           <input
             type="text"
-            name="address"
-            placeholder="Address / City"
+            name="property"
+            placeholder="Property address or city"
             class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"
           />
           <textarea
-            name="details"
+            name="message"
             placeholder="Describe your project or issue"
-            rows="4"
+            rows="3"
             class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"
           ></textarea>
           <button
             type="submit"
             class="w-full rounded-full bg-ps-navy px-4 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-ps-navy/90 transition"
           >
-            Submit
+            Get a USPS-Approved Quote
           </button>
         </form>
       </div>
@@ -544,6 +624,24 @@ const canonical = "https://sandiegocommercialmailboxes.com/";
         <a href="/blog/mailbox-repair-vs-replacement/" class="rounded-2xl border border-ps-muted bg-ps-surface p-4 text-sm font-semibold text-ps-navy hover:border-ps-red/60 hover:text-ps-red">Mailbox Repair vs Replacement Guide</a>
         <a href="/blog/ada-mailbox-layouts-guide/" class="rounded-2xl border border-ps-muted bg-ps-surface p-4 text-sm font-semibold text-ps-navy hover:border-ps-red/60 hover:text-ps-red">ADA Mailbox Layouts Guide</a>
       </div>
+    </div>
+  </section>
+
+  <section class="bg-ps-surface border-t border-ps-muted">
+    <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12">
+      <SectionHeader
+        title="Common questions about commercial mailbox installation"
+        subtitle="Answers for HOAs, property managers, and builders planning a compliant USPS mailbox project."
+        align="left"
+      />
+      <dl class="mt-8 space-y-4">
+        {homeFaqs.map((faq) => (
+          <div class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
+            <dt class="text-sm font-semibold text-ps-navy">{faq.question}</dt>
+            <dd class="mt-2 text-sm text-ps-navy/80 leading-relaxed">{faq.answer}</dd>
+          </div>
+        ))}
+      </dl>
     </div>
   </section>
 

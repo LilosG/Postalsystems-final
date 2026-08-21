@@ -1,14 +1,25 @@
 ---
 import { postalSystemsLocalBusinessSchema as schema } from "../schema/localBusiness";
 import SiteLayout from "../layouts/SiteLayout.astro";
+import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../schema/breadcrumb";
+import { SERVICES_DATA } from "../data/content";
 
-const title = "Request a Quote | Postal Systems";
+export const prerender = true;
+
+const title = "Request a Quote | Postal Systems — San Diego County Mailbox Contractor";
 const description =
-  "Request a quote for commercial mailbox installation, replacement, or repairs in San Diego County. Postal Systems is a USPS-approved contractor handling layout, foundations, and USPS inspections.";
+  "Request a quote for commercial mailbox installation, replacement, or repairs in San Diego County. USPS-approved contractor handling CBU, 4C, and parcel locker installs with full USPS coordination.";
 const canonical = "https://sandiegocommercialmailboxes.com/contact/";
+
+const services = SERVICES_DATA as { name: string }[];
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { label: "Home", href: "https://sandiegocommercialmailboxes.com/" },
+  { label: "Contact", href: canonical },
+]);
+const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema);
 ---
 
-<SiteLayout {title} {description} {canonical} schema={schema}>
+<SiteLayout {title} {description} {canonical} schema={pageSchema}>
   <main class="bg-ps-surface">
     <section
       class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-16 grid gap-10 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] items-start"
@@ -140,13 +151,9 @@ const canonical = "https://sandiegocommercialmailboxes.com/contact/";
                 class="mt-1 w-full rounded-lg border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-red/40"
               >
                 <option value="">Select a service</option>
-                <option value="Commercial mailbox installation">Commercial mailbox installation</option>
-                <option value="CBU installation">CBU installation</option>
-                <option value="4C wall-mounted mailboxes">4C wall-mounted mailboxes</option>
-                <option value="Parcel lockers">Parcel lockers</option>
-                <option value="Repairs and lock changes">Repairs and lock changes</option>
-                <option value="Mailbox replacement or retrofit">Mailbox replacement or retrofit</option>
-                <option value="Mailbox relocation or consolidation">Mailbox relocation or consolidation</option>
+                {services.map((s) => (
+                  <option value={s.name}>{s.name}</option>
+                ))}
                 <option value="Other">Other</option>
               </select>
             </label>

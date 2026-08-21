@@ -1,48 +1,18 @@
 ---
+import { postalSystemsLocalBusinessSchema as localBusinessSchema } from "../schema/localBusiness"
 import SiteLayout from "../layouts/SiteLayout.astro"
 import SectionHeader from "../components/ui/SectionHeader.astro"
 import TrustGrid from "../components/TrustGrid.astro"
 import ProcessStrip from "../components/ProcessStrip.astro"
 import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../schema/breadcrumb"
 
-const title = "About Postal Systems | USPS-Approved Mailbox Contractor in San Diego County"
+const title = "About Postal Systems | USPS-Approved Mailbox Contractor in San Diego"
 const description =
-  "Postal Systems is a USPS-approved, licensed, bonded, and insured commercial mailbox contractor serving HOAs, apartments, builders, and facilities across San Diego County."
+  "Postal Systems is a USPS-approved, licensed, bonded, and insured commercial mailbox contractor. 20+ years serving HOAs, apartments, builders, and facilities across San Diego County."
 const canonical = "https://sandiegocommercialmailboxes.com/about/"
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Postal Systems",
-  "description": "USPS-approved commercial mailbox installation, repair and replacement. We install Cluster Box Units (CBUs), parcel lockers, 4C mailboxes, and ADA-compliant mailbox stations; pour pads and set anchors; coordinate USPS inspection; perform lock and key changeouts; and provide warranty and ongoing support.",
-  "telephone": "(619) 461-4787",
-  "email": "info@postalsystemspro.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "1309 Nordahl Rd",
-    "addressLocality": "Escondido",
-    "addressRegion": "CA",
-    "postalCode": "92026",
-    "addressCountry": "US"
-  },
-  "areaServed": [
-    "San Diego County, CA",
-    "Select cities in Orange County, CA",
-    "Select cities in Riverside County, CA"
-  ],
-  "url": "https://sandiegocommercialmailboxes.com/",
-  "sameAs": [],
-  "license": "Licensed, Bonded & Insured • CA Lic. #904106",
-  "openingHoursSpecification": [{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-    "opens": "07:30",
-    "closes": "16:30"
-  }]
-}
-
 const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: "https://sandiegocommercialmailboxes.com/" }, { label: "About", href: canonical }]);
-const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema);
+const pageSchema = appendBreadcrumbSchema(localBusinessSchema, breadcrumbSchema);
 
 export const prerender = true
 ---
@@ -81,9 +51,9 @@ export const prerender = true
         </div>
 
         <aside class="rounded-3xl bg-ps-surface shadow-ps border border-ps-muted px-5 py-5 md:px-6 md:py-6">
-          <h2 class="text-sm font-semibold text-ps-navy">
+          <h3 class="text-sm font-semibold text-ps-navy">
             Company at a glance
-          </h2>
+          </h3>
           <dl class="mt-3 space-y-2 text-xs sm:text-sm text-ps-navy/85">
             <div class="flex justify-between gap-3">
               <dt class="font-medium">License</dt>
@@ -110,8 +80,8 @@ export const prerender = true
             </div>
             <p class="mt-1">
               Postal Systems<br />
-              PO Box 850<br />
-              La Mesa, CA 91944
+              1309 Nordahl Rd<br />
+              Escondido, CA 92026
             </p>
             <p class="mt-1">
               Phone: <a href="tel:16194614787" data-ga-event="click_to_call" data-ga-category="Contact" data-ga-label="main_phone" class="font-semibold hover:underline">(619) 461-4787</a><br />
@@ -162,19 +132,19 @@ export const prerender = true
         />
         <div class="mt-6 grid gap-5 md:grid-cols-3 text-sm text-ps-navy/85">
           <div class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
-            <h2 class="text-sm font-semibold text-ps-navy">HOAs &amp; Property Managers</h2>
+            <h3 class="text-sm font-semibold text-ps-navy">HOAs &amp; Property Managers</h3>
             <p class="mt-2 text-xs text-ps-navy/80">
               Turnkey replacements and upgrades for communities with aging or vandalized mail stations, including tenant communication and USPS coordination.
             </p>
           </div>
           <div class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
-            <h2 class="text-sm font-semibold text-ps-navy">Apartments &amp; Multi-family</h2>
+            <h3 class="text-sm font-semibold text-ps-navy">Apartments &amp; Multi-family</h3>
             <p class="mt-2 text-xs text-ps-navy/80">
               CBUs, 4C mailboxes, and parcel lockers that keep mail secure and resident-friendly while meeting USPS and accessibility requirements.
             </p>
           </div>
           <div class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps">
-            <h2 class="text-sm font-semibold text-ps-navy">Builders &amp; Facilities</h2>
+            <h3 class="text-sm font-semibold text-ps-navy">Builders &amp; Facilities</h3>
             <p class="mt-2 text-xs text-ps-navy/80">
               New construction layouts, concrete pads, and inspection support for builders, commercial parks, campuses, and public agencies.
             </p>
@@ -208,7 +178,7 @@ export const prerender = true
             align="left"
           />
           <p class="mt-4 text-sm md:text-base text-ps-navy/85 max-w-xl">
-            From our base in La Mesa, we work with HOAs, apartments, builders, and facilities to
+            Based in Escondido, we work with HOAs, apartments, builders, and facilities to
             upgrade failing or outdated mail stations to secure, code-compliant systems. Projects
             typically begin with a site visit or photos, followed by a detailed, USPS-aligned
             layout and a turnkey proposal so stakeholders can move forward with confidence.
@@ -227,6 +197,7 @@ export const prerender = true
           <div class="aspect-[4/3] sm:aspect-[16/9]">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6769731.05913869!2d-123.07385852551953!3d34.055855141175066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6de6f7c7cbd26f57%3A0x54677caa4d43fa0a!2sPostal%20Systems%20Contracting%20Inc!5e0!3m2!1sen!2sus!4v1764003374526!5m2!1sen!2sus"
+              title="Postal Systems Contracting Inc on Google Maps"
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
               allowfullscreen

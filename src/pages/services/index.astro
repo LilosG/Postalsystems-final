@@ -38,15 +38,8 @@ const imageKeyBySlug: Record<string, string> = {
 ---
 <SiteLayout {title} {description} {canonical} schema={pageSchema}>
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10">
-    <h1 class="sr-only">
-      Mailbox services in San Diego County
-    </h1>
-
-    <SectionHeader
-      title="Mailbox services"
-      subtitle="Turnkey installation, replacements, and repairs for commercial mailbox systems with USPS coordination and inspection sign-off."
-      align="left"
-    />
+    <h1 class="text-2xl md:text-3xl font-semibold text-ps-navy">Mailbox Services in San Diego County</h1>
+    <p class="mt-2 text-gray-600 max-w-prose">Turnkey installation, replacements, and repairs for commercial mailbox systems with USPS coordination and inspection sign-off.</p>
 
     <div class="mt-8 grid md:grid-cols-2 gap-6">
       {services.map((s) => {

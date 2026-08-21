@@ -10,9 +10,10 @@ interface Props {
   image?: string;
   schema?: unknown;
   noindex?: boolean;
+  type?: "website" | "article";
 }
 
-const { title, description, canonical, image, schema, noindex } =
+const { title, description, canonical, image, schema, noindex, type } =
   Astro.props as Props;
 ---
 <BaseLayout
@@ -22,6 +23,7 @@ const { title, description, canonical, image, schema, noindex } =
   image={image}
   schema={schema}
   noindex={noindex}
+  type={type}
 >
   <Header slot="header" />
   <slot />

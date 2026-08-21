@@ -5,7 +5,7 @@ const blog = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    pubDate: z.coerce.date().optional(),
+    pubDate: z.coerce.date(),
     publishDate: z.coerce.date().optional(),
     updatedDate: z.coerce.date().optional(),
     author: z.string().default("Postal Systems"),
@@ -14,6 +14,7 @@ const blog = defineCollection({
     faqs: z.array(z.object({ question: z.string(), answer: z.string() })).default([]),
     serviceAreas: z.array(z.string()).default([]),
     image: z.string().optional(),
+    imageAlt: z.string().optional(),
     draft: z.boolean().optional().default(false),
   }),
 });
