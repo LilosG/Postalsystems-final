@@ -29,19 +29,20 @@ const {
   formHeading,
 } = Astro.props
 
-const isDark = variant === "dark"
-
+const hasImage = !!image
+const isDark = variant === "dark" || hasImage
 const hasRightCol = showForm
 ---
 
 <section
-  class={
-    isDark
-      ? "bg-ps-navy"
-      : "bg-white border-b border-ps-muted"
-  }
+  class={[
+    "relative bg-cover bg-center",
+    hasImage ? "" : isDark ? "bg-ps-navy" : "bg-white border-b border-ps-muted",
+  ].join(" ")}
+  style={hasImage ? `background-image: url('${image.src}')` : undefined}
 >
-  <div class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-14">
+  {hasImage && <div class="absolute inset-0 bg-ps-navy/70"></div>}
+  <div class="relative max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-14">
     <div
       class={
         hasRightCol
@@ -52,9 +53,7 @@ const hasRightCol = showForm
       <!-- Left: text content -->
       <div>
         {eyebrow && (
-          <p
-            class={`text-[11px] font-semibold tracking-[0.2em] uppercase ${isDark ? "text-white/70" : "text-ps-navy/70"}`}
-          >
+          <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-white/70">
             {eyebrow}
           </p>
         )}
@@ -108,13 +107,12 @@ const hasRightCol = showForm
         )}
       </div>
 
-      <!-- Right: form with optional image header -->
+      <!-- Right: form -->
       {showForm && (
         <HeroLeadForm
           variant={variant}
           formContext={formContext}
           heading={formHeading}
-          image={image}
         />
       )}
     </div>
