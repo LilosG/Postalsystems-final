@@ -95,7 +95,7 @@ const AREA_REGISTRY: AreaEntry[] = [
   { slug: 'chula-vista', name: 'Chula Vista', href: '/service-areas/chula-vista/' },
   { slug: 'escondido',  name: 'Escondido',   href: '/service-areas/escondido/' },
   { slug: 'el-cajon',   name: 'El Cajon',    href: '/service-areas/el-cajon/' },
-  { slug: 'santee',     name: 'Santee',      href: '/service-areas/santee/' },
+  { slug: 'oceanside',  name: 'Oceanside',   href: '/service-areas/oceanside/' },
 ];
 
 // ── Static paths ──────────────────────────────────────────────────────────
@@ -234,7 +234,7 @@ const pageSchema = appendBreadcrumbSchema(baseSchemas, breadcrumbSchema);
               <div class="mt-6 overflow-hidden rounded-2xl bg-ps-surface">
                 <img
                   src={image}
-                  alt={post.data.title}
+                  alt={post.data.imageAlt ?? post.data.title}
                   class="h-56 w-full object-cover sm:h-72"
                   loading="eager"
                   fetchpriority="high"

@@ -1,5 +1,6 @@
 ---
 import { buildServicePageSchema } from "../../../schema/service";
+import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../../../schema/breadcrumb";
 import SiteLayout from "../../../layouts/SiteLayout.astro"
 import Breadcrumbs from "../../../components/Breadcrumbs.astro"
 import SectionHeader from "../../../components/ui/SectionHeader.astro"
@@ -67,7 +68,7 @@ const serviceSlug = String(s.name)
   .replace(/(^-|-$)/g, "")
 
 const serviceCity = `${s.name} in ${c.city}, ${c.state}`
-const title = `${serviceCity} — Postal Systems`
+const title = `${s.name} in ${c.city}, CA`
 
 const cityServiceModules = import.meta.glob(
   "../../../data/city-service-content/*.json",
@@ -91,7 +92,14 @@ const desc = cityContent?.intro || baseDesc
 
 const canonical = `https://sandiegocommercialmailboxes.com/service-areas/${citySlug}/${serviceSlug}/`
 
-const pageSchema = buildServicePageSchema({
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { label: "Home", href: "https://sandiegocommercialmailboxes.com/" },
+  { label: "Service Areas", href: "https://sandiegocommercialmailboxes.com/service-areas/" },
+  { label: c.city, href: `https://sandiegocommercialmailboxes.com/service-areas/${citySlug}/` },
+  { label: s.name, href: canonical },
+])
+
+const serviceSchemas = buildServicePageSchema({
   name: s.name,
   description: desc,
   serviceUrl: canonical,
@@ -99,6 +107,22 @@ const pageSchema = buildServicePageSchema({
   areaServedState: c.state,
 })
 
+
+const cityFaqs = (cityContent?.faqs ?? cityContent?.serviceSpecificFaqs) as { question: string; answer: string }[] | undefined
+const faqSchemaObj = cityFaqs && cityFaqs.length > 0
+  ? {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: cityFaqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: { "@type": "Answer", text: faq.answer },
+      })),
+    }
+  : null
+
+const baseSchemas = faqSchemaObj ? [...(Array.isArray(serviceSchemas) ? serviceSchemas : [serviceSchemas]), faqSchemaObj] : serviceSchemas
+const pageSchema = appendBreadcrumbSchema(baseSchemas, breadcrumbSchema)
 
 const allServices = SERVICES_DATA as {
   name: string
