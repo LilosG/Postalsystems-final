@@ -11,6 +11,7 @@ interface Props {
   image?: string
   schema?: unknown
   noindex?: boolean
+  type?: "website" | "article"
 }
 
 const {
@@ -20,6 +21,7 @@ const {
   canonical,
   image,
   noindex,
+  type,
 } = Astro.props as Props;
 ---
 <!doctype html>
@@ -31,7 +33,7 @@ const {
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <Head {title} description={description} canonical={canonical} image={image} />
+    <Head {title} description={description} canonical={canonical} image={image} type={type} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     {schema && (
       <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)}></script>

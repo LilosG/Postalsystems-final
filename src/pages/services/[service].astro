@@ -37,8 +37,8 @@ const areas = AREAS_DATA as {
   county?: string
 }[]
 
-const primaryAreas = areas.filter((a) => a.county === "San Diego County")
-const featuredAreas = (primaryAreas.length ? primaryAreas : areas).slice(0, 6)
+const primaryAreas = areas.filter((a) => a.county === "San Diego")
+const featuredAreas = primaryAreas.length ? primaryAreas : areas.slice(0, 10)
 
 const servicesContentModules = import.meta.glob(
   "../../data/services-content/*.json",
@@ -59,7 +59,7 @@ const heroAlt =
   serviceContent?.heroAlt ||
   `${service.name} installation and mailbox projects in San Diego County`
 
-const title = `${service.name} — Mailbox Services | Postal Systems`
+const title = `${service.name} in San Diego County | Postal Systems`
 const desc =
   service.summary ||
   `USPS-approved ${service.name.toLowerCase()} for HOAs, apartments, and commercial properties in San Diego County.`
