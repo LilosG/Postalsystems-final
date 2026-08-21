@@ -3,6 +3,25 @@ title: "CBU Installation Checklist for San Diego HOA Boards"
 description: "A practical, USPS-ready checklist for planning a compliant CBU mailbox installation in San Diego communities."
 pubDate: 2025-01-03
 image: "/images/hero-mailbox.jpg"
+faqs:
+  - question: "What USPS approvals are needed before installing CBUs in San Diego?"
+    answer: "USPS must review and approve the proposed CBU type, quantity, location, and layout before installation. Postal Systems coordinates directly with USPS for San Diego CBU projects, providing layout drawings and equipment specs so approval is secured before work begins."
+  - question: "How thick should the concrete pad be for a CBU installation in San Diego?"
+    answer: "USPS and standard construction practice call for a minimum 4-inch reinforced concrete pad for CBU installations. Where subgrade conditions are poor or heavy traffic loads are nearby, a thicker pad may be specified. We assess each San Diego site individually."
+  - question: "Do CBU installations in San Diego require a building permit?"
+    answer: "Permit requirements vary by jurisdiction. Some San Diego cities require minor improvement permits for concrete pad work. We identify applicable permit requirements during the proposal stage and coordinate with local agencies as part of the project scope."
+  - question: "How long does a standard San Diego CBU installation take from contract to completion?"
+    answer: "Most San Diego CBU installation projects are completed within two to four weeks from contract execution, accounting for USPS coordination, equipment lead times, and scheduling. We provide a written project timeline in the proposal so your team can plan accordingly."
+serviceAreas:
+  - san-diego
+  - chula-vista
+  - carlsbad
+tags:
+  - cbu-installation
+  - san-diego
+  - hoa
+  - usps
+  - checklist
 ---
 
 A Cluster Box Unit (CBU) installation is a compliance project as much as it is a construction project. In San Diego, most HOA boards and property managers need a predictable plan that covers USPS coordination, site layout, ADA access, and resident communication. This guide is a comprehensive checklist you can use in board meetings and project planning.

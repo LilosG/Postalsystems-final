@@ -3,6 +3,24 @@ title: "Parcel Locker Planning for Chula Vista Multifamily Properties"
 description: "How to size and place parcel lockers for Chula Vista apartments and HOAs while keeping USPS compliance in view."
 pubDate: 2025-01-05
 image: "/images/project-2.png"
+faqs:
+  - question: "Does USPS need to approve parcel locker installations at Chula Vista multifamily properties?"
+    answer: "Yes. USPS must review and approve parcel locker type, quantity, and placement at any Chula Vista property where USPS delivers mail. Postal Systems coordinates directly with USPS for Chula Vista parcel locker projects, providing layout drawings and equipment specs for approval."
+  - question: "How many parcel lockers does a Chula Vista apartment community typically need?"
+    answer: "A general rule is one parcel locker module for every 8–12 units, but this varies based on tenant demographics, delivery frequency, and available space. We review package volume history and space constraints at your Chula Vista property and make a specific recommendation in the proposal."
+  - question: "Can parcel lockers be added to an existing Chula Vista CBU or 4C mail station?"
+    answer: "In most cases, yes. We assess the available pad space and wall clearance at existing Chula Vista mail stations and design parcel locker additions that integrate with the existing layout. If a new pad extension is required, we include that work in the project scope."
+  - question: "Do ADA requirements apply to parcel lockers at Chula Vista properties?"
+    answer: "Yes. ADA reach-range and approach clearance requirements apply to parcel lockers as they do to mailboxes. We design Chula Vista parcel locker layouts with accessible reach ranges and approach clearances from the start so the installation meets both USPS and ADA expectations."
+serviceAreas:
+  - chula-vista
+  - san-diego
+tags:
+  - parcel-lockers
+  - chula-vista
+  - multifamily
+  - hoa
+  - usps
 ---
 
 Parcel lockers are one of the most effective upgrades for multifamily properties in Chula Vista. The challenge is making sure the lockers are sized correctly, placed for USPS access, and integrated with your existing mailbox layout. This guide walks through the planning steps that keep projects compliant and resident-friendly.

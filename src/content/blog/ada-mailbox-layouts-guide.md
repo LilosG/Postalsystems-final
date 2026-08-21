@@ -3,6 +3,25 @@ title: "ADA-Compliant Mailbox Layouts: Common Misses and How to Fix Them"
 description: "Key ADA layout details that keep mailbox installations compliant and inspection-ready in San Diego."
 pubDate: 2025-01-12
 image: "/images/commercial-mailboxes-san-diego-hero-1200.webp"
+faqs:
+  - question: "What is the ADA reach range for mailbox compartments?"
+    answer: "ADA guidance and USPS DMM 508 both specify that accessible compartments must fall within a 15-inch to 48-inch reach range above finished grade. This applies to both forward and side reach configurations at cluster box units and 4C wall-mounted systems."
+  - question: "Does ADA compliance apply to all San Diego mailbox installations?"
+    answer: "ADA requirements apply when facilities are altered or when new construction is underway. Any time a San Diego property modifies its mailbox location, pad, or surrounding approach, ADA path-of-travel corrections are typically required for the route leading to the mail station."
+  - question: "What slope is allowed in front of an ADA-compliant mailbox?"
+    answer: "The approach path leading to a mail station should not exceed 1:50 (2%) cross slope, and running slope should generally comply with accessible route standards. When existing pads or approaches exceed these limits, correction is part of the project scope."
+  - question: "Can existing non-compliant mailboxes be corrected without full replacement?"
+    answer: "In many cases, yes. ADA corrections often focus on pad regrading, pedestal height adjustments, and approach path improvements rather than full equipment replacement. We evaluate each San Diego property individually to determine the most cost-effective path to compliance."
+serviceAreas:
+  - san-diego
+  - chula-vista
+  - carlsbad
+tags:
+  - ada-compliance
+  - mailbox-layouts
+  - san-diego
+  - accessibility
+  - hoa
 ---
 
 ADA compliance is one of the most common reasons mailbox projects fail inspection. The mistakes are often small, but they are expensive to correct after installation. Use this guide to avoid rework and keep projects on track.

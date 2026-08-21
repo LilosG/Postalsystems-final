@@ -46,6 +46,44 @@
           "closing": "From first layout sketch through sign-off, our focus is keeping residents informed and packages secure."
         }
       ],
+      "localUseCases": [
+        "High-rise apartment communities in Mission Valley dealing with packages stacked on CBU tops during peak delivery windows.",
+        "Mixed-use mid-rise buildings in North Park where lobby parcel piles block main entry corridors daily.",
+        "Large HOA communities in Rancho Penasquitos where online shopping volume has outgrown original CBU capacity.",
+        "Urban infill properties near SDSU where carriers have no consistent, secure drop point for oversized parcels."
+      ],
+      "propertyTypes": [
+        "High-density apartment towers in Mission Valley, downtown, and Hillcrest with active lobby package traffic.",
+        "Mixed-use mid-rise buildings with ground-floor retail and residential units sharing one mail area.",
+        "Large suburban HOA communities in Rancho Penasquitos, Carmel Valley, and Scripps Ranch.",
+        "Student-adjacent apartments near SDSU with year-round elevated parcel volume."
+      ],
+      "commonTriggers": [
+        "Multiple package theft incidents in open-entry San Diego courtyards during busy morning delivery windows.",
+        "USPS recommending parcel lockers alongside a CBU replacement at a large San Diego multifamily complex.",
+        "Residents filing repeated complaints about deliveries left on hallway floors or on top of mailboxes.",
+        "A common-area renovation that prompts a full mail and parcel station upgrade at the same time."
+      ],
+      "scopeDetails": [
+        "Coordinating locker placement with USPS carrier route maps for dense San Diego delivery zones.",
+        "Pouring a new concrete pad at outdoor CBU stations to anchor adjacent parcel locker banks.",
+        "Integrating parcel modules into existing 4C wall-mounted mailbox arrays in San Diego mid-rise lobbies.",
+        "USPS inspection, carrier key handover, and resident notification coordinated with property management."
+      ],
+      "complianceNotes": [
+        "All parcel locker units must be USPS-approved models listed under DMM 508.4 to be accepted into the carrier route.",
+        "Carrier master keys are handed over at USPS final inspection — installation is not complete until that sign-off occurs."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "How many parcel lockers does a typical San Diego apartment building need?",
+          "answer": "A common starting point for San Diego properties is one locker compartment per 8–10 units, adjusted upward for high-volume buildings. We review actual delivery frequency during site scoping."
+        },
+        {
+          "question": "Can parcel lockers be integrated with our existing 4C mailboxes in San Diego?",
+          "answer": "Yes. We frequently tie parcel modules directly into 4C wall systems in San Diego mid-rise and mixed-use buildings so residents use one centralized mail and parcel area."
+        }
+      ],
       "faqs": [
         {
           "question": "Can you add parcel lockers without replacing our existing mailboxes in San Diego?",
@@ -111,7 +149,7 @@
             "Replacements where older, damaged lockers no longer close or secure properly",
             "ADA and lighting improvements around existing mail areas when lockers are upgraded"
           ],
-          "closing": "For each project, we coordinate layout, pad or slab work, installation, and USPS inspection so boards and managers can focus on residents\u2014not package logistics."
+          "closing": "For each project, we coordinate layout, pad or slab work, installation, and USPS inspection so boards and managers can focus on residents—not package logistics."
         },
         {
           "id": "coordination",
@@ -124,7 +162,45 @@
             "Phase installation where necessary so carriers always have a clear place for parcels",
             "Coordinate USPS inspection and respond quickly to any final notes"
           ],
-          "closing": "Our goal is to deliver a parcel locker system that works for residents, carriers, and property staff on day one\u2014and for years to come."
+          "closing": "Our goal is to deliver a parcel locker system that works for residents, carriers, and property staff on day one—and for years to come."
+        }
+      ],
+      "localUseCases": [
+        "Newer Chula Vista HOA communities in Eastlake and Otay Ranch where online shopping volumes have outpaced original CBU capacity.",
+        "Apartment properties near Chula Vista's developing bayfront district that lack any dedicated parcel drop area.",
+        "Master-planned community mail stations where USPS has flagged insufficient parcel space during a CBU review.",
+        "Newly built townhome communities in Chula Vista that launched without parcel lockers and are now adding them."
+      ],
+      "propertyTypes": [
+        "Master-planned HOAs in Eastlake and Otay Ranch with high-density cluster mailbox stations.",
+        "Newer apartment complexes near Chula Vista's developing bayfront and H Street corridors.",
+        "Townhome communities with courtyard-style CBU banks and no dedicated parcel area.",
+        "Condo buildings in infill corridors along Third Avenue with limited lobby space for packages."
+      ],
+      "commonTriggers": [
+        "USPS recommending parcel lockers when a Chula Vista community replaces aging CBUs.",
+        "A wave of package theft complaints following a cluster of incidents at one Chula Vista mail station.",
+        "Residents reporting packages consistently left on top of mailboxes rather than secured.",
+        "A Chula Vista property undergoing a common-area renovation that includes the mailroom."
+      ],
+      "scopeDetails": [
+        "Coordinating parcel locker placement with USPS route supervisors familiar with Chula Vista delivery patterns.",
+        "Pouring or extending a concrete pad at outdoor CBU banks to accommodate new locker units.",
+        "Confirming locker placement does not obstruct ADA pathways or shared drive aisles in Chula Vista communities.",
+        "USPS inspection scheduling, carrier key handover, and resident notification process managed with on-site staff."
+      ],
+      "complianceNotes": [
+        "Parcel lockers must be from USPS-approved manufacturers as referenced in DMM 508.4 to be accepted by Chula Vista carriers.",
+        "Placement and access path clearances are reviewed by USPS before inspection sign-off — no locker enters service without that approval."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can we add parcel lockers to an Eastlake or Otay Ranch CBU bank in Chula Vista?",
+          "answer": "Yes. We frequently expand existing CBU stations in Chula Vista's master-planned communities with USPS-approved parcel lockers, designing layouts that fit the existing pad and carrier route."
+        },
+        {
+          "question": "How does the carrier access system work for new parcel lockers in Chula Vista?",
+          "answer": "USPS carriers use a master key to open a parcel compartment during delivery. The door then reassigns to resident key access, and residents receive a key or slip directing them to the correct locker."
         }
       ],
       "faqs": [
@@ -173,14 +249,14 @@
         {
           "id": "why-it-matters",
           "heading": "Why secure parcel lockers matter in Oceanside",
-          "body": "Oceanside\u2019s mix of coastal apartments, townhomes, and infill developments means package volume is high and delivery patterns are complex. Many communities are still relying on improvised package shelves or crowded lobbies that make theft and damage more likely.",
+          "body": "Oceanside's mix of coastal apartments, townhomes, and infill developments means package volume is high and delivery patterns are complex. Many communities are still relying on improvised package shelves or crowded lobbies that make theft and damage more likely.",
           "bullets": [
             "Replace improvised package areas with secure, USPS-approved parcel lockers",
             "Integrate parcel lockers with existing CBUs and 4C wall-mounted mailboxes",
             "Reduce package theft and damage in open-air breezeways and coastal corridors",
             "Improve carrier efficiency by giving USPS a clear, centralized drop point for parcels"
           ],
-          "closing": "Instead of reacting to every missing-package complaint, you get a parcel locker system designed for Oceanside\u2019s climate, building layouts, and resident expectations."
+          "closing": "Instead of reacting to every missing-package complaint, you get a parcel locker system designed for Oceanside's climate, building layouts, and resident expectations."
         },
         {
           "id": "common-projects",
@@ -206,7 +282,45 @@
             "Coordinate any pad, wall, or electrical work needed for the new equipment",
             "Schedule USPS inspection and respond quickly to any final notes"
           ],
-          "closing": "Our goal is a parcel locker system in Oceanside that feels like a natural extension of your property\u2019s mail service, not a temporary workaround."
+          "closing": "Our goal is a parcel locker system in Oceanside that feels like a natural extension of your property's mail service, not a temporary workaround."
+        }
+      ],
+      "localUseCases": [
+        "Older Oceanside apartment complexes near the pier where package theft from open breezeways has increased.",
+        "Coastal condo HOAs with exposed mailbox banks being upgraded to include secure parcel lockers.",
+        "Military-adjacent rental properties in Oceanside with high turnover and frequent package delivery volume.",
+        "Garden-style communities along El Camino Real adding parcel lockers to modernize aging mail stations."
+      ],
+      "propertyTypes": [
+        "Older garden-style apartment complexes in Oceanside's coastal and inland neighborhoods.",
+        "Condo communities near the Oceanside Strand and Fire Mountain with enclosed courtyard mailbox areas.",
+        "Mixed-use developments near the Oceanside Transit Center serving both commercial and residential tenants.",
+        "Single-story townhome HOAs in south Oceanside with outdoor CBU stations exposed to salt air."
+      ],
+      "commonTriggers": [
+        "Repeated package theft incidents in open-air Oceanside breezeway mailbox areas.",
+        "USPS recommending a parcel locker alongside a CBU replacement at an older Oceanside complex.",
+        "A property adding security cameras and deciding to address package security with lockers at the same time.",
+        "Coastal HOA boards responding to rising resident frustration over lost holiday deliveries."
+      ],
+      "scopeDetails": [
+        "Anchoring weather-resistant parcel lockers to existing outdoor concrete pads suited to Oceanside's coastal environment.",
+        "Integrating parcel modules with existing CBU banks without relocating the entire Oceanside mail station.",
+        "Coordinating USPS carrier route review for properties near the Oceanside delivery zone.",
+        "Managing USPS inspection scheduling, punch-item resolution, and resident communication before lockers go live."
+      ],
+      "complianceNotes": [
+        "USPS-approved parcel locker models per DMM 508.4 are required for carrier participation at Oceanside properties.",
+        "Hardware finish selection is reviewed during equipment recommendation — coastal corrosion resistance is part of that evaluation."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can we add parcel lockers to our Oceanside complex without replacing the existing CBUs?",
+          "answer": "In most cases yes. We design parcel locker additions that mount adjacent to existing CBU banks, keeping your current mailboxes intact while adding secure parcel capacity."
+        },
+        {
+          "question": "How do parcel lockers hold up to Oceanside's coastal climate?",
+          "answer": "We specify USPS-approved locker models with powder-coat finishes rated for exterior use. For Oceanside properties we pay particular attention to finish durability and hardware seals against salt air."
         }
       ],
       "faqs": [
@@ -262,7 +376,7 @@
             "Reduce front office workload and package-related complaints",
             "Create a package-handling system that aligns with USPS and carrier expectations"
           ],
-          "closing": "Parcel lockers turn package management from a daily headache into a predictable, trackable part of your Carlsbad property\u2019s operations."
+          "closing": "Parcel lockers turn package management from a daily headache into a predictable, trackable part of your Carlsbad property's operations."
         },
         {
           "id": "common-projects",
@@ -289,6 +403,44 @@
             "Schedule USPS inspection and handle punch-list items so the system can go live"
           ],
           "closing": "Our goal is a parcel locker installation in Carlsbad that feels like an upgrade to your resident experience, not a construction project they have to work around."
+        }
+      ],
+      "localUseCases": [
+        "Resort-style Carlsbad HOAs where residents expect parcel lockers as a standard amenity alongside fitness centers and pool areas.",
+        "Luxury apartment communities in the Bressi Ranch area where package security is part of the leasing brand promise.",
+        "Mixed-use developments near Carlsbad Village where both residential and retail tenants need reliable parcel access.",
+        "Newer Carlsbad communities adding parcel lockers as part of a clubhouse or amenity building remodel."
+      ],
+      "propertyTypes": [
+        "Premium HOAs in La Costa and Bressi Ranch with amenity-rich common areas and high resident expectations.",
+        "Luxury multifamily apartment buildings near the Carlsbad Outlet Center and Palomar Airport Road corridor.",
+        "Resort-style condo communities near Carlsbad's lagoons with seasonal and short-term occupancy patterns.",
+        "Newer mixed-use developments in Carlsbad Village with boutique retail and residential units sharing one mail area."
+      ],
+      "commonTriggers": [
+        "Carlsbad HOA board directed to add parcel lockers as part of a broader amenity upgrade initiative.",
+        "Residents submitting formal requests for secure package handling as a listed community amenity.",
+        "A Carlsbad property undergoing a leasing-office remodel that includes a new mail and parcel station.",
+        "USPS requesting a formal parcel locker plan as part of approving a new or expanded mailbox installation."
+      ],
+      "scopeDetails": [
+        "Selecting parcel locker finishes and configurations that complement Carlsbad property aesthetics and HOA design standards.",
+        "Integrating parcel lockers into amenity building renovations alongside other trades at the same time.",
+        "Coordinating USPS review of locker placement relative to existing carrier routes in Carlsbad.",
+        "Sizing locker banks to accommodate peak seasonal volume at resort-adjacent Carlsbad properties."
+      ],
+      "complianceNotes": [
+        "All parcel locker equipment installed at Carlsbad properties must be USPS-approved models per DMM 508.4.",
+        "USPS reviews proposed locker locations relative to carrier routes and access paths before approving installation."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "How do we choose parcel locker finishes that match our Carlsbad property's design standards?",
+          "answer": "We work with USPS-approved manufacturers who offer multiple powder-coat and anodized finishes. During scoping we review your property palette and recommend options that meet both aesthetics and compliance."
+        },
+        {
+          "question": "Can parcel lockers in Carlsbad accommodate oversized deliveries from e-commerce brands?",
+          "answer": "Yes. We size locker banks with a mix of standard and oversized compartments so most parcels from major carriers fit without needing a carrier exception or a front-door drop."
         }
       ],
       "faqs": [
@@ -374,6 +526,44 @@
           "closing": "The result is a parcel locker system in Encinitas that feels integrated with your property and makes daily deliveries simpler for everyone involved."
         }
       ],
+      "localUseCases": [
+        "Smaller Encinitas condo buildings near Moonlight Beach where limited lobby space causes packages to pile up quickly.",
+        "Boutique HOAs in Leucadia and Cardiff that want to upgrade mail areas without replacing existing letter mailboxes.",
+        "Coastal rental communities along Coast Highway 101 where open breezeways create recurring package theft risk.",
+        "Mixed-use buildings in downtown Encinitas where residential tenants and ground-floor businesses share a single mail area."
+      ],
+      "propertyTypes": [
+        "Smaller condo communities in Leucadia and Cardiff-by-the-Sea with compact interior mail rooms.",
+        "Boutique apartment buildings near Encinitas Ranch with a premium resident profile and high parcel volume.",
+        "Townhome HOAs in Olivenhain with outdoor cluster mailbox stations and no dedicated parcel infrastructure.",
+        "Mixed-use buildings in downtown Encinitas with shared mail areas serving both residential and retail tenants."
+      ],
+      "commonTriggers": [
+        "Encinitas HOA board responding to resident complaints about packages left outside unit doors in common hallways.",
+        "A small Encinitas apartment building upgrading from surface-mounted letter boxes to a proper 4C and parcel system.",
+        "USPS recommending a parcel locker for a coastal property receiving frequent undeliverable-parcel notices.",
+        "A mail room remodel that prompts the board to include parcel locker capacity in the same project."
+      ],
+      "scopeDetails": [
+        "Designing parcel locker banks that fit within the tight footprints typical of Encinitas mail rooms and corridors.",
+        "Integrating parcel modules with existing 4C wall-mounted mailbox systems wherever possible.",
+        "Reviewing coastal exposure and recommending appropriate equipment finishes for Encinitas properties.",
+        "Coordinating USPS review and inspection with the Encinitas delivery zone before lockers enter service."
+      ],
+      "complianceNotes": [
+        "USPS-approved parcel locker units per DMM 508.4 are required for USPS carrier use at all Encinitas properties.",
+        "All installations are subject to USPS site review and final inspection before entering regular delivery service."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "How many parcel lockers does a smaller Encinitas condo building typically need?",
+          "answer": "For boutique Encinitas buildings we often start with 4–6 parcel compartments of mixed sizes, scaled to unit count and observed delivery frequency, and revisit capacity during the site review."
+        },
+        {
+          "question": "Can parcel lockers be tied into our existing 4C mailboxes at our Encinitas property?",
+          "answer": "Yes. Many Encinitas properties integrate parcel modules directly alongside their 4C letter boxes so residents have one organized location for all mail and packages."
+        }
+      ],
       "faqs": [
         {
           "question": "Can you add parcel lockers to our existing mail room in Encinitas?",
@@ -457,6 +647,44 @@
           "closing": "Our goal is a parcel locker system in Escondido that works smoothly on day one and continues to support residents as parcel volume grows."
         }
       ],
+      "localUseCases": [
+        "Older Escondido apartment complexes where original mailboxes were built for letters only and parcel volume has since doubled.",
+        "Inland HOA communities in east Escondido where packages are routinely left on doorsteps due to no designated drop point.",
+        "Mixed-income multifamily properties in central Escondido where theft from open carports and breezeways is a recurring issue.",
+        "Communities along East Valley Parkway adding parcel lockers during a mailbox replacement to avoid a second round of work later."
+      ],
+      "propertyTypes": [
+        "Older apartment complexes in central Escondido built before modern daily parcel delivery became the norm.",
+        "HOA communities in east Escondido with outdoor CBU banks and no parcel drop infrastructure.",
+        "Senior communities along Escondido's residential corridors where accessible, secure package pickup is a priority.",
+        "Multifamily properties near downtown Escondido with limited common-area footprint for package storage."
+      ],
+      "commonTriggers": [
+        "A rash of package theft complaints at an Escondido complex with open carport mailbox stations.",
+        "USPS notifying an Escondido property that its CBU bank is full and recommending formal parcel locker capacity.",
+        "A property manager planning a mailbox replacement who wants to include parcel lockers in the same project scope.",
+        "Residents at an older Escondido complex formally petitioning the board for secure package handling."
+      ],
+      "scopeDetails": [
+        "Assessing existing pad condition at Escondido outdoor CBU stations before recommending parcel locker placement.",
+        "Integrating parcel lockers with aging CBU banks that may also need hardware servicing at the same time.",
+        "Coordinating USPS review with the Escondido delivery station carrier supervisor before installation begins.",
+        "Managing concrete work and anchoring for locker banks at Escondido properties with sloped or uneven pad areas."
+      ],
+      "complianceNotes": [
+        "USPS-approved parcel locker models per DMM 508.4 are required for all Escondido installations accepted into regular USPS delivery.",
+        "USPS will inspect placement and carrier access before the Escondido locker bank enters service — we coordinate that process."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Our Escondido property has older CBUs — can we add parcel lockers without replacing them?",
+          "answer": "Often yes. We assess the condition and layout of your existing CBU bank and recommend parcel locker configurations that can be anchored nearby without requiring a full mailbox replacement."
+        },
+        {
+          "question": "How does USPS decide whether to approve parcel locker placement at an Escondido property?",
+          "answer": "USPS reviews proposed locker locations for carrier access, route efficiency, and compliance with DMM 508 standards. We submit the layout and coordinate directly with your local Escondido delivery unit."
+        }
+      ],
       "faqs": [
         {
           "question": "Can you add parcel lockers to our existing CBUs or 4C mailboxes in Escondido?",
@@ -503,7 +731,7 @@
         {
           "id": "why-parcel-vista",
           "heading": "Why Vista properties add dedicated parcel lockers",
-          "body": "Vista\u2019s mix of older communities and newer infill projects means package volume has grown faster than most mail areas were designed for. As residents order more online, unsecured deliveries and crowded lobbies become a real liability.",
+          "body": "Vista's mix of older communities and newer infill projects means package volume has grown faster than most mail areas were designed for. As residents order more online, unsecured deliveries and crowded lobbies become a real liability.",
           "bullets": [
             "Packages left on open shelving or stacked on the floor near existing mailboxes",
             "Frequent complaints about missing or stolen deliveries at common areas",
@@ -538,6 +766,44 @@
             "Coordinate USPS review and inspection so parcel lockers are accepted into daily use"
           ],
           "closing": "Our goal is a Vista parcel locker system that reduces clutter, improves security, and makes life easier for residents, staff, and carriers."
+        }
+      ],
+      "localUseCases": [
+        "Older Vista apartment complexes where packages are routinely stacked on CBU rooftops during busy mid-morning delivery runs.",
+        "HOA communities in west Vista where carport-adjacent mailbox stations have no room for secure parcel drops.",
+        "Single-story condo communities in north Vista experiencing a spike in package theft from open walkways.",
+        "Garden-style communities along North Santa Fe Avenue adding parcel lockers to resolve ongoing resident complaints."
+      ],
+      "propertyTypes": [
+        "Older garden-style apartment communities in Vista with surface-mounted CBU banks and no parcel infrastructure.",
+        "Smaller HOAs in west Vista with shared outdoor mailbox stations and limited adjacent common space.",
+        "Single-story condo developments in north Vista with carport or garage-adjacent mail stations.",
+        "Mixed multifamily properties near the Vista Village area with compact mailroom footprints."
+      ],
+      "commonTriggers": [
+        "Repeated package theft incidents at a Vista HOA's open-air mailbox station prompted board action.",
+        "USPS carrier feedback that larger parcels cannot be safely left at the current Vista mail location.",
+        "A Vista property scheduled for a CBU replacement where the board decided to add parcel lockers at the same time.",
+        "An HOA board in Vista citing package-related resident complaints as a top priority at their annual planning meeting."
+      ],
+      "scopeDetails": [
+        "Evaluating existing concrete pad capacity at Vista CBU stations before sizing parcel locker banks.",
+        "Integrating parcel lockers with older CBU units in Vista that may have limited clearance for adjacent equipment.",
+        "Coordinating USPS review and site visit with the Vista delivery station before installation begins.",
+        "Completing USPS final inspection and carrier walkthrough before lockers enter daily service."
+      ],
+      "complianceNotes": [
+        "All parcel locker units must be USPS-approved models per DMM 508.4 to be included in the Vista carrier delivery route.",
+        "Placement and carrier master key access are reviewed by USPS before final sign-off at Vista properties."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can a Vista property with older CBUs still add USPS-approved parcel lockers?",
+          "answer": "Yes. We work with both modern and older CBU configurations in Vista. If the existing slab and spacing permit, we anchor parcel lockers adjacent to the CBU bank without relocating existing mailboxes."
+        },
+        {
+          "question": "How do we estimate the right parcel locker count for our Vista community?",
+          "answer": "We start with unit count and review actual delivery frequency when possible. For most Vista communities we recommend sizing for peak delivery days rather than averages so lockers don't fill up and overflow."
         }
       ],
       "faqs": [
@@ -623,6 +889,44 @@
           "closing": "Our goal is a Poway parcel locker system that works smoothly for residents, staff, and carriers from day one."
         }
       ],
+      "localUseCases": [
+        "Suburban Poway HOAs where online shopping volume has grown significantly but original mail stations included only CBUs.",
+        "Business park properties along the Poway Road corridor where multiple tenants receive daily parcels with no designated drop point.",
+        "Newer HOA communities in Poway where parcel lockers were not included in the original build and are now being added by the board.",
+        "Senior or active-adult communities in Poway where secure, accessible parcel pickup is an important quality-of-life feature."
+      ],
+      "propertyTypes": [
+        "Suburban HOA communities in Old Poway and Carriage Road with outdoor CBU banks and no parcel infrastructure.",
+        "Business and professional park properties along Poway Road and Stowe Drive with multi-tenant parcel needs.",
+        "Newer single-family HOA communities in Poway where parcel demand was underestimated at build-out.",
+        "Senior or active-adult communities in Poway where ADA-accessible parcel retrieval is a planning priority."
+      ],
+      "commonTriggers": [
+        "Poway HOA board members receiving frequent resident complaints about packages left at front doors instead of secured.",
+        "USPS recommending parcel lockers alongside a CBU replacement at an established Poway community.",
+        "A business park property manager adding parcel lockers to remove front-desk package handling from staff duties.",
+        "A Poway HOA undergoing a common-area landscape renovation that includes the existing mail station footprint."
+      ],
+      "scopeDetails": [
+        "Designing parcel locker banks that fit within suburban Poway CBU pad layouts and comply with ADA setback requirements.",
+        "Coordinating parcel locker placement with USPS route supervisors covering the Poway delivery zone.",
+        "Managing concrete pad extensions where the existing Poway slab is too small for adjacent locker units.",
+        "Completing USPS inspection, carrier key handover, and HOA resident notification before the system goes live."
+      ],
+      "complianceNotes": [
+        "USPS-approved parcel locker models per DMM 508.4 are required for all Poway installations included in the USPS carrier route.",
+        "USPS reviews locker placement and access before final inspection and sign-off — no Poway locker enters service without that step."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can parcel lockers be added to an existing CBU bank at our Poway HOA without moving the mailboxes?",
+          "answer": "Usually yes. We assess your existing slab and clearances, then design a parcel locker addition that anchors adjacent to the CBU bank without requiring mailbox relocation."
+        },
+        {
+          "question": "How do we notify Poway residents about the new parcel retrieval process after installation?",
+          "answer": "We provide a written process summary and coordinate with the HOA management team to distribute resident notices before the system goes live so everyone knows how to pick up packages."
+        }
+      ],
       "faqs": [
         {
           "question": "Can you add parcel lockers to an existing mail station in Poway?",
@@ -674,7 +978,7 @@
             "Packages crowding lobbies, corridors, and leasing offices during busy delivery times",
             "Residents unsure where to look when a package is marked as delivered",
             "Carriers leaving parcels in multiple ad-hoc spots around the property",
-            "Existing mail areas never designed for today\u2019s level of e-commerce deliveries",
+            "Existing mail areas never designed for today's level of e-commerce deliveries",
             "Property teams spending time tracking and managing packages instead of higher-value work"
           ],
           "closing": "We design San Marcos parcel locker solutions that centralize package handling, provide clear expectations for residents, and reduce day-to-day stress on staff."
@@ -690,7 +994,7 @@
             "Sizing parcel banks so they can handle peak times at move-in and holidays",
             "Pairing parcel locker installation with broader mail equipment upgrades"
           ],
-          "closing": "Each San Marcos project is tailored to your building\u2019s actual delivery patterns instead of relying on generic rules of thumb."
+          "closing": "Each San Marcos project is tailored to your building's actual delivery patterns instead of relying on generic rules of thumb."
         },
         {
           "id": "coordination-san-marcos",
@@ -704,6 +1008,44 @@
             "Coordinate USPS review and inspection so locker use can start promptly after installation"
           ],
           "closing": "The result is a San Marcos parcel locker system that feels integrated with the property and ready for sustained, high-volume use."
+        }
+      ],
+      "localUseCases": [
+        "Student-focused apartment communities near Cal State San Marcos where package volume peaks sharply at the start of each semester.",
+        "High-turnover rental properties in San Marcos where residents expect parcel lockers as a baseline leasing amenity.",
+        "Apartment communities along Craven Road handling large volumes of daily subscription box and Amazon deliveries.",
+        "San Marcos HOAs where parcel demand has spiked as more residents work from home and order supplies regularly."
+      ],
+      "propertyTypes": [
+        "Student-oriented apartment complexes within walking distance of Cal State San Marcos with year-round high parcel volume.",
+        "High-density rental communities along Twin Oaks Valley Road and Craven Road.",
+        "Mixed-income multifamily properties in central San Marcos where package storage is an active management challenge.",
+        "Newer HOA townhome communities in San Marcos adding parcel lockers as a post-build board improvement."
+      ],
+      "commonTriggers": [
+        "Leasing managers at San Marcos student housing reporting daily package overflow in lobbies and leasing offices.",
+        "USPS notifying a San Marcos community that its mail station needs formal parcel locker capacity before the next inspection.",
+        "A property renovation at a Cal State San Marcos-adjacent complex that includes upgrading the mailroom.",
+        "An HOA board in San Marcos responding to a spike in theft complaints tied to packages left in open carports."
+      ],
+      "scopeDetails": [
+        "Sizing parcel locker banks for San Marcos student properties where delivery volume can be 3–4 times typical residential averages.",
+        "Integrating high-capacity parcel modules with existing 4C or CBU mail systems in dense San Marcos apartment clusters.",
+        "Coordinating USPS review with the San Marcos delivery station, which serves multiple high-volume multifamily properties.",
+        "Phasing installation around academic calendar move-in periods to minimize delivery disruptions for students."
+      ],
+      "complianceNotes": [
+        "USPS-approved parcel locker units per DMM 508.4 are required for all San Marcos properties where USPS delivers to the locker bank.",
+        "Sizing and placement must be approved by USPS before inspection sign-off — we coordinate that process with the San Marcos delivery unit."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "How many parcel lockers does a San Marcos student housing complex typically need?",
+          "answer": "Student properties near Cal State San Marcos often need one locker compartment per 4–6 units given elevated delivery frequency. We review semester delivery patterns and size the bank accordingly."
+        },
+        {
+          "question": "Can we install parcel lockers between semesters to avoid disrupting students in San Marcos?",
+          "answer": "Yes. We frequently schedule San Marcos parcel locker projects during academic breaks and plan USPS inspection to align with the start of the new term so lockers are live when students return."
         }
       ],
       "faqs": [
@@ -752,7 +1094,7 @@
         {
           "id": "why-parcel-lockers-temecula",
           "heading": "Why Temecula properties are upgrading to parcel lockers",
-          "body": "Temecula\u2019s communities see a high volume of online orders, and traditional mail setups were never designed for daily package delivery. Packages end up at doors, in offices, and stacked on top of mailboxes, creating theft risk and extra work for staff.",
+          "body": "Temecula's communities see a high volume of online orders, and traditional mail setups were never designed for daily package delivery. Packages end up at doors, in offices, and stacked on top of mailboxes, creating theft risk and extra work for staff.",
           "bullets": [
             "Reduce package theft and lost deliveries with secure parcel locker storage",
             "Give carriers a predictable, central location for packages instead of door drops",
@@ -778,7 +1120,7 @@
         {
           "id": "process-parcel-temecula",
           "heading": "How Postal Systems designs and installs parcel lockers in Temecula",
-          "body": "Our process is built around resident convenience, USPS expectations, and the practical realities of Temecula properties\u2014parking, grades, and shared amenity areas.",
+          "body": "Our process is built around resident convenience, USPS expectations, and the practical realities of Temecula properties—parking, grades, and shared amenity areas.",
           "bullets": [
             "Walk the property to review existing mail locations, access routes, and lighting",
             "Review resident counts and carrier feedback to size parcel locker capacity correctly",
@@ -786,7 +1128,45 @@
             "Plan work windows and phasing so carriers always have a reliable place to leave packages",
             "Coordinate USPS inspection and respond quickly to any punch-list notes"
           ],
-          "closing": "The result is a Temecula parcel locker system that works for residents, carriers, and property staff on day one\u2014and for years to come."
+          "closing": "The result is a Temecula parcel locker system that works for residents, carriers, and property staff on day one—and for years to come."
+        }
+      ],
+      "localUseCases": [
+        "Newer Temecula HOA communities in Redhawk and Wolf Creek where residents expect parcel lockers as a standard community feature.",
+        "Master-planned developments near Temecula Parkway where package volume has outpaced original mail station capacity.",
+        "Apartment communities in the Temecula corridor attracting residents with high online shopping frequency.",
+        "Temecula townhome HOAs that launched without parcel lockers and are now adding them in response to resident requests."
+      ],
+      "propertyTypes": [
+        "Master-planned HOA communities in south Temecula including Redhawk, Wolf Creek, and Harveston.",
+        "Newer apartment and condo developments along Jefferson Avenue and Ynez Road.",
+        "Resort-adjacent residential communities near the Temecula wine country hospitality corridor.",
+        "Townhome HOAs in north Temecula where original mail stations included CBUs but no parcel infrastructure."
+      ],
+      "commonTriggers": [
+        "Temecula HOA board receiving formal resident petitions for parcel lockers during annual election meetings.",
+        "USPS recommending parcel locker capacity when replacing a Temecula community's original CBU bank.",
+        "A newer Temecula development updating its amenity package to include parcel lockers alongside other resident services.",
+        "Repeated theft or loss complaints at a south Temecula community's open outdoor mailbox station."
+      ],
+      "scopeDetails": [
+        "Designing parcel locker banks for Temecula's newer outdoor CBU stations, which often have fresh concrete pads with room to expand.",
+        "Coordinating locker placement with USPS route supervisors covering the Temecula area delivery zones.",
+        "Integrating parcel lockers into master-planned community mail areas that may also include monument signage and landscaping.",
+        "Completing USPS inspection and community-wide resident notification before the Temecula system goes live."
+      ],
+      "complianceNotes": [
+        "All parcel locker equipment at Temecula properties must be USPS-approved models per DMM 508.4 to be included in the carrier route.",
+        "USPS reviews locker placement, access, and carrier key protocols before final inspection — we manage that process end to end."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can we add parcel lockers to a newer CBU station in our Temecula HOA without major site work?",
+          "answer": "Often yes. Newer Temecula communities typically have well-poured CBU pads with adequate space for adjacent parcel locker units. We review slab dimensions and confirm anchor points before finalizing the layout."
+        },
+        {
+          "question": "How does USPS handle notification when a Temecula property adds parcel lockers to an existing route?",
+          "answer": "We submit the locker location plan to the Temecula delivery unit, coordinate a carrier walkthrough, and schedule USPS inspection. USPS updates carrier route instructions once the lockers pass inspection."
         }
       ],
       "faqs": [
@@ -835,10 +1215,10 @@
         {
           "id": "why-parcel-lockers-el-cajon",
           "heading": "Why El Cajon properties need dedicated parcel locker capacity",
-          "body": "Older mail setups in El Cajon were built for letters\u2014not daily package deliveries. Packages end up in offices, laundry rooms, and on top of mailboxes, which increases the risk of theft and puts pressure on staff.",
+          "body": "Older mail setups in El Cajon were built for letters—not daily package deliveries. Packages end up in offices, laundry rooms, and on top of mailboxes, which increases the risk of theft and puts pressure on staff.",
           "bullets": [
             "Provide a secure, central location for package delivery and pickup",
-            "Reduce theft and \u201cmissing package\u201d complaints from residents",
+            "Reduce theft and \"missing package\" complaints from residents",
             "Limit how often staff need to sign for, store, or track parcels",
             "Help carriers complete their routes efficiently with predictable drop-off points",
             "Support modernization efforts at communities that are upgrading amenities and common areas"
@@ -861,7 +1241,7 @@
         {
           "id": "process-parcel-el-cajon",
           "heading": "How Postal Systems manages parcel locker projects in El Cajon",
-          "body": "We design parcel locker systems in El Cajon around the realities of the site\u2014parking, elevations, and resident paths\u2014while keeping USPS requirements front and center.",
+          "body": "We design parcel locker systems in El Cajon around the realities of the site—parking, elevations, and resident paths—while keeping USPS requirements front and center.",
           "bullets": [
             "Walk the property to identify practical, visible locations for parcel lockers",
             "Review USPS guidance and carrier feedback related to your existing mail setup",
@@ -870,6 +1250,44 @@
             "Coordinate USPS inspection and help resolve any final comments so lockers can be placed into service"
           ],
           "closing": "From the first walk-through to final USPS sign-off, you have one team accountable for making parcel delivery more secure and predictable at your El Cajon property."
+        }
+      ],
+      "localUseCases": [
+        "Older El Cajon apartment complexes where open carport mailbox stations have made packages easy targets for theft.",
+        "HOA communities in Rancho San Diego upgrading aging mail infrastructure and adding parcel lockers in the same project.",
+        "Budget-focused multifamily properties in El Cajon that need a cost-effective parcel solution without a full mailbox replacement.",
+        "El Cajon communities where USPS has cited the existing mail station and recommended improvements including parcel capacity."
+      ],
+      "propertyTypes": [
+        "Older multifamily apartment complexes in central El Cajon with surface-mounted or pedestal-style CBU banks.",
+        "HOA communities in the Rancho San Diego and Mount Helix areas with outdoor mailbox stations.",
+        "Smaller condo associations in east El Cajon with compact mail areas and limited adjacent common space.",
+        "Budget-focused rental properties in El Cajon where a practical, low-maintenance parcel locker solution is the priority."
+      ],
+      "commonTriggers": [
+        "A series of package theft incidents at an El Cajon property's open parking-lot mailbox station.",
+        "USPS notifying an El Cajon complex that current mail station conditions require improvement.",
+        "A property renovation where the HOA decides to include parcel lockers as part of a mailbox or common-area upgrade.",
+        "El Cajon residents filing formal complaints with the board about missing packages that were marked as delivered."
+      ],
+      "scopeDetails": [
+        "Assessing existing pad and mounting conditions at older El Cajon CBU stations before sizing parcel locker additions.",
+        "Selecting USPS-approved parcel locker models suited to outdoor urban environments with El Cajon budget constraints in mind.",
+        "Coordinating USPS review and site inspection with the El Cajon delivery unit before installation begins.",
+        "Managing minor concrete or anchoring work at older El Cajon sites with deteriorated or undersized slab areas."
+      ],
+      "complianceNotes": [
+        "USPS-approved parcel locker models per DMM 508.4 are required for El Cajon properties included in the USPS carrier route.",
+        "USPS reviews placement, carrier access, and master key protocols before the El Cajon installation is accepted into service."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "What is a cost-effective way for an El Cajon property to add parcel lockers without replacing existing CBUs?",
+          "answer": "We look for available pad space adjacent to your existing CBU bank and anchor a modest parcel locker unit there, avoiding the cost of a full mailbox replacement while still giving residents a secure parcel drop point."
+        },
+        {
+          "question": "Can older El Cajon properties with limited slab space still accommodate parcel lockers?",
+          "answer": "Often yes. We evaluate your existing pad and recommend compact parcel locker configurations that fit within tight footprints, or we pour a small pad extension when the slab does not have enough room."
         }
       ],
       "faqs": [
@@ -953,6 +1371,44 @@
             "Direct coordination with USPS for layout approval and final inspection"
           ],
           "closing": "From initial consultation through final USPS sign-off, we keep your project on track and communicate clearly at every step."
+        }
+      ],
+      "localUseCases": [
+        "Rapidly growing HOA communities in Menifee and Murrieta where housing construction has outpaced mail infrastructure planning.",
+        "Apartment communities in Riverside and Corona where high turnover and online shopping combine for very high daily parcel volume.",
+        "Master-planned communities in south Riverside County where mail stations are shared across multiple development phases.",
+        "Commercial and mixed-use properties throughout Riverside County adding parcel lockers as part of a full mail station build-out."
+      ],
+      "propertyTypes": [
+        "Newer HOA communities in fast-growing Riverside County cities including Menifee, Murrieta, and Perris.",
+        "Apartment and multifamily properties in Riverside and Corona with high-density CBU banks.",
+        "Master-planned communities in south Riverside County with shared mail stations serving multiple phases.",
+        "Commercial and business park properties throughout Riverside County needing secure employee parcel access."
+      ],
+      "commonTriggers": [
+        "HOA boards in Riverside County responding to rising resident frustration over packages left on top of CBUs or at front doors.",
+        "USPS recommending parcel capacity as part of approving new mail stations for large Riverside County developments.",
+        "A Riverside County property management company standardizing parcel locker infrastructure across its portfolio.",
+        "Community managers receiving formal complaints about package theft at suburban outdoor mailbox stations."
+      ],
+      "scopeDetails": [
+        "Coordinating with USPS delivery units across multiple Riverside County service areas including Murrieta, Temecula, and Riverside.",
+        "Designing parcel locker banks for varied site conditions — from fresh pads in new Riverside County developments to aging slab at established communities.",
+        "Managing equipment procurement and shipping timelines for Riverside County properties outside the immediate San Diego delivery zone.",
+        "Completing USPS inspection and carrier key handover at each Riverside County installation site after phased work is finished."
+      ],
+      "complianceNotes": [
+        "All Riverside County parcel locker installations must use USPS-approved models per DMM 508.4 to be accepted by the local carrier.",
+        "Each Riverside County location requires USPS review and final inspection before entering carrier service — we coordinate with the relevant local delivery unit."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Do you install parcel lockers in cities throughout Riverside County, not just near San Diego?",
+          "answer": "Yes. We serve properties across Riverside County including Murrieta, Menifee, Riverside, Corona, and surrounding areas, coordinating USPS contact for each city's delivery unit."
+        },
+        {
+          "question": "How do we determine the right parcel locker capacity for a large Riverside County HOA?",
+          "answer": "We look at unit count, current daily parcel frequency, and known seasonal peaks. For larger HOA communities in Riverside County we often recommend starting with more capacity and adding a second bank as the community grows."
         }
       ],
       "faqs": [
@@ -1041,6 +1497,44 @@
             "Direct coordination with USPS for layout approval and final inspection"
           ],
           "closing": "From initial consultation through final USPS sign-off, we keep your project on track and communicate clearly at every step."
+        }
+      ],
+      "localUseCases": [
+        "Premium Orange County HOAs in communities like Ladera Ranch and Aliso Viejo where parcel lockers are expected as part of a modern amenity package.",
+        "High-rise condo buildings in Irvine and Newport Beach where lobby parcel management has become a full-time staff task.",
+        "Apartment communities near major Orange County employment centers where residents receive frequent business and personal deliveries.",
+        "Master-planned communities in south Orange County adding parcel lockers as part of a planned common-area upgrade."
+      ],
+      "propertyTypes": [
+        "Premium HOA communities in master-planned Orange County developments like Ladera Ranch, Aliso Viejo, and Rancho Santa Margarita.",
+        "Luxury high-rise condos and mid-rise apartments in Irvine and Newport Beach with active front-desk package traffic.",
+        "Large apartment communities near the Irvine Spectrum and Costa Mesa business corridors.",
+        "Mixed-use developments in Orange County with ground-floor retail and upper-floor residential units sharing one mail area."
+      ],
+      "commonTriggers": [
+        "Orange County HOA board directive to add parcel lockers as a formal amenity upgrade aligned with community standards.",
+        "Management company receiving daily resident inquiries about package status that overwhelm front-desk staff.",
+        "A luxury Orange County apartment property adding parcel lockers to match competing communities offering the same feature.",
+        "USPS requesting a formal parcel locker plan before approving a new or expanded mail station at a large Orange County community."
+      ],
+      "scopeDetails": [
+        "Selecting USPS-approved parcel locker models with finishes appropriate for premium Orange County properties and HOA design guidelines.",
+        "Integrating parcel lockers into planned mail room or lobby renovations alongside other trades in Orange County.",
+        "Coordinating USPS review with delivery units covering multiple Orange County service areas.",
+        "Sizing parcel banks for high-volume Orange County properties where residents may receive multiple deliveries per week."
+      ],
+      "complianceNotes": [
+        "All Orange County parcel locker installations must use USPS-approved models per DMM 508.4 to be accepted into the USPS carrier route.",
+        "USPS reviews placement, sizing, and carrier access protocols before final inspection sign-off at each Orange County property."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "How do we choose parcel locker equipment that fits the design standards of a premium Orange County HOA?",
+          "answer": "We work with USPS-approved manufacturers offering a range of architectural finishes. During scoping we review your community's design guidelines and recommend models that meet both compliance and aesthetic requirements."
+        },
+        {
+          "question": "Can parcel lockers at an Orange County property handle deliveries from both USPS and private carriers like UPS and FedEx?",
+          "answer": "Yes. We design locker banks so USPS has dedicated carrier access while private carriers can use the same compartments, and we brief all parties on the system before lockers go live."
         }
       ],
       "faqs": [

@@ -48,6 +48,44 @@
           "closing": "Our goal is to deliver a mailbox relocation and consolidation project that improves safety and convenience while keeping residents informed at every step."
         }
       ],
+      "localUseCases": [
+        "Older downtown San Diego apartments relocating building-entry mail setups that conflict with current security layouts.",
+        "Urban infill redevelopment in San Diego where new construction eliminates or displaces original mail access points.",
+        "Mission Valley and Mid-City HOAs consolidating scattered CBU clusters into a single gated central mail station.",
+        "Hillside San Diego communities where original mail pads create steep, non-compliant approach challenges."
+      ],
+      "propertyTypes": [
+        "Dense urban apartment buildings in San Diego's older neighborhoods with outdated entry mailbox configurations.",
+        "Mid-rise condominiums undergoing renovation where mail stations must move with common area redesigns.",
+        "Hillside HOAs in San Diego with scattered mail pads no longer aligned with current parking or access paths.",
+        "Commercial mixed-use redevelopment sites in San Diego requiring new USPS-approved mail infrastructure."
+      ],
+      "commonTriggers": [
+        "Redevelopment or building addition in San Diego eliminating the original mailbox pad location.",
+        "USPS requesting consolidation of multiple small mail stops on a San Diego carrier route.",
+        "Parking lot resurfacing or reconfiguration revealing a need to move existing San Diego mail stations.",
+        "ADA remediation projects in San Diego requiring mailbox relocation to an accessible path of travel."
+      ],
+      "scopeDetails": [
+        "Demolishing old concrete pads at prior San Diego mail station locations and restoring surrounding surfaces.",
+        "Pouring new USPS-approved pads at approved replacement sites, including grading and drainage.",
+        "Coordinating USPS address record updates and carrier route notifications for relocated San Diego delivery points.",
+        "Phasing work so San Diego residents retain mail access at existing locations until new stations are activated."
+      ],
+      "complianceNotes": [
+        "USPS must approve any permanent relocation of commercial mail delivery points per DMM 508 before work is activated.",
+        "New San Diego mailbox locations require USPS inspection and carrier route coordination before service transfers."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "How long does USPS take to update address records after a San Diego mailbox relocation?",
+          "answer": "USPS address updates typically take 2-4 weeks after inspection approval; we coordinate timing so residents are not left without mail access."
+        },
+        {
+          "question": "Can multiple San Diego mail stations be consolidated into one central location?",
+          "answer": "Yes — we have consolidated 4-6 scattered CBU clusters into a single station; the exact number depends on USPS route requirements and walking distance standards."
+        }
+      ],
       "faqs": [
         {
           "question": "Can you relocate San Diego mailboxes closer to our main entrance or clubhouse?",
@@ -128,7 +166,45 @@
             "Help boards and managers communicate route changes, new locations, and key handoff",
             "Coordinate USPS inspection and address any notes before residents begin using the new stations"
           ],
-          "closing": "The result is a mailbox system that feels like it was intentionally designed for how your Chula Vista property operates now\u2014not decades ago."
+          "closing": "The result is a mailbox system that feels like it was intentionally designed for how your Chula Vista property operates now—not decades ago."
+        }
+      ],
+      "localUseCases": [
+        "Chula Vista master-planned communities where phase 2 construction changed traffic flow around original mail station pads.",
+        "Growing eastern Chula Vista HOAs reorganizing common areas and consolidating mail into new amenity-adjacent hubs.",
+        "Apartment communities near Otay Ranch where new buildings shifted resident traffic away from original mail pads.",
+        "HOA board reorganizations in Chula Vista prompting a review of outdated scattered mail infrastructure."
+      ],
+      "propertyTypes": [
+        "New master-planned residential communities in Chula Vista's eastern growth corridors with multi-phase mail setups.",
+        "Large multifamily apartment complexes with mail stations added across different Chula Vista build phases.",
+        "Townhome HOAs in Chula Vista where mail was placed during original construction and never updated as amenities evolved.",
+        "Mixed-use developments in western Chula Vista with both commercial and residential mail delivery needs on one site."
+      ],
+      "commonTriggers": [
+        "New building phases in Chula Vista changing where residents park and walk, making old mail stations inconvenient.",
+        "USPS route adjustment requests prompting a Chula Vista HOA to consolidate from five stops to two.",
+        "Common area renovation near a Chula Vista clubhouse requiring relocation of an adjacent mail station pad.",
+        "A Chula Vista property sale or HOA takeover triggering a compliance and placement review of mail infrastructure."
+      ],
+      "scopeDetails": [
+        "Removing existing Chula Vista CBU pads at outdated locations and pouring new pads at USPS-approved sites.",
+        "Coordinating resident notification letters and new key distribution when Chula Vista mail stations move.",
+        "Working with Chula Vista HOA management teams to phase relocation around busy move-in seasons.",
+        "USPS carrier route coordination to ensure new station locations are accepted before activating service."
+      ],
+      "complianceNotes": [
+        "All relocated Chula Vista delivery points require USPS DMM 508 approval before residents begin using new boxes.",
+        "USPS carrier notification must occur before activating any new mailbox station location in Chula Vista."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "How do Chula Vista residents receive mail during the relocation transition?",
+          "answer": "We maintain access at existing stations until USPS approves and activates the new Chula Vista location, so no delivery gaps occur."
+        },
+        {
+          "question": "Can a Chula Vista HOA consolidate many small clusters into one or two central stations?",
+          "answer": "Yes — we routinely consolidate 3-6 small Chula Vista clusters into centralized stations; USPS often prefers fewer, well-placed stops."
         }
       ],
       "faqs": [
@@ -142,7 +218,7 @@
         },
         {
           "question": "How do residents learn about new mailbox locations in Chula Vista?",
-          "answer": "We help your team plan communication\u2014signage, notices, and timing\u2014so residents know when and where mailboxes are moving, how keys will be handled, and when USPS will begin using the new stations."
+          "answer": "We help your team plan communication—signage, notices, and timing—so residents know when and where mailboxes are moving, how keys will be handled, and when USPS will begin using the new stations."
         },
         {
           "question": "Can we combine relocation with new mailbox equipment and parcel lockers in Chula Vista?",
@@ -189,7 +265,7 @@
         {
           "id": "common-projects",
           "heading": "Common mailbox relocation and consolidation projects in Oceanside",
-          "body": "Most Oceanside relocation projects begin when boards or managers realize existing locations are no longer ideal\u2014or when USPS raises concerns about access, safety, or route efficiency.",
+          "body": "Most Oceanside relocation projects begin when boards or managers realize existing locations are no longer ideal—or when USPS raises concerns about access, safety, or route efficiency.",
           "bullets": [
             "Relocating mailbox stations away from congested drive aisles or tight corners",
             "Consolidating multiple small CBU banks into central, well-lit mail stations",
@@ -211,6 +287,44 @@
             "Coordinate USPS inspection and final approval of the new mailbox locations"
           ],
           "closing": "Our goal is to deliver a mailbox layout in Oceanside that feels more intuitive, safer, and easier to maintain than what you started with."
+        }
+      ],
+      "localUseCases": [
+        "Oceanside beachside communities with mail stations installed in the 1970s or 1980s that conflict with current parking demands.",
+        "Older Oceanside apartment complexes near the pier area where original mail placement blocks accessible pedestrian paths.",
+        "Coastal HOAs in Oceanside relocating corroded or storm-exposed CBUs to more protected common areas.",
+        "Oceanside properties where a parking lot redesign displaced the original mailbox pad and pad must be rebuilt elsewhere."
+      ],
+      "propertyTypes": [
+        "Older beachside apartment buildings in Oceanside with aging wall-mounted or freestanding mail configurations.",
+        "Coastal HOAs with CBUs placed near drive edges or lot boundaries decades before current USPS standards.",
+        "Commercial mixed-use properties in downtown Oceanside where mail access conflicts with pedestrian circulation.",
+        "Multifamily communities near Camp Pendleton with high resident turnover and heavy daily mail volume."
+      ],
+      "commonTriggers": [
+        "Salt air corrosion degrading original Oceanside mail station pads and foundations, requiring relocation and new construction.",
+        "A landlord exterior renovation in Oceanside forcing relocation of mailboxes from building-mounted to freestanding pads.",
+        "USPS requesting that multiple Oceanside curbside stops be consolidated into one central cluster station.",
+        "ADA path-of-travel corrections in Oceanside identifying an existing mailbox location as a compliance obstacle."
+      ],
+      "scopeDetails": [
+        "Removing corroded or deteriorated Oceanside mailbox pads and pouring new pads at USPS-approved replacement sites.",
+        "Specifying coastal-rated hardware and mounting methods to minimize salt air impact at the new Oceanside location.",
+        "Coordinating USPS address record updates when Oceanside delivery points shift to new pad locations.",
+        "Phasing work around peak summer traffic so Oceanside residents maintain mail access throughout the relocation."
+      ],
+      "complianceNotes": [
+        "Relocated Oceanside mailbox stations require USPS DMM 508 approval and a site inspection before carrier use begins.",
+        "New pad locations must meet USPS approach, clearance, and lighting requirements before mail service transfers."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can we move Oceanside mailboxes away from a corroded, exposed coastal location?",
+          "answer": "Yes — we select new USPS-approved sites, pour coastal-rated pads, and coordinate inspection before activating the new Oceanside location."
+        },
+        {
+          "question": "Will Oceanside residents miss mail while we relocate stations?",
+          "answer": "We phase work so existing stations remain active until USPS inspects and activates the new Oceanside location, preventing any delivery gap."
         }
       ],
       "faqs": [
@@ -293,6 +407,44 @@
             "Coordinate USPS inspection and final sign-off once the new layout is in place"
           ],
           "closing": "Our role is to guide your Carlsbad mailbox relocation project from initial concept to a fully accepted, operating mail system."
+        }
+      ],
+      "localUseCases": [
+        "Carlsbad resort-style communities renovating common areas and moving mail stations to align with new amenity centers.",
+        "Master-planned Carlsbad HOAs where phase 3 or 4 construction changed pedestrian paths from original mail pads.",
+        "Luxury condo projects in Carlsbad Village upgrading exterior mail stations to match premium property standards.",
+        "Mixed-use coastal Carlsbad sites where commercial redevelopment requires relocating existing residential mail stations."
+      ],
+      "propertyTypes": [
+        "Large resort-style HOAs in Carlsbad with multiple mail stations spread across planned amenity corridors.",
+        "Luxury condominium buildings in Carlsbad Village undergoing interior and exterior common area renovations.",
+        "Multi-phase master-planned communities in north Carlsbad with mail stations added over 10-15 year build-outs.",
+        "Commercial properties near Carlsbad Premium Outlets with frequent tenant changes and high mail volume."
+      ],
+      "commonTriggers": [
+        "A Carlsbad HOA capital improvement plan redesigning common areas and displacing existing mail station pads.",
+        "New Carlsbad amenity construction blocking pedestrian access to current CBU locations.",
+        "USPS requesting Carlsbad route consolidation to reduce the number of carrier stops per community.",
+        "A Carlsbad property sale triggering a capital review identifying mail infrastructure placement as non-compliant."
+      ],
+      "scopeDetails": [
+        "Preparing new foundation pads at USPS-approved Carlsbad sites, including concrete work, grading, and updated lighting.",
+        "Sequencing equipment moves alongside Carlsbad landscape or hardscape improvement crews to avoid rework.",
+        "Coordinating USPS review of new Carlsbad layouts and conducting carrier walk-throughs before activating stations.",
+        "Providing Carlsbad residents with written notices, updated maps, and key transfer instructions during relocation."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 approval is required before activating any relocated mail delivery station in Carlsbad.",
+        "New Carlsbad mailbox pad locations must pass USPS inspection confirming access, approach, and placement standards."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "How far in advance should a Carlsbad HOA plan a mailbox relocation around a renovation project?",
+          "answer": "Ideally 60-90 days before construction starts; that allows time for USPS layout review, pad work, equipment moves, and resident communication."
+        },
+        {
+          "question": "Can a Carlsbad consolidation reduce from six scattered clusters to two central stations?",
+          "answer": "Yes — USPS often supports consolidation when it improves route efficiency; we design new Carlsbad stations to serve the same residents more centrally."
         }
       ],
       "faqs": [
@@ -378,6 +530,44 @@
           "closing": "The result is a mailbox layout in Encinitas that feels more natural to residents and easier for carriers to serve, with less risk and fewer complaints."
         }
       ],
+      "localUseCases": [
+        "Small Encinitas HOAs relocating aging CBUs from beach-adjacent parking lots into sheltered common areas.",
+        "Boutique apartment renovations in Encinitas where exterior redesigns require moving mail from building-front locations.",
+        "Hillside Encinitas communities repositioning mail away from steep slopes identified as ADA non-compliant.",
+        "Encinitas redevelopment projects where demolition or new construction eliminates an original mailbox pad location."
+      ],
+      "propertyTypes": [
+        "Smaller beachside condo and townhome communities in Encinitas with 20-60 units and aging mail setups.",
+        "Hillside residential communities with mail pads on grades that no longer meet USPS or ADA clearance standards.",
+        "Boutique mixed-use properties in downtown Encinitas where mail must fit into compact site footprints.",
+        "Older rental communities along El Camino Real in Encinitas with scattered wall-mount mailbox clusters."
+      ],
+      "commonTriggers": [
+        "A small Encinitas HOA renovation that relocates the main entry and exposes the mailbox as being in the wrong spot.",
+        "Hillside grading or slope stabilization in Encinitas uncovering that a mail pad sits on a non-compliant grade.",
+        "USPS carrier feedback requesting Encinitas route consolidation to combine multiple small stops.",
+        "A new parcel locker installation in Encinitas revealing that the current mail pad cannot support added equipment."
+      ],
+      "scopeDetails": [
+        "Removing old Encinitas mail pads and restoring surrounding surfaces before pouring new USPS-approved pads.",
+        "Coordinating with Encinitas boutique renovation contractors to sequence mailbox moves within the broader project.",
+        "Notifying the Encinitas USPS carrier unit of route changes and scheduling inspection of the new layout.",
+        "Providing small Encinitas HOA boards with simple maps and notices to distribute to residents before activation."
+      ],
+      "complianceNotes": [
+        "USPS must approve relocated mail station positions in Encinitas under DMM 508 before the carrier changes delivery routes.",
+        "Encinitas mailbox relocations require USPS inspection sign-off confirming placement, lighting, and approach clearances."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Is USPS approval harder to get for a small Encinitas community with only one mail station?",
+          "answer": "No — smaller relocations are often straightforward; we prepare the site plan and coordinate USPS review regardless of project size in Encinitas."
+        },
+        {
+          "question": "Can an Encinitas relocation happen without residents losing mail access even briefly?",
+          "answer": "We phase work so existing boxes stay active until the new Encinitas station passes USPS inspection and is ready for carrier use."
+        }
+      ],
       "faqs": [
         {
           "question": "Can you relocate our Encinitas mailboxes without interrupting mail service?",
@@ -461,6 +651,44 @@
           "closing": "Our goal is to leave Escondido properties with mailbox stations that function better day to day and support cleaner, more efficient USPS routes."
         }
       ],
+      "localUseCases": [
+        "Escondido apartment complexes built in the 1970s-1980s with mail placed in carport areas now used differently.",
+        "Inland Escondido HOAs where original mail stations are downhill from where residents currently park and enter.",
+        "Older Escondido commercial properties where a new tenant mix changed traffic patterns around the mailbox area.",
+        "Escondido communities where tree root growth or drainage damage has compromised original mail pads beyond repair."
+      ],
+      "propertyTypes": [
+        "Older garden-style apartment complexes in Escondido with mail pads integrated into aging carport structures.",
+        "Mid-1980s HOAs in Escondido with scattered CBU clusters that predate modern USPS consolidation guidance.",
+        "Commercial strip centers in Escondido where tenant reconfiguration has affected mailbox station access.",
+        "Hillside residential communities in Escondido where original pads were placed without ADA access in mind."
+      ],
+      "commonTriggers": [
+        "Tree root or drainage damage to an Escondido mail pad requiring full demolition and relocation of the station.",
+        "An Escondido property manager receiving a USPS notice requesting consolidation of four or more small mail stops.",
+        "Carport removal or parking restructuring at an Escondido complex that eliminates the current mailbox location.",
+        "ADA improvement mandates in Escondido requiring mail station relocation to an accessible path of travel."
+      ],
+      "scopeDetails": [
+        "Demolishing compromised Escondido mail pads and grading new locations to correct drainage before pouring.",
+        "Building new USPS-approved pads in Escondido locations clear of tree roots, drainage flow, and vehicle traffic.",
+        "Coordinating Escondido USPS route notifications and address record corrections when delivery points shift.",
+        "Phasing Escondido projects around resident schedules to prevent mail access gaps during demolition and construction."
+      ],
+      "complianceNotes": [
+        "Any permanent relocation of Escondido delivery points requires USPS DMM 508 review and approval before use.",
+        "New Escondido mail locations must be inspected by USPS before carriers begin delivering to the updated station."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can existing Escondido mailboxes be moved to a new pad or do they need to be replaced?",
+          "answer": "Some units can be relocated to new pads; if equipment is corroded or outdated, combining relocation with replacement is often more cost-effective in Escondido."
+        },
+        {
+          "question": "How long does USPS typically take to approve a new Escondido mailbox location after inspection?",
+          "answer": "Approval usually follows within 1-2 weeks of a successful inspection; we track that process and notify you when Escondido service can transfer."
+        }
+      ],
       "faqs": [
         {
           "question": "Can you relocate Escondido mailboxes that sit in difficult or unsafe drive areas?",
@@ -533,7 +761,7 @@
         {
           "id": "coordination-vista",
           "heading": "How we plan mailbox relocation and consolidation in Vista",
-          "body": "Mailbox relocation affects residents\u2019 daily routines, so communication and planning matter. We design Vista projects that are clearly explained and carefully executed.",
+          "body": "Mailbox relocation affects residents’ daily routines, so communication and planning matter. We design Vista projects that are clearly explained and carefully executed.",
           "bullets": [
             "Walk your property to review current mail locations, lighting, and traffic patterns",
             "Propose new locations and consolidation options that balance convenience and safety",
@@ -542,6 +770,44 @@
             "Work with USPS to review proposed locations and obtain inspection sign-off"
           ],
           "closing": "Our goal is for Vista residents and carriers to feel that the new mailbox layout is intuitive, safe, and easy to live with."
+        }
+      ],
+      "localUseCases": [
+        "Vista communities adding new amenity buildings that displace existing CBU pads originally placed near clubhouse areas.",
+        "Older Vista apartment properties reorganizing parking to add accessible spaces, requiring mail station relocation.",
+        "Vista HOAs consolidating multiple 1980s-era mailbox clusters as part of a broad exterior modernization project.",
+        "Site reorganizations at Vista commercial or industrial parks requiring mailbox moves to clear new loading or parking areas."
+      ],
+      "propertyTypes": [
+        "Older 1980s-1990s apartment communities in Vista with mail stations integrated into now-outdated parking layouts.",
+        "Single-story HOAs in Vista where original mail placement near carports conflicts with recent site improvements.",
+        "Small commercial office parks in Vista where tenant reorganization has displaced original mailbox station access.",
+        "Mid-size rental communities in Vista undergoing phased exterior upgrades that include mail station relocation."
+      ],
+      "commonTriggers": [
+        "A Vista amenity addition such as a fitness center or covered BBQ area built over or directly beside the original mail pad.",
+        "Parking lot restriping at a Vista complex that moves ADA spaces and blocks access to existing mailbox clusters.",
+        "USPS recommending that a Vista property consolidate five scattered mail stops into two central locations.",
+        "A fire lane reconfiguration in Vista that identifies existing mail stations as obstacles to emergency vehicle access."
+      ],
+      "scopeDetails": [
+        "Removing old Vista mailbox pads displaced by amenity additions and preparing new USPS-approved replacement sites.",
+        "Coordinating equipment moves with Vista property improvement contractors to sequence pad work without conflicts.",
+        "Notifying the USPS Vista carrier unit of route changes and scheduling layout inspection for new station positions.",
+        "Helping Vista HOA boards draft resident notices explaining new mailbox locations, key handoffs, and activation timing."
+      ],
+      "complianceNotes": [
+        "Vista mailbox relocations must receive USPS approval per DMM 508 before carrier service transfers to the new location.",
+        "USPS inspection of the new Vista pad location is required to confirm approach clearance, lighting, and placement."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can a Vista amenity renovation and mailbox relocation be coordinated with the same contractor team?",
+          "answer": "Yes — we work alongside Vista general contractors or property improvement teams so pad work and mailbox moves sequence cleanly."
+        },
+        {
+          "question": "How many Vista mailbox clusters can realistically be consolidated into one central station?",
+          "answer": "USPS typically accepts consolidation of 3-5 Vista clusters into one well-placed station when walking distances remain reasonable for residents."
         }
       ],
       "faqs": [
@@ -627,6 +893,44 @@
           "closing": "The result is a Poway mailbox layout that works better day to day, without guesswork or last-minute scrambling."
         }
       ],
+      "localUseCases": [
+        "Poway suburban HOAs renovating common areas and repositioning central mail stations to improve pedestrian access.",
+        "Single-family attached communities in Poway replacing individually mounted mailboxes with a centralized CBU station.",
+        "Poway properties where a new playground, landscaping, or entry feature displaced the original mail station pad.",
+        "HOA common area makeovers in Poway that include moving aged CBUs to cleaner, more intentional mailbox hubs."
+      ],
+      "propertyTypes": [
+        "Suburban townhome and attached-unit HOAs in Poway with small clusters spread across multiple cul-de-sacs.",
+        "Larger single-family planned communities in Poway converting curbside box setups to centralized CBU stations.",
+        "Mid-size apartment communities in Poway where common area improvements prompt mail station relocation.",
+        "Light commercial office and flex-space properties in Poway requiring mailbox reconfiguration after tenant changes."
+      ],
+      "commonTriggers": [
+        "A Poway HOA landscaping refresh that redesigns entry areas and reveals the existing mail station as poorly positioned.",
+        "A new playground or gathering area in Poway built adjacent to an existing mail pad, requiring its relocation.",
+        "USPS carrier feedback requesting fewer stops or improved vehicle access at current Poway mail station locations.",
+        "A Poway property manager noticing that a mail station damaged by vehicle contact needs to move to a safer spot."
+      ],
+      "scopeDetails": [
+        "Demolishing existing Poway mail pads in impacted areas and pouring new pads at USPS-reviewed replacement sites.",
+        "Coordinating Poway mailbox equipment moves within HOA capital improvement project schedules and budgets.",
+        "Managing USPS notification and route adjustment when Poway delivery points change to new pad locations.",
+        "Distributing new keys and providing residents with simple maps showing updated Poway mailbox locations."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 approval is required for any Poway mailbox relocation before the new site is activated for delivery.",
+        "New Poway station locations undergo USPS inspection confirming safe vehicle and pedestrian access before use."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can a Poway HOA plan mailbox relocation as part of a capital reserve project?",
+          "answer": "Yes — we provide scoped proposals with itemized costs that Poway boards can incorporate directly into capital reserve planning."
+        },
+        {
+          "question": "Will Poway residents experience any delay in mail delivery during the relocation?",
+          "answer": "We coordinate with USPS so service continues at existing Poway locations until the new station is inspected and approved for delivery."
+        }
+      ],
       "faqs": [
         {
           "question": "Can we relocate Poway mailboxes as part of a larger paving or improvement project?",
@@ -707,7 +1011,45 @@
             "Assist with resident communication, including maps and key handover plans if equipment is changed",
             "Work with USPS to review new locations and secure inspection and approval"
           ],
-          "closing": "The result is a San Marcos mailbox layout that feels aligned with how your property works today\u2014not years ago."
+          "closing": "The result is a San Marcos mailbox layout that feels aligned with how your property works today—not years ago."
+        }
+      ],
+      "localUseCases": [
+        "San Marcos student housing communities adding new buildings that change pedestrian paths from original mail stations.",
+        "Growing San Marcos HOAs where phase 2 construction filled in open areas that previously housed mailbox pads.",
+        "Mixed-use San Marcos properties adding ground-floor commercial tenants whose buildout displaced existing mail areas.",
+        "Cal State San Marcos-adjacent communities reorganizing mail infrastructure as campus growth shifts resident density."
+      ],
+      "propertyTypes": [
+        "Student and young professional apartment communities near Cal State San Marcos with high mail turnover rates.",
+        "Growing HOA communities in San Marcos adding new phases that require mail infrastructure relocation.",
+        "Mixed-use developments in San Marcos with both residential and commercial mail delivery points to coordinate.",
+        "Newer townhome communities in San Marcos where original CBU placement conflicts with phase 2 build-out."
+      ],
+      "commonTriggers": [
+        "New building construction in San Marcos eliminating or blocking access to an existing mail station pad.",
+        "A San Marcos property adding amenity improvements that require demolishing the current mail station concrete pad.",
+        "USPS requesting San Marcos route consolidation as new development phases bring more residential units online.",
+        "A San Marcos HOA lease or site plan update requiring mail stations to relocate to a new common area."
+      ],
+      "scopeDetails": [
+        "Removing San Marcos mail pads displaced by new construction and installing replacement pads at USPS-approved sites.",
+        "Coordinating mailbox relocation timing in San Marcos around student move-in and lease renewal cycles.",
+        "Working with San Marcos USPS to review new locations and update carrier routes before residents receive notice.",
+        "Providing San Marcos property managers with a phasing schedule so mail access is never fully interrupted."
+      ],
+      "complianceNotes": [
+        "San Marcos mailbox relocations must be pre-approved by USPS under DMM 508 before carrier routes are updated.",
+        "New mail station locations in San Marcos require USPS inspection before delivery transfers to updated address points."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can a San Marcos student housing property relocate mailboxes between lease cycles to limit disruption?",
+          "answer": "Yes — we often schedule San Marcos relocations during summer turnover when fewer residents are actively collecting mail daily."
+        },
+        {
+          "question": "How does USPS handle address record updates when a San Marcos property relocates its mail station?",
+          "answer": "We coordinate the update with USPS, which typically processes within 2-4 weeks of inspection sign-off in San Marcos."
         }
       ],
       "faqs": [
@@ -793,6 +1135,44 @@
           "closing": "By the end of the project, your Temecula property has mailbox locations that align with how the community actually functions day to day."
         }
       ],
+      "localUseCases": [
+        "Temecula wine country HOAs in phase 2 or 3 construction where new buildings encroach on original mail pad locations.",
+        "Fast-growing Temecula master-planned communities where new amenity centers have displaced earlier CBU placements.",
+        "Newer Temecula multifamily properties where the developer's original mail placement proved impractical after move-in.",
+        "Southwest Temecula communities consolidating phase 1 and phase 2 mail stations after both phases are occupied."
+      ],
+      "propertyTypes": [
+        "Phase 1 and 2 master-planned HOA communities in Temecula where new construction changes site circulation.",
+        "Newer apartment developments in Temecula that opened with temporary mail placement now needing permanent relocation.",
+        "Wine country estate communities in Temecula with dispersed mail stations not well-suited to growing parcel volume.",
+        "Townhome HOAs in south Temecula that are adding amenities requiring relocation of an existing mail cluster pad."
+      ],
+      "commonTriggers": [
+        "New Temecula phase 2 buildings blocking access to mail stations placed at phase 1 boundaries.",
+        "A Temecula developer completing a project and transferring to the HOA, which then reviews and revises mail placement.",
+        "USPS asking a Temecula HOA to consolidate growing phase 1 and phase 2 mail stops into a single central station.",
+        "New Temecula amenity construction — a pool, park, or gated entry — displacing the original CBU pad location."
+      ],
+      "scopeDetails": [
+        "Removing phase 1 Temecula mail pads made obsolete by phase 2 construction and installing new pads at approved sites.",
+        "Coordinating Temecula phase 2 mail activation with the developer's HOA turnover timeline and resident move-in.",
+        "Managing USPS route updates when Temecula phase 1 and phase 2 mail stops consolidate into one or two stations.",
+        "Communicating new key assignments and mailbox numbering to Temecula residents during station consolidation."
+      ],
+      "complianceNotes": [
+        "USPS must review and approve relocated Temecula mail stations under DMM 508 before carriers switch to new locations.",
+        "New Temecula station locations are subject to USPS carrier route review and inspection before activation."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Who coordinates USPS approval when a Temecula developer hands off an HOA with existing mail placement issues?",
+          "answer": "We work directly with the incoming Temecula HOA board and USPS to document existing stations, resolve any placement issues, and obtain approval for updated locations."
+        },
+        {
+          "question": "Can Temecula phase 1 and phase 2 mail stations be consolidated after both phases are fully occupied?",
+          "answer": "Yes — post-completion consolidation is common in Temecula; we assess total unit count, walking distances, and USPS route to design the right solution."
+        }
+      ],
       "faqs": [
         {
           "question": "Can we consolidate several older mailbox locations into one central station in Temecula?",
@@ -804,7 +1184,7 @@
         },
         {
           "question": "Do you help decide where new mailbox locations should be in Temecula?",
-          "answer": "Yes. We look at traffic flow, lighting, grades, and USPS routing to recommend locations that work in practice\u2014not just on a map. We then refine the plan with your team and USPS before work begins."
+          "answer": "Yes. We look at traffic flow, lighting, grades, and USPS routing to recommend locations that work in practice—not just on a map. We then refine the plan with your team and USPS before work begins."
         },
         {
           "question": "Can we add parcel lockers when we relocate or consolidate mailboxes in Temecula?",
@@ -874,6 +1254,44 @@
             "Complete pad work, equipment moves, and final positioning ahead of USPS inspection"
           ],
           "closing": "By following this process, your El Cajon property ends up with mailbox locations that are safer, more convenient, and easier to manage."
+        }
+      ],
+      "localUseCases": [
+        "Older El Cajon apartment buildings undergoing renovation where mail stations need to move from deteriorating wall locations.",
+        "Commercial redevelopment projects in El Cajon that demolish or reconfigure areas containing existing mail pads.",
+        "El Cajon HOAs replacing scattered 1970s mail clusters as part of a broader exterior upgrade initiative.",
+        "Urban El Cajon properties where parking conversion or commercial-to-residential changes require new mail station placement."
+      ],
+      "propertyTypes": [
+        "Older multifamily apartment buildings in El Cajon with original wall-mounted or freestanding mail units now failing.",
+        "Commercial strip centers in El Cajon undergoing renovation or repurposing that affects mailbox station access.",
+        "Urban HOAs in El Cajon with multiple small mail clusters established before current USPS consolidation guidance.",
+        "Mixed-use redevelopment properties in downtown El Cajon requiring new USPS-compliant mail infrastructure."
+      ],
+      "commonTriggers": [
+        "Commercial redevelopment in El Cajon demolishing a building section where the original mail station was located.",
+        "An El Cajon property owner receiving a USPS compliance notice after inspection of aging or non-compliant mail stations.",
+        "Parking lot reconfiguration at an El Cajon property that blocks carrier access to existing CBU locations.",
+        "El Cajon building renovation that changes exterior entry conditions, making current mail placement impractical."
+      ],
+      "scopeDetails": [
+        "Demolishing El Cajon mail pads displaced by commercial redevelopment and constructing new pads at USPS-approved sites.",
+        "Coordinating mail station relocation around El Cajon redevelopment contractor schedules to avoid site conflicts.",
+        "Working with the El Cajon USPS district to document old and new delivery point addresses before activating stations.",
+        "Helping El Cajon property managers communicate relocated mailbox locations to all tenants before USPS service switches."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 requires pre-approval of any relocated El Cajon commercial mailbox delivery points before use.",
+        "El Cajon mail station relocations must pass USPS inspection confirming carrier access, approach safety, and placement."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can El Cajon mailbox relocation be coordinated within an active commercial redevelopment project?",
+          "answer": "Yes — we work with El Cajon general contractors to sequence demolition and new pad work without disrupting tenant mail delivery."
+        },
+        {
+          "question": "How are existing tenant addresses handled when El Cajon mail stations move to new locations?",
+          "answer": "We coordinate the delivery record update with USPS; the change is processed after inspection sign-off so no tenant address forwarding is needed."
         }
       ],
       "faqs": [
@@ -957,6 +1375,44 @@
             "Direct coordination with USPS for layout approval and final inspection"
           ],
           "closing": "From initial consultation through final USPS sign-off, we keep your project on track and communicate clearly at every step."
+        }
+      ],
+      "localUseCases": [
+        "Riverside County rural-to-suburban transition communities upgrading from roadside cluster boxes to centralized mail stations.",
+        "Large HOA communities in Riverside County consolidating mail stations added across different development phases.",
+        "Riverside County commercial properties relocating mail as new tenants or building additions change site layouts.",
+        "Inland Empire communities transitioning to CBU mail systems as USPS phases out individually addressed curbside delivery."
+      ],
+      "propertyTypes": [
+        "Rural-to-suburban transitional HOAs in Riverside County with a mix of curbside and cluster mailbox setups.",
+        "Large master-planned communities in Riverside County with mail infrastructure installed across 5-10 year build-outs.",
+        "Commercial properties in Riverside County's Inland Empire corridor with high-volume mail and package needs.",
+        "New subdivision developments in Riverside County requiring mail station relocation as site plans are finalized."
+      ],
+      "commonTriggers": [
+        "A Riverside County community transitioning from rural curbside service to centralized CBU delivery at USPS request.",
+        "New development phasing in Riverside County requiring mail stations to move as roads and parcels are reconfigured.",
+        "USPS route consolidation in Riverside County asking properties to reduce the number of carrier stops per block.",
+        "A Riverside County HOA capital plan identifying current mail station placement as a long-term safety concern."
+      ],
+      "scopeDetails": [
+        "Evaluating Riverside County sites for new mail station placement given varied road conditions and lot configurations.",
+        "Coordinating with the USPS Riverside County district for route updates when transitioning from curbside to central delivery.",
+        "Phasing Riverside County mail station moves around seasonal construction windows and peak occupancy periods.",
+        "Providing Riverside County residents with clear written guidance when mail pickup locations change significantly."
+      ],
+      "complianceNotes": [
+        "Riverside County mailbox relocations require USPS DMM 508 pre-approval, especially when transitioning from curbside to centralized delivery.",
+        "USPS carrier route coordination is required before activating any new Riverside County centralized mail station."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can a Riverside County rural community transition from roadside boxes to a centralized CBU setup?",
+          "answer": "Yes — we assess site access, design USPS-compliant centralized stations, and manage all USPS approval steps for the Riverside County transition."
+        },
+        {
+          "question": "How are delivery addresses updated when Riverside County properties shift to a new central mail station?",
+          "answer": "We coordinate with USPS to update carrier route records; USPS typically issues a notice to affected Riverside County residents about the delivery point change."
         }
       ],
       "faqs": [
@@ -1045,6 +1501,44 @@
             "Direct coordination with USPS for layout approval and final inspection"
           ],
           "closing": "From initial consultation through final USPS sign-off, we keep your project on track and communicate clearly at every step."
+        }
+      ],
+      "localUseCases": [
+        "Large Orange County HOA communities undergoing premium exterior renovations that include repositioning mail stations.",
+        "Orange County commercial properties relocating mail infrastructure as high-end tenant buildouts change site layouts.",
+        "Luxury condominium communities in Orange County upgrading from outdated mail rooms to exterior CBU stations with parcel lockers.",
+        "Orange County master-planned communities consolidating phase 1 through phase 4 mail stations into two or three premium hubs."
+      ],
+      "propertyTypes": [
+        "Large luxury HOA communities in Orange County's planned communities with premium exterior finish standards.",
+        "High-end commercial office buildings in Orange County requiring mail relocation to accommodate lobby renovations.",
+        "Coastal condominium communities in Orange County upgrading mail systems to match premium renovation standards.",
+        "Master-planned multifamily developments in Orange County with scattered mail stations from multi-year build-outs."
+      ],
+      "commonTriggers": [
+        "An Orange County HOA capital plan specifying updated mail station locations to match a broader property aesthetic.",
+        "A commercial tenant in Orange County requesting mail relocation as part of a high-value storefront buildout.",
+        "USPS requesting that a large Orange County HOA consolidate 8-10 scattered mail stops into 3-4 stations.",
+        "An Orange County property sale requiring a buyer-initiated review and upgrade of all mail infrastructure locations."
+      ],
+      "scopeDetails": [
+        "Installing premium-finished pads and surrounds at new Orange County mail station locations to match property aesthetics.",
+        "Coordinating Orange County mailbox relocation within HOA-approved exterior renovation schedules and vendor lists.",
+        "Managing USPS Orange County district review, site walk, and inspection sign-off for all relocated delivery points.",
+        "Providing residents of large Orange County HOAs with phased notices, updated maps, and new key distribution plans."
+      ],
+      "complianceNotes": [
+        "All Orange County mailbox relocations require USPS DMM 508 pre-approval before carrier service transfers to new locations.",
+        "Large Orange County HOA consolidation projects require USPS route review to confirm new station counts and placement."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can Orange County HOAs specify premium finishes or custom surrounds for relocated mailbox stations?",
+          "answer": "Yes — we design relocated Orange County stations with concrete surrounds, color-matched finishes, or custom enclosures to meet HOA architectural standards."
+        },
+        {
+          "question": "How are large Orange County HOA communities with 200 or more units managed through a mail station consolidation?",
+          "answer": "We phase communication, key distribution, and USPS route updates across the community so no Orange County residents are left without clear guidance on their new mailbox location."
         }
       ],
       "faqs": [

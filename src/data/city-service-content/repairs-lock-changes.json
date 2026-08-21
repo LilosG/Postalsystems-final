@@ -48,6 +48,44 @@
           "closing": "Our aim is to resolve the immediate mailbox issues, keep residents informed, and leave you with a clear plan for the long-term condition of your mail equipment."
         }
       ],
+      "localUseCases": [
+        "Older CBUs in San Diego coastal neighborhoods with locks corroded by years of salt air exposure.",
+        "Dense San Diego apartment buildings where high resident turnover drives frequent lock change requests.",
+        "Urban mixed-use properties in San Diego where forced-entry damage requires rapid door and lock repair.",
+        "Large HOA mailbox banks in San Diego where a single vandalism incident affects dozens of residents."
+      ],
+      "propertyTypes": [
+        "Dense urban apartment buildings and multifamily complexes throughout central San Diego.",
+        "Coastal HOAs and condo associations near Mission Beach, Ocean Beach, and La Jolla.",
+        "Mixed-use commercial and residential properties in downtown and mid-city neighborhoods.",
+        "Older apartment stock in neighborhoods like North Park, City Heights, and Hillcrest."
+      ],
+      "commonTriggers": [
+        "USPS route inspection flagging deteriorated compartments on aging San Diego equipment.",
+        "Forced entry attempts damaging locks and door frames across entire mailbox banks.",
+        "Management company transitions requiring a full lock changeout for security compliance.",
+        "Tenant complaints about stuck or non-functioning locks that have piled up over months."
+      ],
+      "scopeDetails": [
+        "Replacing individual tenant door cylinders across multiple CBU banks in one visit.",
+        "Rekeying entire master lock systems after a San Diego property changes management companies.",
+        "Re-anchoring shifted pedestals on coastal San Diego properties where ground movement is common.",
+        "Replacing parcel locker doors that have been forced open and can no longer latch securely."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 requires all compartments to be secure and weathertight; damaged doors may trigger a service hold.",
+        "USPS carriers must retain unobstructed access to master panels; repairs affecting master hardware require USPS coordination."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "How quickly can you respond to urgent repair calls in San Diego?",
+          "answer": "For unsecured or vandalized equipment in San Diego, we prioritize scheduling and aim to assess within 1-2 business days of your call."
+        },
+        {
+          "question": "Is it more cost-effective to repair a few locks or change all locks at once in San Diego?",
+          "answer": "Bulk lock changes in San Diego are typically more cost-efficient per unit than scheduling multiple individual service calls spread over time."
+        }
+      ],
       "faqs": [
         {
           "question": "Can you handle emergency mailbox repairs in San Diego?",
@@ -131,6 +169,44 @@
           "closing": "Our focus is to fix the immediate problems, keep residents confident in the system, and provide clear guidance on the long-term status of your mail equipment."
         }
       ],
+      "localUseCases": [
+        "Newer Chula Vista HOA communities where management transitions trigger mandatory lock changeouts.",
+        "Older apartment buildings near downtown Chula Vista with original equipment showing wear on hinges and latches.",
+        "Otay Ranch area townhome clusters where high parcel volume strains compartment door hardware.",
+        "Mixed communities in Chula Vista where aging CBUs sit alongside newer 4C equipment needing different repair approaches."
+      ],
+      "propertyTypes": [
+        "Newer townhome HOAs and master-planned communities in eastern Chula Vista.",
+        "Older multifamily apartment buildings closer to the bay and downtown area.",
+        "Large mixed-use developments near Otay Ranch combining commercial and residential mailboxes.",
+        "Condo associations managing common mail rooms with a blend of older and newer equipment."
+      ],
+      "commonTriggers": [
+        "Property management company transitions prompting a full lock and key changeout across Chula Vista buildings.",
+        "Vandalism or tampering in parking areas with limited overnight lighting.",
+        "Tenant move-out volume creating a backlog of lock changes that need to be addressed in one visit.",
+        "USPS notice about a damaged master door slowing carrier delivery on a Chula Vista route."
+      ],
+      "scopeDetails": [
+        "Bulk lock changeouts across an entire Chula Vista apartment complex after a management transition.",
+        "Re-hanging misaligned tenant doors on CBUs where repeated use has worn the hinges out of alignment.",
+        "Replacing parcel compartment doors damaged by overloaded deliveries or forced access attempts.",
+        "Stabilizing loose pedestal bases on paved lots where ground settling has shifted the mounting."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508.4 requires that all tenant compartments close and latch securely; open or damaged doors may halt delivery.",
+        "USPS requires carrier master access to remain functional at all times; repairs affecting master locks require advance coordination."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can you phase lock changes in our Chula Vista complex to keep mail flowing?",
+          "answer": "Yes — we typically phase Chula Vista lock change projects by building or mail station so residents always have access while work is in progress."
+        },
+        {
+          "question": "Do you coordinate directly with USPS when repairs affect carrier access in Chula Vista?",
+          "answer": "When master door or pedestal work is involved, we communicate with the local Chula Vista post office to prevent service interruptions."
+        }
+      ],
       "faqs": [
         {
           "question": "Can you rekey only certain mailboxes in our Chula Vista community?",
@@ -177,7 +253,7 @@
         {
           "id": "why-it-matters",
           "heading": "Why timely mailbox repairs matter in Oceanside",
-          "body": "Oceanside\u2019s coastal environment, salt air, and steady delivery volume are hard on cluster mailboxes and 4C equipment. Doors start to sag, locks corrode, and vandalism can leave entire banks of mailboxes unusable if problems are not addressed quickly.",
+          "body": "Oceanside's coastal environment, salt air, and steady delivery volume are hard on cluster mailboxes and 4C equipment. Doors start to sag, locks corrode, and vandalism can leave entire banks of mailboxes unusable if problems are not addressed quickly.",
           "bullets": [
             "Address rusted, hard-to-turn locks before they fail completely",
             "Repair or replace damaged doors, hinges, and master doors after break-ins",
@@ -211,6 +287,44 @@
             "Document completed work so boards, managers, and owners have a clear record"
           ],
           "closing": "The goal is simple: restore secure, compliant mailbox service in Oceanside with as little disruption to residents and staff as possible."
+        }
+      ],
+      "localUseCases": [
+        "Coastal Oceanside CBUs where salt air has corroded lock cylinders to the point of failure.",
+        "Older apartment buildings near Camp Pendleton with original equipment that has never been serviced.",
+        "Oceanside beachside condo associations where constant marine air accelerates hinge and door rust.",
+        "High-traffic rental communities in Oceanside where forced entry attempts leave entire banks unusable."
+      ],
+      "propertyTypes": [
+        "Beachfront and coastal condo associations dealing with accelerated hardware corrosion from salt air.",
+        "Older multifamily apartment buildings throughout central and south Oceanside.",
+        "Military-adjacent rental properties near Camp Pendleton with high resident turnover.",
+        "Small HOAs and townhome communities with older CBU equipment that has never been upgraded."
+      ],
+      "commonTriggers": [
+        "Salt air corrosion gradually freezing lock cylinders until residents can no longer open their boxes.",
+        "USPS carrier flagging a master door that has warped and no longer seals properly.",
+        "Vandalism or break-in attempts targeting parcel lockers or entire CBU banks in Oceanside.",
+        "New property management company requiring a community-wide lock changeout for security compliance."
+      ],
+      "scopeDetails": [
+        "Removing corroded lock cylinders from Oceanside CBUs and replacing with corrosion-resistant hardware.",
+        "Re-hanging warped doors on aging equipment where the hinge pins have seized from rust.",
+        "Replacing an entire master door assembly when corrosion has compromised the frame and lock mechanism.",
+        "Re-anchoring leaning pedestals on Oceanside properties where coastal soil movement has loosened the base."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 requires all compartments to be weathertight; doors that no longer seal in Oceanside's salt air environment are non-compliant.",
+        "Carrier access to master panels must remain uninterrupted; corroded or seized master locks require prompt replacement to avoid a service hold."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "How often should Oceanside properties expect to service locks given the coastal environment?",
+          "answer": "Salt air significantly accelerates wear — Oceanside properties often need lock service every 5–8 years rather than the typical 10–12 year cycle seen at inland properties."
+        },
+        {
+          "question": "Can you replace corroded locks without replacing the entire Oceanside mailbox unit?",
+          "answer": "In most cases yes — we replace individual cylinders and door hardware, saving the cost of full unit replacement when the cabinet structure is otherwise sound."
         }
       ],
       "faqs": [
@@ -271,7 +385,7 @@
         {
           "id": "common-projects",
           "heading": "Common repair and lock-change projects we handle in Carlsbad",
-          "body": "We help Carlsbad boards, managers, and owners work through a range of mailbox issues\u2014from a handful of problem locks to more extensive damage after vandalism or weather events.",
+          "body": "We help Carlsbad boards, managers, and owners work through a range of mailbox issues—from a handful of problem locks to more extensive damage after vandalism or weather events.",
           "bullets": [
             "Re-keying and replacing tenant locks across selected mailbox banks",
             "Repairing or replacing vandalized doors, hinges, and master doors",
@@ -293,6 +407,44 @@
             "Document completed repairs and remaining lifecycle concerns for future planning"
           ],
           "closing": "Our focus is on making mailbox repairs and lock changes in Carlsbad feel organized, predictable, and aligned with the standards of your community."
+        }
+      ],
+      "localUseCases": [
+        "Aging Carlsbad HOA communities where well-maintained CBUs are now showing corrosion on coastal-facing hardware.",
+        "Resort-adjacent Carlsbad condo associations where mailbox appearance matters as much as function.",
+        "Older established Carlsbad neighborhoods where original lock cylinders have never been changed.",
+        "Multi-phase Carlsbad HOAs where one phase has failing equipment while newer phases remain in good condition."
+      ],
+      "propertyTypes": [
+        "Upscale HOA communities with resort-style amenities where mail equipment condition reflects community standards.",
+        "Gated condo associations in coastal Carlsbad managing a mix of CBU and 4C wall-mount equipment.",
+        "Older established single-family and attached-home communities in inland Carlsbad.",
+        "Mixed-use coastal properties combining retail and residential mailbox systems."
+      ],
+      "commonTriggers": [
+        "HOA board directive to upgrade aging locks before an annual inspection or community audit.",
+        "Resident complaint escalation after a break-in or key loss that has lingered without resolution.",
+        "USPS notice about a specific Carlsbad mailbox bank where carrier access has become unreliable.",
+        "Management company transition in a Carlsbad HOA requiring a full lock and key reset."
+      ],
+      "scopeDetails": [
+        "Community-wide lock changeout in Carlsbad HOAs following a management company transition.",
+        "Replacing individual doors and hinges on aging coastal Carlsbad CBUs that no longer close flush.",
+        "Re-securing pedestals that have shifted on Carlsbad landscaped pads after irrigation erosion.",
+        "Replacing corroded master lock hardware so USPS carriers can continue servicing the route."
+      ],
+      "complianceNotes": [
+        "Per USPS DMM 508, compartments must be secure and weathertight; Carlsbad's coastal units face elevated risk of non-compliance from salt-air corrosion.",
+        "Repairs affecting the master door or carrier access panel require advance notice to the local USPS postmaster to prevent route disruptions."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can you handle lock changes for a Carlsbad HOA with multiple mail stations across the community?",
+          "answer": "Yes — we coordinate multi-station lock changes in Carlsbad HOAs as a single managed project, issuing keys and documenting each location."
+        },
+        {
+          "question": "Is a repair visit enough, or should older Carlsbad equipment be replaced outright?",
+          "answer": "We give you an honest assessment — if targeted repairs will extend reliable service life by several years, we say so; if replacement is the smarter investment, we explain why."
         }
       ],
       "faqs": [
@@ -378,6 +530,44 @@
           "closing": "Our goal is to return your Encinitas mailbox systems to safe, secure operation with clear communication and minimal disruption to residents and staff."
         }
       ],
+      "localUseCases": [
+        "Small Encinitas HOAs where older lock cylinders in boutique condo buildings have never been changed.",
+        "Beachside Encinitas communities where salt air has corroded hinge pins and door frames on CBUs.",
+        "Smaller Encinitas multifamily properties where one vandalism incident disables the entire mail bank.",
+        "Encinitas townhome associations where management changes prompt residents to request a security lock reset."
+      ],
+      "propertyTypes": [
+        "Small boutique condo HOAs and beachside townhome associations throughout Encinitas.",
+        "Older multifamily rental buildings along the coast where equipment has not been serviced in years.",
+        "Mixed residential and retail properties in Encinitas Village managing both commercial and residential mailboxes.",
+        "Single-building condominium associations where one CBU serves the entire community."
+      ],
+      "commonTriggers": [
+        "Salt air corrosion in Encinitas causing locks to bind until residents can no longer retrieve their mail.",
+        "A single vandalism event damaging several compartments and triggering an urgent repair request.",
+        "New HOA board prioritizing deferred maintenance and discovering mailbox locks have never been rekeyed.",
+        "USPS carrier noting a sagging master door on an Encinitas CBU that makes daily service difficult."
+      ],
+      "scopeDetails": [
+        "Replacing corroded lock cylinders on a small Encinitas CBU bank and issuing new keys to all residents.",
+        "Re-hanging individual compartment doors where salt-air rust on the hinge pins causes sagging.",
+        "Repairing or replacing a vandalized parcel locker section in a small Encinitas condo association.",
+        "Securing a CBU pedestal in Encinitas that has shifted on a landscaped pad after irrigation erosion."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 requires that compartments remain weathertight; corroded doors that no longer seal in Encinitas's coastal environment are flagged during route inspections.",
+        "Master lock accessibility must be maintained at all times; repairs to carrier access panels should be coordinated with the Encinitas post office before work begins."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can you rekey just a few boxes in our small Encinitas HOA, or is a full changeout required?",
+          "answer": "We can rekey individual compartments in Encinitas — a full changeout is only necessary when security has been broadly compromised or management has changed."
+        },
+        {
+          "question": "How do we coordinate mail access for residents while repairs are happening in Encinitas?",
+          "answer": "For small Encinitas properties, we typically complete repairs in a single visit with minimal downtime — residents usually need only a few hours' advance notice."
+        }
+      ],
       "faqs": [
         {
           "question": "Can you change mailbox locks when residents move out in Encinitas?",
@@ -461,6 +651,44 @@
           "closing": "Our goal is to restore secure, predictable mail service in Escondido while keeping residents informed and minimizing day-to-day disruption."
         }
       ],
+      "localUseCases": [
+        "Older Escondido apartment complexes where summer heat cycles have cracked and warped door gaskets.",
+        "Escondido HOA communities from the 1980s and 1990s where original lock cylinders are failing from age.",
+        "Inland Escondido properties where extreme summer temperatures have degraded plastic components inside lock mechanisms.",
+        "Multi-building Escondido apartment communities where piecemeal repairs have created inconsistent key systems."
+      ],
+      "propertyTypes": [
+        "Older garden-style apartment complexes from the 1980s and 1990s throughout central Escondido.",
+        "Established HOA communities with aging CBU equipment in need of systematic servicing.",
+        "Inland commercial properties with outdoor mailbox setups exposed to full summer heat.",
+        "Affordable housing and workforce communities in Escondido managing aging multifamily mail systems."
+      ],
+      "commonTriggers": [
+        "Extreme summer heat in Escondido causing lock lubricant to fail and cylinders to seize.",
+        "Years of deferred maintenance catching up as multiple locks begin failing around the same time.",
+        "Tenant complaints about broken or stuck doors escalating to management after repeated incidents.",
+        "USPS flagging deteriorated equipment on an Escondido route during a carrier safety review."
+      ],
+      "scopeDetails": [
+        "Systematic lock replacement across multiple Escondido apartment buildings to create a unified key system.",
+        "Replacing heat-degraded door gaskets and latch hardware on sun-exposed Escondido CBU equipment.",
+        "Adjusting and re-hanging doors on older units where the frames have warped from years of heat cycling.",
+        "Strengthening loosened anchor bolts on Escondido pedestals where heat expansion has worked them free."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 requires compartments to be weathertight and secure; heat-warped doors that fail to close are a compliance issue.",
+        "Escondido properties receiving USPS notices about damaged equipment should address repairs promptly to avoid a mail-hold directive from the local post office."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can you handle a large-scale lock changeout across our entire Escondido property?",
+          "answer": "Yes — for large Escondido complexes we schedule multi-day visits and phase the work by building to keep mail accessible throughout the project."
+        },
+        {
+          "question": "Is repair still worth it for Escondido mailboxes that are 20-plus years old?",
+          "answer": "We assess each case — if hardware is still structurally sound, targeted repairs in Escondido often extend service life by 5–10 years at a fraction of replacement cost."
+        }
+      ],
       "faqs": [
         {
           "question": "Can you change locks on multiple mailboxes at once in Escondido?",
@@ -507,7 +735,7 @@
         {
           "id": "why-repairs-vista",
           "heading": "Why Vista properties call for mailbox repairs and lock changes",
-          "body": "Vista\u2019s mix of older communities and newer infill projects means mail equipment sees a lot of use\u2014and sometimes abuse. Not every issue requires a full mailbox replacement, but it does need quick, professional attention so residents can keep receiving mail without interruption.",
+          "body": "Vista's mix of older communities and newer infill projects means mail equipment sees a lot of use—and sometimes abuse. Not every issue requires a full mailbox replacement, but it does need quick, professional attention so residents can keep receiving mail without interruption.",
           "bullets": [
             "Tenant lock cylinders that are worn, jammed, or no longer secure",
             "Compartment doors that no longer close or latch correctly",
@@ -520,7 +748,7 @@
         {
           "id": "common-repair-projects-vista",
           "heading": "Common mailbox repair and lock projects in Vista",
-          "body": "Most Vista repair projects begin with a specific complaint\u2014stuck locks, broken doors, or damaged compartments. We respond with targeted work that gets the system functioning again as quickly as possible.",
+          "body": "Most Vista repair projects begin with a specific complaint—stuck locks, broken doors, or damaged compartments. We respond with targeted work that gets the system functioning again as quickly as possible.",
           "bullets": [
             "Rekeying or replacing individual tenant locks after move-outs or security concerns",
             "Replacing damaged compartment doors, hinges, and latches on CBUs and 4C units",
@@ -542,6 +770,44 @@
             "Outline next steps if inspection reveals larger structural or security issues"
           ],
           "closing": "You get a Vista repair visit that feels organized, predictable, and focused on getting residents secure access to their mail again."
+        }
+      ],
+      "localUseCases": [
+        "Older Vista apartment complexes where vandalism to mail areas is a recurring issue requiring repeated lock replacements.",
+        "Vista rental communities where high tenant turnover creates ongoing demand for individual lock changes after move-outs.",
+        "Older Vista CBU installations where forced-entry damage from break-in attempts has left doors misaligned.",
+        "Smaller Vista HOAs where aging equipment has reached the point where multiple locks are failing simultaneously."
+      ],
+      "propertyTypes": [
+        "Older multifamily apartment buildings with high renter turnover throughout central and south Vista.",
+        "Small condo and townhome HOAs in Vista managing original CBU equipment that is now 15-plus years old.",
+        "Mixed-income rental communities in Vista where vandalism to mail areas occurs regularly.",
+        "Older commercial and retail properties with on-site tenant mailboxes that have not been serviced in years."
+      ],
+      "commonTriggers": [
+        "Recurring vandalism in Vista mail areas leaving forced-open doors and damaged lock hardware.",
+        "High resident turnover creating a backlog of unreturned keys and lock changes that have never been addressed.",
+        "Management company change in a Vista rental property requiring a security reset across all mailbox banks.",
+        "USPS flagging deteriorated equipment on a Vista route as unsafe or non-compliant."
+      ],
+      "scopeDetails": [
+        "Replacing forced-entry-damaged door sections on Vista CBUs while preserving the cabinet structure.",
+        "Performing bulk lock changes across Vista apartment buildings with high turnover to reset key accountability.",
+        "Repairing or replacing master door assemblies on Vista units where repeated break-ins have weakened the frame.",
+        "Documenting repeated vandalism damage in Vista to support management decisions about full equipment replacement."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 requires all tenant compartments to close and latch securely; repeated vandalism damage in Vista often leads to USPS service holds if not promptly repaired.",
+        "Forced-entry damage affecting master doors in Vista requires immediate attention — USPS carriers must have unobstructed access to mail panels at all times."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "How do you handle repeated vandalism repair calls at the same Vista property?",
+          "answer": "For Vista properties with chronic vandalism, we can assess whether upgrades to reinforced lock hardware or full equipment replacement would reduce the long-term repair burden."
+        },
+        {
+          "question": "Can you do a bulk lock change for our entire Vista complex in a single day?",
+          "answer": "Depending on the size of your Vista property, most bulk lock changeouts can be completed in one or two service visits, minimizing disruption for residents."
         }
       ],
       "faqs": [
@@ -590,7 +856,7 @@
         {
           "id": "why-repairs-poway",
           "heading": "Why Poway properties need mailbox repairs and lock changes",
-          "body": "Poway\u2019s communities and commercial properties rely on centralized mail equipment every day. When locks fail or doors stop working, it affects residents, staff, and carriers immediately.",
+          "body": "Poway's communities and commercial properties rely on centralized mail equipment every day. When locks fail or doors stop working, it affects residents, staff, and carriers immediately.",
           "bullets": [
             "Tenant locks that spin, jam, or no longer respond to keys",
             "Compartment doors that have been bent, pried, or forced open",
@@ -625,6 +891,44 @@
             "Flag any serious structural or security issues we find during repairs"
           ],
           "closing": "You get a Poway repair visit that respects your operations while putting secure mail access back in place quickly."
+        }
+      ],
+      "localUseCases": [
+        "Established Poway HOA communities where well-maintained CBUs are now reaching the age where locks need systematic replacement.",
+        "Poway suburban rental properties where an occasional vandalism event requires prompt door and lock repair.",
+        "Business park mailbox clusters in Poway where commercial tenant changes require individual lock updates.",
+        "Larger Poway HOAs managing multiple CBU stations where one bank needs repair while others remain in good condition."
+      ],
+      "propertyTypes": [
+        "Suburban single-family and attached-home HOAs throughout Poway with well-maintained CBU equipment.",
+        "Small-to-mid-size apartment communities in Poway managing a mix of older and newer mailbox hardware.",
+        "Business parks and commercial complexes in Poway with cluster tenant mailbox setups.",
+        "Institutional properties such as schools or municipal sites in Poway managing shared mail equipment."
+      ],
+      "commonTriggers": [
+        "An isolated vandalism event at an otherwise well-maintained Poway HOA requiring targeted door and lock repair.",
+        "HOA board initiating a planned lock changeout after discovering keys have been widely duplicated over the years.",
+        "Commercial tenant turnover at a Poway business park requiring lock changes on individual tenant mailboxes.",
+        "USPS carrier feedback about a specific Poway mailbox bank where door alignment is slowing delivery."
+      ],
+      "scopeDetails": [
+        "Targeted lock replacement on a small number of compromised Poway HOA mailboxes after an isolated break-in.",
+        "Planned bulk lock changeout at a Poway HOA managing multiple CBU stations across the community.",
+        "Re-anchoring a pedestal that shifted after landscaping work disturbed the mounting pad at a Poway property.",
+        "Replacing a bent or warped tenant door on a Poway unit where the cabinet frame is otherwise sound."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 requires that all compartments remain secure and weathertight; even well-maintained Poway equipment needs prompt repair when doors or locks fail.",
+        "Poway properties must ensure USPS carrier access to master panels is never blocked or compromised during any repair work."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Is a planned lock changeout at our Poway HOA considered a repair or a maintenance project?",
+          "answer": "A proactive lock changeout is standard preventive maintenance — we treat it as a scheduled service visit and coordinate with your Poway management team accordingly."
+        },
+        {
+          "question": "Can you advise our Poway HOA on a repair vs. replacement decision before we vote on a budget item?",
+          "answer": "Yes — we can visit your Poway property, assess equipment condition, and provide a written summary that boards can use in their planning discussions."
         }
       ],
       "faqs": [
@@ -681,7 +985,7 @@
             "Equipment that has not been systematically serviced in many years",
             "Property teams needing reliable mail access while planning larger upgrades"
           ],
-          "closing": "We focus on targeted repairs that restore security and function so San Marcos residents aren\u2019t dealing with repeated mailbox disruptions."
+          "closing": "We focus on targeted repairs that restore security and function so San Marcos residents aren't dealing with repeated mailbox disruptions."
         },
         {
           "id": "common-repair-projects-san-marcos",
@@ -708,6 +1012,44 @@
             "Document findings so you have a clear record of what was done and what we recommend next"
           ],
           "closing": "The result is a San Marcos repair and lock change process that feels controlled, predictable, and focused on security."
+        }
+      ],
+      "localUseCases": [
+        "San Marcos student housing communities where high resident turnover drives frequent individual lock change requests.",
+        "Newer San Marcos HOAs where heavy parcel delivery volume is accelerating wear on compartment door hardware.",
+        "Growing San Marcos apartment complexes where piecemeal repairs have created inconsistent lock systems across buildings.",
+        "San Marcos communities near CSUSM where concentrated move-in and move-out seasons create peak lock change demand."
+      ],
+      "propertyTypes": [
+        "Student-focused apartment complexes and housing communities near Cal State San Marcos.",
+        "Newer HOA communities and townhome associations experiencing rapid growth in San Marcos.",
+        "Mixed-use developments combining retail and residential mailboxes in high-growth San Marcos corridors.",
+        "Mid-size multifamily rental properties managing heavy parcel volume from a younger resident demographic."
+      ],
+      "commonTriggers": [
+        "Mass turnover at San Marcos student housing at semester end requiring coordinated bulk lock changes.",
+        "High parcel delivery volume forcing parcel locker doors beyond their rated capacity, causing hardware failure.",
+        "Property management transition at a San Marcos complex requiring a security reset of all tenant locks.",
+        "Resident complaints about stuck or non-functional locks accumulating across multiple buildings simultaneously."
+      ],
+      "scopeDetails": [
+        "Semester-timed bulk lock changeouts at San Marcos student housing to reset key accountability after move-outs.",
+        "Replacing overworked parcel locker door hardware at San Marcos properties with high delivery volume.",
+        "Correcting alignment on tenant doors that have been repeatedly forced or improperly closed by residents.",
+        "Consolidating repair visits at San Marcos multi-building complexes to address all locations in a single trip."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 requires secure compartments at all times; high-use San Marcos properties should address worn latches and doors before they fail completely.",
+        "Mail service holds can be issued for properties where multiple compartments are non-functional; prompt repairs in San Marcos prevent this outcome."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can you coordinate a semester-turn lock change for our San Marcos student housing?",
+          "answer": "Yes — we can schedule San Marcos lock change projects around academic calendars to address move-out periods efficiently and have new keys ready for incoming residents."
+        },
+        {
+          "question": "How do you handle repair visits for San Marcos complexes with multiple buildings spread across a large site?",
+          "answer": "We consolidate San Marcos multi-building visits into a single project plan, grouping work by building to minimize repeat trips and resident disruption."
         }
       ],
       "faqs": [
@@ -793,6 +1135,44 @@
           "closing": "You end up with a realistic plan for keeping your Temecula mailbox system functioning safely and securely."
         }
       ],
+      "localUseCases": [
+        "Newer Temecula HOA communities where summer heat cycles are already stressing door gaskets and lock mechanisms.",
+        "Growing Temecula master-planned communities where expanding resident populations increase daily mail equipment stress.",
+        "Temecula apartment communities where lock cylinders installed during the construction boom are now reaching peak wear.",
+        "Wine country adjacent Temecula properties where seasonal rental peaks create concentrated key change demand."
+      ],
+      "propertyTypes": [
+        "Newer HOA communities and master-planned neighborhoods in rapidly growing Temecula.",
+        "Apartment communities and rental housing serving Temecula's expanding workforce population.",
+        "Commercial and mixed-use properties in the Temecula Valley with cluster mailbox setups.",
+        "Seasonal vacation rental communities in Temecula wine country with high resident turnover."
+      ],
+      "commonTriggers": [
+        "Extreme Temecula summer heat expanding and contracting lock cylinders until they no longer turn smoothly.",
+        "Management company change across a Temecula HOA requiring a full tenant lock reset for security compliance.",
+        "Vehicle impact in a Temecula parking lot displacing a pedestal or bending a cabinet door panel.",
+        "USPS notice about a damaged or non-closing master door affecting an entire Temecula delivery route."
+      ],
+      "scopeDetails": [
+        "Replacing heat-affected lock cylinders across multiple Temecula HOA mailbox banks after a hot summer season.",
+        "Re-anchoring pedestal bases at Temecula properties where parking lot work disturbed the mounting pads.",
+        "Bulk lock changeout at a Temecula HOA after a management transition, with coordinated key issuance to all residents.",
+        "Repairing or replacing parcel locker doors that have been forced open in Temecula communities with high package volume."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 requires compartments to remain weathertight and secure; heat-warped gaskets and doors in Temecula's inland climate are a common compliance trigger.",
+        "Temecula properties receiving USPS notices should address flagged repairs promptly — unresolved issues can result in route-level service holds affecting all residents."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Should Temecula HOAs plan for preventive lock maintenance given the intense summer heat?",
+          "answer": "Yes — we recommend Temecula properties consider scheduled lock inspections every 7–10 years to catch heat-related wear before cylinders fail completely."
+        },
+        {
+          "question": "Can you repair vehicle-impact damage to our Temecula mailbox pedestal without full replacement?",
+          "answer": "In many cases we can re-anchor or realign a damaged Temecula pedestal — full replacement is only recommended when the structural integrity of the base is compromised."
+        }
+      ],
       "faqs": [
         {
           "question": "Can you change individual tenant locks in our Temecula community?",
@@ -876,6 +1256,44 @@
           "closing": "You get an honest assessment of your El Cajon mail equipment and practical options for keeping it in service."
         }
       ],
+      "localUseCases": [
+        "Older El Cajon apartment buildings where decades-old CBU equipment is failing at locks, doors, and hinges simultaneously.",
+        "El Cajon rental communities in high-traffic corridors where vandalism to mail areas is a persistent issue.",
+        "El Cajon properties where years of deferred maintenance have created a large backlog of non-functioning tenant locks.",
+        "Older El Cajon commercial buildings with multitenant mailboxes that have not been serviced in years."
+      ],
+      "propertyTypes": [
+        "Older apartment buildings and rental communities throughout central and east El Cajon.",
+        "Small-to-mid-size condo associations in El Cajon managing original equipment from the 1980s and 1990s.",
+        "Commercial and mixed-use properties in El Cajon's older retail and office corridors.",
+        "Affordable housing communities in El Cajon where mail equipment maintenance has been repeatedly deferred."
+      ],
+      "commonTriggers": [
+        "Recurring vandalism in El Cajon mail areas requiring repeated door and lock repairs at the same properties.",
+        "A property owner or board finally addressing a long-standing backlog of broken and missing locks.",
+        "USPS route inspector flagging multiple non-functioning compartments on an El Cajon delivery route.",
+        "New property management taking over an El Cajon complex and finding mail equipment in poor condition."
+      ],
+      "scopeDetails": [
+        "Systematic door and lock replacement across aging El Cajon apartment complexes where multiple units have failed.",
+        "Repairing forced-entry damage on El Cajon CBUs where prying attempts have bent door frames out of alignment.",
+        "Replacing an entire CBU master door assembly when repeated break-ins have compromised the locking mechanism.",
+        "Documenting the full scope of deferred maintenance at an El Cajon property to support a replacement budget request."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 requires all compartments to be secure and weathertight; El Cajon properties with multiple non-functioning locks risk a formal USPS service hold.",
+        "Repeated vandalism damage to El Cajon mailboxes does not exempt a property from USPS compliance requirements — damaged equipment must still be repaired or replaced promptly."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Our El Cajon property has a large backlog of broken locks — can you address them all in one project?",
+          "answer": "Yes — for El Cajon properties with significant deferred maintenance, we scope the full repair project upfront and phase the work to restore security across all affected units."
+        },
+        {
+          "question": "How do we handle USPS notices about non-compliant mailboxes at our El Cajon property?",
+          "answer": "We review the notice with you, inspect the flagged equipment, and perform repairs that satisfy USPS concerns so mail service continues without interruption."
+        }
+      ],
       "faqs": [
         {
           "question": "Can you change just a few mailbox locks at our El Cajon property?",
@@ -957,6 +1375,44 @@
             "Direct coordination with USPS for layout approval and final inspection"
           ],
           "closing": "From initial consultation through final USPS sign-off, we keep your project on track and communicate clearly at every step."
+        }
+      ],
+      "localUseCases": [
+        "Suburban Riverside County HOA communities where summer heat stress has degraded lock cylinders over multiple seasons.",
+        "Older rural Riverside County properties where mailbox equipment has been in place for two decades with minimal servicing.",
+        "Growing Riverside County master-planned communities where increased delivery volume is accelerating wear on parcel lockers.",
+        "Inland Riverside County apartment communities where management transitions are triggering community-wide lock changeouts."
+      ],
+      "propertyTypes": [
+        "Large suburban HOA communities spread across Riverside County's growing master-planned neighborhoods.",
+        "Rural and semi-rural Riverside County properties managing older mailbox installations with limited service history.",
+        "Mid-size apartment communities in Riverside County cities serving a growing workforce population.",
+        "Commercial and light-industrial properties in Riverside County with cluster mail setups for multiple tenants."
+      ],
+      "commonTriggers": [
+        "Extreme inland heat in Riverside County causing lock lubricant to break down and cylinders to seize.",
+        "HOA management company changes requiring a security reset of tenant locks across Riverside County communities.",
+        "Vehicle impact damage in large Riverside County parking areas displacing a pedestal or bending cabinet panels.",
+        "USPS carrier feedback about deteriorated equipment on a Riverside County route affecting delivery reliability."
+      ],
+      "scopeDetails": [
+        "Regional lock changeout projects across multiple Riverside County HOA phases managed under one contract.",
+        "Replacing heat-degraded hardware on sun-exposed Riverside County mailbox installations.",
+        "Re-anchoring pedestals on Riverside County properties where soil shifting from heat and drought has loosened the base.",
+        "Performing targeted vandalism repairs on Riverside County properties while planning broader replacement phasing."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 applies across all Riverside County properties — compartments must be secure and weathertight regardless of rural or suburban location.",
+        "Riverside County properties in newly developed areas should verify mailbox layouts were approved under current USPS DMM standards before any repair or modification work."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can you service Riverside County properties that are far from the San Diego area?",
+          "answer": "Yes — we regularly travel throughout Riverside County for repair visits and replacement projects, and we plan multi-stop routes to keep travel costs reasonable."
+        },
+        {
+          "question": "Does the intense inland heat in Riverside County require more frequent lock maintenance?",
+          "answer": "Inland heat significantly shortens hardware life — Riverside County properties benefit from inspection and lock servicing on a shorter cycle than coastal San Diego properties."
         }
       ],
       "faqs": [
@@ -1045,6 +1501,44 @@
             "Direct coordination with USPS for layout approval and final inspection"
           ],
           "closing": "From initial consultation through final USPS sign-off, we keep your project on track and communicate clearly at every step."
+        }
+      ],
+      "localUseCases": [
+        "Premium Orange County HOA communities requiring lock changes that meet both security standards and community appearance expectations.",
+        "Orange County commercial properties where tenant transitions require individual mailbox lock updates on short notice.",
+        "Older Orange County condo associations where original hardware is now failing and boards want professional replacement.",
+        "High-security Orange County gated communities where a management change triggers a full-perimeter lock reset including mailboxes."
+      ],
+      "propertyTypes": [
+        "Upscale and premium HOA communities throughout coastal and inland Orange County.",
+        "Commercial and office park properties in Orange County with multitenant mailbox configurations.",
+        "High-density condo associations in Orange County urban centers managing 4C wall-mount systems.",
+        "Security-focused gated communities in Orange County where mail equipment is part of a broader access control standard."
+      ],
+      "commonTriggers": [
+        "Orange County HOA board directive to update mailbox locks as part of a broader community security upgrade.",
+        "Commercial tenant transition at an Orange County office or retail property requiring targeted lock changes.",
+        "USPS compliance notice about damaged or non-conforming equipment at an Orange County property.",
+        "Security audit recommendation for an Orange County gated community that includes mailbox lock replacement."
+      ],
+      "scopeDetails": [
+        "Security-focused community-wide lock changeouts at Orange County HOAs with coordinated key issuance to all residents.",
+        "Individual commercial tenant lock changes at Orange County office parks managed on tight turnaround timelines.",
+        "Replacing non-conforming or aging hardware on Orange County 4C wall-mount systems with USPS-approved components.",
+        "Providing unit-level lock change documentation for Orange County properties with formal security compliance programs."
+      ],
+      "complianceNotes": [
+        "USPS DMM 508 applies fully to Orange County commercial mailbox installations; non-conforming hardware must be replaced with USPS-approved components.",
+        "Orange County properties pursuing security upgrades should confirm that any new lock hardware maintains USPS carrier access requirements before procurement."
+      ],
+      "serviceSpecificFaqs": [
+        {
+          "question": "Can you document individual lock changes for our Orange County property's security records?",
+          "answer": "Yes — for Orange County properties with compliance or HOA governance requirements, we provide unit-level documentation of every lock change completed."
+        },
+        {
+          "question": "How quickly can you turn around a lock change for an Orange County commercial tenant transition?",
+          "answer": "For Orange County commercial properties, we prioritize tenant transition lock changes and can typically schedule within 3–5 business days of request."
         }
       ],
       "faqs": [

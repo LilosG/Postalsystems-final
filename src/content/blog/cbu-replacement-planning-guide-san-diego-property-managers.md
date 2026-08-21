@@ -3,6 +3,25 @@ title: "CBU Replacement Planning Guide for San Diego Property Managers"
 description: "A practical planning guide for San Diego property managers evaluating CBU repair vs replacement, project scope, and resident mail continuity."
 pubDate: 2026-05-27
 image: "/images/hero-mailbox.jpg"
+faqs:
+  - question: "When does it make financial sense to replace rather than repair San Diego CBUs?"
+    answer: "When cumulative repair costs for locks, panels, and hardware reach 30–50% of replacement cost, or when equipment no longer meets USPS approval standards, replacement is typically more cost-effective. We provide San Diego property managers with a cost comparison at the assessment stage."
+  - question: "Can San Diego CBU replacements be phased across multiple mail stations?"
+    answer: "Yes. Phased replacement plans are common for San Diego communities with multiple CBU stations. We prioritize the highest-need locations first and coordinate USPS service continuity throughout the phased schedule."
+  - question: "What should San Diego property managers include in their RFP for CBU replacement?"
+    answer: "A strong CBU replacement RFP should cover unit count and compartment size, pad condition and replacement requirements, parcel locker integration, USPS coordination responsibility, resident notice plan, and warranty on equipment and labor. We can walk you through scope development at the initial assessment."
+  - question: "How do residents receive mail during a San Diego CBU replacement project?"
+    answer: "We coordinate with USPS on temporary mail handling arrangements for San Diego properties where a CBU station will be offline. Depending on timing, USPS may hold mail at the local post office or redirect to a temporary station. We notify residents through your management team before work begins."
+serviceAreas:
+  - san-diego
+  - chula-vista
+  - oceanside
+tags:
+  - cbu-replacement
+  - san-diego
+  - property-managers
+  - planning
+  - hoa
 ---
 
 Replacing aging CBUs is not only a maintenance decision. It affects security, resident access, delivery operations, and long-term operating cost. This planning guide helps San Diego property managers evaluate replacement projects with clear decision criteria and realistic sequencing.

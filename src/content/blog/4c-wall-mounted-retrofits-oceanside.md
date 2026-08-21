@@ -3,6 +3,24 @@ title: "4C Wall-Mounted Mailbox Retrofits in Oceanside"
 description: "What property managers in Oceanside should plan for when upgrading to 4C wall-mounted mailboxes."
 pubDate: 2025-01-08
 image: "/images/project-3.png"
+faqs:
+  - question: "What makes 4C wall-mounted mailboxes better than older recessed wall boxes in Oceanside?"
+    answer: "USPS-approved 4C cabinets are designed for security, carrier efficiency, and parcel integration. Unlike recessed horizontal boxes, 4C systems support add-on parcel lockers and are sized to modern USPS standards for compartment dimensions and locking hardware."
+  - question: "How long does a 4C retrofit take at an occupied Oceanside apartment building?"
+    answer: "Most standard Oceanside 4C retrofits are completed in one to two days on-site. We plan staging and work windows so residents can continue to use common areas, and we notify USPS of the schedule to minimize mail service interruptions."
+  - question: "Do 4C retrofits in Oceanside require USPS approval before installation?"
+    answer: "Yes. Any change to mailbox type or configuration requires USPS review. We handle USPS coordination for Oceanside projects, providing layout drawings and equipment specifications so approval is secured before work begins."
+  - question: "Can Oceanside properties add parcel lockers when retrofitting to 4C mailboxes?"
+    answer: "Yes. 4C systems are designed to integrate parcel locker modules. We design Oceanside retrofit layouts that include parcel capacity from the start, rather than retrofitting parcel lockers as an afterthought."
+serviceAreas:
+  - oceanside
+  - san-diego
+tags:
+  - 4c-mailboxes
+  - wall-mounted-mailboxes
+  - oceanside
+  - property-managers
+  - retrofits
 ---
 
 4C wall-mounted mailboxes are a professional, USPS-compliant upgrade for mailrooms and lobbies in Oceanside. The key is getting the layout, ADA reach, and USPS access right from the start. This guide outlines the planning steps, common pitfalls, and a clean path to inspection-ready installation.
