@@ -9,7 +9,7 @@ const areas = AREAS_DATA as { city: string; state?: string }[]
 const primaryServices = services.slice(0, 6)
 const primaryAreas = areas.slice(0, 8)
 ---
-<header class="bg-white border-b border-ps-muted/70">
+<header class="relative bg-white border-b border-ps-muted/70">
   <div class="max-w-6xl mx-auto px-4 lg:px-6 py-3 flex items-center justify-between gap-6">
     <a href="/" class="flex items-center gap-3">
       <div class="h-9 w-9 rounded-full bg-ps-navy flex items-center justify-center text-white text-xs font-semibold">
@@ -25,13 +25,13 @@ const primaryAreas = areas.slice(0, 8)
       </div>
     </a>
 
-    <nav class="hidden md:flex items-center gap-6 text-sm text-ps-navy">
+    <nav class="hidden md:flex items-center gap-6 text-sm text-ps-navy" aria-label="Main navigation">
       <div class="relative group">
-        <button type="button" class="inline-flex items-center gap-1">
+        <button type="button" class="inline-flex items-center gap-1" aria-haspopup="true">
           <span>Services</span>
-          <span class="text-[10px]">▾</span>
+          <span class="text-[10px]" aria-hidden="true">▾</span>
         </button>
-        <div class="absolute left-0 top-full mt-2 hidden min-w-[230px] rounded-2xl bg-white shadow-ps border border-ps-muted/70 group-hover:block">
+        <div class="absolute left-0 top-full mt-2 hidden min-w-[230px] rounded-2xl bg-white shadow-ps border border-ps-muted/70 group-hover:block focus-within:block z-50">
           <ul class="py-3 text-sm">
             {primaryServices.map((s) => (
               <li>
@@ -56,11 +56,11 @@ const primaryAreas = areas.slice(0, 8)
       </div>
 
       <div class="relative group">
-        <button type="button" class="inline-flex items-center gap-1">
+        <button type="button" class="inline-flex items-center gap-1" aria-haspopup="true">
           <span>Service Areas</span>
-          <span class="text-[10px]">▾</span>
+          <span class="text-[10px]" aria-hidden="true">▾</span>
         </button>
-        <div class="absolute left-0 top-full mt-2 hidden min-w-[230px] rounded-2xl bg-white shadow-ps border border-ps-muted/70 group-hover:block">
+        <div class="absolute left-0 top-full mt-2 hidden min-w-[230px] rounded-2xl bg-white shadow-ps border border-ps-muted/70 group-hover:block focus-within:block z-50">
           <ul class="py-3 text-sm">
             {primaryAreas.map((c) => (
               <li>
@@ -115,9 +115,105 @@ const primaryAreas = areas.slice(0, 8)
 
     <button
       type="button"
+      id="mobile-menu-btn"
+      aria-controls="mobile-menu"
+      aria-expanded="false"
       class="md:hidden inline-flex items-center justify-center rounded-full border border-ps-muted/70 px-3 py-1.5 text-xs font-medium text-ps-navy"
     >
-      Menu
+      <span id="menu-label-open">Menu</span>
+      <span id="menu-label-close" class="hidden" aria-hidden="true">Close</span>
     </button>
   </div>
+
+  <!-- Mobile navigation panel -->
+  <div
+    id="mobile-menu"
+    class="hidden md:hidden bg-white border-t border-ps-muted/70 absolute inset-x-0 top-full z-50 shadow-lg"
+    aria-label="Mobile navigation"
+  >
+    <nav class="max-w-6xl mx-auto px-4 py-4">
+      <ul class="divide-y divide-ps-muted/40">
+        <li><a href="/" class="block py-2.5 text-sm font-medium text-ps-navy">Home</a></li>
+        <li>
+          <a href="/services/" class="block py-2.5 text-sm font-semibold text-ps-navy">Services</a>
+          <ul class="mb-2 space-y-1">
+            {primaryServices.map((s) => (
+              <li>
+                <a href={`/services/${slugify(s.name)}/`} class="block py-1 pl-4 text-xs text-ps-navy/80 hover:text-ps-red">
+                  {s.name}
+                </a>
+              </li>
+            ))}
+            <li>
+              <a href="/services/" class="block py-1 pl-4 text-xs font-semibold text-ps-red">View all services</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/service-areas/" class="block py-2.5 text-sm font-semibold text-ps-navy">Service Areas</a>
+          <ul class="mb-2 space-y-1">
+            {primaryAreas.slice(0, 6).map((c) => (
+              <li>
+                <a href={`/service-areas/${slugify(c.city)}/`} class="block py-1 pl-4 text-xs text-ps-navy/80 hover:text-ps-red">
+                  {c.city}{c.state ? `, ${c.state}` : ""}
+                </a>
+              </li>
+            ))}
+            <li>
+              <a href="/service-areas/" class="block py-1 pl-4 text-xs font-semibold text-ps-red">View all areas</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="/who-we-work-with/" class="block py-2.5 text-sm font-medium text-ps-navy">Who We Work With</a></li>
+        <li><a href="/projects/" class="block py-2.5 text-sm font-medium text-ps-navy">Projects</a></li>
+        <li><a href="/blog/" class="block py-2.5 text-sm font-medium text-ps-navy">Blog</a></li>
+        <li><a href="/about/" class="block py-2.5 text-sm font-medium text-ps-navy">About Us</a></li>
+        <li><a href="/contact/" class="block py-2.5 text-sm font-medium text-ps-navy">Contact</a></li>
+      </ul>
+      <div class="mt-4 flex flex-col gap-3 pt-4 border-t border-ps-muted/40">
+        <a href="tel:16194614787" data-ga-event="click_to_call" data-ga-category="Contact" data-ga-label="mobile_phone" class="text-sm font-medium text-ps-navy/80">
+          Call (619) 461-4787
+        </a>
+        <a
+          href="/contact/"
+          class="inline-flex items-center justify-center rounded-full bg-ps-navy px-5 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-ps-navy/90 transition"
+        >
+          Get a Quote
+        </a>
+      </div>
+    </nav>
+  </div>
 </header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  const labelOpen = document.getElementById('menu-label-open');
+  const labelClose = document.getElementById('menu-label-close');
+
+  function openMenu() {
+    menu?.classList.remove('hidden');
+    btn?.setAttribute('aria-expanded', 'true');
+    labelOpen?.classList.add('hidden');
+    labelClose?.classList.remove('hidden');
+  }
+
+  function closeMenu() {
+    menu?.classList.add('hidden');
+    btn?.setAttribute('aria-expanded', 'false');
+    labelOpen?.classList.remove('hidden');
+    labelClose?.classList.add('hidden');
+  }
+
+  btn?.addEventListener('click', () => {
+    const isOpen = btn.getAttribute('aria-expanded') === 'true';
+    isOpen ? closeMenu() : openMenu();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && btn?.getAttribute('aria-expanded') === 'true') {
+      closeMenu();
+      btn?.focus();
+    }
+  });
+</script>

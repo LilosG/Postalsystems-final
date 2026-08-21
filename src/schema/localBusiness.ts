@@ -1,13 +1,13 @@
 export const postalSystemsLocalBusinessSchema = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": ["LocalBusiness", "GeneralContractor"],
   "@id": "https://sandiegocommercialmailboxes.com/#local-business",
   "name": "Postal Systems",
   "description": "USPS-approved commercial mailbox installation, repair and replacement. We install Cluster Box Units (CBUs), parcel lockers, 4C mailboxes, and ADA-compliant mailbox stations; pour pads and set anchors; coordinate USPS inspection; perform lock and key changeouts; and provide warranty and ongoing support.",
-  "telephone": "(619) 461-4787",
+  "telephone": "+16194614787",
   "email": "info@postalsystemspro.com",
   "priceRange": "$$-$$$",
-  "image": "https://sandiegocommercialmailboxes.com/images/logo/logo-main.png",
+  "image": "https://sandiegocommercialmailboxes.com/images/hero-mailbox.jpg",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "1309 Nordahl Rd",
@@ -17,13 +17,28 @@ export const postalSystemsLocalBusinessSchema = {
     "addressCountry": "US"
   },
   "areaServed": [
-    "San Diego County, CA",
-    "Select cities in Orange County, CA",
-    "Select cities in Riverside County, CA"
+    {
+      "@type": "AdministrativeArea",
+      "name": "San Diego County, California"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Orange County, California"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Riverside County, California"
+    }
   ],
   "url": "https://sandiegocommercialmailboxes.com/",
-  "sameAs": [],
-  "license": "Licensed, Bonded & Insured • CA Lic. #904106",
+  "sameAs": [
+    "https://www.google.com/maps/place/Postal+Systems+Contracting+Inc/"
+  ],
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "license",
+    "name": "California Contractor License #904106"
+  },
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",

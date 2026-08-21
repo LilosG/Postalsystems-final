@@ -27,13 +27,8 @@ const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema)
 ---
 <SiteLayout {title} {description} {canonical} schema={pageSchema}>
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10">
-    <h1 class="sr-only">Service areas</h1>
-
-    <SectionHeader
-      title="Service areas"
-      subtitle="USPS-approved commercial mailbox installation across San Diego County, with select projects in Riverside County and Orange County."
-      align="left"
-    />
+    <h1 class="text-2xl md:text-3xl font-semibold text-ps-navy">Mailbox Service Areas</h1>
+    <p class="mt-2 text-gray-600 max-w-prose">USPS-approved commercial mailbox installation across San Diego County, with select projects in Riverside County and Orange County.</p>
 
     <ul class="mt-8 grid md:grid-cols-3 gap-6">
       {areas.map((c) => (

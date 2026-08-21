@@ -4,23 +4,29 @@ import SiteLayout from "../layouts/SiteLayout.astro";
 import PSImage from "../components/PSImage.astro";
 import SectionHeader from "../components/ui/SectionHeader.astro";
 import PriorityMoneyPages from "../components/sections/PriorityMoneyPages.astro";
+import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../schema/breadcrumb";
 
-const title = "Mailbox Installation, Done Right. | Postal Systems";
+export const prerender = true;
+
+const title = "Commercial Mailbox Installation in San Diego County | Postal Systems";
 const description =
-  "USPS-approved commercial mailbox systems for HOAs, apartments, builders, and facilities across San Diego County. We handle USPS coordination and inspections so you don’t have to.";
+  "USPS-approved commercial mailbox contractor for HOAs, apartments, builders, and facilities across San Diego County. Turnkey CBU, 4C, and parcel locker installs with USPS inspection sign-off.";
 const canonical = "https://sandiegocommercialmailboxes.com/";
+
+const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: canonical }]);
+const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema);
 ---
 
-<SiteLayout {title} {description} {canonical} schema={schema}>
+<SiteLayout {title} {description} {canonical} schema={pageSchema}>
   <main>
   <section class="bg-ps-navy text-white">
     <div class="max-w-6xl mx-auto px-4 lg:px-6 py-12 lg:py-16 grid gap-10 lg:grid-cols-[minmax(0,1.25fr)_minmax(0,1fr)] items-center">
       <div>
         <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-white/70">
-          USPS-Approved Contractor
+          USPS-Approved Contractor · San Diego County
         </p>
         <h1 class="mt-3 text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight">
-          Mailbox Installation, Done Right.
+          Commercial Mailbox Installation in San Diego County
         </h1>
         <p class="mt-4 text-sm sm:text-base text-white/80 max-w-xl">
           Turnkey commercial mailbox systems for HOAs, apartments, builders, and facilities across San Diego County. We handle USPS coordination and inspections so you don’t have to.
@@ -53,9 +59,13 @@ const canonical = "https://sandiegocommercialmailboxes.com/";
         <div class="rounded-2xl bg-white/5 border border-white/25 shadow-[0_20px_50px_rgba(0,0,0,0.45)] overflow-hidden aspect-[4/3]">
           <img
             src="/images/hero-mailbox.jpg"
-            alt="Commercial mailbox installation"
+            alt="USPS-approved commercial mailbox installation in San Diego County"
             class="h-full w-full object-cover"
-            loading="lazy"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+            width="800"
+            height="600"
           />
         </div>
       </div>
@@ -446,44 +456,54 @@ const canonical = "https://sandiegocommercialmailboxes.com/";
       <div class="rounded-2xl border border-ps-muted bg-ps-surface p-6 shadow-ps">
         <h2 class="text-sm font-semibold text-ps-navy">Request a Quote</h2>
         <p class="mt-1 text-xs text-ps-navy/80">
-          Tell us about your project and timing.
+          Tell us about your project and we'll follow up with a clear, no-obligation quote.
         </p>
-        <form class="mt-4 space-y-3">
+        <form
+          action="https://formspree.io/f/xpwkwgjl"
+          method="POST"
+          class="mt-4 space-y-3"
+        >
+          <input type="hidden" name="_subject" value="New quote request from Postal Systems" />
+          <input type="hidden" name="_next" value="https://sandiegocommercialmailboxes.com/thank-you/" />
+          <input type="text" name="_gotcha" style="display:none" />
           <input
             type="text"
             name="name"
             placeholder="Name"
+            required
             class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"
           />
           <input
             type="tel"
             name="phone"
             placeholder="Phone"
+            required
             class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"
           />
           <input
             type="email"
             name="email"
             placeholder="Email"
+            required
             class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"
           />
           <input
             type="text"
-            name="address"
-            placeholder="Address / City"
+            name="property"
+            placeholder="Property address or city"
             class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"
           />
           <textarea
-            name="details"
+            name="message"
             placeholder="Describe your project or issue"
-            rows="4"
+            rows="3"
             class="w-full rounded-md border border-ps-muted bg-white px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ps-navy/30"
           ></textarea>
           <button
             type="submit"
             class="w-full rounded-full bg-ps-navy px-4 py-2.5 text-sm font-semibold text-white shadow-md hover:bg-ps-navy/90 transition"
           >
-            Submit
+            Get a USPS-Approved Quote
           </button>
         </form>
       </div>

@@ -32,7 +32,6 @@ const title = `Mailbox Services in ${c.city} — Postal Systems`
 const desc = appendCountySuffix(`USPS-approved commercial mailbox services in ${c.city}, ${c.state}.`, citySlug)
 const canonical = `https://sandiegocommercialmailboxes.com/service-areas/${citySlug}/`
 const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: "https://sandiegocommercialmailboxes.com/" }, { label: "Service Areas", href: "https://sandiegocommercialmailboxes.com/service-areas/" }, { label: c.city, href: canonical }])
-const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema)
 
 const services = SERVICES_DATA as {
   name: string
@@ -91,6 +90,18 @@ const introP2 = cityContent?.intro?.p2 ?? defaultIntroP2
 const commonProjects = (cityContent?.commonProjects ?? defaultCommonProjects) as string[]
 const whoWeWorkWith = (cityContent?.whoWeWorkWith ?? defaultWhoWeWorkWith) as string[]
 const faqs = (cityContent?.faqs ?? defaultFaqs) as { question: string; answer: string }[]
+
+const faqSchemaObj = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: { "@type": "Answer", text: faq.answer },
+  })),
+}
+const baseSchema = [schema, faqSchemaObj]
+const pageSchema = appendBreadcrumbSchema(baseSchema, breadcrumbSchema)
 
 export const prerender = true
 ---

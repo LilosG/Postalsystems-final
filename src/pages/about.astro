@@ -1,48 +1,18 @@
 ---
+import { postalSystemsLocalBusinessSchema as localBusinessSchema } from "../schema/localBusiness"
 import SiteLayout from "../layouts/SiteLayout.astro"
 import SectionHeader from "../components/ui/SectionHeader.astro"
 import TrustGrid from "../components/TrustGrid.astro"
 import ProcessStrip from "../components/ProcessStrip.astro"
 import { buildBreadcrumbSchema, appendBreadcrumbSchema } from "../schema/breadcrumb"
 
-const title = "About Postal Systems | USPS-Approved Mailbox Contractor in San Diego County"
+const title = "About Postal Systems | USPS-Approved Mailbox Contractor in San Diego"
 const description =
-  "Postal Systems is a USPS-approved, licensed, bonded, and insured commercial mailbox contractor serving HOAs, apartments, builders, and facilities across San Diego County."
+  "Postal Systems is a USPS-approved, licensed, bonded, and insured commercial mailbox contractor. 20+ years serving HOAs, apartments, builders, and facilities across San Diego County."
 const canonical = "https://sandiegocommercialmailboxes.com/about/"
 
-const schema = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Postal Systems",
-  "description": "USPS-approved commercial mailbox installation, repair and replacement. We install Cluster Box Units (CBUs), parcel lockers, 4C mailboxes, and ADA-compliant mailbox stations; pour pads and set anchors; coordinate USPS inspection; perform lock and key changeouts; and provide warranty and ongoing support.",
-  "telephone": "(619) 461-4787",
-  "email": "info@postalsystemspro.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "1309 Nordahl Rd",
-    "addressLocality": "Escondido",
-    "addressRegion": "CA",
-    "postalCode": "92026",
-    "addressCountry": "US"
-  },
-  "areaServed": [
-    "San Diego County, CA",
-    "Select cities in Orange County, CA",
-    "Select cities in Riverside County, CA"
-  ],
-  "url": "https://sandiegocommercialmailboxes.com/",
-  "sameAs": [],
-  "license": "Licensed, Bonded & Insured • CA Lic. #904106",
-  "openingHoursSpecification": [{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-    "opens": "07:30",
-    "closes": "16:30"
-  }]
-}
-
 const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: "https://sandiegocommercialmailboxes.com/" }, { label: "About", href: canonical }]);
-const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema);
+const pageSchema = appendBreadcrumbSchema(localBusinessSchema, breadcrumbSchema);
 
 export const prerender = true
 ---
@@ -110,8 +80,8 @@ export const prerender = true
             </div>
             <p class="mt-1">
               Postal Systems<br />
-              PO Box 850<br />
-              La Mesa, CA 91944
+              1309 Nordahl Rd<br />
+              Escondido, CA 92026
             </p>
             <p class="mt-1">
               Phone: <a href="tel:16194614787" data-ga-event="click_to_call" data-ga-category="Contact" data-ga-label="main_phone" class="font-semibold hover:underline">(619) 461-4787</a><br />
@@ -208,7 +178,7 @@ export const prerender = true
             align="left"
           />
           <p class="mt-4 text-sm md:text-base text-ps-navy/85 max-w-xl">
-            From our base in La Mesa, we work with HOAs, apartments, builders, and facilities to
+            Based in Escondido, we work with HOAs, apartments, builders, and facilities to
             upgrade failing or outdated mail stations to secure, code-compliant systems. Projects
             typically begin with a site visit or photos, followed by a detailed, USPS-aligned
             layout and a turnkey proposal so stakeholders can move forward with confidence.

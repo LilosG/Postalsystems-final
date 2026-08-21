@@ -25,19 +25,19 @@ const {
 <!doctype html>
 <html lang="en">
   <head>
-    {noindex ? <meta name="robots" content="noindex, nofollow" /> : null}
-
-    <Analytics />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {noindex ? <meta name="robots" content="noindex, nofollow" /> : null}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <Head {title} description={description} canonical={canonical} image={image} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     {schema && (
       <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)}></script>
     )}
+    <slot name="head" />
+    <Analytics />
   </head>
   <body class="antialiased font-sans text-ps-navy">
     <GAEventListeners />

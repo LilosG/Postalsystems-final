@@ -46,21 +46,21 @@ const SERVICE_REGISTRY: ServiceEntry[] = [
     shortDesc: 'USPS-approved cluster box unit installation for multifamily and HOA properties.',
   },
   {
-    slug: 'parcel-locker-installation',
+    slug: 'parcel-lockers',
     name: 'Parcel Locker Installation',
-    href: '/services/parcel-locker-installation/',
+    href: '/services/parcel-lockers/',
     shortDesc: 'Package locker systems for apartments, condos, and commercial properties.',
   },
   {
-    slug: 'ada-compliant-mailboxes',
+    slug: 'ada-compliant-installs',
     name: 'ADA-Compliant Mailboxes',
-    href: '/services/ada-compliant-mailboxes/',
+    href: '/services/ada-compliant-installs/',
     shortDesc: 'ADA-compliant mailbox systems meeting federal and California accessibility standards.',
   },
   {
-    slug: 'mailbox-services',
-    name: 'Commercial Mailbox Services',
-    href: '/services/',
+    slug: 'commercial-mailbox-installation',
+    name: 'Commercial Mailbox Installation',
+    href: '/services/commercial-mailbox-installation/',
     shortDesc: 'Full-service USPS-approved mailbox installation and replacement in San Diego County.',
   },
 ];
@@ -161,25 +161,23 @@ const breadcrumbSchema = buildBreadcrumbSchema([
   { label: post.data.title, href: canonical },
 ]);
 
-const pageSchema = appendBreadcrumbSchema(articleSchema, breadcrumbSchema);
+const faqSchemaObj = faqs.length > 0
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqs.map((f: { question: string; answer: string }) => ({
+        '@type': 'Question',
+        name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: f.answer },
+      })),
+    }
+  : null;
 
-const faqSchema =
-  faqs.length > 0
-    ? JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: faqs.map((f: { question: string; answer: string }) => ({
-          '@type': 'Question',
-          name: f.question,
-          acceptedAnswer: { '@type': 'Answer', text: f.answer },
-        })),
-      })
-    : null;
+const baseSchemas = faqSchemaObj ? [articleSchema, faqSchemaObj] : articleSchema;
+const pageSchema = appendBreadcrumbSchema(baseSchemas, breadcrumbSchema);
 ---
 
 <SiteLayout {title} {description} {canonical} {image} schema={pageSchema}>
-  {faqSchema && <script type="application/ld+json" slot="head" set:html={faqSchema} />}
-
   <main class="bg-ps-surface">
     <section class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
 
