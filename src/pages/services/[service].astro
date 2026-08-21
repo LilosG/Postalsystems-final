@@ -55,9 +55,21 @@ const serviceContentMap = Object.fromEntries(
 
 const serviceContent = serviceContentMap[serviceSlug] ?? null
 
-const heroImage = serviceContent?.heroImage || ""
+const serviceImageBySlug: Record<string, { src: string; alt: string }> = {
+  "commercial-mailbox-installation": { src: "/images/postal-systems/commercial-mailbox-installation-san-diego-ca.webp", alt: "Commercial mailbox installation in San Diego County" },
+  "cbu-installation": { src: "/images/postal-systems/cbu-mailbox-installation-san-diego-ca.webp", alt: "CBU cluster box unit installation in San Diego County" },
+  "4c-wall-mounted-mailboxes": { src: "/images/postal-systems/4c-wall-mounted-mailboxes-san-diego-county.webp", alt: "4C wall-mounted mailboxes in San Diego County" },
+  "parcel-lockers": { src: "/images/postal-systems/parcel-locker-installation-san-diego-county.webp", alt: "Parcel locker installation in San Diego County" },
+  "repairs-lock-changes": { src: "/images/postal-systems/mailbox-repairs-and-lock-changes-san-diego-ca.webp", alt: "Mailbox repairs and lock changes in San Diego County" },
+  "ada-compliant-installs": { src: "/images/postal-systems/ada-compliant-mailbox-installation-san-diego-ca.webp", alt: "ADA-compliant mailbox installation in San Diego County" },
+  "mailbox-replacement-retrofits": { src: "/images/postal-systems/mailbox-replacement-and-retrofits-san-diego-ca.webp", alt: "Mailbox replacement and retrofits in San Diego County" },
+  "mailbox-relocation-consolidation": { src: "/images/postal-systems/cluster-box-mailbox-relocation-installation-carlsbad-ca.webp", alt: "Mailbox relocation and consolidation in San Diego County" },
+}
+
+const heroImage = serviceContent?.heroImage || serviceImageBySlug[serviceSlug]?.src || ""
 const heroAlt =
   serviceContent?.heroAlt ||
+  serviceImageBySlug[serviceSlug]?.alt ||
   `${service.name} installation and mailbox projects in San Diego County`
 
 const title = `${service.name} in San Diego County | Postal Systems`
