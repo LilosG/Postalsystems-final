@@ -144,12 +144,27 @@ const serviceContentMap = Object.fromEntries(
 
 const serviceContent = serviceContentMap[serviceSlug] ?? null
 
-const cityHeroImage = cityContent?.heroImage || ""
-const heroImage = cityHeroImage || serviceContent?.heroImage || ""
+// Map service slug → image filename prefix for city-specific images
+const serviceImgPrefix: Record<string, string> = {
+  "commercial-mailbox-installation": "commercial-mailbox-installation",
+  "cbu-installation": "cbu-mailbox-installation",
+  "4c-wall-mounted-mailboxes": "4c-wall-mounted-mailboxes",
+  "parcel-lockers": "parcel-locker-installation",
+  "repairs-lock-changes": "mailbox-repairs-and-lock-changes",
+  "ada-compliant-installs": "ada-compliant-mailbox-installation",
+  "mailbox-replacement-retrofits": "mailbox-replacement-and-retrofits",
+  "mailbox-relocation-consolidation": "commercial-mailbox-installation",
+}
+
+const prefix = serviceImgPrefix[serviceSlug]
+const heroImage =
+  cityContent?.heroImage ||
+  serviceContent?.heroImage ||
+  (prefix ? `/images/postal-systems/${prefix}-${citySlug}-ca.webp` : "")
 const heroAlt =
   cityContent?.heroAlt ||
   serviceContent?.heroAlt ||
-  `${s.name} installation in ${c.city}, ${c.state}`
+  `${s.name} in ${c.city}, ${c.state}`
 
 const otherServices = allServices.filter((svc) => svc.name !== s.name)
 
@@ -170,6 +185,7 @@ export const prerender = true
     primaryCta={{ href: "/contact/", label: "Get a free quote" }}
     secondaryCta={{ href: "tel:16194614787", label: "Call (619) 461-4787", isPhone: true }}
     showForm={true}
+    image={heroImage ? { src: heroImage, alt: heroAlt } : undefined}
     formContext={`money-hero-${citySlug}-${serviceSlug}`}
   />
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-12">

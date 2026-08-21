@@ -3,12 +3,14 @@ interface Props {
   variant?: "dark" | "light"
   formContext?: string
   heading?: string
+  image?: { src: string; alt: string }
 }
 
 const {
   variant = "light",
   formContext = "hero-form",
   heading = "Get a free quote",
+  image,
 } = Astro.props
 
 const isDark = variant === "dark"
@@ -17,10 +19,22 @@ const isDark = variant === "dark"
 <aside
   class={
     isDark
-      ? "rounded-3xl bg-white/10 border border-white/20 px-5 py-5 md:px-6 md:py-6"
-      : "rounded-3xl bg-white shadow-ps border border-ps-muted px-5 py-5 md:px-6 md:py-6"
+      ? "rounded-3xl bg-white/10 border border-white/20 overflow-hidden"
+      : "rounded-3xl bg-white shadow-ps border border-ps-muted overflow-hidden"
   }
 >
+  {image && (
+    <div class="w-full bg-ps-surface">
+      <img
+        src={image.src}
+        alt={image.alt}
+        loading="lazy"
+        decoding="async"
+        class="h-44 w-full object-cover md:h-48"
+      />
+    </div>
+  )}
+  <div class="px-5 py-5 md:px-6 md:py-6">
   <p
     class={`text-[11px] font-semibold tracking-[0.18em] uppercase ${isDark ? "text-white/60" : "text-ps-navy/60"}`}
   >
@@ -140,4 +154,5 @@ const isDark = variant === "dark"
   >
     USPS-Approved · Licensed & Insured · San Diego County
   </p>
+  </div>
 </aside>
