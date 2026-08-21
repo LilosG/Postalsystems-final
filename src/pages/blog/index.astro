@@ -16,7 +16,7 @@ const posts = allPosts
   .filter((post) => !post.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-const schema = {
+const blogSchema = {
   "@context": "https://schema.org",
   "@type": "Blog",
   name: `${SITE.title} Blog`,
@@ -27,8 +27,26 @@ const schema = {
     url: SITE.url,
   },
 };
+
+const itemListSchema = posts.length > 0
+  ? {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: `${SITE.title} Blog`,
+      url: canonical,
+      numberOfItems: posts.length,
+      itemListElement: posts.map((post, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `${SITE.url.replace(/\/+$/, "")}/blog/${post.slug}/`,
+        name: post.data.title,
+      })),
+    }
+  : null;
+
+const baseSchemas = itemListSchema ? [blogSchema, itemListSchema] : blogSchema;
 const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: `${SITE.url}/` }, { label: "Blog", href: canonical }]);
-const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema);
+const pageSchema = appendBreadcrumbSchema(baseSchemas, breadcrumbSchema);
 
 const dateFormatter = new Intl.DateTimeFormat("en-US", {
   year: "numeric",
@@ -61,7 +79,7 @@ export const prerender = true;
                 <div class="aspect-[16/9] bg-ps-surface">
                   <img
                     src={post.data.image}
-                    alt={post.data.title}
+                    alt={post.data.imageAlt ?? post.data.title}
                     class="h-full w-full object-cover"
                     loading="lazy"
                     decoding="async"
