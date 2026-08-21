@@ -3,6 +3,7 @@ import { postalSystemsLocalBusinessSchema as schema } from "../../schema/localBu
 import SiteLayout from "../../layouts/SiteLayout.astro"
 import CTA from "../../components/ui/CTA.astro"
 import SectionHeader from "../../components/ui/SectionHeader.astro"
+import Hero from "../../components/ui/Hero.astro"
 import { slugify } from "../../lib/slug"
 import TrustGrid from "../../components/TrustGrid.astro"
 import ProcessStrip from "../../components/ProcessStrip.astro"
@@ -26,10 +27,15 @@ const breadcrumbSchema = buildBreadcrumbSchema([{ label: "Home", href: "https://
 const pageSchema = appendBreadcrumbSchema(schema, breadcrumbSchema)
 ---
 <SiteLayout {title} {description} {canonical} schema={pageSchema}>
+  <Hero
+    variant="light"
+    eyebrow="USPS-Approved Contractor"
+    heading="Mailbox Service Areas"
+    subtext="Postal Systems serves HOAs, apartments, builders, and commercial properties across San Diego County and select nearby markets. Choose your city to see available mailbox services."
+    primaryCta={{ href: "/contact/", label: "Get a free quote" }}
+    secondaryCta={{ href: "tel:16194614787", label: "Call (619) 461-4787", isPhone: true }}
+  />
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10">
-    <h1 class="text-2xl md:text-3xl font-semibold text-ps-navy">Mailbox Service Areas</h1>
-    <p class="mt-2 text-gray-600 max-w-prose">USPS-approved commercial mailbox installation across San Diego County, with select projects in Riverside County and Orange County.</p>
-
     <ul class="mt-8 grid md:grid-cols-3 gap-6">
       {areas.map((c) => (
         <li class="rounded-2xl border border-ps-muted bg-white p-5 shadow-ps hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(1,33,105,0.18)] transition">

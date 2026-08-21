@@ -3,6 +3,7 @@ import { postalSystemsLocalBusinessSchema as schema } from "../../../schema/loca
 import SiteLayout from "../../../layouts/SiteLayout.astro"
 import Breadcrumbs from "../../../components/Breadcrumbs.astro"
 import SectionHeader from "../../../components/ui/SectionHeader.astro"
+import Hero from "../../../components/ui/Hero.astro"
 import TrustGrid from "../../../components/TrustGrid.astro"
 import ProcessStrip from "../../../components/ProcessStrip.astro"
 import { SERVICES_DATA, AREAS_DATA } from "../../../data/content"
@@ -106,6 +107,14 @@ const pageSchema = appendBreadcrumbSchema(baseSchema, breadcrumbSchema)
 export const prerender = true
 ---
 <SiteLayout {title} description={desc} canonical={canonical} schema={pageSchema}>
+  <Hero
+    variant="light"
+    eyebrow={`Service areas · ${c.state}`}
+    heading={`Mailbox services in ${c.city}`}
+    subtext={`${desc} Choose a compliant, USPS-approved installer for HOAs, apartments, builders, and commercial sites in ${c.city}.`}
+    primaryCta={{ href: "/contact/", label: "Get a free quote" }}
+    secondaryCta={{ href: "tel:16194614787", label: "Call (619) 461-4787", isPhone: true }}
+  />
   <main class="max-w-6xl mx-auto px-4 lg:px-6 py-10 lg:py-12">
     <Breadcrumbs
       crumbs={[
@@ -114,19 +123,6 @@ export const prerender = true
         { href: canonical, label: c.city },
       ]}
     />
-
-    <section class="mt-4">
-      <p class="text-[11px] font-semibold tracking-[0.2em] uppercase text-ps-navy/70">
-        Service areas · {c.state}
-      </p>
-      <h1 class="mt-2 text-3xl md:text-4xl font-semibold tracking-tight text-ps-navy">
-        Mailbox services in {c.city}
-      </h1>
-      <p class="mt-2 text-sm md:text-base text-ps-navy/80 max-w-2xl">
-        {desc} Choose a compliant, USPS-approved installer for HOAs,
-        apartments, builders, and commercial sites in {c.city}.
-      </p>
-    </section>
 
     <section class="mt-6">
       <h2 class="text-sm font-semibold text-ps-navy">
